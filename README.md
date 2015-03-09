@@ -35,8 +35,8 @@ The 2016 web chair is Anna-Kaisa Pietilainen.
 The repository is organized as follows:
 
 * `scripts` are tools to automatically generate content.  The most significant here is `generate_programs`, which generates the program listings from Google spreadsheets, a huge time-saver.
-* `source documents` are various files used to prepare other files, but not directly published themselves.  For example, we got a list of links to paper PDFs from ACM in the form of .html files and had to process it.
-* `temporary splash page` was a minimal site we had online while developing the full web page.
+* `docs` are various files used to prepare other files, but not directly published themselves.  For example, we got a list of links to paper PDFs from ACM in the form of .html files and had to process it.
+* `temppage` a minimal site we had online while developing the full web page.
 * `web` is a snapshot of the actual site, which we would sync with the ACM web server.
 
 Within `web`:
