@@ -459,7 +459,7 @@ button[disabled],
 
 /* Customization
 -----------------------------------------------------------------------------------------------------------*/
-/* Conference logo in the header. */
+/* Conference logo in the mobile header. */
 .header img {
     height : 60px;
 }
@@ -473,13 +473,36 @@ img.sponsor {
 
 /* Content container. */
 .content {
-    max-width:1200px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
 
+/* The left side menu */
+#leftnav {    
+    float: left;
+    text-align: left;
+    width: 300px;
+    max-width: 300px;
+    margin: 30px 0px 20px 20px;
+    position: absolute;
+    left: 0;
+    clip: initial;
+}
+
+/* Conf logo in the menu. */
+#leftnav img {
+    padding: 2em;
+    display: block;
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
 .content-primary {
     padding: 0;
+    float: right;
 }
 
 .content-primary h1 {
@@ -503,11 +526,38 @@ img.sponsor {
     font-weight: inherit;
 }
 
+.datetbl p {
+    font-size:1em;
+}
+
+.datetbl .ui-grid-a .ui-block-a {
+    width: 30%
+}
+
+.datetbl .ui-grid-a .ui-block-b {
+    width: 70%;
+} 
+
+.newslibtn .ui-btn-text{
+    text-align: center;	
+}
+
+.ui-listview > li p {
+    font-size: 0.8em;
+}
+
+.ui-listview > .ui-li-divider {
+    color: #ffffff;
+    font-size: 0.9em;
+    font-weight: bold;
+    cursor: default;
+    text-shadow: 0 /*{a-bup-shadow-x}*/ 0px /*{a-bup-shadow-y}*/ 0 /*{a-bup-shadow-radius}*/ #eeeeee /*{a-bup-shadow-color}*/;
+}
 
 /* Layout rules
 -----------------------------------------------------------------------------------------------------------*/
 
-@media all and (max-width: 650px){
+@media all and (max-width: 55em) {
     .content-primary h1 {
 	font-size: 1.8em;
 	margin-top: 0em;
@@ -520,25 +570,31 @@ img.sponsor {
 	font-size: 1.2em;
 	margin-top: 1.2em;
     }
-    #left-column {
+    #leftnav {
 	margin: 0 !important;
     }
 }
 
-@media all and (min-width: 650px){
+@media all and (min-width: 55em) {
     .header {
 	display: none;
     }
+    
     .content-primary {
-	width: 62%;
+	width: 67%;
 	max-width: 800px;
 	margin-right: 1%;
 	padding-right: 1%;
     }
+
+    .ui-panel-dismiss-open.ui-panel-dismiss-position-right {
+	left: -17em;
+	right: 17em;
+    }
 }
 
 @media print {
-    #left-column {
+    #leftnav {
 	display: none;
     }
     

@@ -10,7 +10,7 @@
 <p>SIGCOMM is the flagship annual conference of the ACM Special Interest Group on Data Communication (SIGCOMM) on the applications, technologies, architectures, and protocols for computer communication.</p>
 
 <h2>News</h2>
-<ul data-role="listview" data-inset="true" data-theme="a" class="datetbl">
+<ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="datetbl">
 <?php
       include("include/news.php");
 ?>
@@ -22,7 +22,7 @@ $(".newslibtn").siblings().slice(6).hide();
 
 <h2>Important Dates</h2>
 
-<ul data-role="listview" data-inset=true data-theme="a" class="datetbl">
+<ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="datetbl">
 <?php
       include("include/dates.php");
 ?>

@@ -43,12 +43,12 @@ function add_listitem($name, $organization, $link)
 {
 	print('<li data-icon="false">');
 	if ($link) {
-		printf('<a href="%s" rel="external">', $link);
+	   printf('<a href="%s" target="_blank" rel="external">', $link);
 	}
 	printf('<div class="ui-grid-a"><div class="ui-block-a"><p>%s</p></div><div class="ui-block-b"><p>%s</p></div></div>',
 		   $name, $organization);
 	if ($link) {
-		printf('</a>');
+	   printf('</a>');
 	}
 	print('</li>');
 }
