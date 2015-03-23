@@ -1,5 +1,5 @@
 </div> <!-- content-primary -->
-<?php include ("menu.php"); ?>
+  <?php include ("menu.php"); ?>
 </div> <!-- content -->
 </div> <!-- page -->
 

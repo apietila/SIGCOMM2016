@@ -464,45 +464,57 @@ button[disabled],
     height : 60px;
 }
 
-/* Sponsor logos */
-img.sponsor {
-    width: 41%;
-    padding: 5em;
-    vertical-align: middle
-}
-
 /* Content container. */
-.content {
+.ui-content {
+    padding: 25px 0px 25px 0px;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
 
 /* The left side menu */
-#leftnav {    
+.leftnav {    
     float: left;
     text-align: left;
     width: 300px;
     max-width: 300px;
-    margin: 30px 0px 20px 20px;
+    margin: 0px 1px 20px 20px;
     position: absolute;
     left: 0;
     clip: initial;
+    background-image: none;
 }
 
 /* Conf logo in the menu. */
-#leftnav img {
-    padding: 2em;
+.leftnav img {
+    padding: 0px;
     display: block;
-    width:100%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
 }
 
-.content-primary {
-    padding: 0;
-    float: right;
+.leftnav .navlist .navselected {
+    background-color: #8CB08C;
+    color: #ffffff;
+    font-size: 0.9em;
+    font-weight: bold;
+    cursor: default;
+}
+
+.content-primary .sponsors {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom : 10px;
+}
+
+.content-primary .sponsors img {
+    width: 40%;
+    padding: 10px 20px 10px 20px;
+    vertical-align: middle
 }
 
 .content-primary h1 {
@@ -526,37 +538,35 @@ img.sponsor {
     font-weight: inherit;
 }
 
-.datetbl p {
-    font-size:1em;
-}
 
-.datetbl .ui-grid-a .ui-block-a {
+.content-primary .datetbl .ui-grid-a .ui-block-a {
     width: 30%
 }
 
-.datetbl .ui-grid-a .ui-block-b {
+.content-primary .datetbl .ui-grid-a .ui-block-b {
     width: 70%;
 } 
 
-.newslibtn .ui-btn-text{
+.content-primary .datetbl h2 {
+    margin: 1px;
+    font-size: 1em;
+    color: #000000;
+}
+
+.content-primary .datetbl p {
+    margin: 1px;
+    font-size:1em;
+    color: #000000;
+}
+
+.content-primary .newslibtn a {
     text-align: center;	
-}
-
-.ui-listview > li p {
-    font-size: 0.8em;
-}
-
-.ui-listview > .ui-li-divider {
-    color: #ffffff;
-    font-size: 0.9em;
-    font-weight: bold;
-    cursor: default;
-    text-shadow: 0 /*{a-bup-shadow-x}*/ 0px /*{a-bup-shadow-y}*/ 0 /*{a-bup-shadow-radius}*/ #eeeeee /*{a-bup-shadow-color}*/;
 }
 
 /* Layout rules
 -----------------------------------------------------------------------------------------------------------*/
 
+/* Small screens */
 @media all and (max-width: 55em) {
     .content-primary h1 {
 	font-size: 1.8em;
@@ -575,24 +585,22 @@ img.sponsor {
     }
 }
 
+/* Bigger screens */
 @media all and (min-width: 55em) {
     .header {
 	display: none;
     }
-    
-    .content-primary {
-	width: 67%;
-	max-width: 800px;
-	margin-right: 1%;
-	padding-right: 1%;
-    }
 
-    .ui-panel-dismiss-open.ui-panel-dismiss-position-right {
-	left: -17em;
-	right: 17em;
+    .content-primary {
+        float: right;
+	width: 62%;
+	max-width: 800px;
+	margin-right: 3%;
+	padding-right: 3%;
     }
 }
 
+/* Printing */
 @media print {
     #leftnav {
 	display: none;
