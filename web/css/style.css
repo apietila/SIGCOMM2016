@@ -268,7 +268,7 @@ html body .ui-group-theme-a .ui-bar-inherit {
     border-color: #dddddd /*{a-bar-border}*/;
     color: #333333 /*{a-bar-color}*/;
     text-shadow: 0 /*{a-bar-shadow-x}*/ 0px /*{a-bar-shadow-y}*/ 0 /*{a-bar-shadow-radius}*/ #eeeeee /*{a-bar-shadow-color}*/;
-    font-weight: bold;
+    /*font-weight: bold;*/
 }
 .ui-bar-a {
     border-width: 1px;
@@ -305,7 +305,7 @@ html .ui-bar-a a,
 html .ui-body-a a,
 html body .ui-group-theme-a a {
     color: #1A601A /*{a-link-color}*/;
-    font-weight: bold;
+    /*font-weight: bold; */
 }
 .ui-page-theme-a a:visited,
 html .ui-bar-a a:visited,
@@ -495,12 +495,15 @@ button[disabled],
     text-align: center;
 }
 
-.leftnav .navlist .navselected {
-    background-color: #8CB08C;
-    color: #ffffff;
-    font-size: 0.9em;
-    font-weight: bold;
+.leftnav .ui-listview .ui-btn {
+    font-size: 1em;
+    font-weight: 500;
     cursor: default;
+}
+
+.leftnav .ui-listview .navselected {
+    background-color: #8CB08C !important;
+    color: #ffffff !important;
 }
 
 .content-primary .sponsors {
@@ -513,31 +516,31 @@ button[disabled],
 
 .content-primary .sponsors img {
     width: 40%;
+    max-width: 400px;
     padding: 10px 20px 10px 20px;
     vertical-align: middle
 }
 
 .content-primary h1 {
     font-size: 2.4em;
-    margin-top: 0em;
+    margin-top: 0.5em;
     color: #1A601A;
     font-weight: inherit;
 }
 
 .content-primary h2 {
     font-size: 1.8em;
-    margin-top: 1.8em;
+    margin-top: 1em;
     color: #1A601A;
     font-weight: inherit;
 }
 
 .content-primary h3, h4 {
     font-size: 1.4em;
-    margin-top: 1.4em;
+    margin-top: 1em;
     color: #1A601A;
     font-weight: inherit;
 }
-
 
 .content-primary .datetbl .ui-grid-a .ui-block-a {
     width: 30%
@@ -547,19 +550,25 @@ button[disabled],
     width: 70%;
 } 
 
-.content-primary .datetbl h2 {
-    margin: 1px;
+.content-primary .ui-listview h2 {
+    margin: 0px;
     font-size: 1em;
-    color: #000000;
+    font-weight: 500;
 }
 
-.content-primary .datetbl p {
-    margin: 1px;
+.content-primary .ui-li-divider {
     font-size:1em;
-    color: #000000;
+    color: #ffffff;
+    font-weight: 500;
 }
 
-.content-primary .newslibtn a {
+.content-primary .ui-listview p {
+    margin: 0px;
+    font-size:0.85em;
+    font-weight: normal;
+}
+
+.content-primary .datetbl .ui-btn {
     text-align: center;	
 }
 
@@ -568,20 +577,46 @@ button[disabled],
 
 /* Small screens */
 @media all and (max-width: 55em) {
+    .ui-content {
+        margin: 5px !important;
+    }
+    
+    .content-primary {
+        float: none;
+	width: 100%;
+	max-width: 55em;
+    }
+    
     .content-primary h1 {
 	font-size: 1.8em;
 	margin-top: 0em;
     }
     .content-primary h2 {
 	font-size: 1.4em;
-	margin-top: 1.4em;
+	margin-top: 0.5em;
     }
     .content-primary h3, h4 {
 	font-size: 1.2em;
-	margin-top: 1.2em;
+	margin-top: 0.5em;
     }
-    #leftnav {
-	margin: 0 !important;
+
+    .content-primary .sponsors img {
+        width: 75%;
+        max-width: 400px;
+        padding: 10px 20px 10px 20px;
+        vertical-align: middle
+    }
+    
+    .leftnav {
+        float: none;
+        width: 100%;
+	max-width: 55em;
+        margin: 0px;
+        position: relative;
+    }
+
+    .leftnav img {
+        display: none;
     }
 }
 

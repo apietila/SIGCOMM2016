@@ -5,7 +5,7 @@
 
 <h1>Organization Committee</h1>
 
-<ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a">
+<ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="tbl">
   <li data-role="list-divider">General Chairs</li>
   <?php
      add_listitem("Jon Crowcroft", "U. of Cambridge, UK", "http://www.cl.cam.ac.uk/~jac22/");

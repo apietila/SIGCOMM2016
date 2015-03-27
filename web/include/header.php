@@ -99,7 +99,7 @@
     <div>
       <a href="index.php"><img src="images/logo.png" alt="ACM SIGCOMM 2016, Salvador, Brazil"></a>
     </div>
-    <a href="#" onclick="$.mobile.silentScroll($.mobile.activePage.find('.navselected').position().top)" class="ui-btn-right" data-icon="grid">Site Menu</a>
+    <a href="#" onclick="$.mobile.silentScroll($.mobile.activePage.find('.navselected').position().top)" class="ui-btn-right" data-icon="grid">MENU</a>
   </div>
   
   <div data-role="content" class="ui-content">
