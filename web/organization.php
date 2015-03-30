@@ -15,7 +15,7 @@
   <li data-role="list-divider">Local Arrangements Chairs</li>
   <?php
      add_listitem("Fabiola Greve", "UFBA, Brazil", "http://homes.dcc.ufba.br/~fabiola/");
-     add_listitem("Rosa Maria Meri Leão", "UFRJ, Brazil", "");
+     add_listitem("Rosa Maria Meri Le&#227;o", "UFRJ, Brazil", "http://www.cos.ufrj.br/index.php?option=com_pescstaff&Itemid=110&func=fullview&staffid=1050");
   ?>
 	
   <li data-role="list-divider">Workshop Chairs</li>
@@ -26,7 +26,7 @@
 
   <li data-role="list-divider">Poster Chairs</li>
   <?php
-     add_listitem("Marco Canini", "Université Catholique de Louvain, Belgium", "http://www.uclouvain.be/marco.canini");
+     add_listitem("Marco Canini", "Universit&#233; Catholique de Louvain, Belgium", "http://www.uclouvain.be/marco.canini");
      add_listitem("Daniel Ratton Figueiredo", "UFRJ, Brazil", "http://www.land.ufrj.br/~daniel/");
   ?>
   
