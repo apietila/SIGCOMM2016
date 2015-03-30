@@ -71,7 +71,7 @@
  
   <li data-role="list-divider">Web Chair</li>
   <?php
-     add_listitem("Anna-Kaisa Pietilainen", "Inria, France", "");
+     add_listitem("Anna-Kaisa Pietilainen", "Inria, France", "https://muse.inria.fr/~apietila/");
    ?>
     
 </ul>
