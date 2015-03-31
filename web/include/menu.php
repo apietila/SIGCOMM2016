@@ -1,6 +1,8 @@
 <div class="leftnav" role="panel" data-position="left" data-display="overlay" data-theme="a">
   <?php
      $mypage = current_pagename();
+     if ($mypage == "")
+        $mypage = "index.php";
    ?>
   <a href="index.php"><img src="images/logo.png" alt="ACM SIGCOMM 2016, August 2016, Salvador, Brazil" /></a>
   
