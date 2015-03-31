@@ -1,8 +1,7 @@
 <?php
-        $page_title="Organization Committee";
-        include("include/header.php");
+    $page_title="Organization Committee";
+    include("include/header.php");
 ?>
-
 <h1>Organization Committee</h1>
 
 <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="tbl">
@@ -32,7 +31,7 @@
   
   <li data-role="list-divider">Demo Chairs</li>
   <?php
-     add_listitem("Pan Hui", "The Hong Kong U. of Science and Technology David R. Choffnes", "https://www.cse.ust.hk/~panhui/");
+     add_listitem("Pan Hui", "Hong Kong U. of Science and Technology, Hong Kong", "https://www.cse.ust.hk/~panhui/");
      add_listitem("Christian E Rothenberg", "UNICAMP, Brazil", "http://www.dca.fee.unicamp.br/~chesteve/");
   ?>
 	
@@ -44,7 +43,7 @@
   <li data-role="list-divider">Publicity Chairs</li>
   <?php
      add_listitem("Hamed Haddadi", "Queen Mary U. of London, UK", "http://www.eecs.qmul.ac.uk/~hamed/");
-     add_listitem("Ronaldo Ferreira", "UFMS (currently at Princeton, USA), Brazil", "http://www.dct.ufms.br/~raf/");
+     add_listitem("Ronaldo Ferreira", "UFMS, Brazil (currently at Princeton, USA)", "http://www.dct.ufms.br/~raf/");
    ?>
 
   <li data-role="list-divider">Publication Chair</li>
@@ -76,6 +75,4 @@
     
 </ul>
 
-<?php
-    include ("include/footer.php");
-?>
+<?php include ("include/footer.php"); ?>

@@ -74,8 +74,8 @@
 
     <script>
       $(document).bind("mobileinit", function(){
-      // apply jquerymobile global overrides here
-      $.mobile.listview.prototype.options.filterPlaceholder = "Filter program...";
+        // apply jquerymobile global overrides here
+        $.mobile.listview.prototype.options.filterPlaceholder = "Filter program...";
       });
     </script>
 
@@ -97,9 +97,9 @@
 
   <div class="header" data-role="header" data-theme="a" data-position="inline">
     <div>
-      <a href="index.php"><img src="images/logo.png" alt="ACM SIGCOMM 2016, Salvador, Brazil"></a>
+    <a href="index.php"><img src="images/logo.png" alt="ACM SIGCOMM 2016, Salvador, Brazil"></a>
     </div>
-    <a href="#" onclick="$.mobile.silentScroll($.mobile.activePage.find('.navselected').position().top)" class="ui-btn-right" data-icon="grid">MENU</a>
+    <a href="#" onclick="$.mobile.silentScroll($.mobile.activePage.find('.leftnav').position().top)" class="ui-btn-right" data-corners="true" data-icon="grid">MENU</a>
   </div>
   
   <div data-role="content" class="ui-content">
