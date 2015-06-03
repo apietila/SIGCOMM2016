@@ -15,10 +15,11 @@ Salvador, the capital of the Northeastern Brazilian state of Bahia, is also know
  Salvador's International Airport provides flights to North America and Europe, directly to Miami, Lisbon, Madrid, Santiago do Chile, and Frankfurt. The airport is located approximately 25km away from the city centre, or around 30-40 minutes. An array of flights to all continents are available from the airports Guarulhos (2h flight, 23-a-day) and Galeao (1h55 flight, 14-a-day). 
 </p>
 
-<h2>Venue - To be Announced</h2>
+<h2>Venue - Bahia Othon Palace</h2>
 
 <p>
-Salvador has a range of hotels able to host SIGCOMM, including Bahia Othon Palace (by the sea and close to town and major attractions), Gran Hotel Stella Maris (urban resort, by the sea and close to the airport), and Fiesta Bahia Hotel (good support for large conventions). All three have conference rooms, of sufficient size, plus side-venues, and provide good quality accommodations for rates between U$80 and U$160.
+The conference will be hosted at the <a href="http://www.othon.com.br/en/hoteis/hotel-em-salvador/bahia-othon-palace#o-hotel">Bahia Othon Palace</a> hotel 
+which is located by the sea and close to town and major attractions.
 </p>
 
 <?php include ("include/footer.php"); ?>

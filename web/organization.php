@@ -49,6 +49,7 @@
   <li data-role="list-divider">Publication Chair</li>
   <?php
      add_listitem("Matteo Varvello", "Telefonica, Spain", "http://www.tid.es/research/researchers/matteo-varvello");
+     add_listitem("Aakanksha Chowdhery", "Microsoft Research, USA", "http://research.microsoft.com/en-us/um/people/ac/");
    ?>
 
   <li data-role="list-divider">Registration Chair</li>
