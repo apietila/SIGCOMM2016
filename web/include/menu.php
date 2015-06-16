@@ -10,11 +10,17 @@
     <li <?php if ($mypage=="index.php") echo('class="navselected"') ?> data-icon="false">
       <a href="index.php">Home</a>
     </li>
+    <li <?php if ($mypage=="cft.php") echo('class="navselected"') ?>data-icon="false">
+      <a href="cft.php">Call for Tutorials</a>
+    </li>
     <li <?php if ($mypage=="local.php") echo('class="navselected"') ?> data-icon="false">
       <a href="local.php">Local Information</a>
     </li>
     <li <?php if ($mypage=="organization.php") echo('class="navselected"') ?>data-icon="false">
       <a href="organization.php">Organization Committee</a>
+    </li>
+    <li <?php if ($mypage=="policies.php") echo('class="navselected"') ?> data-icon="false">
+      <a href="policies.php">Policies</a>
     </li>
   </ul>  
 </div>

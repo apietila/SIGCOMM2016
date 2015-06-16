@@ -602,6 +602,13 @@ button[disabled],
     white-space: normal;
 }
 
+.dl-button {
+    width : 55%;
+    margin-top: 2.5em;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
 /* Layout rules
 -----------------------------------------------------------------------------------------------------------*/
 
