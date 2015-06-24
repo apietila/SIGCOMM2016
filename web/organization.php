@@ -72,7 +72,12 @@
   <li data-role="list-divider">Web Chair</li>
   <?php
      add_listitem("Anna-Kaisa Pietilainen", "Inria, France", "https://muse.inria.fr/~apietila/");
-   ?>
+  ?>
+
+  <li data-role="list-divider">Conference Coordinator</li>
+  <?php
+     add_listitem("Yashar Ganjali", "U. of Toronto, Canada", "http://www.cs.toronto.edu/~yganjali/");
+  ?>
     
 </ul>
 

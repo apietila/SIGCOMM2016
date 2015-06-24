@@ -10,6 +10,9 @@
     <li <?php if ($mypage=="index.php") echo('class="navselected"') ?> data-icon="false">
       <a href="index.php">Home</a>
     </li>
+    <li <?php if ($mypage=="pc.php") echo('class="navselected"') ?>data-icon="false">
+      <a href="pc.php">Program Committee</a>
+    </li>
     <li <?php if ($mypage=="cft.php") echo('class="navselected"') ?>data-icon="false">
       <a href="cft.php">Call for Tutorials</a>
     </li>
