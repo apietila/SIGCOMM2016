@@ -83,8 +83,8 @@
     <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile.min.js"></script>
     <script>$.mobile || document.write('<script src="js/jquery.mobile-1.4.5.min.js"><\/script>')</script>
 
-      <script src="js/jqm-docs.js"></script>
-      <!--<script src="js/script.js"></script>-->
+    <script src="js/jqm-docs.js"></script>
+    <script src="js/script.js"></script>
 </head>
 
 <body>
