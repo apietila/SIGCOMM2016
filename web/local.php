@@ -11,11 +11,12 @@
 <img src="images/venue2.jpg" class="img"></img>
 
 <p>
-SIGCOMM 2016 conference will be hosted at the <a target="_blank" href="http://www.othon.com.br/en/hoteis/hotel-em-salvador/bahia-othon-palace#o-hotel">Bahia Othon Palace</a> hotel.
-The irresistible charm of Bahia Othon Palace begins with its location: the top of a cliff, facing the turquoise waters of Ondina Beach in Salvador.
+SIGCOMM 2016 conference will be hosted at the 
+<a target="_blank" href="http://www.othon.com.br/en/hoteis/hotel-em-salvador/bahia-othon-palace#o-hotel">Bahia Othon Palace</a>: 
+<i>"The irresistible charm of Bahia Othon Palace begins with its location: the top of a cliff, facing the turquoise waters of Ondina Beach in Salvador.
 And it was this breathtaking view that the architects Paulo Cas&#233; and Luis Accioly, responsible for the project, decided would be enjoyed by all guests, 
 making all the windows opened to the only ocean of Salvador. Perfectly integrated with nature, with colonial arches, the hotel offers 
-the utmost sophistication and comfort.
+the utmost sophistication and comfort."</i>.
 </p>
 
 <h2>Salvador, Brazil</h2>
