@@ -56,13 +56,16 @@
   <link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
   <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
   <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+
   <link rel="shortcut icon" type='image/ico' href="/favicon.ico">
   
+  <!--
   <link rel="manifest" href="/manifest.json">
   <meta name="msapplication-TileColor" content="#00a300">
   <meta name="msapplication-TileImage" content="/mstile-144x144.png">
   <meta name="theme-color" content="#ffffff">
-        
+  -->
+
   <link rel="stylesheet" href="css/jquery.mobile-1.4.5.css" />
   <link rel="stylesheet" href="css/style.css" />
 
