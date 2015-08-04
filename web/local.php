@@ -11,7 +11,7 @@
 <img src="images/venue2.jpg" class="img"></img>
 
 <p>
-SIGCOMM 2016 conference will be hosted at the <a href="http://www.othon.com.br/en/hoteis/hotel-em-salvador/bahia-othon-palace#o-hotel">Bahia Othon Palace</a> hotel.
+SIGCOMM 2016 conference will be hosted at the <a target="_blank" href="http://www.othon.com.br/en/hoteis/hotel-em-salvador/bahia-othon-palace#o-hotel">Bahia Othon Palace</a> hotel.
 The irresistible charm of Bahia Othon Palace begins with its location: the top of a cliff, facing the turquoise waters of Ondina Beach in Salvador.
 And it was this breathtaking view that the architects Paulo Cas&#233; and Luis Accioly, responsible for the project, decided would be enjoyed by all guests, 
 making all the windows opened to the only ocean of Salvador. Perfectly integrated with nature, with colonial arches, the hotel offers 
@@ -36,8 +36,8 @@ UNESCO in 1985. Salvador is located on a small, roughly triangular peninsula tha
 Salvador is home of the Arena Fonte Nova, the city's stadium in the 2013 FIFA Confederations Cup and World Cup 2014.
 </p>
 
-<img src="images/Pelourinho_Salvador.jpg" class="img" caption="Source: http://wikitravel.org/shared/File:Pelourinho_Salvador.jpg"></img>
-<img src="images/Salvador_Brazil.jpg" class="img" caption="Source: http://wikitravel.org/shared/File:Salvador_Brazil.jpg"></img>
+<img src="images/Pelourinho_Salvador.jpg" class="img" alt="Image: http://wikitravel.org/shared/File:Pelourinho_Salvador.jpg"></img>
+<img src="images/Salvador_Brazil.jpg" class="img" alt="Image: http://wikitravel.org/shared/File:Salvador_Brazil.jpg"></img>
 
 
 <?php include ("include/footer.php"); ?>
