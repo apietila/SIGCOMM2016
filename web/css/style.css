@@ -406,9 +406,9 @@ html .ui-body-a .ui-focus,
 html body .ui-group-theme-a .ui-focus,
 html head + body .ui-btn-a.ui-focus,
 html head + body .ui-body-a.ui-focus {
-    -webkit-box-shadow: 0 0 12px #4e964e /*{a-active-background-color}*/;
-    -moz-box-shadow: 0 0 12px #4e964e /*{a-active-background-color}*/;
-    box-shadow: 0 0 12px #4e964e /*{a-active-background-color}*/;
+    -webkit-box-shadow: 0 0 6px #4e964e inset /*{a-active-background-color}*/;
+    -moz-box-shadow: 0 0 6px #4e964e inset /*{a-active-background-color}*/;
+    box-shadow: 0 0 6px #4e964e inset /*{a-active-background-color}*/;
 }
 /* Structure */
 /* Disabled
@@ -498,7 +498,28 @@ button[disabled],
     text-align: center;
 }
 
+.leftnav .navgroup {
+    padding: 0px;
+    margin: 0px;
+    border-radius: 0px;    
+}
+
+.leftnav .subnav a {
+    padding-left: 30px;
+}
+
+.leftnav .ui-listview h4 {
+    font-size: 1em;
+    font-weight: 700;
+}
+
 .leftnav .ui-listview .ui-btn {
+    font-size: 1em;
+    font-weight: 700;
+    cursor: default;
+}
+
+.leftnav .ui-listview .subnav .ui-btn {
     font-size: 1em;
     font-weight: 500;
     cursor: default;
@@ -525,10 +546,22 @@ button[disabled],
     margin-bottom : 10px;
 }
 
+.content-primary .center {
+    margin-left: auto;
+    margin-right: auto;    
+    text-align: center;
+}
+
 .content-primary .sponsors img {
     width: 40%;
     max-width: 400px;
     padding: 10px 20px 10px 20px;
+    vertical-align: middle
+}
+
+.content-primary .img {
+    width: 300px;
+    padding: 5px 10px 5px 10px;
     vertical-align: middle
 }
 
@@ -609,6 +642,12 @@ button[disabled],
     margin-right: auto;    
 }
 
+video {  
+   width: 95%; 
+   max-width: 640px; 
+   height: auto; 
+}
+
 /* Layout rules
 -----------------------------------------------------------------------------------------------------------*/
 
@@ -641,8 +680,15 @@ button[disabled],
    .content-primary .sponsors img {
         width: 75%;
         max-width: 300px;
-        padding: 10px 20px 10px 20px;
+        padding: 5px 10px 5px 10px;
         vertical-align: middle;
+    }
+
+    .content-primary .img {
+        width: 85%;
+        max-width: 300px;
+        padding: 5px 10px 5px 10px;
+        vertical-align: middle
     }
 
     .leftnav {
