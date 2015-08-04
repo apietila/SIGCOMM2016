@@ -643,9 +643,21 @@ button[disabled],
 }
 
 video {  
-   width: 95%; 
-   max-width: 640px; 
-   height: auto; 
+    width: 95%; 
+    max-width: 640px; 
+    height: auto; 
+}
+
+.socialbuttons {
+    background-color: #F6F6F6;
+    border-color: #BBB;
+    border-style: solid;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    padding-top: .65em;
+    padding-bottom: .5em;
 }
 
 /* Layout rules

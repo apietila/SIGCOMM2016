@@ -42,4 +42,9 @@
     </li>
 
   </ul>  
+
+  <div class="border ui-corner-all ui-shadow socialbuttons">
+    <iframe src="include/socialbtn.php" scrolling="no" height="21" width="100%" frameborder="0" marginheight="0" marginwidth="0"></iframe>
+  </div>
+
 </div>
