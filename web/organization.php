@@ -7,8 +7,8 @@
 <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="tbl">
   <li data-role="list-divider">General Chairs</li>
   <?php
-     add_listitem("Jon Crowcroft", "U. of Cambridge, UK", "http://www.cl.cam.ac.uk/~jac22/");
      add_listitem("Marinho P Barcellos", "UFRGS, Brazil", "http://www.inf.ufrgs.br/~marinho/");
+     add_listitem("Jon Crowcroft", "U. of Cambridge, UK", "http://www.cl.cam.ac.uk/~jac22/");
   ?>
 	
   <li data-role="list-divider">Local Arrangements Chairs</li>
@@ -19,8 +19,8 @@
 	
   <li data-role="list-divider">Workshop Chairs</li>
   <?php
-     add_listitem("Lars Eggert", "Netapp", "https://eggert.org/");
      add_listitem("Jussara Almeida"," UFMG, Brazil", "http://homepages.dcc.ufmg.br/~jussara/");
+     add_listitem("Lars Eggert", "Netapp", "https://eggert.org/");
    ?>
 
   <li data-role="list-divider">Poster Chairs</li>
@@ -42,14 +42,14 @@
 
   <li data-role="list-divider">Publicity Chairs</li>
   <?php
-     add_listitem("Hamed Haddadi", "Queen Mary U. of London, UK", "http://www.eecs.qmul.ac.uk/~hamed/");
      add_listitem("Ronaldo Ferreira", "UFMS, Brazil (currently at Princeton, USA)", "http://www.dct.ufms.br/~raf/");
+     add_listitem("Hamed Haddadi", "Queen Mary U. of London, UK", "http://www.eecs.qmul.ac.uk/~hamed/");
    ?>
 
   <li data-role="list-divider">Publication Chair</li>
-  <?php
-     add_listitem("Matteo Varvello", "Telefonica, Spain", "http://www.tid.es/research/researchers/matteo-varvello");
+   <?php
      add_listitem("Aakanksha Chowdhery", "Microsoft Research, USA", "http://research.microsoft.com/en-us/um/people/ac/");
+     add_listitem("Matteo Varvello", "Telefonica, Spain", "http://www.tid.es/research/researchers/matteo-varvello");
    ?>
 
   <li data-role="list-divider">Registration Chair</li>
@@ -60,8 +60,8 @@
   <li data-role="list-divider">Travel Grant Chairs</li>
   <?php
      add_listitem("Phillipa Gill", "Stony Brook University, USA", "http://www3.cs.stonybrook.edu/~phillipa/");
-     add_listitem("Andrew Moore", "U. of Cambridge , UK", "http://www.cl.cam.ac.uk/~awm22/");
      add_listitem("Sue Moon", "KAIST , Korea", "http://an.kaist.ac.kr/~sbmoon/");
+     add_listitem("Costin Raiciu", "University Politehnica of Bucharest, Romania", "http://nets.cs.pub.ro/~costin/")
   ?>
 
   <li data-role="list-divider">Treasurer</li>
