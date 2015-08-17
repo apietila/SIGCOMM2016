@@ -504,7 +504,7 @@ button[disabled],
     border-radius: 0px;    
 }
 
-.notlast {
+.listlast {
     border-radius: 0px 0px 0.6em 0.6em !important;
 }
 
