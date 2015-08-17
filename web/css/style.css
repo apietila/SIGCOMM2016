@@ -504,6 +504,14 @@ button[disabled],
     border-radius: 0px;    
 }
 
+.notlast {
+    border-radius: 0px 0px 0.6em 0.6em !important;
+}
+
+.notlast {
+    border-radius: 0px !important;    
+}
+
 .leftnav .subnav a {
     padding-left: 30px;
 }

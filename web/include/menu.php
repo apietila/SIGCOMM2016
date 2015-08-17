@@ -16,7 +16,11 @@
       <a href="pc.php">Program Committee</a>
     </li>
 
-    <li <?php if ($mypage=="cft.php") echo('class="navselected"') ?>data-icon="false">
+    <li <?php if ($mypage=="cfp.php") echo('class="navselected"') ?>data-icon="false">
+      <a href="cfp.php">Call for Papers</a>
+    </li>
+
+    <li class="notlast <?php if ($mypage=="cft.php") echo('navselected') ?>" data-icon="false">
       <a href="cft.php">Call for Tutorials</a>
     </li>
 
@@ -33,13 +37,19 @@
       </ul>
     </div>
 
-    <li <?php if ($mypage=="organization.php") echo('class="navselected"') ?>data-icon="false">
-      <a href="organization.php">Organization Committee</a>
-    </li>
+    <div data-role="collapsible" data-theme="a" data-content-theme="a" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u" data-iconpos="right"
+         <?php if ($mypage=="organization.php" || $mypage=="policies.php") echo('data-collapsed="false"') ?> class="navgroup listlast">
+      <h4>Organization</h4>
+      <ul data-role="listview" data-inset="false">
+        <li class="subnav <?php if ($mypage=="organization.php") echo('navselected') ?>" data-icon="false">
+          <a href="organization.php">Organization Committee</a>
+        </li>
 
-    <li <?php if ($mypage=="policies.php") echo('class="navselected"') ?> data-icon="false">
-      <a href="policies.php">Policies</a>
-    </li>
+        <li class="subnav <?php if ($mypage=="policies.php") echo('navselected') ?>" data-icon="false">
+          <a href="policies.php">Policies</a>
+        </li>
+      </ul>
+    </div>
 
   </ul>  
 
