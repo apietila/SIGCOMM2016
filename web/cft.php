@@ -37,9 +37,12 @@
 <p>
 	Important notes:
 	<ul>
-		<li>It is recommended that there are up to three speakers for a full-day tutorial and up to two speakers for a half-day tutorial. Tutorial speakers are expected to hold a PhD degree in computer science or a related area. Exceptions will need to get approval from the tutorial co-chairs.</li>
+		<li>It is recommended that there are up to three speakers for a full-day tutorial and up to two speakers for a half-day tutorial. 
+			Tutorial speakers are expected to hold a PhD degree in computer science or a related area. Exceptions will need to get 
+			approval from the tutorial co-chair.</li>
 		<li>Tutorials will likely be held in parallel with the workshops, i.e., Monday and/or Friday of the SIGCOMM week.</li>
-		<li>Upon acceptance of a tutorial proposal, either the tutorial co-chairs or the tutorial speakers can request a cancelation of the tutorial if there is clear evidence indicating low attendance of the tutorial by the early registration deadline.</li>
+		<li>Upon acceptance of a tutorial proposal, either the tutorial co-chair or the tutorial speakers can request a cancelation 
+			of the tutorial if there is clear evidence indicating low attendance of the tutorial by the early registration deadline.</li>
 	</ul>
 </p>
 

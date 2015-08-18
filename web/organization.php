@@ -20,7 +20,7 @@
   <li data-role="list-divider">Workshop Chairs</li>
   <?php
      add_listitem("Jussara Almeida"," UFMG, Brazil", "http://homepages.dcc.ufmg.br/~jussara/");
-     add_listitem("Lars Eggert", "Netapp", "https://eggert.org/");
+     add_listitem("Lars Eggert", "Netapp, Germany", "https://eggert.org/");
    ?>
 
   <li data-role="list-divider">Poster Chairs</li>
@@ -35,18 +35,18 @@
      add_listitem("Christian E Rothenberg", "UNICAMP, Brazil", "http://www.dca.fee.unicamp.br/~chesteve/");
   ?>
 	
-  <li data-role="list-divider">Tutorial Chairs</li>
+  <li data-role="list-divider">Tutorial Chair</li>
   <?php
      add_listitem("Raj Jain", "Washington University in St. Louis, USA", "http://www.cse.wustl.edu/~jain/");
    ?>
 
   <li data-role="list-divider">Publicity Chairs</li>
   <?php
-     add_listitem("Ronaldo Ferreira", "UFMS, Brazil (currently at Princeton, USA)", "http://www.dct.ufms.br/~raf/");
+     add_listitem("Ronaldo A Ferreira", "UFMS, Brazil", "http://www.dct.ufms.br/~raf/");
      add_listitem("Hamed Haddadi", "Queen Mary U. of London, UK", "http://www.eecs.qmul.ac.uk/~hamed/");
    ?>
 
-  <li data-role="list-divider">Publication Chair</li>
+  <li data-role="list-divider">Publication Chairs</li>
    <?php
      add_listitem("Aakanksha Chowdhery", "Microsoft Research, USA", "http://research.microsoft.com/en-us/um/people/ac/");
      add_listitem("Matteo Varvello", "Telefonica, Spain", "http://www.tid.es/research/researchers/matteo-varvello");
