@@ -13,8 +13,8 @@
 	
   <li data-role="list-divider">Local Arrangements Chairs</li>
   <?php
-     add_listitem("Fabiola Greve", "UFBA, Brazil", "http://homes.dcc.ufba.br/~fabiola/");
-     add_listitem("Rosa Maria Meri Le&#227;o", "UFRJ, Brazil", "http://www.cos.ufrj.br/index.php?option=com_pescstaff&Itemid=110&func=fullview&staffid=1050");
+     add_listitem("Fab&#237;ola Greve", "UFBA, Brazil", "http://homes.dcc.ufba.br/~fabiola/");
+     add_listitem("Rosa M Le&#227;o", "UFRJ, Brazil", "http://www.cos.ufrj.br/index.php/en/corpo-docente-informacoes/details/23/1050");
   ?>
 	
   <li data-role="list-divider">Workshop Chairs</li>
@@ -26,7 +26,7 @@
   <li data-role="list-divider">Poster Chairs</li>
   <?php
      add_listitem("Marco Canini", "Universit&#233; Catholique de Louvain, Belgium", "http://www.uclouvain.be/marco.canini");
-     add_listitem("Daniel Ratton Figueiredo", "UFRJ, Brazil", "http://www.land.ufrj.br/~daniel/");
+     add_listitem("Daniel R Figueiredo", "UFRJ, Brazil", "http://www.land.ufrj.br/~daniel/");
   ?>
   
   <li data-role="list-divider">Demo Chairs</li>
@@ -60,6 +60,7 @@
   <li data-role="list-divider">Travel Grant Chairs</li>
   <?php
      add_listitem("Phillipa Gill", "Stony Brook University, USA", "http://www3.cs.stonybrook.edu/~phillipa/");
+     add_listitem("Lisandro Z Granville", "UFRGS, Brazil", "http://www.inf.ufrgs.br/~granville/");
      add_listitem("Sue Moon", "KAIST , Korea", "http://an.kaist.ac.kr/~sbmoon/");
      add_listitem("Costin Raiciu", "University Politehnica of Bucharest, Romania", "http://nets.cs.pub.ro/~costin/")
   ?>
@@ -71,6 +72,7 @@
  
   <li data-role="list-divider">Web Chair</li>
   <?php
+     add_listitem("Weverton Cordeiro", "UFRGS, Brazil", "http://www.inf.ufrgs.br/~wlccordeiro/");
      add_listitem("Anna-Kaisa Pietilainen", "Inria, France", "https://muse.inria.fr/~apietila/");
   ?>
 
