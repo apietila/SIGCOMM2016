@@ -70,7 +70,7 @@
      add_listitem("Christophe Diot", "Technicolor, France", "http://www.technicolor.com/en/christophe-diot");
   ?>
  
-  <li data-role="list-divider">Web Chair</li>
+  <li data-role="list-divider">Web Chairs</li>
   <?php
      add_listitem("Weverton Cordeiro", "UFRGS, Brazil", "http://www.inf.ufrgs.br/~wlccordeiro/");
      add_listitem("Anna-Kaisa Pietilainen", "Inria, France", "https://muse.inria.fr/~apietila/");

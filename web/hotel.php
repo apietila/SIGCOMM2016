@@ -9,7 +9,7 @@
 
 <p>
 The main conference venue is <a target="_blank" href="http://www.othon.com.br/en/hoteis/hotel-em-salvador/bahia-othon-palace#o-hotel">Bahia Othon Palace</a> hotel.
-More information about room reservation and alternative hotels coming up later.
+More information about room reservation and nearby hotels coming up later.
 </p>
 
 <h2>Travel</h2>
@@ -19,7 +19,7 @@ More information about room reservation and alternative hotels coming up later.
 <p>
 <a target="_blank" href="http://www.aeroportosalvador.net/en/">The Salvador's Deputado Luis Eduardo Magalh&#227;es International Airport</a> (IATA: SSA, ICAO: SBSV) 
 is one of Brazil's main airports. All of the biggest Brazilian airlines have flights to the Bahian capital city. The city also receives flights 
-from the main hubs of Europe, South America and the United States. Scheduled Airlines:
+from the main hubs of Europe, South America, and the United States. Scheduled Airlines:
 <ul>
     <li>TAM (Domestic flights)</li>
     <li>Gol (Domestic flights and Buenos Aires)</li>
@@ -30,7 +30,7 @@ from the main hubs of Europe, South America and the United States. Scheduled Air
     <li>American Airlines (Miami)</li>
     <li>Condor (Frankfurt)</li>
     <li>Aerolineas Argentinas (Buenos Aires)</li>
-    <li>Air Europa(Madrid)</li>
+    <li>Air Europa (Madrid)</li>
 </ul>
 </p>
 
