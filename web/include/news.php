@@ -1,4 +1,5 @@
 <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="datetbl">
+  <?php add_dateitem("September 1, 2015", 'Call for workshop proposals online.') ?>
   <?php add_dateitem("August 17, 2015", 'Call for papers online.') ?>
   <?php add_dateitem("June 24, 2015", 'Amin Vahdat and Sachin Katti are the TPC co-chairs of SIGCOMM 2016.') ?>
   <?php add_dateitem("June 16, 2015", 'Call for tutorials online.') ?>
@@ -8,5 +9,5 @@
 </ul>
 
 <script>
-  $(".newslibtn").siblings().slice(6).hide();
+  $(".newslibtn").siblings().slice(5).hide();
 </script>
