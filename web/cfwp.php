@@ -29,14 +29,24 @@
 </p>
 
 <p>
-	If you have questions about your workshop proposal, please contact workshopchairs16@sigcomm.org.  Also, email proposals in PDF to workshopchairs16@sigcomm.org by the deadline (see below).
+    The workshop organizers should also take into account the following practical considerations:
+    <ul>
+        <li>The room capacity is approximately 100 attendees.</li>
+        <li>A/V (projector and screen) will be provided in all workshop rooms, which may also be equipped with microphone and speakers.</li>
+        <li>There will be Wi-Fi coverage in all areas of the conference, including the workshop rooms. Any specific networking requirements should be stated in the proposal.</li>
+        <li>We will require all workshops to have identical start, end and break times.</li>
+    </ul> 
+</p>
+
+<p>
+	If you have questions about your workshop proposal, please contact workshopchairs16@sigcomm.org. Also, email proposals in PDF to workshopchairs16@sigcomm.org by the deadline (see below).
 </p>
 
 <h2>Important Workshop Dates (preliminary)</h2>
 
 <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="datetbl">
-    <?php add_dateitem("November 23, 2015", "Workshop Call for Papers due"); ?>
-    <?php add_dateitem("December 4, 2015", "Notification of acceptance"); ?>
+    <?php add_dateitem("November 23, 2015", "Workshop proposals due"); ?>
+    <?php add_dateitem("December 4, 2015", "Announcement of workshops selected"); ?>
     <?php add_dateitem("December 22, 2015", "Workshop Call for Papers due"); ?>
 </ul>
 
