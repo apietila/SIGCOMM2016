@@ -21,12 +21,7 @@ the utmost sophistication and comfort."</i>.
 
 <h2>Salvador, Brazil</h2>
 
-<video controls>
-  <source src="images/city.mp4" type="video/mp4">
-  <source src="images/city.webm" type="video/web">
-  <source src="images/city.ogv" type="video/ogv">
-	Your browser does not support the video tag.
-</video> 
+<iframe width="100%" height="480" src="https://www.youtube.com/embed/kqESu3RqX5Y" frameborder="0" allowfullscreen></iframe>
 
 <p>
 Salvador, the capital of the Northeastern Brazilian state of Bahia, is also known as Brazil's "Capital of Joy". Its first colonial capital, the city 
