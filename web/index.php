@@ -24,4 +24,18 @@
 	<a href="//www.sigcomm.org/"><img src="images/sig.png" alt="ACM SIGCOMM" /></a>
 </div>
 
+<h2>Industrial Supporters</h2>
+
+<h3>Gold</h3>
+
+<div class="sponsors">
+	<a href="//www.huawei.com/"><img src="images/sponsors/huawei.png" alt="Huawei" style="width: 140px;"/></a>
+</div>
+
+<h3>Bronze</h3>
+
+<div class="sponsors">
+	<a href="//www.hp.com/"><img src="images/sponsors/hp.png" alt="Hewlett-Packard" style="width: 75px;"/></a>
+</div>
+
 <?php include ("include/footer.php"); ?>
