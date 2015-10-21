@@ -23,8 +23,15 @@
 	<a href="//www.acm.org/"><img src="images/acm.png" alt="Association for Computing Machinery" /></a>
 	<a href="//www.sigcomm.org/"><img src="images/sig.png" alt="ACM SIGCOMM" /></a>
 </div>
+<br/>
 
 <h2>Industrial Supporters</h2>
+
+<h3>Platinum</h3>
+
+<div class="sponsors">
+        <a href="//www.cisco.com/"><img src="images/sponsors/cisco.png" alt="Cisco" style="width: 130px;"/></a>
+</div>
 
 <h3>Gold</h3>
 
