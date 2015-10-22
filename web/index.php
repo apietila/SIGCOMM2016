@@ -43,6 +43,7 @@
 
 <div class="sponsors">
 	<a href="//www.hp.com/"><img src="images/sponsors/hp.png" alt="Hewlett-Packard" style="width: 75px;"/></a>
+	<a href="//www.telefonica.com/"><img src="images/sponsors/telefonica.png" alt="Telefonica" style="width: 100px;"/></a>
 </div>
 
 <?php include ("include/footer.php"); ?>
