@@ -30,20 +30,27 @@
 <h3>Platinum</h3>
 
 <div class="sponsors">
-        <a href="//www.cisco.com/"><img src="images/sponsors/cisco.png" alt="Cisco" style="width: 130px;"/></a>
+        <a href="//www.cisco.com/"><img src="images/sponsors/cisco.png" alt="Cisco" style="width: 210px;"/></a>
 </div>
 
 <h3>Gold</h3>
 
 <div class="sponsors">
-	<a href="//www.huawei.com/"><img src="images/sponsors/huawei.png" alt="Huawei" style="width: 140px;"/></a>
+	<a href="//www.huawei.com/"><img src="images/sponsors/huawei.png" alt="Huawei" style="width: 130px;"/></a>
 </div>
+
+<?php // <h3>Silver</h3>
+// 
+// <div class="sponsors">
+// 	<a href="//www.hp.com/"><img src="images/sponsors/hp.png" alt="Huawei" style="width: 100px;"/></a>
+// </div>
+?>
 
 <h3>Bronze</h3>
 
 <div class="sponsors">
-	<a href="//www.hp.com/"><img src="images/sponsors/hp.png" alt="Hewlett-Packard" style="width: 75px;"/></a>
-	<a href="//www.telefonica.com/"><img src="images/sponsors/telefonica.png" alt="Telefonica" style="width: 100px;"/></a>
+	<a href="//www.hp.com/"><img src="images/sponsors/hp.png" alt="Hewlett-Packard" style="width: 80px;"/></a>
+	<a href="//www.tid.es/"><img src="images/sponsors/telefonica.png" alt="Telef&oacute;nica" style="width: 120px;"/></a>
 </div>
 
 <?php include ("include/footer.php"); ?>
