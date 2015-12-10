@@ -20,13 +20,22 @@
       <a href="cfp.php">Call for Papers</a>
     </li>
 
-    <li class="<?php if ($mypage=="cft.php") echo('navselected') ?>" data-icon="false">
+    <li class="notlast <?php if ($mypage=="cft.php") echo('navselected') ?>" data-icon="false">
       <a href="cft.php">Call for Tutorials</a>
     </li>
 
-    <li class="notlast <?php if ($mypage=="cfwp.php") echo('navselected') ?>" data-icon="false">
-      <a href="cfwp.php">Call for Workshops</a>
-    </li>
+    <div data-role="collapsible" data-theme="a" data-content-theme="a" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u" data-iconpos="right"
+         <?php if ($mypage=="workshops.php" || $mypage=="cfwp.php") echo('data-collapsed="false"') ?> class="navgroup">
+      <h4>Workshops</h4>
+      <ul data-role="listview" data-inset="false">
+        <li class="subnav <?php if ($mypage=="cfwp.php") echo('navselected') ?>" data-icon="false">
+          <a href="cfwp.php">Call for Workshops</a>
+        </li>
+        <li class="subnav <?php if ($mypage=="workshops.php") echo('navselected') ?>" data-icon="false">
+          <a href="workshops.php">Accepted Proposals</a>
+        </li>
+      </ul>
+    </div>
 
     <div data-role="collapsible" data-theme="a" data-content-theme="a" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u" data-iconpos="right"
          <?php if ($mypage=="local.php" || $mypage=="hotel.php") echo('data-collapsed="false"') ?> class="navgroup">
