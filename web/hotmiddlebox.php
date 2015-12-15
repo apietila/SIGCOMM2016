@@ -7,23 +7,11 @@
 
 <p>Co-located with ACM SIGCOMM'16, August 22-26, 2016, Salvador, Brazil.</p>
 
-<h2>Important Dates</h2>
-
-<ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="datetbl">
-    <?php // add_dateitem("December 21, 2015", "Call for papers published"); // publish once we get the pdf file ?>
-    <?php add_dateitem("March 11, 2016", "Paper titles and abstracts due"); ?>
-    <?php add_dateitem("March 18, 2016", "Complete paper submissions due"); ?>
-    <?php add_dateitem("April 30, 2016", "Notification to authors"); ?>
-    <?php add_dateitem("May 15, 2016", "Final papers due"); ?>
-    <?php // add_dateitem("June, 2016", "Workshop program online"); ?>
-    <?php // add_dateitem("August, 2016", "Workshop day"); ?>
-</ul>
-
 <!-- <h2>Technical Program</h2> -->
 
 <!-- <?php include("include/program/todo.php"); ?> -->
 
-<h2 id="cfp">Call for Papers</h2>
+<h2>Description</h2>
 
 <p>
   Modern networks heavily rely on advanced network processing functions for a wide 
@@ -50,13 +38,6 @@ operational networks.
 
 <h3>Topics of Interest</h3>
 
-<p>
-We encourage the submission of work-in-progress papers in the area of (virtualized) 
-middlebox design, implementation, measurement, management, deployment, as well as 
-Internet architecture implications of middleboxes. We look for submissions of 
-previously unpublished work on topics including, but not limited to, the following:  
-</p>
-
 <ul>
 <li>Performance optimizations of network stacks on virtualized systems</li>
 <li>Verification of unknown code running on shared middlebox platforms</li>
@@ -75,10 +56,6 @@ networks</li>
 <li>Challenges for policy verification in the context of middlebox services</li>
 <li>Internet architecture implications of middleboxes</li>
 </ul>
-
-<h3 id="sub">Submissions</h3>
-
-<p>Submission instructions will be added soon.</p>
 
 <h2>Organizers</h2>
 

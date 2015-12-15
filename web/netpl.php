@@ -7,23 +7,11 @@
 
 <p>Co-located with ACM SIGCOMM'16, August 22-26, 2016, Salvador, Brazil.</p>
 
-<?php if (false) { ?>
-
-<h2>Important Dates</h2>
-
-<ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="datetbl">
-    <?php // add_dateitem("December 21, 2015", "Call for papers published"); // publish once we get the pdf file ?>
-    <?php // add_dateitem("June, 2016", "Workshop program online"); ?>
-    <?php // add_dateitem("August, 2016", "Workshop day"); ?>
-</ul>
-
-<?php } ?>
-
 <!-- <h2>Technical Program</h2> -->
 
 <!-- <?php include("include/program/todo.php"); ?> -->
 
-<h2>Call for Participation</h2>
+<h2>Description</h2>
 
 <p>
 The NetPL workshop will provide a forum to bring together researchers
@@ -54,5 +42,4 @@ technical discussions amongst the attendees.
   ?>
 </ul>
 
-<!-- do not edit -->
 <?php include ("include/footer.php"); ?>

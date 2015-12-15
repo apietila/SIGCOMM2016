@@ -7,26 +7,14 @@
 
 <p>Co-located with ACM SIGCOMM'16, August 22-26, 2016, Salvador, Brazil.</p>
 
-<h2>Important Dates</h2>
-
-<ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="datetbl">
-    <?php // add_dateitem("December 21, 2015", "Call for papers published"); // publish once we get the pdf file ?>
-    <?php add_dateitem("March 18, 2016", "Paper titles and abstracts due"); ?>
-    <?php add_dateitem("March 25, 2016", "Complete paper submissions due"); ?>
-    <?php add_dateitem("April 29, 2016", "Notification to authors"); ?>
-    <?php add_dateitem("May 20, 2016", "Final papers due"); ?>
-    <?php // add_dateitem("June, 2016", "Workshop program online"); ?>
-    <?php // add_dateitem("August, 2016", "Workshop day"); ?>
-</ul>
-
 <!-- <h2>Technical Program</h2> -->
 
 <!-- <?php include("include/program/todo.php"); ?> -->
 
-<h2 id="cfp">Call for Papers</h2>
+<h2>Description</h2>
 
 <p>
-The ACM Latin American Workshop on Data Communication Networks – LANCOMM – aims to 
+The ACM Latin American Workshop on Data Communication Networks (LANCOMM) aims to 
 foster a higher representation of Latin American researchers working in data 
 communication networks at SIGCOMM, as well as bridging Latin American research groups. 
 LANCOMM serves as a meeting point for Latin American researchers to share new ideas and 
@@ -35,14 +23,6 @@ networks in Latin America.
 </p>
 
 <h3>Topics of Interest</h3>
-
-<p>
-We solicit stimulating, original, previously unpublished ideas on completed work, 
-position papers, and/or work-in-progress papers in the form of extended abstracts. 
-We further encourage papers that propose new research directions or could generate 
-lively debate at the workshop. We invite submissions on a wide range of networking 
-research topics, including, but not limited to:
-</p>  
 
 <ul>
 <li>Network architectures and algorithms</li>
@@ -62,16 +42,6 @@ research topics, including, but not limited to:
 <li>Innovative uses of network data beyond communication, IoT, and power grids</li>
 <li>SDN, NFV and network programming</li>
 </ul>
-
-<p>
-To foster participation of Latin American researchers at LANCOMM, we will give 
-preference to papers coming from Latin American research groups, or addressing problems 
-related to data communication networks of particular interest in Latin America.  
-</p>
-
-<h3 id="sub">Submissions</h3>
-
-<p>Submission instructions will be added soon.</p>
 
 <h2>Organizers</h2>
 

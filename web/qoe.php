@@ -7,23 +7,11 @@
 
 <p>Co-located with ACM SIGCOMM'16, August 22-26, 2016, Salvador, Brazil.</p>
 
-<h2>Important Dates</h2>
-
-<ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="datetbl">
-    <?php // add_dateitem("December 21, 2015", "Call for papers published"); // publish once we get the pdf file ?>
-    <?php add_dateitem("March 18, 2016", "Paper titles and abstracts due"); ?>
-    <?php add_dateitem("March 25, 2016", "Complete paper submissions due"); ?>
-    <?php add_dateitem("April 29, 2016", "Notification to authors"); ?>
-    <?php add_dateitem("May 20, 2016", "Final papers due"); ?>
-    <?php // add_dateitem("June, 2016", "Workshop program online"); ?>
-    <?php // add_dateitem("August, 2016", "Workshop day"); ?>
-</ul>
-
 <!-- <h2>Technical Program</h2> -->
 
 <!-- <?php include("include/program/todo.php"); ?> -->
 
-<h2 id="cfp">Call for Papers</h2>
+<h2>Description</h2>
 
 <p>
   Measuring and analyzing complex networks such as the Internet has been the focus of 
@@ -62,15 +50,6 @@ and its future development.
 
 <h3>Topics of Interest</h3>
 
-<p>
-  Internet-QoE brings together researchers and practitioners from the Internet 
-  measurements and analysis domain and the QoE modeling and assessment domain, as 
-  well as industry players willing to integrate QoE aspects into the DNA of their 
-  daily business, with direct applications in network dimensioning, monitoring, 
-  management, and troubleshooting among others. We invite submissions in the following 
-  non-exhaustive list of topics:
-</p>
-
 <ul>
 <li>QoE-aware networking</li>
 <li>Internet measurements related to QoE</li>
@@ -90,9 +69,6 @@ and its future development.
 <li>Novel approaches for large-scale QoE crowd-sourcing</li>
 </ul>
 
-<h3 id="sub">Submissions</h3>
-
-<p>Submission instructions will be added soon.</p>
 
 <h2>Organizers</h2>
 
