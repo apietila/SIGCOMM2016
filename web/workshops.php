@@ -9,30 +9,30 @@
 	We are delighted to announce the list of accepted workshop proposals:
 </p>
 
-<h2>Global Access to the Internet for All (GAIA)</h2>
+<h2><a class="headlink" href="gaia.php">Global Access to the Internet for All (GAIA)</a></h2>
 
 <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="tbl">
-  <li data-role="list-divider">Workshop Chairs</li>
+  <li data-role="list-divider">Workshop Co-Chairs</li>
   <?php
      add_listitem("Arjuna Sathiaseelan", "U. of Cambridge, UK", "https://www.cl.cam.ac.uk/~as2330/");
      add_listitem("J&ouml;rg Ott", "Technische Universit&auml;t M&uuml;nchen, Germany", "http://www.cm.in.tum.de/");
   ?>
 </ul>
 
-<h2>Hot Topics in Middleboxes and Network Function Virtualization (HotMiddlebox)</h2>
+<h2><a class="headlink" href="hotmiddlebox.php">Hot Topics in Middleboxes and Network Function Virtualization (HotMiddlebox)</a></h2>
 
 <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="tbl">
-  <li data-role="list-divider">Workshop Chairs</li>
+  <li data-role="list-divider">Workshop Co-Chairs</li>
   <?php
      add_listitem("Dongsu Han", "KAIST, Korea", "http://ina.kaist.ac.kr/~dongsuh/");
      add_listitem("Danny Raz", "Bell Labs &amp; Technion, Israel", "http://www.cs.technion.ac.il/~danny/");
   ?>
 </ul>
 
-<h2>QoE-based Analysis and Management of Data Communication Networks (Internet-QoE)</h2>
+<h2><a class="headlink" href="qoe.php">QoE-based Analysis and Management of Data Communication Networks (Internet-QoE)</a></h2>
 
 <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="tbl">
-  <li data-role="list-divider">Workshop Chairs</li>
+  <li data-role="list-divider">Workshop Co-Chairs</li>
   <?php
      add_listitem("Pedro Casas", "Austrian Institute of Technology, Austria", "http://userver.ftw.at/~pcasas/");
      add_listitem("Fabi&aacute;n Bustamante", "Northwestern University, USA", "http://www.cs.northwestern.edu/~fabianb/");
@@ -41,10 +41,10 @@
   ?>
 </ul>
 
-<h2>Fostering Latin-American Research in Data Communication Networks (LANCOMM)</h2>
+<h2><a class="headlink" href="lancomm.php">Fostering Latin-American Research in Data Communication Networks (LANCOMM)</a></h2>
 
 <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="tbl">
-  <li data-role="list-divider">Workshop Chairs</li>
+  <li data-role="list-divider">Workshop Co-Chairs</li>
   <?php
      add_listitem("Rosa M Le&#227;o", "UFRJ, Brazil", "http://www.cos.ufrj.br/index.php/en/corpo-docente-informacoes/details/23/1050");
      add_listitem("Fernando Paganini", "Universidad ORT Uruguay, Uruguay", "http://fi.ort.edu.uy/6491/17/fernando_paganini.html");
@@ -54,10 +54,10 @@
   ?>
 </ul>
 
-<h2>Networking and Programming Languages (NetPL)</h2>
+<h2><a class="headlink" href="netpl.php">Networking and Programming Languages (NetPL)</a></h2>
 
 <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="tbl">
-  <li data-role="list-divider">Workshop Chairs</li>
+  <li data-role="list-divider">Workshop Co-Chairs</li>
   <?php
      add_listitem("Marco Canini", "Universit&#233; Catholique de Louvain, Belgium", "http://perso.uclouvain.be/marco.canini/");
      add_listitem("Arjun Guha", "University of Massachusetts Amherst, USA", "https://people.cs.umass.edu/~arjun/home/");

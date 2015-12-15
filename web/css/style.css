@@ -500,7 +500,7 @@ button[disabled],
 
 .leftnav .navgroup {
     padding: 0px;
-    margin: 0px;
+    margin: -1px 0px;
     border-radius: 0px;    
 }
 
@@ -666,6 +666,11 @@ video {
     border-left-width: 1px;
     padding-top: .65em;
     padding-bottom: .5em;
+}
+
+.headlink {
+    text-decoration: none;
+    /* font-weight: 500 !important; */
 }
 
 /* Layout rules

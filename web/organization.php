@@ -14,12 +14,12 @@
   <li data-role="list-divider">Local Arrangements Chairs</li>
   <?php
      add_listitem("Fab&#237;ola Greve", "UFBA, Brazil", "http://homes.dcc.ufba.br/~fabiola/");
-     add_listitem("Rosa M Le&#227;o", "UFRJ, Brazil", "http://www.cos.ufrj.br/index.php/en/corpo-docente-informacoes/details/23/1050");
+     add_listitem("Leobino Sampaio", "UFBA, Brazil", "");
   ?>
 	
   <li data-role="list-divider">Workshop Chairs</li>
   <?php
-     add_listitem("Jussara Almeida"," UFMG, Brazil", "http://homepages.dcc.ufmg.br/~jussara/");
+     add_listitem("Jussara Almeida","UFMG, Brazil", "http://homepages.dcc.ufmg.br/~jussara/");
      add_listitem("Lars Eggert", "Netapp, Germany", "https://eggert.org/");
    ?>
 

@@ -17,6 +17,12 @@
 
 <?php include("include/dates.php"); ?>
 
+<h2>Calendar</h2>
+
+<!-- <iframe frameborder="0" style="width: 710px;" src="calendar/main.php" scrolling="no" id="iframe" onload='javascript:resizeIframe(this);'> </iframe> -->
+
+<iframe src="https://calendar.google.com/calendar/embed?title=ACM%20SIGCOMM%20Agenda&amp;showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showCalendars=0&amp;mode=AGENDA&amp;height=600&amp;wkst=1&amp;hl=en&amp;bgcolor=%23ffffff&amp;src=fgkdoih822v80dfk304pt56fjo%40group.calendar.google.com&amp;color=%23125A12&amp;ctz=America%2FLos_Angeles" style="border-width:0" width="100%" height="400" frameborder="0" scrolling="no"></iframe>
+
 <h2>Sponsors</h2>
 
 <div class="sponsors">
@@ -24,35 +30,5 @@
 	<a href="//www.sigcomm.org/"><img src="images/sig.png" alt="ACM SIGCOMM" /></a>
 </div>
 <br/>
-
-<h2>Industrial Supporters</h2>
-
-<h3>Platinum</h3>
-
-<div class="sponsors">
-        <a href="//www.cisco.com/"><img src="images/sponsors/cisco.png" alt="Cisco" style="width: 250px;"/></a>
-</div>
-
-<h3>Gold</h3>
-
-<div class="sponsors">
-	<a href="//www.huawei.com/"><img src="images/sponsors/huawei.png" alt="Huawei" style="width: 130px;"/></a>
-	<a href="//www.google.com/"><img src="images/sponsors/google.png" alt="Google" style="width: 230px;"/></a>
-</div>
-
-<?php // <h3>Silver</h3>
-// 
-// <div class="sponsors">
-// 	<a href="//www.hp.com/"><img src="images/sponsors/hp.png" alt="Huawei" style="width: 100px;"/></a>
-// </div>
-?>
-
-<h3>Bronze</h3>
-
-<div class="sponsors">
-	<a href="//www.hp.com/"><img src="images/sponsors/hp.png" alt="Hewlett-Packard" style="width: 80px;"/></a>
-	<a href="//www.tid.es/"><img src="images/sponsors/telefonica.png" alt="Telef&oacute;nica" style="width: 120px;"/></a>
-	<a href="//www.netapp.com/"><img src="images/sponsors/netapp.jpeg" alt="NetApp" style="width: 200px;"/></a>
-</div>
 
 <?php include ("include/footer.php"); ?>

@@ -24,7 +24,8 @@
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   <meta name="copyright" content="The ACM SIGCOMM 2016 Website is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. Based on the ACM SIGCOMM 2012 web site available at https://github.com/ryanrhymes/SIGCOMM2012" />
-  <title>
+  
+    <title>
 <?php
     if(isset($page_title)) {
         if (!empty($page_title)) {
@@ -87,6 +88,15 @@
 
     <script src="js/jqm-docs.js"></script>
     <script src="js/script.js"></script>
+
+<!--  This must be included in case we use the calendar widget
+  <script language="javascript" type="text/javascript">
+  function resizeIframe(obj) {
+    obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+  }
+</script>
+
+-->
 </head>
 
 <body>
