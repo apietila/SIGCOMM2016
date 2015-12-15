@@ -107,10 +107,10 @@ networks</li>
 
   <li data-role="list-divider">Steering Committee</li>
   <?php
-     add_listitem("Bob Birscoe", "BT, UK", "http://www.google.com");
-     add_listitem("Christos Kolias", "Orange, USA", "http://www.google.com");
-     add_listitem("Sylvia Ratnasamy", "UC Berkeley, USA", "http://www.google.com");
-     add_listitem("Vyas Sekar", "CMU, USA", "http://www.google.com");
+     add_listitem("Bob Birscoe", "BT, UK", "http://bobbriscoe.net/");
+     add_listitem("Christos Kolias", "Orange, USA", "");
+     add_listitem("Sylvia Ratnasamy", "UC Berkeley, USA", "https://www.eecs.berkeley.edu/~sylvia/");
+     add_listitem("Vyas Sekar", "CMU, USA", "http://users.ece.cmu.edu/~vsekar/");
   ?>
 
 </ul>
