@@ -89,14 +89,6 @@
     <script src="js/jqm-docs.js"></script>
     <script src="js/script.js"></script>
 
-<!--  This must be included in case we use the calendar widget
-  <script language="javascript" type="text/javascript">
-  function resizeIframe(obj) {
-    obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
-  }
-</script>
-
--->
 </head>
 
 <body>

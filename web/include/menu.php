@@ -3,6 +3,13 @@
      $mypage = current_pagename();
      if ($mypage == "")
         $mypage = "index.php";
+        
+     $conferenceItems = array("cfp.php", "program.php", "demos.php", "posters.php", "idemos.php");
+     $workshopItems = array ("cfwp.php", "workshops.php", "gaia.php", "hotmiddlebox.php", "qoe.php", "lancomm.php", "netpl.php");
+     $socialEventItems = array ("reception.php", "dinner.php", "banquet.php");
+     $localInfoItems = array ("local.php", "travel.php", "visa.php", "kids.php");
+     $organizationItems = array ("organization.php", "policies.php");
+     
    ?>
   <a href="index.php"><img src="images/logo.png" alt="ACM SIGCOMM 2016, August 2016, Salvador, Brazil" /></a>
   
@@ -17,7 +24,7 @@
     </li>
 
     <div data-role="collapsible" data-theme="a" data-content-theme="a" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u" data-iconpos="right"
-         <?php if ($mypage=="cfp.php" || $mypage=="program.php" || $mypage=="demos.php" || $mypage=="posters.php" || $mypage=="idemos.php") echo('data-collapsed="false"') ?> class="navgroup">
+         <?php if (in_array ($mypage, $conferenceItems)) echo('data-collapsed="false"') ?> class="navgroup">
       <h4>Conference</h4>
       <ul data-role="listview" data-inset="false">
         <li class="subnav <?php if ($mypage=="cfp.php") echo('navselected') ?>" data-icon="false">
@@ -41,7 +48,7 @@
     </div>
 
     <div data-role="collapsible" data-theme="a" data-content-theme="a" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u" data-iconpos="right"
-         <?php if ($mypage=="cfwp.php" || $mypage=="workshops.php" || $mypage=="gaia.php" || $mypage=="hotmiddlebox.php" || $mypage=="qoe.php" || $mypage=="lancomm.php" || $mypage=="netpl.php") echo('data-collapsed="false"') ?> class="navgroup">
+         <?php if (in_array ($mypage, $workshopItems)) echo('data-collapsed="false"') ?> class="navgroup">
       <h4>Workshops</h4>
       <ul data-role="listview" data-inset="false">
         <li class="subnav <?php if ($mypage=="workshops.php") echo('navselected') ?>" data-icon="false">
@@ -84,7 +91,7 @@
 
     <!--
     <div data-role="collapsible" data-theme="a" data-content-theme="a" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u" data-iconpos="right"
-         <?php if ($mypage=="reception.php" || $mypage=="dinner.php" || $mypage=="banquet.php") echo('data-collapsed="false"') ?> class="navgroup">
+         <?php if (in_array ($mypage, $socialEventItems)) echo('data-collapsed="false"') ?> class="navgroup">
       <h4>Social Events</h4>
       <ul data-role="listview" data-inset="false">
         <li class="subnav <?php if ($mypage=="reception.php") echo('navselected') ?>" data-icon="false">
@@ -113,7 +120,7 @@
     -->
 
     <div data-role="collapsible" data-theme="a" data-content-theme="a" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u" data-iconpos="right"
-         <?php if ($mypage=="local.php" || $mypage=="travel.php" || $mypage=="visa.php" || $mypage=="kids.php") echo('data-collapsed="false"') ?> class="navgroup">
+         <?php if (in_array ($mypage, $localInfoItems)) echo('data-collapsed="false"') ?> class="navgroup">
       <h4>Local Information</h4>
       <ul data-role="listview" data-inset="false">
         <li class="subnav <?php if ($mypage=="local.php") echo('navselected') ?>" data-icon="false">
@@ -143,14 +150,14 @@
     </li>
 
     <div data-role="collapsible" data-theme="a" data-content-theme="a" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u" data-iconpos="right"
-         <?php if ($mypage=="organization.php" || $mypage=="policies.php") echo('data-collapsed="false"') ?> class="navgroup listlast">
+         <?php if (in_array($mypage, $organizationItems)) echo('data-collapsed="false"') ?> class="navgroup listlast">
       <h4>Organization</h4>
       <ul data-role="listview" data-inset="false">
         <li class="subnav <?php if ($mypage=="organization.php") echo('navselected') ?>" data-icon="false">
           <a href="organization.php">Organization Committee</a>
         </li>
 
-        <!-- TODO: is this still required ? If not, move the organisation.php to top level menuitem. -->
+        <?php // TODO: is this still required ? If not, move the organisation.php to top level menuitem. ?>
         <li class="subnav <?php if ($mypage=="policies.php") echo('navselected') ?>" data-icon="false">
           <a href="policies.php">Policies</a>
         </li>
