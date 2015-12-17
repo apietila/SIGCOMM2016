@@ -77,14 +77,14 @@ This workshop addresses the problem of digital exclusion through networking tech
   <?php
 //     add_listitem("", "", "");
      add_listitem("Nabil Benemar", "Moulay Ismail University, Morocco", "http://nabilbenamar.ipv6-lab.net/?q=node/14");
-     add_listitem("Saleem Bhatti", "St. Andrews, UK", "https://saleem.host.cs.st-andrews.ac.uk/");
+     add_listitem("Saleem Bhatti", "University of St Andrews, UK", "https://saleem.host.cs.st-andrews.ac.uk/");
      add_listitem("Scott Burleigh", "JPL, NASA, USA", "");
      add_listitem("Jay Chen", "NYU, UAE", "https://cs.nyu.edu/~jchen/");
      add_listitem("Jon Crowcroft", "U. of Cambridge, UK", "http://www.cl.cam.ac.uk/~jac22/");
      add_listitem("Nick Feamster", "Princeton, USA", "http://www.cs.princeton.edu/~feamster/");
      add_listitem("Kannan Govindan", "Samsung Research, India", "https://sites.google.com/site/myucdaviswebsite/");
      add_listitem("Lisandro Z Granville", "UFRGS, Brazil", "http://www.inf.ufrgs.br/~granville/");
-     add_listitem("Tristan Henderson", "University of St. Andrews, UK", "http://www.cs.st-andrews.ac.uk/directory/person&id=tristan");
+     add_listitem("Tristan Henderson", "University of St Andrews, UK", "https://tristan.host.cs.st-andrews.ac.uk/");
      add_listitem("Pan Hui", "Hong Kong U. of Science and Technology, Hong Kong", "https://www.cse.ust.hk/~panhui/");
      add_listitem("Heikki H&auml;mm&auml;inen", "Aalto University, Finland", "https://www.netlab.tkk.fi/u/hammaine/");
      add_listitem("David Johnson", "CSIR, South Africa", "http://ict4d.cs.uct.ac.za/user/47");
