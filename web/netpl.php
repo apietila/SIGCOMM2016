@@ -14,21 +14,28 @@
 <h2>Description</h2>
 
 <p>
-The NetPL workshop will provide a forum to bring together researchers
-and practitioners from the fields of programming languages, formal
-methods, and networking. Recent technological trends, such as
-software-defined networking and network functions virtualization, have
-created an opportunity for researchers in these traditionally separate
-communities to collaborate, applying their diverse perspectives
-towards the development of novel networking applications. But the
-interaction between the two areas goes back a long way, since
-domain-specific languages such as pcap and BPF, have been used in
-networking for decades. The workshop will target the broadest
-interpretation of the intersection between networking and programming
-languages, and will not be specially focused on SDN. The program will
-consist of invited talks, with an emphasis on encouraging engaging
-technical discussions amongst the attendees.
+The NetPL workshop provides a forum to bring together researchers and
+practitioners from the fields of programming languages, formal methods, and
+networking.</p>
+
+<p>Recent technological trends, such as software-defined networking, network
+functions virtualization and reconfigurable networking hardware, have created
+an opportunity for researchers in these traditionally separate communities to
+collaborate, applying their diverse perspectives towards the development of
+novel networking applications. It is important to clarify that the scope of
+this workshop goes strictly beyond SDN.  We aim to enable language specialists
+to better understand opportunities in networking, and networking specialists
+to better understand opportunities enabled by specially-designed languages.
 </p>
+
+<p>The program will consist of invited talks, with an emphasis on encouraging
+engaging technical discussions amongst the participants.</p>
+
+<p>This is the second NetPL workshop, after
+<a href="http://2015.ecoop.org/track/netpl-2015-workshop">last year's
+workshop</a> at ECOOP. All talks in the previous edition of the workshop are on
+<a href="https://www.youtube.com/channel/UCqU8E2n4MHthZUVb1xK2nRQ">YouTube</a>.</p>
+
 
 <h2>Organizers</h2>
 
