@@ -56,7 +56,7 @@ This workshop addresses the problem of digital exclusion through networking tech
 <li>Understanding Internet censorship and solutions to circumvent censorship</li>
 </ul>
 
-<h3 id="sub">Submissions</h3>
+<h3 id="sub">Submission Instructions</h3>
 
 <p>ACM SIGCOMM GAIA Workshop will consider only original papers that are not currently under review by other workshops, conferences, or journals, and have not been published. All papers submitted will be peer-reviewed (single-blind) and evaluated based on their suitability (i.e., within the workshop scope), novelty, and merit. Submitted papers are limited to 6 pages and should be submitted as a PDF file, including all figures and references.</p>
 

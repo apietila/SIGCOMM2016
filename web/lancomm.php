@@ -7,22 +7,40 @@
 
 <p>Co-located with ACM SIGCOMM'16, August 22-26, 2016, Salvador, Brazil.</p>
 
+<h2>Important Dates</h2>
+
+<ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="datetbl">
+    <?php add_dateitem("December 17, 2015", "Call for papers published"); ?>
+    <?php add_dateitem("March, 18 2016", "Paper registration deadline"); ?>
+    <?php add_dateitem("March 25, 2016", "Paper submission deadline"); ?>
+    <?php add_dateitem("April 29, 2016", "Paper acceptance notifications"); ?>
+    <?php add_dateitem("May 20, 2016", "Camera ready due"); ?>
+    <?php // add_dateitem("June, 2016", "Workshop program online"); ?>
+    <?php // add_dateitem("August, 2016", "Workshop day"); ?>
+</ul>
+
+
 <!-- <h2>Technical Program</h2> -->
 
 <!-- <?php include("include/program/todo.php"); ?> -->
 
-<h2>Description</h2>
+<h2>Call for Papers</h2>
 
-<p>
-The ACM Latin American Workshop on Data Communication Networks (LANCOMM) aims to 
-foster a higher representation of Latin American researchers working in data 
-communication networks at SIGCOMM, as well as bridging Latin American research groups. 
-LANCOMM serves as a meeting point for Latin American researchers to share new ideas and 
-experiences and to discuss the challenges linked to the development of data communication 
-networks in Latin America.
+<p>The ACM SIGCOMM Latin American Workshop on Data Communication Networks (LANCOMM)
+aims to foster a higher representation of Latin American researchers 
+working in data communication networks at SIGCOMM, as well as bridging Latin 
+American research groups. LANCOMM serves as a meeting point for Latin American 
+researchers to share new ideas and experiences and to discuss the challenges 
+linked to the development of data communication networks in Latin America.
 </p>
 
 <h3>Topics of Interest</h3>
+
+<p>We solicit stimulating, original, previously unpublished ideas on completed 
+work, position papers, and/or work-in-progress papers in the form of extended 
+abstracts. We further encourage papers that propose new research directions or 
+could generate lively debate at the workshop. We invite submissions on a wide 
+range of networking research topics, including, but not limited to:</p>
 
 <ul>
 <li>Network architectures and algorithms</li>
@@ -43,6 +61,21 @@ networks in Latin America.
 <li>SDN, NFV and network programming</li>
 </ul>
 
+<p>To foster participation of Latin American researchers at LANCOMM, we will give 
+preference to papers coming from Latin American research groups, or addressing 
+problems related to data communication networks of particular interest in Latin 
+America.</p>
+
+<h3>Submission Instructions</h3>
+
+<p>Submitted extended abstracts must be in the form of a single PDF file of three 
+(3) pages long (two-column 10pt ACM format), including figures, tables, and 
+references. Papers must include author names and affiliations for single-blind 
+peer reviewing by the PC. Authors of accepted papers are expected to present 
+their papers at the workshop. Submissions must be original, unpublished work. 
+Accepted papers will be published in the ACM Digital Library. Publication at 
+LANCOMM does not preclude later publication.</p>
+
 <h2>Organizers</h2>
 
 <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="tbl">
@@ -55,11 +88,17 @@ networks in Latin America.
      add_listitem("Pedro Casas", "Austrian Institute of Technology &amp; Grupo ARTES, Austria &amp; Uruguay", "http://userver.ftw.at/~pcasas/");
   ?>
     
+  <li data-role="list-divider">Workshop Advisor</li>
+  <?php
+     add_listitem("Renata Cruz Teixeira", "INRIA, France", "https://who.rocq.inria.fr/Renata.Teixeira/");
+  ?>
+
   <li data-role="list-divider">Program Commitee</li>
   <?php
     add_listitem("Pablo Belzarena", "Universidad de la Rep&uacute;blica, Uruguay", "");
     add_listitem("Fabi&aacute;n Bustamante", "Northwestern University, USA", "http://www.cs.northwestern.edu/~fabianb/");
     add_listitem("Sandra C&eacute;espedes","Universidad de Chile, Chile", "http://www.cec.uchile.cl/~scespedes/");
+    add_listitem("Alessandro D&#39;Alconzo","Austrian Institute of Technology, Austria", "");
     add_listitem("Diego Dujovne", "Universidad Diego Portales, Chile", "");
     add_listitem("David Choffnes", "Northeastern University, USA", "http://www.ccs.neu.edu/people/faculty/member/choffnes/");
     add_listitem("Benoit Donnet", "Universit&eacute; de Li&igrave;ege, Belgium", "http://inl.info.ucl.ac.be/donnet");
@@ -79,6 +118,8 @@ networks in Latin America.
     add_listitem("Ana Paula Silva", "Federal University of Minas Gerais, Brazil", "http://www.dcc.ufmg.br/dcc/?q=pt-br/node/153");
   ?>
 </ul>
+
+<a href="files/workshops/cfp-lancomm.pdf" rel="external" data-role="button" class="dl-button button">Download this call as a PDF</a>
 
 <!-- do not edit -->
 <?php include ("include/footer.php"); ?>
