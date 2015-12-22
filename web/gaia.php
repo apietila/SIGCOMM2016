@@ -81,7 +81,7 @@ This workshop addresses the problem of digital exclusion through networking tech
      add_listitem("Scott Burleigh", "JPL, NASA, USA", "");
      add_listitem("Jay Chen", "NYU, UAE", "https://cs.nyu.edu/~jchen/");
      add_listitem("Jon Crowcroft", "U. of Cambridge, UK", "http://www.cl.cam.ac.uk/~jac22/");
-     add_listitem("Nick Feamster", "Princeton, USA", "http://www.cs.princeton.edu/~feamster/");
+     add_listitem("Nick Feamster", "Princeton University, USA", "http://www.cs.princeton.edu/~feamster/");
      add_listitem("Kannan Govindan", "Samsung Research, India", "https://sites.google.com/site/myucdaviswebsite/");
      add_listitem("Lisandro Z Granville", "UFRGS, Brazil", "http://www.inf.ufrgs.br/~granville/");
      add_listitem("Tristan Henderson", "University of St Andrews, UK", "https://tristan.host.cs.st-andrews.ac.uk/");
@@ -95,7 +95,7 @@ This workshop addresses the problem of digital exclusion through networking tech
      add_listitem("Veljko Pejovic", "University of Ljubljana, Slovenia", "http://lrss.fri.uni-lj.si/Veljko/");
      add_listitem("Ermanno Pietrosemoli", "ICTP, Italy", "");
      add_listitem("Yiannis Psaras", "UCL, UK", "http://www.ee.ucl.ac.uk/~uceeips/");
-     add_listitem("Barath Raghavan", "ICSI, Berkeley, US", "http://www1.icsi.berkeley.edu/~barath/");
+     add_listitem("Barath Raghavan", "ICSI, Berkeley, USA", "http://www1.icsi.berkeley.edu/~barath/");
      add_listitem("Maneesha V Ramesh", "Amrita Institute, India", "https://www.amrita.edu/faculty/dr-maneesha-v-ramesh");
      add_listitem("Fernando Ramos", "University of Lisbon, Portugal", "http://fvramos.at.di.fc.ul.pt/");
      add_listitem("Narseo V Rodriguez", "ICSI, Berkeley, USA", "http://www1.icsi.berkeley.edu/~narseo/");

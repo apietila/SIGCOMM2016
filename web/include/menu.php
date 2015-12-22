@@ -31,6 +31,9 @@
           <a href="cfp.php">Call for Papers</a>
         </li>
         <!--
+        <li class="subnav <?php if ($mypage=="pc.php") echo('navselected') ?>" data-icon="false">
+          <a href="pc.php">Program Committee</a>
+        </li>
         <li class="subnav <?php if ($mypage=="program.php") echo('navselected') ?>" data-icon="false">
           <a href="local.php">Program</a>
         </li>
