@@ -95,7 +95,8 @@ long, including all figures, tables, references, and appendices in two-column
 10pt ACM format. Papers must include authors names and affiliations for 
 single-blind peer reviewing by the PC. Authors of accepted papers are expected 
 to present their papers at the workshop. Accepted papers will be published in 
-the ACM Digital Library.</p>
+the ACM Digital Library. Paper registration and submission
+can be done at: <a href="https://internetqoe16.hotcrp.com/">https://internetqoe16.hotcrp.com/</a>.</p>
 
 <h2>Organizers</h2>
 
@@ -110,6 +111,7 @@ the ACM Digital Library.</p>
     
   <li data-role="list-divider">Program Commitee</li>
   <?php
+     add_listitem("Suman Banerjee", "University Wisconsin Madison, USA", "http://pages.cs.wisc.edu/~suman/");
      add_listitem("Rocky Chang", "The Hong Kong Polytechnic University, Hong Kong", "http://www4.comp.polyu.edu.hk/~csrchang/");
      add_listitem("Kimberly Claffy", "CAIDA/USCD, USA","http://www.caida.org/~kc/");
      add_listitem("Sebastian Egger", "Austrian Institute of Technology, Austria", "");
@@ -117,7 +119,7 @@ the ACM Digital Library.</p>
      add_listitem("Tobias Ho&szlig;feld", "University of Duisburg-Essen, Germany", "https://www.mas.wiwi.uni-due.de/en/team/tobias-hossfeld/");
      add_listitem("Lucjan Janowski", "AGH University of Science and Technology, Poland", "http://www.kt.agh.edu.pl/~janowski/");
      add_listitem("Patrick Le Callet", "Polytech Nantes, France", "http://www.irccyn.ec-nantes.fr/~lecallet/");
-     add_listitem("Morley Mao", "University Michigan, US", "http://web.eecs.umich.edu/~zmao/");
+     add_listitem("Morley Mao", "University Michigan, USA", "http://web.eecs.umich.edu/~zmao/");
      add_listitem("Maria Papadopouli", "University of Crete/ICS-FORTH, Greece", "http://users.ics.forth.gr/~mgp/");
      add_listitem("Peter Reichel", "University of Vienna, Austria", "https://cs.univie.ac.at//cosy/team/worker/infpers/Peter_Reichl");
      add_listitem("Raimund Schatz", "Telecommunications Research Center Vienna, Austria", "http://userver.ftw.at/~schatz/");

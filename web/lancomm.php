@@ -74,7 +74,8 @@ references. Papers must include author names and affiliations for single-blind
 peer reviewing by the PC. Authors of accepted papers are expected to present 
 their papers at the workshop. Submissions must be original, unpublished work. 
 Accepted papers will be published in the ACM Digital Library. Publication at 
-LANCOMM does not preclude later publication.</p>
+LANCOMM does not preclude later publication. Paper registration and submission
+can be done at: <a href="https://lancomm16.hotcrp.com/">https://lancomm16.hotcrp.com/</a>.</p>
 
 <h2>Organizers</h2>
 
@@ -97,7 +98,7 @@ LANCOMM does not preclude later publication.</p>
   <?php
     add_listitem("Pablo Belzarena", "Universidad de la Rep&uacute;blica, Uruguay", "");
     add_listitem("Fabi&aacute;n Bustamante", "Northwestern University, USA", "http://www.cs.northwestern.edu/~fabianb/");
-    add_listitem("Sandra C&eacute;espedes","Universidad de Chile, Chile", "http://www.cec.uchile.cl/~scespedes/");
+    add_listitem("Sandra C&eacute;spedes","Universidad de Chile, Chile", "http://www.cec.uchile.cl/~scespedes/");
     add_listitem("Alessandro D&#39;Alconzo","Austrian Institute of Technology, Austria", "");
     add_listitem("Diego Dujovne", "Universidad Diego Portales, Chile", "");
     add_listitem("David Choffnes", "Northeastern University, USA", "http://www.ccs.neu.edu/people/faculty/member/choffnes/");
