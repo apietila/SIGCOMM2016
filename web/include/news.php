@@ -1,6 +1,7 @@
 <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="datetbl">
+  <?php add_dateitem("December 22, 2015", "HotMiddlebox <a href=\"hotmiddlebox.php\">call for papers</a> online") ?>
   <?php add_dateitem("December 17, 2015", "The call for papers for <a href=\"lancomm.php\">LANCOMM</a> and <a href=\"qoe.php\">Internet-QoE</a> workshops are online") ?>
-  <?php add_dateitem("December 15, 2015", "GAIA Workshop <a href=\"gaia.php\">call for papers</a> online") ?>
+  <?php add_dateitem("December 15, 2015", "GAIA workshop <a href=\"gaia.php\">call for papers</a> online") ?>
   <?php add_dateitem("December 9, 2015", "List of <a href=\"workshops.php\">accepted workshop proposals</a> announced") ?>
   <?php add_dateitem("September 1, 2015", "<a href=\"cfwp.php\">Call for workshop proposals online</a>") ?>
   <?php add_dateitem("August 17, 2015", "<a href=\"cfp.php\">Call for papers online</a>") ?>
@@ -16,5 +17,5 @@
 </ul>
 
 <script>
-  $(".newslibtn").siblings().slice(5).hide();
+  $(".newslibtn").siblings().slice(6).hide();
 </script>

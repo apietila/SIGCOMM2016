@@ -9,7 +9,7 @@ function showall(divname) {
         $.mobile.activePage.find(".newslibtn").siblings().show();
         $.mobile.activePage.find(".newslibtn").find("a").text("Hide Older News");
     } else {
-        $.mobile.activePage.find(".newslibtn").siblings().slice(5).hide();
+        $.mobile.activePage.find(".newslibtn").siblings().slice(6).hide();
         $.mobile.activePage.find(".newslibtn").find("a").text("Older News");
     }
 }
