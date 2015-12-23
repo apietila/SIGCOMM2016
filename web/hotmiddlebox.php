@@ -102,9 +102,9 @@ papers at the workshop.
 
   <li data-role="list-divider">Technical Program Commitee</li>
   <?php
-     add_listitem("Theophilus Benson", "Duke, USA", "https://users.cs.duke.edu/~tbenson/");
+     add_listitem("Theophilus Benson", "Duke University, USA", "https://users.cs.duke.edu/~tbenson/");
      add_listitem("Jeremy Blackburn", "Telefonica, Spain", "http://www.tid.es/research/researchers/j-blackburn");
-     add_listitem("Jon Crowcroft", "U. of Cambridge, UK", "http://www.cl.cam.ac.uk/~jac22/");
+     add_listitem("Jon Crowcroft", "University of Cambridge, UK", "http://www.cl.cam.ac.uk/~jac22/");
      add_listitem("Colin Dixon", "Brocade, USA", "http://colindixon.com");
      add_listitem("Vijay Gopalakrishnan", "AT&amp;T Labs Research, USA", "http://www.research.att.com/people/Gopalakrishnan_Vijay/");
      add_listitem("Volker Hilt", "Bell Labs, Germany", "https://www.bell-labs.com/usr/volker.hilt");
@@ -121,7 +121,7 @@ papers at the workshop.
      add_listitem("Costin Raiciu", "U. Politehnica of Bucharest, Romania", "http://nets.cs.pub.ro/~costin/");
      add_listitem("Michael Schapira", "Hebrew University of Jerusalem, Israel", "http://www.cs.huji.ac.il/~schapiram/");
      add_listitem("Ying Zhang", "Hewlett Packard Labs, USA", "http://www.labs.hpe.com/people/ying_zhang13/");
-     add_listitem("Noa Zilberman", "Cambridge University, UK", "http://www.cl.cam.ac.uk/~nz247/");
+     add_listitem("Noa Zilberman", "University of Cambridge, UK", "http://www.cl.cam.ac.uk/~nz247/");
   ?>
 
 </ul>

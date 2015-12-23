@@ -8,7 +8,7 @@
   <li data-role="list-divider">General Chairs</li>
   <?php
      add_listitem("Marinho P Barcellos", "UFRGS, Brazil", "http://www.inf.ufrgs.br/~marinho/");
-     add_listitem("Jon Crowcroft", "U. of Cambridge, UK", "http://www.cl.cam.ac.uk/~jac22/");
+     add_listitem("Jon Crowcroft", "University of Cambridge, UK", "http://www.cl.cam.ac.uk/~jac22/");
   ?>
 	
   <li data-role="list-divider">Local Arrangements Chairs</li>
@@ -48,7 +48,7 @@
 
   <li data-role="list-divider">Publication Chairs</li>
    <?php
-     add_listitem("Aakanksha Chowdhery", "Microsoft Research, USA", "http://research.microsoft.com/en-us/um/people/ac/");
+     add_listitem("Aakanksha Chowdhery", "Princeton University, USA", "http://www.princeton.edu/~ac23/");
      add_listitem("Matteo Varvello", "Telefonica, Spain", "http://www.tid.es/research/researchers/matteo-varvello");
    ?>
 
@@ -73,12 +73,12 @@
   <li data-role="list-divider">Web Chairs</li>
   <?php
      add_listitem("Weverton Cordeiro", "UFRGS, Brazil", "http://www.inf.ufrgs.br/~wlccordeiro/");
-     add_listitem("Anna-Kaisa Pietilainen", "Inria, France", "https://muse.inria.fr/~apietila/");
+     add_listitem("Anna-Kaisa Pietilainen", "INRIA, France", "https://muse.inria.fr/~apietila/");
   ?>
 
   <li data-role="list-divider">Conference Coordinator</li>
   <?php
-     add_listitem("Yashar Ganjali", "U. of Toronto, Canada", "http://www.cs.toronto.edu/~yganjali/");
+     add_listitem("Yashar Ganjali", "University of Toronto, Canada", "http://www.cs.toronto.edu/~yganjali/");
   ?>
     
 </ul>

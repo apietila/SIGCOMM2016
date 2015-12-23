@@ -14,7 +14,7 @@
 <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="tbl">
   <li data-role="list-divider">Workshop Co-Chairs</li>
   <?php
-     add_listitem("Arjuna Sathiaseelan", "U. of Cambridge, UK", "https://www.cl.cam.ac.uk/~as2330/");
+     add_listitem("Arjuna Sathiaseelan", "University of Cambridge, UK", "https://www.cl.cam.ac.uk/~as2330/");
      add_listitem("J&ouml;rg Ott", "Technische Universit&auml;t M&uuml;nchen, Germany", "http://www.cm.in.tum.de/");
   ?>
 </ul>
@@ -62,7 +62,7 @@
      add_listitem("Marco Canini", "Universit&#233; Catholique de Louvain, Belgium", "http://perso.uclouvain.be/marco.canini/");
      add_listitem("Arjun Guha", "University of Massachusetts Amherst, USA", "https://people.cs.umass.edu/~arjun/home/");
      add_listitem("Robert Soul&eacute;", "Universit&agrave; della Svizzera italiana (USI), Switzerland", "http://www.inf.usi.ch/faculty/soule/");
-     add_listitem("Nik Sultana", "U. of Cambridge, UK", "http://www.cl.cam.ac.uk/~ns441/");
+     add_listitem("Nik Sultana", "University of Cambridge, UK", "http://www.cl.cam.ac.uk/~ns441/");
   ?>
 </ul>
 

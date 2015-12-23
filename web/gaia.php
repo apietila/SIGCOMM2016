@@ -69,7 +69,7 @@ This workshop addresses the problem of digital exclusion through networking tech
 <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="tbl">
   <li data-role="list-divider">Workshop Co-Chairs</li>
   <?php
-     add_listitem("Arjuna Sathiaseelan", "U. of Cambridge, UK", "https://www.cl.cam.ac.uk/~as2330/");
+     add_listitem("Arjuna Sathiaseelan", "University of Cambridge, UK", "https://www.cl.cam.ac.uk/~as2330/");
      add_listitem("J&ouml;rg Ott", "Technische Universit&auml;t M&uuml;nchen, Germany", "http://www.cm.in.tum.de/");
   ?>
 
@@ -78,9 +78,9 @@ This workshop addresses the problem of digital exclusion through networking tech
 //     add_listitem("", "", "");
      add_listitem("Nabil Benemar", "Moulay Ismail University, Morocco", "http://nabilbenamar.ipv6-lab.net/?q=node/14");
      add_listitem("Saleem Bhatti", "University of St Andrews, UK", "https://saleem.host.cs.st-andrews.ac.uk/");
-     add_listitem("Scott Burleigh", "JPL, NASA, USA", "");
+     add_listitem("Scott Burleigh", "JPL/NASA, USA", "");
      add_listitem("Jay Chen", "NYU, UAE", "https://cs.nyu.edu/~jchen/");
-     add_listitem("Jon Crowcroft", "U. of Cambridge, UK", "http://www.cl.cam.ac.uk/~jac22/");
+     add_listitem("Jon Crowcroft", "University of Cambridge, UK", "http://www.cl.cam.ac.uk/~jac22/");
      add_listitem("Nick Feamster", "Princeton University, USA", "http://www.cs.princeton.edu/~feamster/");
      add_listitem("Kannan Govindan", "Samsung Research, India", "https://sites.google.com/site/myucdaviswebsite/");
      add_listitem("Lisandro Z Granville", "UFRGS, Brazil", "http://www.inf.ufrgs.br/~granville/");
@@ -94,12 +94,12 @@ This workshop addresses the problem of digital exclusion through networking tech
      add_listitem("Leandro Navarro", "UPC Barcelona, Spain", "http://people.ac.upc.edu/leandro/");
      add_listitem("Veljko Pejovic", "University of Ljubljana, Slovenia", "http://lrss.fri.uni-lj.si/Veljko/");
      add_listitem("Ermanno Pietrosemoli", "ICTP, Italy", "");
-     add_listitem("Yiannis Psaras", "UCL, UK", "http://www.ee.ucl.ac.uk/~uceeips/");
+     add_listitem("Yiannis Psaras", "University College London, UK", "http://www.ee.ucl.ac.uk/~uceeips/");
      add_listitem("Barath Raghavan", "ICSI, Berkeley, USA", "http://www1.icsi.berkeley.edu/~barath/");
      add_listitem("Maneesha V Ramesh", "Amrita Institute, India", "https://www.amrita.edu/faculty/dr-maneesha-v-ramesh");
      add_listitem("Fernando Ramos", "University of Lisbon, Portugal", "http://fvramos.at.di.fc.ul.pt/");
      add_listitem("Narseo V Rodriguez", "ICSI, Berkeley, USA", "http://www1.icsi.berkeley.edu/~narseo/");
-     add_listitem("Christian E Rothenberg", "University of Campinas, Brazil", "http://www.dca.fee.unicamp.br/~chesteve/");
+     add_listitem("Christian E Rothenberg", "UNICAMP, Brazil", "http://www.dca.fee.unicamp.br/~chesteve/");
      add_listitem("Nishanth Sastry", "KCL, UK", "http://www.kcl.ac.uk/nms/depts/informatics/people/atoz/sastryn.aspx");
      add_listitem("Aaditeshwar Seth", "IIT Delhi, India", "http://www.cse.iitd.ernet.in/~aseth/");
      add_listitem("Lakshmi Subramanian", "NYU, USA", "https://cs.nyu.edu/~lakshmi/");
