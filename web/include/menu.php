@@ -4,7 +4,7 @@
      if ($mypage == "")
         $mypage = "index.php";
         
-     $conferenceItems = array("cfp.php", "program.php", "demos.php", "posters.php", "idemos.php");
+     $conferenceItems = array("cfp.php", "submission.php", "program.php", "demos.php", "posters.php", "idemos.php");
      $workshopItems = array ("cfwp.php", "workshops.php", "gaia.php", "hotmiddlebox.php", "qoe.php", "lancomm.php", "netpl.php");
      $socialEventItems = array ("reception.php", "dinner.php", "banquet.php");
      $localInfoItems = array ("local.php", "travel.php", "visa.php", "kids.php");
@@ -30,10 +30,10 @@
         <li class="subnav <?php if ($mypage=="cfp.php") echo('navselected') ?>" data-icon="false">
           <a href="cfp.php">Call for Papers</a>
         </li>
-        <!--
-        <li class="subnav <?php if ($mypage=="pc.php") echo('navselected') ?>" data-icon="false">
-          <a href="pc.php">Program Committee</a>
+        <li class="subnav <?php if ($mypage=="submission.php") echo('navselected') ?>" data-icon="false">
+          <a href="submission.php">Paper Submission</a>
         </li>
+        <!--
         <li class="subnav <?php if ($mypage=="program.php") echo('navselected') ?>" data-icon="false">
           <a href="local.php">Program</a>
         </li>
