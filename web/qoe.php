@@ -16,7 +16,7 @@
     <?php add_dateitem("April 29, 2016", "Paper acceptance notifications"); ?>
     <?php add_dateitem("May 20, 2016", "Camera-ready due"); ?>
     <?php // add_dateitem("June, 2016", "Workshop program online"); ?>
-    <?php // add_dateitem("August, 2016", "Workshop day"); ?>
+    <?php add_dateitem("August 26, 2016", "Workshop day"); ?>
 </ul>
 
 <!-- <h2>Technical Program</h2> -->

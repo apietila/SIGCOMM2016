@@ -7,6 +7,12 @@
 
 <p>Co-located with ACM SIGCOMM'16, August 22-26, 2016, Salvador, Brazil.</p>
 
+<h2>Important Dates</h2>
+
+<ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="datetbl">
+    <?php add_dateitem("August 22, 2016", "Workshop day"); ?>
+</ul>
+
 <!-- <h2>Technical Program</h2> -->
 
 <!-- <?php include("include/program/todo.php"); ?> -->
