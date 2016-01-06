@@ -5,7 +5,7 @@
         $mypage = "index.php";
         
      $conferenceItems = array("cfp.php", "submission.php", "program.php", "demos.php", "posters.php", "idemos.php");
-     $workshopItems = array ("cfwp.php", "workshops.php", "gaia.php", "hotmiddlebox.php", "qoe.php", "lancomm.php", "netpl.php");
+     $workshopItems = array ("gaia.php", "hotmiddlebox.php", "qoe.php", "lancomm.php", "netpl.php", "cfwp.php", "workshops.php");
      $socialEventItems = array ("reception.php", "dinner.php", "banquet.php");
      $localInfoItems = array ("local.php", "travel.php", "visa.php", "kids.php");
      $organizationItems = array ("organization.php", "policies.php");
@@ -54,10 +54,6 @@
          <?php if (in_array ($mypage, $workshopItems)) echo('data-collapsed="false"') ?> class="navgroup">
       <h4>Workshops</h4>
       <ul data-role="listview" data-inset="false">
-        <li class="subnav <?php if ($mypage=="workshops.php") echo('navselected') ?>" data-icon="false">
-          <a href="workshops.php">Accepted Proposals</a>
-        </li>
-
         <li class="subnav <?php if ($mypage=="gaia.php") echo('navselected') ?>" data-icon="false">
           <a href="gaia.php">GAIA</a>
         </li>
@@ -78,6 +74,11 @@
           <a href="cfwp.php">Call for Workshops</a>
         </li>
 
+        <!--
+        <li class="subnav <?php if ($mypage=="workshops.php") echo('navselected') ?>" data-icon="false">
+          <a href="workshops.php">Accepted Proposals</a>
+        </li>-->
+
        </ul>
     </div>
 
@@ -88,7 +89,6 @@
         <li class="subnav <?php if ($mypage=="cft.php") echo('navselected') ?>" data-icon="false">
           <a href="cft.php">Call for Tutorials</a>
         </li>
-        <!-- TODO: add tutorial pages -->
       </ul>
     </div>
 
