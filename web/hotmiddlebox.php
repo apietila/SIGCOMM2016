@@ -75,7 +75,7 @@ work on topics including, but not limited to, the following:</p>
 
 Submissions must be original, unpublished work, not under consideration at another venue.
 Each submission must be a single PDF file no longer than six (6) pages in length (in two-column,
-10-point format) including references, following the provided <a href="doc/sig-alternate-10pt.cls">LaTeX style file</a>.
+10-point format) including references, following the provided <a href="doc/sig-alternate-10pt.cls" rel="external">LaTeX style file</a>.
 Papers should be submitted electronically via the submission site. Papers must include the
 author name and affiliation for single-blind peer reviewing by the program committee.
 Please upload your submissions to <a href="https://hotmiddlebox16.hotcrp.com/">the workshop submission page</a>.
