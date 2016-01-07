@@ -19,6 +19,13 @@
 </div>
 
 
+<h2>Silver</h2>
+
+<div class="sponsors">
+	<a href="//www.akamai.com/"><img src="images/sponsors/akamai.png" alt="Akamai" style="width: 210px;"/></a>
+</div>
+
+
 <h2>Bronze</h2>
 
 <div class="sponsors">
