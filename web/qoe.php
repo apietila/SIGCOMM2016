@@ -115,6 +115,7 @@ can be done at: <a href="https://internetqoe16.hotcrp.com/">https://internetqoe1
      add_listitem("Rocky Chang", "The Hong Kong Polytechnic University, Hong Kong", "http://www4.comp.polyu.edu.hk/~csrchang/");
      add_listitem("Kimberly Claffy", "CAIDA/USCD, USA","http://www.caida.org/~kc/");
      add_listitem("Sebastian Egger", "Austrian Institute of Technology, Austria", "");
+     add_listitem("Markus Fiedler", "BTH Karlskrona, Sweden", "http://www.its.bth.se/staff/mfi/");
      add_listitem("Emir Halepovic", "AT&amp;T Research, USA", "http://www.research.att.com/people/Halepovic_Emir/index.html?fbid=GD20my-LeNL");     
      add_listitem("Tobias Ho&szlig;feld", "University of Duisburg-Essen, Germany", "https://www.mas.wiwi.uni-due.de/en/team/tobias-hossfeld/");
      add_listitem("Lucjan Janowski", "AGH University of Science and Technology, Poland", "http://www.kt.agh.edu.pl/~janowski/");
