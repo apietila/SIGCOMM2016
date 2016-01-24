@@ -21,7 +21,7 @@
 
 <h3>What is a Poster?</h3>
 
-<p>We expect both poster and demo presenters to prepare a poster. A poster is A0 paper size in portrait mode (841 × 1189mm), to which you can affix visually appealing material that describes your research. Alternatively, you can use the space as a continuum. You should prepare the best material (visually appealing and succinct) that effectively communicates your research problem, techniques, results, and what is novel/important about the work. You do not submit such a large-format image; only an abstract describing in text what the poster would present. The abstract should clearly state: (a) the problem being addressed, (b) what makes this problem interesting, important, and difficult, (c) your approach to the problem, and (d) the key contribution.</p>
+<p>We expect both poster and demo presenters to prepare a poster. A poster is A0 paper size in portrait mode (841 x 1189mm), to which you can affix visually appealing material that describes your research. Alternatively, you can use the space as a continuum. You should prepare the best material (visually appealing and succinct) that effectively communicates your research problem, techniques, results, and what is novel/important about the work. You do not submit such a large-format image; only an abstract describing in text what the poster would present. The abstract should clearly state: (a) the problem being addressed, (b) what makes this problem interesting, important, and difficult, (c) your approach to the problem, and (d) the key contribution.</p>
 
 <h3>What To Submit</h3>
 

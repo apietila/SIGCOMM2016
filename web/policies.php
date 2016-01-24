@@ -8,7 +8,7 @@
 <h2>ACM SIGCOMM Harassment Policy</h2>
 
 <p>
-	The open exchange of ideas and the freedom of thought and expression are central to ACM’s aims and goals. These require 
+	The open exchange of ideas and the freedom of thought and expression are central to ACM&#39;s aims and goals. These require 
 	an environment that recognizes the inherent worth of every person and group, that fosters dignity, understanding, and 
 	mutual respect, and that embraces diversity. For these reasons, ACM is dedicated to providing a harassment-free experience 
 	for participants at our events and in our programs.
@@ -21,7 +21,7 @@
 	gender, veteran status, or any other status protected by laws in which the conference or program is taking place, will 
 	not be tolerated. Harassment includes the use of abusive or degrading language,  intimidation, stalking, harassing 
 	photography or recording, inappropriate physical contact, and unwelcome sexual attention. A response that the participant 
-	was “just joking,” or “teasing,” or being “playful,” will not be accepted.
+	was &amp;just joking,&amp; or &amp;teasing,&amp; or being &amp;playful,&amp; will not be accepted.
 </p>
 <p>
 	Individuals violating these standards may be sanctioned or excluded from further participation at the discretion of 
