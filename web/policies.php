@@ -21,7 +21,7 @@
 	gender, veteran status, or any other status protected by laws in which the conference or program is taking place, will 
 	not be tolerated. Harassment includes the use of abusive or degrading language,  intimidation, stalking, harassing 
 	photography or recording, inappropriate physical contact, and unwelcome sexual attention. A response that the participant 
-	was &amp;just joking,&amp; or &amp;teasing,&amp; or being &amp;playful,&amp; will not be accepted.
+	was &quot;just joking,&quot; or &quot;teasing,&quot; or being &quot;playful,&quot; will not be accepted.
 </p>
 <p>
 	Individuals violating these standards may be sanctioned or excluded from further participation at the discretion of 
