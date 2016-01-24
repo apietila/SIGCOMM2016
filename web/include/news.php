@@ -1,4 +1,5 @@
 <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="datetbl">
+  <?php add_dateitem("January 23, 2016", "The  <a href=\"postersdemos.php\">Call for Posters &amp; Demos</a> is online") ?>
   <?php add_dateitem("January 5, 2016", "SIGCOMM 2016 <a href=\"submission.php\">paper submission instructions</a> are online") ?>
   <?php add_dateitem("January 5, 2016", "Workshop dates announced") ?>
   <?php add_dateitem("December 22, 2015", "SIGCOMM 2016 <a href=\"pc.php\">Program Committee</a> announced") ?>
