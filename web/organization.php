@@ -14,7 +14,7 @@
   <li data-role="list-divider">Local Arrangements Chairs</li>
   <?php
      add_listitem("Fab&#237;ola Greve", "UFBA, Brazil", "http://homes.dcc.ufba.br/~fabiola/");
-     add_listitem("Leobino Sampaio", "UFBA, Brazil", "");
+     add_listitem("Leobino Sampaio", "UFBA, Brazil", "http://homes.dcc.ufba.br/~leobino/");
   ?>
 	
   <li data-role="list-divider">Workshop Chairs</li>
