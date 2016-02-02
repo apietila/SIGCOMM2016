@@ -110,7 +110,7 @@ can be done at: <a href="https://lancomm16.hotcrp.com/">https://lancomm16.hotcrp
     add_listitem("Diego Grosz", "Instituto Balseiro, Argentina", "");
     add_listitem("Alejandro Hevia", "Universidad de Chile, Chile", "http://users.dcc.uchile.cl/~ahevia/");
     add_listitem("Nicol&aacute;s Hidalgo", "Universidad de Santiago, Chile", "http://lahuen.dcc.uchile.cl/~nhidalgo/HOME.html");
-    add_listitem("Federico La Roca", "Universidad de la Rep&uacute;blica, Uruguay","");
+    add_listitem("Federico Larroca", "Universidad de la Rep&uacute;blica, Uruguay","http://iie.fing.edu.uy/~flarroca/");
     add_listitem("Marco Mellia", "Politecnico di Torino, Italy", "http://www.telematica.polito.it/public/faculty/marco-mellia");
     add_listitem("Daniel Menasch&eacute;", "Federal University of Rio de Janeiro, Brazil", "http://www.dcc.ufrj.br/~sadoc/");
     add_listitem("Antonio Rocha", "Federal Fluminense University of Rio de Janeiro, Brazil", "http://www2.ic.uff.br/~arocha/");

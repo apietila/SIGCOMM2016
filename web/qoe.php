@@ -113,7 +113,7 @@ can be done at: <a href="https://internetqoe16.hotcrp.com/">https://internetqoe1
   <?php
      add_listitem("Suman Banerjee", "University Wisconsin Madison, USA", "http://pages.cs.wisc.edu/~suman/");
      add_listitem("Rocky Chang", "The Hong Kong Polytechnic University, Hong Kong", "http://www4.comp.polyu.edu.hk/~csrchang/");
-     add_listitem("Kimberly Claffy", "CAIDA/USCD, USA","http://www.caida.org/~kc/");
+     add_listitem("kc Claffy", "CAIDA/USCD, USA","http://www.caida.org/~kc/");
      add_listitem("Sebastian Egger", "Austrian Institute of Technology, Austria", "");
      add_listitem("Markus Fiedler", "BTH Karlskrona, Sweden", "http://www.its.bth.se/staff/mfi/");
      add_listitem("Emir Halepovic", "AT&amp;T Research, USA", "http://www.research.att.com/people/Halepovic_Emir/index.html?fbid=GD20my-LeNL");     
