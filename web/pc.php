@@ -44,7 +44,7 @@
     add_listitem("Michael Mitzenmacher", "Harvard University, USA", "http://www.eecs.harvard.edu/~michaelm/");
     add_listitem("Jeff Mogul", "Google, USA", "http://research.google.com/pubs/JeffreyMogul.html");
     add_listitem("Andrew Moore", "University of Cambridge, UK", "http://www.cl.cam.ac.uk/~awm22/");
-    add_listitem("Radhika Mysore", "Google, USA", "http://research.google.com/pubs/RadhikaNiranjanMysore.html");
+    add_listitem("Radhika Niranjan Mysore", "Google, USA", "http://research.google.com/pubs/RadhikaNiranjanMysore.html");
     add_listitem("Dave Oran", "Cisco, USA", "http://www.cisco.com/");
     add_listitem("Venkat Padmanabhan", "Microsoft, India", "http://research.microsoft.com/en-us/people/padmanab/");
     add_listitem("George Papen", "UC San Diego, USA", "http://fleece.ucsd.edu/~gpapen/");
