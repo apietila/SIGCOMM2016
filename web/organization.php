@@ -76,6 +76,12 @@
      add_listitem("Anna-Kaisa Pietilainen", "INRIA, France", "https://muse.inria.fr/~apietila/");
   ?>
 
+  <li data-role="list-divider">N2Women Chairs</li>
+  <?php
+     add_listitem("Aruna Balasubramanian", "Stony Brook University, USA", "https://www3.cs.stonybrook.edu/~arunab/");
+     add_listitem("Te-Yuan Huang", "Netflix, USA", "");
+   ?>
+
   <li data-role="list-divider">Conference Coordinator</li>
   <?php
      add_listitem("Yashar Ganjali", "University of Toronto, Canada", "http://www.cs.toronto.edu/~yganjali/");
