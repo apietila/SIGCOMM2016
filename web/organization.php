@@ -67,7 +67,7 @@
 
   <li data-role="list-divider">Treasurer</li>
   <?php
-     add_listitem("Christophe Diot", "Technicolor, France", "http://www.technicolor.com/en/christophe-diot");
+     add_listitem("Christophe Diot", "Safran Analytics, France", "");
   ?>
  
   <li data-role="list-divider">Web Chairs</li>
