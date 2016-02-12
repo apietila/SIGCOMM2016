@@ -7,11 +7,9 @@
 
 <h2>Zika Virus</h2>
 
-<p>SIGCOMM'16 organization committee is following closely the latest news and recommendations by the WHO and the Brazilian Government concerning the zika virus alert. We will maintain updated travel advice information on this page.</p>
+<p>SIGCOMM'16 organization committee is following closely the latest news and recommendations by the World Health Organization (WHO) and the Brazilian Government concerning the zika virus alert. We will maintain updated travel advice information on this page.</p>
 
-<p>Based on the current knowledge, it is safe to travel to Brazil. The basic precaution to avoid mosquito bites is using repellents; wearing light-coloured, long-sleeved clothing (not too tight); using small towels to wipe away body sweat; using physical barriers (screens, closed doors and windows); and sleeping in air-conditioned rooms.</p>
-
-<p>More information can be found on the sites below:
+<p>For the moment, we refer to the following pages for further information about the alert:
 
 <ul>
     <li><a href="http://www.who.int/mediacentre/factsheets/zika/en/">WHO's information page on the Zika Virus</a></li>
