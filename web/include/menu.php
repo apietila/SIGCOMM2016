@@ -137,7 +137,7 @@
       <h4>Local Information</h4>
       <ul data-role="listview" data-inset="false">
         <li class="subnav <?php if ($mypage=="advisory.php") echo('navselected') ?>" data-icon="false">
-          <a href="advisory.php">Travel Advisory Notes</a>
+          <a href="advisory.php">Advice for Travellers</a>
         </li>
 
         <li class="subnav <?php if ($mypage=="local.php") echo('navselected') ?>" data-icon="false">
