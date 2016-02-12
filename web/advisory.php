@@ -9,7 +9,7 @@
 
 <p>SIGCOMM'16 organization committee is following closely the latest news and recommendations by the WHO and the Brazilian Government concerning the zika virus alert. We will maintain updated travel advice information on this page.</p>
 
-<p>Based on the current knowledge it is save to travel to Brazil. The basic precaution to take is to avoid insect bites by using insect repellent; wearing clothes (light-coloured, long-sleeved, not too tight); using physical barriers (screens, closed doors and windows); and sleeping under mosquito net.</p>
+<p>Based on the current knowledge it is save to travel to Brazil. The basic precaution to take is to avoid insect bites by using insect repellent; wearing light-coloured, long-sleeved clothes (not too tight); using physical barriers (screens, closed doors and windows); and sleeping in air-conditioned rooms.</p>
 
 <p>More information can be found on the sites below:
 
