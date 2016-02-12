@@ -32,7 +32,7 @@ The 2016 site is based on the 2014 site. The repository for the 2016 site is at 
 
 You are welcome to reuse and adapt the 2016 code under the same Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License and the same sharing conditions as above.
 
-The 2016 web chair is Anna-Kaisa Pietilainen.
+The 2016 web chairs are Anna-Kaisa Pietilainen <annakaisa.pietilainen@gmail.com> and Weverton Cordeira <weverton.cordeiro@inf.ufrgs.br>.
 
 NOTE: The site is still under construction and this repository will be updated as the web site evolves.
 
