@@ -7,7 +7,7 @@
 
 <h2>Zika Virus</h2>
 
-<p>SIGCOMM'16 organization committee is following closely the latest news and recommendations by the World Health Organization (WHO) and the Brazilian Government concerning the zika virus alert. We will maintain updated travel advice information on this page.</p>
+<p>SIGCOMM'16 organization committee is following closely the latest news and recommendations by the World Health Organization (WHO) and the Brazilian Government concerning the Zika virus alert. We will maintain updated travel advice information on this page.</p>
 
 <p>For the moment, we refer to the following pages for further information about the alert:
 

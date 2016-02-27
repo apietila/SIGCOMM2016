@@ -7,7 +7,7 @@
      $conferenceItems = array("cfp.php", "submission.php", "program.php");
      $workshopItems = array ("gaia.php", "hotmiddlebox.php", "qoe.php", "lancomm.php", "netpl.php", "cfwp.php", "workshops.php");
      $socialEventItems = array ("reception.php", "dinner.php", "banquet.php");
-     $localInfoItems = array ("local.php", "travel.php", "visa.php", "kids.php", "advisory.php");
+     $localInfoItems = array ("local.php", "travel.php", "visa.php", "kids.php", "advisory.php", "poll.php");
      $organizationItems = array ("organization.php", "policies.php");
      
    ?>
@@ -136,6 +136,10 @@
          <?php if (in_array ($mypage, $localInfoItems)) echo('data-collapsed="false"') ?> class="navgroup">
       <h4>Local Information</h4>
       <ul data-role="listview" data-inset="false">
+        <li class="subnav <?php if ($mypage=="poll.php") echo('navselected') ?>" data-icon="false">
+          <a href="poll.php">Poll</a>
+        </li>
+
         <li class="subnav <?php if ($mypage=="advisory.php") echo('navselected') ?>" data-icon="false">
           <a href="advisory.php">Advice for Travellers</a>
         </li>
