@@ -102,6 +102,10 @@
       </ul>
     </div>
 
+    <li class="notlast <?php if ($mypage=="preview.php") echo('navselected') ?>" data-icon="false">
+      <a href="preview.php">Topic Preview</a>
+    </li>
+    
     <!--
     <div data-role="collapsible" data-theme="a" data-content-theme="a" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u" data-iconpos="right"
          <?php if (in_array ($mypage, $socialEventItems)) echo('data-collapsed="false"') ?> class="navgroup">

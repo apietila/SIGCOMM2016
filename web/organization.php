@@ -23,6 +23,12 @@
      add_listitem("Christian E Rothenberg", "UNICAMP, Brazil", "http://www.dca.fee.unicamp.br/~chesteve/");
   ?>
 
+ <li data-role="list-divider">N2Women Chairs</li>
+ <?php
+    add_listitem("Aruna Balasubramanian", "Stony Brook University, USA", "https://www3.cs.stonybrook.edu/~arunab/");
+    add_listitem("Te-Yuan Huang", "Netflix, USA", "");
+  ?>
+
   <li data-role="list-divider">Poster Chairs</li>
   <?php
      add_listitem("Marco Canini", "Universit&#233; Catholique de Louvain, Belgium", "http://perso.uclouvain.be/marco.canini/");
