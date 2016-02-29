@@ -13,7 +13,7 @@ of this year's paper presentations.</p>
 
 <p>Stay tuned: the topic preview schedule will be released soon!</p>
 
-<p>Questions? Find us or e-mail us.</p>
+<p>Questions? Do not hesitate to contact us!</p>
 
 <h2>Organizers</h2>
 
