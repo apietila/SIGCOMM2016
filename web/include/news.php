@@ -1,5 +1,5 @@
 <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="datetbl">
-  <?php add_dateitem("February 26, 2016", "We would like to consult the SIGCOMM community and prospective attendees about your plans to attend the conference this year. Please visit the <a href=\"poll.php\">poll page under the local information section</a> for further information") ?>
+  <?php /* add_dateitem("February 26, 2016", "We would like to consult the SIGCOMM community and prospective attendees about your plans to attend the conference this year. Please visit the <a href=\"poll.php\">poll page under the local information section</a> for further information") */ ?>
   <?php add_dateitem("February 25, 2016", "NetPL workshop <a href=\"netpl.php\">call for participation and presentations</a> online") ?>
   <?php add_dateitem("February 12, 2016", "<a href=\"advisory.php\">Advice for Travellers</a> to SIGCOMM'16 is online") ?>
   <?php add_dateitem("February 8, 2016", "This year SIGCOMM had a total of 228 paper submissions!") ?>

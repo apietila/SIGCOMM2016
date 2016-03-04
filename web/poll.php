@@ -5,6 +5,8 @@
 
 <h1>Poll about SIGCOMM'16 in Salvador</h1>
 
+<p><font color="#ff0000"><b>The poll is closed now. Thank you, we received over 500 responses.</b></font></p>
+
 <p>We would like to consult if, and how, the epidemic of Zika virus would affect your plans of attending SIGCOMM in August 2016. If you are considering attending the conference, please respond to the poll. The form contains only four direct questions and can be visited from the link below (it will be open between February, 24th and Thursday March, 3rd).</p>
 
 <p><a href="http://goo.gl/forms/GQ7bN3Z7Mn">http://goo.gl/forms/GQ7bN3Z7Mn</a></p>
