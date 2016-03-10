@@ -17,7 +17,7 @@
 
 <!-- <h2>Technical Program</h2> -->
 
-<!-- <?php include("include/program/todo.php"); ?> -->
+<!-- <?php /* include("include/program/todo.php"); */ ?> -->
 
 <h2>Call for Participation and Presentations</h2>
 
