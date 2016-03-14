@@ -5,6 +5,8 @@
 
 <h1>Advice for Travellers</h1>
 
+<?php include("include/reloc.php"); ?>
+
 <h2>Zika Virus</h2>
 
 <p>SIGCOMM'16 organization committee is following closely the latest news and recommendations by the World Health Organization (WHO) and the Brazilian Government concerning the Zika virus alert. We will maintain updated travel advice information on this page.</p>

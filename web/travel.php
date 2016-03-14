@@ -5,6 +5,8 @@
 
 <h1>Hotels and Travel</h1>
 
+<?php include("include/reloc.php"); ?>
+
 <h2>Hotels</h2>
 
 <p>

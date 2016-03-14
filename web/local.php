@@ -5,6 +5,8 @@
 
 <h1>Venue</h1>
 
+<?php include("include/reloc.php"); ?>
+
 <h2>Bahia Othon Palace</h2>
 
 <img src="images/venue1.jpg" class="img"></img>
