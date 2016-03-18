@@ -5,14 +5,14 @@
 
 <h1>ACM SIGCOMM Global Access to the Internet for All (GAIA) Workshop</h1>
 
-<p>Co-located with ACM SIGCOMM'16, August 22-26, 2016, Salvador, Brazil.</p>
+<p>Co-located with ACM SIGCOMM'16, August 22-26, 2016, <s>Salvador</s> Florian&oacute;polis, Brazil.</p>
 
 <h2>Important Dates</h2>
 
 <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="datetbl">
     <?php add_dateitem("December 15, 2015", "Call for papers published"); ?>
-    <?php add_dateitem("<s>March 11</s> March 15, 2016", "Paper registration deadline <font color=\"#ff0000\"><b>(extended)</b></font>"); ?>
-    <?php add_dateitem("<s>March 18</s> March 28, 2016", "Paper submission deadline <font color=\"#ff0000\"><b>(extended)</b></font>"); ?>
+    <?php add_dateitem("<s>March 11</s> March 15, 2016", "Paper registration deadline <span class=\"highlighttext\">(extended)</span>"); ?>
+    <?php add_dateitem("<s>March 18</s> March 28, 2016", "Paper submission deadline <span class=\"highlighttext\">(extended)</span>"); ?>
     <?php add_dateitem("April 29, 2016", "Paper acceptance notification"); ?>
     <?php add_dateitem("Late May, 2016", "Camera-ready deadline"); ?>
     <?php // add_dateitem("June, 2016", "Workshop program online"); ?>

@@ -1,4 +1,5 @@
 <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="datetbl">
+  <?php add_dateitem("March 18, 2016", "<a href=\"hotmiddlebox.php\">HotMiddlebox</a>, <a href=\"qoe.php\">Internet-QoE</a> and <a href=\"lancomm.php\">LANCOMM</a> workshops paper registration and submission deadlines extended") ?>
   <?php add_dateitem("March 14, 2016", "Relocation to Florian&oacute;polis announced") ?>
   <?php add_dateitem("March 10, 2016", "GAIA workshop <a href=\"gaia.php\">paper registration and submission deadlines</a> extended") ?>
   <?php /* add_dateitem("February 26, 2016", "We would like to consult the SIGCOMM community and prospective attendees about your plans to attend the conference this year. Please visit the <a href=\"poll.php\">poll page under the local information section</a> for further information") */ ?>
