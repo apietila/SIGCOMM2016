@@ -61,6 +61,20 @@ discussion.</p>
 lightly reviewed. No feedback will be given. Abstracts will not be
 published. The submission site is <a href="https://netpl16.hotcrp.com/">https://netpl16.hotcrp.com/</a>.</p>
 
+<h2>Invited Speakers</h2>
+
+<ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="tbl">
+  <li data-role="list-divider">Confirmed Invited Speakers</li>
+  <?php
+     add_listitem("Nikolaj Bjorner", "Microsoft Research, USA", "http://research.microsoft.com/en-us/people/nbjorner/");
+     add_listitem("Gordon Brebner", "Xilinx Labs, USA", "");
+     add_listitem("Changhoon Kim", "Barefoot Networks, USA", "");
+     add_listitem("Aurojit Panda", "UC Berkeley, USA", "https://www.eecs.berkeley.edu/~apanda/");
+     add_listitem("Haoyu Song", "Huawei, USA", "");
+     add_listitem("Yinben Xia", "Huawei, China", "");
+  ?>
+</ul>
+
 <h2>Organizers</h2>
 
 <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="tbl">
