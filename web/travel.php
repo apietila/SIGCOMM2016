@@ -10,8 +10,7 @@
 <h2>Hotels</h2>
 
 <p>
-The main conference venue is <a target="_blank" href="http://www.othon.com.br/en/hoteis/hotel-em-salvador/bahia-othon-palace#o-hotel">Bahia Othon Palace</a> hotel.
-More information about room reservation and nearby hotels coming up later.
+Information about main conference venue, room reservation, and nearby hotels coming up later.
 </p>
 
 <h2>Travel</h2>
@@ -19,29 +18,28 @@ More information about room reservation and nearby hotels coming up later.
 <h3>Airport</h3>
 
 <p>
-<a target="_blank" href="http://www.aeroportosalvador.net/en/">The Salvador's Deputado Luis Eduardo Magalh&#227;es International Airport</a> (IATA: SSA, ICAO: SBSV) 
-is one of Brazil's main airports. All of the biggest Brazilian airlines have flights to the Bahian capital city. The city also receives flights 
-from the main hubs of Europe, South America, and the United States. Scheduled Airlines:
+The <a target="_blank" href="http://www.aeroportoflorianopolis.net/en/">Herc&iacute;lio Luz International Airport</a> (IATA: FLN, ICAO: SBFL) is the airport serving the city of Florian&oacute;polis
+and surroundings. The city is served by all major Brazilian airlines, and can be easily reached from several major international airports. Airline companies offering regular services to Florian&oacute;polis include:
 <ul>
-    <li>TAM (Domestic flights)</li>
-    <li>Gol (Domestic flights and Buenos Aires)</li>
-    <li>Avianca (Domestic flights)</li>
-    <li>Azul Linhas A&#233;reas (Domestic and regional flights)</li>
-    <li>Passaredo (Regional flights)</li>
-    <li>TAP (Lisbon)</li>
-    <li>American Airlines (Miami)</li>
-    <li>Condor (Frankfurt)</li>
-    <li>Aerolineas Argentinas (Buenos Aires)</li>
-    <li>Air Europa (Madrid)</li>
+    <li>Austral L&iacute;neas A&eacute;reas (Buenos Aires and Int&#39;l connections)</li>
+    <li>Aerol&iacute;neas Argentinas (Buenos Aires and Int&#39;l connections)</li>
+    <li>Avianca (Domestic flights and Int&#39;l connections)</li>
+    <li>TAM Airlines (Domestic flights and Int&#39;l connections)</li>
+    <li>Gol Airlines (Domestic flights, Buenos Aires, and Int&#39;l connections)</li>
+    <li>Azul Linhas A&#233;reas (Domestic flights and Int&#39;l connections)</li>
 </ul>
 </p>
 
-<h3>From Airport to Conference Venue</h3>
+<p>The map below shows an overview of direct and one-stop flight options to Florian&oacute;polis (green star in the map), departing from some of the major Brazilian (red spot) and International (blue spot) airports. A <a href="files/flights_fln.pdf" rel="external">PDF file</a> is also available for your convenience. Please note that the information contained below is not exhaustive and subject to updates. You are advised to consult your travel agent for further information.</p>
 
-<p>The conference venue is located about 27km away from the airport (see map below). Read more about the travel options at <a target="_blank" href="http://wikitravel.org/en/Salvador">WikiTravel</a>.</p>
+<p>You may click on a route in the list (line linking two cities in the map) to see the airline companies that serve it. You may also click on a city to check which flight options to Florian&oacute;polis are available, and respective connections. For the sake of legibility, you may opt to show/hide layers (full screen mode is advisable), to highlight flights from some major Brazilian airports only.</p>
 
 <div class="center">
-	<iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d124422.20073902117!2d-38.496203619554215!3d-12.959449160922192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x7161625d209fc53%3A0x86ba3d30122b8d76!2sA%C3%A9roport+international+de+Salvador+-+Pra%C3%A7a+Gago+Coutinho%2C+s%2Fn+-+S%C3%A3o+Crist%C3%B3v%C3%A3o%2C+Salvador+-+BA%2C+41520-970!3m2!1d-12.9110977!2d-38.3312411!4m5!1s0x716035d591e29bb%3A0xa45180445486b085!2sHotel+Bahia+Othon+Palace+-+Avenida+Oce%C3%A2nica+-+Ondina%2C+Salvador+-+Bahia%2C+Br%C3%A9sil!3m2!1d-13.010478299999999!2d-38.5135307!5e0!3m2!1sfr!2sfr!4v1437137106865" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  <iframe src="https://www.google.com/maps/d/embed?mid=zU2H7LtOyGB8.kbHuHAFy7v64" width="700" height="480"></iframe>
 </div>
+
+<h3>From Airport to Conference Venue</h3>
+
+<p>Information about the conference venue will be released soon.</p>
 
 <?php include ("include/footer.php"); ?>

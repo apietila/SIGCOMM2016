@@ -7,35 +7,25 @@
 
 <?php include("include/reloc.php"); ?>
 
-<h2>Bahia Othon Palace</h2>
+<h2>Florian&oacute;polis, Brazil</h2>
 
-<img src="images/venue1.jpg" class="img"></img>
-<img src="images/venue2.jpg" class="img"></img>
-
-<p>
-SIGCOMM 2016 conference will be hosted at the 
-<a target="_blank" href="http://www.othon.com.br/en/hoteis/hotel-em-salvador/bahia-othon-palace#o-hotel">Bahia Othon Palace</a>: 
-<i>"The irresistible charm of Bahia Othon Palace begins with its location: the top of a cliff, facing the turquoise waters of Ondina Beach in Salvador.
-And it was this breathtaking view that the architects Paulo Cas&#233; and Luis Accioly, responsible for the project, decided would be enjoyed by all guests, 
-making all the windows opened to the only ocean of Salvador. Perfectly integrated with nature, with colonial arches, the hotel offers 
-the utmost sophistication and comfort."</i>.
-</p>
-
-<h2>Salvador, Brazil</h2>
-
-<iframe width="100%" height="480" src="//www.youtube.com/embed/kqESu3RqX5Y?wmode=opaque&showinfo=0&amp;autoplay=0&amp;controls=1&amp;modestbranding=1&amp;vq=&amp;rel=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="480" src="//www.youtube.com/embed/6Y0TXCKyamg?wmode=opaque&showinfo=0&amp;autoplay=0&amp;controls=1&amp;modestbranding=1&amp;vq=&amp;rel=0" frameborder="0" allowfullscreen></iframe>
 
 <p>
-Salvador, the capital of the Northeastern Brazilian state of Bahia, is also known as Brazil's "Capital of Joy". Its first colonial capital, the city 
-is one of the oldest in the Americas. Salvador is notable in Brazil for its cuisine, music and architecture. The African influence in many cultural 
-aspects of the city makes it the centre of Afro-Brazilian culture. The Historic Centre of Salvador, called Pelourinho, is renowned for its 
-Portuguese colonial architecture with historical monuments dating from the 17th to the 19th centuries, and was declared a World Heritage Site by 
-UNESCO in 1985. Salvador is located on a small, roughly triangular peninsula that separates All Saints Bay from the open waters of the Atlantic Ocean. 
-Salvador is home of the Arena Fonte Nova, the city's stadium in the 2013 FIFA Confederations Cup and World Cup 2014.
+<i>&quot;It is not for nothing that the capital of Santa Catarina is known as the Island of Magic. The natural beauty of Florian&oacute;polis enchants at first sight. There are about a hundred beaches spread throughout the coastal island and the small continental peninsula forming the city. There are many other attractions to visit, as the beautiful and agitated Lagoa da Concei&ccedil;&atilde;o (Concei&ccedil;&atilde;o Lagoon), the peaceful Lagoa do Peri (Peri Lagoon), the traditional Centro Hist&oacute;rico (Historical Center), the cosmopolitan Avenida Beira-Mar (Seashore Avenue), the bucolic Azorean districts of Santo Ant&ocirc;nio de Lisboa and Ribeir&atilde;o da Ilha, besides Portuguese forts, museums, churches, theaters and the city postcard: the Herc&iacute;lio Luz Bridge.&quot;</i>
 </p>
 
-<img src="images/Pelourinho_Salvador.jpg" class="img" alt="Image: http://wikitravel.org/shared/File:Pelourinho_Salvador.jpg"></img>
-<img src="images/Salvador_Brazil.jpg" class="img" alt="Image: http://wikitravel.org/shared/File:Salvador_Brazil.jpg"></img>
+<p>
+You may find further information about Florian&oacute;polis and surroundings in the following links:
+<ul>
+    <li><a href="http://turismo.sc.gov.br/en/cidade/florianopolis/">Touristic Information for Florian&oacute;polis</a></li>
+    <li><a href="http://turismo.sc.gov.br/en/destinos/grande-florianopolis/">Touristic Information for Greater Florian&oacute;polis</a></li>
+</ul>
+</p>
 
+<div align="center">
+  <img src="images/florianopolis/800px-Armacao_florianopolis_brazil.jpg" class="img" alt="Image: http://wikitravel.org/en/File:Armacao_florianopolis_brazil.jpg" width="400px"></img>
+  <img src="images/florianopolis/Lagoa_da_conceicao1.jpg" class="img" alt="Image: http://wikitravel.org/en/File:Lagoa_da_conceicao1.jpg" width="400px"></img>
+</div>
 
 <?php include ("include/footer.php"); ?>

@@ -140,13 +140,9 @@
          <?php if (in_array ($mypage, $localInfoItems)) echo('data-collapsed="false"') ?> class="navgroup">
       <h4>Local Information</h4>
       <ul data-role="listview" data-inset="false">
-        <li class="subnav <?php if ($mypage=="poll.php") echo('navselected') ?>" data-icon="false">
+        <!--<li class="subnav <?php if ($mypage=="poll.php") echo('navselected') ?>" data-icon="false">
           <a href="poll.php">Poll</a>
-        </li>
-
-        <li class="subnav <?php if ($mypage=="advisory.php") echo('navselected') ?>" data-icon="false">
-          <a href="advisory.php">Advice for Travellers</a>
-        </li>
+        </li>-->
 
         <li class="subnav <?php if ($mypage=="local.php") echo('navselected') ?>" data-icon="false">
           <a href="local.php">Venue</a>
@@ -167,6 +163,10 @@
           <a href="kids.php">Support for Children</a>
         </li>
         -->
+
+        <li class="subnav <?php if ($mypage=="advisory.php") echo('navselected') ?>" data-icon="false">
+          <a href="advisory.php">Advice for Travellers</a>
+        </li>
       </ul>
     </div>
 

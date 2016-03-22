@@ -18,7 +18,7 @@
   <?php add_dateitem("August 17, 2015", "<a href=\"cfp.php\">Call for papers online</a>") ?>
   <?php add_dateitem("June 24, 2015", "<a href=\"http://cseweb.ucsd.edu/~vahdat/\" target=\"_blank\">Amin Vahdat</a> and <a href=\"http://stanford.edu/~skatti/\" target=\"_blank\">Sachin Katti</a> are the TPC co-chairs of SIGCOMM 2016") ?>
   <?php add_dateitem("June 16, 2015", "<a href=\"cft.php\">Call for tutorials online</a>") ?>
-  <?php add_dateitem("June 3, 2015", "&#34;<a href=\"local.php\">Bahia Othon Palace</a>&#34; selected as the conference venue") ?>
+  <?php add_dateitem("June 3, 2015", "<s>&#34;Bahia Othon Palace&#34; selected as the conference venue</s>") ?>
   <?php add_dateitem("March 31, 2015", "Web site online") ?>
   <?php
     // the active newslibtn code is longer (and very ugly too), but it solves a minor problem related to the plus/minus sign, which does not change when news are expanded/collapsed --weverton
