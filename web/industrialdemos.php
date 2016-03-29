@@ -15,7 +15,7 @@
 
 <h2>How to Submit?</h2>
 
-<p>Please submit a small description of your demo (up to one page) together with the names and affiliation of the demo presenters at https://sigcomm-industrialdemos16.hotcrp.com/ The SIGCOMM industrial liaison board is responsible for the selection of industrial demo program.</p>
+<p>Please submit a small description of your demo (up to one page) together with the names and affiliation of the demo presenters at <a href="https://sigcomm-industrialdemos16.hotcrp.com/">https://sigcomm-industrialdemos16.hotcrp.com/</a>. The SIGCOMM industrial liaison board is responsible for the selection of industrial demo program.</p>
 
 <p>Demos of research projects from industry are better suited for the general SIGCOMM demo session; the industrial demo session has more of a product focus. Feel free to contact any member of the SIGCOMM industrial liaison board or the demo chairs if you have any questions.</p>
 
