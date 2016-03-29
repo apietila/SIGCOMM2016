@@ -9,7 +9,7 @@
      $socialEventItems = array ("reception.php", "dinner.php", "banquet.php");
      $localInfoItems = array ("local.php", "travel.php", "visa.php", "kids.php", "advisory.php", "poll.php");
      $organizationItems = array ("organization.php", "policies.php");
-     
+     $demoItems = array("postersdemos.php", "industrialdemos.php");
    ?>
   <a href="index.php"><img src="images/logo.png" alt="ACM SIGCOMM 2016, August 2016, Salvador, Brazil" /></a>
   
@@ -93,11 +93,14 @@
     </div>
 
     <div data-role="collapsible" data-theme="a" data-content-theme="a" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u" data-iconpos="right"
-         <?php if ($mypage=="postersdemos.php") echo('data-collapsed="false"') ?> class="navgroup">
+         <?php if (in_array ($mypage, $demoItems)) echo('data-collapsed="false"') ?> class="navgroup">
       <h4>Posters &amp; Demos</h4>
       <ul data-role="listview" data-inset="false">
         <li class="subnav <?php if ($mypage=="postersdemos.php") echo('navselected') ?>" data-icon="false">
           <a href="postersdemos.php">Call for Posters &amp; Demos</a>
+        </li>
+        <li class="subnav <?php if ($mypage=="industrialdemos.php") echo('navselected') ?>" data-icon="false">
+          <a href="industrialdemos.php">Call for Industrial Demos</a>
         </li>
       </ul>
     </div>
