@@ -10,6 +10,7 @@
      $localInfoItems = array ("local.php", "travel.php", "visa.php", "kids.php", "advisory.php", "poll.php");
      $organizationItems = array ("organization.php", "policies.php");
      $demoItems = array("postersdemos.php", "industrialdemos.php");
+     $tutorialItems = array("cft.php", "tutorials.php");
    ?>
   <a href="index.php"><img src="images/logo.png" alt="ACM SIGCOMM 2016, August 2016, Salvador, Brazil" /></a>
   
@@ -83,9 +84,12 @@
     </div>
 
     <div data-role="collapsible" data-theme="a" data-content-theme="a" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u" data-iconpos="right"
-         <?php if ($mypage=="cft.php") echo('data-collapsed="false"') ?> class="navgroup">
+         <?php if (in_array ($mypage, $tutorialItems)) echo('data-collapsed="false"') ?> class="navgroup">
       <h4>Tutorials</h4>
       <ul data-role="listview" data-inset="false">
+        <li class="subnav <?php if ($mypage=="tutorials.php") echo('navselected') ?>" data-icon="false">
+          <a href="tutorials.php">Accepted Tutorials</a>
+        </li>
         <li class="subnav <?php if ($mypage=="cft.php") echo('navselected') ?>" data-icon="false">
           <a href="cft.php">Call for Tutorials</a>
         </li>
