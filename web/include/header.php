@@ -87,8 +87,9 @@
     <script>$.mobile || document.write('<script src="js/jquery.mobile-1.4.5.min.js"><\/script>')</script>
 
     <script src="js/jqm-docs.js"></script>
-    <script src="js/script.js"></script>
-z
+    
+    <script src="js/script.js" type='text/javascript'></script>
+
 </head>
 
 <body>
@@ -101,7 +102,7 @@ z
 
   <div class="header" data-role="header" data-theme="a" data-position="inline">
     <div>
-    <a href="index.php"><img src="images/logo.png" alt="ACM SIGCOMM 2016, Salvador, Brazil"></a>
+    <a href="index.php"><img src="images/logo.png" alt="ACM SIGCOMM 2016, Florian&oacute;polis, Brazil"></a>
     </div>
     <a href="#" onclick="$.mobile.silentScroll($.mobile.activePage.find('.leftnav').position().top)" class="ui-btn-right" data-corners="true" data-icon="grid">MENU</a>
   </div>
