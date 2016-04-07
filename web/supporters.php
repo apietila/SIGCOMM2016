@@ -15,8 +15,9 @@
 
 <div class="sponsors">
 	<a href="//www.huawei.com/"><img src="images/sponsors/huawei.png" alt="Huawei" style="width: 130px;"/></a>
-	<a href="//www.google.com/"><img src="images/sponsors/google.png" alt="Google" style="width: 230px;"/></a>
+	<a href="//www.ericsson.com/"><img src="images/sponsors/ericsson.png" alt="Ericsson" style="width: 150px;"/></a><br/>
 	<a href="//research.facebook.com/"><img src="images/sponsors/facebook.png" alt="Facebook" style="width: 330px;"/></a>
+	<a href="//www.google.com/"><img src="images/sponsors/google.png" alt="Google" style="width: 230px;"/></a>
 </div>
 
 
