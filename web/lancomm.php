@@ -90,7 +90,7 @@ can be done at: <a href="https://lancomm16.hotcrp.com/">https://lancomm16.hotcrp
     
   <li data-role="list-divider">Workshop Advisor</li>
   <?php
-     add_listitem("Renata Teixeira", "INRIA, France", "https://who.rocq.inria.fr/Renata.Teixeira/");
+     add_listitem("Renata Teixeira", "Inria, France", "https://who.rocq.inria.fr/Renata.Teixeira/");
   ?>
 
   <li data-role="list-divider">Program Commitee</li>

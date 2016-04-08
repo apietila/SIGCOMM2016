@@ -6,7 +6,7 @@
 <h1>Call for Workshop Proposals</h1>
 
 <p>
-        SIGCOMM 2016 is soliciting proposals for new and recurring workshops. SIGCOMM 2016 will hold multiple one-day workshops in conjunction with the conference, to be held in Salvador, Brazil from August 22 to 26, 2016. Workshops will take place on Monday, August 22 and Friday, August 26.
+        SIGCOMM 2016 is soliciting proposals for new and recurring workshops. SIGCOMM 2016 will hold multiple one-day workshops in conjunction with the conference, to be held in <s>Salvador</s> Florian&oacute;polis, Brazil from August 22 to 26, 2016. Workshops will take place on Monday, August 22 and Friday, August 26.
 </p>
 
 <p>

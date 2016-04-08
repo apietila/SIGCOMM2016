@@ -71,7 +71,7 @@
 
 <h2>Biographies</h2>
 
-<p><b>Timur Friedman Jacobus (Kobus) Van der Merwe</b> is the Jay Lepreau Professor in the School of Computing and co-director of the Flux Research Group at the University of Utah. He received a PhD from the Computer Laboratory at Cambridge University in England in 1998 and M. Eng and B. Eng degrees in electronic engineering from the University of Pretoria in South Africa in 1991 and 1989 respectively. He is the principal investigator for the PhantomNet mobile networking testbed.</p>
+<p><b>Jacobus (Kobus) Van der Merwe</b> is the Jay Lepreau Professor in the School of Computing and co-director of the Flux Research Group at the University of Utah. He received a PhD from the Computer Laboratory at Cambridge University in England in 1998 and M. Eng and B. Eng degrees in electronic engineering from the University of Pretoria in South Africa in 1991 and 1989 respectively. He is the principal investigator for the PhantomNet mobile networking testbed.</p>
 
 <p><b>Robert Ricci</b> is a Research Assistant Professor in the University of Utah&#39;s School of Computing and co-director of the Flux Research Group. His primary research interests are in the fields of operating systems and networking. He has been building environments for the evaluation of networked computer systems since 2000, starting with the Emulab testbed and now many of its follow-ups, including PhantomNet and CloudLab. He earned a PhD from the University of Utah in 2010, and an Honors BS in 2001.</p>
 
@@ -83,7 +83,7 @@
 
 <p style="padding-left: 2.5em; text-indent:-2.5em;"><b style="padding-right: 1em;"><a name="ref2">[2]</a></b> PhantomNet - Mobility Testbed. <a rel="external" href="https://www.phantomnet.org/">https://www.phantomnet.org/</a>.</p>
 
-<p style="padding-left: 2.5em; text-indent:-2.5em;"><b style="padding-right: 1em;"><a name="ref3">[3]</a></b> Report and Order on Significant Changes to Experimental Rules. <a rel="external" href="https://www.fcc.gov/document/report-and-order-significant-changes-experimental-rules">https://www.fcc.gov/document/report-and-order-significant-changes-experimental-rules</a></p>
+<p style="padding-left: 2.5em; text-indent:-2.5em;"><b style="padding-right: 1em;"><a name="ref3">[3]</a></b> Report and Order on Significant Changes to Experimental Rules. <a rel="external" href="https://www.fcc.gov/document/report-and-order-significant-changes-experimental-rules">https://www.fcc.gov/document/report-and-order-significant-changes-experimental-rules</a>.</p>
 
 <p style="padding-left: 2.5em; text-indent:-2.5em;"><b style="padding-right: 1em;"><a name="ref4">[4]</a></b> OpenLTE. <a rel="external" href="http://openlte.sourceforge.net/">http://openlte.sourceforge.net/</a>, 2015.</p>
 

@@ -12,7 +12,7 @@
 <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="tbl">
   <li data-role="list-divider">Enabling Research in Future Wireless and Mobile Networks</li>
   <?php
-     add_listitem("Jacobus Van der Merwe", "University of Utah, USA", "https://www.cs.utah.edu/~kobus/");
+     add_listitem("Kobus Van der Merwe", "University of Utah, USA", "https://www.cs.utah.edu/~kobus/");
      add_listitem("Robert Ricci", "University of Utah, USA", "http://www.flux.utah.edu/users/ricci/");
      add_listitem("Kirk Webb", "University of Utah, USA", "http://www.flux.utah.edu/~kwebb/");
      add_listitem("", "", "");
@@ -22,9 +22,9 @@
 <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="tbl">-->
   <li data-role="list-divider">Internet Measurements: A Hands-on Introduction</li>
   <?php
-     add_listitem("Renata Teixeira", "INRIA, France", "https://who.rocq.inria.fr/Renata.Teixeira/");
-     add_listitem("Timur Friedman", "UPMC Sorbonne, France", "http://www-npa.lip6.fr/~timur/");
-     add_listitem("Anna-Kaisa Pietilainen", "INRIA, France", "https://muse.inria.fr/~apietila/");
+     add_listitem("Timur Friedman", "UPMC Sorbonne Universit&eacute;s, France", "http://www-npa.lip6.fr/~timur/");
+     add_listitem("Anna-Kaisa Pietilainen", "Inria, France", "https://muse.inria.fr/~apietila/");
+     add_listitem("Renata Teixeira", "Inria, France", "https://who.rocq.inria.fr/Renata.Teixeira/");
      add_listitem("", "", "");
   ?>
 <!--</ul>
@@ -32,7 +32,7 @@
 <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="tbl">-->
   <li data-role="list-divider">IPTV and over-the-Top Video: Managed and Unmanaged Video Delivery</li>
   <?php
-     add_listitem("Ali Begen", "MediaMelon Inc, USA", "http://www.employees.org/~acbegen/index.php");
+     add_listitem("Ali C. Begen", "MediaMelon Inc, USA", "http://www.employees.org/~acbegen/index.php");
      add_listitem("", "", "");
   ?>
 <!--</ul>
