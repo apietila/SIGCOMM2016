@@ -23,6 +23,12 @@
      add_listitem("Christian E Rothenberg", "UNICAMP, Brazil", "http://www.dca.fee.unicamp.br/~chesteve/");
   ?>
 
+  <li data-role="list-divider">Mentoring Chairs</li>
+  <?php
+     add_listitem("Fahad Dogar", "Tufts University, USA", "http://www.cs.tufts.edu/Faculty/fahad-dogar.html");
+     add_listitem("Craig Partridge", "Raytheon BBN Technologies, USA", "http://www.ir.bbn.com/~craig/");
+  ?>
+
  <li data-role="list-divider">N2Women Chairs</li>
  <?php
     add_listitem("Aruna Balasubramanian", "Stony Brook University, USA", "https://www3.cs.stonybrook.edu/~arunab/");
@@ -80,7 +86,7 @@
   <li data-role="list-divider">Web Chairs</li>
   <?php
      add_listitem("Weverton Cordeiro", "UFRGS, Brazil", "http://www.inf.ufrgs.br/~wlccordeiro/");
-     add_listitem("Anna-Kaisa Pietilainen", "INRIA, France", "https://muse.inria.fr/~apietila/");
+     add_listitem("Anna-Kaisa Pietilainen", "Inria, France", "https://muse.inria.fr/~apietila/");
   ?>
 
   <li data-role="list-divider">Workshop Chairs</li>
