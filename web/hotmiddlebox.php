@@ -118,7 +118,7 @@ papers at the workshop.
      add_listitem("Laurent Mathy", "University of Li&egrave;ge, Belgium", "http://www.montefiore.ulg.ac.be/personnel.php?op=detail&id=1099");
      add_listitem("Michele Nogueira", "Federal University of Paran&aacute;, Brazil", "http://www.nr2.ufpr.br/~michele/");
      add_listitem("Jitendra Padhye", "Microsoft Research, USA", "http://research.microsoft.com/en-us/um/people/padhye/");
-     add_listitem("Costin Raiciu", "U. Politehnica of Bucharest, Romania", "http://nets.cs.pub.ro/~costin/");
+     add_listitem("Costin Raiciu", "University Politehnica of Bucharest, Romania", "http://nets.cs.pub.ro/~costin/");
      add_listitem("Michael Schapira", "Hebrew University of Jerusalem, Israel", "http://www.cs.huji.ac.il/~schapiram/");
      add_listitem("Ying Zhang", "Hewlett Packard Labs, USA", "http://www.labs.hpe.com/people/ying_zhang13/");
      add_listitem("Noa Zilberman", "University of Cambridge, UK", "http://www.cl.cam.ac.uk/~nz247/");

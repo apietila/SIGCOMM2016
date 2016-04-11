@@ -70,7 +70,7 @@
      add_listitem("Phillipa Gill", "Stony Brook University, USA", "http://www3.cs.stonybrook.edu/~phillipa/");
      add_listitem("Lisandro Z Granville", "UFRGS, Brazil", "http://www.inf.ufrgs.br/~granville/");
      add_listitem("Sue Moon", "KAIST , Korea", "http://an.kaist.ac.kr/~sbmoon/");
-     add_listitem("Costin Raiciu", "University Politehnica of Bucharest, Romania", "http://nets.cs.pub.ro/~costin/")
+     add_listitem("Costin Raiciu", "University Politehnica of Bucharest, Romania", "http://nets.cs.pub.ro/~costin/");
   ?>
 
   <li data-role="list-divider">Treasurer</li>

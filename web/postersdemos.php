@@ -60,4 +60,54 @@
     <?php add_dateitem("June 21, 2016", "Camera Ready Deadline"); ?>
 </ul>
 
+<h2>Organizers</h2>
+
+<ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="tbl">
+  <li data-role="list-divider">Demo Chairs</li>
+  <?php
+     add_listitem("Pan Hui", "Hong Kong U. of Science and Technology, Hong Kong", "https://www.cse.ust.hk/~panhui/");
+     add_listitem("Christian E Rothenberg", "UNICAMP, Brazil", "http://www.dca.fee.unicamp.br/~chesteve/");
+  ?>
+  <li data-role="list-divider">Poster Chairs</li>
+  <?php
+     add_listitem("Marco Canini", "Universit&#233; Catholique de Louvain, Belgium", "http://perso.uclouvain.be/marco.canini/");
+     add_listitem("Daniel R Figueiredo", "UFRJ, Brazil", "http://www.land.ufrj.br/~daniel/");
+  ?>
+
+  <li data-role="list-divider">Program Commitee</li>
+  <?php
+//     add_listitem("", "", "");
+       add_listitem("Peter Bodik", "MSR, USA", "http://research.microsoft.com/en-us/people/peterb/");
+       add_listitem("Jiannong Cao", "Hong Kong PolyU, HK", "http://www.comp.polyu.edu.hk/~csjcao");
+       add_listitem("Yang Chen", "Fudan University, China", "http://ychen.azurewebsites.net/");
+       add_listitem("Dah Ming Chiu", "CUHK, HK", "http://personal.ie.cuhk.edu.hk/~dmchiu/");
+       add_listitem("Kenjiro Cho", "Internet Initiative Japan, Japan", "http://www.iijlab.net/~kjc/");
+       add_listitem("Mosharaf Chowdhury", "University of Michigan Ann Arbor, USA", "http://www.mosharaf.com/");
+       add_listitem("Rodrigo Fonseca", "Brown University, USA", "http://cs.brown.edu/~rfonseca/");
+       add_listitem("Domenico Giustiniano", "IMDEA Networks, Spain", "http://people.networks.imdea.org/~domenico_giustiniano/");
+       add_listitem("Hamed Haddadi", "Queen Mary U. of London, UK", "http://www.eecs.qmul.ac.uk/~hamed/");
+       add_listitem("Dongsu Han", "KAIST, Korea", "http://ina.kaist.ac.kr/~dongsuh/");
+       add_listitem("Felipe Huici", "NEC, Germany", "");
+       add_listitem("Luigi Iannone", "ParisTech, France", "http://www.gigix.net/");
+       add_listitem("Wolfgang Kellerer", "TUM, Germany", "http://www.lkn.ei.tum.de/en/team/team/mitarbeiter/wolfgang-kellerer.html#cv");
+       add_listitem("Yong Li", "Tsinghua University, China", "http://fi.ee.tsinghua.edu.cn/~liyong/");
+       add_listitem("Costin Raiciu", "University Politehnica of Bucharest, Romania", "http://nets.cs.pub.ro/~costin/");
+       add_listitem("Fernando Ramos", "University of Lisbon, Portugal", "http://fvramos.at.di.fc.ul.pt/");
+       add_listitem("Antonio Rocha", "Federal Fluminense University of Rio de Janeiro, Brazil", "http://www2.ic.uff.br/~arocha/");
+       add_listitem("Daniel Sadoc Menasche", "UFRJ, Brazil", "http://www.dcc.ufrj.br/~sadoc/");
+       add_listitem("Michael Schapira", "Hebrew University of Jerusalem, Israel", "http://www.cs.huji.ac.il/~schapiram/");
+       add_listitem("Stefan Schmid", "Aalborg University, Denmark", "https://net.t-labs.tu-berlin.de/~stefan/");
+       add_listitem("Ana Paula Silva", "Federal University of Minas Gerais, Brazil", "http://www.dcc.ufmg.br/dcc/?q=pt-br/node/153");
+       add_listitem("Georgios Smaragdakis", "MIT, USA", "http://people.csail.mit.edu/gsmaragd/");
+       add_listitem("Robert Soul&eacute;", "Universit&agrave; della Svizzera italiana (USI), Switzerland", "http://www.inf.usi.ch/faculty/soule/");
+       add_listitem("Patrick Thiran", "EPFL, Switzerland", "http://icapeople.epfl.ch/thiran/");
+       add_listitem("Thierry Turletti", "INRIA, France", "https://team.inria.fr/diana/team-members/thierry-turletti/");
+       add_listitem("Philip Watts", "University College London, UK", "http://www.ee.ucl.ac.uk/staff/academic/pwatts");
+       add_listitem("Hakim Weatherspoon", "Cornell University, USA", "http://www.cs.cornell.edu/~hweather/");
+  ?>
+
+</ul>
+
+
+
 <?php include ("include/footer.php"); ?>
