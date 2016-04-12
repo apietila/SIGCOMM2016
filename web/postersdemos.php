@@ -89,7 +89,7 @@
        add_listitem("Dongsu Han", "KAIST, Korea", "http://ina.kaist.ac.kr/~dongsuh/");
        add_listitem("Felipe Huici", "NEC, Germany", "");
        add_listitem("Luigi Iannone", "ParisTech, France", "http://www.gigix.net/");
-       add_listitem("Wolfgang Kellerer", "TUM, Germany", "http://www.lkn.ei.tum.de/en/team/team/mitarbeiter/wolfgang-kellerer.html#cv");
+       add_listitem("Wolfgang Kellerer", "Technical University of Munich (TUM), Germany", "http://www.lkn.ei.tum.de/en/team/team/mitarbeiter/wolfgang-kellerer.html#cv");
        add_listitem("Yong Li", "Tsinghua University, China", "http://fi.ee.tsinghua.edu.cn/~liyong/");
        add_listitem("Costin Raiciu", "University Politehnica of Bucharest, Romania", "http://nets.cs.pub.ro/~costin/");
        add_listitem("Fernando Ramos", "University of Lisbon, Portugal", "http://fvramos.at.di.fc.ul.pt/");
