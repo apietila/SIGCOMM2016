@@ -11,10 +11,12 @@
 $(document).on("pageshow", function() {
     var newslibtn = $.mobile.activePage.find(".newslibtn");
    
-    $(newslibtn).siblings().slice(6).hide(); 
-    $(newslibtn).find("a").text("Older News");
-    $(newslibtn).find("span").toggleClass("ui-icon-plus", true);
-    $(newslibtn).find("span").toggleClass("ui-icon-minus", false);
+    if (newslibtn != null) {
+      $(newslibtn).siblings().slice(6).hide(); 
+      $(newslibtn).find("a").text("Older News");
+      $(newslibtn).find("span").toggleClass("ui-icon-plus", true);
+      $(newslibtn).find("span").toggleClass("ui-icon-minus", false);
+    }
 });
 
 /* Show/hide list items on newslibtn click. */
@@ -22,13 +24,15 @@ $(document).on("pageshow", function() {
 function showall(divname) {
     var newslibtn = $.mobile.activePage.find(".newslibtn");
     
-    $(newslibtn).find("span").toggleClass("ui-icon-plus ui-icon-minus");
+    if (newslibtn != null) {
+      $(newslibtn).find("span").toggleClass("ui-icon-plus ui-icon-minus");
  
-    if ($(newslibtn).find("span").hasClass('ui-icon-minus')) {
-      $(newslibtn).siblings().show();
-      $(newslibtn).find("a").text("Hide Older News");
-    } else {
-      $(newslibtn).siblings().slice(6).hide();
-      $(newslibtn).find("a").text("Older News");
+      if ($(newslibtn).find("span").hasClass('ui-icon-minus')) {
+        $(newslibtn).siblings().show();
+        $(newslibtn).find("a").text("Hide Older News");
+      } else {
+        $(newslibtn).siblings().slice(6).hide();
+        $(newslibtn).find("a").text("Older News");
+      }
     }
 }
