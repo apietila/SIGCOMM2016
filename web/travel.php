@@ -10,8 +10,7 @@
 <h2>Hotels</h2>
 
 <p>
-Information about main conference venue, room reservation, and nearby hotels coming up later.
-</p>
+The main conference venue is <a href="http://www.oceaniaparkhotel.com.br/centro-convencoes/">Oceania Convention Center</a>. We negotiated lower rates for nearby hotels (including <a href="http://www.oceaniaparkhotel.com.br/hotel-florianopolis/">Oceania Park Hotel</a>, <a href="http://www.slavierohoteis.com.br/hotel-em-florianopolis/slaviero-essential-florianopolis-ingleses-acquamar/hotel/">Slaviero Hotels - Ingleses Acquamar</a>, <a href="http://www.hoteiscostanorte.com.br/costa-norte-ingleses-hotel----17836">Costa Norte Ingleses Hotel</a>, and <a href="http://www.hoteisportosol.com.br/quality.html?lang=en">Porto Sol Quality Hotel</a>. Detailed booking information coming up later.</p>
 
 <h2>Travel</h2>
 
@@ -38,8 +37,16 @@ and surroundings. The city is served by all major Brazilian airlines, and can be
   <iframe src="https://www.google.com/maps/d/embed?mid=zU2H7LtOyGB8.kbHuHAFy7v64" width="700" height="480"></iframe>
 </div>
 
+<p>Further information about travel options to Florian&oacute;polis (among other useful information) can be found at <a href="http://wikitravel.org/en/Florian%C3%B3polis">WikiTravel</a>.</p>
+
 <h3>From Airport to Conference Venue</h3>
 
-<p>Information about the conference venue will be released soon.</p>
+<p>The conference venue is located about 37km away from Herc&iacute;lio Luz Int&#39;l Airport (see map below). The Oceania Convention Center address is <b>Rua dos Mariscos 550, Ingleses district, Florian&oacute;polis, Zip code 88058-090</b>.</p>
+
+<p>For a more accurate location of the conference venue on online map services, please consider using the following latitude and longitude information: <b>-27.4326, -48.4003</b>.</p>
+
+<div class="center">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d113188.56760738733!2d-48.4704092303392!3d-27.55808024536672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m5!1s0x95273a0c515d75f7%3A0xa78ef5ed13a752e5!2sHerc%C3%ADlio+Luz+International+Airport+-+Avenida+Deputado+Diom%C3%ADcio+Freitas+-+Carianos%2C+Florian%C3%B3polis+-+State+of+Santa+Catarina!3m2!1d-27.670118!2d-48.545965699999996!4m3!3m2!1d-27.432599999999997!2d-48.400299999999994!5e0!3m2!1sen!2sbr!4v1460514418537" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
 
 <?php include ("include/footer.php"); ?>
