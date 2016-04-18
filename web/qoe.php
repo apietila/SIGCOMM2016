@@ -13,7 +13,7 @@
     <?php add_dateitem("December 17, 2015", "Call for papers published"); ?>
     <?php add_dateitem("<s>March 18</s> March 25, 2016", "Paper registration deadline <span class=\"highlighttext\">(extended)</span>"); ?>
     <?php add_dateitem("<s>March 25</s> April, 1, 2016", "Paper submission deadline <span class=\"highlighttext\">(extended)</span>"); ?>
-    <?php add_dateitem("April 29, 2016", "Paper acceptance notifications"); ?>
+    <?php add_dateitem("<s>April 29, 2016</s> May 6, 2016", "Paper acceptance notifications <span class=\"highlighttext\">(extended)</span>"); ?>
     <?php add_dateitem("May 20, 2016", "Camera-ready due"); ?>
     <?php // add_dateitem("June, 2016", "Workshop program online"); ?>
     <?php add_dateitem("August 26, 2016", "Workshop day"); ?>
@@ -123,7 +123,7 @@ can be done at: <a href="https://internetqoe16.hotcrp.com/">https://internetqoe1
      add_listitem("Morley Mao", "University Michigan, USA", "http://web.eecs.umich.edu/~zmao/");
      add_listitem("Maria Papadopouli", "University of Crete/ICS-FORTH, Greece", "http://users.ics.forth.gr/~mgp/");
      add_listitem("Peter Reichel", "University of Vienna, Austria", "https://cs.univie.ac.at//cosy/team/worker/infpers/Peter_Reichl");
-     add_listitem("Raimund Schatz", "Telecommunications Research Center Vienna, Austria", "http://userver.ftw.at/~schatz/");
+     add_listitem("Raimund Schatz", "Austrian Institute of Technology, Austria", "http://www.schatz.cc/");
      add_listitem("Lea Skorin-Kapov", "University of Zagreb, Croatia", "http://www.fer.unizg.hr/ztel/en/research/research_groups/netmedia/people/lea_skorin-kapov");
      add_listitem("Shobha Venkataraman", "AT&amp;T Research, USA", "http://www.research.att.com/people/Venkataraman_Shobha/index.html?fbid=GD20my-LeNL");
      add_listitem("Florian Wamser", "University of W&uuml;rzburg, Germany", "http://www3.informatik.uni-wuerzburg.de/staff/florian.wamser/");
