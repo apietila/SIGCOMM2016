@@ -15,7 +15,7 @@ of Zika. We got very large majority yes+maybe to the questions.</p>
 cities in the south of Brazil, where the weather is milder and Zika and
 mosquitos should not be an issue in August. We decided to move SIGCOMM
 to Florianopolis, an island, capital city of Santa Catarina state.
-Reports of the <a href="advisory.php">tiny number of  cases in the area</a> are only for people
+Reports of the tiny number of  cases in the area are only for people
 that have visited other parts of Brazil. The risk there is lower than
 that now in some southern states of the USA.</p>
 
@@ -26,7 +26,7 @@ reality is that the new venue as safe as many other places we could move
 to. We would remind people of IMC in New Orleans, moved due to Hurricane
 Katrina, and the lost day for SIGCOMM in HK due to a Typhoon.</p>
 
-<p>We are continuing to monitor the situation, but the arrangements for the
+<p>We are <a href="advisory.php">continuing to monitor the situation</a>, but the arrangements for the
 relocation have been made, at no additional cost. Transport options for
 the new location are pretty much the same as the previous choice, in
 terms of hops, for most of the world&#39;s community. Indeed, we will also
