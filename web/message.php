@@ -5,7 +5,7 @@
 <h1>A Message from the General Chairs</h1>
 
 <p>After concerns with the Zika virus
-epidemic, we ran a <a href="poll.php">poll</a> including two
+epidemic, <a href="poll.php">we ran a poll</a> including two
 questions: (i) whether plans to attend SIGCOMM in Salvador would be
 affected, and (ii) if people would attend SIGCOMM if we moved it to a
 city still in Brazil, but free of mosquitos and therefore with no risk

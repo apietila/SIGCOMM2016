@@ -4,20 +4,20 @@
      if ($mypage == "")
         $mypage = "index.php";
      
-     $homeItems  = array("index.php", "message.php");
+     // $homeItems  = array("index.php", "message.php");
      $conferenceItems = array("cfp.php", "submission.php", "program.php");
      $workshopItems = array ("gaia.php", "hotmiddlebox.php", "qoe.php", "lancomm.php", "netpl.php", "cfwp.php", "workshops.php");
      $socialEventItems = array ("reception.php", "dinner.php", "banquet.php");
-     $localInfoItems = array ("local.php", "travel.php", "visa.php", "kids.php", "advisory.php", "poll.php");
+     $localInfoItems = array ("local.php", "travel.php", "visa.php", "kids.php", "advisory.php"); //, "poll.php"
      $organizationItems = array ("organization.php", "policies.php");
      $demoItems = array("postersdemos.php", "industrialdemos.php");
-     $tutorialItems = array("cft.php", "tutorials.php", "tutorial-im.php", "tutorial-wimobnet.php", "tutorial-iptv.php");
+     $tutorialItems = array("cft.php", "tutorials.php", "tutorial-im.php", "tutorial-wimobnet.php", "tutorial-iptv.php", "tutorial-sdnnfv5g.php");
    ?>
   <a href="index.php"><img src="images/logo.png" alt="ACM SIGCOMM 2016, August 2016, Florian&oacute;polis, Brazil" /></a>
   
   <ul data-role="listview" data-inset="true" data-theme="a" data-divider-theme="a">
 
-    <li <?php if (in_array ($mypage, $homeItems)) echo('class="navselected"') ?> data-icon="false">
+    <li <?php if ($mypage == "index.php") echo('class="navselected"') ?> data-icon="false">
       <a href="index.php">Home</a>
     </li>
 
@@ -88,7 +88,8 @@
          <?php if (in_array ($mypage, $tutorialItems)) echo('data-collapsed="false"') ?> class="navgroup">
       <h4>Tutorials</h4>
       <ul data-role="listview" data-inset="false">
-<?php /*        <li class="subnav <?php if ($mypage=="tutorial-wimobnet.php") echo('navselected') ?>" data-icon="false">
+<?php /* -->
+        <li class="subnav <?php if ($mypage=="tutorial-wimobnet.php") echo('navselected') ?>" data-icon="false">
           <a href="tutorial-wimobnet.php">Enabling Research in Future WiMobNet</a>
         </li>
         <li class="subnav <?php if ($mypage=="tutorial-im.php") echo('navselected') ?>" data-icon="false">
@@ -97,7 +98,10 @@
         <li class="subnav <?php if ($mypage=="tutorial-iptv.php") echo('navselected') ?>" data-icon="false">
           <a href="tutorial-iptv.php">IPTV and Over-the-Top Video</a>
         </li>
-*/ ?>
+        <li class="subnav <?php if ($mypage=="tutorial-sdnnfv5g.php") echo('navselected') ?>" data-icon="false">
+          <a href="tutorial-sdnnfv5g.php">SDN, NFV and Their Role in 5G</a>
+        </li>
+<!--*/ ?>
         <li class="subnav <?php if ($mypage=="tutorials.php") echo('navselected') ?>" data-icon="false">
           <a href="tutorials.php">Accepted Tutorials</a>
         </li>
