@@ -5,7 +5,7 @@
 <h1>A Message from the General Chairs</h1>
 
 <p>After concerns with the Zika virus
-epidemic, we run a <a href="poll.php">poll</a> including two
+epidemic, we ran a <a href="poll.php">poll</a> including two
 questions: (i) whether plans to attend SIGCOMM in Salvador would be
 affected, and (ii) if people would attend SIGCOMM if we moved it to a
 city still in Brazil, but free of mosquitos and therefore with no risk
@@ -19,10 +19,10 @@ Reports of the tiny number of  cases in the area are only for people
 that have visited other parts of Brazil. The risk there is lower than
 that now in some southern states of the USA.</p>
 
-<p>In making this decision, we balanced two factors: firstly that we have a
+<p>In making this decision, we balanced two factors: firstly, that we have a
 commitment to hold the conference in Brazil, to serve the south American
 community; secondly, that while there&#39;s still a perceived risk, the
-reality is that the new venue as safe as many other places we could move
+reality is that the new venue is as safe as many other places we could move
 to. We would remind people of IMC in New Orleans, moved due to Hurricane
 Katrina, and the lost day for SIGCOMM in HK due to a Typhoon.</p>
 
