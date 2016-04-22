@@ -5,6 +5,7 @@
         $mypage = "index.php";
      
      // $homeItems  = array("index.php", "message.php");
+     $travelgrantItems = array("n2women.php", "travelgrants.php");
      $conferenceItems = array("cfp.php", "submission.php", "program.php");
      $workshopItems = array ("gaia.php", "hotmiddlebox.php", "qoe.php", "lancomm.php", "netpl.php", "cfwp.php", "workshops.php");
      $socialEventItems = array ("reception.php", "dinner.php", "banquet.php");
@@ -155,11 +156,18 @@
     </li>
     -->
 
-    <?php /*
-    <li <?php if ($mypage=="travelgrants.php") echo('class="navselected"') ?>data-icon="false">
-      <a href="travelgrants.php">Travel Grants</a>
-    </li>
-    */ ?>
+    <div data-role="collapsible" data-theme="a" data-content-theme="a" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u" data-iconpos="right"
+         <?php if (in_array ($mypage, $travelgrantItems)) echo('data-collapsed="false"') ?> class="navgroup">
+      <h4>Travel Grants</h4>
+      <ul data-role="listview" data-inset="false">
+        <?php /*<li class="subnav <?php if ($mypage=="travelgrants.php") echo('navselected') ?>" data-icon="false">
+          <a href="travelgrants.php">Student Travel Grant</a>
+        </li> */ ?>
+        <li class="subnav <?php if ($mypage=="n2women.php") echo('navselected') ?>" data-icon="false">
+          <a href="n2women.php">N2Women Fellowship</a>
+        </li>
+      </ul>
+    </div>
 
     <div data-role="collapsible" data-theme="a" data-content-theme="a" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u" data-iconpos="right"
          <?php if (in_array ($mypage, $localInfoItems)) echo('data-collapsed="false"') ?> class="navgroup">
