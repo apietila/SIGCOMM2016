@@ -1,4 +1,5 @@
 <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="datetbl">
+  <?php /*add_dateitem("April 22, 2016", "Call for <a href=\"travelgrants.php\">N2Women Young Researcher Fellowship</a> online") */?>
   <?php add_dateitem("April 13, 2016", "&#34;Oceania Convention Center&#34; selected as the conference venue. Please visit the <a href=\"local.php\">venue</a> and <a href=\"travel.php\">hotels and travel</a> pages for updated information (including directions from the airport to the conference venue)") ?>
   <?php add_dateitem("April 11, 2016", "Posters &amp; Demos <a href=\"postersdemos.php\">program committee</a> announced") ?>
   <?php add_dateitem("March 29, 2016", "The list of <a href=\"tutorials.php\">accepted tutorials</a> is online") ?>

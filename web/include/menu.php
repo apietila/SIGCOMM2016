@@ -155,11 +155,11 @@
     </li>
     -->
 
-    <!--
+    <?php /*
     <li <?php if ($mypage=="travelgrants.php") echo('class="navselected"') ?>data-icon="false">
       <a href="travelgrants.php">Travel Grants</a>
     </li>
-    -->
+    */ ?>
 
     <div data-role="collapsible" data-theme="a" data-content-theme="a" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u" data-iconpos="right"
          <?php if (in_array ($mypage, $localInfoItems)) echo('data-collapsed="false"') ?> class="navgroup">
