@@ -134,10 +134,10 @@
          <?php if (in_array ($mypage, $extraItems)) echo('data-collapsed="false"') ?> class="navgroup">
       <h4>Topic Preview &amp; Mentoring</h4>
       <ul data-role="listview" data-inset="false">
-        <li class="notlast <?php if ($mypage=="preview.php") echo('navselected') ?>" data-icon="false">
+        <li class="subnav <?php if ($mypage=="preview.php") echo('navselected') ?>" data-icon="false">
           <a href="preview.php">Topic Preview</a>
         </li>
-        <li class="notlast <?php if ($mypage=="mentoring.php") echo('navselected') ?>" data-icon="false">
+        <li class="subnav <?php if ($mypage=="mentoring.php") echo('navselected') ?>" data-icon="false">
           <a href="mentoring.php">Mentoring</a>
         </li>
       </ul>
