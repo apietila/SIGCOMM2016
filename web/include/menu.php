@@ -13,7 +13,9 @@
      $organizationItems = array ("organization.php", "policies.php");
      $demoItems = array("postersdemos.php", "industrialdemos.php");
      $tutorialItems = array("cft.php", "tutorials.php", "tutorial-im.php", "tutorial-wimobnet.php", "tutorial-iptv.php", "tutorial-p4.php", "tutorial-sdnnfv5g.php");
-   ?>
+     $extraItems = array("preview.php", "mentoring.php");
+     
+?>
   <a href="index.php"><img src="images/logo.png" alt="ACM SIGCOMM 2016, August 2016, Florian&oacute;polis, Brazil" /></a>
   
   <ul data-role="listview" data-inset="true" data-theme="a" data-divider-theme="a">
@@ -128,9 +130,18 @@
       </ul>
     </div>
 
-    <li class="notlast <?php if ($mypage=="preview.php") echo('navselected') ?>" data-icon="false">
-      <a href="preview.php">Topic Preview</a>
-    </li>
+    <div data-role="collapsible" data-theme="a" data-content-theme="a" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u" data-iconpos="right"
+         <?php if (in_array ($mypage, $extraItems)) echo('data-collapsed="false"') ?> class="navgroup">
+      <h4>Topic Preview &amp; Mentoring</h4>
+      <ul data-role="listview" data-inset="false">
+        <li class="notlast <?php if ($mypage=="preview.php") echo('navselected') ?>" data-icon="false">
+          <a href="preview.php">Topic Preview</a>
+        </li>
+        <li class="notlast <?php if ($mypage=="mentoring.php") echo('navselected') ?>" data-icon="false">
+          <a href="mentoring.php">Mentoring</a>
+        </li>
+      </ul>
+    </div>
     
     <!--
     <div data-role="collapsible" data-theme="a" data-content-theme="a" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u" data-iconpos="right"

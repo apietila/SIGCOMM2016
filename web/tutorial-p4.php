@@ -1,9 +1,9 @@
 <?php
-    $page_title="Tutorial: P4: Programming the Network Dataplane";
+    $page_title="Tutorial: P4: Programming the Network Data Plane";
     include("include/header.php");
 ?>
 
-<h1>Full-day Tutorial: P4: Programming the Network Dataplane</h1>
+<h1>Full-day Tutorial: P4: Programming the Network Data Plane</h1>
 
 <h2>Presenters</h2>
 <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="tbl">
