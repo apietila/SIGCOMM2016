@@ -38,7 +38,7 @@
         <li class="subnav <?php if ($mypage=="submission.php") echo('navselected') ?>" data-icon="false">
           <a href="submission.php">Paper Submission</a>
         </li>
-        <!--
+        <?php /*
         <li class="subnav <?php if ($mypage=="program.php") echo('navselected') ?>" data-icon="false">
           <a href="local.php">Program</a>
         </li>
@@ -51,7 +51,7 @@
         <li class="subnav <?php if ($mypage=="idemos.php") echo('navselected') ?>" data-icon="false">
           <a href="local.php">Industrial Demos</a>
         </li>
-        -->
+        */ ?>
       </ul>
     </div>
 
@@ -78,11 +78,9 @@
         <li class="subnav <?php if ($mypage=="cfwp.php") echo('navselected') ?>" data-icon="false">
           <a href="cfwp.php">Call for Workshops</a>
         </li>
-
-        <!--
-        <li class="subnav <?php if ($mypage=="workshops.php") echo('navselected') ?>" data-icon="false">
+        <!-- li class="subnav <?php if ($mypage=="workshops.php") echo('navselected') ?>" data-icon="false">
           <a href="workshops.php">Accepted Proposals</a>
-        </li>-->
+        </li -->
 
        </ul>
     </div>
@@ -91,7 +89,6 @@
          <?php if (in_array ($mypage, $tutorialItems)) echo('data-collapsed="false"') ?> class="navgroup">
       <h4>Tutorials</h4>
       <ul data-role="listview" data-inset="false">
-      <?php /*
         <li class="subnav <?php if ($mypage=="tutorial-wimobnet.php") echo('navselected') ?>" data-icon="false">
           <a href="tutorial-wimobnet.php">Enabling Research in Future WiMobNet</a>
         </li>
@@ -107,10 +104,9 @@
         <li class="subnav <?php if ($mypage=="tutorial-sdnnfv5g.php") echo('navselected') ?>" data-icon="false">
           <a href="tutorial-sdnnfv5g.php">SDN, NFV and Their Role in 5G</a>
         </li>
-        */ ?>
-        <li class="subnav <?php if ($mypage=="tutorials.php") echo('navselected') ?>" data-icon="false">
+        <!-- li class="subnav <?php if ($mypage=="tutorials.php") echo('navselected') ?>" data-icon="false">
           <a href="tutorials.php">Accepted Tutorials</a>
-        </li>
+        </li -->
         <li class="subnav <?php if ($mypage=="cft.php") echo('navselected') ?>" data-icon="false">
           <a href="cft.php">Call for Tutorials</a>
         </li>
@@ -143,7 +139,7 @@
       </ul>
     </div>
     
-    <!--
+    <?php /*
     <div data-role="collapsible" data-theme="a" data-content-theme="a" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u" data-iconpos="right"
          <?php if (in_array ($mypage, $socialEventItems)) echo('data-collapsed="false"') ?> class="navgroup">
       <h4>Social Events</h4>
@@ -159,21 +155,23 @@
         </li>
       </ul>
     </div>
-    -->
+    */ ?>
 
-    <!--
+    <?php /*
     <li <?php if ($mypage=="registration.php") echo('class="navselected"') ?>data-icon="false">
       <a href="registration.php">Registration</a>
     </li>
-    -->
+    */ ?>
 
     <div data-role="collapsible" data-theme="a" data-content-theme="a" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u" data-iconpos="right"
          <?php if (in_array ($mypage, $travelgrantItems)) echo('data-collapsed="false"') ?> class="navgroup">
       <h4>Travel Grants</h4>
       <ul data-role="listview" data-inset="false">
-        <?php /*<li class="subnav <?php if ($mypage=="travelgrants.php") echo('navselected') ?>" data-icon="false">
+        <?php /*
+        <li class="subnav <?php if ($mypage=="travelgrants.php") echo('navselected') ?>" data-icon="false">
           <a href="travelgrants.php">Student Travel Grant</a>
-        </li> */ ?>
+        </li>
+        */ ?>
         <li class="subnav <?php if ($mypage=="n2women.php") echo('navselected') ?>" data-icon="false">
           <a href="n2women.php">N2Women Fellowship</a>
         </li>
@@ -192,21 +190,21 @@
           <a href="local.php">Venue</a>
         </li>
 
-        <!--
+        <?php /*
         <li class="subnav <?php if ($mypage=="visa.php") echo('navselected') ?>" data-icon="false">
           <a href="visa.php">Visa</a>
         </li>
-        -->
+        */ ?>
 
         <li class="subnav <?php if ($mypage=="travel.php") echo('navselected') ?>" data-icon="false">
           <a href="travel.php">Hotels and Travel</a>
         </li>
 
-        <!--
+        <?php /*
         <li class="subnav <?php if ($mypage=="kids.php") echo('navselected') ?>" data-icon="false">
           <a href="kids.php">Support for Children</a>
         </li>
-        -->
+        */ ?>
 
         <li class="subnav <?php if ($mypage=="advisory.php") echo('navselected') ?>" data-icon="false">
           <a href="advisory.php">Advice for Travellers</a>
