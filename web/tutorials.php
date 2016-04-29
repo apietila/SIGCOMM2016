@@ -38,22 +38,22 @@
 <!--</ul>
 
 <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="tbl">-->
-  <li data-role="list-divider">NFV, SDN, and their Role in 5G</li>
-  <?php
-     add_listitem("Katia Obraczka", "UC Santa Cruz, USA", "https://www.soe.ucsc.edu/people/katia");
-     add_listitem("Christian Rothenberg", "UNICAMP, Brazil", "http://www.dca.fee.unicamp.br/~chesteve/");
-     add_listitem("Ahmad Rostami", "Ericsson Research, Sweden", "");
-     add_listitem("", "", "");
-  ?>
-<!--</ul>
-
-<ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="tbl">-->
   <li data-role="list-divider">P4: Programming the Network Dataplane</li>
   <?php
      add_listitem("Changhoon Kim", "Barefoot Networks, USA", "");
      add_listitem("Mihai Budiu", "Barefoot Networks, USA", "");
      add_listitem("Antonin Bas", "Barefoot Networks, USA", "");
      add_listitem("Vladimir Gurevich", "Barefoot Networks, USA", "");
+     add_listitem("", "", "");
+  ?>
+<!--</ul>
+
+<ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="tbl">-->
+  <li data-role="list-divider">SDN, NFV, and their Role in 5G</li>
+  <?php
+     add_listitem("Katia Obraczka", "UC Santa Cruz, USA", "https://www.soe.ucsc.edu/people/katia");
+     add_listitem("Christian Rothenberg", "UNICAMP, Brazil", "http://www.dca.fee.unicamp.br/~chesteve/");
+     add_listitem("Ahmad Rostami", "Ericsson Research, Sweden", "");
   ?>
 </ul>
 

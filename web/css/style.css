@@ -604,6 +604,26 @@ button[disabled],
     height: 100%;
 }
 
+.content-primary .registration .ui-grid-a .ui-block-a {
+    width: 40%;
+    height: 100%;
+}
+
+.content-primary .registration .ui-grid-a .ui-block-b {
+    width: 20%;
+    height: 100%;
+}
+
+.content-primary .registration .ui-grid-a .ui-block-c {
+    width: 20%;
+    height: 100%;
+}
+
+.content-primary .registration .ui-grid-a .ui-block-d {
+    width: 20%;
+    height: 100%;
+}
+
 .content-primary .datetbl .ui-btn {
     margin:      0px;
     line-height: 1em;
