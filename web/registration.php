@@ -6,7 +6,7 @@
 <h1>Registration Information</h1>
 
 <p>
-  Here is some preliminary information about registration prices and categories. All fees are in US Dollars. The registration website will be online soon. For further information, we kindly ask you to contact <b>Prof. Marinho Barcellos</b> (first@inf.ufrgs.br).
+  Here is some preliminary information about registration prices and categories. All fees are in US Dollars. The registration website will be online soon. For further information, we kindly ask you to contact the <a href="mailto: marinho # inf ufrgs br">general chairs</a>.
 </p>
 
 <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="registration">

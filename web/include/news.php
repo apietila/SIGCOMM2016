@@ -1,4 +1,5 @@
 <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="datetbl">
+  <?php add_dateitem("April 29, 2016", "Preliminary <a href=\"registration.php\">registration information</a> (prices and categories) are available. Stay tuned: registration will open soon!") ?>
   <?php add_dateitem("April 28, 2016", "We are happy to inform that the tutorial pages are now available!") ?>
   <?php add_dateitem("April 24, 2016", "Attention graduate students: Call for ACM SIGCOMM 2016 &quot;<a href=\"mentoring.php\">mentoring moments</a>&quot; is online! Please visit the page for further details and how to apply") ?>
   <?php add_dateitem("April 22, 2016", "Call for <a href=\"n2women.php\">N2Women Young Researcher Fellowship</a> online") ?>
