@@ -710,6 +710,11 @@ video {
     color: #FF0000;
 }
 
+.content-primary .paperlist .ui-grid-a .ui-block-a {
+    width: 100%;
+    height: 100%;
+}
+
 /* Layout rules
 -----------------------------------------------------------------------------------------------------------*/
 

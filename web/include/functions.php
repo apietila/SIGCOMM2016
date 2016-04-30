@@ -59,6 +59,13 @@ function add_dateitem($date, $info)
 		   $date, $info);
 }
 
+function add_paperlistitem($title, $authors)
+{
+    printf('<li data-icon="false"><div class="ui-grid-a"><div class="ui-block-a"><h2>%s</h2><p>%s</p></div></div></li>',
+           $title, $authors);
+}
+
+
 function tprog_add_session($time, $title, $chair="", $style="")
 {
     if (!$style) {
