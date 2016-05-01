@@ -59,6 +59,16 @@ function add_dateitem($date, $info)
 		   $date, $info);
 }
 
+function add_registrationheader($regheadertype, $regheader1, $regheader2, $regheader3)
+{
+    printf('<li data-icon="false"><div class="ui-grid-a"><div class="ui-block-a"><p><b>%s</b></p></div><div class="ui-block-b"><p><b>%s</b></p></div><div class="ui-block-b"><p><b>%s</b></p></div><div class="ui-block-b"><p><b>%s</b></p></div></div></li>', $regheadertype, $regheader1, $regheader2, $regheader3);
+}
+
+function add_registrationitem($regitemtype, $reginfo1, $reginfo2, $reginfo3)
+{
+    printf('<li data-icon="false"><div class="ui-grid-a"><div class="ui-block-a"><p>%s</p></div><div class="ui-block-b"><p>%s</p></div><div class="ui-block-b"><p>%s</p></div><div class="ui-block-b"><p>%s</p></div></div></li>', $regitemtype, $reginfo1, $reginfo2, $reginfo3);
+}
+
 function add_paperlistitem($title, $authors)
 {
     printf('<li data-icon="false"><div class="ui-grid-a"><div class="ui-block-a"><h2>%s</h2><p>%s</p></div></div></li>',

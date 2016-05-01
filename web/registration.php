@@ -11,111 +11,25 @@
 
 <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="registration">
   <li data-role="list-divider">Early Registration (Before July 14th, 11:59pm CDT)</li>
-  <li data-icon="false">
-    <div class="ui-grid-a">
-      <div class="ui-block-a"><p><b>Event</b></p></div>
-      <div class="ui-block-b"><p><b>Member</b></p></div>
-      <div class="ui-block-c"><p><b>Non-Member</b></p></div>
-      <div class="ui-block-d"><p><b>Student</b></p></div>
-    </div>
-  </li>
-  <li data-icon="false">
-    <div class="ui-grid-a">
-      <div class="ui-block-a"><p>Conference</p></div>
-      <div class="ui-block-b"><p>600</p></div>
-      <div class="ui-block-c"><p>750</p></div>
-      <div class="ui-block-d"><p>300</p></div>
-    </div>
-  </li>
-  <li data-icon="false">
-    <div class="ui-grid-a">
-      <div class="ui-block-a"><p>Workshop</p></div>
-      <div class="ui-block-b"><p>250</p></div>
-      <div class="ui-block-c"><p>400</p></div>
-      <div class="ui-block-d"><p>150</p></div>
-    </div>
-  </li>
-  <li data-icon="false">
-    <div class="ui-grid-a">
-      <div class="ui-block-a"><p>Tutorial (Full-day)</p></div>
-      <div class="ui-block-b"><p>250</p></div>
-      <div class="ui-block-c"><p>400</p></div>
-      <div class="ui-block-d"><p>150</p></div>
-    </div>
-  </li>
-  <li data-icon="false">
-    <div class="ui-grid-a">
-      <div class="ui-block-a"><p>Tutorial (Half-day)</p></div>
-      <div class="ui-block-b"><p>150</p></div>
-      <div class="ui-block-c"><p>250</p></div>
-      <div class="ui-block-d"><p>100</p></div>
-    </div>
-  </li>
-  <li data-icon="false">
-    <div class="ui-grid-a">
-      <div class="ui-block-a"><p>Tutorial (2 half-days on the same day)</p></div>
-      <div class="ui-block-b"><p>250</p></div>
-      <div class="ui-block-c"><p>400</p></div>
-      <div class="ui-block-d"><p>150</p></div>
-    </div>
-  </li>
-  <li data-icon="false">
-    <div class="ui-grid-a">
-      <div class="ui-block-a"><p>&nbsp;</p></div>
-      <div class="ui-block-b"><p>&nbsp;</p></div>
-      <div class="ui-block-c"><p>&nbsp;</p></div>
-      <div class="ui-block-d"><p>&nbsp;</p></div>
-    </div>
-  </li>
+  <?php
+    add_registrationheader("Event", "Member", "Non-Member", "Student");
+    add_registrationitem  ("Conference", "600", "750", "300");
+    add_registrationitem  ("Workshop", "250", "400", "150");
+    add_registrationitem  ("Tutorial (Full-day)", "250", "400", "150");
+    add_registrationitem  ("Tutorial (Half-day)", "150", "250", "100");
+    add_registrationitem  ("Tutorial (2 half-days on the same day)", "250", "400", "150");
+    add_registrationitem  ("", "", "", "");
+  ?>
+  
   <li data-role="list-divider">Late Registration (Starting from July 15th, 00:00am CDT)</li>
-  <li data-icon="false">
-    <div class="ui-grid-a">
-      <div class="ui-block-a"><p><b>Event</b></p></div>
-      <div class="ui-block-b"><p><b>Member</b></p></div>
-      <div class="ui-block-c"><p><b>Non-Member</b></p></div>
-      <div class="ui-block-d"><p><b>Student</b></p></div>
-    </div>
-  </li>
-  <li data-icon="false">
-    <div class="ui-grid-a">
-      <div class="ui-block-a"><p>Conference</p></div>
-      <div class="ui-block-b"><p>700</p></div>
-      <div class="ui-block-c"><p>900</p></div>
-      <div class="ui-block-d"><p>500</p></div>
-    </div>
-  </li>
-  <li data-icon="false">
-    <div class="ui-grid-a">
-      <div class="ui-block-a"><p>Workshop</p></div>
-      <div class="ui-block-b"><p>300</p></div>
-      <div class="ui-block-c"><p>450</p></div>
-      <div class="ui-block-d"><p>200</p></div>
-    </div>
-  </li>
-  <li data-icon="false">
-    <div class="ui-grid-a">
-      <div class="ui-block-a"><p>Tutorial (Full-day)</p></div>
-      <div class="ui-block-b"><p>300</p></div>
-      <div class="ui-block-c"><p>450</p></div>
-      <div class="ui-block-d"><p>200</p></div>
-    </div>
-  </li>
-  <li data-icon="false">
-    <div class="ui-grid-a">
-      <div class="ui-block-a"><p>Tutorial (Half-day)</p></div>
-      <div class="ui-block-b"><p>200</p></div>
-      <div class="ui-block-c"><p>300</p></div>
-      <div class="ui-block-d"><p>150</p></div>
-    </div>
-  </li>
-  <li data-icon="false">
-    <div class="ui-grid-a">
-      <div class="ui-block-a"><p>Tutorial (2 half-days on the same day)</p></div>
-      <div class="ui-block-b"><p>300</p></div>
-      <div class="ui-block-c"><p>450</p></div>
-      <div class="ui-block-d"><p>200</p></div>
-    </div>
-  </li>
+  <?php
+    add_registrationheader("Event", "Member", "Non-Member", "Student");
+    add_registrationitem  ("Conference", "700", "900", "500");
+    add_registrationitem  ("Workshop", "300", "450", "200");
+    add_registrationitem  ("Tutorial (Full-day)", "300", "450", "200");
+    add_registrationitem  ("Tutorial (Half-day)", "200", "300", "150");
+    add_registrationitem  ("Tutorial (2 half-days on the same day)", "300", "450", "200");
+  ?>
 </ul>
 
 <h2>A Special Note on Author Registration Policy</h2>
