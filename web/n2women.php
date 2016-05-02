@@ -8,7 +8,7 @@
 <p>N2Women is pleased to announce the continuation of our N2Women Young Researcher 
 Fellowship awards. N2Women considers you a young researcher if you are currently 
 a student, working as a post-doc, or in the 1st or 2nd year of your new research 
-career. These awards will partially cover a young researcher’s travel cost 
+career. These awards will partially cover a young researcher&#39;s travel cost 
 (up to $1000) to a meeting where an N2Women event will be held. In exchange, 
 the young researcher must help organize the N2Women meeting. The benefit of doing 
 the organization, in addition to the travel funds, is for the young researcher 

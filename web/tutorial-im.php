@@ -5,6 +5,8 @@
 
 <h1>Full-Day Tutorial: Internet Measurements: A Hands-on Introduction</h1>
 
+<h2>Monday, August 22nd</h2>
+
 <h2>Presenters</h2>
 <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="tbl">
   <?php

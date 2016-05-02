@@ -5,6 +5,8 @@
 
 <h1>Half-Day Tutorial: SDN, NFV and Their Role in 5G</h1>
 
+<h2>Monday, August 22nd, Morning Session</h2>
+
 <h2>Presenters</h2>
 <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="tbl">
   <?php

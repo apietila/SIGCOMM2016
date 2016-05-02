@@ -20,7 +20,7 @@
     add_registrationitem  ("Tutorial (2 half-days on the same day)", "250", "400", "150");
     add_registrationitem  ("", "", "", "");
   ?>
-  
+
   <li data-role="list-divider">Late Registration (Starting from July 15th, 00:00am CDT)</li>
   <?php
     add_registrationheader("Event", "Member", "Non-Member", "Student");

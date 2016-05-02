@@ -5,6 +5,8 @@
 
 <h1>Full-day Tutorial: Enabling Research in Future Wireless and Mobile Networks</h1>
 
+<h2>Friday, August 26th</h2>
+
 <h2>Presenters</h2>
 <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="tbl">
   <?php
