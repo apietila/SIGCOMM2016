@@ -32,7 +32,7 @@
 
 <div class="sponsors">
 	<a href="//www.hp.com/"><img src="images/sponsors/hp.png" alt="Hewlett-Packard" style="width: 80px;"/></a>
-	<a href="//www.netapp.com/"><img src="images/sponsors/netapp.jpeg" alt="NetApp" style="width: 200px;"/></a>
+	<a href="//www.netapp.com/"><img src="images/sponsors/netapp.jpeg" alt="NetApp" style="width: 200px;"/></a><br/>
 	<a href="//www.tid.es/"><img src="images/sponsors/telefonica.png" alt="Telef&oacute;nica" style="width: 120px;"/></a>
 	<a href="//www.vmware.com/"><img src="images/sponsors/vmware.jpg" alt="VMWare" style="width: 160px;"/></a>
 </div>
