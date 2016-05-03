@@ -171,11 +171,9 @@
          <?php if (in_array ($mypage, $travelgrantItems)) echo('data-collapsed="false"') ?> class="navgroup">
       <h4>Travel Grants</h4>
       <ul data-role="listview" data-inset="false">
-        <?php /*
         <li class="subnav <?php if ($mypage=="travelgrants.php") echo('navselected') ?>" data-icon="false">
-          <a href="travelgrants.php">Student Travel Grant</a>
+          <a href="travelgrants.php">ACM SIGCOMM Travel Grants</a>
         </li>
-        */ ?>
         <li class="subnav <?php if ($mypage=="n2women.php") echo('navselected') ?>" data-icon="false">
           <a href="n2women.php">N2Women Fellowship</a>
         </li>
