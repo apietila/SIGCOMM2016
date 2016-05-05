@@ -192,11 +192,9 @@
           <a href="local.php">Venue</a>
         </li>
 
-        <?php /*
         <li class="subnav <?php if ($mypage=="visa.php") echo('navselected') ?>" data-icon="false">
           <a href="visa.php">Visa</a>
         </li>
-        */ ?>
 
         <li class="subnav <?php if ($mypage=="travel.php") echo('navselected') ?>" data-icon="false">
           <a href="travel.php">Hotels and Travel</a>
