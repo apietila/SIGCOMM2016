@@ -35,6 +35,7 @@
 	<a href="//www.netapp.com/"><img src="images/sponsors/netapp.jpeg" alt="NetApp" style="width: 200px;"/></a><br/>
 	<a href="//www.tid.es/"><img src="images/sponsors/telefonica.png" alt="Telef&oacute;nica" style="width: 120px;"/></a>
 	<a href="//www.vmware.com/"><img src="images/sponsors/vmware.jpg" alt="VMWare" style="width: 160px;"/></a>
+	<a href="//www.comcast.com/"><img src="images/sponsors/comcast.jpg" alt="Comcast" style="width: 140px;"/></a>
 </div>
 
 <?php include ("include/footer.php"); ?>

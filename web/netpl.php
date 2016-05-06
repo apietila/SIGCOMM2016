@@ -71,6 +71,7 @@ published. The submission site is <a href="https://netpl16.hotcrp.com/">https://
      add_listitem("Changhoon Kim", "Barefoot Networks, USA", "");
      add_listitem("Aurojit Panda", "UC Berkeley, USA", "https://www.eecs.berkeley.edu/~apanda/");
      add_listitem("Haoyu Song", "Huawei, USA", "");
+     add_listitem("David Walker", "Princeton, USA", "http://www.cs.princeton.edu/~dpw/");
      add_listitem("Yinben Xia", "Huawei, China", "");
   ?>
 </ul>
