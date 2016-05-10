@@ -49,7 +49,7 @@
 
   <li data-role="list-divider">Publicity Chairs</li>
   <?php
-     add_listitem("Ronaldo A Ferreira", "UFMS, Brazil", "http://www.dct.ufms.br/~raf/");
+     add_listitem("Ronaldo A Ferreira", "UFMS, Brazil", "http://www.facom.ufms.br/~raf/");
      add_listitem("Hamed Haddadi", "Queen Mary U. of London, UK", "http://www.eecs.qmul.ac.uk/~hamed/");
    ?>
 

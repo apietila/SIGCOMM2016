@@ -193,7 +193,7 @@
         </li>
 
         <li class="subnav <?php if ($mypage=="visa.php") echo('navselected') ?>" data-icon="false">
-          <a href="visa.php">Visa</a>
+          <a href="visa.php">Visa Information</a>
         </li>
 
         <li class="subnav <?php if ($mypage=="travel.php") echo('navselected') ?>" data-icon="false">
