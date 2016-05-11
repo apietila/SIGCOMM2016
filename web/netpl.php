@@ -19,6 +19,13 @@
 
 <!-- <?php /* include("include/program/todo.php"); */ ?> -->
 
+<h2>Sponsors</h2>
+
+<div class="sponsors">
+  <a href="http://www.huawei.com/"><img src="images/sponsors/huawei.png" alt="Huawei" style="width: 100px;"/></a>
+  <a href="http://research.microsoft.com"><img src="images/sponsors/msr.png" alt="Microsoft Research" style="width: 260px;"/></a>
+</div>
+
 <h2>Call for Participation and Presentations</h2>
 
 <p>The NetPL workshop provides a forum to bring together researchers and
