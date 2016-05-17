@@ -1,9 +1,9 @@
 <?php
-    $page_title="Accomodation Information";
+    $page_title="Accommodation Information";
     include("include/header.php");
 ?>
 
-<h1>Accomodation Information</h1>
+<h1>Accommodation Information</h1>
 
 <p>The main conference venue is <a href="http://www.oceaniaparkhotel.com.br/centro-convencoes/">Oceania Convention Center</a>. There are plenty of options for accommodation available in easy walking distance from the venue. Below is a list of nearby hotels with special offers for conference attendees.</p>
 
