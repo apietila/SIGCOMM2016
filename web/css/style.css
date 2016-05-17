@@ -705,6 +705,43 @@ video {
     height: 100%;
 }
 
+.hotel-header {
+    font-size: 1em;
+    color: #1A601A;
+    font-weight: 500;
+}
+
+table.hotel th{
+  text-align:left;
+  vertical-align:top;
+  width: 25%;
+  padding:0
+  
+}
+
+table.hotel td{
+  text-align:left;
+  vertical-align:bottom;
+  padding:0
+  
+}
+
+table.hotel tr{
+  line-height:1.3em
+  
+}table.hotel{
+  font-size:.9em;
+  padding-bottom:1em
+  
+}
+
+a.button{
+  width:40%;
+  margin-left:auto;
+  margin-right:auto
+  
+}
+
 /* Layout rules
 -----------------------------------------------------------------------------------------------------------*/
 

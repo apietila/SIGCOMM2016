@@ -1,20 +1,11 @@
 <?php
-    $page_title="Hotels and Travel";
+    $page_title="Travel Information";
     include("include/header.php");
 ?>
 
-<h1>Hotels and Travel</h1>
+<h1>Travel Information</h1>
 
-<?php include("include/reloc.php"); ?>
-
-<h2>Hotels</h2>
-
-<p>
-The main conference venue is <a href="http://www.oceaniaparkhotel.com.br/centro-convencoes/">Oceania Convention Center</a>. We negotiated lower rates for nearby hotels (including <a href="http://www.oceaniaparkhotel.com.br/hotel-florianopolis/">Oceania Park Hotel</a>, <a href="http://www.slavierohoteis.com.br/hotel-em-florianopolis/slaviero-essential-florianopolis-ingleses-acquamar/hotel/">Slaviero Hotels - Ingleses Acquamar</a>, <a href="http://www.hoteiscostanorte.com.br/costa-norte-ingleses-hotel----17836">Costa Norte Ingleses Hotel</a>, and <a href="http://www.hoteisportosol.com.br/quality.html?lang=en">Porto Sol Quality Hotel</a>. Detailed booking information coming up later.</p>
-
-<h2>Travel</h2>
-
-<h3>Airport</h3>
+<h2>Airport</h3>
 
 <p>
 The <a target="_blank" href="http://www.aeroportoflorianopolis.net/en/">Herc&iacute;lio Luz International Airport</a> (IATA: FLN, ICAO: SBFL) is the airport serving the city of Florian&oacute;polis
@@ -39,7 +30,7 @@ and surroundings. The city is served by all major Brazilian airlines, and can be
 
 <p>Further information about travel options to Florian&oacute;polis (among other useful information) can be found at <a href="http://wikitravel.org/en/Florian%C3%B3polis">WikiTravel</a>.</p>
 
-<h3>From Airport to Conference Venue</h3>
+<h2>From Airport to Conference Venue</h3>
 
 <p>The conference venue is located about 37km away from Herc&iacute;lio Luz Int&#39;l Airport (see map below). The Oceania Convention Center address is <b>Rua dos Mariscos 550, Ingleses district, Florian&oacute;polis, Zip code 88058-090</b>. For a more accurate location of the conference venue on online map services, please consider searching for &quot;Oceania Park Hotel&quot;.</p>
 
