@@ -14,9 +14,4 @@
   ga('send', 'pageview');
 
 </script>
-</body></html><?php
-  # Transparently convert normal ASCII quotes into typographic punctuation HTML entities.
-  # http://michelf.com/projects/php-smartypants/
-  # Anna: do we need this ?
-  # print SmartyPants(ob_get_clean());
-?>
+</body></html>

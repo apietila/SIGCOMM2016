@@ -1,4 +1,5 @@
 <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="datetbl">
+  <?php add_dateitem("May 18, 2016", "The submission site for <a href=\"travelgrants.php\">ACM SIGCOMM Travel Grants</a> is now online and accepting grant applications! The deadline is June 8!") ?>
   <?php add_dateitem("May 18, 2016", "The submission deadline for <a href=\"industrialdemos.php\">industrial demos</a> was extended to May 27") ?>
   <?php add_dateitem("May 17, 2016", "A list of nearby <a href=\"hotel.php\">hotel options</a> (including those with special rates for our attendees) is online. Please note that depending on the hotel option, special rates are valid until either late May or early June!") ?>
   <?php add_dateitem("May 13, 2016", "Detailed <a href=\"visa.php\">visa information</a> is available!") ?>
