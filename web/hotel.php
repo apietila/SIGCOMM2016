@@ -1,15 +1,15 @@
 <?php
-    $page_title="Accommodation Information";
+    $page_title="Accommodation";
     include("include/header.php");
 ?>
 
-<h1>Accommodation Information</h1>
+<h1>Accommodation</h1>
 
 <p>The main conference venue is <a href="http://www.oceaniaparkhotel.com.br/centro-convencoes/">Oceania Convention Center</a>. There are plenty of options for accommodation available in easy walking distance from the venue. Below is a list of nearby hotels with special offers for conference attendees.</p>
 
 <p>All values below are in Brazilian Reais (sign: R$, ISO-code: BRL). As of May 17th, one dollar (USD) buys around R$ 3.50. Check <a href="http://www.xe.com/currency/brl-brazilian-real" rel="external">XE.com</a> for an estimate of BRL to the currency of your choice.</p>
 
-<p>A single room rate will cost between US$46 and US$62 per day (approximately), plus 2.5% tax. A room shared by four at Porto Sol Hotel will cost less than US$20 per person per day, allowing a student to stay the entire conference at a hotel in walking distance, breakfast included, for less than US$100 in total.</p>
+<p>A single room rate will cost between US$46 and US$62 per day (approximately), plus 2.5% tax. A room shared by four at Porto Sol Quality Hotel will cost less than US$20 per person per day, allowing a student to stay the entire conference at a hotel in walking distance, breakfast included, for less than US$100 in total.</p>
 
 <p>Accommodation at Ingleses district is also available through <a href="https://www.airbnb.com.br/s/Praia-dos-Ingleses--Florian%C3%B3polis-~-State-of-Santa-Catarina?guests=&checkin=08/21/2016&checkout=08/27/2016&ss_id=klftn5o4&source=bb&s_tag=nNp7nULv" target="sigcomm-hotels" rel="external">AirBnB</a> and nearby <a href="http://www.costao.com.br" target="sigcomm-hotels" rel="external">resorts</a>, though in this case renting a car with GPS (e.g. through <a href="http://rentcars.com">rentcars</a> and <a href="http://www.rentalcars.com">rentalcars</a>) at the Hercilio Luz Int&#39;l Airport would be recommended.</p>
 
@@ -32,7 +32,7 @@
   
   <script>
        $("#oceania-c").on('collapsibleexpand', function () {
-         $("#oceania-c").find("iframe#oceania").attr("src","https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5955.781923310746!2d-48.4022893785777!3d-27.43120429174979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95274207a06555a7%3A0xf60c9499a2c21815!2sOceania+Park+Hotel!5e0!3m2!1sen!2sbr!4v1463495300225");
+         $("#oceania-c").find("iframe#oceania").attr("src","https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d3541.1587437410344!2d-48.40226758445794!3d-27.433163082906233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e2!4m3!3m2!1d-27.4334357!2d-48.4001473!4m5!1s0x95274207a06555a7%3A0xf60c9499a2c21815!2sOceania+Park+Hotel+-+Rua+dos+Mariscos%2C+550+-+Ingleses+Norte%2C+Florian%C3%B3polis+-+SC%2C+88058-090%2C+Brazil!3m2!1d-27.4328905!2d-48.399931099999996!5e0!3m2!1sen!2sbr!4v1463584504819");
        });     
   </script>
   
@@ -100,7 +100,7 @@
 </div>
 
 <div data-role="collapsible" data-theme="a" data-content-theme="a" id="portosol-c">
-  <h3><font class="hotel-header">Hotel Porto Sol Quality</font></h3>
+  <h3><font class="hotel-header">Porto Sol Quality Hotel</font></h3>
   
    <p>Caminho do Marisco, 80, Praia dos Ingleses, Florian&oacute;polis, Zip code 88.058-090, Brazil</p>
   
@@ -128,7 +128,7 @@
 </div>
 
 <div data-role="collapsible" data-theme="a" data-content-theme="a" id="geranius-c">
-  <h3><font class="hotel-header">Hotel Geranius Praia dos Ingleses</font></h3>
+  <h3><font class="hotel-header">Geranius Praia dos Ingleses Hotel</font></h3>
   
    <p>Rua Silveira, 108, Ingleses, Florian&oacute;polis, Zip code 88.058-000, Brazil</p>
   

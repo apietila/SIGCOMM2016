@@ -22,7 +22,7 @@
 <h2>Important Dates</h2>
 
 <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="datetbl">
-    <?php add_dateitem("May 20, 2016", "Submission Deadline"); ?>
+    <?php add_dateitem("<s>May 20</s> May 27, 2016", "Submission Deadline <span class=\"highlighttext\">(extended)</span>"); ?>
     <?php add_dateitem("June 15, 2016", "Acceptance Notification"); ?>
 </ul>
 
