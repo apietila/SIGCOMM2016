@@ -71,7 +71,7 @@ published. The submission site is <a href="https://netpl16.hotcrp.com/">https://
      add_listitem("Nikolaj Bjorner", "Microsoft Research, USA", "http://research.microsoft.com/en-us/people/nbjorner/");
      add_listitem("Gordon Brebner", "Xilinx Labs, USA", "");
      add_listitem("Rodrigo Fonseca", "Brown University, USA", "http://cs.brown.edu/~rfonseca/");
-     add_listitem("Nate Foster", "Cornell, USA", "www.cs.cornell.edu/~jnfoster/");
+     add_listitem("Nate Foster", "Cornell, USA", "http://www.cs.cornell.edu/~jnfoster/");
      add_listitem("Changhoon Kim", "Barefoot Networks, USA", "");
      add_listitem("Aurojit Panda", "UC Berkeley, USA", "https://www.eecs.berkeley.edu/~apanda/");
      add_listitem("Haoyu Song", "Huawei, USA", "");

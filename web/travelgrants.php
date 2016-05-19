@@ -80,4 +80,15 @@ The supervisor&#39;s letter should be clearly divided in the following sections:
     </ol>
 </p>
 
+<h3>NetPL Workshop Travel Grant Complement</h3>
+
+<p>
+The <a href="netpl.php">NetPL 2016 workshop</a>, co-located with ACM SIGCOMM 2016, has 
+limited support for funding students to attend the workshop. Interested students can 
+apply for a grant complement through the SIGCOMM travel grants application. To do so, 
+select the NetPL option during the application, and motivate your reasons for attending 
+and tell us how you may contribute to the workshop in a separate section of 
+the application letter.
+</p>
+
 <?php include ("include/footer.php"); ?>
