@@ -63,6 +63,16 @@ lightly reviewed. No feedback will be given. Abstracts will not be
 published. The submission site is <a href="https://netpl16.hotcrp.com/">https://netpl16.hotcrp.com/</a>.</p>
 -->
 
+<h2>NetPL Student Grants</h2>
+
+<p>The NetPL 2016 workshop has limited support for funding students to
+attend the workshop. Interested students can apply for a grant
+complement through the <a href="travelgrants.php">SIGCOMM travel grants application</a>.</p>
+
+<p>To apply, select the NetPL option during the application, and
+motivate your reasons for attending and tell us how you may contribute
+to the workshop in a separate section of the application letter.</p>
+
 <h2>Invited Speakers</h2>
 
 <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="tbl">
