@@ -12,6 +12,7 @@
 <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="datetbl">
     <?php add_dateitem("<s>April 29, 2016</s>", "<s>Deadline</s>"); ?>
     <?php add_dateitem("<s>May 9, 2016</s>", "<s>Speaker notified</s>"); ?>
+    <?php add_dateitem("June 8, 2016", "Travel grant applications due"); ?>
     <?php add_dateitem("August 22, 2016", "Workshop day"); ?>
 </ul>
 
