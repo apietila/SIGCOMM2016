@@ -55,7 +55,7 @@
     <ol>
         <li>An up-to-date CV</li>
         <li>An application letter, and</li>
-        <li>A letter from their supervisor (Ph.D. adviser for students, Ph.D or postdoc adviser for postdocs, or supervisor for faculty/researchers). Please note that the recommendation letter is submitted directly by the applicant.</li>
+        <li>A letter from their supervisor (Ph.D. adviser for students, Ph.D or postdoc adviser for postdocs, or supervisor for faculty/researchers). The recommendation letter can be directly uploaded by the applicant during the application process. Alternatively, the advisor can directly email the recommendation letter to Sue Moon (<a href="mailto:sbmoon@kaist.edu">sbmoon@kaist.edu</a>) if confidentiality is a concern.</li>
     </ol>
 </p>
 
