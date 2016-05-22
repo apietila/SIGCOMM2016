@@ -16,12 +16,14 @@
 
 <h2>Location</h2>
 <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="datetbl">
-  <li><p>Detailed location information will be released soon.</p></li>
+  <li><p>Room Topazio 1</p></li>
 </ul>
 
 <h2>Tutorial Timetable</h2>
 <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="datetbl">
-  <li><p>Detailed timetable will be released soon.</p></li>
+  <?php add_dateitem("14:00 &mdash; 15:30", "Tutorial (first part)"); ?>
+  <?php add_dateitem("15:30 &mdash; 16:00", "Coffee-break"); ?>
+  <?php add_dateitem("16:00 &mdash; 17:30", "Tutorial (second part)"); ?>
 </ul>
 
 <h2>Summary</h2>

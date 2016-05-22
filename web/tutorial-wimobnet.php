@@ -18,12 +18,18 @@
 
 <h2>Location</h2>
 <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="datetbl">
-  <li><p>Detailed location information will be released soon.</p></li>
+  <li><p>Room Esmeralda 1</p></li>
 </ul>
 
 <h2>Tutorial Timetable</h2>
 <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="datetbl">
-  <li><p>Detailed timetable will be released soon.</p></li>
+  <?php add_dateitem("09:00 &mdash; 10:30", "Tutorial (first part)"); ?>
+  <?php add_dateitem("10:30 &mdash; 11:00", "Coffee-break"); ?>
+  <?php add_dateitem("11:00 &mdash; 12:30", "Tutorial (second part)"); ?>
+  <?php add_dateitem("12:30 &mdash; 14:00", "Lunch break"); ?>
+  <?php add_dateitem("14:00 &mdash; 15:30", "Tutorial (third part)"); ?>
+  <?php add_dateitem("15:30 &mdash; 16:00", "Coffee-break"); ?>
+  <?php add_dateitem("16:00 &mdash; 17:30", "Tutorial (fourth part)"); ?>
 </ul>
 
 <h2>Summary</h2>
