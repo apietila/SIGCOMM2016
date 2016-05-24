@@ -5,8 +5,14 @@
 
 <h1>Registration Information</h1>
 
+<p>&nbsp;</p>
+
+<div align="center">The SIGCOMM 2016 <a href="https://www.regonline.com/acmsigcomm2016" rel="external">registration site</a> is now live!</div>
+
+<p>&nbsp;</p>
+
 <p>
-  Here is some preliminary information about registration prices and categories. All fees are in US Dollars. The registration website will be online soon. For further information, we kindly ask you to contact the <a href="mailto: marinho # inf ufrgs br">general chairs</a>.
+  Here is some preliminary information about registration prices and categories. All fees are in US Dollars. For registration, please <a href="https://www.regonline.com/acmsigcomm2016" rel="external">click here</a>. If you have any questions, please contact the SIGCOMM Registration Chair at goldbe@cs.bu.edu. 
 </p>
 
 <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="registration">

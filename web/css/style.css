@@ -742,6 +742,15 @@ a.button{
   
 }
 
+.roomshare {
+    background-color: #fdfdfd;
+    width: 70%;
+    padding: 15px;
+    border: 1px solid navy;
+    margin: 20px;
+}
+
+
 /* Layout rules
 -----------------------------------------------------------------------------------------------------------*/
 

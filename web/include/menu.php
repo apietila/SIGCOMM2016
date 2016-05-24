@@ -9,7 +9,7 @@
      $conferenceItems = array("cfp.php", "submission.php", "program.php", "pc.php", "papers.php");
      $workshopItems = array ("gaia.php", "hotmiddlebox.php", "qoe.php", "lancomm.php", "netpl.php", "cfwp.php", "workshops.php");
      $socialEventItems = array ("reception.php", "dinner.php", "banquet.php");
-     $localInfoItems = array ("local.php", "travel.php", "visa.php", "hotel.php", "kids.php", "advisory.php"); //, "poll.php"
+     $localInfoItems = array ("local.php", "travel.php", "visa.php", "hotel.php", "kids.php", "advisory.php", "roomshare.php"); //, "poll.php"
      $organizationItems = array ("organization.php", "policies.php");
      $demoItems = array("postersdemos.php", "industrialdemos.php");
      $tutorialItems = array("cft.php", "tutorials.php", "tutorial-im.php", "tutorial-wimobnet.php", "tutorial-iptv.php", "tutorial-p4.php", "tutorial-sdnnfv5g.php");
@@ -164,7 +164,7 @@
     */ ?>
 
     <li class="notlast <?php if ($mypage=="registration.php") echo('navselected') ?>" data-icon="false">
-      <a href="registration.php">Registration</a>
+      <a href="https://www.regonline.com/acmsigcomm2016" rel="external">Registration</a>
     </li>
 
     <div data-role="collapsible" data-theme="a" data-content-theme="a" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u" data-iconpos="right"
@@ -202,6 +202,10 @@
 
         <li class="subnav <?php if ($mypage=="hotel.php") echo('navselected') ?>" data-icon="false">
           <a href="hotel.php">Accommodation</a>
+        </li>
+
+        <li class="subnav <?php if ($mypage=="roomshare.php") echo('navselected') ?>" data-icon="false">
+          <a href="roomshare.php">Room Share</a>
         </li>
 
         <?php /*
