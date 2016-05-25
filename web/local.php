@@ -5,8 +5,6 @@
 
 <h1>Venue</h1>
 
-<?php include("include/reloc.php"); ?>
-
 <h2>Oceania Convention Center</h2>
 
 <div class="center">

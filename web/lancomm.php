@@ -5,7 +5,7 @@
 
 <h1>ACM SIGCOMM Workshop on Fostering Latin-American Research in Data Communication Networks (LANCOMM 2016)</h1>
 
-<p>Co-located with ACM SIGCOMM'16, August 22-26, 2016, <s>Salvador</s> Florian&oacute;polis, Brazil.</p>
+<p>Co-located with ACM SIGCOMM'16, August 22-26, 2016, Florian&oacute;polis, Brazil.</p>
 
 <h2>Important Dates</h2>
 

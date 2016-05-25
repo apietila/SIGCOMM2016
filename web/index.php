@@ -3,11 +3,9 @@
     include("include/header.php");
 ?>
 
-<h1>Welcome to <span style="text-decoration:line-through">Salvador</span> Florian&oacute;polis</h1>
+<h1>Welcome to Florian&oacute;polis</h1>
 
-<?php include("include/reloc.php"); ?>
-
-<p>The organizing committee is delighted to invite you to ACM SIGCOMM 2016, to be held in <s>Salvador</s> Florian&oacute;polis, Brazil, August 22-26 2016.</p>
+<p>The organizing committee is delighted to invite you to ACM SIGCOMM 2016, to be held in Florian&oacute;polis, Brazil, August 22-26 2016.</p>
 
 <p>SIGCOMM is the flagship annual conference of the ACM Special Interest Group on Data Communication (SIGCOMM) on the applications, technologies, architectures, and protocols for computer communication.</p>
 

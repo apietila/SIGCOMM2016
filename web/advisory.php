@@ -5,8 +5,6 @@
 
 <h1>Advice for Travellers</h1>
 
-<?php include("include/reloc.php"); ?>
-
 <h2>Florian&oacute;polis</h2>
 
 <p><b>Florian&oacute;polis (FLN)</b> is located in a region with fewer incidence of Aedes Aegypti (mosquitoes found to be the primary vector for spreading Zika virus), as shown in the map below. Also, <a href="http://www.climatempo.com.br/climatologia/377/florianopolis-sc">expected average temperatures for the period of SIGCOMM&#39;16</a> are 21&#186;C (70&#186;F) max. and 14&#186;C (57&#186;F) min. During this period (winter time in South Brazil), Aegypti density eventually decreases (given its <a href="http://www.cdc.gov/dengue/resources/30Jan2012/aegyptifactsheet.pdf">inability to survive under lower temperatures</a>), thus reducing the occurrence of related diseases. The combination of these factors (lower mosquito incidence in the region, plus colder temperatures) makes Florian&oacute;polis a safer region with regard to Zika.</p>
