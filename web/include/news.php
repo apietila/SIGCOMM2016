@@ -1,5 +1,5 @@
 <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="datetbl">
-  <?php add_dateitem("May 24, 2016", "The SIGCOMM 2016 <a href=\"https://www.regonline.com/acmsigcomm2016\" rel=\"external\">registration site</a> is now live!") ?>
+  <?php add_dateitem("May 24, 2016", "The SIGCOMM 2016 <a href=\"https://www.regonline.com/acmsigcomm2016\" rel=\"external\">registration site</a> is now live! Early bird registration deadline is July 14th!") ?>
   <?php add_dateitem("May 24, 2016", "Would like to arrange for shared lodging and/or transportation with other attendees? Then consider subscribing to the <a href=\"roomshare.php\">sigcomm-roomshare-l</a> discussion list!") ?>
   <?php add_dateitem("May 18, 2016", "The submission site for <a href=\"travelgrants.php\">ACM SIGCOMM Travel Grants</a> is now online and accepting grant applications! The deadline is June 8!") ?>
   <?php add_dateitem("May 18, 2016", "The submission deadline for <a href=\"industrialdemos.php\">industrial demos</a> was extended to May 27") ?>

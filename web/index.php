@@ -9,7 +9,7 @@
 
 <p>SIGCOMM is the flagship annual conference of the ACM Special Interest Group on Data Communication (SIGCOMM) on the applications, technologies, architectures, and protocols for computer communication.</p>
 
-<p align="center"><br/>A <a href="message.php">Message from the General Chairs</a> on the relocation to Florian&oacute;polis.</a></p>
+<p align="center"><br/><a href="statement-ec.php">Statement by the SIGCOMM Executive Committee</a> and</br><a href="message.php">Message from the General Chairs</a> on the relocation to Florian&oacute;polis</p>
 
 <h2>News</h2>
 

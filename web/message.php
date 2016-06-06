@@ -2,7 +2,9 @@
     $page_title="A Message from the General Chairs";
     include("include/header.php");
 ?>
-<h1>A Message from the General Chairs</h1>
+<h1>Message from the General Chairs</h1>
+
+<p><b>April 19, 2016</b></p>
 
 <p>After concerns with the Zika virus
 epidemic, <a href="poll.php">we ran a poll</a> including two
