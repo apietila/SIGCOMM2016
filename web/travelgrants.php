@@ -13,6 +13,8 @@
 <p>Support for SIGCOMM 2016 travel grants will be available to students, 
     post-docs, and young faculty early in their career, no matter which 
     university you are working at. We would like to encourage all of you to apply.</p>
+    
+<p><font color="#ff0000"><b>Important update:</b></font> SIGCOMM&#39;s GeoDiversity Grant applicants should preferably be in their early career (applicants who are at most five years of full-time, full-level [non-postdoc] post-PhD employment will be given higher priority), and may be graduate students or post-docs <b>(see updated selection criteria below)</b>.</p>
 
 <p>Please consider the following important information before applying:
     <ul>
@@ -33,7 +35,7 @@
         <li>Evidence of a serious interest in networking, as demonstrated by coursework and/or project experience, will be required. Advanced students close to graduation or in the job market will also be given priority, when possible.</li>
         <li>We also encourage participation of women and under-represented minorities. Special attention will be given to applicants from minority-serving institutions.</li>
         <li>After giving priority to the above criteria, (co-)authors of papers may be considered but will be given lower priority. The rationale is to support people that contribute to the conference and cannot attend otherwise due to budget or other constraints. (An example is a student who is a second author but does not present and would not be able to attend the conference otherwise. Another example is a postdoc who presents work with a past affiliation or without affiliation and thus is not supported either by his/her past or current institution. In both cases, the applicant and the letter-writer should explain in their letters why it is impossible to support the applicant from other sources.)</li>
-        <li>To increase the geographic diversity of the SIGCOMM attendee population, researchers early in their career (at most five years of full-time, full-level [non-postdoc] post-PhD employment) may be funded via SIGCOMM&#39;s GeoDiversity Grants. Because the intent of the grants is to increase participation from countries historically under-represented at the SIGCOMM conference (e.g. Latin America, Africa, and parts of Asia), applicants should be from such countries.</li>
+        <li><font color="#ff0000"><b>(Updated)</b></font> To increase the geographic diversity of the SIGCOMM attendee population, <s>researchers early in their career (at most five years of full-time, full-level [non-postdoc] post-PhD employment)</s> researchers preferably early in their career may be funded via SIGCOMM&#39;s GeoDiversity Grants (applicants who are at most five years of full-time, full-level [non-postdoc] post-PhD employment will be given higher priority). Because the intent of the grants is to increase participation from countries historically under-represented at the SIGCOMM conference (e.g. Latin America, Africa, and parts of Asia), applicants should be from such countries.</li>
     </ol>
 </p>
 
@@ -42,8 +44,8 @@
 <h2>Important Dates</h2>
 
 <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="datetbl">
-    <?php add_dateitem("June 8, 2016", "Application submission deadline"); ?>
-    <?php add_dateitem("June 15, 2016", "Award notification"); ?>
+    <?php add_dateitem("<s>June 8</s> June 13, 2016", "Application submission deadline <font color=\"#ff0000\"><b>(extended)</b></font>"); ?>
+    <?php add_dateitem("<s>June 15</s> June 17, 2016", "Award notification <font color=\"#ff0000\"><b>(postponed)</b></font>"); ?>
 </ul>
 
 <h2>Where and How to Apply</h2>
