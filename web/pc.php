@@ -65,7 +65,7 @@
     add_listitem("Minlan Yu", "University of Southern California, USA", "http://www-bcf.usc.edu/~minlanyu/");
     add_listitem("Matei Zaharia", "MIT, USA", "https://people.csail.mit.edu/matei/");
     add_listitem("Ellen Zegura", "Georgia Tech, USA", "http://www.cc.gatech.edu/fac/Ellen.Zegura/");
-    add_listitem("Ming Zhang", "Microsoft, USA", "http://research.microsoft.com/en-us/people/mzh/");
+    add_listitem("Ming Zhang", "Alibaba Group, USA", "http://www.alibabagroup.com/");
   
   ?>
 </ul>

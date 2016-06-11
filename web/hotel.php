@@ -76,7 +76,7 @@
   <table class="hotel">
     <tr><th>Distance to venue:</th><td>600 m, 7 minutes walk (see map)</td></tr>
      <tr><th>Rating:</th><td><a href="http://booking.com/1ccb23dbc09f8c82" rel="external">8.7/10</a> (317 reviews as of May 17th)</td></tr>
-    <tr><th>Reservation:</th><td>Contact person: Mrs. Fernanda Barth, phone +55 (48) 3261-3092, e-mail: <a href="mailto:reservasonline@hoteiscostanorte.com.br">reservasonline@hoteiscostanorte.com.br</a>. 
+    <tr><th>Reservation:</th><td>Contact person: Mrs. Fernanda Barth, phone +55 (48) 3261-3092, e-mail: <a href="mailto:ingleses@hoteiscostanorte.com.br">ingleses@hoteiscostanorte.com.br</a>. 
 	Please email Mrs. Barth and mention SIGCOMM rates.</td></tr>
     <tr><th>Rates:</th><td><b>Superior or Standard street view  (rate per person)</b></td></tr>
     <tr><th>&nbsp;</th><td>BRL (R$) 170 single<br/>BRL (R$) 106 double<br/>BRL (R$) 93 triple<br/>BRL (R$) 87 quadruple<br/>+ 2.5% ISS TAX</td></tr>
