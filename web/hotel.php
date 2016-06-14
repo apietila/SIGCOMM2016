@@ -13,6 +13,8 @@
 
 <p>Accommodation at Ingleses district is also available through <a href="https://www.airbnb.com.br/s/Praia-dos-Ingleses--Florian%C3%B3polis-~-State-of-Santa-Catarina?guests=&checkin=08/21/2016&checkout=08/27/2016&ss_id=klftn5o4&source=bb&s_tag=nNp7nULv" target="sigcomm-hotels" rel="external">AirBnB</a> and nearby <a href="http://www.costao.com.br" target="sigcomm-hotels" rel="external">resorts</a>, though in this case renting a car with GPS (e.g. through <a href="http://rentcars.com">rentcars</a> and <a href="http://www.rentalcars.com">rentalcars</a>) at the Hercilio Luz Int&#39;l Airport would be recommended.</p>
 
+<p><font color="#ff0000"><b>Attention all attendees:</b></font> Would like to arrange for shared lodging and/or transportation with other attendees? Then consider subscribing to the <a href="roomshare.php">sigcomm-roomshare-l</a> discussion list!</p>
+
 <div data-role="collapsible" data-theme="a" data-content-theme="a" id="oceania-c">
   <h3><font class="hotel-header">Oceania Park Hotel &amp; Convention Center</font></h3>
   
