@@ -75,6 +75,11 @@ function add_paperlistitem($title, $authors)
            $title, $authors);
 }
 
+function tprog_add_header($time)
+{
+        printf('<li class="heading" data-role="list-divider" style="display:block"><h3>%s</h3></li>', $time);
+
+}
 
 function tprog_add_session($time, $title, $chair="", $style="")
 {
@@ -107,7 +112,7 @@ function tprog_add_item($paper, $link, $authors, $info, $slides="", $video="")
 		printf('<a href="%s" rel="external">', $link);
 	}
 	if ($paper) {
-		printf('<h3>%s </h3>', $paper);
+		printf('<h2>%s </h2>', $paper);
 	}
 	if ($authors) {
 		if (preg_match('/^\s*\<p\>/i', $authors)) {

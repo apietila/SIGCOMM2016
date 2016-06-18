@@ -5,7 +5,7 @@
 
 <h1>Accommodation</h1>
 
-<p>The main conference venue is <a href="http://www.oceaniaparkhotel.com.br/centro-convencoes/">Oceania Convention Center</a>. There are plenty of options for accommodation available in easy walking distance from the venue. Below is a list of nearby hotels with special offers for conference attendees.</p>
+<p>The main conference venue is <a href="http://www.oceaniaparkhotel.com.br/centro-convencoes/">Oceania Convention Center</a>. There are plenty of options for accommodation available in easy walking distance from the venue. Below is a list of nearby hotels with special offers for conference attendees. <b>The deadline for booking a hotel room at discounted rates was extended to July 20th!</b></p>
 
 <p>All values below are in Brazilian Reais (sign: R$, ISO-code: BRL). As of May 17th, one dollar (USD) buys around R$ 3.50. Check <a href="http://www.xe.com/currency/brl-brazilian-real" rel="external">XE.com</a> for an estimate of BRL to the currency of your choice.</p>
 
@@ -25,7 +25,7 @@
     <tr><th>Rating:</th><td><a href="http://booking.com/8dfff2355d66e">7.7/10</a> (414 reviews as of May 17th)</td></tr>
     <tr><th>Reservation:</th><td>Contact person: Mr. Rafael Santos, phone: +55 (48) 3261-3400, e-mail: <a href="mailto:reservas@oceaniaparkhotel.com.br">reservas@oceaniaparkhotel.com.br</a>. Please email Mr. Santos and mention SIGCOMM rates.</td></tr>
     <tr><th>Rates:</th><td>BRL (R$) 215 single<br/>BRL (R$) 250 double<br/>BRL (R$) 285 triple<br/>+ 2.5% ISS TAX</td></tr>
-    <tr><th>Cut-off date:</th><td>June 10th, 2016</td></tr>
+    <tr><th>Cut-off date:</th><td><s>June 10th</s> July 20th, 2016 <font color="#ff0000"><b>(extended)</b></font></td></tr>
   </table>
   
   <a href="http://www.oceaniaparkhotel.com.br/en-us/" target="sigcomm-hotels" data-role="button" data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button">Hotel Website</a>
@@ -53,7 +53,7 @@
     <tr><th>Reservation:</th><td>Contact person: Mrs. Cecilia Leiva, phone +55 (48) 3261 3711, e-mail: <a href="mailto:reservas.sefi@slavierohoteis.com.br">reservas.sefi@slavierohoteis.com.br</a>. 
 	Please email Mrs. Leiva and mention SIGCOMM rates.</td></tr>
     <tr><th>Rates:</th><td>BRL (R$) 215 single<br/>BRL (R$) 250 double<br/>BRL (R$) 285 triple<br/>+ 2.5% ISS TAX</td></tr>
-    <tr><th>Cut-off date:</th><td>May 31st, 2016</td></tr>
+    <tr><th>Cut-off date:</th><td><s>May 31st</s> July 20th, 2016 <font color="#ff0000"><b>(extended)</b></font></td></tr>
   </table>
   
   <a href="http://www.slavierohoteis.com.br/hotel-em-florianopolis/slaviero-essential-florianopolis-ingleses-acquamar/hotel/" target="sigcomm-hotels" data-role="button" data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button">Hotel Website (Portuguese Only)</a>
@@ -84,7 +84,7 @@
     <tr><th>&nbsp;</th><td>BRL (R$) 170 single<br/>BRL (R$) 106 double<br/>BRL (R$) 93 triple<br/>BRL (R$) 87 quadruple<br/>+ 2.5% ISS TAX</td></tr>
     <tr><th>&nbsp;</th><td><b>Suite Sea view or Chalet (rate per person)</b></td></tr>
     <tr><th>&nbsp;</th><td>BRL (R$) 225 single<br/>BRL (R$) 140 double<br/>BRL (R$) 116 triple<br/>BRL (R$) 104 quadruple<br/>+ 2.5% ISS TAX</td></tr>
-    <tr><th>Cut-off date:</th><td>June 10th, 2016</td></tr>
+    <tr><th>Cut-off date:</th><td><s>June 10th</s> July 20th, 2016 <font color="#ff0000"><b>(extended)</b></font></td></tr>
   </table>
   
   <a href="http://www.hoteiscostanorte.com.br/costa-norte-ingleses-hotel----17836/accommodations.htm" target="sigcomm-hotels" data-role="button" data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button">Hotel Website (Portuguese Only)</a>
@@ -112,7 +112,7 @@
     <tr><th>Reservation:</th><td>Contact person: Mrs. Jaqueline Vicente, phone +55 (48) 3211-5909, e-mail: <a href="mailto:reservas@hoteisportodosol.com.br">reservas@hoteisportodosol.com.br</a>. 
 	Please email Mrs. Vicente and mention SIGCOMM rates.</td></tr>
     <tr><th>Rates:</th><td>BRL (R$) 159 single<br/>BRL (R$) 195 double<br/>BRL (R$) 231 triple<br/>BRL (R$) 267 quadruple<br/>+ 2.5% ISS TAX</td></tr>
-    <tr><th>Cut-off date:</th><td>June 10th, 2016</td></tr>
+    <tr><th>Cut-off date:</th><td><s>June 10th</s> July 20th, 2016 <font color="#ff0000"><b>(extended)</b></font></td></tr>
   </table>
   
   <a href="http://www.hoteisportosol.com.br/quality.html?lang=en" target="sigcomm-hotels" data-role="button" data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button">Hotel Website</a>

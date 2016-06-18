@@ -19,9 +19,9 @@
     <?php add_dateitem("August 26, 2016", "Workshop day"); ?>
 </ul>
 
-<!-- <h2>Technical Program</h2> -->
+<h2>Technical Program</h2>
 
-<!-- <?php /* include("include/program/todo.php"); */ ?> -->
+<?php include("include/program/gaia.php"); ?>
 
 <h2 id="cfp">Call for Papers</h2>
 
