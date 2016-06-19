@@ -75,19 +75,30 @@ function add_paperlistitem($title, $authors)
            $title, $authors);
 }
 
+function tprog_add_header($time)
+{
+        printf('<li data-role="list-divider" class="prog-header"><h3>%s</h3></li>', $time);
+        // Weverton: for some reason (i'm new to jquery), a list divider cannot exist without a following item, when data-filter is true
+        //           as a workaround, included an invisible li
+        print ("<li style=\"display: none;\"></li>\n");
 
-function tprog_add_session($time, $title, $chair="", $style="")
+}
+
+function tprog_add_session($time, $title, $chair="", $style="", $last=false)
 {
     if (!$style) {
-        $style = preg_match('/lunch|coffee/i', $title) ? "d" : "b";
+        $style = preg_match('/lunch|coffee/i', $title) ? "b" : "a";
     }
-	printf('<li class="ui-bar-%s" data-role="list-divider"><h3>%s %s</h3>',
-	       $style, $time, $title);
+	printf('<li class="ui-bar-%s %s" data-role="list-divider"><h3>%s %s</h3>',
+	       $style, ($last ? "listlast" : ""), $time, $title);
 	if ($chair) {
 		$chair = preg_replace('/\(([^\)]*)\)/', '<em>(${1})</em>', $chair);
 		printf('<p>Session Chair: %s</p>', $chair);
 	}
 	print("</li>\n");
+        // Weverton: for some reason (i'm new to jquery), a list divider cannot exist without a following item, when data-filter is true
+        //           as a workaround, included an invisible li
+        print ("<li style=\"display: none;\"></li>\n");
 
 }
 
@@ -107,7 +118,7 @@ function tprog_add_item($paper, $link, $authors, $info, $slides="", $video="")
 		printf('<a href="%s" rel="external">', $link);
 	}
 	if ($paper) {
-		printf('<h3>%s </h3>', $paper);
+		printf('<h2>%s </h2>', $paper);
 	}
 	if ($authors) {
 		if (preg_match('/^\s*\<p\>/i', $authors)) {

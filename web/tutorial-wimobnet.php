@@ -7,6 +7,11 @@
 
 <h2>Friday, August 26th</h2>
 
+<h2>Location</h2>
+
+<p>The tutorial will take place at Room Esmeralda 1.</p>
+
+
 <h2>Presenters</h2>
 <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="tbl">
   <?php
@@ -14,11 +19,6 @@
      add_listitem("Robert Ricci", "University of Utah, USA", "http://www.flux.utah.edu/users/ricci/");
      add_listitem("Kirk Webb", "University of Utah, USA", "http://www.flux.utah.edu/~kwebb/");
   ?>
-</ul>
-
-<h2>Location</h2>
-<ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="datetbl">
-  <li><p>Room Esmeralda 1</p></li>
 </ul>
 
 <h2>Tutorial Timetable</h2>

@@ -7,21 +7,13 @@
 
 <p>Co-located with ACM SIGCOMM'16, August 22-26, 2016, Florian&oacute;polis, Brazil.</p>
 
-<h2>Important Dates</h2>
+<h2>Location</h2>
 
-<ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="datetbl">
-    <?php add_dateitem("December 15, 2015", "Call for papers published"); ?>
-    <?php add_dateitem("<s>March 11</s> March 15, 2016", "Paper registration deadline <span class=\"highlighttext\">(extended)</span>"); ?>
-    <?php add_dateitem("<s>March 18</s> March 28, 2016", "Paper submission deadline <span class=\"highlighttext\">(extended)</span>"); ?>
-    <?php add_dateitem("April 29, 2016", "Paper acceptance notification"); ?>
-    <?php add_dateitem("Late May, 2016", "Camera-ready deadline"); ?>
-    <?php // add_dateitem("June, 2016", "Workshop program online"); ?>
-    <?php add_dateitem("August 26, 2016", "Workshop day"); ?>
-</ul>
+<p>The workshop will take place at Room Topazio 1.</p>
 
-<!-- <h2>Technical Program</h2> -->
+<h2>Technical Program</h2>
 
-<!-- <?php /* include("include/program/todo.php"); */ ?> -->
+<?php include("include/program/gaia.php"); ?>
 
 <h2 id="cfp">Call for Papers</h2>
 
@@ -63,6 +55,18 @@ This workshop addresses the problem of digital exclusion through networking tech
 <p>All submissions should be formatted in standard ACM conference style for publication in the conference proceedings. They must be single-spaced, double-column, with each column 9.25" by 3.33", 0.33" space between columns, use at least a 10pt font, and be correctly formatted to be printed on letter-sized (8.5" by 11") paper. It is required that at least one author of each accepted paper register and attend the ACM SIGCOMM GAIA workshop to present their work to ensure its publication in the ACM SIGCOMM conference proceedings.</p>
 
 <p>To submit your paper to ACM SIGCOMM GAIA Workshop, please visit the <a href="https://sigcomm-gaia16.hotcrp.com/">submission website</a>.</p>
+
+<h2>Important Dates</h2>
+
+<ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="datetbl">
+    <?php add_dateitem("December 15, 2015", "Call for papers published"); ?>
+    <?php add_dateitem("<s>March 11</s> March 15, 2016", "Paper registration deadline <span class=\"highlighttext\">(extended)</span>"); ?>
+    <?php add_dateitem("<s>March 18</s> March 28, 2016", "Paper submission deadline <span class=\"highlighttext\">(extended)</span>"); ?>
+    <?php add_dateitem("April 29, 2016", "Paper acceptance notification"); ?>
+    <?php add_dateitem("Late May, 2016", "Camera-ready deadline"); ?>
+    <?php // add_dateitem("June, 2016", "Workshop program online"); ?>
+    <?php add_dateitem("August 26, 2016", "Workshop day"); ?>
+</ul>
 
 <h2>Organizers</h2>
 

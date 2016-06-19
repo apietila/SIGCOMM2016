@@ -7,6 +7,10 @@
 
 <h2>Monday, August 22nd, Morning Session</h2>
 
+<h2>Location</h2>
+
+<p>The tutorial will take place at Room Topazio 1.</p>
+
 <h2>Presenters</h2>
 <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="tbl">
   <?php
@@ -14,11 +18,6 @@
      add_listitem("Christian Rothenberg", "UNICAMP, Brazil", "http://www.dca.fee.unicamp.br/~chesteve/");
      add_listitem("Ahmad Rostami", "Ericsson Research, Sweden", "");
   ?>
-</ul>
-
-<h2>Location</h2>
-<ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="datetbl">
-  <li><p>Room Topazio 1</p></li>
 </ul>
 
 <h2>Tutorial Timetable</h2>

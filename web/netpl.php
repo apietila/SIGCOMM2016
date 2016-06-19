@@ -7,14 +7,9 @@
 
 <p>Co-located with ACM SIGCOMM'16, August 22-26, 2016, Florian&oacute;polis, Brazil.</p>
 
-<h2>Important Dates</h2>
+<h2>Location</h2>
 
-<ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="datetbl">
-    <?php add_dateitem("<s>April 29, 2016</s>", "<s>Deadline</s>"); ?>
-    <?php add_dateitem("<s>May 9, 2016</s>", "<s>Speaker notified</s>"); ?>
-    <?php add_dateitem("June 8, 2016", "Travel grant applications due"); ?>
-    <?php add_dateitem("August 22, 2016", "Workshop day"); ?>
-</ul>
+<p>The workshop will take place at Room Agata 2.</p>
 
 <!-- <h2>Technical Program</h2> -->
 
@@ -97,6 +92,15 @@ to the workshop in a separate section of the application letter.</p>
   <a href="http://www.huawei.com/"><img src="images/sponsors/huawei.png" alt="Huawei" style="width: 100px;"/></a>
   <a href="http://research.microsoft.com"><img src="images/sponsors/msr.png" alt="Microsoft Research" style="width: 260px;"/></a>
 </div>
+
+<h2>Important Dates</h2>
+
+<ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="datetbl">
+    <?php add_dateitem("<s>April 29, 2016</s>", "<s>Deadline</s>"); ?>
+    <?php add_dateitem("<s>May 9, 2016</s>", "<s>Speaker notified</s>"); ?>
+    <?php add_dateitem("June 8, 2016", "Travel grant applications due"); ?>
+    <?php add_dateitem("August 22, 2016", "Workshop day"); ?>
+</ul>
 
 <h2>Organizers</h2>
 

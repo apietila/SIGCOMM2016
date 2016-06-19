@@ -7,17 +7,10 @@
 
 <p>Co-located with ACM SIGCOMM'16, August 22-26, 2016, Florian&oacute;polis, Brazil.</p>
 
-<h2>Important Dates</h2>
+<h2>Location</h2>
 
-<ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="datetbl">
-    <?php add_dateitem("December 17, 2015", "Call for papers published"); ?>
-    <?php add_dateitem("<s>March 18</s> March 25, 2016", "Paper registration deadline <span class=\"highlighttext\">(extended)</span>"); ?>
-    <?php add_dateitem("<s>March 25</s> April, 1, 2016", "Paper submission deadline <span class=\"highlighttext\">(extended)</span>"); ?>
-    <?php add_dateitem("<s>April 29, 2016</s> May 6, 2016", "Paper acceptance notifications <span class=\"highlighttext\">(extended)</span>"); ?>
-    <?php add_dateitem("May 20, 2016", "Camera-ready due"); ?>
-    <?php // add_dateitem("June, 2016", "Workshop program online"); ?>
-    <?php add_dateitem("August 26, 2016", "Workshop day"); ?>
-</ul>
+<p>The workshop will take place at Room Agata 2.</p>
+
 
 <!-- <h2>Technical Program</h2> -->
 
@@ -97,6 +90,18 @@ single-blind peer reviewing by the PC. Authors of accepted papers are expected
 to present their papers at the workshop. Accepted papers will be published in 
 the ACM Digital Library. Paper registration and submission
 can be done at: <a href="https://internetqoe16.hotcrp.com/">https://internetqoe16.hotcrp.com/</a>.</p>
+
+<h2>Important Dates</h2>
+
+<ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="datetbl">
+    <?php add_dateitem("December 17, 2015", "Call for papers published"); ?>
+    <?php add_dateitem("<s>March 18</s> March 25, 2016", "Paper registration deadline <span class=\"highlighttext\">(extended)</span>"); ?>
+    <?php add_dateitem("<s>March 25</s> April, 1, 2016", "Paper submission deadline <span class=\"highlighttext\">(extended)</span>"); ?>
+    <?php add_dateitem("<s>April 29, 2016</s> May 6, 2016", "Paper acceptance notifications <span class=\"highlighttext\">(extended)</span>"); ?>
+    <?php add_dateitem("May 20, 2016", "Camera-ready due"); ?>
+    <?php // add_dateitem("June, 2016", "Workshop program online"); ?>
+    <?php add_dateitem("August 26, 2016", "Workshop day"); ?>
+</ul>
 
 <h2>Organizers</h2>
 

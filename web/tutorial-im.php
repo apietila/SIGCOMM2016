@@ -7,6 +7,10 @@
 
 <h2>Monday, August 22nd</h2>
 
+<h2>Location</h2>
+
+<p>The tutorial will take place at Room Topazio 2.</p>
+
 <h2>Presenters</h2>
 <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="tbl">
   <?php
@@ -14,11 +18,6 @@
      add_listitem("Anna-Kaisa Pietilainen", "Inria, France", "https://muse.inria.fr/~apietila/");
      add_listitem("Renata Teixeira", "Inria, France", "https://who.rocq.inria.fr/Renata.Teixeira/");
   ?>
-</ul>
-
-<h2>Location</h2>
-<ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="datetbl">
-  <li><p>Room Topazio 2</p></li>
 </ul>
 
 <h2>Tutorial Timetable</h2>

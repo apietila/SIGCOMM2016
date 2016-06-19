@@ -75,20 +75,13 @@
   <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
   <script>window.jQuery || document.write('<script src="js/jquery-1.11.2.min.js"><\/script>')</script>
 
-    <script>
-      $(document).bind("mobileinit", function(){
-        // apply jquerymobile global overrides here
-        $.mobile.listview.prototype.options.filterPlaceholder = "Filter program...";
-      });
-    </script>
+  <!-- Grab CDN jquerymobile, with a protocol relative URL; fall back to local if offline -->
+  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  <script>$.mobile || document.write('<script src="js/jquery.mobile-1.4.5.min.js"><\/script>')</script>
 
-    <!-- Grab CDN jquerymobile, with a protocol relative URL; fall back to local if offline -->
-    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-    <script>$.mobile || document.write('<script src="js/jquery.mobile-1.4.5.min.js"><\/script>')</script>
-
-    <script src="js/jqm-docs.js"></script>
+  <script src="js/jqm-docs.js"></script>
     
-    <script src="js/script.js" type='text/javascript'></script>
+  <script src="js/script.js" type='text/javascript'></script>
 
 </head>
 

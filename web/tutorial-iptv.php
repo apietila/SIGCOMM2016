@@ -7,16 +7,15 @@
 
 <h2>Monday, August 22nd, Afternoon Session</h2>
 
+<h2>Location</h2>
+
+<p>The tutorial will take place at Room Topazio 1.</p>
+
 <h2>Presenters</h2>
 <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="tbl">
   <?php
      add_listitem("Ali C. Begen", "MediaMelon Inc, USA", "http://www.employees.org/~acbegen/index.php");
   ?>
-</ul>
-
-<h2>Location</h2>
-<ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="datetbl">
-  <li><p>Room Topazio 1</p></li>
 </ul>
 
 <h2>Tutorial Timetable</h2>

@@ -7,17 +7,9 @@
 
 <p>Co-located with ACM SIGCOMM'16, August 22-26, 2016, Florian&oacute;polis, Brazil.</p>
 
-<h2>Important Dates</h2>
+<h2>Location</h2>
 
-<ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="datetbl">
-    <?php add_dateitem("December 22, 2015", "Call for papers published"); ?>
-    <?php add_dateitem("<s>March 18</s> March 25, 2016", "Paper registration deadline <span class=\"highlighttext\">(extended)</span>"); ?>
-    <?php add_dateitem("<s>March 25</s> April, 1, 2016", "Paper submission deadline <span class=\"highlighttext\">(extended)</span>"); ?>
-    <?php add_dateitem("April 30, 2016", "Notification"); ?>
-    <?php add_dateitem("May 15, 2016", "Camera ready"); ?>
-    <?php // add_dateitem("June, 2016", "Workshop program online"); ?>
-    <?php add_dateitem("August 26, 2016", "Workshop day"); ?>
-</ul>
+<p>The workshop will take place at Room Agata 1.</p>
 
 <!-- <h2>Technical Program</h2> -->
 
@@ -82,6 +74,18 @@ Please upload your submissions to <a href="https://hotmiddlebox16.hotcrp.com/">t
 Accepted papers will be published in the ACM Digital Library. Publication at HotMiddlebox is not
 intended to preclude later publication. Authors of accepted papers are expected to present their
 papers at the workshop.
+
+<h2>Important Dates</h2>
+
+<ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="datetbl">
+    <?php add_dateitem("December 22, 2015", "Call for papers published"); ?>
+    <?php add_dateitem("<s>March 18</s> March 25, 2016", "Paper registration deadline <span class=\"highlighttext\">(extended)</span>"); ?>
+    <?php add_dateitem("<s>March 25</s> April, 1, 2016", "Paper submission deadline <span class=\"highlighttext\">(extended)</span>"); ?>
+    <?php add_dateitem("April 30, 2016", "Notification"); ?>
+    <?php add_dateitem("May 15, 2016", "Camera ready"); ?>
+    <?php // add_dateitem("June, 2016", "Workshop program online"); ?>
+    <?php add_dateitem("August 26, 2016", "Workshop day"); ?>
+</ul>
 
 <h2>Organizers</h2>
 

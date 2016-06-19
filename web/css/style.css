@@ -625,7 +625,7 @@ button[disabled],
 .content-primary .ui-li-divider {
     margin:      0px;
     line-height: 1.2em;
-    background-color: #4e964e !important;
+    background-color: #4e964e /*!important*/;
     border-top-color: #307630;
     border-left-color: #307630;
     border-right-color: #307630;
@@ -704,6 +704,46 @@ video {
     width: 100%;
     height: 100%;
 }
+
+/*Custom styles for the Conference program menu */
+
+.content-primary .program .prog-header {
+        background-color: #1A601A;
+        border-color: #ACA997;
+        
+}
+
+.content-primary .program .prog-header h3 {
+        font-weight: bolder;
+        color: #FFFFFF;
+        text-align: center;
+        text-shadow: none;
+}
+
+.content-primary .program .ui-bar-a {
+        background-color: #4e964e;
+        border-color: #ACA997;
+}
+
+.content-primary .program .ui-bar-a h3 {
+        font-weight: bolder;
+        color: #FFFFFF;
+        text-align: left;
+        text-shadow: none;
+}
+
+.content-primary .program .ui-bar-b {
+        background-color: #d1d1d1;
+        border-color: #ACA997;
+}
+
+.content-primary .program .ui-bar-b h3 {
+        font-weight: bold;
+        color: #000000;
+         text-align: left;
+        text-shadow: none;
+}
+
 
 .hotel-header {
     font-size: 1em;
