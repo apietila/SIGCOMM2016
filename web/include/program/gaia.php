@@ -13,13 +13,13 @@
     
     tprog_add_session ("10:30am - 11:00am", "Coffee-break", "", "");
 
-    tprog_add_session ("11:00am - 12:30am", "Session 2: Economics and deployment", "", "");
+    tprog_add_session ("11:00am - 12:30pm", "Session 2: Economics and deployment", "", "");
 
     tprog_add_item ("A Techno-Economic Framework for Broadband Deployment in Underserved Areas", "", "R. Durairajan, P. Barford", "", "", "");
     tprog_add_item ("RemIX: A Distributed Internet Exchange for Remote and Rural Networks", "", "W. Waites, J. Sweet, R. Baig, P. Buneman, M. Fayed, G. Hughes, M. Fourman, R. Simmons", "", "", "");
     tprog_add_item ("Making Community Networks economically sustainable, the guifi.net experience", "", "R. Baig, L. Dalmau, R. Roca, L. Navarro, F. Freitag, A. Sathiaseelan", "", "", "");
 
-    tprog_add_session ("12:30am - 2:00pm", "Lunch", "", "");
+    tprog_add_session ("12:30pm - 2:00pm", "Lunch", "", "");
           
     tprog_add_session ("2:00pm - 3:30pm", "Session 3: Invited Experience reports", "", "");
 
