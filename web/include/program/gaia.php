@@ -18,6 +18,6 @@ tprog_add_item("Open Source Community Cellular Networks: Brazilian Amazon as Cas
 tprog_add_item("Empirical evaluation of mobile network services in developing countries", "", "S. Rao, K. Kumar, J. Manner, T. Aura", "", "", "");
 tprog_add_session("3:30pm - 4:00pm", "Coffee Break", "", "");
 tprog_add_session("4:00pm - 5:00pm", "Panel Session", "", "");
-tprog_add_session("5:00pm", "Wrap-up", "", "");
+tprog_add_session("5:00pm", "Wrap-up", "", "", true);
 ?>
 </ul>
