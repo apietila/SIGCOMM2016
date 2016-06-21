@@ -28,6 +28,6 @@ tprog_add_item("Improving Delivery Delay in Social-based Message Forwarding in D
 tprog_add_item("Adopting Security Routines in Legacy Organizations", "", "E. Azevedo, M. Machado, R. Melo, R. Aschoff, D. Sadok, U. Carmo", "", "", "");
 tprog_add_session("3:30pm - 4:00pm", "Coffee Break", "", "");
 tprog_add_session("4:00pm - 5:00pm", "Discussion: Synergies in Network Modeling, Monitoring and Analysis Research", "", "");
-tprog_add_session("5:00pm", "Wrap-up, Planning of Next Steps, and Closing", "", "");
+tprog_add_session("5:00pm", "Wrap-up, Planning of Next Steps, and Closing", "", "", true);
 ?>
 </ul>
