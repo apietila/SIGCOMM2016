@@ -109,7 +109,7 @@
   <table class="hotel">
     <tr><th>Distance to venue:</th><td>450 m, 6 minutes walk (see map)</td></tr>
    <tr><th>Rating:</th><td><a href="http://booking.com/1facd6bc9ca12f9b4" rel="external">7.8/10</a> (808 reviews as of May 17th)</td></tr>
-    <tr><th>Reservation:</th><td>Contact person: Mrs. Jaqueline Vicente, phone +55 (48) 3211-5909, e-mail: <a href="mailto:reservas@hoteisportodosol.com.br">reservas@hoteisportodosol.com.br</a>. 
+    <tr><th>Reservation:</th><td>Contact person: Mrs. Jaqueline Vicente, phone +55 (48) 3211-5909, e-mail: <a href="mailto:reservas@hoteisportosol.com.br">reservas@hoteisportosol.com.br</a>. 
 	Please email Mrs. Vicente and mention SIGCOMM rates.</td></tr>
     <tr><th>Rates:</th><td>BRL (R$) 159 single<br/>BRL (R$) 195 double<br/>BRL (R$) 231 triple<br/>BRL (R$) 267 quadruple<br/>+ 2.5% ISS TAX</td></tr>
     <tr><th>Cut-off date:</th><td><s>June 10th</s> July 20th, 2016 <font color="#ff0000"><b>(extended)</b></font></td></tr>
