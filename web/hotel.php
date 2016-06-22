@@ -11,7 +11,7 @@
 
 <p>A single room rate will cost between US$46 and US$62 per day (approximately), plus 2.5% tax. A room shared by four at Porto Sol Quality Hotel will cost less than US$20 per person per day, allowing a student to stay the entire conference at a hotel in walking distance, breakfast included, for less than US$100 in total.</p>
 
-<p>Accommodation at Ingleses district is also available through <a href="https://www.airbnb.com.br/s/Praia-dos-Ingleses--Florian%C3%B3polis-~-State-of-Santa-Catarina?guests=&checkin=08/21/2016&checkout=08/27/2016&ss_id=klftn5o4&source=bb&s_tag=nNp7nULv" target="sigcomm-hotels" rel="external">AirBnB</a> and nearby <a href="http://www.costao.com.br" target="sigcomm-hotels" rel="external">resorts</a>, though in this case renting a car with GPS (e.g. through <a href="http://rentcars.com">rentcars</a> and <a href="http://www.rentalcars.com">rentalcars</a>) at the Hercilio Luz Int&#39;l Airport would be recommended.</p>
+<p>Accommodation at Ingleses district is also available through <a href="https://www.airbnb.com.br/s/Praia-dos-Ingleses--Florian%C3%B3polis-~-State-of-Santa-Catarina?guests=&checkin=08/21/2016&checkout=08/27/2016&ss_id=klftn5o4&source=bb&s_tag=nNp7nULv" target="sigcomm-hotels" rel="external">AirBnB</a> and nearby <a href="http://www.costao.com.br" target="sigcomm-hotels" rel="external">resorts</a>, though in this case <a data-ajax="false" href="travel.php#car-rental">renting a car</a> with GPS at the Hercilio Luz Int&#39;l Airport would be recommended.</p>
 
 <p><font color="#ff0000"><b>Attention all attendees:</b></font> Would like to arrange for shared lodging and/or transportation with other attendees? Then consider subscribing to the <a href="roomshare.php">sigcomm-roomshare-l</a> discussion list!</p>
 

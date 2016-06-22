@@ -8,7 +8,7 @@
      $conferenceItems = array("cfp.php", "submission.php", "program.php", "pc.php", "papers.php", "socialevents.php");
      $workshopItems = array ("gaia.php", "hotmiddlebox.php", "qoe.php", "lancomm.php", "netpl.php", "cfwp.php", "workshops.php");
      $socialEventItems = array ("reception.php", "dinner.php", "banquet.php");
-     $localInfoItems = array ("local.php", "travel.php", "visa.php", "hotel.php", "kids.php", "advisory.php", "roomshare.php"); //, "poll.php"
+     $localInfoItems = array ("local.php", "travel.php", "visa.php", "hotel.php", "kids.php", "advisory.php", "roomshare.php", "tourism.php"); //, "poll.php"
      $organizationItems = array ("organization.php", "policies.php");
      $demoItems = array("postersdemos.php", "industrialdemos.php");
      $tutorialItems = array("cft.php", "tutorials.php", "tutorial-im.php", "tutorial-wimobnet.php", "tutorial-iptv.php", "tutorial-p4.php", "tutorial-sdnnfv5g.php");
@@ -190,16 +190,12 @@
           <a href="poll.php">Poll</a>
         </li>-->
 
-        <li class="subnav <?php if ($mypage=="local.php") echo('navselected') ?>" data-icon="false">
-          <a href="local.php">Venue</a>
+        <li class="subnav <?php if ($mypage=="travel.php") echo('navselected') ?>" data-icon="false">
+          <a href="travel.php">Venue and Travel</a>
         </li>
 
         <li class="subnav <?php if ($mypage=="visa.php") echo('navselected') ?>" data-icon="false">
           <a href="visa.php">Visa</a>
-        </li>
-
-        <li class="subnav <?php if ($mypage=="travel.php") echo('navselected') ?>" data-icon="false">
-          <a href="travel.php">Travel</a>
         </li>
 
         <li class="subnav <?php if ($mypage=="hotel.php") echo('navselected') ?>" data-icon="false">
@@ -215,6 +211,10 @@
           <a href="kids.php">Support for Children</a>
         </li>
         */ ?>
+
+        <li class="subnav <?php if ($mypage=="tourism.php") echo('navselected') ?>" data-icon="false">
+          <a href="tourism.php">Tourism</a>
+        </li>
 
         <li class="subnav <?php if ($mypage=="advisory.php") echo('navselected') ?>" data-icon="false">
           <a href="advisory.php">Advice for Travellers</a>

@@ -8,7 +8,7 @@
 
 <p>In order to help attendees in arranging for shared lodging and/or transportation with other attendees, we created the <a href="https://listas.inf.ufrgs.br/mailman/listinfo/sigcomm-roomshare-l">sigcomm-roomshare-l@inf.ufrgs.br</a> mailing list.</p>
 
-<p>Subscription is open to anyone interested. When posting a message to the list, please include any preferences and schedule restrictions for who you would like to share costs with. See example below.</p>
+<p>Subscription is open to anyone interested. When posting a message, please include any preferences and schedule restrictions for who you would like to share costs with.</p>
 
 <div class="roomshare">
 <p><b>Subject:</b> [sigcomm-roomshare] Need a ride and room</p>
@@ -25,6 +25,6 @@ PhD Student<br/>
 University of S&atilde;o Paulo, Brazil</p>
 </div>
 
-<p>The list archives and members are available to subscribers only. There is no restriction on membership, though. Please consider that when posting to the list.</p>
+<p><font color="#ff0000"><b>Attention newcomers:</b></font> Do not forget to check the <a href="https://listas.inf.ufrgs.br/mailman/private/sigcomm-roomshare-l/">list archives</a> and see what has been posted already. The list archives and members are available to subscribers only. There is no restriction on membership, though. Please consider that when posting to the list.</p>
 
 <?php include ("include/footer.php"); ?>
