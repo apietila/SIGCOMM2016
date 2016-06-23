@@ -4,7 +4,7 @@
      if ($mypage == "")
         $mypage = "index.php";
      
-     $travelgrantItems = array("n2women.php", "travelgrants.php");
+     $travelgrantItems = array("n2women.php", "travelgrants.php", "n2women-award.php");
      $conferenceItems = array("cfp.php", "submission.php", "program.php", "pc.php", "papers.php", "socialevents.php");
      $workshopItems = array ("gaia.php", "hotmiddlebox.php", "qoe.php", "lancomm.php", "netpl.php", "cfwp.php", "workshops.php");
      $socialEventItems = array ("reception.php", "dinner.php", "banquet.php");
@@ -178,6 +178,9 @@
         </li>
         <li class="subnav <?php if ($mypage=="n2women.php") echo('navselected') ?>" data-icon="false">
           <a href="n2women.php">N2Women Fellowship</a>
+        </li>
+        <li class="subnav <?php if ($mypage=="n2women-award.php") echo('navselected') ?>" data-icon="false">
+          <a href="n2women-award.php">N2Women Travel Grant</a>
         </li>
       </ul>
     </div>
