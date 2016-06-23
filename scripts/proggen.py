@@ -54,12 +54,10 @@ def proggen(worksheet, values, outdir):
     f.write("""<ul class="program" data-role="listview" data-filter="true" data-inset="true" data-theme="d" data-dividertheme="a" data-filter-placeholder="Filter program...">
 <?php
 """)
-
     for i,row in enumerate(values):
         if (len(row)<1):
             continue            
-        row = [i.strip() for i in row]
-
+        row = [item.strip() for item in row]
         line=None
 
         type = row[0]
@@ -84,6 +82,16 @@ def proggen(worksheet, values, outdir):
             paper=row[2]
             link=""
             authors=row[3]
+            info=""
+            slides=""
+            video=""
+            line="""tprog_add_item("%s", "%s", "%s", "%s", "%s", "%s");
+"""%(paper, link, authors, info, slides, video)
+
+        elif (type == 'disc' and len(row)>=3):
+            paper=row[2]
+            link=""
+            authors=""
             info=""
             slides=""
             video=""

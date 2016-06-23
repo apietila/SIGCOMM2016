@@ -9,6 +9,7 @@ tprog_add_item("Should I Wait or Should I Push? A Performance Analysis of Push F
 tprog_add_item("Looking for Network Latency Clusters in the LAC Region", "", "A. Formoso, P. Casas", "", "", "");
 tprog_add_item("WhatsApp Calling: a Revised Analysis on WhatsApp's Architecture and Calling Service", "", "J. Vanerio, P. Casas", "", "", "");
 tprog_add_item("A Preliminary Performance Measurement Study of Residential Broadband Services in Brazil", "", "D. Mendes, G. Senges, G. Santos, G. Mendonça, R. Leão, E. Silva", "", "", "");
+tprog_add_item("Discussion: Synergies in Network Measurements Research", "", "", "", "", "");
 tprog_add_session("10:30am - 11:00am", "Coffee Break", "", "");
 tprog_add_session("11:00am - 12:30pm", "Session 2: SDN & NVF", "", "");
 tprog_add_item("SDN-based Overlay Networks for QoS-aware Routing", "", "P. Belzarena, G. Sena, I. Amigo, S. Vaton", "", "", "");
@@ -17,6 +18,7 @@ tprog_add_item("RAUflow: building Virtual Private Networks with MPLS and OpenFlo
 tprog_add_item("A Datacenter Network Architecture for Low Latency, Automation and Virtualization", "", "R. Vencioneck", "", "", "");
 tprog_add_item("Dynamic Backhauling within Converged Networks", "", "A. Liberato, M. Ribeiro, M. Martinello, J. Marquez-Barja, N. Kaminski, L. DaSilva", "", "", "");
 tprog_add_item("Avoiding Voice Traffic Degradation in IP Enterprise Networks Using CAoS", "", "P. Maribondo, N. Fernandes", "", "", "");
+tprog_add_item("Discussion: Synergies in SDN/NFV Research", "", "", "", "", "");
 tprog_add_session("12:30pm - 2:00pm", "Lunch Break", "", "");
 tprog_add_session("2:00pm - 3:30pm", "Session 3: Network Modelling, Monitoring and Analysis", "", "");
 tprog_add_item("Improving Performance of Multiple-level Cache Systems", "", "I. Rodriguez, A. Ferragut, F. Paganini", "", "", "");
