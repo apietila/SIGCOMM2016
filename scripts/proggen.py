@@ -112,7 +112,7 @@ def proggen(worksheet, values, outdir):
 """)
     f.close()
 
-def main(outdir):
+def main(outdir, wsnames):
     credentials = get_credentials()
     http = credentials.authorize(httplib2.Http())
     discoveryUrl = ('https://sheets.googleapis.com/$discovery/rest?'
@@ -128,6 +128,10 @@ def main(outdir):
         print('No worksheets found.')
     else:
         for ws in sheets:
+            # do selected worksheets only
+            if (len(wsnames)>0 and not ws['properties']['title'] in wsnames):
+                continue
+
             # Note we assume the header row to be present !!!
             rangeName = '%s!A2:F'%ws['properties']['title']
             result = service.spreadsheets().values().get(
@@ -140,11 +144,11 @@ def main(outdir):
 if __name__ == '__main__':
     import sys
     if (len(sys.argv)<=1):
-        print('Usage: python %s <outputdir>'%sys.argv[0])  
+        print('Usage: python %s <outputdir> [worksheet names]'%sys.argv[0])  
         sys.exit(1)
 
     outdir = sys.argv[1]
     if not os.path.exists(outdir):
         os.makedirs(outdir)
-    main(outdir)
+    main(outdir, sys.argv[1:])
 

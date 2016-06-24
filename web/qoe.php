@@ -11,10 +11,9 @@
 
 <p>The workshop will take place at Room Agata 2.</p>
 
+<h2>Technical Program</h2>
 
-<!-- <h2>Technical Program</h2> -->
-
-<!-- <?php /* include("include/program/todo.php"); */ ?> -->
+<?php include("include/program/qoe.php"); ?>
 
 <h2>Call for Papers</h2>
 
