@@ -15,6 +15,10 @@
 
 <?php include("include/news.php"); ?>
 
+<h2>Conference Schedule</h2>
+
+<a href="files/schedule.pdf"  rel="external"><img src="files/schedule.png" alt="SIGCOMM Schedule" style="width: 100%;"></a>
+
 <h2>Calendar</h2>
 
 <iframe src="https://calendar.google.com/calendar/embed?title=ACM%20SIGCOMM%20Agenda&amp;showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;mode=AGENDA&amp;height=600&amp;wkst=1&amp;hl=en&amp;bgcolor=%23ffffff&amp;src=fgkdoih822v80dfk304pt56fjo%40group.calendar.google.com&amp;color=%23125A12&amp;ctz=America%2FLos_Angeles" style="border-width:0" width="100%" height="400" frameborder="0" scrolling="no"></iframe>

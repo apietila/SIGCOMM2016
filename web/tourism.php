@@ -9,7 +9,8 @@
 
 <h2>Fernando de Noronha</h2>
 
-<p><b>Distance to Florian&oacute;polis</b>: 3,133 Km.</p>
+<p><b>Distance to Florian&oacute;polis</b>: 3,133 Km.<br/>
+<b>Average min./max. temperature (August):</b> 26&#186;C (78&#186;F) / 27&#186;C (80&#186;F).</p>
 
 <div align="center">
   <a href="https://en.wikipedia.org/wiki/Fernando_de_Noronha#/media/File:EDUARDO_MURUCI_-_PRAIA_DO_CACHORRO.jpg"><img src="images/tourism/noronha/praia-cachorro.jpg" alt="https://en.wikipedia.org/wiki/Fernando_de_Noronha#/media/File:EDUARDO_MURUCI_-_PRAIA_DO_CACHORRO.jpg" width="625px"></img></a><br/>
@@ -45,7 +46,8 @@ You may find further information about Fernando de Noronha in the following link
 
 <h2>Igua&ccedil;u Falls</h2>
 
-<p><b>Distance to Florian&oacute;polis</b>: 650 Km.</p>
+<p><b>Distance to Florian&oacute;polis</b>: 650 Km.
+<br/><b>Average min./max. temperature (August):</b> 11&#186;C (51&#186;F) / 25&#186;C (77&#186;F).</p>
 
 <div align="center">
   <a href="https://en.wikipedia.org/wiki/Iguazu_Falls#/media/File:Iguazu_D%C3%A9cembre_2007_-_Panorama_7.jpg"><img src="images/tourism/foz-iguacu/iguacu-panorama.jpg" alt="Image: https://en.wikipedia.org/wiki/Iguazu_Falls#/media/File:Iguazu_D%C3%A9cembre_2007_-_Panorama_7.jpg" width="625px"></img></a><br/>
@@ -75,7 +77,8 @@ You may find further information about Fernando de Noronha in the following link
 
 <h2>Bonito, Mato Grosso do Sul</h2>
 
-<p><b>Distance to Florian&oacute;polis</b>: 1,078 Km.</p>
+<p><b>Distance to Florian&oacute;polis</b>: 1,078 Km.
+<br/><b>Average min./max. temperature (August):</b> 17&#186;C (62&#186;F) / 31&#186;C (87&#186;F).</p>
 
 <div align="center">
   <a href="https://pt.wikipedia.org/wiki/Bonito_%28Mato_Grosso_do_Sul%29#/media/File:Abismo_Anhumas,_Bonito,_MS.JPG"><img src="images/tourism/bonito/abismo-anhumas.jpg" alt="https://pt.wikipedia.org/wiki/Bonito_%28Mato_Grosso_do_Sul%29#/media/File:Abismo_Anhumas,_Bonito,_MS.JPG" width="625px"></img></a><br/>
