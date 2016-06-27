@@ -20,7 +20,7 @@ tprog_add_item("Dynamic Backhauling within Converged Networks", "", "A. Liberato
 tprog_add_item("Avoiding Voice Traffic Degradation in IP Enterprise Networks Using CAoS", "", "P. Maribondo, N. Fernandes", "", "", "");
 tprog_add_item("Discussion: Synergies in SDN/NFV Research", "", "", "", "", "");
 tprog_add_session("12:30pm - 2:00pm", "Lunch Break", "", "");
-tprog_add_session("2:00pm - 3:30pm", "Session 3: Network Modelling, Monitoring and Analysis", "", "");
+tprog_add_session("2:00pm - 5:00pm", "Session 3: Network Modelling, Monitoring and Analysis", "", "");
 tprog_add_item("Improving Performance of Multiple-level Cache Systems", "", "I. Rodriguez, A. Ferragut, F. Paganini", "", "", "");
 tprog_add_item("Cognitive Radio Networks: Analysis of a Paid-Sharing Approach based on a Fluid Model", "", "C. Rattaro, P. Belzarena", "", "", "");
 tprog_add_item("Analysing Costs and Benefits of Content Sharing in Cloud Storage", "", "P. Maribondo, N. Fernandes", "", "", "");
@@ -29,7 +29,7 @@ tprog_add_item("Network Monitoring with Imperfect Tests", "", "E. de Camargo, E.
 tprog_add_item("Improving Delivery Delay in Social-based Message Forwarding in Delay Tolerant Networks", "", "C. Souza, E. Mota, D. soares, P. Manzoni, J. Cano, C. Calafate", "", "", "");
 tprog_add_item("Adopting Security Routines in Legacy Organizations", "", "E. Azevedo, M. Machado, R. Melo, R. Aschoff, D. Sadok, U. Carmo", "", "", "");
 tprog_add_session("3:30pm - 4:00pm", "Coffee Break", "", "");
-tprog_add_session("4:00pm - 5:00pm", "Discussion: Synergies in Network Modeling, Monitoring and Analysis Research", "", "");
+tprog_add_item("Discussion: Synergies in Network Modeling, Monitoring and Analysis Research", "", "", "", "", "");
 tprog_add_session("5:00pm", "Wrap-up, Planning of Next Steps, and Closing", "", "", true);
 ?>
 </ul>

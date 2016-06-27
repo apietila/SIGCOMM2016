@@ -727,34 +727,38 @@ video {
         
 }
 
+.content-primary .program .prog-header {
+    padding: 0.15em 1.0em;
+}
+
 .content-primary .program .prog-header h3 {
-        font-weight: bolder;
         color: #FFFFFF;
         text-align: center;
         text-shadow: none;
 }
 
 .content-primary .program .ui-bar-a {
+    padding: 0.15em 1.0em;
         background-color: #4e964e;
         border-color: #ACA997;
 }
 
 .content-primary .program .ui-bar-a h3 {
-        font-weight: bolder;
         color: #FFFFFF;
         text-align: left;
         text-shadow: none;
 }
 
 .content-primary .program .ui-bar-b {
+    padding: 0.15em 1.0em;
         background-color: #d1d1d1;
         border-color: #ACA997;
 }
 
 .content-primary .program .ui-bar-b h3 {
-        font-weight: bold;
+            font-weight: bold;
         color: #000000;
-         text-align: left;
+        text-align: left;
         text-shadow: none;
 }
 
