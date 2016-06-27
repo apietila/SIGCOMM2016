@@ -2,6 +2,8 @@
 from __future__ import print_function
 import httplib2
 import os
+import codecs
+from htmlentitydefs import codepoint2name
 
 from apiclient import discovery
 import oauth2client
@@ -12,6 +14,17 @@ SCOPES = 'https://www.googleapis.com/auth/spreadsheets.readonly'
 CLIENT_SECRET_FILE = 'client_secret.json'
 APPLICATION_NAME = 'Sigcomm16'
 SPREADSHEETID = '1AK4VdEuogGTaFRLia8Ef-AaZdAJOu5AxE7KAA1Nj7tU'
+
+# Borrowed from: https://www.safaribooksonline.com/library/view/python-cookbook-2nd/0596007973/ch01s24.html
+def html_replace(exc):
+    if isinstance(exc, (UnicodeEncodeError, UnicodeTranslateError)):
+        s = [ u'&%s;' % codepoint2name[ord(c)]
+                for c in exc.object[exc.start:exc.end] ]
+        return ''.join(s), exc.end
+    else:
+        raise TypeError("can't handle %s" % exc.__name__)
+
+codecs.register_error('html_replace', html_replace)
 
 def get_credentials():
     """Gets valid user credentials from storage.
@@ -49,7 +62,8 @@ def proggen(worksheet, values, outdir):
     output = os.path.join(outdir, worksheet + '.php')
     print("Generating prog %s ..."%(output))
 
-    f = open(output, 'w')
+#    f = open(output, 'w')
+    f = codecs.open(output, mode='w', encoding='ascii', errors='html_replace')
 
     f.write("""<ul class="program" data-role="listview" data-filter="true" data-inset="true" data-theme="d" data-dividertheme="a" data-filter-placeholder="Filter program...">
 <?php
@@ -105,7 +119,8 @@ def proggen(worksheet, values, outdir):
 """%(time, title)
 
         if (line!=None):
-            f.write(line.encode("utf-8"))
+#            f.write(line.encode("utf-8"))
+            f.write(line)
 
     f.write("""?>
 </ul>
@@ -150,5 +165,5 @@ if __name__ == '__main__':
     outdir = sys.argv[1]
     if not os.path.exists(outdir):
         os.makedirs(outdir)
-    main(outdir, sys.argv[1:])
+    main(outdir, sys.argv[2:])
 

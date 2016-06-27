@@ -8,12 +8,12 @@ tprog_add_item("Hidden Internet Topologies Info: Truth or Myth?", "", "S. Bereng
 tprog_add_item("Should I Wait or Should I Push? A Performance Analysis of Push Feature in HTTP/2 Connections", "", "I. de Oliveira, P. Endo, W. Melo, D. Sadok, J. Kelner", "", "", "");
 tprog_add_item("Looking for Network Latency Clusters in the LAC Region", "", "A. Formoso, P. Casas", "", "", "");
 tprog_add_item("WhatsApp Calling: a Revised Analysis on WhatsApp's Architecture and Calling Service", "", "J. Vanerio, P. Casas", "", "", "");
-tprog_add_item("A Preliminary Performance Measurement Study of Residential Broadband Services in Brazil", "", "D. Mendes, G. Senges, G. Santos, G. Mendonça, R. Leão, E. Silva", "", "", "");
+tprog_add_item("A Preliminary Performance Measurement Study of Residential Broadband Services in Brazil", "", "D. Mendes, G. Senges, G. Santos, G. Mendon&ccedil;a, R. Le&atilde;o, E. Silva", "", "", "");
 tprog_add_item("Discussion: Synergies in Network Measurements Research", "", "", "", "", "");
 tprog_add_session("10:30am - 11:00am", "Coffee Break", "", "");
 tprog_add_session("11:00am - 12:30pm", "Session 2: SDN & NVF", "", "");
 tprog_add_item("SDN-based Overlay Networks for QoS-aware Routing", "", "P. Belzarena, G. Sena, I. Amigo, S. Vaton", "", "", "");
-tprog_add_item("Metherxis: Virtualized Network Functions for Micro-second Grade Latency Measurements", "", "D. Mafioletti, A. Liberato, C. Dominicini, R. Villaça, M. Martinello, M. Ribeiro", "", "", "");
+tprog_add_item("Metherxis: Virtualized Network Functions for Micro-second Grade Latency Measurements", "", "D. Mafioletti, A. Liberato, C. Dominicini, R. Villa&ccedil;a, M. Martinello, M. Ribeiro", "", "", "");
 tprog_add_item("RAUflow: building Virtual Private Networks with MPLS and OpenFlow", "", "S. Vidal, J. Amaro, E. Viotti, M. Giachino, E. Grampin", "", "", "");
 tprog_add_item("A Datacenter Network Architecture for Low Latency, Automation and Virtualization", "", "R. Vencioneck", "", "", "");
 tprog_add_item("Dynamic Backhauling within Converged Networks", "", "A. Liberato, M. Ribeiro, M. Martinello, J. Marquez-Barja, N. Kaminski, L. DaSilva", "", "", "");
