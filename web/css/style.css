@@ -771,19 +771,19 @@ video {
 
 .keynote-navgroup {
     padding: 0px;
-    margin: -1px 0px;
+    margin: -20px -17px;
     border-radius: 0px;
 }
 
 .keynote-header {
     word-wrap: break-word;
-    font-size: 0.6em !important;
+    font-size: 0.8em !important;
     font-weight: bold !important;
 }
 
 .keynote-speaker {
     padding-top: 3px;  
-    font-size: 0.6em !important;
+    font-size: 0.8em !important;
     font-weight: 500 !important;
 /*     font-style: italic; */
 }

@@ -149,6 +149,22 @@ function tprog_add_item($paper, $link, $authors, $info, $slides="", $video="")
 	print("</li>\n");
 }
 
+function tprog_add_talk($title, $speakers, $abstract, $bio, $photo="")
+{
+        /* the spaces after various "%s" below are important for correct list filtering! */
+        $speakers = preg_replace('/\(([^\)]*)\)/', '<em>(${1})</em>', $speakers);
+?>
+    <li data-icon="false"><div data-role="collapsible" class="keynote-navgroup">
+      <h4><p class="keynote-header"><?php echo $title ?></p><p class="keynote-speaker"><?php echo $speakers; ?></h4>
+      <ul data-role="listview" data-inset="false">
+        <li data-icon="false"><p><?php if ($photo) { ?><img class="keynote-photo" src="<?php echo $photo ?>"/><?php } ?><b>Abstract: </b><?php echo $abstract ?></p></li>
+        <li data-icon="false"><p><b>Bio: </b><?php echo $bio ?></p></li>
+      </ul>
+    </div></li>
+<?php
+
+}       
+
 function check_downloadcode($code, $code_file)
 {
 	/* Load the code table */
