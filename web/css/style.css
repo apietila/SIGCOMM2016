@@ -776,16 +776,7 @@ video {
 }
 
 .keynote-header {
-    word-wrap: break-word;
-    font-size: 0.8em !important;
     font-weight: bold !important;
-}
-
-.keynote-speaker {
-    padding-top: 3px;  
-    font-size: 0.8em !important;
-    font-weight: 500 !important;
-/*     font-style: italic; */
 }
 
 .keynote-photo {
