@@ -157,8 +157,8 @@ function tprog_add_talk($title, $speakers, $abstract, $bio, $photo="")
     <li data-icon="false"><div data-role="collapsible" class="keynote-navgroup">
       <h4><p class="keynote-header"><?php echo $title ?></p><p><?php echo $speakers; ?></p></h4>
       <ul data-role="listview" data-inset="false">
-        <li data-icon="false"><p><?php if ($photo) { ?><img class="keynote-photo" src="<?php echo $photo ?>"/><?php } ?><b>Abstract: </b><?php echo $abstract ?></p></li>
-        <li data-icon="false"><p><b>Bio: </b><?php echo $bio ?></p></li>
+        <li data-icon="false"><p><?php if ($photo) { ?><img class="keynote-photo" src="<?php echo $photo ?>"/><?php } ?><b>Abstract: </b><?php echo $abstract ?></p><p>&nbsp;</p></li>
+        <li data-icon="false"><p><b>Bio: </b><?php echo $bio ?></p><p>&nbsp;</p></li>
       </ul>
     </div></li>
 <?php
