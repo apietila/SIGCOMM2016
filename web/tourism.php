@@ -1,5 +1,8 @@
 <?php
     $page_title="Tourism";
+    
+    $og_tags = array ("<meta property=\"og:image\" content=\"http://conferences.sigcomm.org/sigcomm/2016/images/tourism/foz-iguacu/iguacu-panorama.jpg\" />");
+    
     include("include/header.php");
 ?>
 
@@ -7,7 +10,7 @@
 
 <p>Below you may find some suggestions of tourism destinations for your visit. Information on several other destinations can be found at <a href="http://www.visitbrasil.com/en/">Visit Brasil website</a>. In case you need any clarification on the information below, please contact Mr. Rodrigo Mansilha (<a href="rbmansilha@inf.ufrgs.br">rbmansilha@inf.ufrgs.br</a>).
 
-<h2>Fernando de Noronha</h2>
+<h2>Archipelago of Fernando de Noronha</h2>
 
 <p><b>Distance to Florian&oacute;polis</b>: 3,133 Km.<br/>
 <b>Average min./max. temperature (August):</b> 26&#186;C (78&#186;F) / 27&#186;C (80&#186;F).</p>
@@ -31,7 +34,7 @@
 
 <p>The beaches of Fernando de Noronha are promoted for tourism and recreational diving. The most popular ones include Ba&iacute;a do Sancho, Pig Bay, Dolphins Bay, Sueste Bay and Praia do Le&atilde;o. Due to the South Equatorial Current that pushes warm water from Africa to the island, diving to depths of 30 to 40 meters does not require a wetsuit. The visibility underwater can reach up to 50 meters.</p>
 
-<p><b>How to Arrive:</b> Fernando de Noronha is served by Carlos Wilson Regional Airport (IATA: FEN, ICAO: SBFN). Round trip tickets from Florian&oacute;polis (FLN) to Fernando de Noronha (FEN) may range from R$ 2,500 to R$ 3,000, through airline companies <a href="http://www.voeazul.com.br/en/home">Azul Airlines</a> and <a href="https://www.voegol.com.br/en-us/Paginas/Default.aspx">Gol Airlines</a>. Cheaper flights may be found arriving or departing from one of Brazilian major airport hubs, such as S&atilde;o Paulo Guarulhos (GRU) and Rio de Janeiro Gale&atilde;o (GIG).</p>
+<p><b>How to Arrive:</b> Fernando de Noronha is served by Carlos Wilson Regional Airport (IATA: FEN, ICAO: SBFN). Round trip tickets from Florian&oacute;polis (FLN) to Fernando de Noronha (FEN) may range from R$ 2,500 to R$ 3,000, through airline companies <a href="http://www.voeazul.com.br/en/home">Azul</a> and <a href="https://www.voegol.com.br/en-us/Paginas/Default.aspx">Gol</a>. Cheaper flights may be found arriving or departing from one of Brazilian major airport hubs, such as S&atilde;o Paulo Guarulhos (GRU) and Rio de Janeiro Gale&atilde;o (GIG).</p>
 
 <p><b>Accommodation:</b> Prices may range from R$ 500 to R$ 2,000 per night of stay, and reservations may be done through <a href="http://www.hotels.com/">Hotels.com</a> or <a href="http://www.booking.com/">Booking.com</a>. Please observe that admission to Fernando de Noronha requires the payment of a <a href="http://www.prontotecnologia.com.br/noronha2/turPreservacao.php">Preservation Tax</a>. The total amount due varies non-linearly with the intended duration of the stay.</p>
 
@@ -51,7 +54,7 @@ You may find further information about Fernando de Noronha in the following link
 
 <div align="center">
   <a href="https://en.wikipedia.org/wiki/Iguazu_Falls#/media/File:Iguazu_D%C3%A9cembre_2007_-_Panorama_7.jpg"><img src="images/tourism/foz-iguacu/iguacu-panorama.jpg" alt="Image: https://en.wikipedia.org/wiki/Iguazu_Falls#/media/File:Iguazu_D%C3%A9cembre_2007_-_Panorama_7.jpg" width="625px"></img></a><br/>
-  <a href="https://en.wikipedia.org/wiki/Iguazu_Falls#/media/File:Iguacu-004.jpg"><img src="images/tourism/foz-iguacu/iguacu-falls.jpg" class="img" alt="Image: https://en.wikipedia.org/wiki/Iguazu_Falls#/media/File:Iguacu-004.jpg" width="400px" height="200px" ></img></a>
+  <a href="https://en.wikipedia.org/wiki/Iguazu_Falls#/media/File:Iguazu_falls.jpg"><img src="images/tourism/foz-iguacu/iguacu-falls.jpg" class="img" alt="https://en.wikipedia.org/wiki/Iguazu_Falls#/media/File:Iguazu_falls.jpg" width="400px" height="200px" ></img></a>
   <a href="https://en.wikipedia.org/wiki/Iguazu_Falls#/media/File:Iguazu_D%C3%A9cembre_2007_-_Panorama_3.jpg"><img src="images/tourism/foz-iguacu/iguacu-garganta-diablo.jpg" class="img" alt="Image: https://en.wikipedia.org/wiki/Iguazu_Falls#/media/File:Iguazu_D%C3%A9cembre_2007_-_Panorama_3.jpg" width="400px" height="200px" ></img></a>
   <a href="https://en.wikipedia.org/wiki/Foz_do_Igua%C3%A7u#/media/File:Foz_de_Igua%C3%A7u_27_Panorama_Nov_2005.jpg"><img src="images/tourism/foz-iguacu/foz-panorama-2.jpg" class="img" alt="Image: https://en.wikipedia.org/wiki/Foz_do_Igua%C3%A7u#/media/File:Foz_de_Igua%C3%A7u_27_Panorama_Nov_2005.jpg" width="400px" height="200px" ></img></a>
   <a href="https://en.wikipedia.org/wiki/Iguazu_Falls#/media/File:Cataratas_do_Igua%C3%A7u_.jpg"><img src="images/tourism/foz-iguacu/iguacu-trail.jpg" class="img" alt="Image: https://en.wikipedia.org/wiki/Iguazu_Falls#/media/File:Cataratas_do_Igua%C3%A7u_.jpg" width="400px" height="200px" ></img></a>
@@ -60,11 +63,11 @@ You may find further information about Fernando de Noronha in the following link
 
 <p>Spanning 2.7 kilometers, Igua&ccedil;u Falls are a complex of over than 250 waterfalls located in the Brazilian state of Paran&aacute; and the Iguazu River on the border of the Argentine province of Misiones. The falls may be reached from two main towns, with one on either side of the falls: Foz do Igua&ccedil;u in Brazil and Puerto Iguaz&uacute; in Argentina. The falls are shared by the Igua&ccedil;u National Park (Brazil) and Iguaz&uacute; National Park (Argentina). The two parks were designated UNESCO World Heritage Sites.</p>
 
-<p>The water flow at Foz do Igua&ccedil;u can be equal to <a href="http://edition.cnn.com/2015/03/24/travel/iguazu-falls-bucket-list/">three times that of Niagara Falls, and significantly wider than Victoria Falls</a>. A visit to the Igua&ccedil;u Falls is an experience of immersion in nature through walking trails in the woods and the proximity of the immensity of the waterfalls in the Iguazu River. Located within the Igua&ccedil;u National Park, the surroundings have a qualified structure for receiving tourists, with a visitors center, parking, hotel, restaurant, transfer buses, additional sightseeing tours, shops, food court, and a hiking trail to access the falls. Helicopter rides for a privileged view of the waterfalls can be also hired on site.</p>
+<p>The water flow at Foz do Igua&ccedil;u can be equal to <a href="http://edition.cnn.com/2015/03/24/travel/iguazu-falls-bucket-list/">three times that of Niagara Falls, and significantly wider than Victoria Falls</a>. A visit to the Igua&ccedil;u Falls is an experience of immersion in nature through walking trails in the woods and the proximity of the immensity of the waterfalls in the Iguazu River. Located within the Igua&ccedil;u National Park, the surroundings have a qualified structure for receiving tourists, with a visitors center, parking facilities, hotels, restaurants, transfer buses, additional sightseeing tours, shops, food courts, and a hiking trail to access the falls. Helicopter rides, for a privileged view of the waterfalls, can be hired on site.</p>
 
-<p>Closer to the Igua&ccedil;u Falls you may also reach the <a href="https://en.wikipedia.org/wiki/Itaipu_Dam">Itaipu Dam (Itaipu Hydroelectric Plant)</a>. It is recognized as one of the greatest works of modern engineering, largest hydroelectric plant in power production, and until recently the largest in size. It provides an organized tour service that includes several visiting options in the areas of engineering, technology, nature, and local history.</p>
+<p>Closer to the Igua&ccedil;u Falls you may also reach the <a href="https://en.wikipedia.org/wiki/Itaipu_Dam">Itaipu Dam (Itaipu Hydroelectric Plant)</a>. It is recognized as one of the greatest works of modern engineering, largest hydroelectric plant in power production, and until recently the largest in size. The Itaipu Dam administration provides an organized tour service that includes several visiting options in the areas of engineering, technology, nature, and local history.</p>
 
-<p><b>How to Arrive:</b> Foz do Igua&ccedil;u is served by Foz do Igua&ccedil;u - Cataratas International Airport (IATA: IGU, ICAO: SBFI). Round trip tickets from Florian&oacute;polis (FLN) to Foz do Igua&ccedil;u (IGU) range from R$ 550 to R$ 750, through airline companies Azul, Gol, and TAM.</p>
+<p><b>How to Arrive:</b> Foz do Igua&ccedil;u is served by Foz do Igua&ccedil;u - Cataratas International Airport (IATA: IGU, ICAO: SBFI). Round trip tickets from Florian&oacute;polis (FLN) to Foz do Igua&ccedil;u (IGU) range from R$ 550 to R$ 750, through airline companies <a href="http://www.voeazul.com.br/en/home">Azul</a>, <a href="https://www.voegol.com.br/en-us/Paginas/Default.aspx">Gol</a>, and <a href="http://www.latam.com/">TAM</a>.</p>
 
 <p><b>Accommodation:</b> Prices may range from R$ 100 to R$ 400 per night of stay, and reservations may be done through <a href="http://www.hotels.com/">Hotels.com</a> or <a href="http://www.booking.com/">Booking.com</a>.</p>
 

@@ -1,5 +1,10 @@
 <?php
     $page_title="ACM SIGCOMM 2016";
+    
+    $og_tags = array ("<meta property=\"og:title\" content=\"ACM SIGCOMM 2016\" />",
+                      "<meta property=\"og:image\" content=\"http://conferences.sigcomm.org/sigcomm/2016/images/logo.png\" />",
+                      "<meta property=\"og:description\" content=\"The organizing committee is delighted to invite you to ACM SIGCOMM 2016, to be held in Florian&oacute;polis, Brazil, August 22-26 2016. SIGCOMM is the flagship annual conference of the ACM Special Interest Group on Data Communication (SIGCOMM) on the applications, technologies, architectures, and protocols for computer communication.\" />");
+
     include("include/header.php");
 ?>
 
