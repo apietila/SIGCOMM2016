@@ -68,9 +68,11 @@ ticket or airline itinerary. The list may vary according to nationality, and at 
 
 <h2><a name="supp_letter"></a>Letter of Invitation</h2>
 
-<p>Nationals that fall in category C (without waiver agreement) are typically required to include an Invitation Letter as part of the visa application process.  The letter can also be used for the admission of nationals in category A, though it is not mandatory.</p>
+<p>Nationals that fall in category C (without waiver agreement) are typically required to include an Invitation Letter as part of the visa application process. The letter can also be used for the admission of nationals in category A, though it is not mandatory.</p>
 
-<p>To request a letter, first register for the conference, and then contact ACM at <a href="mailto:supportletters@acm.org">supportletters@acm.org</a>. Please include
+<p>To request a letter, first register for the conference, and then contact ACM at <a href="mailto:supportletters@acm.org">supportletters@acm.org</a>. <b>Chinese passport holders</b> must request an invitation letter directly to the <a href="mailto:marinho@inf.ufrgs.br">General Chairs</a>.</p>
+
+<p>In your invitation letter request, please include
 
 <ol>
 <li>Your name as it appears on your passport</li>
