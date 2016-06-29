@@ -19,6 +19,15 @@
 <!--Anna: FIXME <html manifest="sigcomm.appcache"> -->
 <head>
   <meta charset="iso-8859-1">
+  <?php // Weverton: include meta information
+  
+    if (isset ($og_tags)) {
+      foreach ($og_tags as $og_tag) {
+        echo "$og_tag" . "\n";
+      }
+    }
+  
+  ?>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -42,6 +51,7 @@
   </title>
   
   <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+  
 
   <!-- Favicon alternatives: https://css-tricks.com/favicon-quiz/ -->
   <link rel="apple-touch-icon" sizes="57x57" href="images/apple-touch-icon-57x57.png">

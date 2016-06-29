@@ -769,6 +769,32 @@ video {
     font-weight: 500;
 }
 
+.keynote-navgroup {
+    padding: 0px;
+    margin: -1px 0px;
+    border-radius: 0px;
+}
+
+.keynote-header {
+    word-wrap: break-word;
+    font-size: 0.6em !important;
+    font-weight: bold !important;
+}
+
+.keynote-speaker {
+    padding-top: 3px;  
+    font-size: 0.6em !important;
+    font-weight: 500 !important;
+/*     font-style: italic; */
+}
+
+.keynote-photo {
+    float: right;
+    margin: 0px 0px 15px 15px;
+    width: 150px;
+}
+
+
 table.hotel th{
   text-align:left;
   vertical-align:top;
