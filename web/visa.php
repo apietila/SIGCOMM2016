@@ -46,7 +46,7 @@ If in doubt, please consult the nearest <a href="http://www.portalconsular.mre.g
 temporary, a <a href="http://boston.itamaraty.gov.br/en-us/vitur_-_tourist_visa.xml" target="sigcomm_visa_info" rel="external">tourist visa</a> is required. Examples are China, India, and Pakistan. We refer to the <a href="http://boston.itamaraty.gov.br/en-us/vitur_-_tourist_visa.xml" rel="external" target="sigcomm_visa_info">Consulate General of Brazil in Boston</a> for
 an overview about how to get a visa to Brazil.</p>
 
-<p>The process to obtain a visa requires a <a data-ajax="false" href="#supp_letter">letter of invitation</a> issued by conference organizers. To request a letter, first register for the conference, and then fill in the form <a href="http://goo.gl/forms/ZBMWiDwaPLrrT8Bo2">http://goo.gl/forms/ZBMWiDwaPLrrT8Bo2</a>.</p>
+<p>The process to obtain a visa requires a <a data-ajax="false" href="#supp_letter">letter of invitation</a> issued by conference organizers. Please see below how to obtain one.</p>
 
 <p>Please note that each Brazilian Consulate has its own visa processing workflow. For specific
 document requirements, visa application forms, fees and payment methods, please contact your
@@ -70,9 +70,7 @@ ticket or airline itinerary. The list may vary according to nationality, and at 
 
 <p>Nationals that fall in category C (without waiver agreement) are typically required to include an Invitation Letter as part of the visa application process. The letter can also be used for the admission of nationals in category A, though it is not mandatory.</p>
 
-<p>To request a letter, first register for the conference, and then fill in the form <a href="http://goo.gl/forms/ZBMWiDwaPLrrT8Bo2">http://goo.gl/forms/ZBMWiDwaPLrrT8Bo2</a>. You may also contact ACM at <a href="mailto:supportletters@acm.org">supportletters@acm.org</a>.</p>
-
-<p>Your invitation letter request must include
+<p><font color="#ff0000"><b>Important update:</b></font> To request a letter, first register for the conference, and then fill in the <a href="http://goo.gl/forms/ZBMWiDwaPLrrT8Bo2">invitation letter request form</a>. Please include
 
 <ol>
 <li>Your name as it appears on your passport</li>
