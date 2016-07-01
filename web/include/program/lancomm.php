@@ -23,7 +23,7 @@ tprog_add_session("12:30pm - 2:00pm", "Lunch Break", "", "");
 tprog_add_session("2:00pm - 5:00pm", "Session 3: Network Modelling, Monitoring and Analysis", "", "");
 tprog_add_item("Improving Performance of Multiple-level Cache Systems", "", "I. Rodriguez, A. Ferragut, F. Paganini", "", "", "");
 tprog_add_item("Cognitive Radio Networks: Analysis of a Paid-Sharing Approach based on a Fluid Model", "", "C. Rattaro, P. Belzarena", "", "", "");
-tprog_add_item("Analysing Costs and Benefits of Content Sharing in Cloud Storage", "", "P. Maribondo, N. Fernandes", "", "", "");
+tprog_add_item("Analysing Costs and Benefits of Content Sharing in Cloud Storage", "", "G. Goncalves, I. Drago, A. Borges, A. Couto, J. Almeida", "", "", "");
 tprog_add_item("Computing a Precise Timeout Interval Despite a Communication Channel with Varying Behavior", "", "R. Turchetti, E. Duarte Jr.", "", "", "");
 tprog_add_item("Network Monitoring with Imperfect Tests", "", "E. de Camargo, E. Duarte Jr.", "", "", "");
 tprog_add_item("Improving Delivery Delay in Social-based Message Forwarding in Delay Tolerant Networks", "", "C. Souza, E. Mota, D. soares, P. Manzoni, J. Cano, C. Calafate", "", "", "");
