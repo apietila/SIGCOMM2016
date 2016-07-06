@@ -1,11 +1,12 @@
 <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="datetbl">
+  <?php add_dateitem("July 5, 2016", "The SIGCOMM 2016 <a data-ajax=\"false\" href=\"socialevents.php#student_dinner\">Student Dinner</a> will take place at Ataliba Churrascarias Florian&oacute;polis on Wednesday, 24th") ?>
   <?php add_dateitem("June 29, 2016", "The preliminary program of <a href=\"netpl.php\">NetPL</a> workshop is online") ?>
   <?php add_dateitem("June 27, 2016", "HotMiddlebox workshop <a href=\"hotmiddlebox.php\">technical program</a> online") ?>
   <?php add_dateitem("June 24, 2016", "<a href=\"lancomm.php\">LANCOMM</a> and <a href=\"qoe.php\">Internet-QoE</a> workshops technical programs online") ?>
   <?php add_dateitem("June 23, 2016", "Information about <a href=\"n2women-award.php\">N2Women Travel Grants</a> online. Deadline is July 8th.") ?>
   <?php add_dateitem("June 18, 2016", "GAIA workshop <a href=\"gaia.php\">technical program</a> online") ?>
   <?php add_dateitem("June 14, 2016", "The deadline for <a href=\"hotel.php\">booking a hotel room</a> at discounted rates was extended to July 20th!") ?>
-  <?php add_dateitem("June 14, 2016", "Please check the special menu selection of foods and drinks for the SIGCOMM 2016 <a href=\"socialevents.php\">Conference Banquet</a> on Tuesday, 23rd.") ?>
+  <?php add_dateitem("June 14, 2016", "Please check the special menu selection of foods and drinks for the SIGCOMM 2016 <a data-ajax=\"false\" href=\"socialevents.php#conf_banquet\">Conference Banquet</a> on Tuesday, 23rd") ?>
   <?php add_dateitem("June 8, 2016", "The <a href=\"travelgrants.php\">Travel Grants</a> application deadline was extended to June 13! Please also notice important updates on the eligibility and selection criteria for SIGCOMM&#39;s GeoDiversity Grant applicantions.") ?>
   <?php add_dateitem("May 24, 2016", "The SIGCOMM 2016 <a href=\"https://www.regonline.com/acmsigcomm2016\" rel=\"external\">registration site</a> is now live! Early bird registration deadline is July 14th!") ?>
   <?php add_dateitem("May 24, 2016", "Would like to arrange for shared lodging and/or transportation with other attendees? Then consider subscribing to the <a href=\"roomshare.php\">sigcomm-roomshare-l</a> discussion list!") ?>

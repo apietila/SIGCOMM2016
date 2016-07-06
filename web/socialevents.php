@@ -7,7 +7,7 @@
 
 In addition to the technical activities, SIGCOMM 2016 will organize the following social events.
 
-<h2>Conference Banquet, Tuesday 23rd</h2>
+<a name="conf_banquet"></a><h2>Conference Banquet, Tuesday 23rd</h2>
 
 <p>The Conference Banquet will take place at the Slaviero Essential Florian&oacute;polis Ingleses (Rua das Gaivotas 1114, Praia dos Ingleses District &mdash; <b>see location on the map below</b>).</p>
 
@@ -30,22 +30,39 @@ In addition to the technical activities, SIGCOMM 2016 will organize the followin
   <img src="images/florianopolis/banquet/slaviero-01.jpg" class="img"></img>
   <img src="images/florianopolis/banquet/oister bar.jpg" class="img"></img>
   <img src="images/florianopolis/banquet/menu-option-03.png" class="img"></img>
-  <img src="images/florianopolis/banquet/menu-option-04.png" class="img"></img>
+  <img src="images/florianopolis/banquet/caipirinha.jpg" class="img"></img>
 </div>
 
 <p>&nbsp;</p>
 
 <center> <iframe src="https://www.google.com/maps/d/embed?mid=1s2Vwcz9S8QWxPAJxENXfFgCHXn0&hl=en" width="640" height="480"></iframe> </center>
 
+<a name="student_dinner"></a><h2>Student Dinner, Wednesday 24th</h2>
+
+<p>The Student Dinner will take place at Ataliba Churrascarias Florian&oacute;polis (Rodovia Jos&eacute; Carlos Daux 3008, Saco Grande District &mdash; <b>see location on the map below</b>).</p>
+
+<p>The menu shall include a special selection of Premium and Exotic, Grilled and Roasted Meats, and a variety of Vegetarian Dishes, Seafood, Sushi, Salads, and Desserts. Beef selection shall include: Top Sirloin Cap (&quot;Picanha&quot;, Brazilian traditional cut), Hump Steak, Sirloin Strip Steak, Filet Mignon (Tenderloin Steak), Ribeye Steak, Baby Beef, Rump Steak, Sirloin Tri-Tip Roast, Flank Steak, Premium and Short Ribs, among others.</p>
+
+<p>&nbsp;</p>
+
+<div class="center">
+  <img src="images/florianopolis/student-dinner/picanha.jpg" class="img"></img>
+  <img src="images/florianopolis/student-dinner/buffet-2.jpg" class="img"></img>
+  <img src="images/florianopolis/student-dinner/ataliba-1.jpg" class="img"></img>
+  <img src="images/florianopolis/student-dinner/ataliba-2.jpg" class="img"></img>
+  <img src="images/florianopolis/student-dinner/buffet-1.jpg" class="img"></img>
+  <img src="images/florianopolis/student-dinner/buffet-dessert.jpg" class="img"></img>
+</div>
+
+<p>&nbsp;</p>
+
+<center> <iframe src="https://www.google.com/maps/d/embed?mid=1VcTtSzvR1fzFxx_fmR60JornLNE&hl=en" width="640" height="480"></iframe> </center>
+
 <h2>Welcome Reception, Monday 22nd</h2>
 
 <p>More information will be available soon.</p>
 
 <h2>N2Women, Monday 22nd</h2>
-
-<p>More information will be available soon.</p>
-
-<h2>Student Dinner, Wednesday 24th</h2>
 
 <p>More information will be available soon.</p>
 
