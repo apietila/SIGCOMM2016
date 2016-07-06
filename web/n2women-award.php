@@ -13,11 +13,10 @@ to participate in the N2Women event and attend SIGCOMM.
 <p>
 SIGCOMM'16 is experimenting a new format for the N2Women event at SIGCOMM. 
 The event will be held over a dinner for a longer duration compared to typical 
-lunches, and will be conducted a day before the conference. As part of the event, 
-we are providing travel awards for up to five under-represented graduate students 
-who can attend both the N2women event and SIGCOMM, sponposed by the National 
-Science Foundation (this travel grant is contingent about receiving the NSF 
-funds in time). 
+lunches, and will be conducted a day before the conference. As part of 
+the event, we are providing travel awards for up to five US-based 
+under-represented graduate students who can attend both the N2women event and 
+SIGCOMM, sponposed by the National Science Foundation. 
 </p>
 
 <p>
@@ -28,7 +27,8 @@ To apply for the travel award, please follow
 <h2>Important Dates</h2>
 
 <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="datetbl">
-    <?php add_dateitem("July 8, 2016", "Applications due"); ?>
+    <?php add_dateitem("<s>July 8</s> July 12, 2016", "Applications due <span class=\"highlighttext\">(extended)</span>"); ?>
+    <?php add_dateitem("July 14, 2016", "Notifications out"); ?>
 </ul>
 
 <?php include ("include/footer.php"); ?>

@@ -1,4 +1,5 @@
 <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="datetbl">
+  <?php add_dateitem("July 6, 2016", "<a href=\"n2women-award.php\">N2Women Travel Grant</a> deadline extended to July 12th") ?>
   <?php add_dateitem("July 5, 2016", "The SIGCOMM 2016 <a data-ajax=\"false\" href=\"socialevents.php#student_dinner\">Student Dinner</a> will take place at Ataliba Churrascarias Florian&oacute;polis on Wednesday, 24th. There will be a special selection of grilled and roasted beef (&quot;rod&iacute;zio&quot; style &mdash; all you can eat, round-robin steak serving), plus vegetarian dishes, seafood, sushi, salads, and desserts!") ?>
   <?php add_dateitem("June 29, 2016", "The preliminary program of <a href=\"netpl.php\">NetPL</a> workshop is online") ?>
   <?php add_dateitem("June 27, 2016", "HotMiddlebox workshop <a href=\"hotmiddlebox.php\">technical program</a> online") ?>
