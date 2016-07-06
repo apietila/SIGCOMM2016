@@ -7,6 +7,17 @@
 
 In addition to the technical activities, SIGCOMM 2016 will organize the following social events.
 
+<a name="welcome_reception"></a><h2>Welcome Reception, Monday 22nd</h2>
+
+<p>SIGCOMM 2016 will celebrate a Welcome Reception at the Oceania Convention Center, 19h. Drinks and hors d&#39;oeuvre will be served.</p>
+
+<div class="center">
+  <img src="images/florianopolis/welcome-reception/reception-4.jpg" class="img"></img>
+  <img src="images/florianopolis/welcome-reception/reception-3.jpg" class="img"></img>
+  <img src="images/florianopolis/welcome-reception/reception-2.jpg" class="img"></img>
+  <img src="images/florianopolis/welcome-reception/reception-5.jpg" class="img"></img>
+</div>
+
 <a name="conf_banquet"></a><h2>Conference Banquet, Tuesday 23rd</h2>
 
 <p>The Conference Banquet will take place at the Slaviero Essential Florian&oacute;polis Ingleses (Rua das Gaivotas 1114, Praia dos Ingleses District &mdash; <b>see location on the map below</b>).</p>
@@ -39,9 +50,9 @@ In addition to the technical activities, SIGCOMM 2016 will organize the followin
 
 <a name="student_dinner"></a><h2>Student Dinner, Wednesday 24th</h2>
 
-<p>The Student Dinner will take place at Ataliba Churrascarias Florian&oacute;polis (Rodovia Jos&eacute; Carlos Daux 3008, Saco Grande District &mdash; <b>see location on the map below</b>).</p>
+<p>On Wednesday August 24th, SIGCOMM <b>student</b> registrants will have additional time to share experiences in the student dinner, and also get their own chance to mingle with senior researchers. The student dinner will take place at Ataliba Churrascarias Florian&oacute;polis (Rodovia Jos&eacute; Carlos Daux 3008, Saco Grande District &mdash; <b>see location on the map below</b>).</p>
 
-<p>The menu shall include a special selection of Premium and Exotic, Grilled and Roasted Meats, and a variety of Vegetarian Dishes, Seafood, Sushi, Salads, and Desserts. Beef selection shall include: Top Sirloin Cap (&quot;Picanha&quot;, Brazilian traditional cut), Hump Steak, Sirloin Strip Steak, Filet Mignon (Tenderloin Steak), Ribeye Steak, Baby Beef, Rump Steak, Sirloin Tri-Tip Roast, Flank Steak, Premium and Short Ribs, among others, all served following the Brazilian <a href="http://www.oxforddictionaries.com/us/definition/american_english/rodizio">rod&iacute;zio</a> style (all you can eat, round-robin steak serving).</p>
+<p>The menu shall include a special selection of Premium and Exotic, Grilled and Roasted Meats, and a variety of Vegetarian Dishes, Seafood, Sushi, Salads, and Desserts. Beef selection shall include: Top Sirloin Cap (&quot;Picanha&quot;, Brazilian traditional cut), Hump Steak, Sirloin Strip Steak, Filet Mignon (Tenderloin Steak), Ribeye Steak, Baby Beef, Rump Steak, Sirloin Tri-Tip Roast, Flank Steak, Premium and Short Ribs, among others, all served following the Brazilian <a href="https://en.wikipedia.org/wiki/Rod%C3%ADzio">rod&iacute;zio</a> style (all you can eat, round-robin steak serving).</p>
 
 <p>&nbsp;</p>
 
@@ -57,10 +68,6 @@ In addition to the technical activities, SIGCOMM 2016 will organize the followin
 <p>&nbsp;</p>
 
 <center> <iframe src="https://www.google.com/maps/d/embed?mid=1VcTtSzvR1fzFxx_fmR60JornLNE&hl=en" width="640" height="480"></iframe> </center>
-
-<h2>Welcome Reception, Monday 22nd</h2>
-
-<p>More information will be available soon.</p>
 
 <h2>N2Women, Monday 22nd</h2>
 
