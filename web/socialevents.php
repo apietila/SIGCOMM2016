@@ -41,7 +41,7 @@ In addition to the technical activities, SIGCOMM 2016 will organize the followin
 
 <p>The Student Dinner will take place at Ataliba Churrascarias Florian&oacute;polis (Rodovia Jos&eacute; Carlos Daux 3008, Saco Grande District &mdash; <b>see location on the map below</b>).</p>
 
-<p>The menu shall include a special selection of Premium and Exotic, Grilled and Roasted Meats, and a variety of Vegetarian Dishes, Seafood, Sushi, Salads, and Desserts. Beef selection shall include: Top Sirloin Cap (&quot;Picanha&quot;, Brazilian traditional cut), Hump Steak, Sirloin Strip Steak, Filet Mignon (Tenderloin Steak), Ribeye Steak, Baby Beef, Rump Steak, Sirloin Tri-Tip Roast, Flank Steak, Premium and Short Ribs, among others.</p>
+<p>The menu shall include a special selection of Premium and Exotic, Grilled and Roasted Meats, and a variety of Vegetarian Dishes, Seafood, Sushi, Salads, and Desserts. Beef selection shall include: Top Sirloin Cap (&quot;Picanha&quot;, Brazilian traditional cut), Hump Steak, Sirloin Strip Steak, Filet Mignon (Tenderloin Steak), Ribeye Steak, Baby Beef, Rump Steak, Sirloin Tri-Tip Roast, Flank Steak, Premium and Short Ribs, among others, all served following the Brazilian <a href="http://www.oxforddictionaries.com/us/definition/american_english/rodizio">rod&iacute;zio</a> style (all you can eat, round-robin steak serving).</p>
 
 <p>&nbsp;</p>
 
