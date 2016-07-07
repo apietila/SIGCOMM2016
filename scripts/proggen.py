@@ -1,4 +1,3 @@
-
 from __future__ import print_function
 import httplib2
 import os
@@ -10,10 +9,23 @@ import oauth2client
 from oauth2client import client
 from oauth2client import tools
 
+flags = tools.argparser.parse_args(args=[])
+
 SCOPES = 'https://www.googleapis.com/auth/spreadsheets.readonly'
 CLIENT_SECRET_FILE = 'client_secret.json'
 APPLICATION_NAME = 'Sigcomm16'
 SPREADSHEETID = '1AK4VdEuogGTaFRLia8Ef-AaZdAJOu5AxE7KAA1Nj7tU'
+
+# spreadsheet headers
+COL_TYPE = 0
+COL_TIME = 1
+COL_TITLE = 2
+COL_CHAIR_SPKR_AUTHOR = 3
+COL_KEYNT_ABSTRACT = 4
+COL_SPKR_BIO = 5
+COL_PHOTO_URL = 6
+COL_FNAME = 7
+COL_SLIDES = 8
 
 # Borrowed from: https://www.safaribooksonline.com/library/view/python-cookbook-2nd/0596007973/ch01s24.html
 def html_replace(exc):
@@ -62,69 +74,69 @@ def proggen(worksheet, values, outdir):
     output = os.path.join(outdir, worksheet + '.php')
     print("Generating prog %s ..."%(output))
 
-#    f = open(output, 'w')
     f = codecs.open(output, mode='w', encoding='ascii', errors='html_replace')
 
-    f.write("""<ul class="program" data-role="listview" data-filter="true" data-inset="true" data-theme="d" data-dividertheme="a" data-filter-placeholder="Filter program...">
-<?php
-""")
+    f.write("""<ul class="program" data-role="listview" data-filter="true" data-inset="true" data-theme="d" data-dividertheme="a" data-filter-placeholder="Filter program...">\n<?php\n""")
     for i,row in enumerate(values):
         if (len(row)<1):
-            continue            
+            continue
         row = [item.strip() for item in row]
         line=None
 
-        type = row[0]
+        type = row[COL_TYPE]
         if (type == 'day' and len(row)>=2):
-            line="""tprog_add_header("%s");
-"""%row[1]
+            line = """  tprog_add_header("%s");\n""" % row[COL_TIME]
 
         elif (type == 'session' and len(row)>=3):
-            time = row[1]
-            title = row[2]
-            chair = (row[3] if len(row)>3 else "")
+            time = row[COL_TIME]
+            title = row[COL_TITLE]
+            chair = (row[COL_CHAIR_SPKR_AUTHOR] if len(row)>3 else "")
             style = ""
             if (i == len(values)-1):
                 # last session
-                line="""tprog_add_session("%s", "%s", "%s", "%s", true);
-"""%(time, title, chair, style)
+                line = """  tprog_add_session("%s", "%s", "%s", "%s", true);\n""" % (time, title, chair, style)
             else:
-                line="""tprog_add_session("%s", "%s", "%s", "%s");
-"""%(time, title, chair, style)
+                line = """  tprog_add_session("%s", "%s", "%s", "%s");\n""" % (time, title, chair, style)
 
         elif (type == 'talk' and len(row)>=4):
-            paper=row[2]
-            link=""
-            authors=row[3]
-            info=""
-            slides=""
-            video=""
-            line="""tprog_add_item("%s", "%s", "%s", "%s", "%s", "%s");
-"""%(paper, link, authors, info, slides, video)
+            paper = row[COL_TITLE]
+            link = ""
+            authors = row[COL_CHAIR_SPKR_AUTHOR]
+            info = ""
+            slides = ""
+            video = ""
+            line = """  tprog_add_item("%s", "%s", "%s", "%s", "%s", "%s");\n""" % (paper, link, authors, info, slides, video)
+
+        elif (type == 'keynote' and len(row)>=6):
+            title = row[COL_TITLE]
+            link = ""
+            speaker = row[COL_CHAIR_SPKR_AUTHOR]
+            abstract = row[COL_KEYNT_ABSTRACT]
+            bio = row[COL_SPKR_BIO]
+            photo = row[COL_PHOTO_URL]
+            info = ""
+            slides = ""
+            video = ""
+            line = """  tprog_add_keynote("%s", "%s", "%s", "%s", "%s");\n""" % (title, speaker, abstract, bio, photo)
 
         elif (type == 'disc' and len(row)>=3):
-            paper=row[2]
-            link=""
-            authors=""
-            info=""
-            slides=""
-            video=""
-            line="""tprog_add_item("%s", "%s", "%s", "%s", "%s", "%s");
-"""%(paper, link, authors, info, slides, video)
+            paper = row[COL_TITLE]
+            link = ""
+            authors = ""
+            info = ""
+            slides = ""
+            video = ""
+            line = """  tprog_add_item("%s", "%s", "%s", "%s", "%s", "%s");\n""" % (paper, link, authors, info, slides, video)
 
         elif (type == 'break' and len(row)>=3):
-            time = row[1]
-            title = row[2]
-            line="""tprog_add_session("%s", "%s", "", "");
-"""%(time, title)
+            time = row[COL_TIME]
+            title = row[COL_TITLE]
+            line = """  tprog_add_session("%s", "%s", "", "");\n""" % (time, title)
 
-        if (line!=None):
-#            f.write(line.encode("utf-8"))
+        if (line != None):
             f.write(line)
 
-    f.write("""?>
-</ul>
-""")
+    f.write("""?>\n</ul>\n""")
     f.close()
 
 def main(outdir, wsnames):
@@ -148,7 +160,7 @@ def main(outdir, wsnames):
                 continue
 
             # Note we assume the header row to be present !!!
-            rangeName = '%s!A2:F'%ws['properties']['title']
+            rangeName = '%s!A2:I'%ws['properties']['title']
             result = service.spreadsheets().values().get(
                 spreadsheetId=SPREADSHEETID, range=rangeName).execute()
             values = result.get('values', [])

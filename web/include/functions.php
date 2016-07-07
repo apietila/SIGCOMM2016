@@ -149,7 +149,7 @@ function tprog_add_item($paper, $link, $authors, $info, $slides="", $video="")
 	print("</li>\n");
 }
 
-function tprog_add_talk($title, $speakers, $abstract, $bio, $photo="")
+function tprog_add_keynote($title, $speakers, $abstract, $bio, $photo="")
 {
         /* the spaces after various "%s" below are important for correct list filtering! */
         $speakers = preg_replace('/\(([^\)]*)\)/', '<em>(${1})</em>', $speakers);
