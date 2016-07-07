@@ -491,7 +491,7 @@ button[disabled],
 /* Conf logo in the menu. */
 .leftnav img {
     padding: 0px;
-    display: block;
+    display: inline;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -506,6 +506,10 @@ button[disabled],
 
 .listlast {
     border-radius: 0px 0px 0.6em 0.6em !important;
+}
+
+.listfirst {
+    border-radius: 0.6em 0.6em 0px 0px !important;
 }
 
 .notlast {

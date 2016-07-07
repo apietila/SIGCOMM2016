@@ -75,22 +75,22 @@ function add_paperlistitem($title, $authors)
            $title, $authors);
 }
 
-function tprog_add_header($time)
+function tprog_add_header($time, $progitemclass = "")
 {
-        printf('<li data-role="list-divider" class="prog-header"><h3>%s</h3></li>', $time);
+        printf('<li data-role="list-divider" class="prog-header prog-item %s"><h3>%s</h3></li>', $progitemclass, $time);
         // Weverton: for some reason (i'm new to jquery), a list divider cannot exist without a following item, when data-filter is true
         //           as a workaround, included an invisible li
         print ("<li style=\"display: none;\"></li>\n");
 
 }
 
-function tprog_add_session($time, $title, $chair="", $style="", $last=false)
+function tprog_add_session($time, $title, $chair="", $style="", $progitemclass = "", $last=false)
 {
     if (!$style) {
         $style = preg_match('/lunch|coffee/i', $title) ? "b" : "a";
     }
-	printf('<li class="ui-bar-%s %s" data-role="list-divider"><h3>%s %s</h3>',
-	       $style, ($last ? "listlast" : ""), $time, $title);
+	printf('<li class="ui-bar-%s prog-item %s %s" data-role="list-divider"><h3>%s %s</h3>',
+	       $style, ($last ? "listlast" : ""), $progitemclass, $time, $title);
 	if ($chair) {
 		$chair = preg_replace('/\(([^\)]*)\)/', '<em>(${1})</em>', $chair);
 		printf('<p>Session Chair: %s</p>', $chair);
@@ -102,18 +102,12 @@ function tprog_add_session($time, $title, $chair="", $style="", $last=false)
 
 }
 
-function tprog_add_item($paper, $link, $authors, $info, $slides="", $video="")
+function tprog_add_item($paper, $link, $authors, $info, $slides="", $video="", $progitemclass = "")
 {
 	/* the spaces after various "%s" below are important for correct list filtering! */
 	$authors = preg_replace('/\(([^\)]*)\)/', '<em>(${1})</em>', $authors);
 	
-	//if ($info or $slides or $video) {
-	//	print('<li data-icon="false" class="ui-li-has-count">');
-	//}
-	//else {
-	//	print('<li data-icon="false">');
-	//}
-	print('<li data-icon="false">');
+	printf('<li data-icon="false" class="prog-item %s">', $progitemclass);
 	if ($link) {
 		printf('<a href="%s" rel="external">', $link);
 	}
@@ -128,8 +122,6 @@ function tprog_add_item($paper, $link, $authors, $info, $slides="", $video="")
 		}
 	}
 	if($info) {
-		//printf('<p class="ui-li-count prog-%s">%s </p>',
-		//	   preg_replace('/\s/', '', strtolower($info)), $info);
 		printf('<p class="prog-info-p">');
 		printf('<a href="%s" class="prog-%s prog-general ui-btn-up-c ui-btn-corner-all" rel="external">%s </a>',
 				$link, preg_replace('/\s/', '', strtolower($info)), $info);
@@ -149,12 +141,12 @@ function tprog_add_item($paper, $link, $authors, $info, $slides="", $video="")
 	print("</li>\n");
 }
 
-function tprog_add_keynote($title, $speakers, $abstract, $bio, $photo="")
+function tprog_add_keynote($title, $speakers, $abstract, $bio, $photo="", $progitemclass = "")
 {
         /* the spaces after various "%s" below are important for correct list filtering! */
         $speakers = preg_replace('/\(([^\)]*)\)/', '<em>(${1})</em>', $speakers);
 ?>
-    <li data-icon="false"><div data-role="collapsible" class="keynote-navgroup">
+    <li data-icon="false" class="prog-item <?php echo $progitemclass; ?>"><div data-role="collapsible" class="keynote-navgroup">
       <h4><p class="keynote-header"><?php echo $title ?></p><p><?php echo $speakers; ?></p></h4>
       <ul data-role="listview" data-inset="false">
         <li data-icon="false"><p><?php if ($photo) { ?><img class="keynote-photo" src="<?php echo $photo ?>"/><?php } ?><b>Abstract: </b><?php echo $abstract ?></p><p>&nbsp;</p></li>

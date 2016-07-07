@@ -15,17 +15,19 @@ SCOPES = 'https://www.googleapis.com/auth/spreadsheets.readonly'
 CLIENT_SECRET_FILE = 'client_secret.json'
 APPLICATION_NAME = 'Sigcomm16'
 SPREADSHEETID = '1AK4VdEuogGTaFRLia8Ef-AaZdAJOu5AxE7KAA1Nj7tU'
+COLUMN_RANGE = 'A2:J' # note we assume the header row to be present !!!
 
-# spreadsheet headers
+# spreadsheet header titles
 COL_TYPE = 0
 COL_TIME = 1
-COL_TITLE = 2
-COL_CHAIR_SPKR_AUTHOR = 3
-COL_KEYNT_ABSTRACT = 4
-COL_SPKR_BIO = 5
-COL_PHOTO_URL = 6
-COL_FNAME = 7
-COL_SLIDES = 8
+COL_ROOM = 2
+COL_TITLE = 3
+COL_CHAIR_SPKR_AUTHOR = 4
+COL_KEYNT_ABSTRACT = 5
+COL_SPKR_BIO = 6
+COL_PHOTO_URL = 7
+COL_FNAME = 8
+COL_SLIDES = 9
 
 # Borrowed from: https://www.safaribooksonline.com/library/view/python-cookbook-2nd/0596007973/ch01s24.html
 def html_replace(exc):
@@ -77,37 +79,39 @@ def proggen(worksheet, values, outdir):
     f = codecs.open(output, mode='w', encoding='ascii', errors='html_replace')
 
     f.write("""<ul class="program" data-role="listview" data-filter="true" data-inset="true" data-theme="d" data-dividertheme="a" data-filter-placeholder="Filter program...">\n<?php\n""")
+    progdate = ""
     for i,row in enumerate(values):
         if (len(row)<1):
             continue
         row = [item.strip() for item in row]
-        line=None
+        line = None
 
         type = row[COL_TYPE]
         if (type == 'day' and len(row)>=2):
-            line = """  tprog_add_header("%s");\n""" % row[COL_TIME]
+            progdate = row[COL_TIME].split(',')[0].lower()
+            line = """  tprog_add_header("%s", "prog-%s");\n""" % (row[COL_TIME], progdate)
 
-        elif (type == 'session' and len(row)>=3):
+        elif (type == 'session' and len(row)>=4):
             time = row[COL_TIME]
             title = row[COL_TITLE]
-            chair = (row[COL_CHAIR_SPKR_AUTHOR] if len(row)>3 else "")
+            chair = (row[COL_CHAIR_SPKR_AUTHOR] if len(row)>4 else "")
             style = ""
             if (i == len(values)-1):
                 # last session
-                line = """  tprog_add_session("%s", "%s", "%s", "%s", true);\n""" % (time, title, chair, style)
+                line = """  tprog_add_session("%s", "%s", "%s", "%s", "prog-%s", true);\n""" % (time, title, chair, style, progdate)
             else:
-                line = """  tprog_add_session("%s", "%s", "%s", "%s");\n""" % (time, title, chair, style)
+                line = """  tprog_add_session("%s", "%s", "%s", "%s", "prog-%s");\n""" % (time, title, chair, style, progdate)
 
-        elif (type == 'talk' and len(row)>=4):
+        elif (type == 'talk' and len(row)>=5):
             paper = row[COL_TITLE]
             link = ""
             authors = row[COL_CHAIR_SPKR_AUTHOR]
             info = ""
             slides = ""
             video = ""
-            line = """  tprog_add_item("%s", "%s", "%s", "%s", "%s", "%s");\n""" % (paper, link, authors, info, slides, video)
+            line = """  tprog_add_item("%s", "%s", "%s", "%s", "%s", "%s", "prog-%s");\n""" % (paper, link, authors, info, slides, video, progdate)
 
-        elif (type == 'keynote' and len(row)>=6):
+        elif (type == 'keynote' and len(row)>=7):
             title = row[COL_TITLE]
             link = ""
             speaker = row[COL_CHAIR_SPKR_AUTHOR]
@@ -117,21 +121,21 @@ def proggen(worksheet, values, outdir):
             info = ""
             slides = ""
             video = ""
-            line = """  tprog_add_keynote("%s", "%s", "%s", "%s", "%s");\n""" % (title, speaker, abstract, bio, photo)
+            line = """  tprog_add_keynote("%s", "%s", "%s", "%s", "%s", "prog-%s");\n\n""" % (title, speaker, abstract, bio, photo, progdate)
 
-        elif (type == 'disc' and len(row)>=3):
+        elif (type == 'disc' and len(row)>=4):
             paper = row[COL_TITLE]
             link = ""
             authors = ""
             info = ""
             slides = ""
             video = ""
-            line = """  tprog_add_item("%s", "%s", "%s", "%s", "%s", "%s");\n""" % (paper, link, authors, info, slides, video)
+            line = """  tprog_add_item("%s", "%s", "%s", "%s", "%s", "%s", "prog-%s");\n""" % (paper, link, authors, info, slides, video, progdate)
 
-        elif (type == 'break' and len(row)>=3):
+        elif (type == 'break' and len(row)>=4):
             time = row[COL_TIME]
             title = row[COL_TITLE]
-            line = """  tprog_add_session("%s", "%s", "", "");\n""" % (time, title)
+            line = """  tprog_add_session("%s", "%s", "", "", "prog-%s");\n""" % (time, title, progdate)
 
         if (line != None):
             f.write(line)
@@ -159,8 +163,8 @@ def main(outdir, wsnames):
             if (len(wsnames)>0 and not ws['properties']['title'] in wsnames):
                 continue
 
-            # Note we assume the header row to be present !!!
-            rangeName = '%s!A2:I'%ws['properties']['title']
+            print("Processing sheet %s ..."%(ws['properties']['title']))
+            rangeName = '%s!%s'% (ws['properties']['title'], COLUMN_RANGE)
             result = service.spreadsheets().values().get(
                 spreadsheetId=SPREADSHEETID, range=rangeName).execute()
             values = result.get('values', [])
