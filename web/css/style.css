@@ -504,6 +504,14 @@ button[disabled],
     border-radius: 0px;    
 }
 
+.roundright {
+    border-radius: 0px 0.6em 0.6em 0px !important;
+}
+
+.roundleft {
+    border-radius: 0.6em 0px 0px 0.6em !important;
+}
+
 .listlast {
     border-radius: 0px 0px 0.6em 0.6em !important;
 }
@@ -766,6 +774,18 @@ video {
         text-shadow: none;
 }
 
+.content-primary .program .prog-social {
+    padding: 0.15em 1.0em;
+        background-color: #FFCB23;
+        border-color: #ACA997;
+}
+
+.content-primary .program .prog-social h3 {
+            font-weight: bold;
+        color: #000000;
+        text-align: left;
+        text-shadow: none;
+}
 
 .hotel-header {
     font-size: 1em;

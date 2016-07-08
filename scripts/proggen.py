@@ -132,6 +132,15 @@ def proggen(worksheet, values, outdir):
             video = ""
             line = """  tprog_add_item("%s", "%s", "%s", "%s", "%s", "%s", "prog-%s");\n""" % (paper, link, authors, info, slides, video, progdate)
 
+        elif (type == 'social' and len(row)>=4):
+            time = row[COL_TIME]
+            title = row[COL_TITLE]
+            if (i == len(values)-1):
+                # last item
+                line = """  tprog_add_extra("%s", "%s", "prog-%s", true);\n""" % (time, title, progdate)
+            else:
+                line = """  tprog_add_extra("%s", "%s", "prog-%s");\n""" % (time, title, progdate)
+
         elif (type == 'break' and len(row)>=4):
             time = row[COL_TIME]
             title = row[COL_TITLE]

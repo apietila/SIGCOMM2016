@@ -102,6 +102,17 @@ function tprog_add_session($time, $title, $chair="", $style="", $progitemclass =
 
 }
 
+function tprog_add_extra($time, $title, $progitemclass = "", $last=false)
+{
+        printf('<li class="prog-social prog-item %s %s" data-role="list-divider"><h3>%s %s</h3>',
+               ($last ? "listlast" : ""), $progitemclass, $time, $title);
+        print("</li>\n");
+        // Weverton: for some reason (i'm new to jquery), a list divider cannot exist without a following item, when data-filter is true
+        //           as a workaround, included an invisible li
+        print ("<li style=\"display: none;\"></li>\n");
+
+}
+
 function tprog_add_item($paper, $link, $authors, $info, $slides="", $video="", $progitemclass = "")
 {
 	/* the spaces after various "%s" below are important for correct list filtering! */
