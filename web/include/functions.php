@@ -69,46 +69,39 @@ function add_registrationitem($regitemtype, $reginfo1, $reginfo2, $reginfo3)
     printf('<li data-icon="false"><div class="ui-grid-a"><div class="ui-block-a"><p>%s</p></div><div class="ui-block-b"><p>%s</p></div><div class="ui-block-b"><p>%s</p></div><div class="ui-block-b"><p>%s</p></div></div></li>', $regitemtype, $reginfo1, $reginfo2, $reginfo3);
 }
 
-function add_paperlistitem($title, $authors)
-{
-    printf('<li data-icon="false"><div class="ui-grid-a"><div class="ui-block-a"><h2>%s</h2><p>%s</p></div></div></li>',
-           $title, $authors);
-}
-
 function tprog_add_header($time, $progitemclass = "")
 {
         printf('<li data-role="list-divider" class="prog-header prog-item %s"><h3>%s</h3></li>', $progitemclass, $time);
-        // Weverton: for some reason (i'm new to jquery), a list divider cannot exist without a following item, when data-filter is true
-        //           as a workaround, included an invisible li
+        // a list divider is not visible if not followed by an ordinary item,
+        // when data-filter is true. workaround: included an invisible li
         print ("<li style=\"display: none;\"></li>\n");
 
 }
 
-function tprog_add_session($time, $title, $chair="", $style="", $progitemclass = "", $last=false)
+function tprog_add_session($time, $title, $chair="", $style="", $progitemclass = "")
 {
     if (!$style) {
         $style = preg_match('/lunch|coffee/i', $title) ? "b" : "a";
     }
-	printf('<li class="ui-bar-%s prog-item %s %s" data-role="list-divider"><h3>%s %s</h3>',
-	       $style, ($last ? "listlast" : ""), $progitemclass, $time, $title);
+	printf('<li class="ui-bar-%s prog-item %s" data-role="list-divider"><h3>%s %s</h3>',
+	       $style, $progitemclass, $time, $title);
 	if ($chair) {
 		$chair = preg_replace('/\(([^\)]*)\)/', '<em>(${1})</em>', $chair);
 		printf('<p>Session Chair: %s</p>', $chair);
 	}
 	print("</li>\n");
-        // Weverton: for some reason (i'm new to jquery), a list divider cannot exist without a following item, when data-filter is true
-        //           as a workaround, included an invisible li
+        // a list divider is not visible if not followed by an ordinary item,
+        // when data-filter is true. workaround: included an invisible li
         print ("<li style=\"display: none;\"></li>\n");
 
 }
 
-function tprog_add_extra($time, $title, $progitemclass = "", $last=false)
+function tprog_add_extra($time, $title, $progitemclass = "")
 {
-        printf('<li class="prog-social prog-item %s %s" data-role="list-divider"><h3>%s %s</h3>',
-               ($last ? "listlast" : ""), $progitemclass, $time, $title);
+        printf('<li class="prog-social prog-item %s" data-role="list-divider"><h3>%s %s</h3>', $progitemclass, $time, $title);
         print("</li>\n");
-        // Weverton: for some reason (i'm new to jquery), a list divider cannot exist without a following item, when data-filter is true
-        //           as a workaround, included an invisible li
+        // a list divider is not visible if not followed by an ordinary item,
+        // when data-filter is true. workaround: included an invisible li
         print ("<li style=\"display: none;\"></li>\n");
 
 }

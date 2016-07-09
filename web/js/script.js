@@ -1,12 +1,9 @@
 // Misc helper scripts for the SIGCOMM web
 
-/* Hide news list items on page show. */
+$(document).on("pagebeforeshow", function() {
 
-$(document).on("pageshow", function() {
-
-  try {  
-    /* Weverton (04/04/2016): definitive fix to the newslibtn button issue,
-     *   which did not behave adequately when coming from another page. */
+  try { 
+    /* Hide news list items on page show. */
     var newslibtn = $.mobile.activePage.find(".newslibtn");
 
     if (newslibtn != null) {
@@ -15,19 +12,49 @@ $(document).on("pageshow", function() {
       $(newslibtn).find("span").toggleClass("ui-icon-plus", true);
       $(newslibtn).find("span").toggleClass("ui-icon-minus", false);
     }
+
+    /* Hack to prevent data-filter from reducing page size and making scrolling buggy. */
+    var uicontainer = $.mobile.activePage.find(".ui-content");
+
+    if (uicontainer != null) {
+      $(uicontainer).css('min-height', $(uicontainer).height());
+    }
+
+    /* Configure sponsor ticker tape */
+    var logobar = $.mobile.activePage.find(".logobar");
+
+    if (logobar != null) {
+      init_sps();
+      resize();
+    }
     
-    /* Weverton Cordeiro: hack to prevent data-filter from
-     *   reducing page size and making scrolling buggy. */
+  } catch (err) {
+    // alert (err);
+  }
+  
+});
+
+$(document).on("pageshow", function() {
+
+  try { 
+    /* Hack to prevent data-filter from reducing page size and making scrolling buggy. */
     var uicontainer = $.mobile.activePage.find(".ui-content");
   
     if (uicontainer != null) {
       $(uicontainer).css('min-height', $(uicontainer).height());
     }
 
+    /* Reinitialize program on return */
+    var program = $.mobile.activePage.find(".sigcomm-program");
+  
+    if (program != null) {
+      filterProgram(".prog-all");
+    }
+    
   } catch (err) {
     // alert (err);
   }
-
+  
 });
 
 /* Show/hide list items on newslibtn click. */
@@ -48,7 +75,7 @@ function showall(divname) {
     }
 }
 
-/* Weverton Cordeiro: Sponsors, adapted from 2012 code */
+/* sponsors ticker tape, adapted from sigcomm 2012 code */
 
 (function(a, b) {
     var c = function(a, c, b) {
@@ -69,6 +96,7 @@ function showall(divname) {
 })(jQuery, "smartresize");
 
 function resize() {
+  try {
     var logobar = $.mobile.activePage.find(".logobar");
     
     scrh = $(window).height();
@@ -80,6 +108,10 @@ function resize() {
     lcnt = parseInt(scrw / logow, 10);
     $(logobar).html("");
     ticker_tape();
+  }
+  catch (err) {
+    // alert (err);
+  }
 }
 
 $(window).smartresize(resize);
@@ -151,28 +183,26 @@ function get_logo(a) {
 }
 
 function ticker_tape() {
+  try {
     var logobar = $.mobile.activePage.find(".logobar");
-    var content = $.mobile.activePage.find(".content");
+    var content = $.mobile.activePage.find(".leftnav");
     
     $(logobar).css("height", logoh + "px");
-    $(content).css("margin-bottom", 1.25 * logoh + "px");
+    $(content).css("padding-bottom", 1.25 * logoh + "px");
     $(logobar).append("<table width='100%' height='100%' cellspacing='0' cellpadding='0' border='0' valign='middle'><tr class='logobarrow'></tr></table>");
 
     var logobarrow = $.mobile.activePage.find(".logobarrow");
     for (var a = 0; a < lcnt; a++)
       nlogo = get_logo(a), $(logobarrow).append(nlogo);
+  }
+  catch (err) {
+    // alert(err);
+  }
 }
 
 setInterval(function() {
     onfinish()
 }, 3E3);
-
-$(document).on("pageshow", function() {
-    try {
-        init_sps();
-        resize();
-    } catch (b) {}
-});
 
 /* conference program filtering */
 
@@ -187,8 +217,8 @@ function filterProgram(progitem) {
       $('.prog-item').hide();
       $(progitem).show();
     }
-    $(".prog-item").filter(":visible").first().toggleClass('listfirst', true);
-    $(".prog-item").filter(":visible").last().toggleClass('listlast', true);
+     $(".prog-item").filter(":visible").first().toggleClass('listfirst', true);
+     $(".prog-item").filter(":visible").last().toggleClass('listlast', true);
     
   } catch (err) {
     // alert( err);

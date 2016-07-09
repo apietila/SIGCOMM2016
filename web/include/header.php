@@ -19,7 +19,7 @@
 <!--Anna: FIXME <html manifest="sigcomm.appcache"> -->
 <head>
   <meta charset="iso-8859-1">
-  <?php // Weverton: include meta information
+  <?php /* include page metadata information, for facebook sharing */
   
     if (isset ($og_tags)) {
       foreach ($og_tags as $og_tag) {
@@ -101,7 +101,7 @@
 	 chromium.org/developers/how-tos/chrome-frame-getting-started -->
 <!--[if lt IE 7 ]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
 
-<div data-role="page" data-theme="a">
+<div data-role="page" data-theme="a" class="main-page">
 
   <div class="header" data-role="header" data-theme="a" data-position="inline">
     <div>

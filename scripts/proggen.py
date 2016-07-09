@@ -78,7 +78,9 @@ def proggen(worksheet, values, outdir):
 
     f = codecs.open(output, mode='w', encoding='ascii', errors='html_replace')
 
-    f.write("""<ul class="program" data-role="listview" data-filter="true" data-inset="true" data-theme="d" data-dividertheme="a" data-filter-placeholder="Filter program...">\n<?php\n""")
+    f.write("""  <div id="sigcomm-program" class="sigcomm-program">\n""")
+
+    f.write("""    <ul class="program" data-role="listview" data-filter="true" data-inset="true" data-theme="d" data-dividertheme="a" data-filter-placeholder="Filter program...">\n<?php\n""")
     progdate = ""
     for i,row in enumerate(values):
         if (len(row)<1):
@@ -89,18 +91,14 @@ def proggen(worksheet, values, outdir):
         type = row[COL_TYPE]
         if (type == 'day' and len(row)>=2):
             progdate = row[COL_TIME].split(',')[0].lower()
-            line = """  tprog_add_header("%s", "prog-%s");\n""" % (row[COL_TIME], progdate)
+            line = """      tprog_add_header("%s", "prog-%s");\n""" % (row[COL_TIME], progdate)
 
         elif (type == 'session' and len(row)>=4):
             time = row[COL_TIME]
             title = row[COL_TITLE]
             chair = (row[COL_CHAIR_SPKR_AUTHOR] if len(row)>4 else "")
             style = ""
-            if (i == len(values)-1):
-                # last session
-                line = """  tprog_add_session("%s", "%s", "%s", "%s", "prog-%s", true);\n""" % (time, title, chair, style, progdate)
-            else:
-                line = """  tprog_add_session("%s", "%s", "%s", "%s", "prog-%s");\n""" % (time, title, chair, style, progdate)
+            line = """      tprog_add_session("%s", "%s", "%s", "%s", "prog-%s");\n""" % (time, title, chair, style, progdate)
 
         elif (type == 'talk' and len(row)>=5):
             paper = row[COL_TITLE]
@@ -109,7 +107,7 @@ def proggen(worksheet, values, outdir):
             info = ""
             slides = ""
             video = ""
-            line = """  tprog_add_item("%s", "%s", "%s", "%s", "%s", "%s", "prog-%s");\n""" % (paper, link, authors, info, slides, video, progdate)
+            line = """      tprog_add_item("%s", "%s", "%s", "%s", "%s", "%s", "prog-%s");\n""" % (paper, link, authors, info, slides, video, progdate)
 
         elif (type == 'keynote' and len(row)>=7):
             title = row[COL_TITLE]
@@ -121,7 +119,7 @@ def proggen(worksheet, values, outdir):
             info = ""
             slides = ""
             video = ""
-            line = """  tprog_add_keynote("%s", "%s", "%s", "%s", "%s", "prog-%s");\n\n""" % (title, speaker, abstract, bio, photo, progdate)
+            line = """      tprog_add_keynote("%s", "%s", "%s", "%s", "%s", "prog-%s");\n\n""" % (title, speaker, abstract, bio, photo, progdate)
 
         elif (type == 'disc' and len(row)>=4):
             paper = row[COL_TITLE]
@@ -130,26 +128,31 @@ def proggen(worksheet, values, outdir):
             info = ""
             slides = ""
             video = ""
-            line = """  tprog_add_item("%s", "%s", "%s", "%s", "%s", "%s", "prog-%s");\n""" % (paper, link, authors, info, slides, video, progdate)
+            line = """      tprog_add_item("%s", "%s", "%s", "%s", "%s", "%s", "prog-%s");\n""" % (paper, link, authors, info, slides, video, progdate)
 
         elif (type == 'social' and len(row)>=4):
             time = row[COL_TIME]
             title = row[COL_TITLE]
-            if (i == len(values)-1):
-                # last item
-                line = """  tprog_add_extra("%s", "%s", "prog-%s", true);\n""" % (time, title, progdate)
-            else:
-                line = """  tprog_add_extra("%s", "%s", "prog-%s");\n""" % (time, title, progdate)
+            line = """      tprog_add_extra("%s", "%s", "prog-%s");\n""" % (time, title, progdate)
+
+        elif (type == 'description' and len(row)>=4):
+            paper = row[COL_TITLE]
+            link = ""
+            authors = row[COL_CHAIR_SPKR_AUTHOR]
+            info = ""
+            slides = ""
+            video = ""
+            line = """      tprog_add_item("%s", "%s", "%s", "%s", "%s", "%s", "prog-%s");\n""" % (paper, link, authors, info, slides, video, progdate)
 
         elif (type == 'break' and len(row)>=4):
             time = row[COL_TIME]
             title = row[COL_TITLE]
-            line = """  tprog_add_session("%s", "%s", "", "", "prog-%s");\n""" % (time, title, progdate)
+            line = """      tprog_add_session("%s", "%s", "", "", "prog-%s");\n""" % (time, title, progdate)
 
         if (line != None):
             f.write(line)
 
-    f.write("""?>\n</ul>\n""")
+    f.write("""?>\n    </ul>\n  </div>\n""")
     f.close()
 
 def main(outdir, wsnames):

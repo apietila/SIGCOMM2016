@@ -49,14 +49,5 @@
   <?php add_dateitem("June 3, 2015", "<s>&#34;Bahia Othon Palace&#34; selected as the conference venue</s>") ?>
   <?php add_dateitem("March 31, 2015", "Web site online") ?>
 
-  <?php
-
-/* Weverton (04/04/2016) -- Definitive fix to the newslibtn button issue,
- *     which did not behave adequately when coming from another page. Fix
- *     tested on Mozilla Firefox, Google Chrome, and Android's native web
- *     browser and Chrome (changes also made to js/script.js).
- */
- 
-  ?>
   <li class="newslibtn ui-btn ui-li" data-theme="a" onclick="showall();"><div><a>Older News</a><span class="ui-icon ui-btn-icon-right ui-icon-plus ui-icon-shadow">&nbsp;</span></div></li>
 </ul>

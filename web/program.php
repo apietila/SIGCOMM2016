@@ -15,10 +15,6 @@
         </ul>
 </div>
 
-<div id="program">
-
 <?php include("include/program/sigcomm.php"); ?>
-
-</div>
 
 <?php include ("include/footer.php"); ?>
