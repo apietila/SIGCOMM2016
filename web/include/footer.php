@@ -23,19 +23,25 @@
     <img src='images/sponsors/telefonica.png' alt='cached' class='hidden'>
     <img src='images/sponsors/vmware.jpg' alt='cached' class='hidden'>
     <img src='images/sponsors/comcast.jpg' alt='cached' class='hidden'>
+    <img src="images/sponsors/cgi.png" alt="cached" class='hidden'/>
+    <img src="images/sponsors/nsf.jpg" alt="cached" class='hidden'/>
+
     <script type="text/javascript">
+      /* [priority, logo_filename, sponsor_website, sponsor_shortname, 0, real_height, real_width] */
       sps = [
         [300, "cisco.png", "http://www.cisco.com/", "cisco", 0, 200, 379],
+        [300, "nsf.jpg", "http://www.nsf.gov/", "cisco", 0, 298, 295],
         [100, "huawei.png", "http://www.huawei.com/", "huawei", 0, 406, 406],
         [100, "ericsson.png", "http://www.ericsson.com/", "ericsson", 0, 104, 116],
         [100, "facebook.png", "http://research.facebook.com/", "facebook", 0, 713, 2026],
         [100, "google.png", "http://www.google.com/", "google", 0, 329, 1000],
-        [50, "akamai.png", "http://www.akamai.com/", "akamai", 0, 175, 430],
-        [10, "hp.png", "http://www.hp.com/", "hp", 0, 500, 500],
+        [100, "cgi.png", "http://cgi.br/about/", "cgi.br", 0, 356, 376],
+        [50, "akamai.png", "http://www.akamai.com/", "akamai", 0, 195, 450],
+        [10, "hp.png", "http://www.hp.com/", "hp", 0, 400, 400],
         [10, "telefonica.png", "http://www.tid.es/", "telefonica", 0, 152, 250],
-        [10, "vmware.jpg", "http://www.vmware.com/", "vmware", 0, 65, 363],
+        [10, "vmware.jpg", "http://www.vmware.com/", "vmware", 0, 100, 420],
         [10, "netapp.jpeg", "http://www.netapp.com/", "netapp", 0, 478, 1200],
-        [10, "comcast.jpg", "http://www.comcast.com/", "comcast", 0, 210, 594]
+        [10, "comcast.jpg", "http://www.comcast.com/", "comcast", 0, 263, 594]
     ];</script>
     
   <?php } ?>
