@@ -71,20 +71,21 @@ function add_registrationitem($regitemtype, $reginfo1, $reginfo2, $reginfo3)
 
 function tprog_add_header($time, $progitemclass = "")
 {
-        printf('<li data-role="list-divider" class="prog-header prog-item %s"><h3>%s</h3></li>', $progitemclass, $time);
-        // a list divider is not visible if not followed by an ordinary item,
-        // when data-filter is true. workaround: included an invisible li
-        print ("<li style=\"display: none;\"></li>\n");
+?>
+    <li class="prog-header prog-no-filter ui-bar-a prog-item <?php echo $progitemclass ?>">
+      <h3><?php echo $time ?></h3>
+    </li>
+<?php
 
 }
 
-function tprog_add_session($time, $title, $chair="", $style="", $progitemclass = "")
+function tprog_add_session($time, $title, $chair="", $style="", $progitemclass = "", $last = false)
 {
     if (!$style) {
         $style = preg_match('/lunch|coffee/i', $title) ? "b" : "a";
     }
-	printf('<li class="ui-bar-%s prog-item %s" data-role="list-divider"><h3>%s %s</h3>',
-	       $style, $progitemclass, $time, $title);
+	printf('<li class="ui-li ui-bar-%s prog-item ui-li-divider %s %s" data-role="list-divider"><h3>%s %s</h3>',
+	         $style, $progitemclass, ($last ? "listlast" : ""), $time, $title);
 	if ($chair) {
 		$chair = preg_replace('/\(([^\)]*)\)/', '<em>(${1})</em>', $chair);
 		printf('<p>Session Chair: %s</p>', $chair);
@@ -92,17 +93,18 @@ function tprog_add_session($time, $title, $chair="", $style="", $progitemclass =
 	print("</li>\n");
         // a list divider is not visible if not followed by an ordinary item,
         // when data-filter is true. workaround: included an invisible li
-        print ("<li style=\"display: none;\"></li>\n");
+        print ("<li class=\"hidden\">%s %s</li>\n");
 
 }
 
-function tprog_add_extra($time, $title, $progitemclass = "")
+function tprog_add_extra($time, $title, $progitemclass = "", $last = false)
 {
-        printf('<li class="prog-social prog-item %s" data-role="list-divider"><h3>%s %s</h3>', $progitemclass, $time, $title);
+        printf('<li class="prog-social prog-item %s %s" data-role="list-divider"><h3>%s %s</h3>', 
+                 $progitemclass, ($last ? "listlast" : ""), $time, $title);
         print("</li>\n");
         // a list divider is not visible if not followed by an ordinary item,
         // when data-filter is true. workaround: included an invisible li
-        print ("<li style=\"display: none;\"></li>\n");
+        print ("<li class=\"hidden\"></li>\n");
 
 }
 

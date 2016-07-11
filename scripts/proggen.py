@@ -22,7 +22,7 @@ COL_TYPE = 0
 COL_TIME = 1
 COL_ROOM = 2
 COL_TITLE = 3
-COL_CHAIR_SPKR_AUTHOR = 4
+COL_CHAIR_SPKR_AUTHOR_DESC = 4
 COL_KEYNT_ABSTRACT = 5
 COL_SPKR_BIO = 6
 COL_PHOTO_URL = 7
@@ -80,7 +80,7 @@ def proggen(worksheet, values, outdir):
 
     f.write("""  <div id="sigcomm-program" class="sigcomm-program">\n""")
 
-    f.write("""    <ul class="program" data-role="listview" data-filter="true" data-inset="true" data-theme="d" data-dividertheme="a" data-filter-placeholder="Filter program...">\n<?php\n""")
+    f.write("""    <ul class="program" data-role="listview" data-filter="true" data-inset="true" data-theme="d" data-dividertheme="a" placeholder="Filter program...">\n<?php\n""")
     progdate = ""
     for i,row in enumerate(values):
         if (len(row)<1):
@@ -96,26 +96,30 @@ def proggen(worksheet, values, outdir):
         elif (type == 'session' and len(row)>=4):
             time = row[COL_TIME]
             title = row[COL_TITLE]
-            chair = (row[COL_CHAIR_SPKR_AUTHOR] if len(row)>4 else "")
+            chair = (row[COL_CHAIR_SPKR_AUTHOR_DESC] if len(row)> COL_CHAIR_SPKR_AUTHOR_DESC else "")
             style = ""
-            line = """      tprog_add_session("%s", "%s", "%s", "%s", "prog-%s");\n""" % (time, title, chair, style, progdate)
+            if (i == len(values) - 1):
+              # last session
+              line = """      tprog_add_session("%s", "%s", "%s", "%s", "prog-%s", true);\n""" % (time, title, chair, style, progdate)
+            else:
+              line = """      tprog_add_session("%s", "%s", "%s", "%s", "prog-%s");\n""" % (time, title, chair, style, progdate)
 
-        elif (type == 'talk' and len(row)>=5):
+        elif (type == 'talk' and len(row)>=4):
             paper = row[COL_TITLE]
             link = ""
-            authors = row[COL_CHAIR_SPKR_AUTHOR]
+            authors = (row[COL_CHAIR_SPKR_AUTHOR_DESC] if len(row)> COL_CHAIR_SPKR_AUTHOR_DESC else "")
             info = ""
             slides = ""
             video = ""
             line = """      tprog_add_item("%s", "%s", "%s", "%s", "%s", "%s", "prog-%s");\n""" % (paper, link, authors, info, slides, video, progdate)
 
-        elif (type == 'keynote' and len(row)>=7):
+        elif (type == 'keynote' and len(row)>=4):
             title = row[COL_TITLE]
             link = ""
-            speaker = row[COL_CHAIR_SPKR_AUTHOR]
-            abstract = row[COL_KEYNT_ABSTRACT]
-            bio = row[COL_SPKR_BIO]
-            photo = row[COL_PHOTO_URL]
+            speaker = row[COL_CHAIR_SPKR_AUTHOR_DESC]
+            abstract = (row[COL_KEYNT_ABSTRACT] if len(row)>COL_KEYNT_ABSTRACT else "")
+            bio = (row[COL_SPKR_BIO] if len(row)>COL_SPKR_BIO else "")
+            photo = (row[COL_PHOTO_URL] if len(row)>COL_PHOTO_URL else "")
             info = ""
             slides = ""
             video = ""
@@ -133,12 +137,16 @@ def proggen(worksheet, values, outdir):
         elif (type == 'social' and len(row)>=4):
             time = row[COL_TIME]
             title = row[COL_TITLE]
-            line = """      tprog_add_extra("%s", "%s", "prog-%s");\n""" % (time, title, progdate)
+            if (i == len(values) - 1):
+              # last session
+              line = """      tprog_add_extra("%s", "%s", "prog-%s", true);\n""" % (time, title, progdate)
+            else:
+              line = """      tprog_add_extra("%s", "%s", "prog-%s");\n""" % (time, title, progdate)
 
         elif (type == 'description' and len(row)>=4):
             paper = row[COL_TITLE]
             link = ""
-            authors = row[COL_CHAIR_SPKR_AUTHOR]
+            authors = row[COL_CHAIR_SPKR_AUTHOR_DESC]
             info = ""
             slides = ""
             video = ""

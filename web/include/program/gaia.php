@@ -1,5 +1,5 @@
   <div id="sigcomm-program" class="sigcomm-program">
-    <ul class="program" data-role="listview" data-filter="true" data-inset="true" data-theme="d" data-dividertheme="a" data-filter-placeholder="Filter program...">
+    <ul class="program" data-role="listview" data-filter="true" data-inset="true" data-theme="d" data-dividertheme="a" placeholder="Filter program...">
 <?php
       tprog_add_header("Friday, August 26, 2016", "prog-friday");
       tprog_add_session("8:45am - 9:00am", "Welcome and Introduction", "", "", "prog-friday");
@@ -19,7 +19,7 @@
       tprog_add_item("Empirical evaluation of mobile network services in developing countries", "", "S. Rao, K. Kumar, J. Manner, T. Aura", "", "", "", "prog-friday");
       tprog_add_session("3:30pm - 4:00pm", "Coffee Break", "", "", "prog-friday");
       tprog_add_session("4:00pm - 5:00pm", "Panel Session", "", "", "prog-friday");
-      tprog_add_session("5:00pm", "Wrap-up", "", "", "prog-friday");
+      tprog_add_session("5:00pm", "Wrap-up", "", "", "prog-friday", true);
 ?>
     </ul>
   </div>

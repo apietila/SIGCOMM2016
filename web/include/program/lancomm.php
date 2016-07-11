@@ -1,5 +1,5 @@
   <div id="sigcomm-program" class="sigcomm-program">
-    <ul class="program" data-role="listview" data-filter="true" data-inset="true" data-theme="d" data-dividertheme="a" data-filter-placeholder="Filter program...">
+    <ul class="program" data-role="listview" data-filter="true" data-inset="true" data-theme="d" data-dividertheme="a" placeholder="Filter program...">
 <?php
       tprog_add_header("Monday, August 22, 2016", "prog-monday");
       tprog_add_session("8:30am - 8:45am", "Opening and Introduction", "", "", "prog-monday");
@@ -31,7 +31,7 @@
       tprog_add_item("Adopting Security Routines in Legacy Organizations", "", "E. Azevedo, M. Machado, R. Melo, R. Aschoff, D. Sadok, U. Carmo", "", "", "", "prog-monday");
       tprog_add_session("3:30pm - 4:00pm", "Coffee Break", "", "", "prog-monday");
       tprog_add_item("Discussion: Synergies in Network Modeling, Monitoring and Analysis Research", "", "", "", "", "", "prog-monday");
-      tprog_add_session("5:00pm", "Wrap-up, Planning of Next Steps, and Closing", "", "", "prog-monday");
+      tprog_add_session("5:00pm", "Wrap-up, Planning of Next Steps, and Closing", "", "", "prog-monday", true);
 ?>
     </ul>
   </div>

@@ -1,5 +1,5 @@
   <div id="sigcomm-program" class="sigcomm-program">
-    <ul class="program" data-role="listview" data-filter="true" data-inset="true" data-theme="d" data-dividertheme="a" data-filter-placeholder="Filter program...">
+    <ul class="program" data-role="listview" data-filter="true" data-inset="true" data-theme="d" data-dividertheme="a" placeholder="Filter program...">
 <?php
       tprog_add_header("Friday, August 26, 2016", "prog-friday");
       tprog_add_session("8:30am - 8:45am", "Opening and Introduction", "", "", "prog-friday");
@@ -23,7 +23,7 @@
       tprog_add_item("Concept for Client-initiated Selection of Cloud Instances for Improving QoE of Distributed Cloud Services", "", "F. Wamser, M. Seufert, S. H&ouml;fner, P. Tran-Gia", "", "", "", "prog-friday");
       tprog_add_item("Client-Driven Network-level QoE fairness for Encrypted 'DASH-S'", "", "J. Chen, M. Ammar, M. Fayed, R. Fonseca", "", "", "", "prog-friday");
       tprog_add_session("4:45pm - 5:15pm", "Discussion: Strengthening QoE-based Research @SIGCOMM", "", "", "prog-friday");
-      tprog_add_session("5:15pm", "Wrap-up, Next Steps and Closing", "", "", "prog-friday");
+      tprog_add_session("5:15pm", "Wrap-up, Next Steps and Closing", "", "", "prog-friday", true);
 ?>
     </ul>
   </div>

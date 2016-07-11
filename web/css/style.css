@@ -662,31 +662,34 @@ button[disabled],
 /* custom styles for the conference program menu */
 
 .content-primary .program .prog-header {
-        background-color: #1A601A;
-        border-color: #ACA997;
-}
-
-.content-primary .program .prog-header {
-    padding: 0.15em 1.0em;
+        background-color: #1A601A !important;
+        height: 40px !important;
+        border-width: 0em;
 }
 
 .content-primary .program .prog-header h3 {
         color: #FFFFFF;
-        text-align: center;
-        text-shadow: none;
+        font-size: 1.2em;
+        text-align: center !important;
+        font-weight: bold;
+        margin-top: 10px !important;
 }
 
-.content-primary .keynote-navgroup {
+.content-primary .program .prog-no-filter {
+        display: block !important;
+}
+
+.content-primary .program .keynote-navgroup {
     padding: 0px;
     margin: -20px -17px;
     border-radius: 0px;
 }
 
-.content-primary .keynote-header {
+.content-primary .program .keynote-header {
     font-weight: bold !important;
 }
 
-.content-primary .keynote-photo {
+.content-primary .program .keynote-photo {
     float: right;
     margin: 0px 0px 15px 15px;
     width: 120px;
@@ -773,6 +776,10 @@ button[disabled],
 }
 
 /* button rouding */
+.roundall {
+    border-radius: 0.6em 0.6em 0.6em 0.6em !important;
+}
+
 .roundright {
     border-radius: 0px 0.6em 0.6em 0px !important;
 }
@@ -842,7 +849,7 @@ video {
 /* sponsors ticker tape, adapted from sigcomm 2012 code */
 
 .hidden {
-    display: none;
+    display: none !important;
 }
 
 .logobar {

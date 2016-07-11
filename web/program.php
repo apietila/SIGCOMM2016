@@ -7,11 +7,11 @@
 
 <div id="prog_ctrl" data-role="navbar">
         <ul>
-                <li><a href="#" onClick="filterProgram('.prog-monday');" class="roundleft">Monday</a></li>
-                <li><a href="#" onClick="filterProgram('.prog-tuesday');">Tuesday</a></li>
-                <li><a href="#" onClick="filterProgram('.prog-wednesday');">Wednesday</a></li>
-                <li><a href="#" onClick="filterProgram('.prog-thursday');">Thursday</a></li>
-                <li><a href="#" onClick="filterProgram('.prog-all');" class="ui-btn-active ui-state-persist roundright">All</a></li>
+                <li><a href="#" onClick="filter('monday');" class="roundleft">Monday</a></li>
+                <li><a href="#" onClick="filter('tuesday');">Tuesday</a></li>
+                <li><a href="#" onClick="filter('wednesday');">Wednesday</a></li>
+                <li><a href="#" onClick="filter('thursday');">Thursday</a></li>
+                <li><a href="#" onClick="filter('all');" class="ui-btn-active ui-state-persist roundright">All</a></li>
         </ul>
 </div>
 

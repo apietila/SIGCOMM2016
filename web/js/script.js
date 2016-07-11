@@ -13,13 +13,6 @@ $(document).on("pagebeforeshow", function() {
       $(newslibtn).find("span").toggleClass("ui-icon-minus", false);
     }
 
-    /* Hack to prevent data-filter from reducing page size and making scrolling buggy. */
-    var uicontainer = $.mobile.activePage.find(".ui-content");
-
-    if (uicontainer != null) {
-      $(uicontainer).css('min-height', $(uicontainer).height());
-    }
-
     /* Configure sponsor ticker tape */
     var logobar = $.mobile.activePage.find(".logobar");
 
@@ -82,11 +75,11 @@ function showall(divname) {
         var f;
         return function() {
             var g = this,
-                h = arguments;
+            h = arguments;
             f ? clearTimeout(f) : b && a.apply(g, h);
             f = setTimeout(function() {
-                b || a.apply(g, h);
-                f = null
+            b || a.apply(g, h);
+            f = null
             }, c || 100)
         }
     };
@@ -133,15 +126,15 @@ function choose_logo_idx() {
     else {
         for (var b = sps[sps.length - 1][0] + 1, b = parseInt(Math.random() * b, 10), c = 0; c < sps.length; c++)
             if (b <= sps[c][0] && 0 === sps[c][4]) {
-                a = c;
-                break;
+            a = c;
+            break;
             }
         if (0 > a)
             for (b = 0; b < sps.length; b++)
-                if (0 === sps[b][4]) {
-                    a = b;
-                    break;
-                }
+            if (0 === sps[b][4]) {
+                a = b;
+                break;
+            }
     }
     sps[a][4] = 1;
     gidx += 1;
@@ -164,7 +157,7 @@ function onfinish() {
             $(mylogo_a).attr("alt", b);
             $(mylink_a).attr("href", sps[b][2]);
             var d = logos * logoh,
-                e = logos * logow;
+            e = logos * logow;
             d / e < sps[b][5] / sps[b][6] ? ($(mylogo_a).attr("height", d + "px"), $(mylogo_a).removeAttr("width")) : ($(mylogo_a).removeAttr("height"), $(mylogo_a).attr("width", e + "px"));
             $(mylogo_a).fadeIn(500);
         })
@@ -204,21 +197,40 @@ setInterval(function() {
     onfinish()
 }, 3E3);
 
-/* conference program filtering */
+/* conference program filtering (code from previous years does not seem to work with jquery-1.4.5) */
 
-function filterProgram(progitem) {
+function filter(progitem) {
   try {
-    $(".prog-item").toggleClass('listfirst', false);
-    $(".prog-item").toggleClass('listlast', false);
+
+    // using show() and hide() methods does not work well with li rouding, so we need to 
+    // manually handle them. first, we disable rouding for current first and last items
+    $(".prog-item").toggleClass('listfirst listlast', false);
     
-    if (progitem == ".prog-all") {
+    // go after all .prog-item items according to the day of the week to be displayed
+    // for some particular date, hide all then show only those items having its class
+    if (progitem == "all") {
       $('.prog-item').show();
     } else {
       $('.prog-item').hide();
-      $(progitem).show();
+      $('.prog-' + progitem).show();
     }
-     $(".prog-item").filter(":visible").first().toggleClass('listfirst', true);
-     $(".prog-item").filter(":visible").last().toggleClass('listlast', true);
+    
+    // the date header should always be visible, that's why we use a display: block
+    // however, we want to hide it if we are not displaying that particular date
+    var kids = $.mobile.activePage.find(".program").children('li');
+    kids.each(function () {
+      if ($(this).hasClass("prog-header")) {
+        if (progitem == "all" || $(this).hasClass('prog-' + progitem)) {
+          $(this).toggleClass( 'prog-no-filter', true);
+        } else {
+          $(this).toggleClass( 'prog-no-filter', false);
+        }
+      }
+    });
+    
+    // finally, include rouding to first and last visible items only
+    $(".prog-item").filter(":visible").first().toggleClass('listfirst', true);
+    $(".prog-item").filter(":visible").last().toggleClass('listlast', true);
     
   } catch (err) {
     // alert( err);

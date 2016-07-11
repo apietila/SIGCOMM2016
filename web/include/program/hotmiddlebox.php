@@ -1,5 +1,5 @@
   <div id="sigcomm-program" class="sigcomm-program">
-    <ul class="program" data-role="listview" data-filter="true" data-inset="true" data-theme="d" data-dividertheme="a" data-filter-placeholder="Filter program...">
+    <ul class="program" data-role="listview" data-filter="true" data-inset="true" data-theme="d" data-dividertheme="a" placeholder="Filter program...">
 <?php
       tprog_add_header("Friday, August 26, 2016", "prog-friday");
       tprog_add_session("8:30am - 8:40am", "Opening and Welcome", "", "", "prog-friday");
@@ -24,7 +24,7 @@
       tprog_add_item("On the Fly TCP Acceleration with Miniproxy", "", "G. Siracusano, R. Bifulco, S. Kuenzer, S. Salsano, N. Blefari Melazzi, F. Huici", "", "", "", "prog-friday");
       tprog_add_item("CliMB: Enabling Network Function Composition with Click Middleboxes", "", "R. Laufer, M. Gallo, D. Perino, A. Nandugudi", "", "", "", "prog-friday");
       tprog_add_item("Discussion (10min)", "", "", "", "", "", "prog-friday");
-      tprog_add_session("5:00pm", "Concluding Remarks", "", "", "prog-friday");
+      tprog_add_session("5:00pm", "Concluding Remarks", "", "", "prog-friday", true);
 ?>
     </ul>
   </div>

@@ -1,8 +1,8 @@
   <div id="sigcomm-program" class="sigcomm-program">
-    <ul class="program" data-role="listview" data-filter="true" data-inset="true" data-theme="d" data-dividertheme="a" data-filter-placeholder="Filter program...">
+    <ul class="program" data-role="listview" data-filter="true" data-inset="true" data-theme="d" data-dividertheme="a" placeholder="Filter program...">
 <?php
       tprog_add_header("Monday, August 22, 2016", "prog-monday");
-      tprog_add_extra("7:30am - 5:30pm", "Conference Registration", "prog-monday");
+      tprog_add_extra("", "Conference Registration", "prog-monday");
       tprog_add_item("Conference Registration", "", "On-site registration location and working hours to be confirmed.", "", "", "", "prog-monday");
       tprog_add_session("5:30pm - 6:45pm", "Topic Preview 1", "", "", "prog-monday");
       tprog_add_extra("7:00pm - 9:00pm", "Welcome Reception", "prog-monday");
@@ -10,9 +10,11 @@
       tprog_add_extra("8:00pm - 10:30pm", "N2Women Dinner", "prog-monday");
       tprog_add_item("N2Women Dinner", "", "Detailed information will be available soon.", "", "", "", "prog-monday");
       tprog_add_header("Tuesday, August 23, 2016", "prog-tuesday");
-      tprog_add_extra("7:30am - 5:30pm", "Conference Registration", "prog-tuesday");
+      tprog_add_extra("", "Conference Registration", "prog-tuesday");
       tprog_add_item("Conference Registration", "", "On-site registration location and working hours to be confirmed.", "", "", "", "prog-tuesday");
-      tprog_add_session("8:45am - 10:30am", "Opening", "Marinho Barcelos (UFRGS) and Jon Crowcroft (U. Cambridge)", "", "prog-tuesday");
+      tprog_add_session("8:45am - 10:30am", "Opening", "", "", "prog-tuesday");
+      tprog_add_keynote("Dummy Keynote", "J. Smith (Dummy Organization)", "", "", "", "prog-tuesday");
+
       tprog_add_session("10:30am - 11:00am", "Coffee Break", "", "", "prog-tuesday");
       tprog_add_session("11:00am - 12:40pm", "Session 1 - SDN & NFV", "", "", "prog-tuesday");
       tprog_add_item("Dummy Paper", "", "J. Smith (Dummy Organization)", "", "", "", "prog-tuesday");
