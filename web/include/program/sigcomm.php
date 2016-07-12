@@ -13,8 +13,6 @@
       tprog_add_extra("", "Conference Registration", "prog-tuesday");
       tprog_add_item("Conference Registration", "", "On-site registration location and working hours to be confirmed.", "", "", "", "prog-tuesday");
       tprog_add_session("8:45am - 10:30am", "Opening", "", "", "prog-tuesday");
-      tprog_add_keynote("Keynote", "Keynote speaker will be announced soon.", "", "", "", "prog-tuesday");
-
       tprog_add_session("10:30am - 11:00am", "Coffee Break", "", "", "prog-tuesday");
       tprog_add_session("11:00am - 12:40pm", "Session 1 - SDN & NFV", "", "", "prog-tuesday");
       tprog_add_item("ClickNP: Highly Flexible and High Performance Network Processing with Reconfigurable Hardware", "", "Bojie Li (USTC / Microsoft Research), Kun Tan (Microsoft Research), Layong (Larry) Luo (Microsoft), Yanqing Peng (SJTU / Microsoft Research), Renqian Luo (USTC / Microsoft Research), Ningyi Xu (Microsoft Research), Yongqiang Xiong (Microsoft Research), Peng Cheng (Microsoft Research), Enhong Chen (USTC)", "", "", "", "prog-tuesday");
