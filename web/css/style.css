@@ -662,21 +662,21 @@ button[disabled],
 /* custom styles for the conference program menu */
 
 .content-primary .program .prog-header {
-        background-color: #1A601A !important;
-        height: 40px !important;
-        border-width: 0em;
+    color: #ffffff !important;
+    background-color: #307530 !important;
+    border-color: #307530 !important;
 }
 
 .content-primary .program .prog-header h3 {
-        color: #FFFFFF;
-        font-size: 1.2em;
-        text-align: center !important;
-        font-weight: bold;
-        margin-top: 10px !important;
+    color: #FFFFFF;
+    font-size: 1.1em;
+    text-align: center !important;
+    font-weight: normal;
+    margin: 0.3em 0em;    
 }
 
 .content-primary .program .prog-no-filter {
-        display: block !important;
+    display: block !important;
 }
 
 .content-primary .program .keynote-navgroup {
@@ -695,42 +695,47 @@ button[disabled],
     width: 120px;
 }
 
+.content-primary .program .prog-item {
+    padding: 0.5em 1.0em;    
+}
+
 .content-primary .program .ui-bar-a {
-    padding: 0.15em 1.0em;
-        background-color: #4e964e;
-        border-color: #ACA997;
+    padding: 0em 1.0em;
+    background-color: #4e964e;
+    border-color: #bbb;
 }
 
 .content-primary .program .ui-bar-a h3 {
-        color: #FFFFFF;
-        text-align: left;
-        text-shadow: none;
+    font-weight: normal;
+    color: #FFFFFF;
+    text-align: left;
+    text-shadow: none;
 }
 
 .content-primary .program .ui-bar-b {
-    padding: 0.15em 1.0em;
-        background-color: #d1d1d1;
-        border-color: #ACA997;
+    padding: 0em 1.0em;
+    background-color: #d1d1d1;
+    border-color: #bbb;
 }
 
 .content-primary .program .ui-bar-b h3 {
-            font-weight: bold;
-        color: #000000;
-        text-align: left;
-        text-shadow: none;
+    font-weight: normal;
+    color: #000000;
+    text-align: left;
+    text-shadow: none;
 }
 
 .content-primary .program .prog-social {
-    padding: 0.15em 1.0em;
-        background-color: #5d5ba9;
-        border-color: #ACA997;
+    padding: 0em 1.0em;
+    background-color: #6A69B1;
+    border-color: #bbbbbb;
 }
 
 .content-primary .program .prog-social h3 {
-            font-weight: bold;
-        color: #FFFFFF;
-        text-align: left;
-        text-shadow: none;
+    font-weight: normal;
+    color: #FFFFFF;
+    text-align: left;
+    text-shadow: none;
 }
 
 /* miscelaneous controls (hotel page, roomshare, etc.) */
