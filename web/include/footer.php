@@ -35,7 +35,7 @@
         [100, "ericsson.png", "http://www.ericsson.com/", "ericsson", 0, 104, 116],
         [100, "facebook.png", "http://research.facebook.com/", "facebook", 0, 713, 2026],
         [100, "google.png", "http://www.google.com/", "google", 0, 329, 1000],
-        [100, "cgi.png", "http://cgi.br/about/", "cgi.br", 0, 356, 376],
+        [100, "cgi_br_nic_br.png", "http://cgi.br/about/", "cgi.br", 0, 300, 900],
         [50, "akamai.png", "http://www.akamai.com/", "akamai", 0, 195, 450],
         [10, "hp.png", "http://www.hp.com/", "hp", 0, 400, 400],
         [10, "telefonica.png", "http://www.tid.es/", "telefonica", 0, 152, 250],
