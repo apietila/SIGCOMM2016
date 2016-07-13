@@ -37,11 +37,14 @@ $(document).on("pageshow", function() {
       $(uicontainer).css('min-height', $(uicontainer).height());
     }
 
-    /* Reinitialize program on return */
+    /* Reinitialize program table on return from another page */
     var program = $.mobile.activePage.find(".sigcomm-program");
   
     if (program != null) {
-      filterProgram(".prog-all");
+      $('input[data-type="search"]').val("");
+      $('input[data-type="search"]').trigger("keyup");
+
+      filter("all");
     }
     
   } catch (err) {
@@ -205,7 +208,7 @@ function filter(progitem) {
     // using show() and hide() methods does not work well with li rouding, so we need to 
     // manually handle them. first, we disable rouding for current first and last items
     $(".prog-item").toggleClass('listfirst listlast', false);
-    
+
     // go after all .prog-item items according to the day of the week to be displayed
     // for some particular date, hide all then show only those items having its class
     if (progitem == "all") {
@@ -214,7 +217,7 @@ function filter(progitem) {
       $('.prog-item').hide();
       $('.prog-' + progitem).show();
     }
-    
+
     // the date header should always be visible, that's why we use a display: block
     // however, we want to hide it if we are not displaying that particular date
     var kids = $.mobile.activePage.find(".program").children('li');
@@ -227,11 +230,11 @@ function filter(progitem) {
         }
       }
     });
-    
+
     // finally, include rouding to first and last visible items only
     $(".prog-item").filter(":visible").first().toggleClass('listfirst', true);
     $(".prog-item").filter(":visible").last().toggleClass('listlast', true);
-    
+
   } catch (err) {
     // alert( err);
   }

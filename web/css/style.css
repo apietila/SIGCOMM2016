@@ -954,6 +954,10 @@ a.button{
         width: 90%;
     }
 
+    .logobar {
+            display: none;
+    }
+
     .button {
         display: none;
     }

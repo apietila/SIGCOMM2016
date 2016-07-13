@@ -55,8 +55,8 @@
       <table width="100%" border="0">
          <tr>
             <td align="center">
-               <a href="//cgi.br/about/"><img src="images/sponsors/cgi_br.png" alt="CGI.br" style="width: 19%"/></a>
-               <a href="//nic.br/about-nic-br/"><img src="images/sponsors/nic_br.png" alt="CGI.br" style="width: 19%"/></a>
+               <a href="//cgi.br/about/"><img src="images/sponsors/cgi_br.jpg" alt="CGI.br" style="width: 19%"/></a>
+               <a href="//nic.br/about-nic-br/"><img src="images/sponsors/nic_br.jpg" alt="CGI.br" style="width: 19%"/></a>
             </td>
          </tr>
       </table>

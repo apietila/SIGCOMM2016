@@ -31,8 +31,8 @@
          <?php if (in_array ($mypage, $conferenceItems)) echo('data-collapsed="false"') ?> class="navgroup">
       <h4>Conference</h4>
       <ul data-role="listview" data-inset="false">
-         <li class="subnav <?php if ($mypage=="papers.php") echo('navselected') ?>" data-icon="false">
-           <a href="papers.php">Accepted Papers</a>
+         <li class="subnav <?php if ($mypage=="program.php") echo('navselected') ?>" data-icon="false">
+           <a href="program.php">Program</a>
         </li>
          <li class="subnav <?php if ($mypage=="socialevents.php") echo('navselected') ?>" data-icon="false">
            <a href="socialevents.php">Social Events</a>

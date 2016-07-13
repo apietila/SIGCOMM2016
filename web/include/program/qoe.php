@@ -1,4 +1,4 @@
-  <div id="sigcomm-program" class="sigcomm-program">
+  <div id="qoe-program" class="qoe-program">
     <ul class="program" data-role="listview" data-filter="true" data-inset="true" data-theme="d" data-dividertheme="a" placeholder="Filter program...">
 <?php
       tprog_add_header("Friday, August 26, 2016", "prog-friday");
