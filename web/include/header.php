@@ -12,6 +12,26 @@
 
     include_once "functions.php";
     $mypage = current_pagename();
+
+    /* prepare page title */
+    
+    if(isset($page_title)) {
+        if (!empty($page_title))
+            $page_title .= " - ACM SIGCOMM 2016";
+        else
+            $page_title .= "ACM SIGCOMM 2016";
+    } else {
+        $filename = $_SERVER['SCRIPT_FILENAME'];
+        $filename = preg_replace("/^.*\//","",$filename);
+        $filename = preg_replace("/.php$/","",$filename);
+        
+        $page_title = $filename . " - ACM SIGCOMM 2016";
+    }
+    
+    /* prepare page url */
+    
+    $page_link = "http://" . $_SERVER[HTTP_HOST] . $_SERVER[REQUEST_URI];
+    
 ?>
 
 <!DOCTYPE HTML>
@@ -19,12 +39,19 @@
 <!--Anna: FIXME <html manifest="sigcomm.appcache"> -->
 <head>
   <meta charset="iso-8859-1">
-  <?php /* include page metadata information, for facebook sharing */
+<?php /* include page metadata information, for facebook sharing */
   
-    if (isset ($og_tags)) {
-      foreach ($og_tags as $og_tag) {
-        echo "$og_tag" . "\n";
-      }
+    $og_tags_support = array ("og:title", "og:image", "og:description", "og:url");
+    
+    $og_tags_default = array ("og:title"         => "<meta property=\"og:title\" content=\"" . $page_title . "\" />",
+                              "og:image"         => "<meta property=\"og:image\" content=\"http://conferences.sigcomm.org/sigcomm/2016/images/logo.png\" />",
+                              "og:url"           => "<meta property=\"og:url\" content=\"". $page_link ."\" />");
+    
+    foreach ($og_tags_support as $og_tag) {
+        if (isset ($og_tags_page) && isset ($og_tags_page[$og_tag]))
+          echo "  $og_tags_page[$og_tag]\n";
+        else if (isset ($og_tags_default[$og_tag]))
+          echo "  $og_tags_default[$og_tag]\n";
     }
   
   ?>
@@ -34,21 +61,7 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   <meta name="copyright" content="The ACM SIGCOMM 2016 Website is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. Based on the ACM SIGCOMM 2012 web site available at https://github.com/ryanrhymes/SIGCOMM2012" />
   
-    <title>
-<?php
-    if(isset($page_title)) {
-        if (!empty($page_title)) {
-            echo ("$page_title - ");
-        }
-    } else {
-        $filename = $_SERVER['SCRIPT_FILENAME'];
-        $filename = preg_replace("/^.*\//","",$filename);
-        $filename = preg_replace("/.php$/","",$filename);
-        echo("$filename - ");
-    }
-?>
-	ACM SIGCOMM 2016
-  </title>
+  <title><?php echo $page_title ?></title>
   
   <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
   

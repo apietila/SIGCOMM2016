@@ -1,5 +1,9 @@
 <?php
     $page_title="Conference Program";
+
+    $og_tags_page = array ("og:description" => "<meta property=\"og:description\" content=\"We are delighted to announce the ACM SIGCOMM 2016 main conference program. ".
+                                               "It includes a technical program featuring 39 full-length papers, social events, and more!\" />");
+
     include("include/header.php");
 ?>
 

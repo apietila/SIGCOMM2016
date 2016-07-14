@@ -1,7 +1,10 @@
 <?php
     $page_title="Tourism";
     
-    $og_tags = array ("<meta property=\"og:image\" content=\"http://conferences.sigcomm.org/sigcomm/2016/images/tourism/foz-iguacu/iguacu-panorama.jpg\" />");
+    $og_tags_page = array ("og:image"       => "<meta property=\"og:image\" content=\"http://conferences.sigcomm.org/sigcomm/2016/images/tourism/foz-iguacu/iguacu-panorama.jpg\" />",
+                           "og:description" => "<meta property=\"og:description\" content=\"We prepared a page featuring three exotic tourist destinations that SIGCOMM 2016 ".
+                           "attendees might wish to consider before or after the conference: &quot;Archipelago of Fernando de Noronha&quot; and &quot;Igua&ccedil;u Falls&quot;, both ".
+                           "designated as world heritage sites, and &quot;Bonito (Mato Grosso do Sul)&quot;, often regarded as Brazil&#39;s capital of ecotourism.\" />");
     
     include("include/header.php");
 ?>

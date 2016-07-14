@@ -1,5 +1,5 @@
 <?php
-    $page_title="ACM SIGCOMM 2016";
+    $page_title="Industrial Supporters";
     include("include/header.php");
 ?>
 

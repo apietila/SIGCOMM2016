@@ -78,7 +78,7 @@ def proggen(worksheet, values, outdir):
 
     f = codecs.open(output, mode='w', encoding='ascii', errors='html_replace')
 
-    f.write("""  <div id="sigcomm-program" class="sigcomm-program">\n""")
+    f.write("""  <div id="%s-program" class="%s-program">\n""" % (worksheet, worksheet))
 
     f.write("""    <ul class="program" data-role="listview" data-filter="true" data-inset="true" data-theme="d" data-dividertheme="a" placeholder="Filter program...">\n<?php\n""")
     progdate = ""
