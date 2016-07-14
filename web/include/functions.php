@@ -155,8 +155,12 @@ function tprog_add_keynote($title, $speakers, $abstract, $bio, $photo="", $progi
     <li data-icon="false" class="prog-item <?php echo $progitemclass; ?>"><div data-role="collapsible" class="keynote-navgroup">
       <h4><p class="keynote-header"><?php echo $title ?></p><p><?php echo $speakers; ?></p></h4>
       <ul data-role="listview" data-inset="false">
-        <li data-icon="false"><p><?php if ($photo) { ?><img class="keynote-photo" src="<?php echo $photo ?>"/><?php } ?><b>Abstract: </b><?php echo $abstract ?></p><p>&nbsp;</p></li>
-        <li data-icon="false"><p><b>Bio: </b><?php echo $bio ?></p><p>&nbsp;</p></li>
+        <?php if (trim($abstract) != "") { ?><li data-icon="false">
+          <p><?php if ($photo) { ?><img class="keynote-photo" src="<?php echo $photo ?>"/><?php } ?><b>Abstract: </b><?php echo $abstract ?></p><p>&nbsp;</p>
+        </li><?php } ?>
+        <?php if (trim($bio) != "") { ?><li data-icon="false">
+          <p><b>Bio: </b><?php echo $bio ?></p><p>&nbsp;</p>
+        </li><?php } ?>
       </ul>
     </div></li>
 <?php
