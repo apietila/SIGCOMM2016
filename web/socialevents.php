@@ -73,7 +73,7 @@ In addition to the technical activities, SIGCOMM 2016 will organize the followin
 
 <p>More information will be available soon.</p>
 
-<h2>Award Dinner, Thursday 25th</h2>
+<h2>Award Dinner, Monday 22nd</h2>
 
 <p>More information will be available soon.</p>
 
