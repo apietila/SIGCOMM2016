@@ -10,7 +10,7 @@
      $socialEventItems = array ("reception.php", "dinner.php", "banquet.php");
      $localInfoItems = array ("local.php", "travel.php", "visa.php", "hotel.php", "kids.php", "advisory.php", "roomshare.php", "tourism.php"); //, "poll.php"
      $organizationItems = array ("organization.php", "policies.php");
-     $demoItems = array("postersdemos.php", "industrialdemos.php");
+     $demoItems = array("postersdemos.php", "industrialdemos.php", "demoprogram.php", "posterprogram.php", "industrialdemoprogram.php");
      $tutorialItems = array("cft.php", "tutorials.php", "tutorial-im.php", "tutorial-wimobnet.php", "tutorial-iptv.php", "tutorial-p4.php", "tutorial-sdnnfv5g.php");
      $extraItems = array("preview.php", "mentoring.php");
      
@@ -49,15 +49,6 @@
         <?php /*
         <li class="subnav <?php if ($mypage=="program.php") echo('navselected') ?>" data-icon="false">
           <a href="local.php">Program</a>
-        </li>
-        <li class="subnav <?php if ($mypage=="posters.php") echo('navselected') ?>" data-icon="false">
-          <a href="local.php">Posters</a>
-        </li>
-        <li class="subnav <?php if ($mypage=="demos.php") echo('navselected') ?>" data-icon="false">
-          <a href="local.php">Demos</a>
-        </li>
-        <li class="subnav <?php if ($mypage=="idemos.php") echo('navselected') ?>" data-icon="false">
-          <a href="local.php">Industrial Demos</a>
         </li>
         */ ?>
       </ul>
@@ -125,6 +116,15 @@
          <?php if (in_array ($mypage, $demoItems)) echo('data-collapsed="false"') ?> class="navgroup">
       <h4>Posters &amp; Demos</h4>
       <ul data-role="listview" data-inset="false">
+        <li class="subnav <?php if ($mypage=="posterprogram.php") echo('navselected') ?>" data-icon="false">
+          <a href="posterprogram.php">Posters</a>
+        </li>
+        <li class="subnav <?php if ($mypage=="demoprogram.php") echo('navselected') ?>" data-icon="false">
+          <a href="demoprogram.php">Demos</a>
+        </li>
+        <li class="subnav <?php if ($mypage=="industrialdemoprogram.php") echo('navselected') ?>" data-icon="false">
+          <a href="industrialdemoprogram.php">Industrial Demos</a>
+        </li>
         <li class="subnav <?php if ($mypage=="postersdemos.php") echo('navselected') ?>" data-icon="false">
           <a href="postersdemos.php">Call for Posters &amp; Demos</a>
         </li>
