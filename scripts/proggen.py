@@ -28,6 +28,7 @@ COL_SPKR_BIO = 6
 COL_PHOTO_URL = 7
 COL_FNAME = 8
 COL_SLIDES = 9
+COL_UID = 10
 
 # Borrowed from: https://www.safaribooksonline.com/library/view/python-cookbook-2nd/0596007973/ch01s24.html
 def html_replace(exc):

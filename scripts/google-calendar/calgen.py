@@ -24,6 +24,7 @@ import oauth2client
 from oauth2client import client
 from oauth2client import tools
 from calendar_generator import CalendarGenerator
+from calendar_generator import DuplicateUidError
 
 SCOPES = 'https://www.googleapis.com/auth/spreadsheets.readonly'
 CLIENT_SECRET_FILE = 'client_secret.json'
@@ -76,7 +77,14 @@ def main(outdir, wsnames):
             # Instantiate the Calendar Generator Class and invoke the
             # method that parses the entire worksheet data.
             calgen = CalendarGenerator()
-            calgen.ParseWorksheet(ws['properties']['title'], values, outdir)
+            try:
+                print ('Processing spreadsheet {}...'.format(ws['properties']['title']))
+                calgen.ParseWorksheet(ws['properties']['title'], values, outdir)
+            except DuplicateUidError as exc:
+                print ('ERROR:')
+                print (exc)
+                print ('Please, fix the values on the spreadsheet before continuing.')
+                sys.exit (1)
 
     print("Done!")
 

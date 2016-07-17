@@ -1,0 +1,81 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//My calendar product//mxm.dk//
+BEGIN:VEVENT
+SUMMARY:LANCOMM Opening and Introduction
+DTSTART;VALUE=DATE-TIME:20160822T083000
+DTEND;VALUE=DATE-TIME:20160822T084500
+UID:4a4034edee3e1ac96209bdf1aacac109
+DESCRIPTION:
+LOCATION:Room: Agata 1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:LANCOMM Session 1: Network Measurements
+DTSTART;VALUE=DATE-TIME:20160822T084500
+DTEND;VALUE=DATE-TIME:20160822T103000
+UID:179c97b5b3ed7b0a572f06accd9b6f31
+DESCRIPTION:Talks: \n\n* Title: Big-DAMA: Big Data Analytics for Network T
+ raffic Monitoring and Analysis – Authors: P. Casas\, A. D'Alconzo\, T. Z
+ seby\, M. Mellia\n\n* Title: Hidden Internet Topologies Info: Truth or Myt
+ h? – Authors: S. Berenguer\, E. Carisimo\, J. Alvarez-Hamelin\, F. Pinto
+ r\n\n* Title: Should I Wait or Should I Push? A Performance Analysis of Pu
+ sh Feature in HTTP/2 Connections – Authors: I. de Oliveira\, P. Endo\, W
+ . Melo\, D. Sadok\, J. Kelner\n\n* Title: Looking for Network Latency Clus
+ ters in the LAC Region – Authors: A. Formoso\, P. Casas\n\n* Title: What
+ sApp Calling: a Revised Analysis on WhatsApp's Architecture and Calling Se
+ rvice – Authors: J. Vanerio\, P. Casas\n\n* Title: A Preliminary Perform
+ ance Measurement Study of Residential Broadband Services in Brazil – Aut
+ hors: D. Mendes\, G. Senges\, G. Santos\, G. Mendonça\, R. Leão\, E. Sil
+ va\n\n* Discussion: Synergies in Network Measurements Research
+LOCATION:Room: Agata 1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:LANCOMM Session 2: SDN & NVF
+DTSTART;VALUE=DATE-TIME:20160822T110000
+DTEND;VALUE=DATE-TIME:20160822T123000
+UID:e5ced15a60886ca80bb87968ed1ca2e0
+DESCRIPTION:Talks: \n\n* Title: SDN-based Overlay Networks for QoS-aware R
+ outing – Authors: P. Belzarena\, G. Sena\, I. Amigo\, S. Vaton\n\n* Titl
+ e: Metherxis: Virtualized Network Functions for Micro-second Grade Latency
+  Measurements – Authors: D. Mafioletti\, A. Liberato\, C. Dominicini\, R
+ . Villaça\, M. Martinello\, M. Ribeiro\n\n* Title: RAUflow: building Virt
+ ual Private Networks with MPLS and OpenFlow – Authors: S. Vidal\, J. Ama
+ ro\, E. Viotti\, M. Giachino\, E. Grampin\n\n* Title: A Datacenter Network
+  Architecture for Low Latency\, Automation and Virtualization – Authors:
+  R. Vencioneck\n\n* Title: Dynamic Backhauling within Converged Networks 
+ – Authors: A. Liberato\, M. Ribeiro\, M. Martinello\, J. Marquez-Barja\,
+  N. Kaminski\, L. DaSilva\n\n* Title: Avoiding Voice Traffic Degradation i
+ n IP Enterprise Networks Using CAoS – Authors: P. Maribondo\, N. Fernand
+ es\n\n* Discussion: Synergies in SDN/NFV Research
+LOCATION:Room: Agata 1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:LANCOMM Session 3: Network Modelling\, Monitoring and Analysis
+DTSTART;VALUE=DATE-TIME:20160822T140000
+DTEND;VALUE=DATE-TIME:20160822T170000
+UID:c8a07b688a1131efcfae549c818a1edd
+DESCRIPTION:Talks: \n\n* Title: Improving Performance of Multiple-level Ca
+ che Systems – Authors: I. Rodriguez\, A. Ferragut\, F. Paganini\n\n* Tit
+ le: Cognitive Radio Networks: Analysis of a Paid-Sharing Approach based on
+  a Fluid Model – Authors: C. Rattaro\, P. Belzarena\n\n* Title: Analysin
+ g Costs and Benefits of Content Sharing in Cloud Storage – Authors: G. G
+ oncalves\, I. Drago\, A. Borges\, A. Couto\, J. Almeida\n\n* Title: Comput
+ ing a Precise Timeout Interval Despite a Communication Channel with Varyin
+ g Behavior – Authors: R. Turchetti\, E. Duarte Jr.\n\n* Title: Network M
+ onitoring with Imperfect Tests – Authors: E. de Camargo\, E. Duarte Jr.\
+ n\n* Title: Improving Delivery Delay in Social-based Message Forwarding in
+  Delay Tolerant Networks – Authors: C. Souza\, E. Mota\, D. soares\, P. 
+ Manzoni\, J. Cano\, C. Calafate\n\n* Title: Adopting Security Routines in 
+ Legacy Organizations – Authors: E. Azevedo\, M. Machado\, R. Melo\, R. A
+ schoff\, D. Sadok\, U. Carmo\n\n* Discussion: Synergies in Network Modelin
+ g\, Monitoring and Analysis Research
+LOCATION:Room: Agata 1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:LANCOMM Wrap-up\, Planning of Next Steps\, and Closing
+DTSTART;VALUE=DATE-TIME:20160822T170000
+UID:f46a051265678a04e0b31b1e290cb1da
+DESCRIPTION:
+LOCATION:Room: Agata 1
+END:VEVENT
+END:VCALENDAR
