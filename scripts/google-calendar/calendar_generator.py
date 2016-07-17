@@ -42,7 +42,7 @@ class CalendarGenerator:
    INPUT_DATE_FORMAT = '%A, %B %d, %Y, %I:%M%p'
    INPUT_DATE_FORMAT_FULLDAY = '%A, %B %d, %Y'
    UID_SUFFIX = '@Sigcomm2016'
-   EVENT_TRANSLATE = dict(gaia='GAIA', hotmiddlebox='HotMiddlebox', qoe='Internet-QoE', lancomm='LANCOMM', netpl='NetPL', sigcomm='SIGCOMM', demos='Demos', posters='Posters', idemos='Industrial Demos')
+   EVENT_TRANSLATE = dict(gaia='GAIA Workshop:', hotmiddlebox='HotMiddlebox Workshop:', qoe='Internet-QoE Workshop:', lancomm='LANCOMM Workshop:', netpl='NetPL Workshop:', sigcomm='Main Conference:', demos='SIGCOMM Demos:', posters='SIGCOMM Posters:', idemos='SIGCOMM Industrial Demos:', breaks='')
 
    def __init__(self):
       self.cal = Calendar()
@@ -135,7 +135,7 @@ class CalendarGenerator:
       aux_session = u'Title:\n{}\n\n'.format(session_keynote_title)
       aux_session += u'Speaker:\n{}\n\n'.format(author)
       aux_session += u'Abstract:\n{}\n\n'.format(abstract)
-      aux_session += u'Speaker Bio:\n{}'.format(shortbio)
+      aux_session += (u'Speaker Bio:\n{}'.format(shortbio) if len(shortbio) > 0 else "")
       self.current_description['Keynote'] += aux_session
       return
 

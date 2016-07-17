@@ -105,7 +105,7 @@ def proggen(worksheet, values, outdir):
             else:
               line = """      tprog_add_session("%s", "%s", "%s", "%s", "prog-%s");\n""" % (time, title, chair, style, progdate)
 
-        elif (type == 'talk' and len(row)>=4):
+        elif ((type == 'talk' or type == 'poster' or type == 'demo') and len(row)>=4):
             paper = row[COL_TITLE]
             link = ""
             authors = (row[COL_CHAIR_SPKR_AUTHOR_DESC] if len(row)> COL_CHAIR_SPKR_AUTHOR_DESC else "")
