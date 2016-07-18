@@ -1,4 +1,5 @@
 <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="datetbl">
+  <?php add_dateitem("July 18, 2016", "The <a href=\"industrialdemoprogram.php\">Industrial Demos</a> programs online") ?>
   <?php add_dateitem("July 15, 2016", "The <a href=\"posterprogram.php\">Poster</a> and <a href=\"demoprogram.php\">Demo</a> sessions programs online") ?>
   <?php add_dateitem("July 13, 2016", "The preliminary <a href=\"program.php\">SIGCOMM program</a> is online (with daily schedule)") ?>
   <?php add_dateitem("July 12, 2016", "Early bird <a href=\"https://www.regonline.com/acmsigcomm2016\" rel=\"external\">registration</a> deadline approaching (July 14th)!") ?>
