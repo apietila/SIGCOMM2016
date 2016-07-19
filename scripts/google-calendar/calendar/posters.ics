@@ -5,7 +5,7 @@ BEGIN:VEVENT
 SUMMARY:SIGCOMM Posters: Session 1
 DTSTART;VALUE=DATE-TIME:20160823T090000
 DTEND;VALUE=DATE-TIME:20160823T173000
-UID:613c0c6af9063cdd7d7233c2383b639d
+UID:786ae9623ca09e699cf601d9dbf6f880
 DESCRIPTION:Posters: \n\n* Title: PieBridge: A Cross-DR scale Large Data T
  ransmission Scheduling System – Authors: Y. Zhang (Tsinghua University)\
  , K. Xu (Tsinghua University)\, G. Yao (Baidu)\, M. Zhang (Baidu)\, X. Nie
@@ -46,7 +46,7 @@ BEGIN:VEVENT
 SUMMARY:SIGCOMM Posters: Session 2
 DTSTART;VALUE=DATE-TIME:20160824T090000
 DTEND;VALUE=DATE-TIME:20160824T173000
-UID:bbcf6fa4ce40a9223c2013a3711e6128
+UID:fcb28ea1d774b579c27a0f876c5aad56
 DESCRIPTION:Posters: \n\n* Title: Named Data Networking Based Smart Home L
  ighting – Authors: U. De Silva (Asian Institute of Technology)\, A. Lert
  sinsrubtavee (University of Cambridge)\, A. Sathiaseelan (University of Ca
@@ -92,7 +92,7 @@ BEGIN:VEVENT
 SUMMARY:SIGCOMM Posters: Session 3 (Main Track Papers)
 DTSTART;VALUE=DATE-TIME:20160825T090000
 DTEND;VALUE=DATE-TIME:20160825T173000
-UID:c801006e20da5af01bfef50b12c8a19a
+UID:91b3b04fdc8d238f8544888575a5e811
 DESCRIPTION:Posters: * Coming soon.
 LOCATION:Room: Topazio
 END:VEVENT

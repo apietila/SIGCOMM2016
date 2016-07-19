@@ -5,7 +5,7 @@ BEGIN:VEVENT
 SUMMARY:LANCOMM Workshop: Opening and Introduction
 DTSTART;VALUE=DATE-TIME:20160822T083000
 DTEND;VALUE=DATE-TIME:20160822T084500
-UID:4a4034edee3e1ac96209bdf1aacac109
+UID:9daa729d679611a47d7a647ed189062d
 DESCRIPTION:
 LOCATION:Room: Agata 1
 END:VEVENT
@@ -13,7 +13,7 @@ BEGIN:VEVENT
 SUMMARY:LANCOMM Workshop: Session 1: Network Measurements
 DTSTART;VALUE=DATE-TIME:20160822T084500
 DTEND;VALUE=DATE-TIME:20160822T103000
-UID:179c97b5b3ed7b0a572f06accd9b6f31
+UID:47f6d318266e772e4dcb593223bfae4c
 DESCRIPTION:Papers: \n\n* Title: Big-DAMA: Big Data Analytics for Network 
  Traffic Monitoring and Analysis – Authors: P. Casas\, A. D'Alconzo\, T. 
  Zseby\, M. Mellia\n\n* Title: Hidden Internet Topologies Info: Truth or My
@@ -33,7 +33,7 @@ BEGIN:VEVENT
 SUMMARY:LANCOMM Workshop: Session 2: SDN & NVF
 DTSTART;VALUE=DATE-TIME:20160822T110000
 DTEND;VALUE=DATE-TIME:20160822T123000
-UID:e5ced15a60886ca80bb87968ed1ca2e0
+UID:a85284b3a1e34bb50be1fbcd250e7007
 DESCRIPTION:Papers: \n\n* Title: SDN-based Overlay Networks for QoS-aware 
  Routing – Authors: P. Belzarena\, G. Sena\, I. Amigo\, S. Vaton\n\n* Tit
  le: Metherxis: Virtualized Network Functions for Micro-second Grade Latenc
@@ -54,7 +54,7 @@ SUMMARY:LANCOMM Workshop: Session 3: Network Modelling\, Monitoring and An
  alysis
 DTSTART;VALUE=DATE-TIME:20160822T140000
 DTEND;VALUE=DATE-TIME:20160822T170000
-UID:c8a07b688a1131efcfae549c818a1edd
+UID:fc06b88d9f09eb4349ed44f78f7665d3
 DESCRIPTION:Papers: \n\n* Title: Improving Performance of Multiple-level C
  ache Systems – Authors: I. Rodriguez\, A. Ferragut\, F. Paganini\n\n* Ti
  tle: Cognitive Radio Networks: Analysis of a Paid-Sharing Approach based o
@@ -75,7 +75,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LANCOMM Workshop: Wrap-up\, Planning of Next Steps\, and Closing
 DTSTART;VALUE=DATE-TIME:20160822T170000
-UID:f46a051265678a04e0b31b1e290cb1da
+UID:eace31c61a74bb2d842dfa8ad99306d3
 DESCRIPTION:
 LOCATION:Room: Agata 1
 END:VEVENT

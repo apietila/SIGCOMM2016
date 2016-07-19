@@ -5,7 +5,7 @@ BEGIN:VEVENT
 SUMMARY:SIGCOMM Demos: Session 1
 DTSTART;VALUE=DATE-TIME:20160823T090000
 DTEND;VALUE=DATE-TIME:20160823T173000
-UID:020a9f23c8f55ef3b737b9beaec468b6
+UID:da3cbc9866e605e10be1e3379a958e68
 DESCRIPTION:Demos: \n\n* Title: Source Address Validation in Software Defi
  ned Networks – Authors: B. Liu (Tsinghua University & Huawei Technologie
  s Co. Ltd.)\, J. Bi (Tsinghua University)\, Y. Zhou (Tsinghua University)\
@@ -42,7 +42,7 @@ BEGIN:VEVENT
 SUMMARY:SIGCOMM Demos: Session 2
 DTSTART;VALUE=DATE-TIME:20160824T090000
 DTEND;VALUE=DATE-TIME:20160824T173000
-UID:3f3afa1d132f87d0cb140a4b03954d89
+UID:1f8ada732d3557abacc2af7bd0c88576
 DESCRIPTION:Demos: \n\n* Title: Mininet-WiFi: A Platform for Hybrid Physic
  al-Virtual Software-Defined Wireless Networking Research – Authors: R. F
  ontes (University of Campinas)\, C. Rothenberg (University of Campinas)\, 

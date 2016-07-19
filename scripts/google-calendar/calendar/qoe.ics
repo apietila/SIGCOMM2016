@@ -5,7 +5,7 @@ BEGIN:VEVENT
 SUMMARY:Internet-QoE Workshop: Opening and Introduction
 DTSTART;VALUE=DATE-TIME:20160826T083000
 DTEND;VALUE=DATE-TIME:20160826T084500
-UID:4122254b52be6300364dbf915d0d3a51
+UID:49a782a05e53e507831eb98e0392b8e5
 DESCRIPTION:
 LOCATION:Room: Agata 2
 END:VEVENT
@@ -14,7 +14,7 @@ SUMMARY:Internet-QoE Workshop: Session 1: Passive QoE-based Monitoring in
  Operational Networks
 DTSTART;VALUE=DATE-TIME:20160826T084500
 DTEND;VALUE=DATE-TIME:20160826T103000
-UID:cdb9164c80e7018ae6e1f87fa113679d
+UID:74ef0748b2bd4068e93feff848e45151
 DESCRIPTION:Papers: \n\n* Title: An Educated Guess on QoE in Operational N
  etworks through Large-Scale Measurements – Authors: P. Casas\, B. Gardlo
  \, R. Schatz\, M. Mellia\n\n* Title: Impact of Access Speed on Adaptive Vi
@@ -30,7 +30,7 @@ BEGIN:VEVENT
 SUMMARY:Internet-QoE Workshop: Session 2: QoE Modeling and Analysis
 DTSTART;VALUE=DATE-TIME:20160826T110000
 DTEND;VALUE=DATE-TIME:20160826T123000
-UID:01d1a747bbe5a0ce56ffa6e461cce943
+UID:8a43b957ce03def926c97d16f67e64ff
 DESCRIPTION:Papers: \n\n* Title: QoE Inference Without Application Control
   – Authors: A. Nikravesh\, D. Hong\, Q. Chen\, H. Madhyastha\, Z. Mao\n\
  n* Title: QoE Analysis of DASH Cross-Layer Dependencies by Extensive Netwo
@@ -47,7 +47,7 @@ SUMMARY:Internet-QoE Workshop: Session 3:  QoE-based Network Management an
  d Assessment
 DTSTART;VALUE=DATE-TIME:20160826T140000
 DTEND;VALUE=DATE-TIME:20160826T164500
-UID:27497dd1a17abc134eb630e9da1859db
+UID:00592f64737fe84df65b55c4935a4e5e
 DESCRIPTION:Papers: \n\n* Title: Measuring the Quality of Experience of We
  b users – Authors: E. Bocchi\, L. De Cicco\, D. Rossi\n\n* Title: BingeO
  n Under the Microscope: Understanding T-Mobiles Zero-Rating Implementation
@@ -66,14 +66,14 @@ SUMMARY:Internet-QoE Workshop: Discussion: Strengthening QoE-based Researc
  h @SIGCOMM
 DTSTART;VALUE=DATE-TIME:20160826T164500
 DTEND;VALUE=DATE-TIME:20160826T171500
-UID:9fe1dc3c3aa7d720ac5e4766eb2682fe
+UID:a1305a7a63fa46249fdd8e4094e4d80b
 DESCRIPTION:
 LOCATION:Room: Agata 2
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Internet-QoE Workshop: Wrap-up\, Next Steps and Closing
 DTSTART;VALUE=DATE-TIME:20160826T171500
-UID:9e099c9ed335610e325d02ecf447fcb7
+UID:3c3ef16349fa20570bdc94010eb60985
 DESCRIPTION:
 LOCATION:Room: Agata 2
 END:VEVENT

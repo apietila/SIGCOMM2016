@@ -5,7 +5,7 @@ BEGIN:VEVENT
 SUMMARY:GAIA Workshop: Welcome and Introduction
 DTSTART;VALUE=DATE-TIME:20160826T084500
 DTEND;VALUE=DATE-TIME:20160826T090000
-UID:9103679aed8d1a1dcb1ea4ede7e66765
+UID:4d37ddeeaf36c3b387e842768d50e89c
 DESCRIPTION:
 LOCATION:Room: Topazio 1
 END:VEVENT
@@ -13,7 +13,7 @@ BEGIN:VEVENT
 SUMMARY:GAIA Workshop: Session 1: Technology
 DTSTART;VALUE=DATE-TIME:20160826T090000
 DTEND;VALUE=DATE-TIME:20160826T103000
-UID:d0dec608a00c5bf5958ad8cb87ecf86c
+UID:d79109d07fae4b0f19a4bb31e89ece22
 DESCRIPTION:Papers: \n\n* Title: Open and regionalised spectrum repositori
  es for emerging countries – Authors: A. Arcia-Moret\, A. Sathiaseelan\, 
  M. Zenaro\, F. Rondon\, E. Pietrosemoli\, D. Johnson\n\n* Title: Will 5G S
@@ -28,7 +28,7 @@ BEGIN:VEVENT
 SUMMARY:GAIA Workshop: Session 2: Economics and Deployment
 DTSTART;VALUE=DATE-TIME:20160826T110000
 DTEND;VALUE=DATE-TIME:20160826T123000
-UID:bf109971b79bfe538a3d772604253fac
+UID:bb8b6816f3897d545596b5592a0bea29
 DESCRIPTION:Papers: \n\n* Title: A Techno-Economic Framework for Broadband
   Deployment in Underserved Areas – Authors: R. Durairajan\, P. Barford\n
  \n* Title: RemIX: A Distributed Internet Exchange for Remote and Rural Net
@@ -42,7 +42,7 @@ BEGIN:VEVENT
 SUMMARY:GAIA Workshop: Session 3: Invited Experience Reports
 DTSTART;VALUE=DATE-TIME:20160826T140000
 DTEND;VALUE=DATE-TIME:20160826T153000
-UID:116d3f445777aec02e29e0535c691e38
+UID:2e20232337dd40ae407a9e9decce67d0
 DESCRIPTION:Papers: \n\n* Title: SIMMC - An Integrated Monitoring System f
  or Brazilian Digital Inclusion Projects – Authors: L. Bona\, D. Pasquali
  n\, C. Trois\, M. Suny&eacute\;\, M. Fabro\, E. de Almeida\, M. Castilho\,
@@ -58,14 +58,14 @@ BEGIN:VEVENT
 SUMMARY:GAIA Workshop: Panel Session
 DTSTART;VALUE=DATE-TIME:20160826T160000
 DTEND;VALUE=DATE-TIME:20160826T170000
-UID:7b805cc9bd5a0d192745baa5a47d91e0
+UID:1600add19a64088a397c3747147f3ba1
 DESCRIPTION:
 LOCATION:Room: Topazio 1
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:GAIA Workshop: Wrap-up
 DTSTART;VALUE=DATE-TIME:20160826T170000
-UID:fbe49c451231112de3fb80ff3e879c22
+UID:2edbe2aad39a7775886b2750bf69ba9d
 DESCRIPTION:
 LOCATION:Room: Topazio 1
 END:VEVENT

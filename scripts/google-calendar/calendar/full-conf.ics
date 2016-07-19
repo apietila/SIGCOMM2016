@@ -5,7 +5,7 @@ BEGIN:VEVENT
 SUMMARY: Coffee Break
 DTSTART;VALUE=DATE-TIME:20160822T103000
 DTEND;VALUE=DATE-TIME:20160822T110000
-UID:da29b4551e2232069625fcfd33d445ef
+UID:31b91538a3bee9cb8cb0b3e702de79b7
 DESCRIPTION:
 LOCATION:Room: Foyer
 END:VEVENT
@@ -13,7 +13,7 @@ BEGIN:VEVENT
 SUMMARY: Lunch Break
 DTSTART;VALUE=DATE-TIME:20160822T123000
 DTEND;VALUE=DATE-TIME:20160822T140000
-UID:925ad2e5d9f7a18e013b7767014d9baf
+UID:202c2d735a6a9251545edb7b7f4aa44e
 DESCRIPTION:
 LOCATION:Room: Foyer
 END:VEVENT
@@ -21,7 +21,7 @@ BEGIN:VEVENT
 SUMMARY: Coffee Break
 DTSTART;VALUE=DATE-TIME:20160822T153000
 DTEND;VALUE=DATE-TIME:20160822T160000
-UID:60e77d96b14ed6245fe2cb9ab2967811
+UID:68e175747c3c94c63e0a40cc98f96482
 DESCRIPTION:
 LOCATION:Room: Foyer
 END:VEVENT
@@ -29,7 +29,7 @@ BEGIN:VEVENT
 SUMMARY: Coffee Break
 DTSTART;VALUE=DATE-TIME:20160823T103000
 DTEND;VALUE=DATE-TIME:20160823T110000
-UID:a3cc30b99e8024e9cd728afb05a1ebc2
+UID:3fd80e3c70bdd918b4c5a78f9b03ae14
 DESCRIPTION:
 LOCATION:Room: Foyer
 END:VEVENT
@@ -37,7 +37,7 @@ BEGIN:VEVENT
 SUMMARY: Lunch Break
 DTSTART;VALUE=DATE-TIME:20160823T124000
 DTEND;VALUE=DATE-TIME:20160823T140000
-UID:3226fdd876e0a41c74835a3fd4e6703b
+UID:17966c235ba428cbc3f8fdfe31dbf125
 DESCRIPTION:
 LOCATION:Room: Foyer
 END:VEVENT
@@ -45,7 +45,7 @@ BEGIN:VEVENT
 SUMMARY: Coffee Break
 DTSTART;VALUE=DATE-TIME:20160823T151500
 DTEND;VALUE=DATE-TIME:20160823T161500
-UID:972a4cc5643cb0dd4548a4b13aa43708
+UID:cd53232b0c8321a2d9e25ad227f01e2d
 DESCRIPTION:
 LOCATION:Room: Foyer
 END:VEVENT
@@ -53,7 +53,7 @@ BEGIN:VEVENT
 SUMMARY: Coffee Break
 DTSTART;VALUE=DATE-TIME:20160824T101000
 DTEND;VALUE=DATE-TIME:20160824T104000
-UID:6f0ca920fa2d09610f8ed1dd450c437f
+UID:5477d467a6fabf7bbf41640b71fea380
 DESCRIPTION:
 LOCATION:Room: Foyer
 END:VEVENT
@@ -61,7 +61,7 @@ BEGIN:VEVENT
 SUMMARY: Lunch Break
 DTSTART;VALUE=DATE-TIME:20160824T122000
 DTEND;VALUE=DATE-TIME:20160824T133000
-UID:2eeb5fa60368eaee5ca4b7765ca1e618
+UID:25e7e0bcb219d0f8c3711ec044effa06
 DESCRIPTION:
 LOCATION:Room: Foyer
 END:VEVENT
@@ -69,7 +69,7 @@ BEGIN:VEVENT
 SUMMARY: Coffee Break
 DTSTART;VALUE=DATE-TIME:20160824T144500
 DTEND;VALUE=DATE-TIME:20160824T154500
-UID:616529ce0f8e151d3e0933d040449715
+UID:bd658c62ce869e273da72a603643ac8f
 DESCRIPTION:
 LOCATION:Room: Foyer
 END:VEVENT
@@ -77,7 +77,7 @@ BEGIN:VEVENT
 SUMMARY: Coffee Break
 DTSTART;VALUE=DATE-TIME:20160825T103500
 DTEND;VALUE=DATE-TIME:20160825T110500
-UID:a7fe8794ec026ca36bf8dbdf5d0592e4
+UID:812661485342894c1481eaf3e838ff6c
 DESCRIPTION:
 LOCATION:Room: Foyer
 END:VEVENT
@@ -85,7 +85,7 @@ BEGIN:VEVENT
 SUMMARY: Lunch Break
 DTSTART;VALUE=DATE-TIME:20160825T122000
 DTEND;VALUE=DATE-TIME:20160825T133000
-UID:ef8e588aca972bb33b069321a523c8b2
+UID:2912342ebabd7944e2a422a9c55847a9
 DESCRIPTION:
 LOCATION:Room: Foyer
 END:VEVENT
@@ -93,7 +93,7 @@ BEGIN:VEVENT
 SUMMARY: Coffee Break
 DTSTART;VALUE=DATE-TIME:20160825T144500
 DTEND;VALUE=DATE-TIME:20160825T154500
-UID:a9085c21cbbedcf01c096442fe82fcf0
+UID:dac4b22e0f868acfde22c1f582058e99
 DESCRIPTION:
 LOCATION:Room: Foyer
 END:VEVENT
@@ -101,7 +101,7 @@ BEGIN:VEVENT
 SUMMARY: Coffee Break
 DTSTART;VALUE=DATE-TIME:20160826T103000
 DTEND;VALUE=DATE-TIME:20160826T110000
-UID:f3cd3f03d23f0a0484bc63dc2816ced8
+UID:4de10004e491bd3a6cff9e95b69db101
 DESCRIPTION:
 LOCATION:Room: Foyer
 END:VEVENT
@@ -109,7 +109,7 @@ BEGIN:VEVENT
 SUMMARY: Lunch Break
 DTSTART;VALUE=DATE-TIME:20160826T123000
 DTEND;VALUE=DATE-TIME:20160826T140000
-UID:5efc328ce4c2c531c60e3ec8933a5325
+UID:cac1ac3ffa4c42f4a69385d57d104e09
 DESCRIPTION:
 LOCATION:Room: Foyer
 END:VEVENT
@@ -117,7 +117,7 @@ BEGIN:VEVENT
 SUMMARY: Coffee Break
 DTSTART;VALUE=DATE-TIME:20160826T153000
 DTEND;VALUE=DATE-TIME:20160826T160000
-UID:36cd2414707c6a369bef4bc76d74e92e
+UID:4b16bb47fb4441cb29152080215210f6
 DESCRIPTION:
 LOCATION:Room: Foyer
 END:VEVENT
@@ -125,7 +125,7 @@ BEGIN:VEVENT
 SUMMARY:SIGCOMM Demos: Session 1
 DTSTART;VALUE=DATE-TIME:20160823T090000
 DTEND;VALUE=DATE-TIME:20160823T173000
-UID:020a9f23c8f55ef3b737b9beaec468b6
+UID:da3cbc9866e605e10be1e3379a958e68
 DESCRIPTION:Demos: \n\n* Title: Source Address Validation in Software Defi
  ned Networks – Authors: B. Liu (Tsinghua University & Huawei Technologie
  s Co. Ltd.)\, J. Bi (Tsinghua University)\, Y. Zhou (Tsinghua University)\
@@ -162,7 +162,7 @@ BEGIN:VEVENT
 SUMMARY:SIGCOMM Demos: Session 2
 DTSTART;VALUE=DATE-TIME:20160824T090000
 DTEND;VALUE=DATE-TIME:20160824T173000
-UID:3f3afa1d132f87d0cb140a4b03954d89
+UID:1f8ada732d3557abacc2af7bd0c88576
 DESCRIPTION:Demos: \n\n* Title: Mininet-WiFi: A Platform for Hybrid Physic
  al-Virtual Software-Defined Wireless Networking Research – Authors: R. F
  ontes (University of Campinas)\, C. Rothenberg (University of Campinas)\, 
@@ -206,7 +206,7 @@ BEGIN:VEVENT
 SUMMARY:GAIA Workshop: Welcome and Introduction
 DTSTART;VALUE=DATE-TIME:20160826T084500
 DTEND;VALUE=DATE-TIME:20160826T090000
-UID:9103679aed8d1a1dcb1ea4ede7e66765
+UID:4d37ddeeaf36c3b387e842768d50e89c
 DESCRIPTION:
 LOCATION:Room: Topazio 1
 END:VEVENT
@@ -214,7 +214,7 @@ BEGIN:VEVENT
 SUMMARY:GAIA Workshop: Session 1: Technology
 DTSTART;VALUE=DATE-TIME:20160826T090000
 DTEND;VALUE=DATE-TIME:20160826T103000
-UID:d0dec608a00c5bf5958ad8cb87ecf86c
+UID:d79109d07fae4b0f19a4bb31e89ece22
 DESCRIPTION:Papers: \n\n* Title: Open and regionalised spectrum repositori
  es for emerging countries – Authors: A. Arcia-Moret\, A. Sathiaseelan\, 
  M. Zenaro\, F. Rondon\, E. Pietrosemoli\, D. Johnson\n\n* Title: Will 5G S
@@ -229,7 +229,7 @@ BEGIN:VEVENT
 SUMMARY:GAIA Workshop: Session 2: Economics and Deployment
 DTSTART;VALUE=DATE-TIME:20160826T110000
 DTEND;VALUE=DATE-TIME:20160826T123000
-UID:bf109971b79bfe538a3d772604253fac
+UID:bb8b6816f3897d545596b5592a0bea29
 DESCRIPTION:Papers: \n\n* Title: A Techno-Economic Framework for Broadband
   Deployment in Underserved Areas – Authors: R. Durairajan\, P. Barford\n
  \n* Title: RemIX: A Distributed Internet Exchange for Remote and Rural Net
@@ -243,7 +243,7 @@ BEGIN:VEVENT
 SUMMARY:GAIA Workshop: Session 3: Invited Experience Reports
 DTSTART;VALUE=DATE-TIME:20160826T140000
 DTEND;VALUE=DATE-TIME:20160826T153000
-UID:116d3f445777aec02e29e0535c691e38
+UID:2e20232337dd40ae407a9e9decce67d0
 DESCRIPTION:Papers: \n\n* Title: SIMMC - An Integrated Monitoring System f
  or Brazilian Digital Inclusion Projects – Authors: L. Bona\, D. Pasquali
  n\, C. Trois\, M. Suny&eacute\;\, M. Fabro\, E. de Almeida\, M. Castilho\,
@@ -259,14 +259,14 @@ BEGIN:VEVENT
 SUMMARY:GAIA Workshop: Panel Session
 DTSTART;VALUE=DATE-TIME:20160826T160000
 DTEND;VALUE=DATE-TIME:20160826T170000
-UID:7b805cc9bd5a0d192745baa5a47d91e0
+UID:1600add19a64088a397c3747147f3ba1
 DESCRIPTION:
 LOCATION:Room: Topazio 1
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:GAIA Workshop: Wrap-up
 DTSTART;VALUE=DATE-TIME:20160826T170000
-UID:fbe49c451231112de3fb80ff3e879c22
+UID:2edbe2aad39a7775886b2750bf69ba9d
 DESCRIPTION:
 LOCATION:Room: Topazio 1
 END:VEVENT
@@ -274,7 +274,7 @@ BEGIN:VEVENT
 SUMMARY:HotMiddlebox Workshop: Opening and Welcome
 DTSTART;VALUE=DATE-TIME:20160826T083000
 DTEND;VALUE=DATE-TIME:20160826T084000
-UID:7e3fe0cd2ba26d68363004ea1b9eb43f
+UID:d4ddac3c922e8f025edbb51ab9be116f
 DESCRIPTION:
 LOCATION:Room: Agata 1
 END:VEVENT
@@ -282,7 +282,7 @@ BEGIN:VEVENT
 SUMMARY:HotMiddlebox Workshop: Keynote Session
 DTSTART;VALUE=DATE-TIME:20160826T084000
 DTEND;VALUE=DATE-TIME:20160826T094000
-UID:54697060b417406de61b95634e108f1b
+UID:812d0dcbb28c0538636ff8165a269627
 DESCRIPTION:* Keynote Title:\nRecent Advances in Network Function Virtuali
  zation\n\nSpeaker:\nAditya Akella (University of Wisconsin-Madison)\n\nAbs
  tract:\nNetwork Function Virtualization (NFV) is a promising technology th
@@ -303,7 +303,7 @@ BEGIN:VEVENT
 SUMMARY:HotMiddlebox Workshop: Session 1: Middlebox and Privacy
 DTSTART;VALUE=DATE-TIME:20160826T094000
 DTEND;VALUE=DATE-TIME:20160826T103000
-UID:6ed3f759976fe1ee1dbe2e64a5162dfa
+UID:9cd0fc516bf82b8d034aef11eb6e54d8
 DESCRIPTION:Papers: \n\n* Title: Light at the Middle of the Tunnel: Middle
  boxes for Selective Disclosure of Network Monitoring to Distrusted Parties
   – Authors: N. Sultana\, M. Kohlweiss\, A. W. Moore\n\n* Title: SplitBox
@@ -316,7 +316,7 @@ BEGIN:VEVENT
 SUMMARY:HotMiddlebox Workshop: Session 2: On Resource Allocation
 DTSTART;VALUE=DATE-TIME:20160826T110000
 DTEND;VALUE=DATE-TIME:20160826T123000
-UID:ab147ba6939cbf18ad9f1d010f08c822
+UID:5e8cb6ed34583fc010e4c6c3bc957d75
 DESCRIPTION:Papers: \n\n* Title: Measurement Based Fair Queuing for Alloca
  ting Bandwidth to Virtual Machines – Authors: K. To\, D. Firestone\, G. 
  Varghese\, J. Padhye\n\n* Title: Datacenter Scale Load Balancing for Multi
@@ -328,7 +328,7 @@ BEGIN:VEVENT
 SUMMARY:HotMiddlebox Workshop: Session 3:  Middlebox Management
 DTSTART;VALUE=DATE-TIME:20160826T140000
 DTEND;VALUE=DATE-TIME:20160826T153000
-UID:c0c8dc507f3da8d7d7ee0985c4d9f577
+UID:83c0ba2b40531da4328551ba42f545b3
 DESCRIPTION:Papers: \n\n* Title: OpenNetVM: A Platform for High Performanc
  e Network Service Chains – Authors: W. Zhang\, G. Liu\, W. Zhang\, N. Sh
  ah\, P. Lopreiato. G. Todeschi\, K.K. Ramakrishnan\, T. Wood\n\n* Title: A
@@ -342,7 +342,7 @@ BEGIN:VEVENT
 SUMMARY:HotMiddlebox Workshop: Session 4: Middlebox and TCP processing
 DTSTART;VALUE=DATE-TIME:20160826T160000
 DTEND;VALUE=DATE-TIME:20160826T170000
-UID:0adcfb7dba3979d52ae9e24a6a3e3e23
+UID:2d2a10d95b10b86435c7b2a871a47079
 DESCRIPTION:Papers: \n\n* Title: On the Fly TCP Acceleration with Miniprox
  y – Authors: G. Siracusano\, R. Bifulco\, S. Kuenzer\, S. Salsano\, N. B
  lefari Melazzi\, F. Huici\n\n* Title: CliMB: Enabling Network Function Com
@@ -353,7 +353,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:HotMiddlebox Workshop: Concluding Remarks
 DTSTART;VALUE=DATE-TIME:20160826T170000
-UID:e4d992c6d82988656bfe41ea6ea325f1
+UID:cbb06103113ff1951dbee1cb99189d95
 DESCRIPTION:
 LOCATION:Room: Agata 1
 END:VEVENT
@@ -361,7 +361,7 @@ BEGIN:VEVENT
 SUMMARY:SIGCOMM Industrial Demos: Industrial Demo Session
 DTSTART;VALUE=DATE-TIME:20160825T090000
 DTEND;VALUE=DATE-TIME:20160825T173000
-UID:a4361882825750654b7aaaa885465c63
+UID:8fd38ac98ac4e96b63759db4fa820b90
 DESCRIPTION:Demos: \n\n* Title: More Juice Less Bits: Content Aware Stream
  ing – Authors: A. C. Begen (MediaMelon\, Inc.)\n\n* Title: ONOS centrali
  zed control over a P4 programmable data plane – Authors: C. Cascone (Ope
@@ -394,7 +394,7 @@ BEGIN:VEVENT
 SUMMARY:LANCOMM Workshop: Opening and Introduction
 DTSTART;VALUE=DATE-TIME:20160822T083000
 DTEND;VALUE=DATE-TIME:20160822T084500
-UID:4a4034edee3e1ac96209bdf1aacac109
+UID:9daa729d679611a47d7a647ed189062d
 DESCRIPTION:
 LOCATION:Room: Agata 1
 END:VEVENT
@@ -402,7 +402,7 @@ BEGIN:VEVENT
 SUMMARY:LANCOMM Workshop: Session 1: Network Measurements
 DTSTART;VALUE=DATE-TIME:20160822T084500
 DTEND;VALUE=DATE-TIME:20160822T103000
-UID:179c97b5b3ed7b0a572f06accd9b6f31
+UID:47f6d318266e772e4dcb593223bfae4c
 DESCRIPTION:Papers: \n\n* Title: Big-DAMA: Big Data Analytics for Network 
  Traffic Monitoring and Analysis – Authors: P. Casas\, A. D'Alconzo\, T. 
  Zseby\, M. Mellia\n\n* Title: Hidden Internet Topologies Info: Truth or My
@@ -422,7 +422,7 @@ BEGIN:VEVENT
 SUMMARY:LANCOMM Workshop: Session 2: SDN & NVF
 DTSTART;VALUE=DATE-TIME:20160822T110000
 DTEND;VALUE=DATE-TIME:20160822T123000
-UID:e5ced15a60886ca80bb87968ed1ca2e0
+UID:a85284b3a1e34bb50be1fbcd250e7007
 DESCRIPTION:Papers: \n\n* Title: SDN-based Overlay Networks for QoS-aware 
  Routing – Authors: P. Belzarena\, G. Sena\, I. Amigo\, S. Vaton\n\n* Tit
  le: Metherxis: Virtualized Network Functions for Micro-second Grade Latenc
@@ -443,7 +443,7 @@ SUMMARY:LANCOMM Workshop: Session 3: Network Modelling\, Monitoring and An
  alysis
 DTSTART;VALUE=DATE-TIME:20160822T140000
 DTEND;VALUE=DATE-TIME:20160822T170000
-UID:c8a07b688a1131efcfae549c818a1edd
+UID:fc06b88d9f09eb4349ed44f78f7665d3
 DESCRIPTION:Papers: \n\n* Title: Improving Performance of Multiple-level C
  ache Systems – Authors: I. Rodriguez\, A. Ferragut\, F. Paganini\n\n* Ti
  tle: Cognitive Radio Networks: Analysis of a Paid-Sharing Approach based o
@@ -464,7 +464,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LANCOMM Workshop: Wrap-up\, Planning of Next Steps\, and Closing
 DTSTART;VALUE=DATE-TIME:20160822T170000
-UID:f46a051265678a04e0b31b1e290cb1da
+UID:eace31c61a74bb2d842dfa8ad99306d3
 DESCRIPTION:
 LOCATION:Room: Agata 1
 END:VEVENT
@@ -472,7 +472,7 @@ BEGIN:VEVENT
 SUMMARY:SIGCOMM Posters: Session 1
 DTSTART;VALUE=DATE-TIME:20160823T090000
 DTEND;VALUE=DATE-TIME:20160823T173000
-UID:613c0c6af9063cdd7d7233c2383b639d
+UID:786ae9623ca09e699cf601d9dbf6f880
 DESCRIPTION:Posters: \n\n* Title: PieBridge: A Cross-DR scale Large Data T
  ransmission Scheduling System – Authors: Y. Zhang (Tsinghua University)\
  , K. Xu (Tsinghua University)\, G. Yao (Baidu)\, M. Zhang (Baidu)\, X. Nie
@@ -513,7 +513,7 @@ BEGIN:VEVENT
 SUMMARY:SIGCOMM Posters: Session 2
 DTSTART;VALUE=DATE-TIME:20160824T090000
 DTEND;VALUE=DATE-TIME:20160824T173000
-UID:bbcf6fa4ce40a9223c2013a3711e6128
+UID:fcb28ea1d774b579c27a0f876c5aad56
 DESCRIPTION:Posters: \n\n* Title: Named Data Networking Based Smart Home L
  ighting – Authors: U. De Silva (Asian Institute of Technology)\, A. Lert
  sinsrubtavee (University of Cambridge)\, A. Sathiaseelan (University of Ca
@@ -559,7 +559,7 @@ BEGIN:VEVENT
 SUMMARY:SIGCOMM Posters: Session 3 (Main Track Papers)
 DTSTART;VALUE=DATE-TIME:20160825T090000
 DTEND;VALUE=DATE-TIME:20160825T173000
-UID:c801006e20da5af01bfef50b12c8a19a
+UID:91b3b04fdc8d238f8544888575a5e811
 DESCRIPTION:Posters: * Coming soon.
 LOCATION:Room: Topazio
 END:VEVENT
@@ -567,7 +567,7 @@ BEGIN:VEVENT
 SUMMARY:Internet-QoE Workshop: Opening and Introduction
 DTSTART;VALUE=DATE-TIME:20160826T083000
 DTEND;VALUE=DATE-TIME:20160826T084500
-UID:4122254b52be6300364dbf915d0d3a51
+UID:49a782a05e53e507831eb98e0392b8e5
 DESCRIPTION:
 LOCATION:Room: Agata 2
 END:VEVENT
@@ -576,7 +576,7 @@ SUMMARY:Internet-QoE Workshop: Session 1: Passive QoE-based Monitoring in
  Operational Networks
 DTSTART;VALUE=DATE-TIME:20160826T084500
 DTEND;VALUE=DATE-TIME:20160826T103000
-UID:cdb9164c80e7018ae6e1f87fa113679d
+UID:74ef0748b2bd4068e93feff848e45151
 DESCRIPTION:Papers: \n\n* Title: An Educated Guess on QoE in Operational N
  etworks through Large-Scale Measurements – Authors: P. Casas\, B. Gardlo
  \, R. Schatz\, M. Mellia\n\n* Title: Impact of Access Speed on Adaptive Vi
@@ -592,7 +592,7 @@ BEGIN:VEVENT
 SUMMARY:Internet-QoE Workshop: Session 2: QoE Modeling and Analysis
 DTSTART;VALUE=DATE-TIME:20160826T110000
 DTEND;VALUE=DATE-TIME:20160826T123000
-UID:01d1a747bbe5a0ce56ffa6e461cce943
+UID:8a43b957ce03def926c97d16f67e64ff
 DESCRIPTION:Papers: \n\n* Title: QoE Inference Without Application Control
   – Authors: A. Nikravesh\, D. Hong\, Q. Chen\, H. Madhyastha\, Z. Mao\n\
  n* Title: QoE Analysis of DASH Cross-Layer Dependencies by Extensive Netwo
@@ -609,7 +609,7 @@ SUMMARY:Internet-QoE Workshop: Session 3:  QoE-based Network Management an
  d Assessment
 DTSTART;VALUE=DATE-TIME:20160826T140000
 DTEND;VALUE=DATE-TIME:20160826T164500
-UID:27497dd1a17abc134eb630e9da1859db
+UID:00592f64737fe84df65b55c4935a4e5e
 DESCRIPTION:Papers: \n\n* Title: Measuring the Quality of Experience of We
  b users – Authors: E. Bocchi\, L. De Cicco\, D. Rossi\n\n* Title: BingeO
  n Under the Microscope: Understanding T-Mobiles Zero-Rating Implementation
@@ -628,14 +628,14 @@ SUMMARY:Internet-QoE Workshop: Discussion: Strengthening QoE-based Researc
  h @SIGCOMM
 DTSTART;VALUE=DATE-TIME:20160826T164500
 DTEND;VALUE=DATE-TIME:20160826T171500
-UID:9fe1dc3c3aa7d720ac5e4766eb2682fe
+UID:a1305a7a63fa46249fdd8e4094e4d80b
 DESCRIPTION:
 LOCATION:Room: Agata 2
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Internet-QoE Workshop: Wrap-up\, Next Steps and Closing
 DTSTART;VALUE=DATE-TIME:20160826T171500
-UID:9e099c9ed335610e325d02ecf447fcb7
+UID:3c3ef16349fa20570bdc94010eb60985
 DESCRIPTION:
 LOCATION:Room: Agata 2
 END:VEVENT
@@ -643,7 +643,7 @@ BEGIN:VEVENT
 SUMMARY:SIGCOMM: Topic Preview 1
 DTSTART;VALUE=DATE-TIME:20160822T173000
 DTEND;VALUE=DATE-TIME:20160822T184500
-UID:83e7bed42e493b6abe7da783dc22d1a4
+UID:c4de78bce7a44fef121988ea672a2ef0
 DESCRIPTION:
 LOCATION:Room: Agata 1 and Agata 2
 END:VEVENT
@@ -651,28 +651,28 @@ BEGIN:VEVENT
 SUMMARY:SIGCOMM: Welcome Reception
 DTSTART;VALUE=DATE:20160822
 DTEND;VALUE=DATE:20160822
-UID:d040a1dc28722c23f5830c2d96aa589d
+UID:89b4fe8160062c20d6fead7983c1d607
 LOCATION:Foyer
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:SIGCOMM: N2Women Dinner
 DTSTART;VALUE=DATE:20160822
 DTEND;VALUE=DATE:20160822
-UID:c73082c398129bf370b2dcafb81fcca2
+UID:4118fb448a82333b313eca872a5581bf
 LOCATION:
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:SIGCOMM: Award Dinner
 DTSTART;VALUE=DATE:20160822
 DTEND;VALUE=DATE:20160822
-UID:0923fb1264e7f7199e807665262234d8
+UID:9b13ede64c2ada0b638d2e6d690db0c6
 LOCATION:
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:SIGCOMM: Opening
 DTSTART;VALUE=DATE-TIME:20160823T084500
 DTEND;VALUE=DATE-TIME:20160823T103000
-UID:162bf92d485e73afc77bcdd0cf347f20
+UID:4d830e5bd21324e04e8c09ef3044129f
 DESCRIPTION:
 LOCATION:Room: Diamante
 END:VEVENT
@@ -680,7 +680,7 @@ BEGIN:VEVENT
 SUMMARY:SIGCOMM: Session 1 - SDN & NFV
 DTSTART;VALUE=DATE-TIME:20160823T110000
 DTEND;VALUE=DATE-TIME:20160823T124000
-UID:0e5bafd3a3fd6d2600a0bedc04820ee4
+UID:8e51a2cb8e0b92639034cc1ac89f0fa5
 DESCRIPTION:Papers: \n\n* Title: ClickNP: Highly Flexible and High Perform
  ance Network Processing with Reconfigurable Hardware – Authors: Bojie Li
   (USTC / Microsoft Research)\, Kun Tan (Microsoft Research)\, Layong (Larr
@@ -709,7 +709,7 @@ BEGIN:VEVENT
 SUMMARY:SIGCOMM: Session 2 - Wide Area Networks
 DTSTART;VALUE=DATE-TIME:20160823T140000
 DTEND;VALUE=DATE-TIME:20160823T151500
-UID:77f9702ad422ac971e72f422ab0b3a86
+UID:2927706a8495f99955a8a99b5bdb4cf8
 DESCRIPTION:Papers: \n\n* Title: Evolve or Die: High-Availability Design P
  rinciples Drawn from Google's Network Infrastructure – Authors: Ramesh G
  ovindan (Google / USC)\, Ina Minei (Google)\, Mahesh Kallahalla (Google)\,
@@ -729,7 +729,7 @@ BEGIN:VEVENT
 SUMMARY:SIGCOMM: Session 3 - Monitoring and Diagnostics
 DTSTART;VALUE=DATE-TIME:20160823T161500
 DTEND;VALUE=DATE-TIME:20160823T173000
-UID:2f414a68f378b061db4fc47e2114c42c
+UID:920eac6d1a4465f68db64cc1b1cdd5cc
 DESCRIPTION:Papers: \n\n* Title: One Sketch to Rule Them All: Rethinking N
  etwork Flow Monitoring with UnivMon – Authors: Zaoxing Liu (Johns Hopkin
  s University)\, Antonis Manousis (Carnegie Mellon University)\, Gregory Vo
@@ -749,14 +749,14 @@ BEGIN:VEVENT
 SUMMARY:SIGCOMM: Conference Banquet
 DTSTART;VALUE=DATE-TIME:20160823T190000
 DTEND;VALUE=DATE-TIME:20160823T233000
-UID:acc36bfbb35910966a6a2272e5050e6e
+UID:949ec81b8533d3b49eeccac72a593fac
 LOCATION:Slaviero Essential Florianópolis Ingleses
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:SIGCOMM: Session 4 - Scheduling
 DTSTART;VALUE=DATE-TIME:20160824T083000
 DTEND;VALUE=DATE-TIME:20160824T101000
-UID:69b237150d0e7de01a3b7a7640b3f0ad
+UID:1a79751693984d8559b3951a147e32e3
 DESCRIPTION:Papers: \n\n* Title: 2DFQ: Two-Dimensional Fair Queueing for M
  ulti-Tenant Cloud Services – Authors: Jonathan Mace (Brown University)\,
   Peter Bodik (Microsoft)\, Madanlal Musuvathi (Microsoft)\, Rodrigo Fonsec
@@ -781,7 +781,7 @@ BEGIN:VEVENT
 SUMMARY:SIGCOMM: Session 5 - Datacenters
 DTSTART;VALUE=DATE-TIME:20160824T104000
 DTEND;VALUE=DATE-TIME:20160824T122000
-UID:4f279ed520d6b67eeec736ad79c47da1
+UID:a18684e30861f29650fd4946bca7e64a
 DESCRIPTION:Papers: \n\n* Title: RDMA over Commodity Ethernet at Scale –
   Authors: Chuanxiong Guo (Microsoft Research)\, Haitao Wu (Microsoft)\, Zh
  ong Deng (Microsoft)\, Gaurav Soni (Microsoft)\, Jianxi Ye (Microsoft)\, J
@@ -807,7 +807,7 @@ BEGIN:VEVENT
 SUMMARY:SIGCOMM: Topic Preview 2
 DTSTART;VALUE=DATE-TIME:20160824T122000
 DTEND;VALUE=DATE-TIME:20160824T133000
-UID:b31e35a665f1c740630e6bed9bcfc0c6
+UID:11d4928106acea9a18727c08ec039d2f
 DESCRIPTION:
 LOCATION:Room: Esmeralda 1 and Esmeralda 2
 END:VEVENT
@@ -815,7 +815,7 @@ BEGIN:VEVENT
 SUMMARY:SIGCOMM: Session 6 - Networked Applications
 DTSTART;VALUE=DATE-TIME:20160824T133000
 DTEND;VALUE=DATE-TIME:20160824T144500
-UID:d4bc7e4b4d9c345b40a0cbe8b8c86877
+UID:e87507fad5a39f6114cc3815af7de645
 DESCRIPTION:Papers: \n\n* Title: WebPerf: Evaluating What-If Scenarios for
   Cloud-hosted Web Applications – Authors: Yurong Jiang (University of So
  uthern California)\, Lenin Ravindranath (Microsoft Research)\, Suman Nath 
@@ -837,7 +837,7 @@ BEGIN:VEVENT
 SUMMARY:SIGCOMM: Session 7 - Verification
 DTSTART;VALUE=DATE-TIME:20160824T154500
 DTEND;VALUE=DATE-TIME:20160824T172500
-UID:1fc3198276ead18c3dec53965952c2ff
+UID:c566e3c482f374daa80887ddeb3b91b3
 DESCRIPTION:Papers: \n\n* Title: Fast Control Plane Analysis Using an Abst
  ract Representation – Authors: Aaron Gember-Jacobson (University of Wisc
  onsin-Madison)\, Raajay Viswanathan (University of Wisconsin-Madison)\, Ad
@@ -860,7 +860,7 @@ BEGIN:VEVENT
 SUMMARY:SIGCOMM: Community Feedback
 DTSTART;VALUE=DATE-TIME:20160824T173000
 DTEND;VALUE=DATE-TIME:20160824T183000
-UID:25fb3633497807e7a9fb23d5808277e5
+UID:f3f855f8203ced76bdc5848db537df31
 DESCRIPTION:
 LOCATION:Room: Diamante
 END:VEVENT
@@ -868,14 +868,14 @@ BEGIN:VEVENT
 SUMMARY:SIGCOMM: Student Dinner
 DTSTART;VALUE=DATE-TIME:20160824T193000
 DTEND;VALUE=DATE-TIME:20160824T220000
-UID:ed80282acd929e39e74f2456fab00db8
+UID:1979f6d3bce92b517f03c7a862ee02b4
 LOCATION:Ataliba Churrascarias Florianópolis
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:SIGCOMM: Session 8 - Wireless
 DTSTART;VALUE=DATE-TIME:20160825T083000
 DTEND;VALUE=DATE-TIME:20160825T103500
-UID:fb82ce384679e3955d63c1e86f60c0d8
+UID:a93eff6a391f01324150d1b2a3e65b24
 DESCRIPTION:Papers: \n\n* Title: Inter-Technology Backscatter: Towards Int
  ernet Connectivity for Implanted Devices – Authors: Vikram Iyer (Univers
  ity of Washington)\, Vamsi Talla (University of Washington)\, Bryce Kellog
@@ -902,7 +902,7 @@ BEGIN:VEVENT
 SUMMARY:SIGCOMM: Session 9 - Datacenters
 DTSTART;VALUE=DATE-TIME:20160825T110500
 DTEND;VALUE=DATE-TIME:20160825T122000
-UID:f646a036da784fe1e88856da206320d1
+UID:06a734c705447e52744db23f8fc9f02d
 DESCRIPTION:Papers: \n\n* Title: Robotron: Top-down Network Management at 
  Facebook Scale – Authors: Yu-Wei Eric Sung (Facebook)\, Xiaozheng Tie (F
  acebook)\, Starsky H.Y. Wong (Facebook)\, Hongyi Zeng (Facebook)\n\n* Titl
@@ -919,7 +919,7 @@ BEGIN:VEVENT
 SUMMARY:SIGCOMM: Session 10 - Censorship and Choice
 DTSTART;VALUE=DATE-TIME:20160825T133000
 DTEND;VALUE=DATE-TIME:20160825T144500
-UID:a59b2b1c2d6721064aaa21fb25991207
+UID:873364798b9543f1a6442a1227cba8b7
 DESCRIPTION:Papers: \n\n* Title: An Internet-Wide Analysis of Traffic Poli
  cing – Authors: Tobias Flach (University of Southern California / Google
  )\, Pavlos Papageorge (Google)\, Andreas Terzis (Google)\, Luis Pedrosa (U
@@ -938,7 +938,7 @@ BEGIN:VEVENT
 SUMMARY:SIGCOMM: Session 11 - SDN & NFV
 DTSTART;VALUE=DATE-TIME:20160825T154500
 DTEND;VALUE=DATE-TIME:20160825T170000
-UID:8fea39ecfc91e21b79029d12a41d032c
+UID:b79092235a8ade8322ce78850ba8ded2
 DESCRIPTION:Papers: \n\n* Title: OpenBox: A Software-Defined Framework for
   Developing\, Deploying\, and Managing Network Functions – Authors: Anat
   Bremler-Barr (The Interdisciplinary Center\, Herzliya)\, Yotam Harchol (T
@@ -959,10 +959,24 @@ DESCRIPTION:Papers: \n\n* Title: OpenBox: A Software-Defined Framework for
 LOCATION:Room: Diamante
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:SIGCOMM: Closing
+SUMMARY:SIGCOMM: Best of CCR
 DTSTART;VALUE=DATE-TIME:20160825T170000
-DTEND;VALUE=DATE-TIME:20160825T173000
-UID:433b14cdde5a310e9ddff382e96e1928
+DTEND;VALUE=DATE-TIME:20160825T175000
+UID:120e1f85cf4357a8c008bf96909d9f16
+DESCRIPTION:Papers: \n\n* Title: CrowdSurf: Empowering Transparency in the
+  Web – Authors: H. Metwalley (Politecnico di Torino)\, S. Traverso (Poli
+ tecnico di Torino)\, M. Mellia (Politecnico di Torino)\, S. Miskovic (Syma
+ ntec Corp.)\, M. Baldi (Politecnico di Torino)\n\n* Title: Values and Netw
+ orks: Steps Toward Exploring their Relationships – Authors: Carsten Orwa
+ t (Karlsruhe Institute of Technology)\, Roland Bless (Karlsruhe Institute 
+ of Technology)
+LOCATION:Room: Diamante
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SIGCOMM: Closing
+DTSTART;VALUE=DATE-TIME:20160825T175000
+DTEND;VALUE=DATE-TIME:20160825T182000
+UID:3964a0d8e4869bd02c2d031b882cd9bc
 DESCRIPTION:
 LOCATION:Room: Diamante
 END:VEVENT
@@ -970,7 +984,7 @@ BEGIN:VEVENT
 SUMMARY:Tutorial: Internet Measurements: Part 1
 DTSTART;VALUE=DATE-TIME:20160822T090000
 DTEND;VALUE=DATE-TIME:20160822T103000
-UID:169f514b6171204c7d9977553cb49b4f
+UID:9ba8cd28c72d1fe9ba45f2fabdcc06e4
 DESCRIPTION:Speakers: Timur Friedman (UPMC Sorbonne Universit&eacute\;s\, 
  France)\, Anna-Kaisa Pietilainen\, Renata Teixeira (Inria\, France)
 LOCATION:Room: Topazio 2
@@ -979,7 +993,7 @@ BEGIN:VEVENT
 SUMMARY:Tutorial: SDN\, NFV and Their Role in 5G: Part 1
 DTSTART;VALUE=DATE-TIME:20160822T090000
 DTEND;VALUE=DATE-TIME:20160822T103000
-UID:de817dc3c032becff20b58110da1642d
+UID:e044e149b965916392483140a423d896
 DESCRIPTION:Speakers: Katia Obraczka (UC Santa Cruz\, USA)\, Christian Rot
  henberg (UNICAMP\, Brazil)\, Ahmad Rostami (Ericsson Research\, Sweden)
 LOCATION:Room: Topazio 1
@@ -988,7 +1002,7 @@ BEGIN:VEVENT
 SUMMARY:Tutorial: Internet Measurements: Part 2
 DTSTART;VALUE=DATE-TIME:20160822T110000
 DTEND;VALUE=DATE-TIME:20160822T123000
-UID:8b5b7cb24402a6e7f2275766382f7c31
+UID:44bddd271f091582ebc8c175e1f608ff
 DESCRIPTION:Speakers: Timur Friedman (UPMC Sorbonne Universit&eacute\;s\, 
  France)\, Anna-Kaisa Pietilainen\, Renata Teixeira (Inria\, France)
 LOCATION:Room: Topazio 2
@@ -997,7 +1011,7 @@ BEGIN:VEVENT
 SUMMARY:Tutorial: SDN\, NFV and Their Role in 5G: Part 2 & Closing
 DTSTART;VALUE=DATE-TIME:20160822T110000
 DTEND;VALUE=DATE-TIME:20160822T123000
-UID:d35168f8bd65df49ac90987585a6ec08
+UID:2e0cbcb2065534030b427747de46dd27
 DESCRIPTION:Speakers: Katia Obraczka (UC Santa Cruz\, USA)\, Christian Rot
  henberg (UNICAMP\, Brazil)\, Ahmad Rostami (Ericsson Research\, Sweden)
 LOCATION:Room: Topazio 1
@@ -1006,7 +1020,7 @@ BEGIN:VEVENT
 SUMMARY:Tutorial: Internet Measurements: Part 3
 DTSTART;VALUE=DATE-TIME:20160822T140000
 DTEND;VALUE=DATE-TIME:20160822T153000
-UID:96687cb2e1790d7ba7e4ca0990a676a4
+UID:839dc00383671f319d3710b1de851577
 DESCRIPTION:Speakers: Timur Friedman (UPMC Sorbonne Universit&eacute\;s\, 
  France)\, Anna-Kaisa Pietilainen\, Renata Teixeira (Inria\, France)
 LOCATION:Room: Topazio 2
@@ -1015,7 +1029,7 @@ BEGIN:VEVENT
 SUMMARY:Tutorial: IPTV and Over-the-Top Video: Part 1
 DTSTART;VALUE=DATE-TIME:20160822T140000
 DTEND;VALUE=DATE-TIME:20160822T153000
-UID:b7fd4ac39a299c543e4a456bc13a3562
+UID:171f1833767128e6d4834a692d1f9d8f
 DESCRIPTION:Speakers: Ali C. Begen (MediaMelon Inc\, USA)
 LOCATION:Room: Topazio 1
 END:VEVENT
@@ -1023,7 +1037,7 @@ BEGIN:VEVENT
 SUMMARY:Tutorial: Internet Measurements: Part 4 & Closing
 DTSTART;VALUE=DATE-TIME:20160822T160000
 DTEND;VALUE=DATE-TIME:20160822T173000
-UID:5ad5a63c371c40d5d49b08de1e2478c5
+UID:b128fb22d5d3f4736a6703c47de0d9f4
 DESCRIPTION:Speakers: Timur Friedman (UPMC Sorbonne Universit&eacute\;s\, 
  France)\, Anna-Kaisa Pietilainen\, Renata Teixeira (Inria\, France)
 LOCATION:Room: Topazio 2
@@ -1032,7 +1046,7 @@ BEGIN:VEVENT
 SUMMARY:Tutorial: IPTV and Over-the-Top Video: Part 2 & Closing
 DTSTART;VALUE=DATE-TIME:20160822T160000
 DTEND;VALUE=DATE-TIME:20160822T173000
-UID:c047e85c1596a12d1953849a4b28a235
+UID:7190b036f5e6bf4a71a7f9a7a137a760
 DESCRIPTION:Speakers: Ali C. Begen (MediaMelon Inc\, USA)
 LOCATION:Room: Topazio 1
 END:VEVENT
@@ -1040,7 +1054,7 @@ BEGIN:VEVENT
 SUMMARY:Tutorial: Enabling Research in Future WiMobNet: Part 1
 DTSTART;VALUE=DATE-TIME:20160826T090000
 DTEND;VALUE=DATE-TIME:20160826T103000
-UID:5fcfa76305785f0455edf93ca0ea3e2b
+UID:6bbbd43a3283936c4f0b56c95ca12773
 DESCRIPTION:Speakers: Kobus Van der Merwe\, Robert Ricci\, Kirk Webb (Univ
  ersity of Utah\, USA)
 LOCATION:Room: Esmeralda 1
@@ -1049,7 +1063,7 @@ BEGIN:VEVENT
 SUMMARY:Tutorial: P4: Programming the Network Data Plane: Part 1
 DTSTART;VALUE=DATE-TIME:20160826T090000
 DTEND;VALUE=DATE-TIME:20160826T103000
-UID:069301e7221c5fdc6c9b57af49ea8270
+UID:fb8a6c576adc0ac1a32339ffa1186cdc
 DESCRIPTION:Speakers: Changhoon Kim\, Mihai Budiu\, Antonin Bas\, Vladimir
   Gurevich (Barefoot Networks\, USA)
 LOCATION:Room: Topazio 2
@@ -1058,7 +1072,7 @@ BEGIN:VEVENT
 SUMMARY:Tutorial: Enabling Research in Future WiMobNet: Part 2
 DTSTART;VALUE=DATE-TIME:20160826T110000
 DTEND;VALUE=DATE-TIME:20160826T123000
-UID:0166634ce7f14badb30ae92942b1e801
+UID:cd15e56129ef9edf5b74bf66b59ce0df
 DESCRIPTION:Speakers: Kobus Van der Merwe\, Robert Ricci\, Kirk Webb (Univ
  ersity of Utah\, USA)
 LOCATION:Room: Esmeralda 1
@@ -1067,7 +1081,7 @@ BEGIN:VEVENT
 SUMMARY:Tutorial: P4: Programming the Network Data Plane: Part 2
 DTSTART;VALUE=DATE-TIME:20160826T110000
 DTEND;VALUE=DATE-TIME:20160826T123000
-UID:b06732dcc8b39bcc818417ed6ba365e9
+UID:5b9a7504c6aa4a428fa7dbaabd1ee724
 DESCRIPTION:Speakers: Changhoon Kim\, Mihai Budiu\, Antonin Bas\, Vladimir
   Gurevich (Barefoot Networks\, USA)
 LOCATION:Room: Topazio 2
@@ -1076,7 +1090,7 @@ BEGIN:VEVENT
 SUMMARY:Tutorial: Enabling Research in Future WiMobNet: Part 3
 DTSTART;VALUE=DATE-TIME:20160826T140000
 DTEND;VALUE=DATE-TIME:20160826T153000
-UID:44797acc34779c750228b831f8829039
+UID:e8fe100e677e5f0bb5269a4286c3df03
 DESCRIPTION:Speakers: Kobus Van der Merwe\, Robert Ricci\, Kirk Webb (Univ
  ersity of Utah\, USA)
 LOCATION:Room: Esmeralda 1
@@ -1085,7 +1099,7 @@ BEGIN:VEVENT
 SUMMARY:Tutorial: P4: Programming the Network Data Plane: Part 3
 DTSTART;VALUE=DATE-TIME:20160826T140000
 DTEND;VALUE=DATE-TIME:20160826T153000
-UID:d7791242b2414bf3c193cd408c8bee85
+UID:b50ddadc2c3849a49fc4f653edf0e37c
 DESCRIPTION:Speakers: Changhoon Kim\, Mihai Budiu\, Antonin Bas\, Vladimir
   Gurevich (Barefoot Networks\, USA)
 LOCATION:Room: Topazio 2
@@ -1094,7 +1108,7 @@ BEGIN:VEVENT
 SUMMARY:Tutorial: Enabling Research in Future WiMobNet: Part 4 & Closing
 DTSTART;VALUE=DATE-TIME:20160826T160000
 DTEND;VALUE=DATE-TIME:20160826T173000
-UID:58f02deadcbe23cd5a83023ffcfd7482
+UID:d1bb3d5a33254a86f8b5d0d2545c884c
 DESCRIPTION:Speakers: Kobus Van der Merwe\, Robert Ricci\, Kirk Webb (Univ
  ersity of Utah\, USA)
 LOCATION:Room: Esmeralda 1
@@ -1103,9 +1117,9 @@ BEGIN:VEVENT
 SUMMARY:Tutorial: P4: Programming the Network Data Plane: Part 4 & Closing
 DTSTART;VALUE=DATE-TIME:20160826T160000
 DTEND;VALUE=DATE-TIME:20160826T173000
-UID:b6a48c2b68fe9ffad677446d9afc6a0d
+UID:5c633c3fa61fa83ff07e91249cae94e6
 DESCRIPTION:Speakers: Changhoon Kim\, Mihai Budiu\, Antonin Bas\, Vladimir
   Gurevich (Barefoot Networks\, USA)
 LOCATION:Room: Topazio 2
 END:VEVENT
-END:VCALENDAR cd /home/weverton/ufrgs/pos-doc/2016/events/sigcomm2016/website/sigcomm16web.master/scripts/google-calendar
+END:VCALENDAR

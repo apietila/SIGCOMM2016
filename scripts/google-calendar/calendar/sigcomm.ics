@@ -5,7 +5,7 @@ BEGIN:VEVENT
 SUMMARY:SIGCOMM: Topic Preview 1
 DTSTART;VALUE=DATE-TIME:20160822T173000
 DTEND;VALUE=DATE-TIME:20160822T184500
-UID:83e7bed42e493b6abe7da783dc22d1a4
+UID:c4de78bce7a44fef121988ea672a2ef0
 DESCRIPTION:
 LOCATION:Room: Agata 1 and Agata 2
 END:VEVENT
@@ -13,28 +13,28 @@ BEGIN:VEVENT
 SUMMARY:SIGCOMM: Welcome Reception
 DTSTART;VALUE=DATE:20160822
 DTEND;VALUE=DATE:20160822
-UID:d040a1dc28722c23f5830c2d96aa589d
+UID:89b4fe8160062c20d6fead7983c1d607
 LOCATION:Foyer
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:SIGCOMM: N2Women Dinner
 DTSTART;VALUE=DATE:20160822
 DTEND;VALUE=DATE:20160822
-UID:c73082c398129bf370b2dcafb81fcca2
+UID:4118fb448a82333b313eca872a5581bf
 LOCATION:
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:SIGCOMM: Award Dinner
 DTSTART;VALUE=DATE:20160822
 DTEND;VALUE=DATE:20160822
-UID:0923fb1264e7f7199e807665262234d8
+UID:9b13ede64c2ada0b638d2e6d690db0c6
 LOCATION:
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:SIGCOMM: Opening
 DTSTART;VALUE=DATE-TIME:20160823T084500
 DTEND;VALUE=DATE-TIME:20160823T103000
-UID:162bf92d485e73afc77bcdd0cf347f20
+UID:4d830e5bd21324e04e8c09ef3044129f
 DESCRIPTION:
 LOCATION:Room: Diamante
 END:VEVENT
@@ -42,7 +42,7 @@ BEGIN:VEVENT
 SUMMARY:SIGCOMM: Session 1 - SDN & NFV
 DTSTART;VALUE=DATE-TIME:20160823T110000
 DTEND;VALUE=DATE-TIME:20160823T124000
-UID:0e5bafd3a3fd6d2600a0bedc04820ee4
+UID:8e51a2cb8e0b92639034cc1ac89f0fa5
 DESCRIPTION:Papers: \n\n* Title: ClickNP: Highly Flexible and High Perform
  ance Network Processing with Reconfigurable Hardware – Authors: Bojie Li
   (USTC / Microsoft Research)\, Kun Tan (Microsoft Research)\, Layong (Larr
@@ -71,7 +71,7 @@ BEGIN:VEVENT
 SUMMARY:SIGCOMM: Session 2 - Wide Area Networks
 DTSTART;VALUE=DATE-TIME:20160823T140000
 DTEND;VALUE=DATE-TIME:20160823T151500
-UID:77f9702ad422ac971e72f422ab0b3a86
+UID:2927706a8495f99955a8a99b5bdb4cf8
 DESCRIPTION:Papers: \n\n* Title: Evolve or Die: High-Availability Design P
  rinciples Drawn from Google's Network Infrastructure – Authors: Ramesh G
  ovindan (Google / USC)\, Ina Minei (Google)\, Mahesh Kallahalla (Google)\,
@@ -91,7 +91,7 @@ BEGIN:VEVENT
 SUMMARY:SIGCOMM: Session 3 - Monitoring and Diagnostics
 DTSTART;VALUE=DATE-TIME:20160823T161500
 DTEND;VALUE=DATE-TIME:20160823T173000
-UID:2f414a68f378b061db4fc47e2114c42c
+UID:920eac6d1a4465f68db64cc1b1cdd5cc
 DESCRIPTION:Papers: \n\n* Title: One Sketch to Rule Them All: Rethinking N
  etwork Flow Monitoring with UnivMon – Authors: Zaoxing Liu (Johns Hopkin
  s University)\, Antonis Manousis (Carnegie Mellon University)\, Gregory Vo
@@ -111,14 +111,14 @@ BEGIN:VEVENT
 SUMMARY:SIGCOMM: Conference Banquet
 DTSTART;VALUE=DATE-TIME:20160823T190000
 DTEND;VALUE=DATE-TIME:20160823T233000
-UID:acc36bfbb35910966a6a2272e5050e6e
+UID:949ec81b8533d3b49eeccac72a593fac
 LOCATION:Slaviero Essential Florianópolis Ingleses
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:SIGCOMM: Session 4 - Scheduling
 DTSTART;VALUE=DATE-TIME:20160824T083000
 DTEND;VALUE=DATE-TIME:20160824T101000
-UID:69b237150d0e7de01a3b7a7640b3f0ad
+UID:1a79751693984d8559b3951a147e32e3
 DESCRIPTION:Papers: \n\n* Title: 2DFQ: Two-Dimensional Fair Queueing for M
  ulti-Tenant Cloud Services – Authors: Jonathan Mace (Brown University)\,
   Peter Bodik (Microsoft)\, Madanlal Musuvathi (Microsoft)\, Rodrigo Fonsec
@@ -143,7 +143,7 @@ BEGIN:VEVENT
 SUMMARY:SIGCOMM: Session 5 - Datacenters
 DTSTART;VALUE=DATE-TIME:20160824T104000
 DTEND;VALUE=DATE-TIME:20160824T122000
-UID:4f279ed520d6b67eeec736ad79c47da1
+UID:a18684e30861f29650fd4946bca7e64a
 DESCRIPTION:Papers: \n\n* Title: RDMA over Commodity Ethernet at Scale –
   Authors: Chuanxiong Guo (Microsoft Research)\, Haitao Wu (Microsoft)\, Zh
  ong Deng (Microsoft)\, Gaurav Soni (Microsoft)\, Jianxi Ye (Microsoft)\, J
@@ -169,7 +169,7 @@ BEGIN:VEVENT
 SUMMARY:SIGCOMM: Topic Preview 2
 DTSTART;VALUE=DATE-TIME:20160824T122000
 DTEND;VALUE=DATE-TIME:20160824T133000
-UID:b31e35a665f1c740630e6bed9bcfc0c6
+UID:11d4928106acea9a18727c08ec039d2f
 DESCRIPTION:
 LOCATION:Room: Esmeralda 1 and Esmeralda 2
 END:VEVENT
@@ -177,7 +177,7 @@ BEGIN:VEVENT
 SUMMARY:SIGCOMM: Session 6 - Networked Applications
 DTSTART;VALUE=DATE-TIME:20160824T133000
 DTEND;VALUE=DATE-TIME:20160824T144500
-UID:d4bc7e4b4d9c345b40a0cbe8b8c86877
+UID:e87507fad5a39f6114cc3815af7de645
 DESCRIPTION:Papers: \n\n* Title: WebPerf: Evaluating What-If Scenarios for
   Cloud-hosted Web Applications – Authors: Yurong Jiang (University of So
  uthern California)\, Lenin Ravindranath (Microsoft Research)\, Suman Nath 
@@ -199,7 +199,7 @@ BEGIN:VEVENT
 SUMMARY:SIGCOMM: Session 7 - Verification
 DTSTART;VALUE=DATE-TIME:20160824T154500
 DTEND;VALUE=DATE-TIME:20160824T172500
-UID:1fc3198276ead18c3dec53965952c2ff
+UID:c566e3c482f374daa80887ddeb3b91b3
 DESCRIPTION:Papers: \n\n* Title: Fast Control Plane Analysis Using an Abst
  ract Representation – Authors: Aaron Gember-Jacobson (University of Wisc
  onsin-Madison)\, Raajay Viswanathan (University of Wisconsin-Madison)\, Ad
@@ -222,7 +222,7 @@ BEGIN:VEVENT
 SUMMARY:SIGCOMM: Community Feedback
 DTSTART;VALUE=DATE-TIME:20160824T173000
 DTEND;VALUE=DATE-TIME:20160824T183000
-UID:25fb3633497807e7a9fb23d5808277e5
+UID:f3f855f8203ced76bdc5848db537df31
 DESCRIPTION:
 LOCATION:Room: Diamante
 END:VEVENT
@@ -230,14 +230,14 @@ BEGIN:VEVENT
 SUMMARY:SIGCOMM: Student Dinner
 DTSTART;VALUE=DATE-TIME:20160824T193000
 DTEND;VALUE=DATE-TIME:20160824T220000
-UID:ed80282acd929e39e74f2456fab00db8
+UID:1979f6d3bce92b517f03c7a862ee02b4
 LOCATION:Ataliba Churrascarias Florianópolis
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:SIGCOMM: Session 8 - Wireless
 DTSTART;VALUE=DATE-TIME:20160825T083000
 DTEND;VALUE=DATE-TIME:20160825T103500
-UID:fb82ce384679e3955d63c1e86f60c0d8
+UID:a93eff6a391f01324150d1b2a3e65b24
 DESCRIPTION:Papers: \n\n* Title: Inter-Technology Backscatter: Towards Int
  ernet Connectivity for Implanted Devices – Authors: Vikram Iyer (Univers
  ity of Washington)\, Vamsi Talla (University of Washington)\, Bryce Kellog
@@ -264,7 +264,7 @@ BEGIN:VEVENT
 SUMMARY:SIGCOMM: Session 9 - Datacenters
 DTSTART;VALUE=DATE-TIME:20160825T110500
 DTEND;VALUE=DATE-TIME:20160825T122000
-UID:f646a036da784fe1e88856da206320d1
+UID:06a734c705447e52744db23f8fc9f02d
 DESCRIPTION:Papers: \n\n* Title: Robotron: Top-down Network Management at 
  Facebook Scale – Authors: Yu-Wei Eric Sung (Facebook)\, Xiaozheng Tie (F
  acebook)\, Starsky H.Y. Wong (Facebook)\, Hongyi Zeng (Facebook)\n\n* Titl
@@ -281,7 +281,7 @@ BEGIN:VEVENT
 SUMMARY:SIGCOMM: Session 10 - Censorship and Choice
 DTSTART;VALUE=DATE-TIME:20160825T133000
 DTEND;VALUE=DATE-TIME:20160825T144500
-UID:a59b2b1c2d6721064aaa21fb25991207
+UID:873364798b9543f1a6442a1227cba8b7
 DESCRIPTION:Papers: \n\n* Title: An Internet-Wide Analysis of Traffic Poli
  cing – Authors: Tobias Flach (University of Southern California / Google
  )\, Pavlos Papageorge (Google)\, Andreas Terzis (Google)\, Luis Pedrosa (U
@@ -300,7 +300,7 @@ BEGIN:VEVENT
 SUMMARY:SIGCOMM: Session 11 - SDN & NFV
 DTSTART;VALUE=DATE-TIME:20160825T154500
 DTEND;VALUE=DATE-TIME:20160825T170000
-UID:8fea39ecfc91e21b79029d12a41d032c
+UID:b79092235a8ade8322ce78850ba8ded2
 DESCRIPTION:Papers: \n\n* Title: OpenBox: A Software-Defined Framework for
   Developing\, Deploying\, and Managing Network Functions – Authors: Anat
   Bremler-Barr (The Interdisciplinary Center\, Herzliya)\, Yotam Harchol (T
@@ -321,10 +321,24 @@ DESCRIPTION:Papers: \n\n* Title: OpenBox: A Software-Defined Framework for
 LOCATION:Room: Diamante
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:SIGCOMM: Closing
+SUMMARY:SIGCOMM: Best of CCR
 DTSTART;VALUE=DATE-TIME:20160825T170000
-DTEND;VALUE=DATE-TIME:20160825T173000
-UID:433b14cdde5a310e9ddff382e96e1928
+DTEND;VALUE=DATE-TIME:20160825T175000
+UID:120e1f85cf4357a8c008bf96909d9f16
+DESCRIPTION:Papers: \n\n* Title: CrowdSurf: Empowering Transparency in the
+  Web – Authors: H. Metwalley (Politecnico di Torino)\, S. Traverso (Poli
+ tecnico di Torino)\, M. Mellia (Politecnico di Torino)\, S. Miskovic (Syma
+ ntec Corp.)\, M. Baldi (Politecnico di Torino)\n\n* Title: Values and Netw
+ orks: Steps Toward Exploring their Relationships – Authors: Carsten Orwa
+ t (Karlsruhe Institute of Technology)\, Roland Bless (Karlsruhe Institute 
+ of Technology)
+LOCATION:Room: Diamante
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SIGCOMM: Closing
+DTSTART;VALUE=DATE-TIME:20160825T175000
+DTEND;VALUE=DATE-TIME:20160825T182000
+UID:3964a0d8e4869bd02c2d031b882cd9bc
 DESCRIPTION:
 LOCATION:Room: Diamante
 END:VEVENT

@@ -5,7 +5,7 @@ BEGIN:VEVENT
 SUMMARY:HotMiddlebox Workshop: Opening and Welcome
 DTSTART;VALUE=DATE-TIME:20160826T083000
 DTEND;VALUE=DATE-TIME:20160826T084000
-UID:7e3fe0cd2ba26d68363004ea1b9eb43f
+UID:d4ddac3c922e8f025edbb51ab9be116f
 DESCRIPTION:
 LOCATION:Room: Agata 1
 END:VEVENT
@@ -13,7 +13,7 @@ BEGIN:VEVENT
 SUMMARY:HotMiddlebox Workshop: Keynote Session
 DTSTART;VALUE=DATE-TIME:20160826T084000
 DTEND;VALUE=DATE-TIME:20160826T094000
-UID:54697060b417406de61b95634e108f1b
+UID:812d0dcbb28c0538636ff8165a269627
 DESCRIPTION:* Keynote Title:\nRecent Advances in Network Function Virtuali
  zation\n\nSpeaker:\nAditya Akella (University of Wisconsin-Madison)\n\nAbs
  tract:\nNetwork Function Virtualization (NFV) is a promising technology th
@@ -34,7 +34,7 @@ BEGIN:VEVENT
 SUMMARY:HotMiddlebox Workshop: Session 1: Middlebox and Privacy
 DTSTART;VALUE=DATE-TIME:20160826T094000
 DTEND;VALUE=DATE-TIME:20160826T103000
-UID:6ed3f759976fe1ee1dbe2e64a5162dfa
+UID:9cd0fc516bf82b8d034aef11eb6e54d8
 DESCRIPTION:Papers: \n\n* Title: Light at the Middle of the Tunnel: Middle
  boxes for Selective Disclosure of Network Monitoring to Distrusted Parties
   – Authors: N. Sultana\, M. Kohlweiss\, A. W. Moore\n\n* Title: SplitBox
@@ -47,7 +47,7 @@ BEGIN:VEVENT
 SUMMARY:HotMiddlebox Workshop: Session 2: On Resource Allocation
 DTSTART;VALUE=DATE-TIME:20160826T110000
 DTEND;VALUE=DATE-TIME:20160826T123000
-UID:ab147ba6939cbf18ad9f1d010f08c822
+UID:5e8cb6ed34583fc010e4c6c3bc957d75
 DESCRIPTION:Papers: \n\n* Title: Measurement Based Fair Queuing for Alloca
  ting Bandwidth to Virtual Machines – Authors: K. To\, D. Firestone\, G. 
  Varghese\, J. Padhye\n\n* Title: Datacenter Scale Load Balancing for Multi
@@ -59,7 +59,7 @@ BEGIN:VEVENT
 SUMMARY:HotMiddlebox Workshop: Session 3:  Middlebox Management
 DTSTART;VALUE=DATE-TIME:20160826T140000
 DTEND;VALUE=DATE-TIME:20160826T153000
-UID:c0c8dc507f3da8d7d7ee0985c4d9f577
+UID:83c0ba2b40531da4328551ba42f545b3
 DESCRIPTION:Papers: \n\n* Title: OpenNetVM: A Platform for High Performanc
  e Network Service Chains – Authors: W. Zhang\, G. Liu\, W. Zhang\, N. Sh
  ah\, P. Lopreiato. G. Todeschi\, K.K. Ramakrishnan\, T. Wood\n\n* Title: A
@@ -73,7 +73,7 @@ BEGIN:VEVENT
 SUMMARY:HotMiddlebox Workshop: Session 4: Middlebox and TCP processing
 DTSTART;VALUE=DATE-TIME:20160826T160000
 DTEND;VALUE=DATE-TIME:20160826T170000
-UID:0adcfb7dba3979d52ae9e24a6a3e3e23
+UID:2d2a10d95b10b86435c7b2a871a47079
 DESCRIPTION:Papers: \n\n* Title: On the Fly TCP Acceleration with Miniprox
  y – Authors: G. Siracusano\, R. Bifulco\, S. Kuenzer\, S. Salsano\, N. B
  lefari Melazzi\, F. Huici\n\n* Title: CliMB: Enabling Network Function Com
@@ -84,7 +84,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:HotMiddlebox Workshop: Concluding Remarks
 DTSTART;VALUE=DATE-TIME:20160826T170000
-UID:e4d992c6d82988656bfe41ea6ea325f1
+UID:cbb06103113ff1951dbee1cb99189d95
 DESCRIPTION:
 LOCATION:Room: Agata 1
 END:VEVENT

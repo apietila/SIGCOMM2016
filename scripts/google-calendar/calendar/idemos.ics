@@ -5,7 +5,7 @@ BEGIN:VEVENT
 SUMMARY:SIGCOMM Industrial Demos: Industrial Demo Session
 DTSTART;VALUE=DATE-TIME:20160825T090000
 DTEND;VALUE=DATE-TIME:20160825T173000
-UID:a4361882825750654b7aaaa885465c63
+UID:8fd38ac98ac4e96b63759db4fa820b90
 DESCRIPTION:Demos: \n\n* Title: More Juice Less Bits: Content Aware Stream
  ing – Authors: A. C. Begen (MediaMelon\, Inc.)\n\n* Title: ONOS centrali
  zed control over a P4 programmable data plane – Authors: C. Cascone (Ope
