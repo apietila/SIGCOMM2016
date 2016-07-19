@@ -2,98 +2,98 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//My calendar product//mxm.dk//
 BEGIN:VEVENT
-SUMMARY:Posters Session 1
+SUMMARY:SIGCOMM Posters: Session 1
 DTSTART;VALUE=DATE-TIME:20160823T090000
 DTEND;VALUE=DATE-TIME:20160823T173000
 UID:613c0c6af9063cdd7d7233c2383b639d
-DESCRIPTION:Talks: \n\n* Title: PieBridge: A Cross-DR scale Large Data Tra
- nsmission Scheduling System – Authors: Y. Zhang (Tsinghua University)\, 
- K. Xu (Tsinghua University)\, G. Yao (Baidu)\, M. Zhang (Baidu)\, X. Nie (
- Tsinghua University)\, Y. Zhang (Tsinghua University)\n\n* Title: A Longit
- udinal Analysis of .i2p Leakage in the Public DNS Infrastructure – Autho
- rs: S. Jeong (Korea University)\, A. Kang (SUNY Buffalo)\, J. Kim (Chung-A
- ng University)\, H. Kim (Korea University)\, A. Mohaisen (SUNY Buffalo)\n\
- n* Title: Best Effort Task Scheduling for Data Parallel Jobs – Authors: 
- Z. Li (National University of Defense Technology)\, Y. Zhang (National Uni
- versity of Defense Technology)\, Y. Zhao (National University of Defense T
- echnology)\, Y. Peng (National University of Defense Technology)\, D. Li (
- National University of Defense Technology)\n\n* Title: Efficient Remapping
-  of Internet Routing Events – Authors: E. Fazzion (Universidade Federal 
- de Minas Gerais)\, Í. Cunha (Universidade Federal de Minas Gerais)\, D. G
- uedes (Universidade Federal de Minas Gerais)\, W. Meira Jr. (Universidade 
- Federal de Minas Gerais)\, R. Teixeira (Inria)\, D. Veitch (University of 
- Technology Sydney)\, C. Diot (Safran)\n\n* Title: Privacy-Aware Infrastruc
- ture for Managing Personal Data – Authors: Y. Amar (Queen Mary Universit
- y of London)\, H. Haddadi (Queen Mary University of London)\, R. Mortier (
- University of Cambridge)\n\n* Title: Performance Evaluation of Locator/Ide
- ntifier Separation Protocol through RIPE Atlas – Authors: Y. Li (Telecom
-  ParisTech)\, L. Iannone (Telecom ParisTech)\n\n* Title: TafLoc: Time-adap
- tive and Fine-grained Device-free Localization with Little Cost – Author
- s: L. Chang (Northwest University)\, J. Xiong (Singapore Management Univer
- sity)\, X. Chen (Northwest University)\, J. Wang (Northwest University)\, 
- J. Hu (Northwest University)\, D. Fang (Northwest University)\, W. Wang (N
- orthwest University)\, L. Chang (Northwest University)\n\n* Title: A First
-  Look into Transnational Routing Detours – Authors: A. Edmundson (Prince
- ton University)\, R. Ensafi (Princeton University)\, N. Feamster (Princeto
- n University)\, J. Rexford (Princeton University)\n\n* Title: PathCache: A
-  Path Prediction Toolkit – Authors: R. Singh (Stony Brook University)\, 
- P. Gill (Stony Brook University)\n\n* Title: Application-specific Accelera
- tion Framework for Mobile Applications – Authors: B. Choi (KAIST)\, J. K
- im (KAIST)\, D. Han (KAIST)\, J. Kim (KAIST)\, B. Choi (KAIST)
+DESCRIPTION:Posters: \n\n* Title: PieBridge: A Cross-DR scale Large Data T
+ ransmission Scheduling System – Authors: Y. Zhang (Tsinghua University)\
+ , K. Xu (Tsinghua University)\, G. Yao (Baidu)\, M. Zhang (Baidu)\, X. Nie
+  (Tsinghua University)\, Y. Zhang (Tsinghua University)\n\n* Title: A Long
+ itudinal Analysis of .i2p Leakage in the Public DNS Infrastructure – Aut
+ hors: S. Jeong (Korea University)\, A. Kang (SUNY Buffalo)\, J. Kim (Chung
+ -Ang University)\, H. Kim (Korea University)\, A. Mohaisen (SUNY Buffalo)\
+ n\n* Title: Best Effort Task Scheduling for Data Parallel Jobs – Authors
+ : Z. Li (National University of Defense Technology)\, Y. Zhang (National U
+ niversity of Defense Technology)\, Y. Zhao (National University of Defense
+  Technology)\, Y. Peng (National University of Defense Technology)\, D. Li
+  (National University of Defense Technology)\n\n* Title: Efficient Remappi
+ ng of Internet Routing Events – Authors: E. Fazzion (Universidade Federa
+ l de Minas Gerais)\, Í. Cunha (Universidade Federal de Minas Gerais)\, D.
+  Guedes (Universidade Federal de Minas Gerais)\, W. Meira Jr. (Universidad
+ e Federal de Minas Gerais)\, R. Teixeira (Inria)\, D. Veitch (University o
+ f Technology Sydney)\, C. Diot (Safran)\n\n* Title: Privacy-Aware Infrastr
+ ucture for Managing Personal Data – Authors: Y. Amar (Queen Mary Univers
+ ity of London)\, H. Haddadi (Queen Mary University of London)\, R. Mortier
+  (University of Cambridge)\n\n* Title: Performance Evaluation of Locator/I
+ dentifier Separation Protocol through RIPE Atlas – Authors: Y. Li (Telec
+ om ParisTech)\, L. Iannone (Telecom ParisTech)\n\n* Title: TafLoc: Time-ad
+ aptive and Fine-grained Device-free Localization with Little Cost – Auth
+ ors: L. Chang (Northwest University)\, J. Xiong (Singapore Management Univ
+ ersity)\, X. Chen (Northwest University)\, J. Wang (Northwest University)\
+ , J. Hu (Northwest University)\, D. Fang (Northwest University)\, W. Wang 
+ (Northwest University)\, L. Chang (Northwest University)\n\n* Title: A Fir
+ st Look into Transnational Routing Detours – Authors: A. Edmundson (Prin
+ ceton University)\, R. Ensafi (Princeton University)\, N. Feamster (Prince
+ ton University)\, J. Rexford (Princeton University)\n\n* Title: PathCache:
+  A Path Prediction Toolkit – Authors: R. Singh (Stony Brook University)\
+ , P. Gill (Stony Brook University)\n\n* Title: Application-specific Accele
+ ration Framework for Mobile Applications – Authors: B. Choi (KAIST)\, J.
+  Kim (KAIST)\, D. Han (KAIST)\, J. Kim (KAIST)\, B. Choi (KAIST)
 LOCATION:Room: Topazio
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Posters Session 2
+SUMMARY:SIGCOMM Posters: Session 2
 DTSTART;VALUE=DATE-TIME:20160824T090000
 DTEND;VALUE=DATE-TIME:20160824T173000
 UID:bbcf6fa4ce40a9223c2013a3711e6128
-DESCRIPTION:Talks: \n\n* Title: Named Data Networking Based Smart Home Lig
- hting – Authors: U. De Silva (Asian Institute of Technology)\, A. Lertsi
- nsrubtavee (University of Cambridge)\, A. Sathiaseelan (University of Camb
- ridge)\, K. Kanchanasut (Asian Institute of Technology)\n\n* Title: Achiev
- ing Consistent SDN Control With Declarative Applications – Authors: W. W
- ang (McGill Unversity)\, C. Liu (Logistic Information Center)\, J. Su (Nat
- ional University Of Defense Technology)\, W. He (McGill Unversity)\n\n* Ti
- tle: Modular SDN Compiler Design with Intermediate Representation – Auth
- ors: H. Li (Xi'an Jiaotong University)\, C. Hu (Xi'an Jiaotong University)
- \, P. Zhang (Xi'an Jiaotong University)\, L. Xie (Xi'an Jiaotong Universit
- y)\n\n* Title: SLA-NFV: an SLA-aware High Performance Framework for Networ
- k Function Virtualization – Authors: C. Sun (Tsinghua University)\, J. B
- i (Tsinghua University)\, Z. Zheng (Tsinghua University)\, H. Hu (Clemson 
- University)\n\n* Title: Conan: Content-aware Access Network Flow Schedulin
- g to Improve QoE of Home Users – Authors: H. Yang (Nanjing University)\,
-  X. Wang (Nanjing University)\, C. Nguyen (Nanjing University)\, S. Lu (Na
- njing University)\n\n* Title: Building Application-Aware Network Environme
- nts using SDN for Optimizing Hadoop Applications – Authors: S. Zhao (Uni
- versity of Missouri - Kansas City)\, A. Sydney (Raytheon BBN Technologies)
- \, D. Medhi (University of Missouri - Kansas City)\, S. Zhao (University o
- f Missouri - Kansas City)\n\n* Title: Horse: towards an SDN traffic dynami
- cs simulator for large scale networks – Authors: E. Fernandes (Queen Mar
- y\, University of London)\, G. Antichi (University of Cambridge)\, I. Cast
- ro (Queen Mary\, University of London)\, S. Uhlig (Queen Mary\, University
-  of London)\n\n* Title: Rethinking the Design of OpenFlow Switch Counters 
- – Authors: J. Yang (Xian Jiaotong Unviersity)\, C. Hu (Xian Jiaotong Unv
- iersity)\, P. Zheng (Xian Jiaotong Unviersity)\, R. Wang (Xian Jiaotong Un
- viersity)\, P. Zhang (Xian Jiaotong Unviersity)\, X. Guan (Xian Jiaotong U
- niversity / Tsinghua University)\n\n* Title: Taming the Flow Table Overflo
- w in OpenFlow Switch – Authors: S. Qiao (Xi’an Jiaotong University)\, 
- C. Hu (Xi’an Jiaotong University)\, X. Guan (Xi’an Jiaotong University
- )\, J. Zou (Xi’an Jiaotong University)\n\n* Title: Magellan: Generating 
- Multi-Table Datapath from Datapath Oblivious Algorithmic SDN Policies – 
- Authors: A. Voellmy (Yale University)\, S. Chen (Tongji University)\, X. W
- ang (Tongji University)\, Y. Yang (Yale University)\n\n* Title: FAST: A Si
- mple Programming Abstraction for Complex State-Dependent SDN Programming 
- – Authors: K. Gao (Tsinghua University)\, C. Gu (Tongji University)\, Q.
-  Xiang (Tongji/Yale University)\, Y. Yang (Tongji/Yale University)\, J. Bi
-  (Tsinghua University)\, Q. Xiang (Yale University)
+DESCRIPTION:Posters: \n\n* Title: Named Data Networking Based Smart Home L
+ ighting – Authors: U. De Silva (Asian Institute of Technology)\, A. Lert
+ sinsrubtavee (University of Cambridge)\, A. Sathiaseelan (University of Ca
+ mbridge)\, K. Kanchanasut (Asian Institute of Technology)\n\n* Title: Achi
+ eving Consistent SDN Control With Declarative Applications – Authors: W.
+  Wang (McGill Unversity)\, C. Liu (Logistic Information Center)\, J. Su (N
+ ational University Of Defense Technology)\, W. He (McGill Unversity)\n\n* 
+ Title: Modular SDN Compiler Design with Intermediate Representation – Au
+ thors: H. Li (Xi'an Jiaotong University)\, C. Hu (Xi'an Jiaotong Universit
+ y)\, P. Zhang (Xi'an Jiaotong University)\, L. Xie (Xi'an Jiaotong Univers
+ ity)\n\n* Title: SLA-NFV: an SLA-aware High Performance Framework for Netw
+ ork Function Virtualization – Authors: C. Sun (Tsinghua University)\, J.
+  Bi (Tsinghua University)\, Z. Zheng (Tsinghua University)\, H. Hu (Clemso
+ n University)\n\n* Title: Conan: Content-aware Access Network Flow Schedul
+ ing to Improve QoE of Home Users – Authors: H. Yang (Nanjing University)
+ \, X. Wang (Nanjing University)\, C. Nguyen (Nanjing University)\, S. Lu (
+ Nanjing University)\n\n* Title: Building Application-Aware Network Environ
+ ments using SDN for Optimizing Hadoop Applications – Authors: S. Zhao (U
+ niversity of Missouri - Kansas City)\, A. Sydney (Raytheon BBN Technologie
+ s)\, D. Medhi (University of Missouri - Kansas City)\, S. Zhao (University
+  of Missouri - Kansas City)\n\n* Title: Horse: towards an SDN traffic dyna
+ mics simulator for large scale networks – Authors: E. Fernandes (Queen M
+ ary\, University of London)\, G. Antichi (University of Cambridge)\, I. Ca
+ stro (Queen Mary\, University of London)\, S. Uhlig (Queen Mary\, Universi
+ ty of London)\n\n* Title: Rethinking the Design of OpenFlow Switch Counter
+ s – Authors: J. Yang (Xian Jiaotong Unviersity)\, C. Hu (Xian Jiaotong U
+ nviersity)\, P. Zheng (Xian Jiaotong Unviersity)\, R. Wang (Xian Jiaotong 
+ Unviersity)\, P. Zhang (Xian Jiaotong Unviersity)\, X. Guan (Xian Jiaotong
+  University / Tsinghua University)\n\n* Title: Taming the Flow Table Overf
+ low in OpenFlow Switch – Authors: S. Qiao (Xi’an Jiaotong University)\
+ , C. Hu (Xi’an Jiaotong University)\, X. Guan (Xi’an Jiaotong Universi
+ ty)\, J. Zou (Xi’an Jiaotong University)\n\n* Title: Magellan: Generatin
+ g Multi-Table Datapath from Datapath Oblivious Algorithmic SDN Policies 
+ – Authors: A. Voellmy (Yale University)\, S. Chen (Tongji University)\, 
+ X. Wang (Tongji University)\, Y. Yang (Yale University)\n\n* Title: FAST: 
+ A Simple Programming Abstraction for Complex State-Dependent SDN Programmi
+ ng – Authors: K. Gao (Tsinghua University)\, C. Gu (Tongji University)\,
+  Q. Xiang (Tongji/Yale University)\, Y. Yang (Tongji/Yale University)\, J.
+  Bi (Tsinghua University)\, Q. Xiang (Yale University)
 LOCATION:Room: Topazio
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Posters Session 3 (Main Track Papers)
+SUMMARY:SIGCOMM Posters: Session 3 (Main Track Papers)
 DTSTART;VALUE=DATE-TIME:20160825T090000
 DTEND;VALUE=DATE-TIME:20160825T173000
 UID:c801006e20da5af01bfef50b12c8a19a
-DESCRIPTION:Talks: * Coming soon.
+DESCRIPTION:Posters: * Coming soon.
 LOCATION:Room: Topazio
 END:VEVENT
 END:VCALENDAR

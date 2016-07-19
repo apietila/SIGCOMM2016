@@ -15,7 +15,7 @@ SCOPES = 'https://www.googleapis.com/auth/spreadsheets.readonly'
 CLIENT_SECRET_FILE = 'client_secret.json'
 APPLICATION_NAME = 'Sigcomm16'
 SPREADSHEETID = '1AK4VdEuogGTaFRLia8Ef-AaZdAJOu5AxE7KAA1Nj7tU'
-COLUMN_RANGE = 'A2:J' # note we assume the header row to be present !!!
+COLUMN_RANGE = 'A2:K' # note we assume the header row to be present !!!
 
 # spreadsheet header titles
 COL_TYPE = 0
@@ -105,7 +105,7 @@ def proggen(worksheet, values, outdir):
             else:
               line = """      tprog_add_session("%s", "%s", "%s", "%s", "prog-%s");\n""" % (time, title, chair, style, progdate)
 
-        elif ((type == 'talk' or type == 'poster' or type == 'demo') and len(row)>=4):
+        elif ((type == 'talk' or type == 'poster' or type == 'demo' or type == 'paper') and len(row)>=4):
             paper = row[COL_TITLE]
             link = ""
             authors = (row[COL_CHAIR_SPKR_AUTHOR_DESC] if len(row)> COL_CHAIR_SPKR_AUTHOR_DESC else "")

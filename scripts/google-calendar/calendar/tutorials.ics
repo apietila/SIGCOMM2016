@@ -1,0 +1,146 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//My calendar product//mxm.dk//
+BEGIN:VEVENT
+SUMMARY:Tutorial: Internet Measurements: Part 1
+DTSTART;VALUE=DATE-TIME:20160822T090000
+DTEND;VALUE=DATE-TIME:20160822T103000
+UID:169f514b6171204c7d9977553cb49b4f
+DESCRIPTION:Speakers: Timur Friedman (UPMC Sorbonne Universit&eacute\;s\, 
+ France)\, Anna-Kaisa Pietilainen\, Renata Teixeira (Inria\, France)
+LOCATION:Room: Topazio 2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tutorial: SDN\, NFV and Their Role in 5G: Part 1
+DTSTART;VALUE=DATE-TIME:20160822T090000
+DTEND;VALUE=DATE-TIME:20160822T103000
+UID:de817dc3c032becff20b58110da1642d
+DESCRIPTION:Speakers: Katia Obraczka (UC Santa Cruz\, USA)\, Christian Rot
+ henberg (UNICAMP\, Brazil)\, Ahmad Rostami (Ericsson Research\, Sweden)
+LOCATION:Room: Topazio 1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tutorial: Internet Measurements: Part 2
+DTSTART;VALUE=DATE-TIME:20160822T110000
+DTEND;VALUE=DATE-TIME:20160822T123000
+UID:8b5b7cb24402a6e7f2275766382f7c31
+DESCRIPTION:Speakers: Timur Friedman (UPMC Sorbonne Universit&eacute\;s\, 
+ France)\, Anna-Kaisa Pietilainen\, Renata Teixeira (Inria\, France)
+LOCATION:Room: Topazio 2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tutorial: SDN\, NFV and Their Role in 5G: Part 2 & Closing
+DTSTART;VALUE=DATE-TIME:20160822T110000
+DTEND;VALUE=DATE-TIME:20160822T123000
+UID:d35168f8bd65df49ac90987585a6ec08
+DESCRIPTION:Speakers: Katia Obraczka (UC Santa Cruz\, USA)\, Christian Rot
+ henberg (UNICAMP\, Brazil)\, Ahmad Rostami (Ericsson Research\, Sweden)
+LOCATION:Room: Topazio 1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tutorial: Internet Measurements: Part 3
+DTSTART;VALUE=DATE-TIME:20160822T140000
+DTEND;VALUE=DATE-TIME:20160822T153000
+UID:96687cb2e1790d7ba7e4ca0990a676a4
+DESCRIPTION:Speakers: Timur Friedman (UPMC Sorbonne Universit&eacute\;s\, 
+ France)\, Anna-Kaisa Pietilainen\, Renata Teixeira (Inria\, France)
+LOCATION:Room: Topazio 2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tutorial: IPTV and Over-the-Top Video: Part 1
+DTSTART;VALUE=DATE-TIME:20160822T140000
+DTEND;VALUE=DATE-TIME:20160822T153000
+UID:b7fd4ac39a299c543e4a456bc13a3562
+DESCRIPTION:Speakers: Ali C. Begen (MediaMelon Inc\, USA)
+LOCATION:Room: Topazio 1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tutorial: Internet Measurements: Part 4 & Closing
+DTSTART;VALUE=DATE-TIME:20160822T160000
+DTEND;VALUE=DATE-TIME:20160822T173000
+UID:5ad5a63c371c40d5d49b08de1e2478c5
+DESCRIPTION:Speakers: Timur Friedman (UPMC Sorbonne Universit&eacute\;s\, 
+ France)\, Anna-Kaisa Pietilainen\, Renata Teixeira (Inria\, France)
+LOCATION:Room: Topazio 2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tutorial: IPTV and Over-the-Top Video: Part 2 & Closing
+DTSTART;VALUE=DATE-TIME:20160822T160000
+DTEND;VALUE=DATE-TIME:20160822T173000
+UID:c047e85c1596a12d1953849a4b28a235
+DESCRIPTION:Speakers: Ali C. Begen (MediaMelon Inc\, USA)
+LOCATION:Room: Topazio 1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tutorial: Enabling Research in Future WiMobNet: Part 1
+DTSTART;VALUE=DATE-TIME:20160826T090000
+DTEND;VALUE=DATE-TIME:20160826T103000
+UID:5fcfa76305785f0455edf93ca0ea3e2b
+DESCRIPTION:Speakers: Kobus Van der Merwe\, Robert Ricci\, Kirk Webb (Univ
+ ersity of Utah\, USA)
+LOCATION:Room: Esmeralda 1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tutorial: P4: Programming the Network Data Plane: Part 1
+DTSTART;VALUE=DATE-TIME:20160826T090000
+DTEND;VALUE=DATE-TIME:20160826T103000
+UID:069301e7221c5fdc6c9b57af49ea8270
+DESCRIPTION:Speakers: Changhoon Kim\, Mihai Budiu\, Antonin Bas\, Vladimir
+  Gurevich (Barefoot Networks\, USA)
+LOCATION:Room: Topazio 2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tutorial: Enabling Research in Future WiMobNet: Part 2
+DTSTART;VALUE=DATE-TIME:20160826T110000
+DTEND;VALUE=DATE-TIME:20160826T123000
+UID:0166634ce7f14badb30ae92942b1e801
+DESCRIPTION:Speakers: Kobus Van der Merwe\, Robert Ricci\, Kirk Webb (Univ
+ ersity of Utah\, USA)
+LOCATION:Room: Esmeralda 1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tutorial: P4: Programming the Network Data Plane: Part 2
+DTSTART;VALUE=DATE-TIME:20160826T110000
+DTEND;VALUE=DATE-TIME:20160826T123000
+UID:b06732dcc8b39bcc818417ed6ba365e9
+DESCRIPTION:Speakers: Changhoon Kim\, Mihai Budiu\, Antonin Bas\, Vladimir
+  Gurevich (Barefoot Networks\, USA)
+LOCATION:Room: Topazio 2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tutorial: Enabling Research in Future WiMobNet: Part 3
+DTSTART;VALUE=DATE-TIME:20160826T140000
+DTEND;VALUE=DATE-TIME:20160826T153000
+UID:44797acc34779c750228b831f8829039
+DESCRIPTION:Speakers: Kobus Van der Merwe\, Robert Ricci\, Kirk Webb (Univ
+ ersity of Utah\, USA)
+LOCATION:Room: Esmeralda 1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tutorial: P4: Programming the Network Data Plane: Part 3
+DTSTART;VALUE=DATE-TIME:20160826T140000
+DTEND;VALUE=DATE-TIME:20160826T153000
+UID:d7791242b2414bf3c193cd408c8bee85
+DESCRIPTION:Speakers: Changhoon Kim\, Mihai Budiu\, Antonin Bas\, Vladimir
+  Gurevich (Barefoot Networks\, USA)
+LOCATION:Room: Topazio 2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tutorial: Enabling Research in Future WiMobNet: Part 4 & Closing
+DTSTART;VALUE=DATE-TIME:20160826T160000
+DTEND;VALUE=DATE-TIME:20160826T173000
+UID:58f02deadcbe23cd5a83023ffcfd7482
+DESCRIPTION:Speakers: Kobus Van der Merwe\, Robert Ricci\, Kirk Webb (Univ
+ ersity of Utah\, USA)
+LOCATION:Room: Esmeralda 1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tutorial: P4: Programming the Network Data Plane: Part 4 & Closing
+DTSTART;VALUE=DATE-TIME:20160826T160000
+DTEND;VALUE=DATE-TIME:20160826T173000
+UID:b6a48c2b68fe9ffad677446d9afc6a0d
+DESCRIPTION:Speakers: Changhoon Kim\, Mihai Budiu\, Antonin Bas\, Vladimir
+  Gurevich (Barefoot Networks\, USA)
+LOCATION:Room: Topazio 2
+END:VEVENT
+END:VCALENDAR

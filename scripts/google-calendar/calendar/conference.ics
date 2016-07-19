@@ -1,0 +1,1111 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//My calendar product//mxm.dk//
+BEGIN:VEVENT
+SUMMARY: Coffee Break
+DTSTART;VALUE=DATE-TIME:20160822T103000
+DTEND;VALUE=DATE-TIME:20160822T110000
+UID:da29b4551e2232069625fcfd33d445ef
+DESCRIPTION:
+LOCATION:Room: Foyer
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: Lunch Break
+DTSTART;VALUE=DATE-TIME:20160822T123000
+DTEND;VALUE=DATE-TIME:20160822T140000
+UID:925ad2e5d9f7a18e013b7767014d9baf
+DESCRIPTION:
+LOCATION:Room: Foyer
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: Coffee Break
+DTSTART;VALUE=DATE-TIME:20160822T153000
+DTEND;VALUE=DATE-TIME:20160822T160000
+UID:60e77d96b14ed6245fe2cb9ab2967811
+DESCRIPTION:
+LOCATION:Room: Foyer
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: Coffee Break
+DTSTART;VALUE=DATE-TIME:20160823T103000
+DTEND;VALUE=DATE-TIME:20160823T110000
+UID:a3cc30b99e8024e9cd728afb05a1ebc2
+DESCRIPTION:
+LOCATION:Room: Foyer
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: Lunch Break
+DTSTART;VALUE=DATE-TIME:20160823T124000
+DTEND;VALUE=DATE-TIME:20160823T140000
+UID:3226fdd876e0a41c74835a3fd4e6703b
+DESCRIPTION:
+LOCATION:Room: Foyer
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: Coffee Break
+DTSTART;VALUE=DATE-TIME:20160823T151500
+DTEND;VALUE=DATE-TIME:20160823T161500
+UID:972a4cc5643cb0dd4548a4b13aa43708
+DESCRIPTION:
+LOCATION:Room: Foyer
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: Coffee Break
+DTSTART;VALUE=DATE-TIME:20160824T101000
+DTEND;VALUE=DATE-TIME:20160824T104000
+UID:6f0ca920fa2d09610f8ed1dd450c437f
+DESCRIPTION:
+LOCATION:Room: Foyer
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: Lunch Break
+DTSTART;VALUE=DATE-TIME:20160824T122000
+DTEND;VALUE=DATE-TIME:20160824T133000
+UID:2eeb5fa60368eaee5ca4b7765ca1e618
+DESCRIPTION:
+LOCATION:Room: Foyer
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: Coffee Break
+DTSTART;VALUE=DATE-TIME:20160824T144500
+DTEND;VALUE=DATE-TIME:20160824T154500
+UID:616529ce0f8e151d3e0933d040449715
+DESCRIPTION:
+LOCATION:Room: Foyer
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: Coffee Break
+DTSTART;VALUE=DATE-TIME:20160825T103500
+DTEND;VALUE=DATE-TIME:20160825T110500
+UID:a7fe8794ec026ca36bf8dbdf5d0592e4
+DESCRIPTION:
+LOCATION:Room: Foyer
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: Lunch Break
+DTSTART;VALUE=DATE-TIME:20160825T122000
+DTEND;VALUE=DATE-TIME:20160825T133000
+UID:ef8e588aca972bb33b069321a523c8b2
+DESCRIPTION:
+LOCATION:Room: Foyer
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: Coffee Break
+DTSTART;VALUE=DATE-TIME:20160825T144500
+DTEND;VALUE=DATE-TIME:20160825T154500
+UID:a9085c21cbbedcf01c096442fe82fcf0
+DESCRIPTION:
+LOCATION:Room: Foyer
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: Coffee Break
+DTSTART;VALUE=DATE-TIME:20160826T103000
+DTEND;VALUE=DATE-TIME:20160826T110000
+UID:f3cd3f03d23f0a0484bc63dc2816ced8
+DESCRIPTION:
+LOCATION:Room: Foyer
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: Lunch Break
+DTSTART;VALUE=DATE-TIME:20160826T123000
+DTEND;VALUE=DATE-TIME:20160826T140000
+UID:5efc328ce4c2c531c60e3ec8933a5325
+DESCRIPTION:
+LOCATION:Room: Foyer
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: Coffee Break
+DTSTART;VALUE=DATE-TIME:20160826T153000
+DTEND;VALUE=DATE-TIME:20160826T160000
+UID:36cd2414707c6a369bef4bc76d74e92e
+DESCRIPTION:
+LOCATION:Room: Foyer
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SIGCOMM Demos: Session 1
+DTSTART;VALUE=DATE-TIME:20160823T090000
+DTEND;VALUE=DATE-TIME:20160823T173000
+UID:020a9f23c8f55ef3b737b9beaec468b6
+DESCRIPTION:Demos: \n\n* Title: Source Address Validation in Software Defi
+ ned Networks – Authors: B. Liu (Tsinghua University & Huawei Technologie
+ s Co. Ltd.)\, J. Bi (Tsinghua University)\, Y. Zhou (Tsinghua University)\
+ n\n* Title: MACSAD: Multi-Architecture Compiler System for Abstract Datapl
+ anes (aka Partnering P4 with ODP) – Authors: P. Patra (University of Cam
+ pinas)\, C. Rothenberg (University of Campinas)\, G. Pongrácz (Ericsson R
+ esearch)\n\n* Title: Capture and Replay: Reproducible Network Experiments 
+ in Mininet – Authors: A. Frömmgen (TU Darmstadt)\, D. Stohr (TU Darmsta
+ dt)\, J. Fornoff (TU Darmstadt)\, W. Effelsberg (TU Darmstadt)\, A. Buchma
+ nn (TU Darmstadt)\n\n* Title: Towards Transiently Secure Updates in Asynch
+ ronous SDNs – Authors: A. Shukla (TU Berlin)\, S. Schmid (Aalborg Univer
+ sity)\, A. Feldmann (TU Berlin)\, A. Ludwig (TU Berlin)\, S. Dudycz (Unive
+ rsity of Wroclaw)\, A. Schuetze (TU Berlin)\n\n* Title: A Transparent High
+ way for inter-Virtual Network Function Communication with Open vSwitch –
+  Authors: M. Bernal (Politecnico di Torino)\, I. Cerrato (Politecnico di T
+ orino)\, F. Risso (Politecnico di Torino)\, D. Verbeiren (Tessares SA\, Lo
+ uvain-la-Neuve)\n\n* Title: Cases for Including a Reference Monitor to SDN
+  – Authors: D. Gkounis (NEC Laboratories Europe)\, F. Klaedtke (NEC Labo
+ ratories Europe)\, R. Bifulco (NEC Laboratories Europe)\, G. Karame (NEC L
+ aboratories Europe)\n\n* Title: High speed packet forwarding compiled from
+  protocol independent data plane specifications – Authors: S. Laki (Eöt
+ vös Loránd University)\, D. Horpácsi (Eötvös Loránd University)\, P.
+  Vörös (Eötvös Loránd University)\, R. Kitlei (Eötvös Loránd Unive
+ rsity)\, D. Leskó (Eötvös Loránd University)\, M. Tejfel (Eötvös Lor
+ ánd University)\n\n* Title: Roaming Edge vNFs using Glasgow Network Funct
+ ions – Authors: R. Cziva (University of Glasgow)\, S. Jouet (University 
+ of Glasgow)\, D. Pezaros (University of Glasgow)\n\n* Title: Modeling Nati
+ ve Software Components as Virtual Network Functions – Authors: M. Baldi 
+ (Politecnico di Torino)\, R. Bonafiglia (Politecnico di Torino)\, F. Risso
+  (Politecnico di Torino)\, A. Sapio (Politecnico di Torino)
+LOCATION:Room: Agata
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SIGCOMM Demos: Session 2
+DTSTART;VALUE=DATE-TIME:20160824T090000
+DTEND;VALUE=DATE-TIME:20160824T173000
+UID:3f3afa1d132f87d0cb140a4b03954d89
+DESCRIPTION:Demos: \n\n* Title: Mininet-WiFi: A Platform for Hybrid Physic
+ al-Virtual Software-Defined Wireless Networking Research – Authors: R. F
+ ontes (University of Campinas)\, C. Rothenberg (University of Campinas)\, 
+ R. Fontes (University of Campinas)\n\n* Title: Multi-Domain Orchestration 
+ across RAN and Transport for 5G – Authors: A. Rostami (Ericsson Research
+ )\, P. Öhlén (Ericsson Research)\, M. Santos (Ericsson Research)\, A. Vi
+ dal (Ericsson Research)\n\n* Title: Enabling Backscatter Communication amo
+ ng Commodity WiFi Radios – Authors: P. ZHANG (Stanford University)\, D. 
+ Bharadia (MIT)\, K. Joshi (Stanford University)\, S. Katti (Stanford Unive
+ rsity)\, P. Zhang (University of Massachusetts Amherst)\n\n* Title: Off-th
+ e-Shelf Software-defined Wi-Fi Networks – Authors: S. Hätönen (Univers
+ ity of Helsinki)\, P. Savolainen (Helsinki Institute for Information Techn
+ ology HIIT)\, A. Rao (University of Helsinki)\, H. Flinck (Nokia Bell Labs
+ )\, S. Tarkoma (University of Helsinki)\n\n* Title: ARTEMIS: Real-Time Det
+ ection and Automatic Mitigation for BGP Prefix Hijacking – Authors: G. C
+ haviaras (FORTH)\, P. Gigis (FORTH)\, P. Sermpezis (FORTH)\, X. Dimitropou
+ los (FORTH)\n\n* Title: EasyApp: A Cross-platform Mobile Applications Deve
+ lopment Environment Based on OSGi – Authors: Z. Wang (Beijing University
+  of Posts and Telecommunications)\, B. Cheng (Beijing University of Posts 
+ and Telecommunications)\, Z. Zhai (Beijing University of Posts and Telecom
+ munications)\, Y. Jin (Beijing University of Posts and Telecommunications)
+ \, Y. Feng (Beijing University of Posts and Telecommunications)\, J. Chen 
+ (Beijing University of Posts and Telecommunications)\n\n* Title: A 60Gbps 
+ DPI Prototype based on Memory-Centric FPGA – Authors: J. Su (National La
+ boratory for Parallel and Distributed Processing / National University of 
+ Defense Technology)\, S. Chen (National University of Defense Technology)\
+ , B. Han (National University of Defense Technology)\,C. Xu (National Univ
+ ersity of Defense Technology)\, X. Wang (National University of Defense Te
+ chnology)\n\n* Title: Application Driven Network: providing On-Demand Serv
+ ices for Applications – Authors: Y. Wang (Huawei Future Network Theory L
+ ab)\, D. Lin (Huawei Future Network Theory Lab)\, C. Li (Huawei Future Net
+ work Theory Lab)\, J. Zhang (Huawei Wireless Technology Lab)\, P. Liu (Hua
+ wei Wireless Technology Lab)\, C. Hu (Xi'an Jiaotong University)\, G. Zhan
+ g (Huawei Future Network Theory Lab)\n\n* Title: Fibbing in action: On-dem
+ and load-balancing for better video delivery – Authors: O. Tilmans (Univ
+ ersité Catholique de Louvain)\, S. Vissicchio (Université Catholique de 
+ Louvain)\, L. Vanbever (ETH Zürich)\, J. Rexford (Princeton University)
+LOCATION:Room: Agata
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:GAIA Workshop: Welcome and Introduction
+DTSTART;VALUE=DATE-TIME:20160826T084500
+DTEND;VALUE=DATE-TIME:20160826T090000
+UID:9103679aed8d1a1dcb1ea4ede7e66765
+DESCRIPTION:
+LOCATION:Room: Topazio 1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:GAIA Workshop: Session 1: Technology
+DTSTART;VALUE=DATE-TIME:20160826T090000
+DTEND;VALUE=DATE-TIME:20160826T103000
+UID:d0dec608a00c5bf5958ad8cb87ecf86c
+DESCRIPTION:Papers: \n\n* Title: Open and regionalised spectrum repositori
+ es for emerging countries – Authors: A. Arcia-Moret\, A. Sathiaseelan\, 
+ M. Zenaro\, F. Rondon\, E. Pietrosemoli\, D. Johnson\n\n* Title: Will 5G S
+ ee its Blind Side? Evolving 5G for Universal Internet Access – Authors: 
+ O. Onireti\, J. Qadir\, M. Imran\, A. Sathiaseelan\n\n* Title: Tangible Sh
+ aring\, Invisible Mechanisms: The Design and Implementation of the Bayanih
+ aNets Access Sharing Network – Authors: I. Montes\, M. Cruz\, A. Remilla
+ no II\, M. Villanoy\, L. Beltran II\, R. Ocampo\, C. Festin
+LOCATION:Room: Topazio 1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:GAIA Workshop: Session 2: Economics and Deployment
+DTSTART;VALUE=DATE-TIME:20160826T110000
+DTEND;VALUE=DATE-TIME:20160826T123000
+UID:bf109971b79bfe538a3d772604253fac
+DESCRIPTION:Papers: \n\n* Title: A Techno-Economic Framework for Broadband
+  Deployment in Underserved Areas – Authors: R. Durairajan\, P. Barford\n
+ \n* Title: RemIX: A Distributed Internet Exchange for Remote and Rural Net
+ works – Authors: W. Waites\, J. Sweet\, R. Baig\, P. Buneman\, M. Fayed\
+ , G. Hughes\, M. Fourman\, R. Simmons\n\n* Title: Making Community Network
+ s economically sustainable\, the guifi.net experience – Authors: R. Baig
+ \, L. Dalmau\, R. Roca\, L. Navarro\, F. Freitag\, A. Sathiaseelan
+LOCATION:Room: Topazio 1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:GAIA Workshop: Session 3: Invited Experience Reports
+DTSTART;VALUE=DATE-TIME:20160826T140000
+DTEND;VALUE=DATE-TIME:20160826T153000
+UID:116d3f445777aec02e29e0535c691e38
+DESCRIPTION:Papers: \n\n* Title: SIMMC - An Integrated Monitoring System f
+ or Brazilian Digital Inclusion Projects – Authors: L. Bona\, D. Pasquali
+ n\, C. Trois\, M. Suny&eacute\;\, M. Fabro\, E. de Almeida\, M. Castilho\,
+  D. Weingaertner\, F. Silva\, E. Maciel\, A. Bernardes\, E. Mateus\n\n* Ti
+ tle: Open Source Community Cellular Networks: Brazilian Amazon as Case Stu
+ dy – Authors: A. Klautau\, M. Dias\, J. Soares\, F. Teixeira\, L. Brito\
+ , E. Junior\, P. Batista\, J. Leite\n\n* Title: Empirical evaluation of mo
+ bile network services in developing countries – Authors: S. Rao\, K. Kum
+ ar\, J. Manner\, T. Aura
+LOCATION:Room: Topazio 1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:GAIA Workshop: Panel Session
+DTSTART;VALUE=DATE-TIME:20160826T160000
+DTEND;VALUE=DATE-TIME:20160826T170000
+UID:7b805cc9bd5a0d192745baa5a47d91e0
+DESCRIPTION:
+LOCATION:Room: Topazio 1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:GAIA Workshop: Wrap-up
+DTSTART;VALUE=DATE-TIME:20160826T170000
+UID:fbe49c451231112de3fb80ff3e879c22
+DESCRIPTION:
+LOCATION:Room: Topazio 1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:HotMiddlebox Workshop: Opening and Welcome
+DTSTART;VALUE=DATE-TIME:20160826T083000
+DTEND;VALUE=DATE-TIME:20160826T084000
+UID:7e3fe0cd2ba26d68363004ea1b9eb43f
+DESCRIPTION:
+LOCATION:Room: Agata 1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:HotMiddlebox Workshop: Keynote Session
+DTSTART;VALUE=DATE-TIME:20160826T084000
+DTEND;VALUE=DATE-TIME:20160826T094000
+UID:54697060b417406de61b95634e108f1b
+DESCRIPTION:* Keynote Title:\nRecent Advances in Network Function Virtuali
+ zation\n\nSpeaker:\nAditya Akella (University of Wisconsin-Madison)\n\nAbs
+ tract:\nNetwork Function Virtualization (NFV) is a promising technology th
+ at aims to improve network agility and reduce costs. In just a few years\,
+  the NFV area has blossomed both with novel research ideas and production 
+ systems. Yet\, as the landscape changes\, e.g.\, with the emergence of new
+  usecases and compute hardware\, exciting new challenges and opportunities
+  arise. In this talk I will survey my group's recent contributions to NFV 
+ highlighting some of the challenges we have unearthed in handling network 
+ function state and chaining/composing network functions. I will also discu
+ ss our preliminary work on leveraging the opportunities afforded by server
+  offload features in implementing certain software network functions at li
+ ne rate. I will conclude the talk with a brief discussion of other broad o
+ pen research issues in NFV.\n\n
+LOCATION:Room: Agata 1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:HotMiddlebox Workshop: Session 1: Middlebox and Privacy
+DTSTART;VALUE=DATE-TIME:20160826T094000
+DTEND;VALUE=DATE-TIME:20160826T103000
+UID:6ed3f759976fe1ee1dbe2e64a5162dfa
+DESCRIPTION:Papers: \n\n* Title: Light at the Middle of the Tunnel: Middle
+ boxes for Selective Disclosure of Network Monitoring to Distrusted Parties
+  – Authors: N. Sultana\, M. Kohlweiss\, A. W. Moore\n\n* Title: SplitBox
+ : Toward Efficient Private Network Function Virtualization – Authors: H.
+  J. Asghar\, L. Melis\, C. Soldani\, E. De Cristofaro\, M. A. Kaafar\, L. 
+ Mathy
+LOCATION:Room: Agata 1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:HotMiddlebox Workshop: Session 2: On Resource Allocation
+DTSTART;VALUE=DATE-TIME:20160826T110000
+DTEND;VALUE=DATE-TIME:20160826T123000
+UID:ab147ba6939cbf18ad9f1d010f08c822
+DESCRIPTION:Papers: \n\n* Title: Measurement Based Fair Queuing for Alloca
+ ting Bandwidth to Virtual Machines – Authors: K. To\, D. Firestone\, G. 
+ Varghese\, J. Padhye\n\n* Title: Datacenter Scale Load Balancing for Multi
+ path Transport – Authors: V. Olteanu\, C. Raiciu\n\n* Discussion on pape
+ rs of the Sessions 1 & 2 (20min)
+LOCATION:Room: Agata 1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:HotMiddlebox Workshop: Session 3:  Middlebox Management
+DTSTART;VALUE=DATE-TIME:20160826T140000
+DTEND;VALUE=DATE-TIME:20160826T153000
+UID:c0c8dc507f3da8d7d7ee0985c4d9f577
+DESCRIPTION:Papers: \n\n* Title: OpenNetVM: A Platform for High Performanc
+ e Network Service Chains – Authors: W. Zhang\, G. Liu\, W. Zhang\, N. Sh
+ ah\, P. Lopreiato. G. Todeschi\, K.K. Ramakrishnan\, T. Wood\n\n* Title: A
+ daptive Service-Chain Routing for Virtual Network Functions in Software-De
+ fined Networks – Authors: A. Dwaraki\, T. Wolf\n\n* Title: A Standardize
+ d Southbound API for VNF Management – Authors: J. Khalid\, M. Coatsworth
+ \, A. Gember-Jacobson\, A. Akella\n\n* Discussion (15min)
+LOCATION:Room: Agata 1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:HotMiddlebox Workshop: Session 4: Middlebox and TCP processing
+DTSTART;VALUE=DATE-TIME:20160826T160000
+DTEND;VALUE=DATE-TIME:20160826T170000
+UID:0adcfb7dba3979d52ae9e24a6a3e3e23
+DESCRIPTION:Papers: \n\n* Title: On the Fly TCP Acceleration with Miniprox
+ y – Authors: G. Siracusano\, R. Bifulco\, S. Kuenzer\, S. Salsano\, N. B
+ lefari Melazzi\, F. Huici\n\n* Title: CliMB: Enabling Network Function Com
+ position with Click Middleboxes – Authors: R. Laufer\, M. Gallo\, D. Per
+ ino\, A. Nandugudi\n\n* Discussion (10min)
+LOCATION:Room: Agata 1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:HotMiddlebox Workshop: Concluding Remarks
+DTSTART;VALUE=DATE-TIME:20160826T170000
+UID:e4d992c6d82988656bfe41ea6ea325f1
+DESCRIPTION:
+LOCATION:Room: Agata 1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SIGCOMM Industrial Demos: Industrial Demo Session
+DTSTART;VALUE=DATE-TIME:20160825T090000
+DTEND;VALUE=DATE-TIME:20160825T173000
+UID:a4361882825750654b7aaaa885465c63
+DESCRIPTION:Demos: \n\n* Title: More Juice Less Bits: Content Aware Stream
+ ing – Authors: A. C. Begen (MediaMelon\, Inc.)\n\n* Title: ONOS centrali
+ zed control over a P4 programmable data plane – Authors: C. Cascone (Ope
+ n Networking Laboratory)\, A. Al-Shabibi (Open Networking Laboratory)\, C.
+  Kim (Barefoot Networks)\n\n* Title: Tracking Any Packet’s Path and Late
+ ncy via INT – Authors: C. Kim (Barefoot Networks)\, J. Lee (Barefoot Net
+ works)\n\n* Title: Xilinx P4 to NetFPGA SUME compilation flow\, demonstrat
+ ed for PERC congestion control algorithm experiments – Authors: G. Brebn
+ er (Xilinx\, Inc.)\, R. Halstead (Xilinx\, Inc.)\, C. Neely (Xilinx\, Inc.
+ )\, S. Ibanez (Stanford University)\, L. Jose (Stanford University)\, N. M
+ cKeown (Stanford University)\, M. Alizadeh (MIT)\n\n* Title: High Performa
+ nce Service Chaining for Ethernet Transport Networks – Authors: J. Vacar
+ o (Hewlett Packard Enterprise)\, R. Eichelberger (Hewlett Packard Enterpri
+ se)\, S. Tandel (Hewlett Packard Enterprise)\, P. Bottorff (Hewlett Packar
+ d Enterprise)\, D. Fedyk (Hewlett Packard Enterprise)\, S. Banerjee (Hewle
+ tt Packard Enterprise)\, R. Eichelberger (Hewlett Packard Enterprise)\n\n*
+  Title: A novel Network Functions Virtualization Platform - Residential CP
+ E use case – Authors: L. Mariote (CPqD)\, M. Nascimento (CPqD)\, T. Prim
+ ini (CPqD)\, A. Barbieri (Trópico)\n\n* Title: QoS measurement with Tangr
+ am Measures – Authors: B. Rafaeli (TGR / UFRJ)\, C. Junior (TGR)\, C. Go
+ nçalves (TGR / UFRJ)\, D. Ximenes (TGR / UFRJ)\, G. Mendonça (TGR)\, G. 
+ Bruno (TGR)\, G. Sengès (TGR / UFRJ)\, G. Thurler (TGR / UFRJ)\, G. Santo
+ s (TGR)\, K. Almeida (TGR)\, E. Silva (UFRJ)\n\n* Title: VNF and µVNF cha
+ ining with in-band network telemetry for servers equipped with P4 / C prog
+ rammable SmartNICs – Authors: D. George (Netronome Systems\, Inc.)\, J. 
+ Tönsing (Netronome Systems\, Inc.)
+LOCATION:Room: Agata
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:LANCOMM Workshop: Opening and Introduction
+DTSTART;VALUE=DATE-TIME:20160822T083000
+DTEND;VALUE=DATE-TIME:20160822T084500
+UID:4a4034edee3e1ac96209bdf1aacac109
+DESCRIPTION:
+LOCATION:Room: Agata 1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:LANCOMM Workshop: Session 1: Network Measurements
+DTSTART;VALUE=DATE-TIME:20160822T084500
+DTEND;VALUE=DATE-TIME:20160822T103000
+UID:179c97b5b3ed7b0a572f06accd9b6f31
+DESCRIPTION:Papers: \n\n* Title: Big-DAMA: Big Data Analytics for Network 
+ Traffic Monitoring and Analysis – Authors: P. Casas\, A. D'Alconzo\, T. 
+ Zseby\, M. Mellia\n\n* Title: Hidden Internet Topologies Info: Truth or My
+ th? – Authors: S. Berenguer\, E. Carisimo\, J. Alvarez-Hamelin\, F. Pint
+ or\n\n* Title: Should I Wait or Should I Push? A Performance Analysis of P
+ ush Feature in HTTP/2 Connections – Authors: I. de Oliveira\, P. Endo\, 
+ W. Melo\, D. Sadok\, J. Kelner\n\n* Title: Looking for Network Latency Clu
+ sters in the LAC Region – Authors: A. Formoso\, P. Casas\n\n* Title: Wha
+ tsApp Calling: a Revised Analysis on WhatsApp's Architecture and Calling S
+ ervice – Authors: J. Vanerio\, P. Casas\n\n* Title: A Preliminary Perfor
+ mance Measurement Study of Residential Broadband Services in Brazil – Au
+ thors: D. Mendes\, G. Senges\, G. Santos\, G. Mendonça\, R. Leão\, E. Si
+ lva\n\n* Discussion: Synergies in Network Measurements Research
+LOCATION:Room: Agata 1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:LANCOMM Workshop: Session 2: SDN & NVF
+DTSTART;VALUE=DATE-TIME:20160822T110000
+DTEND;VALUE=DATE-TIME:20160822T123000
+UID:e5ced15a60886ca80bb87968ed1ca2e0
+DESCRIPTION:Papers: \n\n* Title: SDN-based Overlay Networks for QoS-aware 
+ Routing – Authors: P. Belzarena\, G. Sena\, I. Amigo\, S. Vaton\n\n* Tit
+ le: Metherxis: Virtualized Network Functions for Micro-second Grade Latenc
+ y Measurements – Authors: D. Mafioletti\, A. Liberato\, C. Dominicini\, 
+ R. Villaça\, M. Martinello\, M. Ribeiro\n\n* Title: RAUflow: building Vir
+ tual Private Networks with MPLS and OpenFlow – Authors: S. Vidal\, J. Am
+ aro\, E. Viotti\, M. Giachino\, E. Grampin\n\n* Title: A Datacenter Networ
+ k Architecture for Low Latency\, Automation and Virtualization – Authors
+ : R. Vencioneck\n\n* Title: Dynamic Backhauling within Converged Networks 
+ – Authors: A. Liberato\, M. Ribeiro\, M. Martinello\, J. Marquez-Barja\,
+  N. Kaminski\, L. DaSilva\n\n* Title: Avoiding Voice Traffic Degradation i
+ n IP Enterprise Networks Using CAoS – Authors: P. Maribondo\, N. Fernand
+ es\n\n* Discussion: Synergies in SDN/NFV Research
+LOCATION:Room: Agata 1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:LANCOMM Workshop: Session 3: Network Modelling\, Monitoring and An
+ alysis
+DTSTART;VALUE=DATE-TIME:20160822T140000
+DTEND;VALUE=DATE-TIME:20160822T170000
+UID:c8a07b688a1131efcfae549c818a1edd
+DESCRIPTION:Papers: \n\n* Title: Improving Performance of Multiple-level C
+ ache Systems – Authors: I. Rodriguez\, A. Ferragut\, F. Paganini\n\n* Ti
+ tle: Cognitive Radio Networks: Analysis of a Paid-Sharing Approach based o
+ n a Fluid Model – Authors: C. Rattaro\, P. Belzarena\n\n* Title: Analysi
+ ng Costs and Benefits of Content Sharing in Cloud Storage – Authors: G. 
+ Goncalves\, I. Drago\, A. Borges\, A. Couto\, J. Almeida\n\n* Title: Compu
+ ting a Precise Timeout Interval Despite a Communication Channel with Varyi
+ ng Behavior – Authors: R. Turchetti\, E. Duarte Jr.\n\n* Title: Network 
+ Monitoring with Imperfect Tests – Authors: E. de Camargo\, E. Duarte Jr.
+ \n\n* Title: Improving Delivery Delay in Social-based Message Forwarding i
+ n Delay Tolerant Networks – Authors: C. Souza\, E. Mota\, D. soares\, P.
+  Manzoni\, J. Cano\, C. Calafate\n\n* Title: Adopting Security Routines in
+  Legacy Organizations – Authors: E. Azevedo\, M. Machado\, R. Melo\, R. 
+ Aschoff\, D. Sadok\, U. Carmo\n\n* Discussion: Synergies in Network Modeli
+ ng\, Monitoring and Analysis Research
+LOCATION:Room: Agata 1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:LANCOMM Workshop: Wrap-up\, Planning of Next Steps\, and Closing
+DTSTART;VALUE=DATE-TIME:20160822T170000
+UID:f46a051265678a04e0b31b1e290cb1da
+DESCRIPTION:
+LOCATION:Room: Agata 1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SIGCOMM Posters: Session 1
+DTSTART;VALUE=DATE-TIME:20160823T090000
+DTEND;VALUE=DATE-TIME:20160823T173000
+UID:613c0c6af9063cdd7d7233c2383b639d
+DESCRIPTION:Posters: \n\n* Title: PieBridge: A Cross-DR scale Large Data T
+ ransmission Scheduling System – Authors: Y. Zhang (Tsinghua University)\
+ , K. Xu (Tsinghua University)\, G. Yao (Baidu)\, M. Zhang (Baidu)\, X. Nie
+  (Tsinghua University)\, Y. Zhang (Tsinghua University)\n\n* Title: A Long
+ itudinal Analysis of .i2p Leakage in the Public DNS Infrastructure – Aut
+ hors: S. Jeong (Korea University)\, A. Kang (SUNY Buffalo)\, J. Kim (Chung
+ -Ang University)\, H. Kim (Korea University)\, A. Mohaisen (SUNY Buffalo)\
+ n\n* Title: Best Effort Task Scheduling for Data Parallel Jobs – Authors
+ : Z. Li (National University of Defense Technology)\, Y. Zhang (National U
+ niversity of Defense Technology)\, Y. Zhao (National University of Defense
+  Technology)\, Y. Peng (National University of Defense Technology)\, D. Li
+  (National University of Defense Technology)\n\n* Title: Efficient Remappi
+ ng of Internet Routing Events – Authors: E. Fazzion (Universidade Federa
+ l de Minas Gerais)\, Í. Cunha (Universidade Federal de Minas Gerais)\, D.
+  Guedes (Universidade Federal de Minas Gerais)\, W. Meira Jr. (Universidad
+ e Federal de Minas Gerais)\, R. Teixeira (Inria)\, D. Veitch (University o
+ f Technology Sydney)\, C. Diot (Safran)\n\n* Title: Privacy-Aware Infrastr
+ ucture for Managing Personal Data – Authors: Y. Amar (Queen Mary Univers
+ ity of London)\, H. Haddadi (Queen Mary University of London)\, R. Mortier
+  (University of Cambridge)\n\n* Title: Performance Evaluation of Locator/I
+ dentifier Separation Protocol through RIPE Atlas – Authors: Y. Li (Telec
+ om ParisTech)\, L. Iannone (Telecom ParisTech)\n\n* Title: TafLoc: Time-ad
+ aptive and Fine-grained Device-free Localization with Little Cost – Auth
+ ors: L. Chang (Northwest University)\, J. Xiong (Singapore Management Univ
+ ersity)\, X. Chen (Northwest University)\, J. Wang (Northwest University)\
+ , J. Hu (Northwest University)\, D. Fang (Northwest University)\, W. Wang 
+ (Northwest University)\, L. Chang (Northwest University)\n\n* Title: A Fir
+ st Look into Transnational Routing Detours – Authors: A. Edmundson (Prin
+ ceton University)\, R. Ensafi (Princeton University)\, N. Feamster (Prince
+ ton University)\, J. Rexford (Princeton University)\n\n* Title: PathCache:
+  A Path Prediction Toolkit – Authors: R. Singh (Stony Brook University)\
+ , P. Gill (Stony Brook University)\n\n* Title: Application-specific Accele
+ ration Framework for Mobile Applications – Authors: B. Choi (KAIST)\, J.
+  Kim (KAIST)\, D. Han (KAIST)\, J. Kim (KAIST)\, B. Choi (KAIST)
+LOCATION:Room: Topazio
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SIGCOMM Posters: Session 2
+DTSTART;VALUE=DATE-TIME:20160824T090000
+DTEND;VALUE=DATE-TIME:20160824T173000
+UID:bbcf6fa4ce40a9223c2013a3711e6128
+DESCRIPTION:Posters: \n\n* Title: Named Data Networking Based Smart Home L
+ ighting – Authors: U. De Silva (Asian Institute of Technology)\, A. Lert
+ sinsrubtavee (University of Cambridge)\, A. Sathiaseelan (University of Ca
+ mbridge)\, K. Kanchanasut (Asian Institute of Technology)\n\n* Title: Achi
+ eving Consistent SDN Control With Declarative Applications – Authors: W.
+  Wang (McGill Unversity)\, C. Liu (Logistic Information Center)\, J. Su (N
+ ational University Of Defense Technology)\, W. He (McGill Unversity)\n\n* 
+ Title: Modular SDN Compiler Design with Intermediate Representation – Au
+ thors: H. Li (Xi'an Jiaotong University)\, C. Hu (Xi'an Jiaotong Universit
+ y)\, P. Zhang (Xi'an Jiaotong University)\, L. Xie (Xi'an Jiaotong Univers
+ ity)\n\n* Title: SLA-NFV: an SLA-aware High Performance Framework for Netw
+ ork Function Virtualization – Authors: C. Sun (Tsinghua University)\, J.
+  Bi (Tsinghua University)\, Z. Zheng (Tsinghua University)\, H. Hu (Clemso
+ n University)\n\n* Title: Conan: Content-aware Access Network Flow Schedul
+ ing to Improve QoE of Home Users – Authors: H. Yang (Nanjing University)
+ \, X. Wang (Nanjing University)\, C. Nguyen (Nanjing University)\, S. Lu (
+ Nanjing University)\n\n* Title: Building Application-Aware Network Environ
+ ments using SDN for Optimizing Hadoop Applications – Authors: S. Zhao (U
+ niversity of Missouri - Kansas City)\, A. Sydney (Raytheon BBN Technologie
+ s)\, D. Medhi (University of Missouri - Kansas City)\, S. Zhao (University
+  of Missouri - Kansas City)\n\n* Title: Horse: towards an SDN traffic dyna
+ mics simulator for large scale networks – Authors: E. Fernandes (Queen M
+ ary\, University of London)\, G. Antichi (University of Cambridge)\, I. Ca
+ stro (Queen Mary\, University of London)\, S. Uhlig (Queen Mary\, Universi
+ ty of London)\n\n* Title: Rethinking the Design of OpenFlow Switch Counter
+ s – Authors: J. Yang (Xian Jiaotong Unviersity)\, C. Hu (Xian Jiaotong U
+ nviersity)\, P. Zheng (Xian Jiaotong Unviersity)\, R. Wang (Xian Jiaotong 
+ Unviersity)\, P. Zhang (Xian Jiaotong Unviersity)\, X. Guan (Xian Jiaotong
+  University / Tsinghua University)\n\n* Title: Taming the Flow Table Overf
+ low in OpenFlow Switch – Authors: S. Qiao (Xi’an Jiaotong University)\
+ , C. Hu (Xi’an Jiaotong University)\, X. Guan (Xi’an Jiaotong Universi
+ ty)\, J. Zou (Xi’an Jiaotong University)\n\n* Title: Magellan: Generatin
+ g Multi-Table Datapath from Datapath Oblivious Algorithmic SDN Policies 
+ – Authors: A. Voellmy (Yale University)\, S. Chen (Tongji University)\, 
+ X. Wang (Tongji University)\, Y. Yang (Yale University)\n\n* Title: FAST: 
+ A Simple Programming Abstraction for Complex State-Dependent SDN Programmi
+ ng – Authors: K. Gao (Tsinghua University)\, C. Gu (Tongji University)\,
+  Q. Xiang (Tongji/Yale University)\, Y. Yang (Tongji/Yale University)\, J.
+  Bi (Tsinghua University)\, Q. Xiang (Yale University)
+LOCATION:Room: Topazio
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SIGCOMM Posters: Session 3 (Main Track Papers)
+DTSTART;VALUE=DATE-TIME:20160825T090000
+DTEND;VALUE=DATE-TIME:20160825T173000
+UID:c801006e20da5af01bfef50b12c8a19a
+DESCRIPTION:Posters: * Coming soon.
+LOCATION:Room: Topazio
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Internet-QoE Workshop: Opening and Introduction
+DTSTART;VALUE=DATE-TIME:20160826T083000
+DTEND;VALUE=DATE-TIME:20160826T084500
+UID:4122254b52be6300364dbf915d0d3a51
+DESCRIPTION:
+LOCATION:Room: Agata 2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Internet-QoE Workshop: Session 1: Passive QoE-based Monitoring in 
+ Operational Networks
+DTSTART;VALUE=DATE-TIME:20160826T084500
+DTEND;VALUE=DATE-TIME:20160826T103000
+UID:cdb9164c80e7018ae6e1f87fa113679d
+DESCRIPTION:Papers: \n\n* Title: An Educated Guess on QoE in Operational N
+ etworks through Large-Scale Measurements – Authors: P. Casas\, B. Gardlo
+ \, R. Schatz\, M. Mellia\n\n* Title: Impact of Access Speed on Adaptive Vi
+ deo Streaming Quality - A Passive Perspective – Authors: M. Trevisan\, I
+ . Drago\, M. Mellia\n\n* Title: Predicting the effect of home Wi-Fi qualit
+ y on Web QoE – Authors: D. Neves da Hora\, R. Teixeira\, K. van Doorsela
+ er\, K. van Oost\n\n* Keynote Title:\nImproving Web Performance\n\nSpeaker
+ :\nProf. Harsha V. Madhyastha (Computer Science and Engineering Division\,
+  University of Michigan\, US)\n\n
+LOCATION:Room: Agata 2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Internet-QoE Workshop: Session 2: QoE Modeling and Analysis
+DTSTART;VALUE=DATE-TIME:20160826T110000
+DTEND;VALUE=DATE-TIME:20160826T123000
+UID:01d1a747bbe5a0ce56ffa6e461cce943
+DESCRIPTION:Papers: \n\n* Title: QoE Inference Without Application Control
+  – Authors: A. Nikravesh\, D. Hong\, Q. Chen\, H. Madhyastha\, Z. Mao\n\
+ n* Title: QoE Analysis of DASH Cross-Layer Dependencies by Extensive Netwo
+ rk Emulation – Authors: D. Stohr\, A. Frömmgen\, J. Fornoff\, M. Zink\,
+  A. Buchmann\, W. Effelsberg\n\n* Title: Towards a causal analysis of Vide
+ o QoE from Network and Application QoS – Authors: M. Katsarakis\, R. Tei
+ xeira\, M. Papadopouli\, V. Christophides\n\n* Keynote Title:\nThe Challen
+ ges of Measuring Internet Quality of Experience\n\nSpeaker:\nDr. Renata Cr
+ uz Teixeira (Senior Researcher\, INRIA Paris\, France)\n\n
+LOCATION:Room: Agata 2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Internet-QoE Workshop: Session 3:  QoE-based Network Management an
+ d Assessment
+DTSTART;VALUE=DATE-TIME:20160826T140000
+DTEND;VALUE=DATE-TIME:20160826T164500
+UID:27497dd1a17abc134eb630e9da1859db
+DESCRIPTION:Papers: \n\n* Title: Measuring the Quality of Experience of We
+ b users – Authors: E. Bocchi\, L. De Cicco\, D. Rossi\n\n* Title: BingeO
+ n Under the Microscope: Understanding T-Mobiles Zero-Rating Implementation
+  – Authors: A. Kakhki\, F. Li\, D. Choffnes\, E. Katz-Bassett\, A. Mislo
+ ve\n\n* Title: Concept for Client-initiated Selection of Cloud Instances f
+ or Improving QoE of Distributed Cloud Services – Authors: F. Wamser\, M.
+  Seufert\, S. Höfner\, P. Tran-Gia\n\n* Title: Client-Driven Network-leve
+ l QoE fairness for Encrypted 'DASH-S' – Authors: J. Chen\, M. Ammar\, M.
+  Fayed\, R. Fonseca\n\n* Keynote Title:\nOn the Analysis and Modeling of Q
+ uality of Experience for Video Streaming\n\nSpeaker:\nProf. Maria  Papadop
+ ouli (Department of Computer Science\, University of Crete & FORTH)\n\n
+LOCATION:Room: Agata 2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Internet-QoE Workshop: Discussion: Strengthening QoE-based Researc
+ h @SIGCOMM
+DTSTART;VALUE=DATE-TIME:20160826T164500
+DTEND;VALUE=DATE-TIME:20160826T171500
+UID:9fe1dc3c3aa7d720ac5e4766eb2682fe
+DESCRIPTION:
+LOCATION:Room: Agata 2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Internet-QoE Workshop: Wrap-up\, Next Steps and Closing
+DTSTART;VALUE=DATE-TIME:20160826T171500
+UID:9e099c9ed335610e325d02ecf447fcb7
+DESCRIPTION:
+LOCATION:Room: Agata 2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SIGCOMM: Topic Preview 1
+DTSTART;VALUE=DATE-TIME:20160822T173000
+DTEND;VALUE=DATE-TIME:20160822T184500
+UID:83e7bed42e493b6abe7da783dc22d1a4
+DESCRIPTION:
+LOCATION:Room: Agata 1 and Agata 2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SIGCOMM: Welcome Reception
+DTSTART;VALUE=DATE:20160822
+DTEND;VALUE=DATE:20160822
+UID:d040a1dc28722c23f5830c2d96aa589d
+LOCATION:Foyer
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SIGCOMM: N2Women Dinner
+DTSTART;VALUE=DATE:20160822
+DTEND;VALUE=DATE:20160822
+UID:c73082c398129bf370b2dcafb81fcca2
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SIGCOMM: Award Dinner
+DTSTART;VALUE=DATE:20160822
+DTEND;VALUE=DATE:20160822
+UID:0923fb1264e7f7199e807665262234d8
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SIGCOMM: Opening
+DTSTART;VALUE=DATE-TIME:20160823T084500
+DTEND;VALUE=DATE-TIME:20160823T103000
+UID:162bf92d485e73afc77bcdd0cf347f20
+DESCRIPTION:
+LOCATION:Room: Diamante
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SIGCOMM: Session 1 - SDN & NFV
+DTSTART;VALUE=DATE-TIME:20160823T110000
+DTEND;VALUE=DATE-TIME:20160823T124000
+UID:0e5bafd3a3fd6d2600a0bedc04820ee4
+DESCRIPTION:Papers: \n\n* Title: ClickNP: Highly Flexible and High Perform
+ ance Network Processing with Reconfigurable Hardware – Authors: Bojie Li
+  (USTC / Microsoft Research)\, Kun Tan (Microsoft Research)\, Layong (Larr
+ y) Luo (Microsoft)\, Yanqing Peng (SJTU / Microsoft Research)\, Renqian Lu
+ o (USTC / Microsoft Research)\, Ningyi Xu (Microsoft Research)\, Yongqiang
+  Xiong (Microsoft Research)\, Peng Cheng (Microsoft Research)\, Enhong Che
+ n (USTC)\n\n* Title: Packet Transactions: High-Level Programming for Line-
+ Rate Switches – Authors: Anirudh Sivaraman (MIT CSAIL)\, Alvin Cheung (U
+ niversity of Washington\, Seattle)\, Mihai Budiu (VMWare Research)\, Chang
+ hoon Kim (Barefoot Networks)\, Mohammad Alizadeh (MIT CSAIL)\, Hari Balakr
+ ishnan (MIT CSAIL)\, George Varghese (Microsoft Research)\, Nick McKeown (
+ Stanford University)\, Steve Licking (Barefoot Networks)\n\n* Title: SNAP:
+  Stateful Network-Wide Abstractions for Packet Processing – Authors: Min
+ a Tahmasbi Arashloo (Princeton University)\, Yaron Koral (Princeton Univer
+ sity)\, Michael Greenberg (Pomona College)\, Jennifer Rexford (Princeton U
+ niversity)\, David Walker (Princeton University)\n\n* Title: Programmable 
+ Packet Scheduling at Line Rate – Authors: Anirudh Sivaraman (MIT CSAIL)\
+ , Suvinay Subramanian (MIT CSAIL)\, Mohammad Alizadeh (MIT CSAIL)\, Sharad
+  Chole (Cisco Systems)\, Shang-Tse Chuang (Cisco Systems)\, Anurag Agrawal
+  (Barefoot Networks)\, Hari Balakrishnan (MIT CSAIL)\, Tom Edsall (Cisco S
+ ystems)\, Sachin Katti (Stanford University)\, Nick McKeown (Stanford Univ
+ ersity)
+LOCATION:Room: Diamante
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SIGCOMM: Session 2 - Wide Area Networks
+DTSTART;VALUE=DATE-TIME:20160823T140000
+DTEND;VALUE=DATE-TIME:20160823T151500
+UID:77f9702ad422ac971e72f422ab0b3a86
+DESCRIPTION:Papers: \n\n* Title: Evolve or Die: High-Availability Design P
+ rinciples Drawn from Google's Network Infrastructure – Authors: Ramesh G
+ ovindan (Google / USC)\, Ina Minei (Google)\, Mahesh Kallahalla (Google)\,
+  Bikash Koley (Google)\, Amin Vahdat (Google)\n\n* Title: Dynamic Pricing 
+ and Traffic Engineering for Timely Inter-Datacenter Transfers – Authors:
+  Virajith Jalaparti (Microsoft)\, Ivan Bliznets (St. Petersburg Academic U
+ niversity)\, Srikanth Kandula (Microsoft)\, Brendan Lucier (Microsoft)\, I
+ shai Menache (Microsoft)\n\n* Title: Optimizing Bulk Transfers with Softwa
+ re-Defined Optical WAN – Authors: Xin Jin (Princeton University)\, Yiran
+  Li (Tsinghua University)\, Da Wei (Tsinghua University)\, Siming Li (Ston
+ y Brook University)\, Jie Gao (Stony Brook University)\, Lei Xu (Sodero Ne
+ tworks)\, Guangzhi Li (AT&T Labs)\, Wei Xu (Tsinghua University)\, Jennife
+ r Rexford (Princeton University)
+LOCATION:Room: Diamante
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SIGCOMM: Session 3 - Monitoring and Diagnostics
+DTSTART;VALUE=DATE-TIME:20160823T161500
+DTEND;VALUE=DATE-TIME:20160823T173000
+UID:2f414a68f378b061db4fc47e2114c42c
+DESCRIPTION:Papers: \n\n* Title: One Sketch to Rule Them All: Rethinking N
+ etwork Flow Monitoring with UnivMon – Authors: Zaoxing Liu (Johns Hopkin
+ s University)\, Antonis Manousis (Carnegie Mellon University)\, Gregory Vo
+ rsanger (Johns Hopkins University)\, Vyas Sekar (Carnegie Mellon Universit
+ y)\, Vladimir Braverman (Johns Hopkins University)\n\n* Title: The Good\, 
+ the Bad\, and the Differences: Better Network Diagnostics with Differentia
+ l Provenance – Authors: Ang Chen (University of Pennsylvania)\, Yang Wu 
+ (University of Pennsylvania)\, Andreas Haeberlen (University of Pennsylvan
+ ia)\, Wenchao Zhou (Georgetown University)\, Boon Thau Loo (University of 
+ Pennsylvania)\n\n* Title: Trumpet: Timely and Precise Triggers in Data Cen
+ ters – Authors: Masoud Moshref (University of Southern California)\, Min
+ lan Yu (University of Southern California)\, Ramesh Govindan (University o
+ f Southern California)\, Amin Vahdat (Google)
+LOCATION:Room: Diamante
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SIGCOMM: Conference Banquet
+DTSTART;VALUE=DATE-TIME:20160823T190000
+DTEND;VALUE=DATE-TIME:20160823T233000
+UID:acc36bfbb35910966a6a2272e5050e6e
+LOCATION:Slaviero Essential Florianópolis Ingleses
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SIGCOMM: Session 4 - Scheduling
+DTSTART;VALUE=DATE-TIME:20160824T083000
+DTEND;VALUE=DATE-TIME:20160824T101000
+UID:69b237150d0e7de01a3b7a7640b3f0ad
+DESCRIPTION:Papers: \n\n* Title: 2DFQ: Two-Dimensional Fair Queueing for M
+ ulti-Tenant Cloud Services – Authors: Jonathan Mace (Brown University)\,
+  Peter Bodik (Microsoft)\, Madanlal Musuvathi (Microsoft)\, Rodrigo Fonsec
+ a (Brown University)\, Krishnan Varadarajan (Microsoft)\n\n* Title: CODA: 
+ Toward Automatically Identifying and Scheduling Coflows in the Dark – Au
+ thors: Hong Zhang (Hong Kong University of Science and Technology)\, Li Ch
+ en (Hong Kong University of Science and Technology)\, Bairen Yi (Hong Kong
+  University of Science and Technology)\, Kai Chen (Hong Kong University of
+  Science and Technology)\, Mosharaf Chowdhury (University of Michigan)\, Y
+ anhui Geng (Huawei Noah's Ark Lab)\n\n* Title: Scheduling Mix-flows in Com
+ modity Datacenters with Karuna – Authors: Li Chen (Hong Kong University 
+ of Science and Technology)\, Kai Chen (Hong Kong University of Science and
+  Technology)\, Wei Bai (Hong Kong University of Science and Technology)\, 
+ Mohammad Alizadeh (MIT)\n\n* Title: NUMFabric: Fast and Flexible Bandwidth
+  Allocation in Datacenters – Authors: Kanthi Nagaraj (Stanford Universit
+ y)\, Dinesh Bharadia (Stanford University)\, Hongzi Mao (M.I.T)\, Sandeep 
+ Chinchali (Stanford University)\, Mohammad Alizadeh (M.I.T.)\, Sachin Katt
+ i (Stanford University)
+LOCATION:Room: Diamante
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SIGCOMM: Session 5 - Datacenters
+DTSTART;VALUE=DATE-TIME:20160824T104000
+DTEND;VALUE=DATE-TIME:20160824T122000
+UID:4f279ed520d6b67eeec736ad79c47da1
+DESCRIPTION:Papers: \n\n* Title: RDMA over Commodity Ethernet at Scale –
+  Authors: Chuanxiong Guo (Microsoft Research)\, Haitao Wu (Microsoft)\, Zh
+ ong Deng (Microsoft)\, Gaurav Soni (Microsoft)\, Jianxi Ye (Microsoft)\, J
+ itu Padhye (Microsoft Research)\, Marina Lipshteyn (Microsoft)\n\n* Title:
+  ProjecToR: Agile Reconfigurable Data Center Interconnect – Authors: Mon
+ ia Ghobadi (Microsoft Research)\, Ratul Mahajan (Microsoft Research)\, Ama
+ r Phanishayee (Microsoft Research)\, Nikhil Devanur (Microsoft Research)\,
+  Janardhan Kulkarni (Microsoft Research)\, Gireeja Ranade (Microsoft Resea
+ rch)\, Pierre-Alexandre Blanche (University of Arizona)\, Houman Rastegarf
+ ar (University of Arizona)\, Madeleine Glick (University of Arizona)\, Dan
+ iel Kilper (University of Arizona)\n\n* Title: Virtualized Congestion Cont
+ rol – Authors: Bryce Cronkite-Ratcliff (VMware / Stanford)\, Aran Bergma
+ n (Technion)\, Shay Vargaftik (Technion)\, Madhusudhan Ravi (VMware)\, Nic
+ k McKeown (Stanford)\, Ittai Abraham (VMware)\, Isaac Keslassy (VMware / S
+ tanford / Technion)\n\n* Title: AC/DC TCP: Virtual Congestion Control Enfo
+ rcement for Datacenter Networks – Authors: Keqiang He (University of Wis
+ consin-Madison)\, Eric Rozner (IBM Research)\, Kanak Agarwal (IBM)\, Yu (J
+ ason) Gu (IBM)\, Wes Felter (IBM Research)\, John Carter (IBM)\, Aditya Ak
+ ella (University of Wisconsin-Madison)
+LOCATION:Room: Diamante
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SIGCOMM: Topic Preview 2
+DTSTART;VALUE=DATE-TIME:20160824T122000
+DTEND;VALUE=DATE-TIME:20160824T133000
+UID:b31e35a665f1c740630e6bed9bcfc0c6
+DESCRIPTION:
+LOCATION:Room: Esmeralda 1 and Esmeralda 2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SIGCOMM: Session 6 - Networked Applications
+DTSTART;VALUE=DATE-TIME:20160824T133000
+DTEND;VALUE=DATE-TIME:20160824T144500
+UID:d4bc7e4b4d9c345b40a0cbe8b8c86877
+DESCRIPTION:Papers: \n\n* Title: WebPerf: Evaluating What-If Scenarios for
+  Cloud-hosted Web Applications – Authors: Yurong Jiang (University of So
+ uthern California)\, Lenin Ravindranath (Microsoft Research)\, Suman Nath 
+ (Microsoft Research)\, Ramesh Govindan (University of Southern California)
+ \n\n* Title: CS2P: Improving Video Bitrate Selection and Adaptation with D
+ ata-Driven Throughput Prediction – Authors: Yi Sun (ICT/CAS)\, Xiaoqi Yi
+ n (CMU)\, Junchen Jiang (CMU)\, Vyas Sekar (CMU)\, Fuyuan Lin (ICT/CAS)\, 
+ Nanshu Wang (ICT/CAS)\, Tao Liu (iQIYI)\, Bruno Sinopoli (CMU)\n\n* Title:
+  Via: Improving Internet Telephony Call Quality Using Predictive Relay Sel
+ ection – Authors: Junchen Jiang (Microsoft Research / CMU)\, Rajdeep Das
+  (Microsoft Research)\, Ganesh Ananthanarayanan (Microsoft Research)\, Phi
+ lip A. Chou (Microsoft Research)\, Venkata Padmanabhan (Microsoft Research
+ )\, Vyas Sekar (CMU)\, Esbjorn Dominique (Microsoft)\, Marcin Goliszewski 
+ (Microsoft)\, Dalibor Kukoleca (Microsoft)\, Renat Vafin (Microsoft)\, Hui
+  Zhang (CMU)
+LOCATION:Room: Diamante
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SIGCOMM: Session 7 - Verification
+DTSTART;VALUE=DATE-TIME:20160824T154500
+DTEND;VALUE=DATE-TIME:20160824T172500
+UID:1fc3198276ead18c3dec53965952c2ff
+DESCRIPTION:Papers: \n\n* Title: Fast Control Plane Analysis Using an Abst
+ ract Representation – Authors: Aaron Gember-Jacobson (University of Wisc
+ onsin-Madison)\, Raajay Viswanathan (University of Wisconsin-Madison)\, Ad
+ itya Akella (University of Wisconsin-Madison)\, Ratul Mahajan (Microsoft R
+ esearch)\n\n* Title: Symnet: scalable symbolic execution for modern networ
+ ks – Authors: Radu Stoenescu (University Politehnica of Bucharest)\, Mat
+ ei Popovici (University Politehnica of Bucharest)\, Lorina Negreanu (Unive
+ rsity Politehnica of Bucharest)\, Costin Raiciu (University Politehnica of
+  Bucharest)\n\n* Title: Don't Mind the Gap: Bridging Network-wide Objectiv
+ es and Device-level Configurations – Authors: Ryan Beckett (Princeton Un
+ iversity)\, Ratul Mahajan (Microsoft)\, Todd Millstein (University of Cali
+ fornia\, Los Angeles)\, Jitendra Padhye (Microsoft)\, David Walker (Prince
+ ton University)\n\n* Title: Jumpstarting BGP Security with Path-End Valida
+ tion – Authors: Avichai Cohen (Hebrew University)\, Yossi Gilad (Boston 
+ University and MIT)\, Amir Herzberg (Bar Ilan University)\, Michael Schapi
+ ra (Hebrew University)
+LOCATION:Room: Diamante
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SIGCOMM: Community Feedback
+DTSTART;VALUE=DATE-TIME:20160824T173000
+DTEND;VALUE=DATE-TIME:20160824T183000
+UID:25fb3633497807e7a9fb23d5808277e5
+DESCRIPTION:
+LOCATION:Room: Diamante
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SIGCOMM: Student Dinner
+DTSTART;VALUE=DATE-TIME:20160824T193000
+DTEND;VALUE=DATE-TIME:20160824T220000
+UID:ed80282acd929e39e74f2456fab00db8
+LOCATION:Ataliba Churrascarias Florianópolis
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SIGCOMM: Session 8 - Wireless
+DTSTART;VALUE=DATE-TIME:20160825T083000
+DTEND;VALUE=DATE-TIME:20160825T103500
+UID:fb82ce384679e3955d63c1e86f60c0d8
+DESCRIPTION:Papers: \n\n* Title: Inter-Technology Backscatter: Towards Int
+ ernet Connectivity for Implanted Devices – Authors: Vikram Iyer (Univers
+ ity of Washington)\, Vamsi Talla (University of Washington)\, Bryce Kellog
+ g (University of Washington)\, Shyamnath Gollakota (University of Washingt
+ on)\, Joshua Smith (University of Washington)\n\n* Title: Enabling Practic
+ al Backscatter Communication for On-body Sensors – Authors: Pengyu Zhang
+  (University of Massachusetts Amherst)\, Mohammad Rostami (University of M
+ assachusetts Amherst)\, Pan Hu (University of Massachusetts Amherst)\, Dee
+ pak Ganesan (University of Massachusetts Amherst)\n\n* Title: Braidio: An 
+ Integrated Active-Passive Radio for Mobile Devices with Asymmetric Energy 
+ Budgets – Authors: Pan Hu (University of Massachusetts Amherst)\, Pengyu
+  Zhang (University of Massachusetts Amherst)\, Mohammad Rostami (Universit
+ y of Massachusetts Amherst)\, Deepak Ganesan (University of Massachusetts 
+ Amherst)\n\n* Title: Eliminating Channel Feedback in Next-Generation Cellu
+ lar Networks – Authors: Deepak Vasisht (MIT)\, Swarun Kumar (CMU)\, Hari
+ haran Rahul (MIT)\, Dina Katabi (MIT)\n\n* Title: Real-time Distributed MI
+ MO Systems – Authors: Ezzeldin Hamed (Massachusetts Institute of Technol
+ ogy)\, Hariharan Rahul (Massachusetts Institute of Technology)\, Mohammed 
+ A. Abdelghany (Massachusetts Institute of Technology)\, Dina Katabi (Massa
+ chusetts Institute of Technology)
+LOCATION:Room: Diamante
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SIGCOMM: Session 9 - Datacenters
+DTSTART;VALUE=DATE-TIME:20160825T110500
+DTEND;VALUE=DATE-TIME:20160825T122000
+UID:f646a036da784fe1e88856da206320d1
+DESCRIPTION:Papers: \n\n* Title: Robotron: Top-down Network Management at 
+ Facebook Scale – Authors: Yu-Wei Eric Sung (Facebook)\, Xiaozheng Tie (F
+ acebook)\, Starsky H.Y. Wong (Facebook)\, Hongyi Zeng (Facebook)\n\n* Titl
+ e: Taking the Blame Game out of Data Centers Operations with NetPoirot –
+  Authors: Behnaz Arzani (University of Pennsylvania)\, Selim Ciraci (Micro
+ soft)\, Boon Thau Loo (University of Pennsylvania)\, Assaf Schuster (Techn
+ ion - Israel Institute of Technology)\, Geoff Outhred (Microsoft)\n\n* Tit
+ le: Globally Synchronized Time via Datacenter Networks – Authors: Ki Suh
+  Lee (Cornell University)\, Han Wang (Cornell University)\, Vishal Shrivas
+ tav (Cornell University)\, Hakim Weatherspoon (Cornell University)
+LOCATION:Room: Diamante
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SIGCOMM: Session 10 - Censorship and Choice
+DTSTART;VALUE=DATE-TIME:20160825T133000
+DTEND;VALUE=DATE-TIME:20160825T144500
+UID:a59b2b1c2d6721064aaa21fb25991207
+DESCRIPTION:Papers: \n\n* Title: An Internet-Wide Analysis of Traffic Poli
+ cing – Authors: Tobias Flach (University of Southern California / Google
+ )\, Pavlos Papageorge (Google)\, Andreas Terzis (Google)\, Luis Pedrosa (U
+ niversity of Southern California)\, Yuchung Cheng (Google)\, Tayeb Karim (
+ Google)\, Ethan Katz-Bassett (University of Southern California)\, Ramesh 
+ Govindan (University of Southern California / Google)\n\n* Title: Neutral 
+ Net Neutrality – Authors: Yiannis Yiakoumis (Stanford University)\, Sach
+ in Katti (Stanford University)\, Nick McKeown (Stanford University)\n\n* T
+ itle: The Deforestation of L2 – Authors: James McCauley (UC Berkeley / I
+ CSI)\, Mingjie Zhao (UESTC / ICSI)\, Ethan J. Jackson (UC Berkeley)\, Bara
+ th Raghavan (ICSI)\, Sylvia Ratnasamy (UC Berkeley / ICSI)\, Scott Shenker
+  (UC Berkeley / ICSI)
+LOCATION:Room: Diamante
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SIGCOMM: Session 11 - SDN & NFV
+DTSTART;VALUE=DATE-TIME:20160825T154500
+DTEND;VALUE=DATE-TIME:20160825T170000
+UID:8fea39ecfc91e21b79029d12a41d032c
+DESCRIPTION:Papers: \n\n* Title: OpenBox: A Software-Defined Framework for
+  Developing\, Deploying\, and Managing Network Functions – Authors: Anat
+  Bremler-Barr (The Interdisciplinary Center\, Herzliya)\, Yotam Harchol (T
+ he Hebrew University of Jerusalem)\, David Hay (The Hebrew University of J
+ erusalem)\n\n* Title: PISCES: A Programmable\, Protocol-Independent Softwa
+ re Switch – Authors: Muhammad Shahbaz (Princeton University)\, Sean Choi
+  (Stanford University)\, Ben Pfaff (VMware)\, Changhoon Kim (Barefoot Netw
+ orks)\, Nick Feamster (Princeton University)\, Nick McKeown (Stanford Univ
+ ersity)\, Jennifer Rexford (Princeton University)\n\n* Title: Dataplane Sp
+ ecialization for High-performance OpenFlow Software Switching – Authors:
+  László Molnár (Ericsson Research\, Hungary)\, Gergely Pongrácz (Erics
+ son Research\, Hungary)\, Gábor Enyedi (Ericsson Research\, Hungary)\, Zo
+ ltán Kis (Ericsson Research\, Hungary)\, Levente Csikor (Budapest Univers
+ ity of Technology and Economics)\, Ferenc Juhász (Budapest University of 
+ Technology and Economics)\, Attila Körösi (Budapest University of Techno
+ logy and Economics)\, Gábor Rétvári (Budapest University of Technology 
+ and Economics)
+LOCATION:Room: Diamante
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SIGCOMM: Closing
+DTSTART;VALUE=DATE-TIME:20160825T170000
+DTEND;VALUE=DATE-TIME:20160825T173000
+UID:433b14cdde5a310e9ddff382e96e1928
+DESCRIPTION:
+LOCATION:Room: Diamante
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tutorial: Internet Measurements: Part 1
+DTSTART;VALUE=DATE-TIME:20160822T090000
+DTEND;VALUE=DATE-TIME:20160822T103000
+UID:169f514b6171204c7d9977553cb49b4f
+DESCRIPTION:Speakers: Timur Friedman (UPMC Sorbonne Universit&eacute\;s\, 
+ France)\, Anna-Kaisa Pietilainen\, Renata Teixeira (Inria\, France)
+LOCATION:Room: Topazio 2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tutorial: SDN\, NFV and Their Role in 5G: Part 1
+DTSTART;VALUE=DATE-TIME:20160822T090000
+DTEND;VALUE=DATE-TIME:20160822T103000
+UID:de817dc3c032becff20b58110da1642d
+DESCRIPTION:Speakers: Katia Obraczka (UC Santa Cruz\, USA)\, Christian Rot
+ henberg (UNICAMP\, Brazil)\, Ahmad Rostami (Ericsson Research\, Sweden)
+LOCATION:Room: Topazio 1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tutorial: Internet Measurements: Part 2
+DTSTART;VALUE=DATE-TIME:20160822T110000
+DTEND;VALUE=DATE-TIME:20160822T123000
+UID:8b5b7cb24402a6e7f2275766382f7c31
+DESCRIPTION:Speakers: Timur Friedman (UPMC Sorbonne Universit&eacute\;s\, 
+ France)\, Anna-Kaisa Pietilainen\, Renata Teixeira (Inria\, France)
+LOCATION:Room: Topazio 2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tutorial: SDN\, NFV and Their Role in 5G: Part 2 & Closing
+DTSTART;VALUE=DATE-TIME:20160822T110000
+DTEND;VALUE=DATE-TIME:20160822T123000
+UID:d35168f8bd65df49ac90987585a6ec08
+DESCRIPTION:Speakers: Katia Obraczka (UC Santa Cruz\, USA)\, Christian Rot
+ henberg (UNICAMP\, Brazil)\, Ahmad Rostami (Ericsson Research\, Sweden)
+LOCATION:Room: Topazio 1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tutorial: Internet Measurements: Part 3
+DTSTART;VALUE=DATE-TIME:20160822T140000
+DTEND;VALUE=DATE-TIME:20160822T153000
+UID:96687cb2e1790d7ba7e4ca0990a676a4
+DESCRIPTION:Speakers: Timur Friedman (UPMC Sorbonne Universit&eacute\;s\, 
+ France)\, Anna-Kaisa Pietilainen\, Renata Teixeira (Inria\, France)
+LOCATION:Room: Topazio 2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tutorial: IPTV and Over-the-Top Video: Part 1
+DTSTART;VALUE=DATE-TIME:20160822T140000
+DTEND;VALUE=DATE-TIME:20160822T153000
+UID:b7fd4ac39a299c543e4a456bc13a3562
+DESCRIPTION:Speakers: Ali C. Begen (MediaMelon Inc\, USA)
+LOCATION:Room: Topazio 1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tutorial: Internet Measurements: Part 4 & Closing
+DTSTART;VALUE=DATE-TIME:20160822T160000
+DTEND;VALUE=DATE-TIME:20160822T173000
+UID:5ad5a63c371c40d5d49b08de1e2478c5
+DESCRIPTION:Speakers: Timur Friedman (UPMC Sorbonne Universit&eacute\;s\, 
+ France)\, Anna-Kaisa Pietilainen\, Renata Teixeira (Inria\, France)
+LOCATION:Room: Topazio 2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tutorial: IPTV and Over-the-Top Video: Part 2 & Closing
+DTSTART;VALUE=DATE-TIME:20160822T160000
+DTEND;VALUE=DATE-TIME:20160822T173000
+UID:c047e85c1596a12d1953849a4b28a235
+DESCRIPTION:Speakers: Ali C. Begen (MediaMelon Inc\, USA)
+LOCATION:Room: Topazio 1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tutorial: Enabling Research in Future WiMobNet: Part 1
+DTSTART;VALUE=DATE-TIME:20160826T090000
+DTEND;VALUE=DATE-TIME:20160826T103000
+UID:5fcfa76305785f0455edf93ca0ea3e2b
+DESCRIPTION:Speakers: Kobus Van der Merwe\, Robert Ricci\, Kirk Webb (Univ
+ ersity of Utah\, USA)
+LOCATION:Room: Esmeralda 1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tutorial: P4: Programming the Network Data Plane: Part 1
+DTSTART;VALUE=DATE-TIME:20160826T090000
+DTEND;VALUE=DATE-TIME:20160826T103000
+UID:069301e7221c5fdc6c9b57af49ea8270
+DESCRIPTION:Speakers: Changhoon Kim\, Mihai Budiu\, Antonin Bas\, Vladimir
+  Gurevich (Barefoot Networks\, USA)
+LOCATION:Room: Topazio 2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tutorial: Enabling Research in Future WiMobNet: Part 2
+DTSTART;VALUE=DATE-TIME:20160826T110000
+DTEND;VALUE=DATE-TIME:20160826T123000
+UID:0166634ce7f14badb30ae92942b1e801
+DESCRIPTION:Speakers: Kobus Van der Merwe\, Robert Ricci\, Kirk Webb (Univ
+ ersity of Utah\, USA)
+LOCATION:Room: Esmeralda 1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tutorial: P4: Programming the Network Data Plane: Part 2
+DTSTART;VALUE=DATE-TIME:20160826T110000
+DTEND;VALUE=DATE-TIME:20160826T123000
+UID:b06732dcc8b39bcc818417ed6ba365e9
+DESCRIPTION:Speakers: Changhoon Kim\, Mihai Budiu\, Antonin Bas\, Vladimir
+  Gurevich (Barefoot Networks\, USA)
+LOCATION:Room: Topazio 2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tutorial: Enabling Research in Future WiMobNet: Part 3
+DTSTART;VALUE=DATE-TIME:20160826T140000
+DTEND;VALUE=DATE-TIME:20160826T153000
+UID:44797acc34779c750228b831f8829039
+DESCRIPTION:Speakers: Kobus Van der Merwe\, Robert Ricci\, Kirk Webb (Univ
+ ersity of Utah\, USA)
+LOCATION:Room: Esmeralda 1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tutorial: P4: Programming the Network Data Plane: Part 3
+DTSTART;VALUE=DATE-TIME:20160826T140000
+DTEND;VALUE=DATE-TIME:20160826T153000
+UID:d7791242b2414bf3c193cd408c8bee85
+DESCRIPTION:Speakers: Changhoon Kim\, Mihai Budiu\, Antonin Bas\, Vladimir
+  Gurevich (Barefoot Networks\, USA)
+LOCATION:Room: Topazio 2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tutorial: Enabling Research in Future WiMobNet: Part 4 & Closing
+DTSTART;VALUE=DATE-TIME:20160826T160000
+DTEND;VALUE=DATE-TIME:20160826T173000
+UID:58f02deadcbe23cd5a83023ffcfd7482
+DESCRIPTION:Speakers: Kobus Van der Merwe\, Robert Ricci\, Kirk Webb (Univ
+ ersity of Utah\, USA)
+LOCATION:Room: Esmeralda 1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tutorial: P4: Programming the Network Data Plane: Part 4 & Closing
+DTSTART;VALUE=DATE-TIME:20160826T160000
+DTEND;VALUE=DATE-TIME:20160826T173000
+UID:b6a48c2b68fe9ffad677446d9afc6a0d
+DESCRIPTION:Speakers: Changhoon Kim\, Mihai Budiu\, Antonin Bas\, Vladimir
+  Gurevich (Barefoot Networks\, USA)
+LOCATION:Room: Topazio 2
+END:VEVENT
+END:VCALENDAR cd /home/weverton/ufrgs/pos-doc/2016/events/sigcomm2016/website/sigcomm16web.master/scripts/google-calendar

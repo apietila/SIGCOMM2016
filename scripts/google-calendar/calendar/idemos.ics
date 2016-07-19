@@ -2,11 +2,36 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//My calendar product//mxm.dk//
 BEGIN:VEVENT
-SUMMARY:Industrial Demos Industrial Demo Session
+SUMMARY:SIGCOMM Industrial Demos: Industrial Demo Session
 DTSTART;VALUE=DATE-TIME:20160825T090000
 DTEND;VALUE=DATE-TIME:20160825T173000
 UID:a4361882825750654b7aaaa885465c63
-DESCRIPTION:Talks: * Coming soon.
+DESCRIPTION:Demos: \n\n* Title: More Juice Less Bits: Content Aware Stream
+ ing – Authors: A. C. Begen (MediaMelon\, Inc.)\n\n* Title: ONOS centrali
+ zed control over a P4 programmable data plane – Authors: C. Cascone (Ope
+ n Networking Laboratory)\, A. Al-Shabibi (Open Networking Laboratory)\, C.
+  Kim (Barefoot Networks)\n\n* Title: Tracking Any Packet’s Path and Late
+ ncy via INT – Authors: C. Kim (Barefoot Networks)\, J. Lee (Barefoot Net
+ works)\n\n* Title: Xilinx P4 to NetFPGA SUME compilation flow\, demonstrat
+ ed for PERC congestion control algorithm experiments – Authors: G. Brebn
+ er (Xilinx\, Inc.)\, R. Halstead (Xilinx\, Inc.)\, C. Neely (Xilinx\, Inc.
+ )\, S. Ibanez (Stanford University)\, L. Jose (Stanford University)\, N. M
+ cKeown (Stanford University)\, M. Alizadeh (MIT)\n\n* Title: High Performa
+ nce Service Chaining for Ethernet Transport Networks – Authors: J. Vacar
+ o (Hewlett Packard Enterprise)\, R. Eichelberger (Hewlett Packard Enterpri
+ se)\, S. Tandel (Hewlett Packard Enterprise)\, P. Bottorff (Hewlett Packar
+ d Enterprise)\, D. Fedyk (Hewlett Packard Enterprise)\, S. Banerjee (Hewle
+ tt Packard Enterprise)\, R. Eichelberger (Hewlett Packard Enterprise)\n\n*
+  Title: A novel Network Functions Virtualization Platform - Residential CP
+ E use case – Authors: L. Mariote (CPqD)\, M. Nascimento (CPqD)\, T. Prim
+ ini (CPqD)\, A. Barbieri (Trópico)\n\n* Title: QoS measurement with Tangr
+ am Measures – Authors: B. Rafaeli (TGR / UFRJ)\, C. Junior (TGR)\, C. Go
+ nçalves (TGR / UFRJ)\, D. Ximenes (TGR / UFRJ)\, G. Mendonça (TGR)\, G. 
+ Bruno (TGR)\, G. Sengès (TGR / UFRJ)\, G. Thurler (TGR / UFRJ)\, G. Santo
+ s (TGR)\, K. Almeida (TGR)\, E. Silva (UFRJ)\n\n* Title: VNF and µVNF cha
+ ining with in-band network telemetry for servers equipped with P4 / C prog
+ rammable SmartNICs – Authors: D. George (Netronome Systems\, Inc.)\, J. 
+ Tönsing (Netronome Systems\, Inc.)
 LOCATION:Room: Agata
 END:VEVENT
 END:VCALENDAR

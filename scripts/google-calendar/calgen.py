@@ -30,6 +30,7 @@ SCOPES = 'https://www.googleapis.com/auth/spreadsheets.readonly'
 CLIENT_SECRET_FILE = 'client_secret.json'
 APPLICATION_NAME = 'Sigcomm16'
 SPREADSHEETID = '1AK4VdEuogGTaFRLia8Ef-AaZdAJOu5AxE7KAA1Nj7tU'
+COLUMN_RANGE = 'A2:K' # note we assume the header row to be present !!!
 
 def get_credentials():
     home_dir = os.path.expanduser('~')
@@ -70,7 +71,7 @@ def main(outdir, wsnames):
                 continue
 
             # Note we assume the header row to be present !!!
-            rangeName = '%s!A2:K'%ws['properties']['title']
+            rangeName = '%s!%s'%(ws['properties']['title'],COLUMN_RANGE)
             result = service.spreadsheets().values().get(
                 spreadsheetId=SPREADSHEETID, range=rangeName).execute()
             values = result.get('values', [])

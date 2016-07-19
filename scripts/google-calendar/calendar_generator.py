@@ -29,6 +29,8 @@ COL_FNAME = 8
 COL_SLIDES = 9
 COL_UID = 10
 
+EVENT_FULL_NAME = dict(gaia='GAIA Workshop:', hotmiddlebox='HotMiddlebox Workshop:', qoe='Internet-QoE Workshop:', lancomm='LANCOMM Workshop:', netpl='NetPL Workshop:', sigcomm='SIGCOMM:', demos='SIGCOMM Demos:', posters='SIGCOMM Posters:', idemos='SIGCOMM Industrial Demos:', tutorials='Tutorial:',breaks='')
+
 class DuplicateUidError(Exception):
    def __init__(self, uid, existing, duplicate):
       self.uid = uid
@@ -42,7 +44,6 @@ class CalendarGenerator:
    INPUT_DATE_FORMAT = '%A, %B %d, %Y, %I:%M%p'
    INPUT_DATE_FORMAT_FULLDAY = '%A, %B %d, %Y'
    UID_SUFFIX = '@Sigcomm2016'
-   EVENT_TRANSLATE = dict(gaia='GAIA Workshop:', hotmiddlebox='HotMiddlebox Workshop:', qoe='Internet-QoE Workshop:', lancomm='LANCOMM Workshop:', netpl='NetPL Workshop:', sigcomm='Main Conference:', demos='SIGCOMM Demos:', posters='SIGCOMM Posters:', idemos='SIGCOMM Industrial Demos:', breaks='')
 
    def __init__(self):
       self.cal = Calendar()
@@ -50,7 +51,7 @@ class CalendarGenerator:
       self.cal.add('version', '2.0')
       self.current_event = None
       self.processing_event = False
-      self.current_description = dict(Talks=u"", Posters=u"", Demos=u"", Chair=u"", Discussion=u"", Keynote=u"")
+      self.current_description = dict(Talks=u"", Papers=u"", Posters=u"", Demos=u"", Chair=u"", Tutorial=u"", Discussion=u"", Keynote=u"")
       self.uid_control = dict()
       return
 
@@ -72,8 +73,10 @@ class CalendarGenerator:
    def ResetSummary(self):
       description = ""
       if len(self.current_description['Chair']) > 0:
-         u'Chair: {}\n\n'.format(self.current_description['Chair'])
-      for ik in ['Talks', 'Demos', 'Posters']:
+         description += u'Chair: {}\n\n'.format(self.current_description['Chair'])
+      if len(self.current_description['Tutorial']) > 0:
+         description += u'Speakers: {}\n\n'.format(self.current_description['Tutorial'])
+      for ik in ['Papers', 'Talks', 'Demos', 'Posters']:
          if len(self.current_description[ik]) > 0:
             description += u'{}: {}\n\n'.format(ik, self.current_description[ik])
       if len(self.current_description['Discussion']) > 0:
@@ -83,7 +86,7 @@ class CalendarGenerator:
       else:
          description = description[:-2]
       self.current_event.add('description', description)
-      self.current_description = dict(Talks=u"", Posters=u"", Demos=u"", Chair=u"", Discussion=u"", Keynote=u"")
+      self.current_description = dict(Talks=u"", Papers=u"", Posters=u"", Demos=u"", Chair=u"", Tutorial=u"", Discussion=u"", Keynote=u"")
       return
 
    def ProcessDuration(self, duration):
@@ -98,12 +101,12 @@ class CalendarGenerator:
          session_day = dt.strptime(self.current_date, self.INPUT_DATE_FORMAT_FULLDAY).date()
          return (session_day, session_day)
 
-   def Session(self, event_title, duration, title, location, uid, chair='', nodescription=False):
+   def Session(self, event_type, event_title, duration, title, location, uid, chair='', nodescription=False):
       if self.processing_event:
          self.FinishSession()
       new_event = Event()
       new_event.add( 'uid', self.GenerateUid(event_title, uid, title) )
-      print_title = self.EVENT_TRANSLATE[event_title]
+      print_title = EVENT_FULL_NAME[event_title]
       new_event.add( 'summary', '{} {}'.format(print_title, title) )
       new_event.add( 'location', location )
       session_time = self.ProcessDuration(duration)
@@ -114,7 +117,12 @@ class CalendarGenerator:
          self.cal.add_component(new_event)
       else:
          self.current_event = new_event
-         self.current_description['Chair'] = chair.strip()
+         if event_type == 'session':
+           self.current_description['Chair'] = chair.strip()
+         elif event_type == 'tutorial':
+           self.current_description['Tutorial'] = chair.strip()
+         else:
+           self.current_description['Chair'] = ''
          self.processing_event = True
       return
 
@@ -132,9 +140,9 @@ class CalendarGenerator:
       return
 
    def SessionKeynote(self, session_keynote_title, author, abstract, shortbio):
-      aux_session = u'Title:\n{}\n\n'.format(session_keynote_title)
+      aux_session = u'* Keynote Title:\n{}\n\n'.format(session_keynote_title)
       aux_session += u'Speaker:\n{}\n\n'.format(author)
-      aux_session += u'Abstract:\n{}\n\n'.format(abstract)
+      aux_session += (u'Abstract:\n{}\n\n'.format(abstract) if len(abstract) > 0 else "")
       aux_session += (u'Speaker Bio:\n{}'.format(shortbio) if len(shortbio) > 0 else "")
       self.current_description['Keynote'] += aux_session
       return
@@ -147,17 +155,32 @@ class CalendarGenerator:
             self.Day(row[COL_TIME])
             
          elif row[COL_TYPE] == 'session':
+            event_type = row[COL_TYPE]
             time_info = (row[COL_TIME] if len(row)> COL_TIME else "")
             title_info = (row[COL_TITLE] if len(row)> COL_TITLE else "")
             room_info = ('Room: {}'.format(row[COL_ROOM]) if len(row)> COL_ROOM else "")
             uid_info = (row[COL_UID] if len(row)> COL_UID else "")
             chair_info = (row[COL_CHAIR_SPKR_AUTHOR_DESC] if len(row)> COL_CHAIR_SPKR_AUTHOR_DESC else "")
-            self.Session(event_title, time_info, title_info, room_info, uid_info, chair=chair_info)
+            self.Session(event_type, event_title, time_info, title_info, room_info, uid_info, chair=chair_info)
+            
+         elif row[COL_TYPE] == 'tutorial':
+            event_type = row[COL_TYPE]
+            time_info = (row[COL_TIME] if len(row)> COL_TIME else "")
+            title_info = (row[COL_TITLE] if len(row)> COL_TITLE else "")
+            room_info = ('Room: {}'.format(row[COL_ROOM]) if len(row)> COL_ROOM else "")
+            uid_info = (row[COL_UID] if len(row)> COL_UID else "")
+            speakers_info = (row[COL_CHAIR_SPKR_AUTHOR_DESC] if len(row)> COL_CHAIR_SPKR_AUTHOR_DESC else "")
+            self.Session(event_type, event_title, time_info, title_info, room_info, uid_info, chair=speakers_info)
             
          elif row[COL_TYPE] == 'talk':
             title_info = (row[COL_TITLE] if len(row)> COL_TITLE else "")
             chair_info = (row[COL_CHAIR_SPKR_AUTHOR_DESC] if len(row)> COL_CHAIR_SPKR_AUTHOR_DESC else "")
             self.SessionItem('Talks', title_info, chair_info)
+            
+         elif row[COL_TYPE] == 'paper':
+            title_info = (row[COL_TITLE] if len(row)> COL_TITLE else "")
+            chair_info = (row[COL_CHAIR_SPKR_AUTHOR_DESC] if len(row)> COL_CHAIR_SPKR_AUTHOR_DESC else "")
+            self.SessionItem('Papers', title_info, chair_info)
             
          elif row[COL_TYPE] == 'poster':
             title_info = (row[COL_TITLE] if len(row)> COL_TITLE else "")
@@ -175,17 +198,18 @@ class CalendarGenerator:
             
          elif row[COL_TYPE] == 'keynote':
             title_info = (row[COL_TITLE] if len(row)> COL_TITLE else "")
-            chair_info = (row[COL_CHAIR_SPKR_AUTHOR_DESC] if len(row)> COL_CHAIR_SPKR_AUTHOR_DESC else "")
+            speaker_info = (row[COL_CHAIR_SPKR_AUTHOR_DESC] if len(row)> COL_CHAIR_SPKR_AUTHOR_DESC else "")
             keynote_abstract_info = (row[COL_KEYNT_ABSTRACT] if len(row)> COL_KEYNT_ABSTRACT else "")
             speaker_bio_info = (row[COL_SPKR_BIO] if len(row)> COL_SPKR_BIO else "")
-            self.SessionKeynote(title_info, chair_info, keynote_abstract_info, speaker_bio_info)
+            self.SessionKeynote(title_info, speaker_info, keynote_abstract_info, speaker_bio_info)
             
          elif row[COL_TYPE] == 'social':
+            event_type = row[COL_TYPE]
             time_info = (row[COL_TIME] if len(row)> COL_TIME else "")
             title_info = (row[COL_TITLE] if len(row)> COL_TITLE else "")
             room_info = (row[COL_ROOM] if len(row)> COL_ROOM else "")
             uid_info = (row[COL_UID] if len(row)> COL_UID else "")
-            self.Session(event_title, time_info, title_info, room_info, uid_info, nodescription=True)
+            self.Session(event_type, event_title, time_info, title_info, room_info, uid_info, nodescription=True)
             
       if self.processing_event:
          self.FinishSession()

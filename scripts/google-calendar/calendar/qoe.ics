@@ -2,7 +2,7 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//My calendar product//mxm.dk//
 BEGIN:VEVENT
-SUMMARY:Internet-QoE Opening and Introduction
+SUMMARY:Internet-QoE Workshop: Opening and Introduction
 DTSTART;VALUE=DATE-TIME:20160826T083000
 DTEND;VALUE=DATE-TIME:20160826T084500
 UID:4122254b52be6300364dbf915d0d3a51
@@ -10,59 +10,60 @@ DESCRIPTION:
 LOCATION:Room: Agata 2
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Internet-QoE Session 1: Passive QoE-based Monitoring in Operationa
- l Networks
+SUMMARY:Internet-QoE Workshop: Session 1: Passive QoE-based Monitoring in 
+ Operational Networks
 DTSTART;VALUE=DATE-TIME:20160826T084500
 DTEND;VALUE=DATE-TIME:20160826T103000
 UID:cdb9164c80e7018ae6e1f87fa113679d
-DESCRIPTION:Talks: \n\n* Title: Keynote: Improving Web Performance – Aut
- hors: Prof. Harsha V. Madhyastha\, Computer Science and Engineering Divisi
- on\, University of Michigan\, US\n\n* Title: An Educated Guess on QoE in O
- perational Networks through Large-Scale Measurements – Authors: P. Casas
- \, B. Gardlo\, R. Schatz\, M. Mellia\n\n* Title: Impact of Access Speed on
-  Adaptive Video Streaming Quality - A Passive Perspective – Authors: M. 
- Trevisan\, I. Drago\, M. Mellia\n\n* Title: Predicting the effect of home 
- Wi-Fi quality on Web QoE – Authors: D. Neves da Hora\, R. Teixeira\, K. 
- van Doorselaer\, K. van Oost
+DESCRIPTION:Papers: \n\n* Title: An Educated Guess on QoE in Operational N
+ etworks through Large-Scale Measurements – Authors: P. Casas\, B. Gardlo
+ \, R. Schatz\, M. Mellia\n\n* Title: Impact of Access Speed on Adaptive Vi
+ deo Streaming Quality - A Passive Perspective – Authors: M. Trevisan\, I
+ . Drago\, M. Mellia\n\n* Title: Predicting the effect of home Wi-Fi qualit
+ y on Web QoE – Authors: D. Neves da Hora\, R. Teixeira\, K. van Doorsela
+ er\, K. van Oost\n\n* Keynote Title:\nImproving Web Performance\n\nSpeaker
+ :\nProf. Harsha V. Madhyastha (Computer Science and Engineering Division\,
+  University of Michigan\, US)\n\n
 LOCATION:Room: Agata 2
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Internet-QoE Session 2: QoE Modeling and Analysis
+SUMMARY:Internet-QoE Workshop: Session 2: QoE Modeling and Analysis
 DTSTART;VALUE=DATE-TIME:20160826T110000
 DTEND;VALUE=DATE-TIME:20160826T123000
 UID:01d1a747bbe5a0ce56ffa6e461cce943
-DESCRIPTION:Talks: \n\n* Title: Keynote: The Challenges of Measuring Inter
- net Quality of Experience – Authors: Dr. Renata Cruz Teixeira\, Senior R
- esearcher\, INRIA Paris\, France\n\n* Title: QoE Inference Without Applica
- tion Control – Authors: A. Nikravesh\, D. Hong\, Q. Chen\, H. Madhyastha
- \, Z. Mao\n\n* Title: QoE Analysis of DASH Cross-Layer Dependencies by Ext
- ensive Network Emulation – Authors: D. Stohr\, A. Frömmgen\, J. Fornoff
- \, M. Zink\, A. Buchmann\, W. Effelsberg\n\n* Title: Towards a causal anal
- ysis of Video QoE from Network and Application QoS – Authors: M. Katsara
- kis\, R. Teixeira\, M. Papadopouli\, V. Christophides
+DESCRIPTION:Papers: \n\n* Title: QoE Inference Without Application Control
+  – Authors: A. Nikravesh\, D. Hong\, Q. Chen\, H. Madhyastha\, Z. Mao\n\
+ n* Title: QoE Analysis of DASH Cross-Layer Dependencies by Extensive Netwo
+ rk Emulation – Authors: D. Stohr\, A. Frömmgen\, J. Fornoff\, M. Zink\,
+  A. Buchmann\, W. Effelsberg\n\n* Title: Towards a causal analysis of Vide
+ o QoE from Network and Application QoS – Authors: M. Katsarakis\, R. Tei
+ xeira\, M. Papadopouli\, V. Christophides\n\n* Keynote Title:\nThe Challen
+ ges of Measuring Internet Quality of Experience\n\nSpeaker:\nDr. Renata Cr
+ uz Teixeira (Senior Researcher\, INRIA Paris\, France)\n\n
 LOCATION:Room: Agata 2
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Internet-QoE Session 3:  QoE-based Network Management and Assessme
- nt
+SUMMARY:Internet-QoE Workshop: Session 3:  QoE-based Network Management an
+ d Assessment
 DTSTART;VALUE=DATE-TIME:20160826T140000
 DTEND;VALUE=DATE-TIME:20160826T164500
 UID:27497dd1a17abc134eb630e9da1859db
-DESCRIPTION:Talks: \n\n* Title: Keynote: On the Analysis and Modeling of Q
- uality of Experience for Video Streaming – Authors: Prof. Maria  Papadop
- ouli\, Department of Computer Science\, University of Crete & FORTH\n\n* T
- itle: Measuring the Quality of Experience of Web users – Authors: E. Boc
- chi\, L. De Cicco\, D. Rossi\n\n* Title: BingeOn Under the Microscope: Und
- erstanding T-Mobiles Zero-Rating Implementation – Authors: A. Kakhki\, F
- . Li\, D. Choffnes\, E. Katz-Bassett\, A. Mislove\n\n* Title: Concept for 
- Client-initiated Selection of Cloud Instances for Improving QoE of Distrib
- uted Cloud Services – Authors: F. Wamser\, M. Seufert\, S. Höfner\, P. 
- Tran-Gia\n\n* Title: Client-Driven Network-level QoE fairness for Encrypte
- d 'DASH-S' – Authors: J. Chen\, M. Ammar\, M. Fayed\, R. Fonseca
+DESCRIPTION:Papers: \n\n* Title: Measuring the Quality of Experience of We
+ b users – Authors: E. Bocchi\, L. De Cicco\, D. Rossi\n\n* Title: BingeO
+ n Under the Microscope: Understanding T-Mobiles Zero-Rating Implementation
+  – Authors: A. Kakhki\, F. Li\, D. Choffnes\, E. Katz-Bassett\, A. Mislo
+ ve\n\n* Title: Concept for Client-initiated Selection of Cloud Instances f
+ or Improving QoE of Distributed Cloud Services – Authors: F. Wamser\, M.
+  Seufert\, S. Höfner\, P. Tran-Gia\n\n* Title: Client-Driven Network-leve
+ l QoE fairness for Encrypted 'DASH-S' – Authors: J. Chen\, M. Ammar\, M.
+  Fayed\, R. Fonseca\n\n* Keynote Title:\nOn the Analysis and Modeling of Q
+ uality of Experience for Video Streaming\n\nSpeaker:\nProf. Maria  Papadop
+ ouli (Department of Computer Science\, University of Crete & FORTH)\n\n
 LOCATION:Room: Agata 2
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Internet-QoE Discussion: Strengthening QoE-based Research @SIGCOMM
+SUMMARY:Internet-QoE Workshop: Discussion: Strengthening QoE-based Researc
+ h @SIGCOMM
 DTSTART;VALUE=DATE-TIME:20160826T164500
 DTEND;VALUE=DATE-TIME:20160826T171500
 UID:9fe1dc3c3aa7d720ac5e4766eb2682fe
@@ -70,7 +71,7 @@ DESCRIPTION:
 LOCATION:Room: Agata 2
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Internet-QoE Wrap-up\, Next Steps and Closing
+SUMMARY:Internet-QoE Workshop: Wrap-up\, Next Steps and Closing
 DTSTART;VALUE=DATE-TIME:20160826T171500
 UID:9e099c9ed335610e325d02ecf447fcb7
 DESCRIPTION:

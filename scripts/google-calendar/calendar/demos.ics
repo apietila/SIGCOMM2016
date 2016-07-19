@@ -2,11 +2,11 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//My calendar product//mxm.dk//
 BEGIN:VEVENT
-SUMMARY:Demos Session 1
+SUMMARY:SIGCOMM Demos: Session 1
 DTSTART;VALUE=DATE-TIME:20160823T090000
 DTEND;VALUE=DATE-TIME:20160823T173000
 UID:020a9f23c8f55ef3b737b9beaec468b6
-DESCRIPTION:Talks: \n\n* Title: Source Address Validation in Software Defi
+DESCRIPTION:Demos: \n\n* Title: Source Address Validation in Software Defi
  ned Networks – Authors: B. Liu (Tsinghua University & Huawei Technologie
  s Co. Ltd.)\, J. Bi (Tsinghua University)\, Y. Zhou (Tsinghua University)\
  n\n* Title: MACSAD: Multi-Architecture Compiler System for Abstract Datapl
@@ -39,11 +39,11 @@ DESCRIPTION:Talks: \n\n* Title: Source Address Validation in Software Defi
 LOCATION:Room: Agata
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Demos Session 2
+SUMMARY:SIGCOMM Demos: Session 2
 DTSTART;VALUE=DATE-TIME:20160824T090000
 DTEND;VALUE=DATE-TIME:20160824T173000
 UID:3f3afa1d132f87d0cb140a4b03954d89
-DESCRIPTION:Talks: \n\n* Title: Mininet-WiFi: A Platform for Hybrid Physic
+DESCRIPTION:Demos: \n\n* Title: Mininet-WiFi: A Platform for Hybrid Physic
  al-Virtual Software-Defined Wireless Networking Research – Authors: R. F
  ontes (University of Campinas)\, C. Rothenberg (University of Campinas)\, 
  R. Fontes (University of Campinas)\n\n* Title: Multi-Domain Orchestration 

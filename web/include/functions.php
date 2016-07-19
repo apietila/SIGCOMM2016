@@ -149,8 +149,12 @@ function tprog_add_item($paper, $link, $authors, $info, $slides="", $video="", $
 
 function tprog_add_keynote($title, $speakers, $abstract, $bio, $photo="", $progitemclass = "")
 {
-        /* the spaces after various "%s" below are important for correct list filtering! */
-        $speakers = preg_replace('/\(([^\)]*)\)/', '<em>(${1})</em>', $speakers);
+  if (trim($abstract) == "" && trim($bio) == "")
+    /* if there is no abstract neither bio, no need to make this entry a collapsible item */
+    tprog_add_item ("Keynote: ". $title, "", $speakers, "", "", "", $progitemclass);
+  else {
+    /* the spaces after various "%s" below are important for correct list filtering! */
+    $speakers = preg_replace('/\(([^\)]*)\)/', '<em>(${1})</em>', $speakers);
 ?>
     <li data-icon="false" class="prog-item <?php echo $progitemclass; ?>"><div data-role="collapsible" class="keynote-navgroup">
       <h4><p class="keynote-header"><?php echo $title ?></p><p><?php echo $speakers; ?></p></h4>
@@ -164,7 +168,7 @@ function tprog_add_keynote($title, $speakers, $abstract, $bio, $photo="", $progi
       </ul>
     </div></li>
 <?php
-
+  }
 }       
 
 function check_downloadcode($code, $code_file)
