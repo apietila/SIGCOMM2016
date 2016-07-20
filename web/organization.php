@@ -37,7 +37,7 @@
 
   <li data-role="list-divider">Poster Chairs</li>
   <?php
-     add_listitem("Marco Canini", "Universit&#233; Catholique de Louvain, Belgium", "http://perso.uclouvain.be/marco.canini/");
+     add_listitem("Marco Canini", "KAUST, KSA", "http://perso.uclouvain.be/marco.canini/");
      add_listitem("Daniel R Figueiredo", "UFRJ, Brazil", "http://www.land.ufrj.br/~daniel/");
   ?>
   
