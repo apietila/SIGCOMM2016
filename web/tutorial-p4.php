@@ -15,9 +15,9 @@
 <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="tbl">
   <?php
      add_listitem("Changhoon Kim", "Barefoot Networks, USA", "");
-     add_listitem("Mihai Budiu", "Barefoot Networks, USA", "");
-     add_listitem("Antonin Bas", "Barefoot Networks, USA", "");
-     add_listitem("Vladimir Gurevich", "Barefoot Networks, USA", "");
+     /* add_listitem("Mihai Budiu", "Barefoot Networks, USA", ""); */
+     /* add_listitem("Antonin Bas", "Barefoot Networks, USA", ""); */
+     /*  add_listitem("Vladimir Gurevich", "Barefoot Networks, USA", ""); */
      add_listitem("Jeongkeun &quot;JK&quot; Lee", "Barefoot Networks, USA", "");
   ?>
 </ul>
