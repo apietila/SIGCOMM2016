@@ -13,7 +13,7 @@
       tprog_add_item("Discussion: Synergies in Network Measurements Research", "", "", "", "", "", "prog-monday");
       tprog_add_session("10:30am - 11:00am", "Coffee Break", "", "", "prog-monday");
       tprog_add_session("11:00am - 12:30pm", "Session 2: SDN & NVF", "", "", "prog-monday");
-      tprog_add_item("SDN-based Overlay Networks for QoS-aware Routing", "", "P. Belzarena, G. Sena, I. Amigo, S. Vaton", "", "", "", "prog-monday");
+      tprog_add_item("SDN-based Overlay Networks for QoS-aware Routing", "", "P. Belzarena, G.  G&oacute;mez Sena, I. Amigo, S. Vaton", "", "", "", "prog-monday");
       tprog_add_item("Metherxis: Virtualized Network Functions for Micro-second Grade Latency Measurements", "", "D. Mafioletti, A. Liberato, C. Dominicini, R. Villa&ccedil;a, M. Martinello, M. Ribeiro", "", "", "", "prog-monday");
       tprog_add_item("RAUflow: building Virtual Private Networks with MPLS and OpenFlow", "", "S. Vidal, J. Amaro, E. Viotti, M. Giachino, E. Grampin", "", "", "", "prog-monday");
       tprog_add_item("A Datacenter Network Architecture for Low Latency, Automation and Virtualization", "", "R. Vencioneck", "", "", "", "prog-monday");
