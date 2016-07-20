@@ -18,18 +18,20 @@
      add_listitem("Mihai Budiu", "Barefoot Networks, USA", "");
      add_listitem("Antonin Bas", "Barefoot Networks, USA", "");
      add_listitem("Vladimir Gurevich", "Barefoot Networks, USA", "");
+     add_listitem("Jeongkeun &quot;JK&quot; Lee", "Barefoot Networks, USA", "");
   ?>
 </ul>
 
 <h2>Tutorial Timetable</h2>
 <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="datetbl">
-  <?php add_dateitem("09:00 &mdash; 10:30", "Tutorial (first part)"); ?>
+  <?php add_dateitem("09:00 &mdash; 09:15", "Welcome and Intro"); ?>
+  <?php add_dateitem("09:15 &mdash; 10:30", "Lecture, part I"); ?>
   <?php add_dateitem("10:30 &mdash; 11:00", "Coffee-break"); ?>
-  <?php add_dateitem("11:00 &mdash; 12:30", "Tutorial (second part)"); ?>
+  <?php add_dateitem("11:00 &mdash; 12:30", "Lecture and Demo, part II"); ?>
   <?php add_dateitem("12:30 &mdash; 14:00", "Lunch break"); ?>
-  <?php add_dateitem("14:00 &mdash; 15:30", "Tutorial (third part)"); ?>
+  <?php add_dateitem("14:00 &mdash; 15:30", "Hands-on Lab"); ?>
   <?php add_dateitem("15:30 &mdash; 16:00", "Coffee-break"); ?>
-  <?php add_dateitem("16:00 &mdash; 17:30", "Tutorial (fourth part)"); ?>
+  <?php add_dateitem("16:00 &mdash; 17:30", "Mini-workshop<br/><ul><li><p><b>Talks &amp; Panel</b></p></li><li><p><b>Participants:</b> Nate Foster, Anirudh Sivaraman,<br/>Robert Soule, Marco Canini, and Sean Choi</p></li></ul>"); ?>
 </ul>
 
 <h2>Motivations</h2>
@@ -90,6 +92,8 @@
 <p><b>Mihai Budiu</b> is a software engineer at Barefoot Networks where he focuses on the design and implementation of the P4 programming language and associated tools. Prior to Barefoot Mihai was a senior researcher at Microsoft Research in Silicon Valley, working on platforms for big data processing, large-scale machine learning and computer security. Mihai has a Ph.D. in computer science from Carnegie Mellon University.</p>
 
 <p><b>Vladimir Gurevich </b> is a Technical Lead at Barefoot Networks. Prior to joining Barefoot Vladimir was a Technical Director at Broadcom, working on the architecture of Broadcom SDK and before that he was a Senior Manager leading the SW Applications Engineering team. He worked as a Software Developer at Cisco Systems and a number of other networking companies in Silicon Valley. Vladimir received his Masters degree in Applied Mathematics at Moscow Institute of Radio Engineering, Electronics and Automation (&#1052;&#1048;&#1056;&#1069;&#1040;).</p>
+
+<p><b>Jeongkeun &quot;JK&quot; Lee </b> is a software engineer at Barefoot Networks, developing advanced applications on P4 dataplanes. Prior to Barefoot, he worked at Hewlett-Packard Labs on application/policy-driven networking, contributed to OpenDaylight and OpenStack. He holds 18 networking patents in US and published papers at Sigcomm, Infocom, CoNext, Mobicom, MobiSys.</p>
 
 <h2>References</h2>
 
