@@ -79,9 +79,9 @@
 
 <h2>Speakers</h2>
 
-<p><b>Lecturers</b>: Changhoon Kim, Vladimir Gurevich, and Mihai Budiu.</p>
+<p><b>Lecturers</b>: Changhoon Kim and Jeongkeun &quot;JK&quot; Lee.<?php /*, Vladimir Gurevich, and Mihai Budiu. */ ?></p>
 
-<p><b>Hands-on trainers</b>: Antonin Bas, Vladimir Gurevich, and one or two more PhD students from Stanford.</p>
+<p><b>Hands-on trainers</b>: <?php /*Antonin Bas, Vladimir Gurevich, and */ ?> one or two more PhD students from Stanford.</p>
 
 <p><b>Panelists for the mini workshop</b>: We are currently contacting people in academia, including Nate Foster (Cornell) and Minlan Yu (USC), as well as in industry.</p>
 
@@ -89,9 +89,13 @@
 
 <p><b>Changhoon Kim</b> is Director of System Architecture at Barefoot Networks and is chairing Language Design Working Group for the P4 Language Consortium (P4.org). Before joining Barefoot, he worked at Windows Azure, Microsoft&#39;s cloud-service division, and led engineering and research projects on the architecture, performance, management, and operation of datacenter and enterprise networks. Changhoon is interested in programmable network data plane, network monitoring and diagnostics, network verification, self-programming/configuring networks, and debugging and diagnosis of large-scale distributed systems. Changhoon received Ph.D. from Princeton University. Many of his R&amp;D contributions &mdash; including VL2, Seawall, EyeQ, Ananta, and SEATTLE &mdash; are adopted in large production networks.</p>
 
+<?php 
+/*
 <p><b>Mihai Budiu</b> is a software engineer at Barefoot Networks where he focuses on the design and implementation of the P4 programming language and associated tools. Prior to Barefoot Mihai was a senior researcher at Microsoft Research in Silicon Valley, working on platforms for big data processing, large-scale machine learning and computer security. Mihai has a Ph.D. in computer science from Carnegie Mellon University.</p>
 
 <p><b>Vladimir Gurevich </b> is a Technical Lead at Barefoot Networks. Prior to joining Barefoot Vladimir was a Technical Director at Broadcom, working on the architecture of Broadcom SDK and before that he was a Senior Manager leading the SW Applications Engineering team. He worked as a Software Developer at Cisco Systems and a number of other networking companies in Silicon Valley. Vladimir received his Masters degree in Applied Mathematics at Moscow Institute of Radio Engineering, Electronics and Automation (&#1052;&#1048;&#1056;&#1069;&#1040;).</p>
+*/ 
+?>
 
 <p><b>Jeongkeun &quot;JK&quot; Lee </b> is a software engineer at Barefoot Networks, developing advanced applications on P4 dataplanes. Prior to Barefoot, he worked at Hewlett-Packard Labs on application/policy-driven networking, contributed to OpenDaylight and OpenStack. He holds 18 networking patents in US and published papers at Sigcomm, Infocom, CoNext, Mobicom, MobiSys.</p>
 
