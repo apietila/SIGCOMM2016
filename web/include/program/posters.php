@@ -26,9 +26,6 @@
       tprog_add_item("Taming the Flow Table Overflow in OpenFlow Switch", "", "S. Qiao (Xi&rsquo;an Jiaotong University), C. Hu (Xi&rsquo;an Jiaotong University), X. Guan (Xi&rsquo;an Jiaotong University), J. Zou (Xi&rsquo;an Jiaotong University)", "", "", "", "prog-wednesday");
       tprog_add_item("Magellan: Generating Multi-Table Datapath from Datapath Oblivious Algorithmic SDN Policies", "", "A. Voellmy (Yale University), S. Chen (Tongji University), X. Wang (Tongji University), Y. Yang (Yale University)", "", "", "", "prog-wednesday");
       tprog_add_item("FAST: A Simple Programming Abstraction for Complex State-Dependent SDN Programming", "", "K. Gao (Tsinghua University), C. Gu (Tongji University), Q. Xiang (Tongji/Yale University), Y. Yang (Tongji/Yale University), J. Bi (Tsinghua University), Q. Xiang (Yale University)", "", "", "", "prog-wednesday");
-      tprog_add_header("Thursday, August 25, 2016", "prog-thursday");
-      tprog_add_session("9:00am - 5:30pm", "Session 3 (Main Track Papers)", "", "", "prog-thursday");
-      tprog_add_item("Coming soon.", "", "", "", "", "", "prog-thursday");
 ?>
     </ul>
   </div>

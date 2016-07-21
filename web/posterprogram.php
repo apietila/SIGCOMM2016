@@ -15,7 +15,6 @@
         <ul>
                 <li><a href="#" onClick="filter('tuesday');" class="roundleft">Tuesday - Session 1</a></li>
                 <li><a href="#" onClick="filter('wednesday');">Wednesday - Session 2</a></li>
-                <li><a href="#" onClick="filter('thursday');">Thursday - Session 3</a></li>
                 <li><a href="#" onClick="filter('all');" class="ui-btn-active ui-state-persist roundright">All</a></li>
         </ul>
 </div>

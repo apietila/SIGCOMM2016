@@ -10,7 +10,7 @@
      $socialEventItems = array ("reception.php", "dinner.php", "banquet.php");
      $localInfoItems = array ("local.php", "travel.php", "visa.php", "hotel.php", "kids.php", "advisory.php", "roomshare.php", "tourism.php"); //, "poll.php"
      $organizationItems = array ("organization.php", "policies.php");
-     $demoItems = array("postersdemos.php", "industrialdemos.php", "demoprogram.php", "posterprogram.php", "industrialdemoprogram.php");
+     $demoItems = array("postersdemos.php", "industrialdemos.php", "demoprogram.php", "posterprogram.php", "industrialdemoprogram.php", "maintrackposterprogram.php");
      $tutorialItems = array("cft.php", "tutorials.php", "tutorial-im.php", "tutorial-wimobnet.php", "tutorial-iptv.php", "tutorial-p4.php", "tutorial-sdnnfv5g.php");
      $extraItems = array("preview.php", "mentoring.php");
      
@@ -124,6 +124,9 @@
         </li>
         <li class="subnav <?php if ($mypage=="industrialdemoprogram.php") echo('navselected') ?>" data-icon="false">
           <a href="industrialdemoprogram.php">Industrial Demos</a>
+        </li>
+        <li class="subnav <?php if ($mypage=="maintrackposterprogram.php") echo('navselected') ?>" data-icon="false">
+          <a href="maintrackposterprogram.php">Posters/Demos from Main Track</a>
         </li>
         <li class="subnav <?php if ($mypage=="postersdemos.php") echo('navselected') ?>" data-icon="false">
           <a href="postersdemos.php">Call for Posters &amp; Demos</a>
