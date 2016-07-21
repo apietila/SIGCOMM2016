@@ -1,0 +1,58 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//My calendar product//mxm.dk//
+BEGIN:VEVENT
+SUMMARY:SIGCOMM Main Track Posters: Posters and Demos from the Main Track 
+ Papers
+DTSTART;VALUE=DATE-TIME:20160825T090000
+DTEND;VALUE=DATE-TIME:20160825T173000
+UID:a354b07f0198692f18254ef9e2544c40
+DESCRIPTION:Posters: \n\n* Title: Don't Mind the Gap: Bridging Network-wid
+ e Objectives and Device-level Configurations – Author(s): R. Beckett (Pr
+ inceton University)\, R. Mahajan (Microsoft Research)\, J. Padhye (Microso
+ ft Research)\, T. Millstein (University of California\, Los Angeles)\, D. 
+ Walker (Princeton University)\n\n* Title: Top-down Network Management on a
+  Massive Scale – Author(s): E. Sung (Facebook)\, X. Tie (Facebook)\, S. 
+ Wong (Facebook)\, H. Zeng (Facebook)\n\n* Title: Enabling Practical Backsc
+ atter Communication for On-body Sensors – Author(s): P. Zhang(University
+  of Massachusetts Amherst)\, M. Rostami(University of Massachusetts Amhers
+ t)\, P. Hu(University of Massachusetts Amherst)\, D. Ganesan (University o
+ f Massachusetts Amherst)\n\n* Title: Hypervisor-based Algorithmic Virtuali
+ zation of TCP Congestion Control – Author(s): B. Cronkite-Ratcliff (Stan
+ ford)\, A. Bergman (Technion)\, S. Vargaftik (Technion)\, M. Ravi (VMware)
+ \, N. McKeown (Stanford)\, I. Abraham (VMware)\, I. Keslassy (Technion / V
+ Mware)\n\n* Title: Globally Synchronized Time via Datacenter Networks – 
+ Author(s): K. S. Lee (Cornell University)\, H. Wang (Cornell University)\,
+  V. Shrivastav (Cornell University)\, H. Weatherspoon (Cornell University)
+ \n\n* Title: Braidio: An Integrated Active-Passive Radio for Mobile Device
+ s with Asymmetric Energy Budgets – Author(s): Pan Hu\, Pengyu Zhang\, Mo
+ hammad Rostami\, and Deepak Ganesan (University of Massachusetts Amherst)\
+ n\n* Title: ClickNP: Highly Flexible and High-performance Network Processi
+ ng with Reconfigurable Hardware – Author(s): B. Li (USTC / Microsoft Res
+ earch)\, K. Tan (Microsoft Research)\, L. Luo (Microsoft)\, Y. Peng (SJTU 
+ / Microsoft Research)\, R. Luo (USTC / Microsoft Research)\, N. Xu (Micros
+ oft Research)\, Y. Xiong (Microsoft Research)\, P. Cheng (Microsoft Resear
+ ch)\n\n* Title: PISCES: A Programmable\, Protocol-Independent Software Swi
+ tch – Author(s): M. Shahbaz (Princeton University)\, S. Choi (Stanford U
+ niversity)\, B. Pfaff (VMware)\, C. Kim (Barefoot Networks)\, N. Feamster 
+ (Princeton University)\, N. McKeown (Stanford University)\, J. Rexford (Pr
+ inceton University)\n\n* Title: Dataplane Specialization for High-performa
+ nce OpenFlow Software Switching – Author(s): L. Molnár (Ericsson Resear
+ ch\, Hungary)\, G. Pongrácz (Ericsson Research\, Hungary)\, G. Enyedi (Er
+ icsson Research\, Hungary)\, Z. Kis (Ericsson Research\, Hungary)\, L. Csi
+ kor (Budapest University of Technology and Economics)\, F. Juhász (Budape
+ st University of Technology and Economics)\, A. Körösi (Budapest Univers
+ ity of Technology and Economics)\, G. Rétvári (Budapest University of Te
+ chnology and Economics)\n\n* Title: Dynamic Pricing and Traffic Engineerin
+ g for Timely Inter-Datacenter Transfers – Author(s): V. Jalaparti (Micro
+ soft)\, I. Bliznets (St. Petersburg Academic University)\, S. Kandula (Mic
+ rosoft)\, B. Lucier (Microsoft)\, I. Menache (Microsoft)\n\n* Title: One S
+ ketch to Rule Them All: Rethinking Network Flow Monitoring with UnivMon 
+ – Author(s): Z. Liu (Johns Hopkins University)\, A. Manousis (Carnegie M
+ ellon University)\, G. Vorsanger (Johns Hopkins University)\, V. Sekar (Ca
+ rnegie Mellon University)\, V. Braverman (Johns Hopkins University)\n\n* T
+ itle: Neutral Net Neutrality – Author(s): Y. Yiakoumis (Stanford Univers
+ ity)\, S. Katti (Stanford University)\, N. McKeown (Stanford University)
+LOCATION:Room: Topazio
+END:VEVENT
+END:VCALENDAR

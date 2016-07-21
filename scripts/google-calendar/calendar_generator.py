@@ -29,7 +29,7 @@ COL_FNAME = 8
 COL_SLIDES = 9
 COL_UID = 10
 
-EVENT_FULL_NAME = dict(gaia='GAIA Workshop:', hotmiddlebox='HotMiddlebox Workshop:', qoe='Internet-QoE Workshop:', lancomm='LANCOMM Workshop:', netpl='NetPL Workshop:', sigcomm='SIGCOMM:', demos='SIGCOMM Demos:', posters='SIGCOMM Posters:', idemos='SIGCOMM Industrial Demos:', tutorials='Tutorial:',breaks='')
+EVENT_FULL_NAME = dict(gaia='GAIA Workshop:', hotmiddlebox='HotMiddlebox Workshop:', qoe='Internet-QoE Workshop:', lancomm='LANCOMM Workshop:', netpl='NetPL Workshop:', sigcomm='SIGCOMM:', demos='SIGCOMM Demos:', posters='SIGCOMM Posters:', maintrackposters='SIGCOMM Main Track Posters:', idemos='SIGCOMM Industrial Demos:', tutorials='Tutorial:',breaks='')
 
 PARTICIPANT_TYPE = dict(Talks='Speaker(s)', Keynote='Speaker(s)', Papers='Author(s)', Demos='Author(s)', Posters='Author(s)')
 
