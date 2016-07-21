@@ -15,13 +15,13 @@ DTSTART;VALUE=DATE-TIME:20160826T090000
 DTEND;VALUE=DATE-TIME:20160826T103000
 UID:d79109d07fae4b0f19a4bb31e89ece22
 DESCRIPTION:Papers: \n\n* Title: Open and regionalised spectrum repositori
- es for emerging countries – Authors: A. Arcia-Moret\, A. Sathiaseelan\, 
- M. Zenaro\, F. Rondon\, E. Pietrosemoli\, D. Johnson\n\n* Title: Will 5G S
- ee its Blind Side? Evolving 5G for Universal Internet Access – Authors: 
- O. Onireti\, J. Qadir\, M. Imran\, A. Sathiaseelan\n\n* Title: Tangible Sh
- aring\, Invisible Mechanisms: The Design and Implementation of the Bayanih
- aNets Access Sharing Network – Authors: I. Montes\, M. Cruz\, A. Remilla
- no II\, M. Villanoy\, L. Beltran II\, R. Ocampo\, C. Festin
+ es for emerging countries – Author(s): A. Arcia-Moret\, A. Sathiaseelan\
+ , M. Zenaro\, F. Rondon\, E. Pietrosemoli\, D. Johnson\n\n* Title: Will 5G
+  See its Blind Side? Evolving 5G for Universal Internet Access – Author(
+ s): O. Onireti\, J. Qadir\, M. Imran\, A. Sathiaseelan\n\n* Title: Tangibl
+ e Sharing\, Invisible Mechanisms: The Design and Implementation of the Bay
+ anihaNets Access Sharing Network – Author(s): I. Montes\, M. Cruz\, A. R
+ emillano II\, M. Villanoy\, L. Beltran II\, R. Ocampo\, C. Festin
 LOCATION:Room: Topazio 1
 END:VEVENT
 BEGIN:VEVENT
@@ -30,12 +30,12 @@ DTSTART;VALUE=DATE-TIME:20160826T110000
 DTEND;VALUE=DATE-TIME:20160826T123000
 UID:bb8b6816f3897d545596b5592a0bea29
 DESCRIPTION:Papers: \n\n* Title: A Techno-Economic Framework for Broadband
-  Deployment in Underserved Areas – Authors: R. Durairajan\, P. Barford\n
- \n* Title: RemIX: A Distributed Internet Exchange for Remote and Rural Net
- works – Authors: W. Waites\, J. Sweet\, R. Baig\, P. Buneman\, M. Fayed\
- , G. Hughes\, M. Fourman\, R. Simmons\n\n* Title: Making Community Network
- s economically sustainable\, the guifi.net experience – Authors: R. Baig
- \, L. Dalmau\, R. Roca\, L. Navarro\, F. Freitag\, A. Sathiaseelan
+  Deployment in Underserved Areas – Author(s): R. Durairajan\, P. Barford
+ \n\n* Title: RemIX: A Distributed Internet Exchange for Remote and Rural N
+ etworks – Author(s): W. Waites\, J. Sweet\, R. Baig\, P. Buneman\, M. Fa
+ yed\, G. Hughes\, M. Fourman\, R. Simmons\n\n* Title: Making Community Net
+ works economically sustainable\, the guifi.net experience – Author(s): R
+ . Baig\, L. Dalmau\, R. Roca\, L. Navarro\, F. Freitag\, A. Sathiaseelan
 LOCATION:Room: Topazio 1
 END:VEVENT
 BEGIN:VEVENT
@@ -44,14 +44,14 @@ DTSTART;VALUE=DATE-TIME:20160826T140000
 DTEND;VALUE=DATE-TIME:20160826T153000
 UID:2e20232337dd40ae407a9e9decce67d0
 DESCRIPTION:Papers: \n\n* Title: SIMMC - An Integrated Monitoring System f
- or Brazilian Digital Inclusion Projects – Authors: L. Bona\, D. Pasquali
- n\, C. Trois\, M. Suny&eacute\;\, M. Fabro\, E. de Almeida\, M. Castilho\,
-  D. Weingaertner\, F. Silva\, E. Maciel\, A. Bernardes\, E. Mateus\n\n* Ti
- tle: Open Source Community Cellular Networks: Brazilian Amazon as Case Stu
- dy – Authors: A. Klautau\, M. Dias\, J. Soares\, F. Teixeira\, L. Brito\
- , E. Junior\, P. Batista\, J. Leite\n\n* Title: Empirical evaluation of mo
- bile network services in developing countries – Authors: S. Rao\, K. Kum
- ar\, J. Manner\, T. Aura
+ or Brazilian Digital Inclusion Projects – Author(s): L. Bona\, D. Pasqua
+ lin\, C. Trois\, M. Suny&eacute\;\, M. Fabro\, E. de Almeida\, M. Castilho
+ \, D. Weingaertner\, F. Silva\, E. Maciel\, A. Bernardes\, E. Mateus\n\n* 
+ Title: Open Source Community Cellular Networks: Brazilian Amazon as Case S
+ tudy – Author(s): A. Klautau\, M. Dias\, J. Soares\, F. Teixeira\, L. Br
+ ito\, E. Junior\, P. Batista\, J. Leite\n\n* Title: Empirical evaluation o
+ f mobile network services in developing countries – Author(s): S. Rao\, 
+ K. Kumar\, J. Manner\, T. Aura
 LOCATION:Room: Topazio 1
 END:VEVENT
 BEGIN:VEVENT

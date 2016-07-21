@@ -16,14 +16,14 @@ DTSTART;VALUE=DATE-TIME:20160826T084500
 DTEND;VALUE=DATE-TIME:20160826T103000
 UID:74ef0748b2bd4068e93feff848e45151
 DESCRIPTION:Papers: \n\n* Title: An Educated Guess on QoE in Operational N
- etworks through Large-Scale Measurements – Authors: P. Casas\, B. Gardlo
- \, R. Schatz\, M. Mellia\n\n* Title: Impact of Access Speed on Adaptive Vi
- deo Streaming Quality - A Passive Perspective – Authors: M. Trevisan\, I
- . Drago\, M. Mellia\n\n* Title: Predicting the effect of home Wi-Fi qualit
- y on Web QoE – Authors: D. Neves da Hora\, R. Teixeira\, K. van Doorsela
- er\, K. van Oost\n\n* Keynote Title:\nImproving Web Performance\n\nSpeaker
- :\nProf. Harsha V. Madhyastha (Computer Science and Engineering Division\,
-  University of Michigan\, US)\n\n
+ etworks through Large-Scale Measurements – Author(s): P. Casas\, B. Gard
+ lo\, R. Schatz\, M. Mellia\n\n* Title: Impact of Access Speed on Adaptive 
+ Video Streaming Quality - A Passive Perspective – Author(s): M. Trevisan
+ \, I. Drago\, M. Mellia\n\n* Title: Predicting the effect of home Wi-Fi qu
+ ality on Web QoE – Author(s): D. Neves da Hora\, R. Teixeira\, K. van Do
+ orselaer\, K. van Oost\n\n* Keynote Title:\nImproving Web Performance\n\nS
+ peaker:\nProf. Harsha V. Madhyastha (Computer Science and Engineering Divi
+ sion\, University of Michigan\, US)\n\n
 LOCATION:Room: Agata 2
 END:VEVENT
 BEGIN:VEVENT
@@ -32,14 +32,14 @@ DTSTART;VALUE=DATE-TIME:20160826T110000
 DTEND;VALUE=DATE-TIME:20160826T123000
 UID:8a43b957ce03def926c97d16f67e64ff
 DESCRIPTION:Papers: \n\n* Title: QoE Inference Without Application Control
-  – Authors: A. Nikravesh\, D. Hong\, Q. Chen\, H. Madhyastha\, Z. Mao\n\
- n* Title: QoE Analysis of DASH Cross-Layer Dependencies by Extensive Netwo
- rk Emulation – Authors: D. Stohr\, A. Frömmgen\, J. Fornoff\, M. Zink\,
-  A. Buchmann\, W. Effelsberg\n\n* Title: Towards a causal analysis of Vide
- o QoE from Network and Application QoS – Authors: M. Katsarakis\, R. Tei
- xeira\, M. Papadopouli\, V. Christophides\n\n* Keynote Title:\nThe Challen
- ges of Measuring Internet Quality of Experience\n\nSpeaker:\nDr. Renata Cr
- uz Teixeira (Senior Researcher\, INRIA Paris\, France)\n\n
+  – Author(s): A. Nikravesh\, D. Hong\, Q. Chen\, H. Madhyastha\, Z. Mao\
+ n\n* Title: QoE Analysis of DASH Cross-Layer Dependencies by Extensive Net
+ work Emulation – Author(s): D. Stohr\, A. Frömmgen\, J. Fornoff\, M. Zi
+ nk\, A. Buchmann\, W. Effelsberg\n\n* Title: Towards a causal analysis of 
+ Video QoE from Network and Application QoS – Author(s): M. Katsarakis\, 
+ R. Teixeira\, M. Papadopouli\, V. Christophides\n\n* Keynote Title:\nThe C
+ hallenges of Measuring Internet Quality of Experience\n\nSpeaker:\nDr. Ren
+ ata Cruz Teixeira (Senior Researcher\, INRIA Paris\, France)\n\n
 LOCATION:Room: Agata 2
 END:VEVENT
 BEGIN:VEVENT
@@ -49,16 +49,17 @@ DTSTART;VALUE=DATE-TIME:20160826T140000
 DTEND;VALUE=DATE-TIME:20160826T164500
 UID:00592f64737fe84df65b55c4935a4e5e
 DESCRIPTION:Papers: \n\n* Title: Measuring the Quality of Experience of We
- b users – Authors: E. Bocchi\, L. De Cicco\, D. Rossi\n\n* Title: BingeO
- n Under the Microscope: Understanding T-Mobiles Zero-Rating Implementation
-  – Authors: A. Kakhki\, F. Li\, D. Choffnes\, E. Katz-Bassett\, A. Mislo
- ve\n\n* Title: Concept for Client-initiated Selection of Cloud Instances f
- or Improving QoE of Distributed Cloud Services – Authors: F. Wamser\, M.
-  Seufert\, S. Höfner\, P. Tran-Gia\n\n* Title: Client-Driven Network-leve
- l QoE fairness for Encrypted 'DASH-S' – Authors: J. Chen\, M. Ammar\, M.
-  Fayed\, R. Fonseca\n\n* Keynote Title:\nOn the Analysis and Modeling of Q
- uality of Experience for Video Streaming\n\nSpeaker:\nProf. Maria  Papadop
- ouli (Department of Computer Science\, University of Crete & FORTH)\n\n
+ b users – Author(s): E. Bocchi\, L. De Cicco\, D. Rossi\n\n* Title: Bing
+ eOn Under the Microscope: Understanding T-Mobiles Zero-Rating Implementati
+ on – Author(s): A. Kakhki\, F. Li\, D. Choffnes\, E. Katz-Bassett\, A. M
+ islove\n\n* Title: Concept for Client-initiated Selection of Cloud Instanc
+ es for Improving QoE of Distributed Cloud Services – Author(s): F. Wamse
+ r\, M. Seufert\, S. Höfner\, P. Tran-Gia\n\n* Title: Client-Driven Networ
+ k-level QoE fairness for Encrypted 'DASH-S' – Author(s): J. Chen\, M. Am
+ mar\, M. Fayed\, R. Fonseca\n\n* Keynote Title:\nOn the Analysis and Model
+ ing of Quality of Experience for Video Streaming\n\nSpeaker:\nProf. Maria 
+  Papadopouli (Department of Computer Science\, University of Crete & FORTH
+ )\n\n
 LOCATION:Room: Agata 2
 END:VEVENT
 BEGIN:VEVENT

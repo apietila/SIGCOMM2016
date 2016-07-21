@@ -37,10 +37,10 @@ DTEND;VALUE=DATE-TIME:20160826T103000
 UID:9cd0fc516bf82b8d034aef11eb6e54d8
 DESCRIPTION:Papers: \n\n* Title: Light at the Middle of the Tunnel: Middle
  boxes for Selective Disclosure of Network Monitoring to Distrusted Parties
-  – Authors: N. Sultana\, M. Kohlweiss\, A. W. Moore\n\n* Title: SplitBox
- : Toward Efficient Private Network Function Virtualization – Authors: H.
-  J. Asghar\, L. Melis\, C. Soldani\, E. De Cristofaro\, M. A. Kaafar\, L. 
- Mathy
+  – Author(s): N. Sultana\, M. Kohlweiss\, A. W. Moore\n\n* Title: SplitB
+ ox: Toward Efficient Private Network Function Virtualization – Author(s)
+ : H. J. Asghar\, L. Melis\, C. Soldani\, E. De Cristofaro\, M. A. Kaafar\,
+  L. Mathy
 LOCATION:Room: Agata 1
 END:VEVENT
 BEGIN:VEVENT
@@ -49,10 +49,10 @@ DTSTART;VALUE=DATE-TIME:20160826T110000
 DTEND;VALUE=DATE-TIME:20160826T123000
 UID:5e8cb6ed34583fc010e4c6c3bc957d75
 DESCRIPTION:Papers: \n\n* Title: Measurement Based Fair Queuing for Alloca
- ting Bandwidth to Virtual Machines – Authors: K. To\, D. Firestone\, G. 
- Varghese\, J. Padhye\n\n* Title: Datacenter Scale Load Balancing for Multi
- path Transport – Authors: V. Olteanu\, C. Raiciu\n\n* Discussion on pape
- rs of the Sessions 1 & 2 (20min)
+ ting Bandwidth to Virtual Machines – Author(s): K. To\, D. Firestone\, G
+ . Varghese\, J. Padhye\n\n* Title: Datacenter Scale Load Balancing for Mul
+ tipath Transport – Author(s): V. Olteanu\, C. Raiciu\n\n* Discussion on 
+ papers of the Sessions 1 & 2 (20min)
 LOCATION:Room: Agata 1
 END:VEVENT
 BEGIN:VEVENT
@@ -61,12 +61,12 @@ DTSTART;VALUE=DATE-TIME:20160826T140000
 DTEND;VALUE=DATE-TIME:20160826T153000
 UID:83c0ba2b40531da4328551ba42f545b3
 DESCRIPTION:Papers: \n\n* Title: OpenNetVM: A Platform for High Performanc
- e Network Service Chains – Authors: W. Zhang\, G. Liu\, W. Zhang\, N. Sh
- ah\, P. Lopreiato. G. Todeschi\, K.K. Ramakrishnan\, T. Wood\n\n* Title: A
- daptive Service-Chain Routing for Virtual Network Functions in Software-De
- fined Networks – Authors: A. Dwaraki\, T. Wolf\n\n* Title: A Standardize
- d Southbound API for VNF Management – Authors: J. Khalid\, M. Coatsworth
- \, A. Gember-Jacobson\, A. Akella\n\n* Discussion (15min)
+ e Network Service Chains – Author(s): W. Zhang\, G. Liu\, W. Zhang\, N. 
+ Shah\, P. Lopreiato. G. Todeschi\, K.K. Ramakrishnan\, T. Wood\n\n* Title:
+  Adaptive Service-Chain Routing for Virtual Network Functions in Software-
+ Defined Networks – Author(s): A. Dwaraki\, T. Wolf\n\n* Title: A Standar
+ dized Southbound API for VNF Management – Author(s): J. Khalid\, M. Coat
+ sworth\, A. Gember-Jacobson\, A. Akella\n\n* Discussion (15min)
 LOCATION:Room: Agata 1
 END:VEVENT
 BEGIN:VEVENT
@@ -75,10 +75,10 @@ DTSTART;VALUE=DATE-TIME:20160826T160000
 DTEND;VALUE=DATE-TIME:20160826T170000
 UID:2d2a10d95b10b86435c7b2a871a47079
 DESCRIPTION:Papers: \n\n* Title: On the Fly TCP Acceleration with Miniprox
- y – Authors: G. Siracusano\, R. Bifulco\, S. Kuenzer\, S. Salsano\, N. B
- lefari Melazzi\, F. Huici\n\n* Title: CliMB: Enabling Network Function Com
- position with Click Middleboxes – Authors: R. Laufer\, M. Gallo\, D. Per
- ino\, A. Nandugudi\n\n* Discussion (10min)
+ y – Author(s): G. Siracusano\, R. Bifulco\, S. Kuenzer\, S. Salsano\, N.
+  Blefari Melazzi\, F. Huici\n\n* Title: CliMB: Enabling Network Function C
+ omposition with Click Middleboxes – Author(s): R. Laufer\, M. Gallo\, D.
+  Perino\, A. Nandugudi\n\n* Discussion (10min)
 LOCATION:Room: Agata 1
 END:VEVENT
 BEGIN:VEVENT

@@ -7,35 +7,36 @@ DTSTART;VALUE=DATE-TIME:20160823T090000
 DTEND;VALUE=DATE-TIME:20160823T173000
 UID:da3cbc9866e605e10be1e3379a958e68
 DESCRIPTION:Demos: \n\n* Title: Source Address Validation in Software Defi
- ned Networks – Authors: B. Liu (Tsinghua University & Huawei Technologie
- s Co. Ltd.)\, J. Bi (Tsinghua University)\, Y. Zhou (Tsinghua University)\
- n\n* Title: MACSAD: Multi-Architecture Compiler System for Abstract Datapl
- anes (aka Partnering P4 with ODP) – Authors: P. Patra (University of Cam
- pinas)\, C. Rothenberg (University of Campinas)\, G. Pongrácz (Ericsson R
- esearch)\n\n* Title: Capture and Replay: Reproducible Network Experiments 
- in Mininet – Authors: A. Frömmgen (TU Darmstadt)\, D. Stohr (TU Darmsta
- dt)\, J. Fornoff (TU Darmstadt)\, W. Effelsberg (TU Darmstadt)\, A. Buchma
- nn (TU Darmstadt)\n\n* Title: Towards Transiently Secure Updates in Asynch
- ronous SDNs – Authors: A. Shukla (TU Berlin)\, S. Schmid (Aalborg Univer
- sity)\, A. Feldmann (TU Berlin)\, A. Ludwig (TU Berlin)\, S. Dudycz (Unive
- rsity of Wroclaw)\, A. Schuetze (TU Berlin)\n\n* Title: A Transparent High
- way for inter-Virtual Network Function Communication with Open vSwitch –
-  Authors: M. Bernal (Politecnico di Torino)\, I. Cerrato (Politecnico di T
- orino)\, F. Risso (Politecnico di Torino)\, D. Verbeiren (Tessares SA\, Lo
- uvain-la-Neuve)\n\n* Title: Cases for Including a Reference Monitor to SDN
-  – Authors: D. Gkounis (NEC Laboratories Europe)\, F. Klaedtke (NEC Labo
- ratories Europe)\, R. Bifulco (NEC Laboratories Europe)\, G. Karame (NEC L
- aboratories Europe)\n\n* Title: High speed packet forwarding compiled from
-  protocol independent data plane specifications – Authors: S. Laki (Eöt
- vös Loránd University)\, D. Horpácsi (Eötvös Loránd University)\, P.
-  Vörös (Eötvös Loránd University)\, R. Kitlei (Eötvös Loránd Unive
- rsity)\, D. Leskó (Eötvös Loránd University)\, M. Tejfel (Eötvös Lor
- ánd University)\n\n* Title: Roaming Edge vNFs using Glasgow Network Funct
- ions – Authors: R. Cziva (University of Glasgow)\, S. Jouet (University 
- of Glasgow)\, D. Pezaros (University of Glasgow)\n\n* Title: Modeling Nati
- ve Software Components as Virtual Network Functions – Authors: M. Baldi 
- (Politecnico di Torino)\, R. Bonafiglia (Politecnico di Torino)\, F. Risso
-  (Politecnico di Torino)\, A. Sapio (Politecnico di Torino)
+ ned Networks – Author(s): B. Liu (Tsinghua University & Huawei Technolog
+ ies Co. Ltd.)\, J. Bi (Tsinghua University)\, Y. Zhou (Tsinghua University
+ )\n\n* Title: MACSAD: Multi-Architecture Compiler System for Abstract Data
+ planes (aka Partnering P4 with ODP) – Author(s): P. Patra (University of
+  Campinas)\, C. Rothenberg (University of Campinas)\, G. Pongrácz (Ericss
+ on Research)\n\n* Title: Capture and Replay: Reproducible Network Experime
+ nts in Mininet – Author(s): A. Frömmgen (TU Darmstadt)\, D. Stohr (TU D
+ armstadt)\, J. Fornoff (TU Darmstadt)\, W. Effelsberg (TU Darmstadt)\, A. 
+ Buchmann (TU Darmstadt)\n\n* Title: Towards Transiently Secure Updates in 
+ Asynchronous SDNs – Author(s): A. Shukla (TU Berlin)\, S. Schmid (Aalbor
+ g University)\, A. Feldmann (TU Berlin)\, A. Ludwig (TU Berlin)\, S. Dudyc
+ z (University of Wroclaw)\, A. Schuetze (TU Berlin)\n\n* Title: A Transpar
+ ent Highway for inter-Virtual Network Function Communication with Open vSw
+ itch – Author(s): M. Bernal (Politecnico di Torino)\, I. Cerrato (Polite
+ cnico di Torino)\, F. Risso (Politecnico di Torino)\, D. Verbeiren (Tessar
+ es SA\, Louvain-la-Neuve)\n\n* Title: Cases for Including a Reference Moni
+ tor to SDN – Author(s): D. Gkounis (NEC Laboratories Europe)\, F. Klaedt
+ ke (NEC Laboratories Europe)\, R. Bifulco (NEC Laboratories Europe)\, G. K
+ arame (NEC Laboratories Europe)\n\n* Title: High speed packet forwarding c
+ ompiled from protocol independent data plane specifications – Author(s):
+  S. Laki (Eötvös Loránd University)\, D. Horpácsi (Eötvös Loránd Un
+ iversity)\, P. Vörös (Eötvös Loránd University)\, R. Kitlei (Eötvös
+  Loránd University)\, D. Leskó (Eötvös Loránd University)\, M. Tejfel
+  (Eötvös Loránd University)\n\n* Title: Roaming Edge vNFs using Glasgow
+  Network Functions – Author(s): R. Cziva (University of Glasgow)\, S. Jo
+ uet (University of Glasgow)\, D. Pezaros (University of Glasgow)\n\n* Titl
+ e: Modeling Native Software Components as Virtual Network Functions – Au
+ thor(s): M. Baldi (Politecnico di Torino)\, R. Bonafiglia (Politecnico di 
+ Torino)\, F. Risso (Politecnico di Torino)\, A. Sapio (Politecnico di Tori
+ no)
 LOCATION:Room: Agata
 END:VEVENT
 BEGIN:VEVENT
@@ -44,42 +45,43 @@ DTSTART;VALUE=DATE-TIME:20160824T090000
 DTEND;VALUE=DATE-TIME:20160824T173000
 UID:1f8ada732d3557abacc2af7bd0c88576
 DESCRIPTION:Demos: \n\n* Title: Mininet-WiFi: A Platform for Hybrid Physic
- al-Virtual Software-Defined Wireless Networking Research – Authors: R. F
- ontes (University of Campinas)\, C. Rothenberg (University of Campinas)\, 
- R. Fontes (University of Campinas)\n\n* Title: Multi-Domain Orchestration 
- across RAN and Transport for 5G – Authors: A. Rostami (Ericsson Research
- )\, P. Öhlén (Ericsson Research)\, M. Santos (Ericsson Research)\, A. Vi
- dal (Ericsson Research)\n\n* Title: Enabling Backscatter Communication amo
- ng Commodity WiFi Radios – Authors: P. ZHANG (Stanford University)\, D. 
- Bharadia (MIT)\, K. Joshi (Stanford University)\, S. Katti (Stanford Unive
- rsity)\, P. Zhang (University of Massachusetts Amherst)\n\n* Title: Off-th
- e-Shelf Software-defined Wi-Fi Networks – Authors: S. Hätönen (Univers
- ity of Helsinki)\, P. Savolainen (Helsinki Institute for Information Techn
- ology HIIT)\, A. Rao (University of Helsinki)\, H. Flinck (Nokia Bell Labs
- )\, S. Tarkoma (University of Helsinki)\n\n* Title: ARTEMIS: Real-Time Det
- ection and Automatic Mitigation for BGP Prefix Hijacking – Authors: G. C
- haviaras (FORTH)\, P. Gigis (FORTH)\, P. Sermpezis (FORTH)\, X. Dimitropou
- los (FORTH)\n\n* Title: EasyApp: A Cross-platform Mobile Applications Deve
- lopment Environment Based on OSGi – Authors: Z. Wang (Beijing University
-  of Posts and Telecommunications)\, B. Cheng (Beijing University of Posts 
- and Telecommunications)\, Z. Zhai (Beijing University of Posts and Telecom
- munications)\, Y. Jin (Beijing University of Posts and Telecommunications)
- \, Y. Feng (Beijing University of Posts and Telecommunications)\, J. Chen 
- (Beijing University of Posts and Telecommunications)\n\n* Title: A 60Gbps 
- DPI Prototype based on Memory-Centric FPGA – Authors: J. Su (National La
- boratory for Parallel and Distributed Processing / National University of 
- Defense Technology)\, S. Chen (National University of Defense Technology)\
- , B. Han (National University of Defense Technology)\,C. Xu (National Univ
- ersity of Defense Technology)\, X. Wang (National University of Defense Te
- chnology)\n\n* Title: Application Driven Network: providing On-Demand Serv
- ices for Applications – Authors: Y. Wang (Huawei Future Network Theory L
- ab)\, D. Lin (Huawei Future Network Theory Lab)\, C. Li (Huawei Future Net
- work Theory Lab)\, J. Zhang (Huawei Wireless Technology Lab)\, P. Liu (Hua
- wei Wireless Technology Lab)\, C. Hu (Xi'an Jiaotong University)\, G. Zhan
- g (Huawei Future Network Theory Lab)\n\n* Title: Fibbing in action: On-dem
- and load-balancing for better video delivery – Authors: O. Tilmans (Univ
- ersité Catholique de Louvain)\, S. Vissicchio (Université Catholique de 
- Louvain)\, L. Vanbever (ETH Zürich)\, J. Rexford (Princeton University)
+ al-Virtual Software-Defined Wireless Networking Research – Author(s): R.
+  Fontes (University of Campinas)\, C. Rothenberg (University of Campinas)\
+ , R. Fontes (University of Campinas)\n\n* Title: Multi-Domain Orchestratio
+ n across RAN and Transport for 5G – Author(s): A. Rostami (Ericsson Rese
+ arch)\, P. Öhlén (Ericsson Research)\, M. Santos (Ericsson Research)\, A
+ . Vidal (Ericsson Research)\n\n* Title: Enabling Backscatter Communication
+  among Commodity WiFi Radios – Author(s): P. ZHANG (Stanford University)
+ \, D. Bharadia (MIT)\, K. Joshi (Stanford University)\, S. Katti (Stanford
+  University)\, P. Zhang (University of Massachusetts Amherst)\n\n* Title: 
+ Off-the-Shelf Software-defined Wi-Fi Networks – Author(s): S. Hätönen 
+ (University of Helsinki)\, P. Savolainen (Helsinki Institute for Informati
+ on Technology HIIT)\, A. Rao (University of Helsinki)\, H. Flinck (Nokia B
+ ell Labs)\, S. Tarkoma (University of Helsinki)\n\n* Title: ARTEMIS: Real-
+ Time Detection and Automatic Mitigation for BGP Prefix Hijacking – Autho
+ r(s): G. Chaviaras (FORTH)\, P. Gigis (FORTH)\, P. Sermpezis (FORTH)\, X. 
+ Dimitropoulos (FORTH)\n\n* Title: EasyApp: A Cross-platform Mobile Applica
+ tions Development Environment Based on OSGi – Author(s): Z. Wang (Beijin
+ g University of Posts and Telecommunications)\, B. Cheng (Beijing Universi
+ ty of Posts and Telecommunications)\, Z. Zhai (Beijing University of Posts
+  and Telecommunications)\, Y. Jin (Beijing University of Posts and Telecom
+ munications)\, Y. Feng (Beijing University of Posts and Telecommunications
+ )\, J. Chen (Beijing University of Posts and Telecommunications)\n\n* Titl
+ e: A 60Gbps DPI Prototype based on Memory-Centric FPGA – Author(s): J. S
+ u (National Laboratory for Parallel and Distributed Processing / National 
+ University of Defense Technology)\, S. Chen (National University of Defens
+ e Technology)\, B. Han (National University of Defense Technology)\,C. Xu 
+ (National University of Defense Technology)\, X. Wang (National University
+  of Defense Technology)\n\n* Title: Application Driven Network: providing 
+ On-Demand Services for Applications – Author(s): Y. Wang (Huawei Future 
+ Network Theory Lab)\, D. Lin (Huawei Future Network Theory Lab)\, C. Li (H
+ uawei Future Network Theory Lab)\, J. Zhang (Huawei Wireless Technology La
+ b)\, P. Liu (Huawei Wireless Technology Lab)\, C. Hu (Xi'an Jiaotong Unive
+ rsity)\, G. Zhang (Huawei Future Network Theory Lab)\n\n* Title: Fibbing i
+ n action: On-demand load-balancing for better video delivery – Author(s)
+ : O. Tilmans (Université Catholique de Louvain)\, S. Vissicchio (Universi
+ té Catholique de Louvain)\, L. Vanbever (ETH Zürich)\, J. Rexford (Princ
+ eton University)
 LOCATION:Room: Agata
 END:VEVENT
 END:VCALENDAR

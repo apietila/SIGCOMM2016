@@ -7,31 +7,31 @@ DTSTART;VALUE=DATE-TIME:20160825T090000
 DTEND;VALUE=DATE-TIME:20160825T173000
 UID:8fd38ac98ac4e96b63759db4fa820b90
 DESCRIPTION:Demos: \n\n* Title: More Juice Less Bits: Content Aware Stream
- ing – Authors: A. C. Begen (MediaMelon\, Inc.)\n\n* Title: ONOS centrali
- zed control over a P4 programmable data plane – Authors: C. Cascone (Ope
- n Networking Laboratory)\, A. Al-Shabibi (Open Networking Laboratory)\, C.
-  Kim (Barefoot Networks)\n\n* Title: Tracking Any Packet’s Path and Late
- ncy via INT – Authors: C. Kim (Barefoot Networks)\, J. Lee (Barefoot Net
- works)\n\n* Title: Xilinx P4 to NetFPGA SUME compilation flow\, demonstrat
- ed for PERC congestion control algorithm experiments – Authors: G. Brebn
- er (Xilinx\, Inc.)\, R. Halstead (Xilinx\, Inc.)\, C. Neely (Xilinx\, Inc.
- )\, S. Ibanez (Stanford University)\, L. Jose (Stanford University)\, N. M
- cKeown (Stanford University)\, M. Alizadeh (MIT)\n\n* Title: High Performa
- nce Service Chaining for Ethernet Transport Networks – Authors: J. Vacar
- o (Hewlett Packard Enterprise)\, R. Eichelberger (Hewlett Packard Enterpri
- se)\, S. Tandel (Hewlett Packard Enterprise)\, P. Bottorff (Hewlett Packar
- d Enterprise)\, D. Fedyk (Hewlett Packard Enterprise)\, S. Banerjee (Hewle
- tt Packard Enterprise)\, R. Eichelberger (Hewlett Packard Enterprise)\n\n*
-  Title: A novel Network Functions Virtualization Platform - Residential CP
- E use case – Authors: L. Mariote (CPqD)\, M. Nascimento (CPqD)\, T. Prim
- ini (CPqD)\, A. Barbieri (Trópico)\n\n* Title: QoS measurement with Tangr
- am Measures – Authors: B. Rafaeli (TGR / UFRJ)\, C. Junior (TGR)\, C. Go
- nçalves (TGR / UFRJ)\, D. Ximenes (TGR / UFRJ)\, G. Mendonça (TGR)\, G. 
- Bruno (TGR)\, G. Sengès (TGR / UFRJ)\, G. Thurler (TGR / UFRJ)\, G. Santo
- s (TGR)\, K. Almeida (TGR)\, E. Silva (UFRJ)\n\n* Title: VNF and µVNF cha
- ining with in-band network telemetry for servers equipped with P4 / C prog
- rammable SmartNICs – Authors: D. George (Netronome Systems\, Inc.)\, J. 
- Tönsing (Netronome Systems\, Inc.)
+ ing – Author(s): A. C. Begen (MediaMelon\, Inc.)\n\n* Title: ONOS centra
+ lized control over a P4 programmable data plane – Author(s): C. Cascone 
+ (Open Networking Laboratory)\, A. Al-Shabibi (Open Networking Laboratory)\
+ , C. Kim (Barefoot Networks)\n\n* Title: Tracking Any Packet’s Path and 
+ Latency via INT – Author(s): C. Kim (Barefoot Networks)\, J. Lee (Barefo
+ ot Networks)\n\n* Title: Xilinx P4 to NetFPGA SUME compilation flow\, demo
+ nstrated for PERC congestion control algorithm experiments – Author(s): 
+ G. Brebner (Xilinx\, Inc.)\, R. Halstead (Xilinx\, Inc.)\, C. Neely (Xilin
+ x\, Inc.)\, S. Ibanez (Stanford University)\, L. Jose (Stanford University
+ )\, N. McKeown (Stanford University)\, M. Alizadeh (MIT)\n\n* Title: High 
+ Performance Service Chaining for Ethernet Transport Networks – Author(s)
+ : J. Vacaro (Hewlett Packard Enterprise)\, R. Eichelberger (Hewlett Packar
+ d Enterprise)\, S. Tandel (Hewlett Packard Enterprise)\, P. Bottorff (Hewl
+ ett Packard Enterprise)\, D. Fedyk (Hewlett Packard Enterprise)\, S. Baner
+ jee (Hewlett Packard Enterprise)\, R. Eichelberger (Hewlett Packard Enterp
+ rise)\n\n* Title: A novel Network Functions Virtualization Platform - Resi
+ dential CPE use case – Author(s): L. Mariote (CPqD)\, M. Nascimento (CPq
+ D)\, T. Primini (CPqD)\, A. Barbieri (Trópico)\n\n* Title: QoS measuremen
+ t with Tangram Measures – Author(s): B. Rafaeli (TGR / UFRJ)\, C. Junior
+  (TGR)\, C. Gonçalves (TGR / UFRJ)\, D. Ximenes (TGR / UFRJ)\, G. Mendon
+ ça (TGR)\, G. Bruno (TGR)\, G. Sengès (TGR / UFRJ)\, G. Thurler (TGR / U
+ FRJ)\, G. Santos (TGR)\, K. Almeida (TGR)\, E. Silva (UFRJ)\n\n* Title: VN
+ F and µVNF chaining with in-band network telemetry for servers equipped w
+ ith P4 / C programmable SmartNICs – Author(s): D. George (Netronome Syst
+ ems\, Inc.)\, J. Tönsing (Netronome Systems\, Inc.)
 LOCATION:Room: Agata
 END:VEVENT
 END:VCALENDAR
