@@ -12,7 +12,7 @@
       tprog_add_item("TafLoc: Time-adaptive and Fine-grained Device-free Localization with Little Cost", "", "L. Chang (Northwest University), J. Xiong (Singapore Management University), X. Chen (Northwest University), J. Wang (Northwest University), J. Hu (Northwest University), D. Fang (Northwest University), W. Wang (Northwest University), L. Chang (Northwest University)", "", "", "", "prog-tuesday");
       tprog_add_item("A First Look into Transnational Routing Detours", "", "A. Edmundson (Princeton University), R. Ensafi (Princeton University), N. Feamster (Princeton University), J. Rexford (Princeton University)", "", "", "", "prog-tuesday");
       tprog_add_item("PathCache: A Path Prediction Toolkit", "", "R. Singh (Stony Brook University), P. Gill (Stony Brook University)", "", "", "", "prog-tuesday");
-      tprog_add_item("Application-specific Acceleration Framework for Mobile Applications", "", "B. Choi (KAIST), J. Kim (KAIST), D. Han (KAIST), J. Kim (KAIST), B. Choi (KAIST)", "", "", "", "prog-tuesday");
+      tprog_add_item("Application-specific Acceleration Framework for Mobile Applications", "", "B. Choi (KAIST), J. Kim (KAIST), D. Han (KAIST)", "", "", "", "prog-tuesday");
       tprog_add_header("Wednesday, August 24, 2016", "prog-wednesday");
       tprog_add_session("9:00am - 5:30pm", "Session 2", "", "", "prog-wednesday");
       tprog_add_item("Named Data Networking Based Smart Home Lighting", "", "U. De Silva (Asian Institute of Technology), A. Lertsinsrubtavee (University of Cambridge), A. Sathiaseelan (University of Cambridge), K. Kanchanasut (Asian Institute of Technology)", "", "", "", "prog-wednesday");
