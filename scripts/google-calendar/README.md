@@ -19,5 +19,5 @@ Example:
 
 How to join all calendars in a single file (of course, run on the same dir the .ical files are placed; full-conf.ics file in the folder will be overwritten):
 
-printf "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//My calendar product//mxm.dk//\n" > full-conf; cat * | egrep -v "VCALENDAR|VERSION:2.0|PRODID" >> full-conf; echo "END:VCALENDAR" >> full-conf; mv full-conf full-conf.ics;
+rm -f full-conf.ics; printf "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//My calendar product//mxm.dk//\n" > full-conf; cat * | egrep -v "VCALENDAR|VERSION:2.0|PRODID" >> full-conf; echo "END:VCALENDAR" >> full-conf; mv full-conf full-conf.ics;
 

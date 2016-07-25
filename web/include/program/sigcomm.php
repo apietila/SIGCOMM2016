@@ -78,10 +78,7 @@
       tprog_add_item("OpenBox: A Software-Defined Framework for Developing, Deploying, and Managing Network Functions", "", "Anat Bremler-Barr (The Interdisciplinary Center, Herzliya), Yotam Harchol (The Hebrew University of Jerusalem), David Hay (The Hebrew University of Jerusalem)", "", "", "", "prog-thursday");
       tprog_add_item("PISCES: A Programmable, Protocol-Independent Software Switch", "", "Muhammad Shahbaz (Princeton University), Sean Choi (Stanford University), Ben Pfaff (VMware), Changhoon Kim (Barefoot Networks), Nick Feamster (Princeton University), Nick McKeown (Stanford University), Jennifer Rexford (Princeton University)", "", "", "", "prog-thursday");
       tprog_add_item("Dataplane Specialization for High-performance OpenFlow Software Switching", "", "L&aacute;szl&oacute; Moln&aacute;r (Ericsson Research, Hungary), Gergely Pongr&aacute;cz (Ericsson Research, Hungary), G&aacute;bor Enyedi (Ericsson Research, Hungary), Zolt&aacute;n Kis (Ericsson Research, Hungary), Levente Csikor (Budapest University of Technology and Economics), Ferenc Juh&aacute;sz (Budapest University of Technology and Economics), Attila K&ouml;r&ouml;si (Budapest University of Technology and Economics), G&aacute;bor R&eacute;tv&aacute;ri (Budapest University of Technology and Economics)", "", "", "", "prog-thursday");
-      tprog_add_session("5:00pm - 5:50pm", "Best of CCR", "", "", "prog-thursday");
-      tprog_add_item("CrowdSurf: Empowering Transparency in the Web", "", "H. Metwalley (Politecnico di Torino), S. Traverso (Politecnico di Torino), M. Mellia (Politecnico di Torino), S. Miskovic (Symantec Corp.), M. Baldi (Politecnico di Torino)", "", "", "", "prog-thursday");
-      tprog_add_item("Values and Networks: Steps Toward Exploring their Relationships", "", "Carsten Orwat (Karlsruhe Institute of Technology), Roland Bless (Karlsruhe Institute of Technology)", "", "", "", "prog-thursday");
-      tprog_add_session("5:50pm - 6:20pm", "Closing", "", "", "prog-thursday", true);
+      tprog_add_session("5:00pm - 5:30pm", "Closing", "", "", "prog-thursday", true);
 ?>
     </ul>
   </div>

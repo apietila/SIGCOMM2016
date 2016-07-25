@@ -3,7 +3,7 @@
 <?php
       tprog_add_header("Tuesday, August 23, 2016", "prog-tuesday");
       tprog_add_session("9:00am - 5:30pm", "Session 1", "", "", "prog-tuesday");
-      tprog_add_item("PieBridge: A Cross-DR scale Large Data Transmission Scheduling System", "", "Y. Zhang (Tsinghua University), K. Xu (Tsinghua University), G. Yao (Baidu), M. Zhang (Baidu), X. Nie (Tsinghua University), Y. Zhang (Tsinghua University)", "", "", "", "prog-tuesday");
+      tprog_add_item("PieBridge: A Cross-DR scale Large Data Transmission Scheduling System", "", "Y. Zhang&nbsp;(Tsinghua University), K. Xu&nbsp;(Tsinghua University), G. Yao&nbsp;(Baidu), M. Zhang&nbsp;(Baidu), X. Nie&nbsp;(Tsinghua University)", "", "", "", "prog-tuesday");
       tprog_add_item("A Longitudinal Analysis of .i2p Leakage in the Public DNS Infrastructure", "", "S. Jeong (Korea University), A. Kang (SUNY Buffalo), J. Kim (Chung-Ang University), H. Kim (Korea University), A. Mohaisen (SUNY Buffalo)", "", "", "", "prog-tuesday");
       tprog_add_item("Best Effort Task Scheduling for Data Parallel Jobs", "", "Z. Li (National University of Defense Technology), Y. Zhang (National University of Defense Technology), Y. Zhao (National University of Defense Technology), Y. Peng (National University of Defense Technology), D. Li (National University of Defense Technology)", "", "", "", "prog-tuesday");
       tprog_add_item("Efficient Remapping of Internet Routing Events", "", "E. Fazzion (Universidade Federal de Minas Gerais), &Iacute;. Cunha (Universidade Federal de Minas Gerais), D. Guedes (Universidade Federal de Minas Gerais), W. Meira Jr. (Universidade Federal de Minas Gerais), R. Teixeira (Inria), D. Veitch (University of Technology Sydney), C. Diot (Safran)", "", "", "", "prog-tuesday");

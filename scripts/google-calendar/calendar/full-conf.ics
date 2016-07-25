@@ -526,45 +526,199 @@ DESCRIPTION:Posters: \n\n* Title: Don't Mind the Gap: Bridging Network-wid
 LOCATION:Room: Topazio
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:NetPL Workshop: Talks
+DTSTART;VALUE=DATE-TIME:20160822T083000
+DTEND;VALUE=DATE-TIME:20160822T173000
+UID:ffb5f51785948b351a4e9cc9b11c7461
+DESCRIPTION:Talks: \n\n* Title: Towards Correct-by-Construction SDN – Sp
+ eaker(s): Leonid Ryzhyk (Samsung Research America)\, Nikolaj Bjorner (Micr
+ osoft Research)\, Marco Canini (KAUST\, KSA)\, Jean-Baptiste Jeannin\, Nin
+ a Narodytska\, Cole Schlesinger\, Douglas B. Terry (Samsung Research Ameri
+ ca)\, George Varghese (Microsoft Research)\n\n* Title: Formal Semantics an
+ d Automated Verification for the Border Gateway Protocol – Speaker(s): K
+ onstantin Weitz\, Doug Woos\, Emina Torlak\, Michael D. Ernst\, Arvind Kri
+ shnamurthy\, Zachary Tatlock (University of Washington)\n\n* Title: P4FPGA
+ : High-Level Synthesis for Networking – Speaker(s): Han Wang\, Ki Suh Le
+ e\, Vishal Shrivastav\, Hakim Weatherspoon (Cornell University)\n\n* Title
+ : Symbolic Execution &mdash\; Model Equivalence &amp\; Applications – Sp
+ eaker(s): Matei Popovici\, Radu Stoenescu\, Lorina Negreanu\, Costin Raici
+ u (University Politehnica of Bucharest)\n\n* Keynote Title:\nThe Next 700 
+ Network Programming Languages\n\nSpeaker:\nNate Foster (Cornell University
+ )\n\nAbstract:\nSpecification and verification of computer networks has be
+ come a reality in recent years\, with the emergence of domain-specific pro
+ gramming languages and automated verification tools. But the design of the
+ se languages and tools has been largely ad hoc\, driven more by the needs 
+ of applications and the capabilities of hardware than by any foundational 
+ principles. This talk will present NetKAT\, a language for programming net
+ works based on a well-studied mathematical foundation\, Kleene Algebra wit
+ h Tests (KAT). The talk will describe the design of the language\, its sem
+ antic underpinnings\, and extensions with features to support stateful and
+  probabilistic programming.<br/><br/>NetKAT is joint work with colleagues 
+ at Cornell\, Facebook\, Inhabited Type\, Princeton\, Samsung\, UCL\, and U
+ Mass Amherst.\n\nSpeaker Bio:\nNate Foster is an Assistant Professor of Co
+ mputer Science at Cornell University. The goal of his search is developing
+  programming languages and tools for building reliable systems. He receive
+ d a PhD in Computer Science from theUniversity of Pennsylvania in 2009\, a
+ n MPhil in History and Philosophy of Science from Cambridge University in 
+ 2008\, and a BA in Computer Science from Williams College in 2001. His awa
+ rds include a Sloan Research Fellowship\, an NSF CAREER Award\, a Most Inf
+ luential POPL Paper Award\, a Tien &#39\;72 Teaching Award\, a Google Rese
+ arch Award\, a Yahoo! Academic Career Enhancement Award\, and the Morris a
+ nd Dorothy Rubinoff Award.\n\n* Keynote Title:\nSymmetries and Surgeries f
+ or Network Verification and Quantitative Network Analysis\n\nSpeaker:\nNik
+ olaj Bjorner (Microsoft Research)\n\nAbstract:\nPacket switched networks b
+ uild in redundancies that enable scale and fault tolerance. Such redundanc
+ ies are conveniently implemented by placing routers in symmetric or near s
+ ymmetric configurations. The symmetries are also present at the level of r
+ outing tables. When it comes to checking properties of such networks\, whe
+ ther it being reachability or quantitative properties\, such as congestion
+ \, the gain in recognizing such symmetries can be dramatic. Reducing the n
+ etworks to their asymmetric core enables scaling analysis by order of magn
+ itudes compared to a straight-forward analysis. In this talk I describe ou
+ r efforts around extracting and exploiting symmetries and bisimulations in
+  data-center and wide-area networks. In this quest we develop algorithms t
+ hat find bisimilar routing states that exploit properties of packet switch
+ ed routers. We also introduce a data-structure (ddNF) for extracting sets 
+ of IP headers that are treated equivalently from the point of view of rout
+ ing tables. We then develop a notion of bisimulations to quantitative sett
+ ings.\n\nSpeaker Bio:\nNikolaj Bjorner is a Principal Researcher at Micros
+ oft Research\, Redmond\, working in the area of Automated Theorem Proving 
+ and Software Engineering. His current main line of work is around the stat
+ e-of-the art theorem prover Z3\, which is used as a foundation of several 
+ software engineering tools. Z3 is developed by Leonardo de Moura\, Nikolaj
+  Bjorner and Christoph Wintersteiger. Z3 received the 2015 ACM SIGPLAN Sof
+ tware System’s award. Previously\, he designed the DFSR\, Distributed Fi
+ le System - Replication\, shipped with Windows Server since 2005 and befor
+ e that worked on distributed file sharing systems at a startup XDegrees\, 
+ and program synthesis and transformation systems at the Kestrel Institute.
+  He received his Master’s and Ph.D. degrees in computer science from Sta
+ nford University\, and spent the first three years of university at DTU an
+ d DIKU.\n\n* Keynote Title:\nTemporal NetKAT\n\nSpeaker:\nDavid Walker (Pr
+ inceton University)\n\nAbstract:\nOver the past 5-10 years\, the rise of s
+ oftware-defined networking (SDN) has inspired a wide range of new systems\
+ , libraries\, hypervisors and languages for programming\, monitoring\, and
+  debugging network behavior. Oftentimes\, these systems are disjoint—one
+  language for programming and another for verification\, and yet another f
+ or run-time monitoring and debugging. In this paper\, we present a new\, u
+ nified framework\, called Temporal NetKAT\, capable of facilitating all of
+  these tasks at once. As its name suggests\, Temporal NetKAT is the synthe
+ sis of two formal theories: past-time (finite trace) linear temporal logic
+  and (network) Kleene Algebra with Tests. Temporal predicates allow progra
+ mmers to write down concise properties of a packet’s path through the ne
+ twork and to make dynamic packet-forwarding\, access control or debugging 
+ decisions on that basis. In addition to being useful for programming\, the
+  combined equational theory of LTL and NetKAT facilitates proofs of path-b
+ ased correctness properties. Using new\, general\, proof techniques\, we s
+ how that the equational semantics is sound with respect to the denotationa
+ l semantics\, and\, for a class of programs we call network-wide programs\
+ , complete. We have also implemented a compiler for temporal NetKAT\, eval
+ uated its performance on a range of benchmarks\, and studied the effective
+ ness of several optimizations.<br/><br/>This is joint work with Ryan Becke
+ tt and Michael Greenberg.\n\nSpeaker Bio:\nDavid Walker is a Professor of 
+ Computer Science at Princeton University. He received his B.Sc. from Queen
+ 's University\, Canada in 1995 and his Ph.D. in Computer Science from Corn
+ ell University in 2001. His research interests include programming languag
+ e theory\, design and implementation of all kinds. He is especially intere
+ sted in type systems and the development of new domain-specific programmin
+ g languages. He won an NSF Career award in 2003 and Alfred Sloan Fellowshi
+ p in 2004. In 2007\, with his students and colleagues at Princeton\, he wo
+ n the PLDI best paper award for the paper entitled Fault-Tolerant Typed As
+ sembly Language. In 2008\, his paper From System F to Typed Assembly Langu
+ age\, co-authored with Greg Morrisett\, Karl Crary and Neal Glew\, won a 1
+ 0-year retrospective award for most influential POPL 1998 paper. In 2013\,
+  with his students and colleagues at Princeton and Cornell\, he won the NS
+ DI community award for his paper on Composing Software-Defined Networks. H
+ e served as an associate editor for ACM TOPLAS from 2007-2015\, as the Pro
+ gram Chair for POPL 2015\, and won the ACM SIGPLAN Robin Milner Young Rese
+ archer Award in 2015.\n\n* Keynote Title:\nInteractive Query for Dynamic N
+ etwork Analytics\n\nSpeaker:\nHaoyu Song (Huawei Technologies)\n\nAbstract
+ :\nNetwork data plane needs to be interactively programmed in order to sup
+ port Dynamic Network Analytics (DNA). We envision the high level DNA appli
+ cations can be break down into a set of queries and the queries can be fur
+ ther compiled into incremental configurations to the data plane. We emphas
+ ize the need to define standard DNA APIs and/or query language for DNA sys
+ tem.\n\nSpeaker Bio:\nHaoyu Song is a principal architect at Huawei Techno
+ logies. He is a leading researcher on SDN programmable data plane. His cur
+ rent research interests span all aspects of the SDN/NFV ecosystem. He was 
+ a researcher at Bell Labs\, Alcatel-Lucent before joining Huawei. He hold 
+ a doctoral degree in computer engineering from Washington University in St
+ . Louis.\n\n* Keynote Title:\nVerifying Reachability in Networks with Muta
+ ble Datapaths\n\nSpeaker:\nAurojit Panda (UC Berkeley)\n\nAbstract:\nRecen
+ t work has made great progress in verifying the forwarding correctness of 
+ networks. However\, these approaches cannot be used to verify networks con
+ taining middleboxes\, such as caches and firewalls\, whose forwarding beha
+ vior depends on previously observed traffic. We explore how to verify reac
+ hability properties for networks that include such &quot\;mutable datapath
+ &quot\; elements. We want our verification results to hold not just for th
+ e given network\, but also in the presence of failures. The main challenge
+  lies in scaling the approach to handle large and complicated networks\, W
+ e address by developing and leveraging the concept of slices\, which allow
+  network-wide verification to only require analyzing small portions of the
+  network. We show that with slices the time required to verify an invarian
+ t on many production networks is independent of the size of the network it
+ self.\n\nSpeaker Bio:\nAurojit Panda is a PhD candidate at UC Berkeley adv
+ ised by Scott Shenker. His research largely focuses on how to simplify dev
+ eloping and deploying new network services.\n\n* Keynote Title:\nNEMO Engi
+ ne\, A Model Driven Compiler to Execute User&#39\;s Intent and Manage Serv
+ ice Lifecycle by Multi Layer State Machine\n\nSpeaker:\nYinben Xia (Huawei
+  Technologies)\n\nAbstract:\nIn last year&#39\;s NetPL workshop\, I introd
+ uced an intent oriented network service programming language - NEMO. This 
+ time\, I will introduce NEMO&#39\;s model driven compiler\, which compiles
+  intent language to real network executable interface. Second\, I will int
+ roduce a multi layer state machine engine in NEMO compiler\, which will ha
+ ndle various changes from equipments\, requirement or governance policy. T
+ his engine provides an automatic change management capability for whole se
+ rvice lifecycle. In the last\, I will update NEMO&#39\;s open source imple
+ mentation progress.\n\nSpeaker Bio:\nDr. Yinben Xia is a senior staff rese
+ archer within Huawei&#39\;s network research department from 2008. He dedi
+ cated his research effort in network architecture and SDN technologies. In
+  recent two years\, he lead a team to design and developer a NaaS (Network
+  as a Service) programming language (NEMO Project). He owns 15 patents in 
+ related domain. He is leading a team to carry out SDN/NEMO research in Bei
+ jing. Before joining Huawei\, Dr. Xia worked at IBM China Research Lab for
+  4 years after he got PH.D from Beijing University of Aeronautics and Astr
+ onautics.\n\n
+LOCATION:Room: Agata 2
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:SIGCOMM Posters: Session 1
 DTSTART;VALUE=DATE-TIME:20160823T090000
 DTEND;VALUE=DATE-TIME:20160823T173000
 UID:786ae9623ca09e699cf601d9dbf6f880
 DESCRIPTION:Posters: \n\n* Title: PieBridge: A Cross-DR scale Large Data T
- ransmission Scheduling System – Author(s): Y. Zhang (Tsinghua University
- )\, K. Xu (Tsinghua University)\, G. Yao (Baidu)\, M. Zhang (Baidu)\, X. N
- ie (Tsinghua University)\, Y. Zhang (Tsinghua University)\n\n* Title: A Lo
- ngitudinal Analysis of .i2p Leakage in the Public DNS Infrastructure – A
- uthor(s): S. Jeong (Korea University)\, A. Kang (SUNY Buffalo)\, J. Kim (C
- hung-Ang University)\, H. Kim (Korea University)\, A. Mohaisen (SUNY Buffa
- lo)\n\n* Title: Best Effort Task Scheduling for Data Parallel Jobs – Aut
- hor(s): Z. Li (National University of Defense Technology)\, Y. Zhang (Nati
- onal University of Defense Technology)\, Y. Zhao (National University of D
- efense Technology)\, Y. Peng (National University of Defense Technology)\,
-  D. Li (National University of Defense Technology)\n\n* Title: Efficient R
- emapping of Internet Routing Events – Author(s): E. Fazzion (Universidad
- e Federal de Minas Gerais)\, Í. Cunha (Universidade Federal de Minas Gera
- is)\, D. Guedes (Universidade Federal de Minas Gerais)\, W. Meira Jr. (Uni
- versidade Federal de Minas Gerais)\, R. Teixeira (Inria)\, D. Veitch (Univ
- ersity of Technology Sydney)\, C. Diot (Safran)\n\n* Title: Privacy-Aware 
- Infrastructure for Managing Personal Data – Author(s): Y. Amar (Queen Ma
- ry University of London)\, H. Haddadi (Queen Mary University of London)\, 
- R. Mortier (University of Cambridge)\n\n* Title: Performance Evaluation of
-  Locator/Identifier Separation Protocol through RIPE Atlas – Author(s): 
- Y. Li (Telecom ParisTech)\, L. Iannone (Telecom ParisTech)\n\n* Title: Taf
- Loc: Time-adaptive and Fine-grained Device-free Localization with Little C
- ost – Author(s): L. Chang (Northwest University)\, J. Xiong (Singapore M
- anagement University)\, X. Chen (Northwest University)\, J. Wang (Northwes
- t University)\, J. Hu (Northwest University)\, D. Fang (Northwest Universi
- ty)\, W. Wang (Northwest University)\, L. Chang (Northwest University)\n\n
- * Title: A First Look into Transnational Routing Detours – Author(s): A.
-  Edmundson (Princeton University)\, R. Ensafi (Princeton University)\, N. 
- Feamster (Princeton University)\, J. Rexford (Princeton University)\n\n* T
- itle: PathCache: A Path Prediction Toolkit – Author(s): R. Singh (Stony 
- Brook University)\, P. Gill (Stony Brook University)\n\n* Title: Applicati
- on-specific Acceleration Framework for Mobile Applications – Author(s): 
- B. Choi (KAIST)\, J. Kim (KAIST)\, D. Han (KAIST)\, J. Kim (KAIST)\, B. Ch
- oi (KAIST)
+ ransmission Scheduling System – Author(s): Y. Zhang (Tsinghua Universit
+ y)\, K. Xu (Tsinghua University)\, G. Yao (Baidu)\, M. Zhang (Baidu)\, 
+ X. Nie (Tsinghua University)\n\n* Title: A Longitudinal Analysis of .i2p 
+ Leakage in the Public DNS Infrastructure – Author(s): S. Jeong (Korea Un
+ iversity)\, A. Kang (SUNY Buffalo)\, J. Kim (Chung-Ang University)\, H. Ki
+ m (Korea University)\, A. Mohaisen (SUNY Buffalo)\n\n* Title: Best Effort 
+ Task Scheduling for Data Parallel Jobs – Author(s): Z. Li (National Univ
+ ersity of Defense Technology)\, Y. Zhang (National University of Defense T
+ echnology)\, Y. Zhao (National University of Defense Technology)\, Y. Peng
+  (National University of Defense Technology)\, D. Li (National University 
+ of Defense Technology)\n\n* Title: Efficient Remapping of Internet Routing
+  Events – Author(s): E. Fazzion (Universidade Federal de Minas Gerais)\,
+  Í. Cunha (Universidade Federal de Minas Gerais)\, D. Guedes (Universidad
+ e Federal de Minas Gerais)\, W. Meira Jr. (Universidade Federal de Minas G
+ erais)\, R. Teixeira (Inria)\, D. Veitch (University of Technology Sydney)
+ \, C. Diot (Safran)\n\n* Title: Privacy-Aware Infrastructure for Managing 
+ Personal Data – Author(s): Y. Amar (Queen Mary University of London)\, H
+ . Haddadi (Queen Mary University of London)\, R. Mortier (University of Ca
+ mbridge)\n\n* Title: Performance Evaluation of Locator/Identifier Separati
+ on Protocol through RIPE Atlas – Author(s): Y. Li (Telecom ParisTech)\, 
+ L. Iannone (Telecom ParisTech)\n\n* Title: TafLoc: Time-adaptive and Fine-
+ grained Device-free Localization with Little Cost – Author(s): L. Chang 
+ (Northwest University)\, J. Xiong (Singapore Management University)\, X. C
+ hen (Northwest University)\, J. Wang (Northwest University)\, J. Hu (North
+ west University)\, D. Fang (Northwest University)\, W. Wang (Northwest Uni
+ versity)\, L. Chang (Northwest University)\n\n* Title: A First Look into T
+ ransnational Routing Detours – Author(s): A. Edmundson (Princeton Univer
+ sity)\, R. Ensafi (Princeton University)\, N. Feamster (Princeton Universi
+ ty)\, J. Rexford (Princeton University)\n\n* Title: PathCache: A Path Pred
+ iction Toolkit – Author(s): R. Singh (Stony Brook University)\, P. Gill 
+ (Stony Brook University)\n\n* Title: Application-specific Acceleration Fra
+ mework for Mobile Applications – Author(s): B. Choi (KAIST)\, J. Kim (KA
+ IST)\, D. Han (KAIST)
 LOCATION:Room: Topazio
 END:VEVENT
 BEGIN:VEVENT

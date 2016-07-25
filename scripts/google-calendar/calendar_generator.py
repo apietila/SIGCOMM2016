@@ -160,7 +160,7 @@ class CalendarGenerator:
       aux_session = u'* Keynote Title:\n{}\n\n'.format(session_keynote_title)
       aux_session += u'Speaker:\n{}\n\n'.format(author)
       aux_session += (u'Abstract:\n{}\n\n'.format(abstract) if len(abstract) > 0 else "")
-      aux_session += (u'Speaker Bio:\n{}'.format(shortbio) if len(shortbio) > 0 else "")
+      aux_session += (u'Speaker Bio:\n{}\n\n'.format(shortbio) if len(shortbio) > 0 else "")
       self.current_description['Keynote'] += aux_session
       return
 

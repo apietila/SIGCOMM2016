@@ -7,40 +7,39 @@ DTSTART;VALUE=DATE-TIME:20160823T090000
 DTEND;VALUE=DATE-TIME:20160823T173000
 UID:786ae9623ca09e699cf601d9dbf6f880
 DESCRIPTION:Posters: \n\n* Title: PieBridge: A Cross-DR scale Large Data T
- ransmission Scheduling System – Author(s): Y. Zhang (Tsinghua University
- )\, K. Xu (Tsinghua University)\, G. Yao (Baidu)\, M. Zhang (Baidu)\, X. N
- ie (Tsinghua University)\, Y. Zhang (Tsinghua University)\n\n* Title: A Lo
- ngitudinal Analysis of .i2p Leakage in the Public DNS Infrastructure – A
- uthor(s): S. Jeong (Korea University)\, A. Kang (SUNY Buffalo)\, J. Kim (C
- hung-Ang University)\, H. Kim (Korea University)\, A. Mohaisen (SUNY Buffa
- lo)\n\n* Title: Best Effort Task Scheduling for Data Parallel Jobs – Aut
- hor(s): Z. Li (National University of Defense Technology)\, Y. Zhang (Nati
- onal University of Defense Technology)\, Y. Zhao (National University of D
- efense Technology)\, Y. Peng (National University of Defense Technology)\,
-  D. Li (National University of Defense Technology)\n\n* Title: Efficient R
- emapping of Internet Routing Events – Author(s): E. Fazzion (Universidad
- e Federal de Minas Gerais)\, Í. Cunha (Universidade Federal de Minas Gera
- is)\, D. Guedes (Universidade Federal de Minas Gerais)\, W. Meira Jr. (Uni
- versidade Federal de Minas Gerais)\, R. Teixeira (Inria)\, D. Veitch (Univ
- ersity of Technology Sydney)\, C. Diot (Safran)\n\n* Title: Privacy-Aware 
- Infrastructure for Managing Personal Data – Author(s): Y. Amar (Queen Ma
- ry University of London)\, H. Haddadi (Queen Mary University of London)\, 
- R. Mortier (University of Cambridge)\n\n* Title: Performance Evaluation of
-  Locator/Identifier Separation Protocol through RIPE Atlas – Author(s): 
- Y. Li (Telecom ParisTech)\, L. Iannone (Telecom ParisTech)\n\n* Title: Taf
- Loc: Time-adaptive and Fine-grained Device-free Localization with Little C
- ost – Author(s): L. Chang (Northwest University)\, J. Xiong (Singapore M
- anagement University)\, X. Chen (Northwest University)\, J. Wang (Northwes
- t University)\, J. Hu (Northwest University)\, D. Fang (Northwest Universi
- ty)\, W. Wang (Northwest University)\, L. Chang (Northwest University)\n\n
- * Title: A First Look into Transnational Routing Detours – Author(s): A.
-  Edmundson (Princeton University)\, R. Ensafi (Princeton University)\, N. 
- Feamster (Princeton University)\, J. Rexford (Princeton University)\n\n* T
- itle: PathCache: A Path Prediction Toolkit – Author(s): R. Singh (Stony 
- Brook University)\, P. Gill (Stony Brook University)\n\n* Title: Applicati
- on-specific Acceleration Framework for Mobile Applications – Author(s): 
- B. Choi (KAIST)\, J. Kim (KAIST)\, D. Han (KAIST)\, J. Kim (KAIST)\, B. Ch
- oi (KAIST)
+ ransmission Scheduling System – Author(s): Y. Zhang (Tsinghua Universit
+ y)\, K. Xu (Tsinghua University)\, G. Yao (Baidu)\, M. Zhang (Baidu)\, 
+ X. Nie (Tsinghua University)\n\n* Title: A Longitudinal Analysis of .i2p 
+ Leakage in the Public DNS Infrastructure – Author(s): S. Jeong (Korea Un
+ iversity)\, A. Kang (SUNY Buffalo)\, J. Kim (Chung-Ang University)\, H. Ki
+ m (Korea University)\, A. Mohaisen (SUNY Buffalo)\n\n* Title: Best Effort 
+ Task Scheduling for Data Parallel Jobs – Author(s): Z. Li (National Univ
+ ersity of Defense Technology)\, Y. Zhang (National University of Defense T
+ echnology)\, Y. Zhao (National University of Defense Technology)\, Y. Peng
+  (National University of Defense Technology)\, D. Li (National University 
+ of Defense Technology)\n\n* Title: Efficient Remapping of Internet Routing
+  Events – Author(s): E. Fazzion (Universidade Federal de Minas Gerais)\,
+  Í. Cunha (Universidade Federal de Minas Gerais)\, D. Guedes (Universidad
+ e Federal de Minas Gerais)\, W. Meira Jr. (Universidade Federal de Minas G
+ erais)\, R. Teixeira (Inria)\, D. Veitch (University of Technology Sydney)
+ \, C. Diot (Safran)\n\n* Title: Privacy-Aware Infrastructure for Managing 
+ Personal Data – Author(s): Y. Amar (Queen Mary University of London)\, H
+ . Haddadi (Queen Mary University of London)\, R. Mortier (University of Ca
+ mbridge)\n\n* Title: Performance Evaluation of Locator/Identifier Separati
+ on Protocol through RIPE Atlas – Author(s): Y. Li (Telecom ParisTech)\, 
+ L. Iannone (Telecom ParisTech)\n\n* Title: TafLoc: Time-adaptive and Fine-
+ grained Device-free Localization with Little Cost – Author(s): L. Chang 
+ (Northwest University)\, J. Xiong (Singapore Management University)\, X. C
+ hen (Northwest University)\, J. Wang (Northwest University)\, J. Hu (North
+ west University)\, D. Fang (Northwest University)\, W. Wang (Northwest Uni
+ versity)\, L. Chang (Northwest University)\n\n* Title: A First Look into T
+ ransnational Routing Detours – Author(s): A. Edmundson (Princeton Univer
+ sity)\, R. Ensafi (Princeton University)\, N. Feamster (Princeton Universi
+ ty)\, J. Rexford (Princeton University)\n\n* Title: PathCache: A Path Pred
+ iction Toolkit – Author(s): R. Singh (Stony Brook University)\, P. Gill 
+ (Stony Brook University)\n\n* Title: Application-specific Acceleration Fra
+ mework for Mobile Applications – Author(s): B. Choi (KAIST)\, J. Kim (KA
+ IST)\, D. Han (KAIST)
 LOCATION:Room: Topazio
 END:VEVENT
 BEGIN:VEVENT
