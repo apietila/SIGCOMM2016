@@ -7,9 +7,7 @@
 
 <h2>Monday, August 22nd, Afternoon Session</h2>
 
-<h2>Location</h2>
-
-<p>The tutorial will take place at Room Topazio 1.</p>
+<div class="border ui-corner-all ui-shadow"><div style="padding:2em;"><b><i>Due to low enrollment, this tutorial has been cancelled. We sincerely apologize for the inconvenience.</i></b></div></div>
 
 <h2>Presenters</h2>
 <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="tbl">

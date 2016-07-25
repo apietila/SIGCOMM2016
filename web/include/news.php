@@ -1,4 +1,5 @@
 <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="datetbl">
+  <?php add_dateitem("July 25, 2016", "We are delighted to announce that <b>Jim Kurose</b> (University of Massachusetts, Amherst) is the 2016 SIGCOMM Lifetime Achievement Award winner! Jim will be giving the SIGCOMM opening keynote speech on Tuesday, 23rd. More details will be online soon!") ?>
   <?php add_dateitem("July 21, 2016", "The progam for <a href=\"maintrackposterprogram.php\">Posters and Demos from Main Track Papers</a> online") ?>
   <?php add_dateitem("July 19, 2016", "&#34;Best of CCR&#34; session included to the <a href=\"program.php\">SIGCOMM program</a>, the conference closing session postponed to 5:50pm on Thursday") ?>
   <?php add_dateitem("July 18, 2016", "The <a href=\"industrialdemoprogram.php\">Industrial Demos</a> program online") ?>

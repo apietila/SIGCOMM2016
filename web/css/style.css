@@ -469,6 +469,11 @@ button[disabled],
 
 /* main content */
 
+.border {
+        border: 1px solid #BBB;
+        margin-top: 2em;
+}
+
 .main-page {
   overflow: visible !important;
 }
