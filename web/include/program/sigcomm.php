@@ -6,11 +6,19 @@
       tprog_add_extra("", "Welcome Reception", "prog-monday");
       tprog_add_item("Welcome Reception", "", "The Welcome Reception will take place at the Oceania Convention Center. Drinks and hors d'oeuvre will be served.", "", "", "", "prog-monday");
       tprog_add_extra("", "N2Women Dinner", "prog-monday");
-      tprog_add_item("N2Women Dinner", "", "Detailed information will be available soon.", "", "", "", "prog-monday");
+      tprog_add_item("N2Women Dinner", "", "Participation in this event is by invitation only. More information will be available soon.", "", "", "", "prog-monday");
       tprog_add_extra("", "Award Dinner", "prog-monday");
-      tprog_add_item("Award Dinner", "", "Detailed information will be available soon.", "", "", "", "prog-monday");
+      tprog_add_item("Award Dinner", "", "Participation in this event is by invitation only. More information will be available soon.", "", "", "", "prog-monday");
       tprog_add_header("Tuesday, August 23, 2016", "prog-tuesday");
       tprog_add_session("8:45am - 10:30am", "Opening", "", "", "prog-tuesday");
+      tprog_add_keynote("SIGCOMM Lifetime Achievement Award Keynote", "Jim Kurose (University of Massachusetts, Amherst)", "To be announced soon.", "Jim Kurose received a B.A. degree in physics from Wesleyan University and his Ph.D. degree in computer science from Columbia University. He is currently Distinguished University Professor in the College of Information and Computer Sciences at the University of Massachusetts Amherst. He has been a Visiting Scientist at IBM Research, INRIA, Institut EURECOM , the University of Paris, the Laboratory for Information, Network and Communication Sciences, and Technicolor Research Labs.<br/>
+<br/>
+His research interests include network protocols and architecture, network measurement, sensor networks, and multimedia communication. Dr. Kurose has served as Editor-in- Chief of the IEEE Transactions on Communications and was the founding Editor-in- Chief of the IEEE/ACM Transactions on Networking. He has been Technical Program Co-Chair for the IEEE Infocom, ACM SIGCOMM, ACM SIGMETRICS, and ACM Internet Measurement conferences. He has won several conference best paper awards and received the IEEE Infocom Achievement Award and the ACM Sigcomm Test of Time Award.<br/>
+<br/>
+He has received a number of awards for his teaching including outstanding teacher awards from the National Technological University, the UMass College of Natural Science and Mathematics, and the Northeast Association of Graduate Schools, and the IEEE Taylor Booth Education Medal. He has recently served on the Board of Directors of the Computing Research Association, and on the scientific advisory boards of IMDEA Networks in Madrid and the Laboratory for Information, Network and Communication Sciences (LINCS) in Paris. With Keith Ross, he is the co-author of the textbook, Computer Networking, a top down approach (7th edition), published by Addison-Wesley/Pearson. He is a Fellow of the ACM and the IEEE.<br/>
+<br/>
+Since January 2015, he is serving as an Assistant Director of the US National Science Foundation, where he leads the Directorate for the Computer and Information Science and Engineering (CISE) in its mission to fundamental research in computer and information science and engineering and transformative advances in cyberinfrastructure. Dr. Kurose oversees the CISE budget of more than $900 million. He also serves as co-chair of the Networking and Information Technology Research and Development (NITRD) Subcommittee of the National Science and Technology Council Committee on Technology, helping coordinate the activities of 17 government agencies.", "images/program/sigcomm/jim-kurose.jpg", "prog-tuesday");
+
       tprog_add_session("10:30am - 11:00am", "Coffee Break", "", "", "prog-tuesday");
       tprog_add_session("11:00am - 12:40pm", "Session 1 - SDN & NFV", "", "", "prog-tuesday");
       tprog_add_item("ClickNP: Highly Flexible and High Performance Network Processing with Reconfigurable Hardware", "", "Bojie Li (USTC / Microsoft Research), Kun Tan (Microsoft Research), Layong (Larry) Luo (Microsoft), Yanqing Peng (SJTU / Microsoft Research), Renqian Luo (USTC / Microsoft Research), Ningyi Xu (Microsoft Research), Yongqiang Xiong (Microsoft Research), Peng Cheng (Microsoft Research), Enhong Chen (USTC)", "", "", "", "prog-tuesday");
@@ -78,7 +86,10 @@
       tprog_add_item("OpenBox: A Software-Defined Framework for Developing, Deploying, and Managing Network Functions", "", "Anat Bremler-Barr (The Interdisciplinary Center, Herzliya), Yotam Harchol (The Hebrew University of Jerusalem), David Hay (The Hebrew University of Jerusalem)", "", "", "", "prog-thursday");
       tprog_add_item("PISCES: A Programmable, Protocol-Independent Software Switch", "", "Muhammad Shahbaz (Princeton University), Sean Choi (Stanford University), Ben Pfaff (VMware), Changhoon Kim (Barefoot Networks), Nick Feamster (Princeton University), Nick McKeown (Stanford University), Jennifer Rexford (Princeton University)", "", "", "", "prog-thursday");
       tprog_add_item("Dataplane Specialization for High-performance OpenFlow Software Switching", "", "L&aacute;szl&oacute; Moln&aacute;r (Ericsson Research, Hungary), Gergely Pongr&aacute;cz (Ericsson Research, Hungary), G&aacute;bor Enyedi (Ericsson Research, Hungary), Zolt&aacute;n Kis (Ericsson Research, Hungary), Levente Csikor (Budapest University of Technology and Economics), Ferenc Juh&aacute;sz (Budapest University of Technology and Economics), Attila K&ouml;r&ouml;si (Budapest University of Technology and Economics), G&aacute;bor R&eacute;tv&aacute;ri (Budapest University of Technology and Economics)", "", "", "", "prog-thursday");
-      tprog_add_session("5:00pm - 5:30pm", "Closing", "", "", "prog-thursday", true);
+      tprog_add_session("5:00pm - 5:50pm", "Best of CCR", "", "", "prog-thursday");
+      tprog_add_item("CrowdSurf: Empowering Transparency in the Web", "", "H. Metwalley (Politecnico di Torino), S. Traverso (Politecnico di Torino), M. Mellia (Politecnico di Torino), S. Miskovic (Symantec Corp.), M. Baldi (Politecnico di Torino)", "", "", "", "prog-thursday");
+      tprog_add_item("Values and Networks: Steps Toward Exploring their Relationships", "", "Carsten Orwat (Karlsruhe Institute of Technology), Roland Bless (Karlsruhe Institute of Technology)", "", "", "", "prog-thursday");
+      tprog_add_session("5:50pm - 6:20pm", "Closing", "", "", "prog-thursday", true);
 ?>
     </ul>
   </div>

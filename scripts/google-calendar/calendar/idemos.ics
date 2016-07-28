@@ -2,7 +2,8 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//My calendar product//mxm.dk//
 BEGIN:VEVENT
-SUMMARY:SIGCOMM Industrial Demos: Industrial Demo Session
+SUMMARY:SIGCOMM Industrial Demos: Industrial Demos - Presenters onsite dur
+ ing coffee breaks
 DTSTART;VALUE=DATE-TIME:20160825T090000
 DTEND;VALUE=DATE-TIME:20160825T173000
 UID:8fd38ac98ac4e96b63759db4fa820b90

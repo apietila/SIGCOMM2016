@@ -2,7 +2,8 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//My calendar product//mxm.dk//
 BEGIN:VEVENT
-SUMMARY:SIGCOMM Demos: Session 1
+SUMMARY:SIGCOMM Demos: Session 1 - Demo presenters onsite during coffee br
+ eaks
 DTSTART;VALUE=DATE-TIME:20160823T090000
 DTEND;VALUE=DATE-TIME:20160823T173000
 UID:da3cbc9866e605e10be1e3379a958e68
@@ -20,27 +21,28 @@ DESCRIPTION:Demos: \n\n* Title: Source Address Validation in Software Defi
  g University)\, A. Feldmann (TU Berlin)\, A. Ludwig (TU Berlin)\, S. Dudyc
  z (University of Wroclaw)\, A. Schuetze (TU Berlin)\n\n* Title: A Transpar
  ent Highway for inter-Virtual Network Function Communication with Open vSw
- itch – Author(s): M. Bernal (Politecnico di Torino)\, I. Cerrato (Polite
- cnico di Torino)\, F. Risso (Politecnico di Torino)\, D. Verbeiren (Tessar
- es SA\, Louvain-la-Neuve)\n\n* Title: Cases for Including a Reference Moni
- tor to SDN – Author(s): D. Gkounis (NEC Laboratories Europe)\, F. Klaedt
- ke (NEC Laboratories Europe)\, R. Bifulco (NEC Laboratories Europe)\, G. K
- arame (NEC Laboratories Europe)\n\n* Title: High speed packet forwarding c
- ompiled from protocol independent data plane specifications – Author(s):
-  S. Laki (Eötvös Loránd University)\, D. Horpácsi (Eötvös Loránd Un
- iversity)\, P. Vörös (Eötvös Loránd University)\, R. Kitlei (Eötvös
-  Loránd University)\, D. Leskó (Eötvös Loránd University)\, M. Tejfel
-  (Eötvös Loránd University)\n\n* Title: Roaming Edge vNFs using Glasgow
-  Network Functions – Author(s): R. Cziva (University of Glasgow)\, S. Jo
- uet (University of Glasgow)\, D. Pezaros (University of Glasgow)\n\n* Titl
- e: Modeling Native Software Components as Virtual Network Functions – Au
- thor(s): M. Baldi (Politecnico di Torino)\, R. Bonafiglia (Politecnico di 
- Torino)\, F. Risso (Politecnico di Torino)\, A. Sapio (Politecnico di Tori
- no)
+ itch – Author(s): M. Vásquez (Politecnico di Torino)\, I. Cerrato (Poli
+ tecnico di Torino)\, F. Risso (Politecnico di Torino)\, D. Verbeiren (Tess
+ ares SA\, Louvain-la-Neuve)\n\n* Title: Cases for Including a Reference Mo
+ nitor to SDN – Author(s): D. Gkounis (NEC Laboratories Europe)\, F. Klae
+ dtke (NEC Laboratories Europe)\, R. Bifulco (NEC Laboratories Europe)\, G.
+  Karame (NEC Laboratories Europe)\n\n* Title: High speed packet forwarding
+  compiled from protocol independent data plane specifications – Author(s
+ ): S. Laki (Eötvös Loránd University)\, D. Horpácsi (Eötvös Loránd 
+ University)\, P. Vörös (Eötvös Loránd University)\, R. Kitlei (Eötv
+ ös Loránd University)\, D. Leskó (Eötvös Loránd University)\, M. Tej
+ fel (Eötvös Loránd University)\n\n* Title: Roaming Edge vNFs using Glas
+ gow Network Functions – Author(s): R. Cziva (University of Glasgow)\, S.
+  Jouet (University of Glasgow)\, D. Pezaros (University of Glasgow)\n\n* T
+ itle: Modeling Native Software Components as Virtual Network Functions –
+  Author(s): M. Baldi (Politecnico di Torino)\, R. Bonafiglia (Politecnico 
+ di Torino)\, F. Risso (Politecnico di Torino)\, A. Sapio (Politecnico di T
+ orino)
 LOCATION:Room: Agata
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:SIGCOMM Demos: Session 2
+SUMMARY:SIGCOMM Demos: Session 2 - Demo presenters onsite during coffee br
+ eaks
 DTSTART;VALUE=DATE-TIME:20160824T090000
 DTEND;VALUE=DATE-TIME:20160824T173000
 UID:1f8ada732d3557abacc2af7bd0c88576
@@ -51,7 +53,7 @@ DESCRIPTION:Demos: \n\n* Title: Mininet-WiFi: A Platform for Hybrid Physic
  n across RAN and Transport for 5G – Author(s): A. Rostami (Ericsson Rese
  arch)\, P. Öhlén (Ericsson Research)\, M. Santos (Ericsson Research)\, A
  . Vidal (Ericsson Research)\n\n* Title: Enabling Backscatter Communication
-  among Commodity WiFi Radios – Author(s): P. ZHANG (Stanford University)
+  among Commodity WiFi Radios – Author(s): P. Zhang (Stanford University)
  \, D. Bharadia (MIT)\, K. Joshi (Stanford University)\, S. Katti (Stanford
   University)\, P. Zhang (University of Massachusetts Amherst)\n\n* Title: 
  Off-the-Shelf Software-defined Wi-Fi Networks – Author(s): S. Hätönen 

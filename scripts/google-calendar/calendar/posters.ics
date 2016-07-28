@@ -2,7 +2,8 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//My calendar product//mxm.dk//
 BEGIN:VEVENT
-SUMMARY:SIGCOMM Posters: Session 1
+SUMMARY:SIGCOMM Posters: Session 1 - Poster presenters onsite during coffe
+ e breaks
 DTSTART;VALUE=DATE-TIME:20160823T090000
 DTEND;VALUE=DATE-TIME:20160823T173000
 UID:786ae9623ca09e699cf601d9dbf6f880
@@ -43,7 +44,8 @@ DESCRIPTION:Posters: \n\n* Title: PieBridge: A Cross-DR scale Large Data T
 LOCATION:Room: Topazio
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:SIGCOMM Posters: Session 2
+SUMMARY:SIGCOMM Posters: Session 2 - Poster presenters onsite during coffe
+ e breaks
 DTSTART;VALUE=DATE-TIME:20160824T090000
 DTEND;VALUE=DATE-TIME:20160824T173000
 UID:fcb28ea1d774b579c27a0f876c5aad56

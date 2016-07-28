@@ -2,8 +2,8 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//My calendar product//mxm.dk//
 BEGIN:VEVENT
-SUMMARY:SIGCOMM Main Track Posters: Posters and Demos from the Main Track 
- Papers
+SUMMARY:SIGCOMM Main Track Posters: Posters/Demos from Main Track - Presen
+ ters onsite during coffee breaks
 DTSTART;VALUE=DATE-TIME:20160825T090000
 DTEND;VALUE=DATE-TIME:20160825T173000
 UID:a354b07f0198692f18254ef9e2544c40

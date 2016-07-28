@@ -122,7 +122,8 @@ DESCRIPTION:
 LOCATION:Room: Foyer
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:SIGCOMM Demos: Session 1
+SUMMARY:SIGCOMM Demos: Session 1 - Demo presenters onsite during coffee br
+ eaks
 DTSTART;VALUE=DATE-TIME:20160823T090000
 DTEND;VALUE=DATE-TIME:20160823T173000
 UID:da3cbc9866e605e10be1e3379a958e68
@@ -140,27 +141,28 @@ DESCRIPTION:Demos: \n\n* Title: Source Address Validation in Software Defi
  g University)\, A. Feldmann (TU Berlin)\, A. Ludwig (TU Berlin)\, S. Dudyc
  z (University of Wroclaw)\, A. Schuetze (TU Berlin)\n\n* Title: A Transpar
  ent Highway for inter-Virtual Network Function Communication with Open vSw
- itch – Author(s): M. Bernal (Politecnico di Torino)\, I. Cerrato (Polite
- cnico di Torino)\, F. Risso (Politecnico di Torino)\, D. Verbeiren (Tessar
- es SA\, Louvain-la-Neuve)\n\n* Title: Cases for Including a Reference Moni
- tor to SDN – Author(s): D. Gkounis (NEC Laboratories Europe)\, F. Klaedt
- ke (NEC Laboratories Europe)\, R. Bifulco (NEC Laboratories Europe)\, G. K
- arame (NEC Laboratories Europe)\n\n* Title: High speed packet forwarding c
- ompiled from protocol independent data plane specifications – Author(s):
-  S. Laki (Eötvös Loránd University)\, D. Horpácsi (Eötvös Loránd Un
- iversity)\, P. Vörös (Eötvös Loránd University)\, R. Kitlei (Eötvös
-  Loránd University)\, D. Leskó (Eötvös Loránd University)\, M. Tejfel
-  (Eötvös Loránd University)\n\n* Title: Roaming Edge vNFs using Glasgow
-  Network Functions – Author(s): R. Cziva (University of Glasgow)\, S. Jo
- uet (University of Glasgow)\, D. Pezaros (University of Glasgow)\n\n* Titl
- e: Modeling Native Software Components as Virtual Network Functions – Au
- thor(s): M. Baldi (Politecnico di Torino)\, R. Bonafiglia (Politecnico di 
- Torino)\, F. Risso (Politecnico di Torino)\, A. Sapio (Politecnico di Tori
- no)
+ itch – Author(s): M. Vásquez (Politecnico di Torino)\, I. Cerrato (Poli
+ tecnico di Torino)\, F. Risso (Politecnico di Torino)\, D. Verbeiren (Tess
+ ares SA\, Louvain-la-Neuve)\n\n* Title: Cases for Including a Reference Mo
+ nitor to SDN – Author(s): D. Gkounis (NEC Laboratories Europe)\, F. Klae
+ dtke (NEC Laboratories Europe)\, R. Bifulco (NEC Laboratories Europe)\, G.
+  Karame (NEC Laboratories Europe)\n\n* Title: High speed packet forwarding
+  compiled from protocol independent data plane specifications – Author(s
+ ): S. Laki (Eötvös Loránd University)\, D. Horpácsi (Eötvös Loránd 
+ University)\, P. Vörös (Eötvös Loránd University)\, R. Kitlei (Eötv
+ ös Loránd University)\, D. Leskó (Eötvös Loránd University)\, M. Tej
+ fel (Eötvös Loránd University)\n\n* Title: Roaming Edge vNFs using Glas
+ gow Network Functions – Author(s): R. Cziva (University of Glasgow)\, S.
+  Jouet (University of Glasgow)\, D. Pezaros (University of Glasgow)\n\n* T
+ itle: Modeling Native Software Components as Virtual Network Functions –
+  Author(s): M. Baldi (Politecnico di Torino)\, R. Bonafiglia (Politecnico 
+ di Torino)\, F. Risso (Politecnico di Torino)\, A. Sapio (Politecnico di T
+ orino)
 LOCATION:Room: Agata
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:SIGCOMM Demos: Session 2
+SUMMARY:SIGCOMM Demos: Session 2 - Demo presenters onsite during coffee br
+ eaks
 DTSTART;VALUE=DATE-TIME:20160824T090000
 DTEND;VALUE=DATE-TIME:20160824T173000
 UID:1f8ada732d3557abacc2af7bd0c88576
@@ -171,7 +173,7 @@ DESCRIPTION:Demos: \n\n* Title: Mininet-WiFi: A Platform for Hybrid Physic
  n across RAN and Transport for 5G – Author(s): A. Rostami (Ericsson Rese
  arch)\, P. Öhlén (Ericsson Research)\, M. Santos (Ericsson Research)\, A
  . Vidal (Ericsson Research)\n\n* Title: Enabling Backscatter Communication
-  among Commodity WiFi Radios – Author(s): P. ZHANG (Stanford University)
+  among Commodity WiFi Radios – Author(s): P. Zhang (Stanford University)
  \, D. Bharadia (MIT)\, K. Joshi (Stanford University)\, S. Katti (Stanford
   University)\, P. Zhang (University of Massachusetts Amherst)\n\n* Title: 
  Off-the-Shelf Software-defined Wi-Fi Networks – Author(s): S. Hätönen 
@@ -360,7 +362,8 @@ DESCRIPTION:
 LOCATION:Room: Agata 1
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:SIGCOMM Industrial Demos: Industrial Demo Session
+SUMMARY:SIGCOMM Industrial Demos: Industrial Demos - Presenters onsite dur
+ ing coffee breaks
 DTSTART;VALUE=DATE-TIME:20160825T090000
 DTEND;VALUE=DATE-TIME:20160825T173000
 UID:8fd38ac98ac4e96b63759db4fa820b90
@@ -472,8 +475,8 @@ DESCRIPTION:
 LOCATION:Room: Agata 1
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:SIGCOMM Main Track Posters: Posters and Demos from the Main Track 
- Papers
+SUMMARY:SIGCOMM Main Track Posters: Posters/Demos from Main Track - Presen
+ ters onsite during coffee breaks
 DTSTART;VALUE=DATE-TIME:20160825T090000
 DTEND;VALUE=DATE-TIME:20160825T173000
 UID:a354b07f0198692f18254ef9e2544c40
@@ -681,7 +684,8 @@ DESCRIPTION:Talks: \n\n* Title: Towards Correct-by-Construction SDN – Sp
 LOCATION:Room: Agata 2
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:SIGCOMM Posters: Session 1
+SUMMARY:SIGCOMM Posters: Session 1 - Poster presenters onsite during coffe
+ e breaks
 DTSTART;VALUE=DATE-TIME:20160823T090000
 DTEND;VALUE=DATE-TIME:20160823T173000
 UID:786ae9623ca09e699cf601d9dbf6f880
@@ -722,7 +726,8 @@ DESCRIPTION:Posters: \n\n* Title: PieBridge: A Cross-DR scale Large Data T
 LOCATION:Room: Topazio
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:SIGCOMM Posters: Session 2
+SUMMARY:SIGCOMM Posters: Session 2 - Poster presenters onsite during coffe
+ e breaks
 DTSTART;VALUE=DATE-TIME:20160824T090000
 DTEND;VALUE=DATE-TIME:20160824T173000
 UID:fcb28ea1d774b579c27a0f876c5aad56
@@ -879,7 +884,43 @@ SUMMARY:SIGCOMM: Opening
 DTSTART;VALUE=DATE-TIME:20160823T084500
 DTEND;VALUE=DATE-TIME:20160823T103000
 UID:4d830e5bd21324e04e8c09ef3044129f
-DESCRIPTION:
+DESCRIPTION:* Keynote Title:\nSIGCOMM Lifetime Achievement Award Keynote\n
+ \nSpeaker:\nJim Kurose (University of Massachusetts\, Amherst)\n\nAbstract
+ :\nTo be announced soon.\n\nSpeaker Bio:\nJim Kurose received a B.A. degre
+ e in physics from Wesleyan University and his Ph.D. degree in computer sci
+ ence from Columbia University. He is currently Distinguished University Pr
+ ofessor in the College of Information and Computer Sciences at the Univers
+ ity of Massachusetts Amherst. He has been a Visiting Scientist at IBM Rese
+ arch\, INRIA\, Institut EURECOM \, the University of Paris\, the Laborator
+ y for Information\, Network and Communication Sciences\, and Technicolor R
+ esearch Labs.<br/>\n<br/>\nHis research interests include network protocol
+ s and architecture\, network measurement\, sensor networks\, and multimedi
+ a communication. Dr. Kurose has served as Editor-in- Chief of the IEEE Tra
+ nsactions on Communications and was the founding Editor-in- Chief of the I
+ EEE/ACM Transactions on Networking. He has been Technical Program Co-Chair
+  for the IEEE Infocom\, ACM SIGCOMM\, ACM SIGMETRICS\, and ACM Internet Me
+ asurement conferences. He has won several conference best paper awards and
+  received the IEEE Infocom Achievement Award and the ACM Sigcomm Test of T
+ ime Award.<br/>\n<br/>\nHe has received a number of awards for his teachin
+ g including outstanding teacher awards from the National Technological Uni
+ versity\, the UMass College of Natural Science and Mathematics\, and the N
+ ortheast Association of Graduate Schools\, and the IEEE Taylor Booth Educa
+ tion Medal. He has recently served on the Board of Directors of the Comput
+ ing Research Association\, and on the scientific advisory boards of IMDEA 
+ Networks in Madrid and the Laboratory for Information\, Network and Commun
+ ication Sciences (LINCS) in Paris. With Keith Ross\, he is the co-author o
+ f the textbook\, Computer Networking\, a top down approach (7th edition)\,
+  published by Addison-Wesley/Pearson. He is a Fellow of the ACM and the IE
+ EE.<br/>\n<br/>\nSince January 2015\, he is serving as an Assistant Direct
+ or of the US National Science Foundation\, where he leads the Directorate 
+ for the Computer and Information Science and Engineering (CISE) in its mis
+ sion to fundamental research in computer and information science and engin
+ eering and transformative advances in cyberinfrastructure. Dr. Kurose over
+ sees the CISE budget of more than $900 million. He also serves as co-chair
+  of the Networking and Information Technology Research and Development (NI
+ TRD) Subcommittee of the National Science and Technology Council Committee
+  on Technology\, helping coordinate the activities of 17 government agenci
+ es.\n\n
 LOCATION:Room: Diamante
 END:VEVENT
 BEGIN:VEVENT
@@ -1234,14 +1275,6 @@ DESCRIPTION:Presenter(s): Timur Friedman (UPMC Sorbonne Universit&eacute\;
 LOCATION:Room: Topazio 2
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Tutorial: IPTV and Over-the-Top Video: Part 1
-DTSTART;VALUE=DATE-TIME:20160822T140000
-DTEND;VALUE=DATE-TIME:20160822T153000
-UID:171f1833767128e6d4834a692d1f9d8f
-DESCRIPTION:Presenter(s): Ali C. Begen (MediaMelon Inc\, USA)
-LOCATION:Room: Topazio 1
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Tutorial: Internet Measurements: Part 4 & Closing
 DTSTART;VALUE=DATE-TIME:20160822T160000
 DTEND;VALUE=DATE-TIME:20160822T173000
@@ -1249,14 +1282,6 @@ UID:b128fb22d5d3f4736a6703c47de0d9f4
 DESCRIPTION:Presenter(s): Timur Friedman (UPMC Sorbonne Universit&eacute\;
  s\, France)\, Anna-Kaisa Pietilainen\, Renata Teixeira (Inria\, France)
 LOCATION:Room: Topazio 2
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Tutorial: IPTV and Over-the-Top Video: Part 2 & Closing
-DTSTART;VALUE=DATE-TIME:20160822T160000
-DTEND;VALUE=DATE-TIME:20160822T173000
-UID:7190b036f5e6bf4a71a7f9a7a137a760
-DESCRIPTION:Presenter(s): Ali C. Begen (MediaMelon Inc\, USA)
-LOCATION:Room: Topazio 1
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tutorial: Enabling Research in Future WiMobNet: Part 1

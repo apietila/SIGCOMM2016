@@ -2,7 +2,7 @@
     <ul class="program" data-role="listview" data-filter="true" data-inset="true" data-theme="d" data-dividertheme="a" placeholder="Filter program...">
 <?php
       tprog_add_header("Tuesday, August 23, 2016", "prog-tuesday");
-      tprog_add_session("9:00am - 5:30pm", "Session 1", "", "", "prog-tuesday");
+      tprog_add_session("9:00am - 5:30pm", "Session 1 - Poster presenters onsite during coffee breaks", "", "", "prog-tuesday");
       tprog_add_item("PieBridge: A Cross-DR scale Large Data Transmission Scheduling System", "", "Y. Zhang&nbsp;(Tsinghua University), K. Xu&nbsp;(Tsinghua University), G. Yao&nbsp;(Baidu), M. Zhang&nbsp;(Baidu), X. Nie&nbsp;(Tsinghua University)", "", "", "", "prog-tuesday");
       tprog_add_item("A Longitudinal Analysis of .i2p Leakage in the Public DNS Infrastructure", "", "S. Jeong (Korea University), A. Kang (SUNY Buffalo), J. Kim (Chung-Ang University), H. Kim (Korea University), A. Mohaisen (SUNY Buffalo)", "", "", "", "prog-tuesday");
       tprog_add_item("Best Effort Task Scheduling for Data Parallel Jobs", "", "Z. Li (National University of Defense Technology), Y. Zhang (National University of Defense Technology), Y. Zhao (National University of Defense Technology), Y. Peng (National University of Defense Technology), D. Li (National University of Defense Technology)", "", "", "", "prog-tuesday");
@@ -14,7 +14,7 @@
       tprog_add_item("PathCache: A Path Prediction Toolkit", "", "R. Singh (Stony Brook University), P. Gill (Stony Brook University)", "", "", "", "prog-tuesday");
       tprog_add_item("Application-specific Acceleration Framework for Mobile Applications", "", "B. Choi (KAIST), J. Kim (KAIST), D. Han (KAIST)", "", "", "", "prog-tuesday");
       tprog_add_header("Wednesday, August 24, 2016", "prog-wednesday");
-      tprog_add_session("9:00am - 5:30pm", "Session 2", "", "", "prog-wednesday");
+      tprog_add_session("9:00am - 5:30pm", "Session 2 - Poster presenters onsite during coffee breaks", "", "", "prog-wednesday");
       tprog_add_item("Named Data Networking Based Smart Home Lighting", "", "U. De Silva (Asian Institute of Technology), A. Lertsinsrubtavee (University of Cambridge), A. Sathiaseelan (University of Cambridge), K. Kanchanasut (Asian Institute of Technology)", "", "", "", "prog-wednesday");
       tprog_add_item("Achieving Consistent SDN Control With Declarative Applications", "", "W. Wang (McGill Unversity), C. Liu (Logistic Information Center), J. Su (National University Of Defense Technology), W. He (McGill Unversity)", "", "", "", "prog-wednesday");
       tprog_add_item("Modular SDN Compiler Design with Intermediate Representation", "", "H. Li (Xi'an Jiaotong University), C. Hu (Xi'an Jiaotong University), P. Zhang (Xi'an Jiaotong University), L. Xie (Xi'an Jiaotong University)", "", "", "", "prog-wednesday");

@@ -49,14 +49,6 @@ DESCRIPTION:Presenter(s): Timur Friedman (UPMC Sorbonne Universit&eacute\;
 LOCATION:Room: Topazio 2
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Tutorial: IPTV and Over-the-Top Video: Part 1
-DTSTART;VALUE=DATE-TIME:20160822T140000
-DTEND;VALUE=DATE-TIME:20160822T153000
-UID:171f1833767128e6d4834a692d1f9d8f
-DESCRIPTION:Presenter(s): Ali C. Begen (MediaMelon Inc\, USA)
-LOCATION:Room: Topazio 1
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Tutorial: Internet Measurements: Part 4 & Closing
 DTSTART;VALUE=DATE-TIME:20160822T160000
 DTEND;VALUE=DATE-TIME:20160822T173000
@@ -64,14 +56,6 @@ UID:b128fb22d5d3f4736a6703c47de0d9f4
 DESCRIPTION:Presenter(s): Timur Friedman (UPMC Sorbonne Universit&eacute\;
  s\, France)\, Anna-Kaisa Pietilainen\, Renata Teixeira (Inria\, France)
 LOCATION:Room: Topazio 2
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Tutorial: IPTV and Over-the-Top Video: Part 2 & Closing
-DTSTART;VALUE=DATE-TIME:20160822T160000
-DTEND;VALUE=DATE-TIME:20160822T173000
-UID:7190b036f5e6bf4a71a7f9a7a137a760
-DESCRIPTION:Presenter(s): Ali C. Begen (MediaMelon Inc\, USA)
-LOCATION:Room: Topazio 1
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tutorial: Enabling Research in Future WiMobNet: Part 1

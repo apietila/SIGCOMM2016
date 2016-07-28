@@ -15,7 +15,7 @@ The expected format for the program sheet is: "COL_TIME  COL_ROOM  COL_TITLE  CO
 
 Example:
 
-          python calgen.py calendar lancomm sigcomm posters idemos demos gaia hotmiddlebox qoe tutorials breaks
+          python calgen.py ../sigcomm16web.master/scripts/google-calendar/calendar/ lancomm sigcomm posters idemos demos gaia hotmiddlebox qoe tutorials breaks
 
 How to join all calendars in a single file (of course, run on the same dir the .ical files are placed; full-conf.ics file in the folder will be overwritten):
 
