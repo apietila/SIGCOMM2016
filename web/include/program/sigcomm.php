@@ -4,14 +4,14 @@
       tprog_add_header("Monday, August 22, 2016", "prog-monday");
       tprog_add_session("5:30pm - 6:45pm", "Topic Preview 1", "", "", "prog-monday");
       tprog_add_extra("", "Welcome Reception", "prog-monday");
-      tprog_add_item("Welcome Reception", "", "The Welcome Reception will take place at the Oceania Convention Center. Drinks and hors d'oeuvre will be served.", "", "", "", "prog-monday");
+      tprog_add_item("Welcome Reception", "", "The Welcome Reception will take place at the Oceania Convention Center. Drinks and hors d'oeuvre will be served. Please visit the <a href=socialevents.php>Social Events</a> page for further information.", "", "", "", "prog-monday");
       tprog_add_extra("", "N2Women Dinner", "prog-monday");
       tprog_add_item("N2Women Dinner", "", "Participation in this event is by invitation only. More information will be available soon.", "", "", "", "prog-monday");
       tprog_add_extra("", "Award Dinner", "prog-monday");
       tprog_add_item("Award Dinner", "", "Participation in this event is by invitation only. More information will be available soon.", "", "", "", "prog-monday");
       tprog_add_header("Tuesday, August 23, 2016", "prog-tuesday");
       tprog_add_session("8:45am - 10:30am", "Opening", "", "", "prog-tuesday");
-      tprog_add_keynote("SIGCOMM Lifetime Achievement Award Keynote", "Jim Kurose (University of Massachusetts, Amherst)", "To be announced soon.", "Jim Kurose received a B.A. degree in physics from Wesleyan University and his Ph.D. degree in computer science from Columbia University. He is currently Distinguished University Professor in the College of Information and Computer Sciences at the University of Massachusetts Amherst. He has been a Visiting Scientist at IBM Research, INRIA, Institut EURECOM , the University of Paris, the Laboratory for Information, Network and Communication Sciences, and Technicolor Research Labs.<br/>
+      tprog_add_keynote("Keynote: Networking Research, Education, Mentoring and Service: Ten Insights", "Jim Kurose (University of Massachusetts, Amherst), 2016 ACM SIGCOMM Lifetime Achievement Award Recipient", "To be announced soon.", "Jim Kurose received a B.A. degree in physics from Wesleyan University and his Ph.D. degree in computer science from Columbia University. He is currently Distinguished University Professor in the College of Information and Computer Sciences at the University of Massachusetts Amherst. He has been a Visiting Scientist at IBM Research, INRIA, Institut EURECOM , the University of Paris, the Laboratory for Information, Network and Communication Sciences, and Technicolor Research Labs.<br/>
 <br/>
 His research interests include network protocols and architecture, network measurement, sensor networks, and multimedia communication. Dr. Kurose has served as Editor-in- Chief of the IEEE Transactions on Communications and was the founding Editor-in- Chief of the IEEE/ACM Transactions on Networking. He has been Technical Program Co-Chair for the IEEE Infocom, ACM SIGCOMM, ACM SIGMETRICS, and ACM Internet Measurement conferences. He has won several conference best paper awards and received the IEEE Infocom Achievement Award and the ACM Sigcomm Test of Time Award.<br/>
 <br/>
@@ -36,7 +36,7 @@ Since January 2015, he is serving as an Assistant Director of the US National Sc
       tprog_add_item("The Good, the Bad, and the Differences: Better Network Diagnostics with Differential Provenance", "", "Ang Chen (University of Pennsylvania), Yang Wu (University of Pennsylvania), Andreas Haeberlen (University of Pennsylvania), Wenchao Zhou (Georgetown University), Boon Thau Loo (University of Pennsylvania)", "", "", "", "prog-tuesday");
       tprog_add_item("Trumpet: Timely and Precise Triggers in Data Centers", "", "Masoud Moshref (University of Southern California), Minlan Yu (University of Southern California), Ramesh Govindan (University of Southern California), Amin Vahdat (Google)", "", "", "", "prog-tuesday");
       tprog_add_extra("7:00pm - 11:30pm", "Conference Banquet", "prog-tuesday");
-      tprog_add_item("Conference Banquet", "", "The Conference Banquet will take place at the Slaviero Essential Florian&oacute;polis Ingleses.", "", "", "", "prog-tuesday");
+      tprog_add_item("Conference Banquet", "", "The Conference Banquet will take place at the Slaviero Essential Florian&oacute;polis Ingleses. Please visit the <a href=socialevents.php>Social Events</a> page for further information.", "", "", "", "prog-tuesday");
       tprog_add_header("Wednesday, August 24, 2016", "prog-wednesday");
       tprog_add_session("8:30am - 10:10am", "Session 4 - Scheduling", "", "", "prog-wednesday");
       tprog_add_item("2DFQ: Two-Dimensional Fair Queueing for Multi-Tenant Cloud Services", "", "Jonathan Mace (Brown University), Peter Bodik (Microsoft), Madanlal Musuvathi (Microsoft), Rodrigo Fonseca (Brown University), Krishnan Varadarajan (Microsoft)", "", "", "", "prog-wednesday");
@@ -63,7 +63,7 @@ Since January 2015, he is serving as an Assistant Director of the US National Sc
       tprog_add_item("Jumpstarting BGP Security with Path-End Validation", "", "Avichai Cohen (Hebrew University), Yossi Gilad (Boston University and MIT), Amir Herzberg (Bar Ilan University), Michael Schapira (Hebrew University)", "", "", "", "prog-wednesday");
       tprog_add_session("5:30pm - 6:30pm", "Community Feedback", "", "", "prog-wednesday");
       tprog_add_extra("7:30pm - 10:00pm", "Student Dinner", "prog-wednesday");
-      tprog_add_item("Student Dinner", "", "The SIGCOMM 2016 Student Dinner will take place at Ataliba Churrascarias Florian&oacute;polis.", "", "", "", "prog-wednesday");
+      tprog_add_item("Student Dinner", "", "The SIGCOMM 2016 Student Dinner will take place at Ataliba Churrascarias Florian&oacute;polis. Please visit the <a href=socialevents.php>Social Events</a> page for further information.", "", "", "", "prog-wednesday");
       tprog_add_header("Thursday, August 25, 2016", "prog-thursday");
       tprog_add_session("8:30am - 10:35am", "Session 8 - Wireless", "", "", "prog-thursday");
       tprog_add_item("Inter-Technology Backscatter: Towards Internet Connectivity for Implanted Devices", "", "Vikram Iyer (University of Washington), Vamsi Talla (University of Washington), Bryce Kellogg (University of Washington), Shyamnath Gollakota (University of Washington), Joshua Smith (University of Washington)", "", "", "", "prog-thursday");
