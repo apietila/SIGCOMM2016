@@ -27,7 +27,7 @@
 
       tprog_add_item("Student Pitches", "", "", "", "", "", "prog-monday");
       tprog_add_session("3:30pm - 4:00pm", "Coffee Break", "", "", "prog-monday");
-      tprog_add_session("11:00am- 12:30pm", "... together networking and PL will roar", "", "", "prog-monday");
+      tprog_add_session("4:00pm- 5:00pm", "... together networking and PL will roar", "", "", "prog-monday");
       tprog_add_item("Symbolic Execution &mdash; Model Equivalence &amp; Applications", "", "Matei Popovici, Radu Stoenescu, Lorina Negreanu, Costin Raiciu (University Politehnica of Bucharest)", "", "", "", "prog-monday");
       tprog_add_keynote("Monitoring as a Design Target for Programmable Switches", "Rodrigo Fonseca (Brown University)", "To be announced soon.", "", "images/program/netpl/rodrigo-fonseca.jpg", "prog-monday");
 
