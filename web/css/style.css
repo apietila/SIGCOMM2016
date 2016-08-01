@@ -810,6 +810,14 @@ button[disabled],
     border-radius: 0px !important;    
 }
 
+.button-paper {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  padding: 6px 10px 6px 10px !important;
+  border-radius: 5px;
+  background-color: #4e964e;
+}
+
 .dl-button {
     width : 55%;
     margin-top: 2.5em;

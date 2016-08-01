@@ -75,7 +75,6 @@ to the workshop in a separate section of the application letter.</p>
   <li data-role="list-divider">Confirmed Invited Speakers</li>
   <?php
      add_listitem("Nikolaj Bjorner", "Microsoft Research, USA", "http://research.microsoft.com/en-us/people/nbjorner/");
-     add_listitem("Gordon Brebner", "Xilinx Labs, USA", "");
      add_listitem("Rodrigo Fonseca", "Brown University, USA", "http://cs.brown.edu/~rfonseca/");
      add_listitem("Nate Foster", "Cornell, USA", "http://www.cs.cornell.edu/~jnfoster/");
      add_listitem("Changhoon Kim", "Barefoot Networks, USA", "");

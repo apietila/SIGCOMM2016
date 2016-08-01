@@ -156,8 +156,8 @@ function tprog_add_keynote($title, $speakers, $abstract, $bio, $photo="", $progi
     /* the spaces after various "%s" below are important for correct list filtering! */
     $speakers = preg_replace('/\(([^\)]*)\)/', '<em>(${1})</em>', $speakers);
 ?>
-    <li data-icon="false" class="prog-item <?php echo $progitemclass; ?>"><div data-role="collapsible" class="keynote-navgroup">
-      <h4><p class="keynote-header"><?php echo $title ?></p><p><?php echo $speakers; ?></p></h4>
+    <li data-icon="false" class="prog-item <?php echo $progitemclass; ?>"><div data-role="collapsible" class="keynote-navgroup" data-collapsed="false">
+      <h4><p class="keynote-header"><?php echo $title ?></p><p><?php echo $speakers; ?></p><!-- p class="ui-li-aside button-paper"><a href="" style="text-decoration: none; color: white">Paper</a></p --></h4>
       <ul data-role="listview" data-inset="false">
         <?php if (trim($abstract) != "") { ?><li data-icon="false">
           <p><?php if ($photo) { ?><img class="keynote-photo" src="<?php echo $photo ?>"/><?php } ?><b>Abstract: </b><?php echo $abstract ?></p><p>&nbsp;</p>
