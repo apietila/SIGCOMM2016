@@ -541,55 +541,71 @@ SUMMARY:NetPL Workshop: Languages that will come ...
 DTSTART;VALUE=DATE-TIME:20160822T091500
 DTEND;VALUE=DATE-TIME:20160822T103000
 UID:a8821243df9bf94a27dbe18786b4e298
-DESCRIPTION:Talks: \n\n* Title: P4FPGA: High-Level Synthesis for Networkin
- g – Speaker(s): Han Wang\, Ki Suh Lee\, Vishal Shrivastav\, Hakim Weathe
- rspoon (Cornell University)\n\n* Keynote Title:\nUpdate on P4: Where are w
- e now\, and where are we heading toward?\n\nSpeaker:\nChanghoon Kim (Baref
- oot Networks)\n\nAbstract:\nSince its original publication\, P4 has been d
- rawing significant attention from both networking industry and research co
- mmunity. Motivated by that\, industry experts and research groups have for
- med the P4 Language Consortium and have been nurturing the language to pro
- duce an industry-wide common data-plane programming framework. In this tal
- k I will summarize what has happened to P4 since its original publication\
- , what kinds of activities are currently ongoing\, who in the field of net
- working can benefit from P4 and how\, what kinds of novel networking appli
- cations are being developed in P4\, how we expect the language and its ass
- ociated development tools to evolve\, and what kinds of interesting resear
- ch problems arise as data-plane programmability becomes commonplace.\n\nSp
- eaker Bio:\nChanghoon Kim is Director of System Architecture at Barefoot N
- etworks and is working actively for the P4 Language Consortium (P4.org) as
-  a co-chair of the P4 Design Working Group. Before getting involved with P
- 4.org and Barefoot\, he worked at Windows Azure\, Microsoft’s cloud-serv
- ice division\, and led engineering and research projects on the architectu
- re\, performance\, and management of datacenter networks. Chang is interes
- ted in programmable network dataplane\, network monitoring and diagnostics
- \, network verification\, self-programming/configuring networks\, and debu
- gging and diagnosis of large-scale distributed systems. Chang received Ph.
- D. from Princeton University. Many of his research contributions — inclu
- ding VL2\, Seawall\, EyeQ\, Ananta\, and SEATTLE — are adopted in large 
- production networks.\n\n* Keynote Title:\nThe Next 700 Network Programming
-  Languages\n\nSpeaker:\nNate Foster (Cornell University)\n\nAbstract:\nSpe
- cification and verification of computer networks has become a reality in r
- ecent years\, with the emergence of domain-specific programming languages 
- and automated verification tools. But the design of these languages and to
- ols has been largely ad hoc\, driven more by the needs of applications and
-  the capabilities of hardware than by any foundational principles. This ta
- lk will present NetKAT\, a language for programming networks based on a we
- ll-studied mathematical foundation\, Kleene Algebra with Tests (KAT). The 
- talk will describe the design of the language\, its semantic underpinnings
- \, and extensions with features to support stateful and probabilistic prog
- ramming.<br/><br/>NetKAT is joint work with colleagues at Cornell\, Facebo
- ok\, Inhabited Type\, Princeton\, Samsung\, UCL\, and UMass Amherst.\n\nSp
- eaker Bio:\nNate Foster is an Assistant Professor of Computer Science at C
- ornell University. The goal of his search is developing programming langua
- ges and tools for building reliable systems. He received a PhD in Computer
-  Science from theUniversity of Pennsylvania in 2009\, an MPhil in History 
- and Philosophy of Science from Cambridge University in 2008\, and a BA in 
- Computer Science from Williams College in 2001. His awards include a Sloan
-  Research Fellowship\, an NSF CAREER Award\, a Most Influential POPL Paper
-  Award\, a Tien &#39\;72 Teaching Award\, a Google Research Award\, a Yaho
- o! Academic Career Enhancement Award\, and the Morris and Dorothy Rubinoff
-  Award.\n\n
+DESCRIPTION:* Keynote Title:\nUpdate on P4: Where are we now\, and where a
+ re we heading toward?\n\nSpeaker:\nChanghoon Kim (Barefoot Networks)\n\nAb
+ stract:\nSince its original publication\, P4 has been drawing significant 
+ attention from both networking industry and research community. Motivated 
+ by that\, industry experts and research groups have formed the P4 Language
+  Consortium and have been nurturing the language to produce an industry-wi
+ de common data-plane programming framework. In this talk I will summarize 
+ what has happened to P4 since its original publication\, what kinds of act
+ ivities are currently ongoing\, who in the field of networking can benefit
+  from P4 and how\, what kinds of novel networking applications are being d
+ eveloped in P4\, how we expect the language and its associated development
+  tools to evolve\, and what kinds of interesting research problems arise a
+ s data-plane programmability becomes commonplace.\n\nSpeaker Bio:\nChangho
+ on Kim is Director of System Architecture at Barefoot Networks and is work
+ ing actively for the P4 Language Consortium (P4.org) as a co-chair of the 
+ P4 Design Working Group. Before getting involved with P4.org and Barefoot\
+ , he worked at Windows Azure\, Microsoft’s cloud-service division\, and 
+ led engineering and research projects on the architecture\, performance\, 
+ and management of datacenter networks. Chang is interested in programmable
+  network dataplane\, network monitoring and diagnostics\, network verifica
+ tion\, self-programming/configuring networks\, and debugging and diagnosis
+  of large-scale distributed systems. Chang received Ph.D. from Princeton U
+ niversity. Many of his research contributions — including VL2\, Seawall\
+ , EyeQ\, Ananta\, and SEATTLE — are adopted in large production networks
+ .\n\n* Keynote Title:\nP4FPGA: High-Level Synthesis for Networking\n\nSpea
+ ker:\nHan Wang\, Ki Suh Lee\, Vishal Shrivastav\, Hakim Weatherspoon (Corn
+ ell University)\n\nAbstract:\nField-programmable gate arrays (FPGAs) are o
+ ften used to prototype custom packet processing algorithms. FPGAs are appe
+ aling because they balance the speed of hardware and the flexibility of so
+ ftware. From a programming language perspective\, domain specific language
+ s (DSLs)\, such as P4and PX\, are emerging to allow succinct expression of
+  packet processing algorithms. What remains difficult\, is the process to 
+ translate high level DSLs to low-level hardware description language\, suc
+ h as Verilog\, in order to generate FPGA firmware. This talk presents P4FP
+ GA\, an open-source framework that enables compilation of high-level P4 la
+ nguage to FPGA firmware. Our framework translates a given P4 program throu
+ gh a number of intermediate steps. It leverages existing intermediate repr
+ esentations of a P4 program\,and generates corresponding Bluespec System V
+ erilog (BSV) for simulation and synthesis. In addition\, we provide runtim
+ e support for a packet processing algorithm to enable communication with n
+ etwork interfaces and host OS through PCI express bus. We have implemented
+  a number of P4 applications on top of our framework to show its general a
+ pplicability.\n\n* Keynote Title:\nThe Next 700 Network Programming Langua
+ ges\n\nSpeaker:\nNate Foster (Cornell University)\n\nAbstract:\nSpecificat
+ ion and verification of computer networks has become a reality in recent y
+ ears\, with the emergence of domain-specific programming languages and aut
+ omated verification tools. But the design of these languages and tools has
+  been largely ad hoc\, driven more by the needs of applications and the ca
+ pabilities of hardware than by any foundational principles. This talk will
+  present NetKAT\, a language for programming networks based on a well-stud
+ ied mathematical foundation\, Kleene Algebra with Tests (KAT). The talk wi
+ ll describe the design of the language\, its semantic underpinnings\, and 
+ extensions with features to support stateful and probabilistic programming
+ .<br/><br/>NetKAT is joint work with colleagues at Cornell\, Facebook\, In
+ habited Type\, Princeton\, Samsung\, UCL\, and UMass Amherst.\n\nSpeaker B
+ io:\nNate Foster is an Assistant Professor of Computer Science at Cornell 
+ University. The goal of his search is developing programming languages and
+  tools for building reliable systems. He received a PhD in Computer Scienc
+ e from theUniversity of Pennsylvania in 2009\, an MPhil in History and Phi
+ losophy of Science from Cambridge University in 2008\, and a BA in Compute
+ r Science from Williams College in 2001. His awards include a Sloan Resear
+ ch Fellowship\, an NSF CAREER Award\, a Most Influential POPL Paper Award\
+ , a Tien &#39\;72 Teaching Award\, a Google Research Award\, a Yahoo! Acad
+ emic Career Enhancement Award\, and the Morris and Dorothy Rubinoff Award.
+ \n\n
 LOCATION:Room: Agata 2
 END:VEVENT
 BEGIN:VEVENT
@@ -597,79 +613,91 @@ SUMMARY:NetPL Workshop: ... for the needs of today and tomorrow
 DTSTART;VALUE=DATE-TIME:20160822T110000
 DTEND;VALUE=DATE-TIME:20160822T123000
 UID:83f3a485cca8d37a502782e60a431002
-DESCRIPTION:Talks: \n\n* Title: Towards Correct-by-Construction SDN – Sp
- eaker(s): Leonid Ryzhyk (Samsung Research America)\, Nikolaj Bjorner (Micr
- osoft Research)\, Marco Canini (Université catholique de Louvain\, Belgiu
- m)\, Jean-Baptiste Jeannin\, Nina Narodytska\, Cole Schlesinger\, Douglas 
- B. Terry (Samsung Research America)\, George Varghese (Microsoft Research)
- \n\n* Keynote Title:\nTemporal NetKAT\n\nSpeaker:\nDavid Walker (Princeton
-  University)\n\nAbstract:\nOver the past 5-10 years\, the rise of software
- -defined networking (SDN) has inspired a wide range of new systems\, libra
- ries\, hypervisors and languages for programming\, monitoring\, and debugg
- ing network behavior. Oftentimes\, these systems are disjoint—one langua
- ge for programming and another for verification\, and yet another for run-
- time monitoring and debugging. In this paper\, we present a new\, unified 
- framework\, called Temporal NetKAT\, capable of facilitating all of these 
- tasks at once. As its name suggests\, Temporal NetKAT is the synthesis of 
- two formal theories: past-time (finite trace) linear temporal logic and (n
- etwork) Kleene Algebra with Tests. Temporal predicates allow programmers t
- o write down concise properties of a packet’s path through the network a
- nd to make dynamic packet-forwarding\, access control or debugging decisio
- ns on that basis. In addition to being useful for programming\, the combin
- ed equational theory of LTL and NetKAT facilitates proofs of path-based co
- rrectness properties. Using new\, general\, proof techniques\, we show tha
- t the equational semantics is sound with respect to the denotational seman
- tics\, and\, for a class of programs we call network-wide programs\, compl
- ete. We have also implemented a compiler for temporal NetKAT\, evaluated i
- ts performance on a range of benchmarks\, and studied the effectiveness of
-  several optimizations.<br/><br/>This is joint work with Ryan Beckett and 
- Michael Greenberg.\n\nSpeaker Bio:\nDavid Walker is a Professor of Compute
- r Science at Princeton University. He received his B.Sc. from Queen's Univ
- ersity\, Canada in 1995 and his Ph.D. in Computer Science from Cornell Uni
- versity in 2001. His research interests include programming language theor
- y\, design and implementation of all kinds. He is especially interested in
-  type systems and the development of new domain-specific programming langu
- ages. He won an NSF Career award in 2003 and Alfred Sloan Fellowship in 20
- 04. In 2007\, with his students and colleagues at Princeton\, he won the P
- LDI best paper award for the paper entitled Fault-Tolerant Typed Assembly 
- Language. In 2008\, his paper From System F to Typed Assembly Language\, c
- o-authored with Greg Morrisett\, Karl Crary and Neal Glew\, won a 10-year 
- retrospective award for most influential POPL 1998 paper. In 2013\, with h
- is students and colleagues at Princeton and Cornell\, he won the NSDI comm
- unity award for his paper on Composing Software-Defined Networks. He serve
- d as an associate editor for ACM TOPLAS from 2007-2015\, as the Program Ch
- air for POPL 2015\, and won the ACM SIGPLAN Robin Milner Young Researcher 
- Award in 2015.\n\n* Keynote Title:\nNEMO Engine\, A Model Driven Compiler 
- to Execute User&#39\;s Intent and Manage Service Lifecycle by Multi Layer 
- State Machine\n\nSpeaker:\nYinben Xia (Huawei Technologies)\n\nAbstract:\n
- In last year&#39\;s NetPL workshop\, I introduced an intent oriented netwo
- rk service programming language - NEMO. This time\, I will introduce NEMO&
- #39\;s model driven compiler\, which compiles intent language to real netw
- ork executable interface. Second\, I will introduce a multi layer state ma
- chine engine in NEMO compiler\, which will handle various changes from equ
- ipments\, requirement or governance policy. This engine provides an automa
- tic change management capability for whole service lifecycle. In the last\
- , I will update NEMO&#39\;s open source implementation progress.\n\nSpeake
- r Bio:\nDr. Yinben Xia is a senior staff researcher within Huawei&#39\;s n
- etwork research department from 2008. He dedicated his research effort in 
- network architecture and SDN technologies. In recent two years\, he lead a
-  team to design and developer a NaaS (Network as a Service) programming la
- nguage (NEMO Project). He owns 15 patents in related domain. He is leading
-  a team to carry out SDN/NEMO research in Beijing. Before joining Huawei\,
-  Dr. Xia worked at IBM China Research Lab for 4 years after he got PH.D fr
- om Beijing University of Aeronautics and Astronautics.\n\n* Keynote Title:
- \nInteractive Query for Dynamic Network Analytics\n\nSpeaker:\nHaoyu Song 
- (Huawei Technologies)\n\nAbstract:\nNetwork data plane needs to be interac
- tively programmed in order to support Dynamic Network Analytics (DNA). We 
- envision the high level DNA applications can be break down into a set of q
- ueries and the queries can be further compiled into incremental configurat
- ions to the data plane. We emphasize the need to define standard DNA APIs 
- and/or query language for DNA system.\n\nSpeaker Bio:\nHaoyu Song is a pri
- ncipal architect at Huawei Technologies. He is a leading researcher on SDN
-  programmable data plane. His current research interests span all aspects 
- of the SDN/NFV ecosystem. He was a researcher at Bell Labs\, Alcatel-Lucen
- t before joining Huawei. He hold a doctoral degree in computer engineering
-  from Washington University in St. Louis.\n\n
+DESCRIPTION:* Keynote Title:\nTemporal NetKAT\n\nSpeaker:\nDavid Walker (P
+ rinceton University)\n\nAbstract:\nOver the past 5-10 years\, the rise of 
+ software-defined networking (SDN) has inspired a wide range of new systems
+ \, libraries\, hypervisors and languages for programming\, monitoring\, an
+ d debugging network behavior. Oftentimes\, these systems are disjoint—on
+ e language for programming and another for verification\, and yet another 
+ for run-time monitoring and debugging. In this paper\, we present a new\, 
+ unified framework\, called Temporal NetKAT\, capable of facilitating all o
+ f these tasks at once. As its name suggests\, Temporal NetKAT is the synth
+ esis of two formal theories: past-time (finite trace) linear temporal logi
+ c and (network) Kleene Algebra with Tests. Temporal predicates allow progr
+ ammers to write down concise properties of a packet’s path through the n
+ etwork and to make dynamic packet-forwarding\, access control or debugging
+  decisions on that basis. In addition to being useful for programming\, th
+ e combined equational theory of LTL and NetKAT facilitates proofs of path-
+ based correctness properties. Using new\, general\, proof techniques\, we 
+ show that the equational semantics is sound with respect to the denotation
+ al semantics\, and\, for a class of programs we call network-wide programs
+ \, complete. We have also implemented a compiler for temporal NetKAT\, eva
+ luated its performance on a range of benchmarks\, and studied the effectiv
+ eness of several optimizations.<br/><br/>This is joint work with Ryan Beck
+ ett and Michael Greenberg.\n\nSpeaker Bio:\nDavid Walker is a Professor of
+  Computer Science at Princeton University. He received his B.Sc. from Quee
+ n's University\, Canada in 1995 and his Ph.D. in Computer Science from Cor
+ nell University in 2001. His research interests include programming langua
+ ge theory\, design and implementation of all kinds. He is especially inter
+ ested in type systems and the development of new domain-specific programmi
+ ng languages. He won an NSF Career award in 2003 and Alfred Sloan Fellowsh
+ ip in 2004. In 2007\, with his students and colleagues at Princeton\, he w
+ on the PLDI best paper award for the paper entitled Fault-Tolerant Typed A
+ ssembly Language. In 2008\, his paper From System F to Typed Assembly Lang
+ uage\, co-authored with Greg Morrisett\, Karl Crary and Neal Glew\, won a 
+ 10-year retrospective award for most influential POPL 1998 paper. In 2013\
+ , with his students and colleagues at Princeton and Cornell\, he won the N
+ SDI community award for his paper on Composing Software-Defined Networks. 
+ He served as an associate editor for ACM TOPLAS from 2007-2015\, as the Pr
+ ogram Chair for POPL 2015\, and won the ACM SIGPLAN Robin Milner Young Res
+ earcher Award in 2015.\n\n* Keynote Title:\nTowards Correct-by-Constructio
+ n SDN\n\nSpeaker:\nLeonid Ryzhyk (Samsung Research America)\, Nikolaj Bjor
+ ner (Microsoft Research)\, Marco Canini (Université catholique de Louvain
+ \, Belgium)\, Jean-Baptiste Jeannin\, Nina Narodytska\, Cole Schlesinger\,
+  Douglas B. Terry (Samsung Research America)\, George Varghese (Microsoft 
+ Research)\n\nAbstract:\nHigh-level SDN languages raise the level of abstra
+ ction in SDN programming from managing individual switches to programming 
+ network-wide policies. In this talk\, we present Cocoon (for Correct by Co
+ nstruction Networking)\, an SDN programming language designed around the i
+ dea of iterative refinement. The network programmer starts with a high-lev
+ el functional description of the desired network behavior\, focusing on th
+ e service the network should provide to each packet\, as opposed to how th
+ is service is implemented within the network fabric. The programmer then i
+ teratively refines the top-level specification\, adding details of the top
+ ology\, routing\, fault recovery\, etc.\, until reaching a level of detail
+  sufficient for the Cocoon compiler to generate an SDN application that ma
+ nages network switches via the southbound interface.\n\n* Keynote Title:\n
+ NEMO Engine\, A Model Driven Compiler to Execute User&#39\;s Intent and Ma
+ nage Service Lifecycle by Multi Layer State Machine\n\nSpeaker:\nYinben Xi
+ a (Huawei Technologies)\n\nAbstract:\nIn last year&#39\;s NetPL workshop\,
+  I introduced an intent oriented network service programming language - NE
+ MO. This time\, I will introduce NEMO&#39\;s model driven compiler\, which
+  compiles intent language to real network executable interface. Second\, I
+  will introduce a multi layer state machine engine in NEMO compiler\, whic
+ h will handle various changes from equipments\, requirement or governance 
+ policy. This engine provides an automatic change management capability for
+  whole service lifecycle. In the last\, I will update NEMO&#39\;s open sou
+ rce implementation progress.\n\nSpeaker Bio:\nDr. Yinben Xia is a senior s
+ taff researcher within Huawei&#39\;s network research department from 2008
+ . He dedicated his research effort in network architecture and SDN technol
+ ogies. In recent two years\, he lead a team to design and developer a NaaS
+  (Network as a Service) programming language (NEMO Project). He owns 15 pa
+ tents in related domain. He is leading a team to carry out SDN/NEMO resear
+ ch in Beijing. Before joining Huawei\, Dr. Xia worked at IBM China Researc
+ h Lab for 4 years after he got PH.D from Beijing University of Aeronautics
+  and Astronautics.\n\n* Keynote Title:\nInteractive Query for Dynamic Netw
+ ork Analytics\n\nSpeaker:\nHaoyu Song (Huawei Technologies)\n\nAbstract:\n
+ Network data plane needs to be interactively programmed in order to suppor
+ t Dynamic Network Analytics (DNA). We envision the high level DNA applicat
+ ions can be break down into a set of queries and the queries can be furthe
+ r compiled into incremental configurations to the data plane. We emphasize
+  the need to define standard DNA APIs and/or query language for DNA system
+ .\n\nSpeaker Bio:\nHaoyu Song is a principal architect at Huawei Technolog
+ ies. He is a leading researcher on SDN programmable data plane. His curren
+ t research interests span all aspects of the SDN/NFV ecosystem. He was a r
+ esearcher at Bell Labs\, Alcatel-Lucent before joining Huawei. He hold a d
+ octoral degree in computer engineering from Washington University in St. L
+ ouis.\n\n
 LOCATION:Room: Agata 2
 END:VEVENT
 BEGIN:VEVENT
@@ -677,10 +705,7 @@ SUMMARY:NetPL Workshop: With advanced methods to soar ...
 DTSTART;VALUE=DATE-TIME:20160822T140000
 DTEND;VALUE=DATE-TIME:20160822T153000
 UID:7ec11abd2de50d5ac24d0102be954fbe
-DESCRIPTION:Talks: \n\n* Title: Formal Semantics and Automated Verificatio
- n for the Border Gateway Protocol – Speaker(s): Konstantin Weitz\, Doug 
- Woos\, Emina Torlak\, Michael D. Ernst\, Arvind Krishnamurthy\, Zachary Ta
- tlock (University of Washington)\n\n* Student Pitches
+DESCRIPTION:* Student Pitches
 LOCATION:Room: Agata 2
 END:VEVENT
 BEGIN:VEVENT
@@ -688,10 +713,7 @@ SUMMARY:NetPL Workshop: ... together networking and PL will roar
 DTSTART;VALUE=DATE-TIME:20160822T160000
 DTEND;VALUE=DATE-TIME:20160822T170000
 UID:919c67572861d409f1e676eec671148b
-DESCRIPTION:Talks: \n\n* Title: Symbolic Execution &mdash\; Model Equivale
- nce &amp\; Applications – Speaker(s): Matei Popovici\, Radu Stoenescu\, 
- Lorina Negreanu\, Costin Raiciu (University Politehnica of Bucharest)\n\n*
-  Closing Remarks
+DESCRIPTION:* Closing Remarks
 LOCATION:Room: Agata 2
 END:VEVENT
 BEGIN:VEVENT

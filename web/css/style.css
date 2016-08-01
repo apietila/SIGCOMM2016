@@ -684,14 +684,8 @@ button[disabled],
     display: block !important;
 }
 
-.content-primary .program .keynote-navgroup {
-    padding: 0px;
-    margin: -20px -17px;
-    border-radius: 0px;
-}
+.content-primary .program .prog-keynote {
 
-.content-primary .program .keynote-header {
-    font-weight: bold !important;
 }
 
 .content-primary .program .keynote-photo {
