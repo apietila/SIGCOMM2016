@@ -147,7 +147,7 @@ function tprog_add_item($paper, $link, $authors, $info, $slides="", $video="", $
 	print("</li>\n");
 }
 
-function tprog_add_keynote($title, $speakers, $abstract, $bio, $photo="", $progitemclass = "")
+function tprog_add_keynote($title, $speakers, $abstract, $bio, $photo="", $link="", $progitemclass = "")
 {
   if (trim($abstract) == "" && trim($bio) == "")
     /* if there is no abstract neither bio, no need to make this entry a collapsible item */
@@ -157,9 +157,19 @@ function tprog_add_keynote($title, $speakers, $abstract, $bio, $photo="", $progi
     $speakers = preg_replace('/\(([^\)]*)\)/', '<em>(${1})</em>', $speakers);
 ?>
     <li data-icon="false" class="prog-item <?php echo $progitemclass; ?> prog-keynote">
-      <h2><?php echo $title ?></h2><p><?php echo $speakers; ?></p><!-- p class="ui-li-aside button-paper"><a href="" style="text-decoration: none; color: white">Paper</a></p -->
+      
+      <?php if (trim($link) != "") { ?>
+      <p class="ui-li-aside button-paper" style="padding: 6px; border-radius: 5px; top: 0.5em !important;">
+        <a href="<?php echo $link ?>" rel="external" target="_blank" class="ui-link" style="text-decoration: none; color: white">Paper</a>
+      </p>                                        
+      <?php } ?>
+      
+      <h2 <?php if (trim($link) != "") { ?> style="width: 75%" <?php } ?>><?php echo $title ?></h2><p <?php if (trim($link) != "") { ?> style="width: 75%" <?php } ?>><?php echo $speakers; ?></p>
+      <?php if (trim($abstract) != "" || trim($bio) != "") { ?>
+        <hr class="keynote-divider"/>
+      <?php } ?>
         <?php if (trim($abstract) != "") { ?>
-          <hr/><p><?php if ($photo) { ?><img class="keynote-photo" src="<?php echo $photo ?>"/><?php } ?><b>Abstract: </b><?php echo $abstract ?></p><p>&nbsp;</p>
+          <p><?php if ($photo) { ?><img class="keynote-photo" src="<?php echo $photo ?>"/><?php } ?><b>Abstract: </b><?php echo $abstract ?></p><p>&nbsp;</p>
         <?php } ?>
         <?php if (trim($bio) != "") { ?>
           <p><b>Bio: </b><?php echo $bio ?></p><p>&nbsp;</p>

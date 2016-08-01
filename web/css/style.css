@@ -684,8 +684,19 @@ button[disabled],
     display: block !important;
 }
 
-.content-primary .program .prog-keynote {
+.content-primary .program .button-paper {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  padding: 6px 10px 6px 10px !important;
+  border-radius: 5px;
+  background-color: #4e964e;
+}
 
+.content-primary .program hr.keynote-divider {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
 }
 
 .content-primary .program .keynote-photo {
@@ -802,14 +813,6 @@ button[disabled],
 
 .notlast {
     border-radius: 0px !important;    
-}
-
-.button-paper {
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  padding: 6px 10px 6px 10px !important;
-  border-radius: 5px;
-  background-color: #4e964e;
 }
 
 .dl-button {

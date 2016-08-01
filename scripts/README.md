@@ -6,5 +6,5 @@ Dependencies: To setup the Google Spreadsheet API and credentials, follow the st
 
 Example:
 
-       python proggen.py program papers lancomm netpl sigcomm posters idemos demos gaia hotmiddlebox qoe
+       python proggen.py program lancomm netpl sigcomm posters idemos demos gaia hotmiddlebox qoe maintrackposters 
 
