@@ -147,7 +147,7 @@ def proggen(worksheet, values, outdir):
         elif (type == 'description' and len(row)>=4):
             paper = row[COL_TITLE]
             link = ""
-            authors = row[COL_CHAIR_SPKR_AUTHOR_DESC]
+            authors = (row[COL_CHAIR_SPKR_AUTHOR_DESC] if len(row)> COL_CHAIR_SPKR_AUTHOR_DESC else "")
             info = ""
             slides = ""
             video = ""

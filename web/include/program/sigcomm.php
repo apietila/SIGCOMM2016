@@ -3,6 +3,7 @@
 <?php
       tprog_add_header("Monday, August 22, 2016", "prog-monday");
       tprog_add_session("5:30pm - 6:45pm", "Topic Preview 1", "", "", "prog-monday");
+      tprog_add_item("Topic Preview 1", "", "", "", "", "", "prog-monday");
       tprog_add_extra("", "Welcome Reception", "prog-monday");
       tprog_add_item("Welcome Reception", "", "The Welcome Reception will take place at the Oceania Convention Center. Drinks and hors d'oeuvre will be served. Please visit the <a href=socialevents.php>Social Events</a> page for further information.", "", "", "", "prog-monday");
       tprog_add_extra("", "N2Women Dinner", "prog-monday");
@@ -51,6 +52,7 @@ Since January 2015, he is serving as an Assistant Director of the US National Sc
       tprog_add_item("AC/DC TCP: Virtual Congestion Control Enforcement for Datacenter Networks", "", "Keqiang He (University of Wisconsin-Madison), Eric Rozner (IBM Research), Kanak Agarwal (IBM), Yu (Jason) Gu (IBM), Wes Felter (IBM Research), John Carter (IBM), Aditya Akella (University of Wisconsin-Madison)", "", "", "", "prog-wednesday");
       tprog_add_session("12:20pm - 1:30pm", "Lunch Break", "", "", "prog-wednesday");
       tprog_add_session("12:20pm - 1:30pm", "Topic Preview 2", "", "", "prog-wednesday");
+      tprog_add_item("Topic Preview 2", "", "", "", "", "", "prog-wednesday");
       tprog_add_session("1:30pm - 2:45pm", "Session 6 - Networked Applications", "", "", "prog-wednesday");
       tprog_add_item("WebPerf: Evaluating What-If Scenarios for Cloud-hosted Web Applications", "", "Yurong Jiang (University of Southern California), Lenin Ravindranath (Microsoft Research), Suman Nath (Microsoft Research), Ramesh Govindan (University of Southern California)", "", "", "", "prog-wednesday");
       tprog_add_item("CS2P: Improving Video Bitrate Selection and Adaptation with Data-Driven Throughput Prediction", "", "Yi Sun (ICT/CAS), Xiaoqi Yin (CMU), Junchen Jiang (CMU), Vyas Sekar (CMU), Fuyuan Lin (ICT/CAS), Nanshu Wang (ICT/CAS), Tao Liu (iQIYI), Bruno Sinopoli (CMU)", "", "", "", "prog-wednesday");
@@ -62,6 +64,7 @@ Since January 2015, he is serving as an Assistant Director of the US National Sc
       tprog_add_item("Don't Mind the Gap: Bridging Network-wide Objectives and Device-level Configurations", "", "Ryan Beckett (Princeton University), Ratul Mahajan (Microsoft), Todd Millstein (University of California, Los Angeles), Jitendra Padhye (Microsoft), David Walker (Princeton University)", "", "", "", "prog-wednesday");
       tprog_add_item("Jumpstarting BGP Security with Path-End Validation", "", "Avichai Cohen (Hebrew University), Yossi Gilad (Boston University and MIT), Amir Herzberg (Bar Ilan University), Michael Schapira (Hebrew University)", "", "", "", "prog-wednesday");
       tprog_add_session("5:30pm - 6:30pm", "Community Feedback", "", "", "prog-wednesday");
+      tprog_add_item("Community Feedback", "", "", "", "", "", "prog-wednesday");
       tprog_add_extra("7:30pm - 10:00pm", "Student Dinner", "prog-wednesday");
       tprog_add_item("Student Dinner", "", "The SIGCOMM 2016 Student Dinner will take place at Ataliba Churrascarias Florian&oacute;polis. Please visit the <a href=socialevents.php>Social Events</a> page for further information.", "", "", "", "prog-wednesday");
       tprog_add_header("Thursday, August 25, 2016", "prog-thursday");
