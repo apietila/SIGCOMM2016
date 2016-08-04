@@ -157,7 +157,16 @@ function tprog_add_keynote($title, $speakers, $abstract, $bio, $photo="", $link=
       </p>                                        
       <?php } ?>
       
-      <h2 <?php echo $item_style ?>><?php echo $title ?></h2><p <?php echo $item_style ?>><?php echo $speakers; ?></p>
+      <h2 <?php echo $item_style ?>>
+      <?php if (trim($link) != "") { ?>
+        <a href="<?php echo $link ?>" rel="external" target="_blank" style="color: black;">
+      <?php } ?>
+        <?php echo $title ?>
+      <?php if (trim($link) != "") { ?>
+        </a>
+      <?php } ?>
+      </h2>
+      <p <?php echo $item_style ?>><?php echo $speakers; ?></p>
       <?php if (trim($abstract) != "" || trim($bio) != "") { ?>
         <hr class="keynote-divider"/>
       <?php } ?>

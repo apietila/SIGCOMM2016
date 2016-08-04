@@ -516,16 +516,13 @@ DESCRIPTION:Posters: \n\n* Title: Don't Mind the Gap: Bridging Network-wid
  kor (Budapest University of Technology and Economics)\, F. Juhász (Budape
  st University of Technology and Economics)\, A. Körösi (Budapest Univers
  ity of Technology and Economics)\, G. Rétvári (Budapest University of Te
- chnology and Economics)\n\n* Title: Dynamic Pricing and Traffic Engineerin
- g for Timely Inter-Datacenter Transfers – Author(s): V. Jalaparti (Micro
- soft)\, I. Bliznets (St. Petersburg Academic University)\, S. Kandula (Mic
- rosoft)\, B. Lucier (Microsoft)\, I. Menache (Microsoft)\n\n* Title: One S
- ketch to Rule Them All: Rethinking Network Flow Monitoring with UnivMon 
- – Author(s): Z. Liu (Johns Hopkins University)\, A. Manousis (Carnegie M
- ellon University)\, G. Vorsanger (Johns Hopkins University)\, V. Sekar (Ca
- rnegie Mellon University)\, V. Braverman (Johns Hopkins University)\n\n* T
- itle: Neutral Net Neutrality – Author(s): Y. Yiakoumis (Stanford Univers
- ity)\, S. Katti (Stanford University)\, N. McKeown (Stanford University)
+ chnology and Economics)\n\n* Title: One Sketch to Rule Them All: Rethinkin
+ g Network Flow Monitoring with UnivMon – Author(s): Z. Liu (Johns Hopkin
+ s University)\, A. Manousis (Carnegie Mellon University)\, G. Vorsanger (J
+ ohns Hopkins University)\, V. Sekar (Carnegie Mellon University)\, V. Brav
+ erman (Johns Hopkins University)\n\n* Title: Neutral Net Neutrality – Au
+ thor(s): Y. Yiakoumis (Stanford University)\, S. Katti (Stanford Universit
+ y)\, N. McKeown (Stanford University)
 LOCATION:Room: Topazio
 END:VEVENT
 BEGIN:VEVENT
@@ -884,7 +881,7 @@ DESCRIPTION:
 LOCATION:Room: Agata 2
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:SIGCOMM: Topic Preview 1
+SUMMARY:SIGCOMM: Topic Preview 1 - SDN\, NFV\, DCN\, TCP\, Scheduling
 DTSTART;VALUE=DATE-TIME:20160822T173000
 DTEND;VALUE=DATE-TIME:20160822T184500
 UID:c4de78bce7a44fef121988ea672a2ef0
@@ -1085,7 +1082,8 @@ DESCRIPTION:Papers: \n\n* Title: RDMA over Commodity Ethernet at Scale –
 LOCATION:Room: Diamante
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:SIGCOMM: Topic Preview 2
+SUMMARY:SIGCOMM: Topic Preview 2 - Wireless\, Verification\, Censorship/Ch
+ oice
 DTSTART;VALUE=DATE-TIME:20160824T122000
 DTEND;VALUE=DATE-TIME:20160824T133000
 UID:11d4928106acea9a18727c08ec039d2f

@@ -11,7 +11,19 @@ of acronyms (CDN, DCN, SDN?) Join us for the SIGCOMM preview sessions in which
 experts will give short introductions on a variety of topics to enhance your understanding
 of this year's paper presentations.</p>
 
-<p>Stay tuned: the topic preview schedule will be released soon!</p>
+<h2>Program</h2>
+
+<div id="prog_ctrl" data-role="navbar">
+        <ul>
+                <li><a href="#" onClick="filter('monday');" class="roundleft">Monday</a></li>
+                <li><a href="#" onClick="filter('wednesday');">Wednesday</a></li>
+                <li><a href="#" onClick="filter('all');" class="ui-btn-active ui-state-persist roundright">All</a></li>
+        </ul>
+</div>
+
+<?php include("include/program/topicpreview.php"); ?>
+
+<h2>Contact</h2>
 
 <p>Questions? Do not hesitate to contact us!</p>
 
