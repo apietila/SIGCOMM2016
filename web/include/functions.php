@@ -111,40 +111,31 @@ function tprog_add_extra($time, $title, $progitemclass = "", $last = false)
 function tprog_add_item($paper, $link, $authors, $info, $slides="", $video="", $progitemclass = "")
 {
 	/* the spaces after various "%s" below are important for correct list filtering! */
-	$authors = preg_replace('/\(([^\)]*)\)/', '<em>(${1})</em>', $authors);
+	$authors = preg_replace('/\(([^\)]*)\)/', '<em>(${1})</em>', $authors);	
 	
-	printf('<li data-icon="false" class="prog-item %s">', $progitemclass);
-	if ($link) {
-		printf('<a href="%s" rel="external">', $link);
-	}
-	if ($paper) {
-		printf('<h2>%s </h2>', $paper);
-	}
-	if ($authors) {
-		if (preg_match('/^\s*\<p\>/i', $authors)) {
-			printf('%s ', $authors);
-		} else {
-			printf('<p>%s </p>', $authors);
-		}
-	}
-	if($info) {
-		printf('<p class="prog-info-p">');
-		printf('<a href="%s" class="prog-%s prog-general ui-btn-up-c ui-btn-corner-all" rel="external">%s </a>',
-				$link, preg_replace('/\s/', '', strtolower($info)), $info);
+	$item_style = (trim($link) != "") ? "style=\"width: 85%\"" : "";
+?>
+    <li data-icon="false" class="prog-item <?php echo $progitemclass; ?>">
 
-		if($slides) {
-			printf('<a href="%s" class="prog-general ui-btn-up-c ui-btn-corner-all" rel="external">Slides</a>', $slides);
-		}
-		if($video) {
-			printf('<a href="%s" class="prog-general ui-btn-up-c ui-btn-corner-all" rel="external">Video</a>', $video);
-		}
+      <?php if (trim($link) != "") { ?>
+      <p class="ui-li-aside button-paper" style="padding: 6px; border-radius: 5px; top: 0.5em !important;">
+        <a href="<?php echo $link ?>" rel="external" target="_blank" class="ui-link" style="text-decoration: none; color: white">Paper</a>
+      </p>                                        
+      <?php } ?>
+      
+      <h2 <?php echo $item_style ?>>
+      <?php if (trim($link) != "") { ?>
+        <a href="<?php echo $link ?>" rel="external" target="_blank" style="color: black;">
+      <?php } ?>
+        <?php echo $paper ?>
+      <?php if (trim($link) != "") { ?>
+        </a>
+      <?php } ?>
+      </h2>
+      <p <?php echo $item_style ?>><?php echo $authors; ?></p>
 
-		printf('</p>');
-	}
-	if ($link) {
-		print('</a>');
-	}
-	print("</li>\n");
+    </li>
+<?php
 }
 
 function tprog_add_keynote($title, $speakers, $abstract, $bio, $photo="", $link="", $progitemclass = "")
@@ -155,6 +146,8 @@ function tprog_add_keynote($title, $speakers, $abstract, $bio, $photo="", $link=
   else {
     /* the spaces after various "%s" below are important for correct list filtering! */
     $speakers = preg_replace('/\(([^\)]*)\)/', '<em>(${1})</em>', $speakers);
+    
+    $item_style = (trim($link) != "") ? "style=\"width: 85%\"" : "";
 ?>
     <li data-icon="false" class="prog-item <?php echo $progitemclass; ?> prog-keynote">
       
@@ -164,7 +157,7 @@ function tprog_add_keynote($title, $speakers, $abstract, $bio, $photo="", $link=
       </p>                                        
       <?php } ?>
       
-      <h2 <?php if (trim($link) != "") { ?> style="width: 75%" <?php } ?>><?php echo $title ?></h2><p <?php if (trim($link) != "") { ?> style="width: 75%" <?php } ?>><?php echo $speakers; ?></p>
+      <h2 <?php echo $item_style ?>><?php echo $title ?></h2><p <?php echo $item_style ?>><?php echo $speakers; ?></p>
       <?php if (trim($abstract) != "" || trim($bio) != "") { ?>
         <hr class="keynote-divider"/>
       <?php } ?>

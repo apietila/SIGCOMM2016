@@ -71,10 +71,10 @@ In addition to the technical activities, SIGCOMM 2016 will organize the followin
 
 <h2>N2Women, Monday 22nd</h2>
 
-<p>Participation in this event is by invitation only. More information will be available soon.</p>
+<p>Participation in this event is by invitation only. If you have any inquiries or would like to receive an invitation, please contact the N2Women chairs.</p>
 
 <h2>Award Dinner, Monday 22nd</h2>
 
-<p>Participation in this event is by invitation only. More information will be available soon.</p>
+<p>Participation in this event is by invitation only.</p>
 
 <?php include ("include/footer.php"); ?>

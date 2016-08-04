@@ -107,7 +107,7 @@ def proggen(worksheet, values, outdir):
 
         elif ((type == 'talk' or type == 'poster' or type == 'demo' or type == 'paper') and len(row)>=4):
             paper = row[COL_TITLE]
-            link = ""
+            link = (row[COL_FNAME] if len(row)>COL_FNAME else "")
             authors = (row[COL_CHAIR_SPKR_AUTHOR_DESC] if len(row)> COL_CHAIR_SPKR_AUTHOR_DESC else "")
             info = ""
             slides = ""
