@@ -58,6 +58,12 @@
      add_listitem("Sharon Goldberg", "Boston University, USA", "http://www.cs.bu.edu/~goldbe/");
    ?>
 
+  <li data-role="list-divider">Student Research Competition Chairs</li>
+  <?php
+     add_listitem("Marco Canini", "KAUST, KSA", "http://perso.uclouvain.be/marco.canini/");
+     add_listitem("Daniel R Figueiredo", "UFRJ, Brazil", "http://www.land.ufrj.br/~daniel/");
+  ?>
+
   <li data-role="list-divider">Topic Preview Chairs</li>
   <?php
     add_listitem("&Iacute;talo Cunha", "UFMG, Brazil", "http://homepages.dcc.ufmg.br/~cunha/");

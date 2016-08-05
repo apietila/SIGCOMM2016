@@ -5,7 +5,7 @@
         $mypage = "index.php";
      
      // reorganizing menu items
-     $conferenceItems = array("program.php", "pc.php", "papers.php", "posterprogram.php", "demoprogram.php", "industrialdemoprogram.php", "maintrackposterprogram.php", "preview.php", "mentoring.php", "socialevents.php");
+     $conferenceItems = array("program.php", "pc.php", "papers.php", "posterprogram.php", "demoprogram.php", "src.php", "industrialdemoprogram.php", "maintrackposterprogram.php", "preview.php", "mentoring.php", "socialevents.php");
      $workshopItems = array ("gaia.php", "hotmiddlebox.php", "qoe.php", "lancomm.php", "netpl.php", "workshops.php");
      $tutorialItems = array("tutorial-im.php", "tutorial-wimobnet.php", "tutorial-iptv.php", "tutorial-p4.php", "tutorial-sdnnfv5g.php", "tutorials.php");
      $localItems = array ("local.php", "travel.php", "visa.php", "hotel.php", "roomshare.php", "tourism.php", "advisory.php"); //, "poll.php"
@@ -40,6 +40,9 @@
         </li>
         <li class="subnav <?php if ($mypage=="demoprogram.php") echo('navselected') ?>" data-icon="false">
           <a href="demoprogram.php">Demos</a>
+        </li>
+        <li class="subnav <?php if ($mypage=="src.php") echo('navselected') ?>" data-icon="false">
+          <a href="src.php">ACM SRC</a>
         </li>
         <li class="subnav <?php if ($mypage=="industrialdemoprogram.php") echo('navselected') ?>" data-icon="false">
           <a href="industrialdemoprogram.php">Industrial Demos</a>

@@ -25,7 +25,7 @@ of this year's paper presentations.</p>
 
 <h2>Contact</h2>
 
-<p>Questions? Do not hesitate to contact us!</p>
+<p>Questions? Do not hesitate to contact us at <a href="mailto:topic.preview.sigcomm@gmail.com">topic.preview.sigcomm@gmail.com</a></p>
 
 <h2>Organizers</h2>
 

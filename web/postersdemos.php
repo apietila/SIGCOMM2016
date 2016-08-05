@@ -1,19 +1,13 @@
 <?php
-    $page_title="ACM SIGCOMM Call for Posters, Demos, and Student Research Competition";
+    $page_title="ACM SIGCOMM Call for Posters and Demos";
     include("include/header.php");
 ?>
 
-<h1>Call for Posters, Demos, and Student Research Competition</h1>
+<h1>Call for Posters and Demos</h1>
 
 <p>The SIGCOMM poster and demo sessions showcase works-in-progress in an informal setting. Topics of interest are the same as research topics in the SIGCOMM conference call for papers. We strongly encourage <b>student</b> and <b>industry</b> submissions. The SIGCOMM 2016 Poster and Demo committee will review all posters and demo proposals. Students must present student posters at the conference. Authors of accepted papers in SIGCOMM 2016 may not submit a poster on the same work as in the paper.</p>
 
 <p>Product-focused, as opposed to research-focused, industrial demos may be more appropriately submitted to the SIGCOMM Industrial Demo track. Please feel free to contact either the Poster and Demo Chairs or the <a href="http://www.sigcomm.org/content/sigcomm-industrial-advisory-board">SIGCOMM Industrial Liaison Board</a> if you are unsure which track to submit to.</p>
-
-<h3>ACM Student Research Competition (SRC)</h3>
-
-<p>The SIGCOMM poster and demo sessions will also serve as an <a href="http://src.acm.org/index.html">ACM Student Research Competition</a>. Qualified entrants must have current ACM student membership, have graduate or undergraduate student status at the time of submission (May 2016), and be the only student working on the project. If a graduate student is part of a group research project and wishes to participate in an SRC, they can submit and present their individual contribution to the group research project. Following the same spirit, in case of demo submissions, the student contributions should be clearly defined.</p>
-
-<p>While not mandatory, entrants are encouraged to submit a letter from their advisor describing the specific contributions made by the student. Undergraduates and graduate students will be treated in separate divisions (students starting their first year of graduate school at the time of the conference will be considered as undergraduates). A small <a href="http://src.acm.org/students.html">travel supplement</a> is made available to accepted SRC entrants; please also submit <a href="travelgrants.php">applications for travel grant support</a>. Winners will advance to ACM Grand Finals of the Student Research Competition to compete against the winners of other ACM conferences. The SRC is sponsored by Microsoft Research.</p>
 
 <h3>Why should you submit a Poster or a Demo?</h3>
 
@@ -50,7 +44,7 @@
 
 <h3>Where To Submit</h3>
 
-<p>Please submit your abstract at <a href="https://sigcomm16posters.hotcrp.com/">https://sigcomm16posters.hotcrp.com/</a>. Submissions are single blind, so please include authors&#39; names and affiliation. When submitting (a poster), indicate if the submission should be considered for the SRC.</p>
+<p>Please submit your abstract at <a href="https://sigcomm16posters.hotcrp.com/">https://sigcomm16posters.hotcrp.com/</a>. Submissions are single blind, so please include authors&#39; names and affiliation. When submitting (a poster), indicate if the submission should be considered for the ACM SIGCOMM Student Research Competition (SRC).</p>
 
 <h2>Important Dates</h2>
 

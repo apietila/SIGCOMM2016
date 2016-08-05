@@ -67,8 +67,8 @@ LOCATION:Room: Foyer
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY: Coffee Break
-DTSTART;VALUE=DATE-TIME:20160824T144500
-DTEND;VALUE=DATE-TIME:20160824T154500
+DTSTART;VALUE=DATE-TIME:20160824T151000
+DTEND;VALUE=DATE-TIME:20160824T161000
 UID:bd658c62ce869e273da72a603643ac8f
 DESCRIPTION:
 LOCATION:Room: Foyer
@@ -991,16 +991,16 @@ UID:2927706a8495f99955a8a99b5bdb4cf8
 DESCRIPTION:Papers: \n\n* Title: Evolve or Die: High-Availability Design P
  rinciples Drawn from Google's Network Infrastructure – Author(s): Ramesh
   Govindan (Google / USC)\, Ina Minei (Google)\, Mahesh Kallahalla (Google)
- \, Bikash Koley (Google)\, Amin Vahdat (Google)\n\n* Title: Dynamic Pricin
- g and Traffic Engineering for Timely Inter-Datacenter Transfers – Author
- (s): Virajith Jalaparti (Microsoft)\, Ivan Bliznets (St. Petersburg Academ
- ic University)\, Srikanth Kandula (Microsoft)\, Brendan Lucier (Microsoft)
- \, Ishai Menache (Microsoft)\n\n* Title: Optimizing Bulk Transfers with So
- ftware-Defined Optical WAN – Author(s): Xin Jin (Princeton University)\,
-  Yiran Li (Tsinghua University)\, Da Wei (Tsinghua University)\, Siming Li
-  (Stony Brook University)\, Jie Gao (Stony Brook University)\, Lei Xu (Sod
- ero Networks)\, Guangzhi Li (AT&T Labs)\, Wei Xu (Tsinghua University)\, J
- ennifer Rexford (Princeton University)
+ \, Bikash Koley (Google)\, Amin Vahdat (Google)\n\n* Title: Optimizing Bul
+ k Transfers with Software-Defined Optical WAN – Author(s): Xin Jin (Prin
+ ceton University)\, Yiran Li (Tsinghua University)\, Da Wei (Tsinghua Univ
+ ersity)\, Siming Li (Stony Brook University)\, Jie Gao (Stony Brook Univer
+ sity)\, Lei Xu (Sodero Networks)\, Guangzhi Li (AT&T Labs)\, Wei Xu (Tsing
+ hua University)\, Jennifer Rexford (Princeton University)\n\n* Title: Dyna
+ mic Pricing and Traffic Engineering for Timely Inter-Datacenter Transfers 
+ – Author(s): Virajith Jalaparti (Microsoft)\, Ivan Bliznets (St. Petersb
+ urg Academic University)\, Srikanth Kandula (Microsoft)\, Brendan Lucier (
+ Microsoft)\, Ishai Menache (Microsoft)
 LOCATION:Room: Diamante
 END:VEVENT
 BEGIN:VEVENT
@@ -1012,15 +1012,15 @@ DESCRIPTION:Papers: \n\n* Title: One Sketch to Rule Them All: Rethinking N
  etwork Flow Monitoring with UnivMon – Author(s): Zaoxing Liu (Johns Hopk
  ins University)\, Antonis Manousis (Carnegie Mellon University)\, Gregory 
  Vorsanger (Johns Hopkins University)\, Vyas Sekar (Carnegie Mellon Univers
- ity)\, Vladimir Braverman (Johns Hopkins University)\n\n* Title: The Good\
- , the Bad\, and the Differences: Better Network Diagnostics with Different
- ial Provenance – Author(s): Ang Chen (University of Pennsylvania)\, Yang
-  Wu (University of Pennsylvania)\, Andreas Haeberlen (University of Pennsy
- lvania)\, Wenchao Zhou (Georgetown University)\, Boon Thau Loo (University
-  of Pennsylvania)\n\n* Title: Trumpet: Timely and Precise Triggers in Data
-  Centers – Author(s): Masoud Moshref (University of Southern California)
- \, Minlan Yu (University of Southern California)\, Ramesh Govindan (Univer
- sity of Southern California)\, Amin Vahdat (Google)
+ ity)\, Vladimir Braverman (Johns Hopkins University)\n\n* Title: Trumpet: 
+ Timely and Precise Triggers in Data Centers – Author(s): Masoud Moshref 
+ (University of Southern California)\, Minlan Yu (University of Southern Ca
+ lifornia)\, Ramesh Govindan (University of Southern California)\, Amin Vah
+ dat (Google)\n\n* Title: The Good\, the Bad\, and the Differences: Better 
+ Network Diagnostics with Differential Provenance – Author(s): Ang Chen (
+ University of Pennsylvania)\, Yang Wu (University of Pennsylvania)\, Andre
+ as Haeberlen (University of Pennsylvania)\, Wenchao Zhou (Georgetown Unive
+ rsity)\, Boon Thau Loo (University of Pennsylvania)
 LOCATION:Room: Diamante
 END:VEVENT
 BEGIN:VEVENT
@@ -1060,25 +1060,25 @@ SUMMARY:SIGCOMM: Session 5 - Datacenters
 DTSTART;VALUE=DATE-TIME:20160824T104000
 DTEND;VALUE=DATE-TIME:20160824T122000
 UID:a18684e30861f29650fd4946bca7e64a
-DESCRIPTION:Papers: \n\n* Title: RDMA over Commodity Ethernet at Scale –
-  Author(s): Chuanxiong Guo (Microsoft Research)\, Haitao Wu (Microsoft)\, 
- Zhong Deng (Microsoft)\, Gaurav Soni (Microsoft)\, Jianxi Ye (Microsoft)\,
-  Jitu Padhye (Microsoft Research)\, Marina Lipshteyn (Microsoft)\n\n* Titl
- e: ProjecToR: Agile Reconfigurable Data Center Interconnect – Author(s):
-  Monia Ghobadi (Microsoft Research)\, Ratul Mahajan (Microsoft Research)\,
-  Amar Phanishayee (Microsoft Research)\, Nikhil Devanur (Microsoft Researc
- h)\, Janardhan Kulkarni (Microsoft Research)\, Gireeja Ranade (Microsoft R
- esearch)\, Pierre-Alexandre Blanche (University of Arizona)\, Houman Raste
- garfar (University of Arizona)\, Madeleine Glick (University of Arizona)\,
-  Daniel Kilper (University of Arizona)\n\n* Title: Virtualized Congestion 
- Control – Author(s): Bryce Cronkite-Ratcliff (VMware / Stanford)\, Aran 
- Bergman (Technion)\, Shay Vargaftik (Technion)\, Madhusudhan Ravi (VMware)
- \, Nick McKeown (Stanford)\, Ittai Abraham (VMware)\, Isaac Keslassy (VMwa
- re / Stanford / Technion)\n\n* Title: AC/DC TCP: Virtual Congestion Contro
- l Enforcement for Datacenter Networks – Author(s): Keqiang He (Universit
- y of Wisconsin-Madison)\, Eric Rozner (IBM Research)\, Kanak Agarwal (IBM)
- \, Yu (Jason) Gu (IBM)\, Wes Felter (IBM Research)\, John Carter (IBM)\, A
- ditya Akella (University of Wisconsin-Madison)
+DESCRIPTION:Papers: \n\n* Title: Virtualized Congestion Control – Author
+ (s): Bryce Cronkite-Ratcliff (VMware / Stanford)\, Aran Bergman (Technion)
+ \, Shay Vargaftik (Technion)\, Madhusudhan Ravi (VMware)\, Nick McKeown (S
+ tanford)\, Ittai Abraham (VMware)\, Isaac Keslassy (VMware / Stanford / Te
+ chnion)\n\n* Title: AC/DC TCP: Virtual Congestion Control Enforcement for 
+ Datacenter Networks – Author(s): Keqiang He (University of Wisconsin-Mad
+ ison)\, Eric Rozner (IBM Research)\, Kanak Agarwal (IBM)\, Yu (Jason) Gu (
+ IBM)\, Wes Felter (IBM Research)\, John Carter (IBM)\, Aditya Akella (Univ
+ ersity of Wisconsin-Madison)\n\n* Title: RDMA over Commodity Ethernet at S
+ cale – Author(s): Chuanxiong Guo (Microsoft Research)\, Haitao Wu (Micro
+ soft)\, Zhong Deng (Microsoft)\, Gaurav Soni (Microsoft)\, Jianxi Ye (Micr
+ osoft)\, Jitu Padhye (Microsoft Research)\, Marina Lipshteyn (Microsoft)\n
+ \n* Title: ProjecToR: Agile Reconfigurable Data Center Interconnect – Au
+ thor(s): Monia Ghobadi (Microsoft Research)\, Ratul Mahajan (Microsoft Res
+ earch)\, Amar Phanishayee (Microsoft Research)\, Nikhil Devanur (Microsoft
+  Research)\, Janardhan Kulkarni (Microsoft Research)\, Gireeja Ranade (Mic
+ rosoft Research)\, Pierre-Alexandre Blanche (University of Arizona)\, Houm
+ an Rastegarfar (University of Arizona)\, Madeleine Glick (University of Ar
+ izona)\, Daniel Kilper (University of Arizona)
 LOCATION:Room: Diamante
 END:VEVENT
 BEGIN:VEVENT
@@ -1091,31 +1091,9 @@ DESCRIPTION:
 LOCATION:Room: Esmeralda 1 and Esmeralda 2
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:SIGCOMM: Session 6 - Networked Applications
+SUMMARY:SIGCOMM: Session 6 - Verification
 DTSTART;VALUE=DATE-TIME:20160824T133000
-DTEND;VALUE=DATE-TIME:20160824T144500
-UID:e87507fad5a39f6114cc3815af7de645
-DESCRIPTION:Papers: \n\n* Title: WebPerf: Evaluating What-If Scenarios for
-  Cloud-hosted Web Applications – Author(s): Yurong Jiang (University of 
- Southern California)\, Lenin Ravindranath (Microsoft Research)\, Suman Nat
- h (Microsoft Research)\, Ramesh Govindan (University of Southern Californi
- a)\n\n* Title: CS2P: Improving Video Bitrate Selection and Adaptation with
-  Data-Driven Throughput Prediction – Author(s): Yi Sun (ICT/CAS)\, Xiaoq
- i Yin (CMU)\, Junchen Jiang (CMU)\, Vyas Sekar (CMU)\, Fuyuan Lin (ICT/CAS
- )\, Nanshu Wang (ICT/CAS)\, Tao Liu (iQIYI)\, Bruno Sinopoli (CMU)\n\n* Ti
- tle: Via: Improving Internet Telephony Call Quality Using Predictive Relay
-  Selection – Author(s): Junchen Jiang (Microsoft Research / CMU)\, Rajde
- ep Das (Microsoft Research)\, Ganesh Ananthanarayanan (Microsoft Research)
- \, Philip A. Chou (Microsoft Research)\, Venkata Padmanabhan (Microsoft Re
- search)\, Vyas Sekar (CMU)\, Esbjorn Dominique (Microsoft)\, Marcin Golisz
- ewski (Microsoft)\, Dalibor Kukoleca (Microsoft)\, Renat Vafin (Microsoft)
- \, Hui Zhang (CMU)
-LOCATION:Room: Diamante
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:SIGCOMM: Session 7 - Verification
-DTSTART;VALUE=DATE-TIME:20160824T154500
-DTEND;VALUE=DATE-TIME:20160824T172500
+DTEND;VALUE=DATE-TIME:20160824T151000
 UID:c566e3c482f374daa80887ddeb3b91b3
 DESCRIPTION:Papers: \n\n* Title: Fast Control Plane Analysis Using an Abst
  ract Representation – Author(s): Aaron Gember-Jacobson (University of Wi
@@ -1133,6 +1111,28 @@ DESCRIPTION:Papers: \n\n* Title: Fast Control Plane Analysis Using an Abst
  Validation – Author(s): Avichai Cohen (Hebrew University)\, Yossi Gilad 
  (Boston University and MIT)\, Amir Herzberg (Bar Ilan University)\, Michae
  l Schapira (Hebrew University)
+LOCATION:Room: Diamante
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SIGCOMM: Session 7 - Networked Applications
+DTSTART;VALUE=DATE-TIME:20160824T161000
+DTEND;VALUE=DATE-TIME:20160824T172500
+UID:e87507fad5a39f6114cc3815af7de645
+DESCRIPTION:Papers: \n\n* Title: WebPerf: Evaluating What-If Scenarios for
+  Cloud-hosted Web Applications – Author(s): Yurong Jiang (University of 
+ Southern California)\, Lenin Ravindranath (Microsoft Research)\, Suman Nat
+ h (Microsoft Research)\, Ramesh Govindan (University of Southern Californi
+ a)\n\n* Title: CS2P: Improving Video Bitrate Selection and Adaptation with
+  Data-Driven Throughput Prediction – Author(s): Yi Sun (ICT/CAS)\, Xiaoq
+ i Yin (CMU)\, Junchen Jiang (CMU)\, Vyas Sekar (CMU)\, Fuyuan Lin (ICT/CAS
+ )\, Nanshu Wang (ICT/CAS)\, Tao Liu (iQIYI)\, Bruno Sinopoli (CMU)\n\n* Ti
+ tle: Via: Improving Internet Telephony Call Quality Using Predictive Relay
+  Selection – Author(s): Junchen Jiang (Microsoft Research / CMU)\, Rajde
+ ep Das (Microsoft Research)\, Ganesh Ananthanarayanan (Microsoft Research)
+ \, Philip A. Chou (Microsoft Research)\, Venkata Padmanabhan (Microsoft Re
+ search)\, Vyas Sekar (CMU)\, Esbjorn Dominique (Microsoft)\, Marcin Golisz
+ ewski (Microsoft)\, Dalibor Kukoleca (Microsoft)\, Renat Vafin (Microsoft)
+ \, Hui Zhang (CMU)
 LOCATION:Room: Diamante
 END:VEVENT
 BEGIN:VEVENT
@@ -1168,13 +1168,13 @@ DESCRIPTION:Papers: \n\n* Title: Inter-Technology Backscatter: Towards Int
  rgy Budgets – Author(s): Pan Hu (University of Massachusetts Amherst)\, 
  Pengyu Zhang (University of Massachusetts Amherst)\, Mohammad Rostami (Uni
  versity of Massachusetts Amherst)\, Deepak Ganesan (University of Massachu
- setts Amherst)\n\n* Title: Eliminating Channel Feedback in Next-Generation
-  Cellular Networks – Author(s): Deepak Vasisht (MIT)\, Swarun Kumar (CMU
- )\, Hariharan Rahul (MIT)\, Dina Katabi (MIT)\n\n* Title: Real-time Distri
- buted MIMO Systems – Author(s): Ezzeldin Hamed (Massachusetts Institute 
- of Technology)\, Hariharan Rahul (Massachusetts Institute of Technology)\,
-  Mohammed A. Abdelghany (Massachusetts Institute of Technology)\, Dina Kat
- abi (Massachusetts Institute of Technology)
+ setts Amherst)\n\n* Title: Real-time Distributed MIMO Systems – Author(s
+ ): Ezzeldin Hamed (Massachusetts Institute of Technology)\, Hariharan Rahu
+ l (Massachusetts Institute of Technology)\, Mohammed A. Abdelghany (Massac
+ husetts Institute of Technology)\, Dina Katabi (Massachusetts Institute of
+  Technology)\n\n* Title: Eliminating Channel Feedback in Next-Generation C
+ ellular Networks – Author(s): Deepak Vasisht (MIT)\, Swarun Kumar (CMU)\
+ , Hariharan Rahul (MIT)\, Dina Katabi (MIT)
 LOCATION:Room: Diamante
 END:VEVENT
 BEGIN:VEVENT
@@ -1182,16 +1182,16 @@ SUMMARY:SIGCOMM: Session 9 - Datacenters
 DTSTART;VALUE=DATE-TIME:20160825T110500
 DTEND;VALUE=DATE-TIME:20160825T122000
 UID:06a734c705447e52744db23f8fc9f02d
-DESCRIPTION:Papers: \n\n* Title: Robotron: Top-down Network Management at 
- Facebook Scale – Author(s): Yu-Wei Eric Sung (Facebook)\, Xiaozheng Tie 
- (Facebook)\, Starsky H.Y. Wong (Facebook)\, Hongyi Zeng (Facebook)\n\n* Ti
- tle: Taking the Blame Game out of Data Centers Operations with NetPoirot 
- – Author(s): Behnaz Arzani (University of Pennsylvania)\, Selim Ciraci (
- Microsoft)\, Boon Thau Loo (University of Pennsylvania)\, Assaf Schuster (
- Technion - Israel Institute of Technology)\, Geoff Outhred (Microsoft)\n\n
- * Title: Globally Synchronized Time via Datacenter Networks – Author(s):
-  Ki Suh Lee (Cornell University)\, Han Wang (Cornell University)\, Vishal 
- Shrivastav (Cornell University)\, Hakim Weatherspoon (Cornell University)
+DESCRIPTION:Papers: \n\n* Title: Globally Synchronized Time via Datacenter
+  Networks – Author(s): Ki Suh Lee (Cornell University)\, Han Wang (Corne
+ ll University)\, Vishal Shrivastav (Cornell University)\, Hakim Weatherspo
+ on (Cornell University)\n\n* Title: Robotron: Top-down Network Management 
+ at Facebook Scale – Author(s): Yu-Wei Eric Sung (Facebook)\, Xiaozheng T
+ ie (Facebook)\, Starsky H.Y. Wong (Facebook)\, Hongyi Zeng (Facebook)\n\n*
+  Title: Taking the Blame Game out of Data Centers Operations with NetPoiro
+ t – Author(s): Behnaz Arzani (University of Pennsylvania)\, Selim Ciraci
+  (Microsoft)\, Boon Thau Loo (University of Pennsylvania)\, Assaf Schuster
+  (Technion - Israel Institute of Technology)\, Geoff Outhred (Microsoft)
 LOCATION:Room: Diamante
 END:VEVENT
 BEGIN:VEVENT
