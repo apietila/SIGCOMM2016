@@ -105,7 +105,7 @@ def proggen(worksheet, values, outdir):
             else:
               line = """      tprog_add_session("%s", "%s", "%s", "%s", "prog-%s");\n""" % (time, title, chair, style, progdate)
 
-        elif ((type == 'talk' or type == 'poster' or type == 'demo' or type == 'paper') and len(row)>=4):
+        elif (type == 'talk' and len(row)>=4):
             paper = row[COL_TITLE]
             link = (row[COL_FNAME] if len(row)>COL_FNAME else "")
             authors = (row[COL_CHAIR_SPKR_AUTHOR_DESC] if len(row)> COL_CHAIR_SPKR_AUTHOR_DESC else "")
@@ -113,6 +113,16 @@ def proggen(worksheet, values, outdir):
             slides = ""
             video = ""
             line = """      tprog_add_item("%s", "%s", "%s", "%s", "%s", "%s", "prog-%s");\n""" % (paper, link, authors, info, slides, video, progdate)
+
+        elif ((type == 'poster' or type == 'demo' or type == 'paper') and len(row)>=4):
+            paper = row[COL_TITLE]
+            link = (row[COL_FNAME] if len(row)>COL_FNAME else "")
+            authors = (row[COL_CHAIR_SPKR_AUTHOR_DESC] if len(row)> COL_CHAIR_SPKR_AUTHOR_DESC else "")
+            abstract = (row[COL_KEYNT_ABSTRACT] if len(row)>COL_KEYNT_ABSTRACT else "")
+            info = ""
+            slides = ""
+            video = ""
+            line = """      tprog_add_paper("%s", "%s", "%s", "%s", "%s", "%s", "prog-%s");\n""" % (paper, authors, abstract, link, slides, video, progdate)
 
         elif (type == 'keynote' and len(row)>=4):
             title = row[COL_TITLE]

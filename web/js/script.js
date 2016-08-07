@@ -117,7 +117,7 @@ function shuffle(a) {
     return a;
 }
 
-function init_sps() {
+function init_sps() { 
     shuffle(sps);
     for (var a = 1; a < sps.length; a++)
       sps[a][0] = sps[a - 1][0] + sps[a][0];

@@ -30,7 +30,7 @@
     
     /* prepare page url */
     
-    $page_link = "http://" . $_SERVER[HTTP_HOST] . $_SERVER[REQUEST_URI];
+    $page_link = "http://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
     
 ?>
 
@@ -89,7 +89,9 @@
   <meta name="theme-color" content="#ffffff">
 
   <link rel="stylesheet" href="css/jquery.mobile-1.4.5.css" />
-  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- send file timestamp to prevent caching issues -->
+  <link rel="stylesheet" href="css/style.css?cache_ts=<?php echo last_modified (file_dir () . "/css/style.css"); ?>" />
 
   <!-- make the CSS work with older IE -->
   <script src="js/css3-mediaqueries.js"></script>
@@ -103,8 +105,9 @@
   <script>$.mobile || document.write('<script src="js/jquery.mobile-1.4.5.min.js"><\/script>')</script>
 
   <script src="js/jqm-docs.js"></script>
-    
-  <script src="js/script.js" type='text/javascript'></script>
+  
+  <!-- send file timestamp to prevent caching issues -->
+  <script src="js/script.js?cache_ts=<?php echo last_modified (file_dir () . "/js/script.js"); ?>" type='text/javascript'></script>
 
 </head>
 
