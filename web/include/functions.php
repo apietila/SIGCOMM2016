@@ -9,23 +9,23 @@
 
 function current_pagename() {
 
-        $currentFile = $_SERVER["PHP_SELF"];
-        $parts = Explode('/', $currentFile);
-        $mypage = $parts[count($parts) - 1];
+  $currentFile = $_SERVER["PHP_SELF"];
+  $parts = Explode('/', $currentFile);
+  $mypage = $parts[count($parts) - 1];
 
-        return $mypage;
+  return $mypage;
 }
 
 function file_dir() {
 
-    return dirname ($_SERVER["SCRIPT_FILENAME"]);
+  return dirname ($_SERVER["SCRIPT_FILENAME"]);
 }
 
 function last_modified($file) {
 
-    if (!$file) return;
+  if (!$file) return;
     
-    return ($file == 1) ? date("U", filemtime($_SERVER["SCRIPT_FILENAME"])) : date("U", filemtime($file));
+  return ($file == 1) ? date("U", filemtime($_SERVER["SCRIPT_FILENAME"])) : date("U", filemtime($file));
 }
 
 function add_listitem($name, $organization, $link) {
@@ -105,27 +105,22 @@ function tprog_add_session($time, $title, $chair="", $style="", $progitemclass =
        <h3><?php echo $time . " " . $title ?></h3>
        <?php if ($chair) { ?><p>Session Chair: <?php echo $chair ?></p><?php } ?>
      </li>
-     <?php
-       // a list divider is not visible if not followed by an ordinary item,
-       // when data-filter is true. workaround: included an invisible li
-     ?>
-     <li class="hidden"><?php echo $title ?></li>
-
+     <?php // a list divider is not visible if not followed by an ordinary item,
+           // when data-filter is true. workaround: included an invisible li
+     ?><li class="hidden"><?php echo $title ?></li>
 <?php
+
 }
 
 function tprog_add_extra($time, $title, $progitemclass = "", $last = false) {
 
 ?>
-      <li class="prog-social prog-item <?php echo $progitemclass . " " .($last ? "listlast" : "") ?>" data-role="list-divider">
-        <h3><?php echo $time . " " . $title ?></h3>
-      </li>
-     <?php
-       // a list divider is not visible if not followed by an ordinary item,
-       // when data-filter is true. workaround: included an invisible li
-     ?>
-     <li class="hidden">&nbsp;</li>
-
+     <li class="prog-social prog-item <?php echo $progitemclass . " " .($last ? "listlast" : "") ?>" data-role="list-divider">
+       <h3><?php echo $time . " " . $title ?></h3>
+     </li>
+     <?php // a list divider is not visible if not followed by an ordinary item,
+           // when data-filter is true. workaround: included an invisible li
+     ?><li class="hidden">&nbsp;</li>
 <?php
 
 }
@@ -139,24 +134,17 @@ function tprog_add_item($paper, $link, $authors, $info, $slides="", $video="", $
   $item_style = ($has_link) ? "style=\"width: 85%\"" : "";
 ?>
     <li data-icon="false" class="prog-item <?php echo $progitemclass; ?>">
-
       <?php if ($has_link) { ?>
       <p class="ui-li-aside button-paper" style="padding: 6px; border-radius: 5px; top: 0.5em !important;">
         <a href="<?php echo $link ?>" rel="external" target="_blank" class="ui-link" style="text-decoration: none; color: white">Paper</a>
       </p>                                        
       <?php } ?>
-      
       <h2 <?php echo $item_style ?>>
-      <?php if ($has_link) { ?>
-        <a href="<?php echo $link ?>" rel="external" target="_blank" style="color: black;">
-      <?php } ?>
+      <?php if ($has_link) { ?><a href="<?php echo $link ?>" rel="external" target="_blank" style="color: black;"><?php } ?>
         <?php echo $paper ?>
-      <?php if ($has_link) { ?>
-        </a>
-      <?php } ?>
+      <?php if ($has_link) { ?></a><?php } ?>
       </h2>
       <p <?php echo $item_style ?>><?php echo $authors; ?></p>
-
     </li>
 <?php
 
@@ -186,7 +174,7 @@ function tprog_add_paper($paper, $authors, $abstract, $link = "", $slides="", $v
       <?php if ($has_link) { ?>
       <p class="ui-li-aside button-paper" style="padding: 6px; border-radius: 5px; top: 0.5em !important;">
         <a href="javascript:void(0)" onclick="window.location='<?php echo $link ?>'; event.stopPropagation();" class="ui-link" style="text-decoration: none; color: white">Paper</a>
-      </p>                                        
+      </p>
       <?php } ?>
       </h4>
       <ul data-role="listview" data-inset="false">
@@ -224,24 +212,20 @@ function tprog_add_keynote($title, $speakers, $abstract, $bio, $photo="", $link=
       <?php } ?>
       
       <h2 <?php echo $item_style ?>>
-      <?php if ($has_link) { ?>
-        <a href="<?php echo $link ?>" rel="external" target="_blank" style="color: black;">
-      <?php } ?>
-        <?php echo $title ?>
-      <?php if ($has_link) { ?>
-        </a>
-      <?php } ?>
+        <?php if ($has_link) { ?><a href="<?php echo $link ?>" rel="external" target="_blank" style="color: black;"><?php } ?>
+          <?php echo $title ?>
+        <?php if ($has_link) { ?></a><?php } ?>
       </h2>
       <p <?php echo $item_style ?>><?php echo $speakers; ?></p>
       <?php if ($has_abstract || $has_bio) { ?>
         <hr class="keynote-divider"/>
-      <?php } ?>
         <?php if ($has_abstract) { ?>
           <p><?php if ($photo) { ?><img class="keynote-photo" src="<?php echo $photo ?>"/><?php } ?><b>Abstract: </b><?php echo $abstract ?></p><p>&nbsp;</p>
         <?php } ?>
         <?php if ($has_bio) { ?>
           <p><b>Bio: </b><?php echo $bio ?></p><p>&nbsp;</p>
         <?php } ?>
+      <?php } ?>
     </li>
 <?php
 
