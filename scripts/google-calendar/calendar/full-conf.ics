@@ -43,14 +43,6 @@ LOCATION:Room: Foyer
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY: Coffee Break
-DTSTART;VALUE=DATE-TIME:20160823T151500
-DTEND;VALUE=DATE-TIME:20160823T161500
-UID:cd53232b0c8321a2d9e25ad227f01e2d
-DESCRIPTION:
-LOCATION:Room: Foyer
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY: Coffee Break
 DTSTART;VALUE=DATE-TIME:20160824T101000
 DTEND;VALUE=DATE-TIME:20160824T104000
 UID:5477d467a6fabf7bbf41640b71fea380
@@ -67,14 +59,6 @@ LOCATION:Room: Foyer
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY: Coffee Break
-DTSTART;VALUE=DATE-TIME:20160824T151000
-DTEND;VALUE=DATE-TIME:20160824T161000
-UID:bd658c62ce869e273da72a603643ac8f
-DESCRIPTION:
-LOCATION:Room: Foyer
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY: Coffee Break
 DTSTART;VALUE=DATE-TIME:20160825T103500
 DTEND;VALUE=DATE-TIME:20160825T110500
 UID:812661485342894c1481eaf3e838ff6c
@@ -86,14 +70,6 @@ SUMMARY: Lunch Break
 DTSTART;VALUE=DATE-TIME:20160825T122000
 DTEND;VALUE=DATE-TIME:20160825T133000
 UID:2912342ebabd7944e2a422a9c55847a9
-DESCRIPTION:
-LOCATION:Room: Foyer
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY: Coffee Break
-DTSTART;VALUE=DATE-TIME:20160825T144500
-DTEND;VALUE=DATE-TIME:20160825T154500
-UID:dac4b22e0f868acfde22c1f582058e99
 DESCRIPTION:
 LOCATION:Room: Foyer
 END:VEVENT
@@ -158,7 +134,7 @@ DESCRIPTION:Demos: \n\n* Title: Source Address Validation in Software Defi
   Author(s): M. Baldi (Politecnico di Torino)\, R. Bonafiglia (Politecnico 
  di Torino)\, F. Risso (Politecnico di Torino)\, A. Sapio (Politecnico di T
  orino)
-LOCATION:Room: Agata
+LOCATION:Room: Topazio
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:SIGCOMM Demos: Session 2 - Demo presenters onsite during coffee br
@@ -204,7 +180,7 @@ DESCRIPTION:Demos: \n\n* Title: Mininet-WiFi: A Platform for Hybrid Physic
  : O. Tilmans (Université Catholique de Louvain)\, S. Vissicchio (Universi
  té Catholique de Louvain)\, L. Vanbever (ETH Zürich)\, J. Rexford (Princ
  eton University)
-LOCATION:Room: Agata
+LOCATION:Room: Topazio
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:GAIA Workshop: Welcome and Introduction
@@ -393,7 +369,7 @@ DESCRIPTION:Demos: \n\n* Title: More Juice Less Bits: Content Aware Stream
  F and µVNF chaining with in-band network telemetry for servers equipped w
  ith P4 / C programmable SmartNICs – Author(s): D. George (Netronome Syst
  ems\, Inc.)\, J. Tönsing (Netronome Systems\, Inc.)
-LOCATION:Room: Agata
+LOCATION:Room: Topazio
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LANCOMM Workshop: Opening and Introduction
@@ -523,7 +499,7 @@ DESCRIPTION:Posters: \n\n* Title: Don't Mind the Gap: Bridging Network-wid
  erman (Johns Hopkins University)\n\n* Title: Neutral Net Neutrality – Au
  thor(s): Y. Yiakoumis (Stanford University)\, S. Katti (Stanford Universit
  y)\, N. McKeown (Stanford University)
-LOCATION:Room: Topazio
+LOCATION:Room: Agata
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:NetPL Workshop: Opening Remarks
@@ -753,7 +729,7 @@ DESCRIPTION:Posters: \n\n* Title: PieBridge: A Cross-DR scale Large Data T
  (Stony Brook University)\n\n* Title: Application-specific Acceleration Fra
  mework for Mobile Applications – Author(s): B. Choi (KAIST)\, J. Kim (KA
  IST)\, D. Han (KAIST)
-LOCATION:Room: Topazio
+LOCATION:Room: Agata
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:SIGCOMM Posters: Session 2 - Poster presenters onsite during coffe
@@ -801,7 +777,7 @@ DESCRIPTION:Posters: \n\n* Title: Named Data Networking Based Smart Home L
   (Tongji University)\, Q. Xiang (Tongji/Yale University)\, Y. Yang (Tongji
  /Yale University)\, J. Bi (Tsinghua University)\, Q. Xiang (Yale Universit
  y)
-LOCATION:Room: Topazio
+LOCATION:Room: Agata
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Internet-QoE Workshop: Opening and Introduction
@@ -890,22 +866,22 @@ LOCATION:Room: Agata 1 and Agata 2
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:SIGCOMM: Welcome Reception
-DTSTART;VALUE=DATE:20160822
-DTEND;VALUE=DATE:20160822
+DTSTART;VALUE=DATE-TIME:20160822T190000
+DTEND;VALUE=DATE-TIME:20160822T210000
 UID:89b4fe8160062c20d6fead7983c1d607
 LOCATION:Foyer
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:SIGCOMM: N2Women Dinner
-DTSTART;VALUE=DATE:20160822
-DTEND;VALUE=DATE:20160822
+DTSTART;VALUE=DATE-TIME:20160822T200000
+DTEND;VALUE=DATE-TIME:20160822T223000
 UID:4118fb448a82333b313eca872a5581bf
 LOCATION:
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:SIGCOMM: Award Dinner
-DTSTART;VALUE=DATE:20160822
-DTEND;VALUE=DATE:20160822
+DTSTART;VALUE=DATE-TIME:20160822T200000
+DTEND;VALUE=DATE-TIME:20160822T230000
 UID:9b13ede64c2ada0b638d2e6d690db0c6
 LOCATION:
 END:VEVENT
@@ -1002,6 +978,15 @@ DESCRIPTION:Papers: \n\n* Title: Evolve or Die: High-Availability Design P
  urg Academic University)\, Srikanth Kandula (Microsoft)\, Brendan Lucier (
  Microsoft)\, Ishai Menache (Microsoft)
 LOCATION:Room: Diamante
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SIGCOMM: Posters and Demos I (includes coffee break from 3:35pm-4:
+ 15pm)
+DTSTART;VALUE=DATE-TIME:20160823T151500
+DTEND;VALUE=DATE-TIME:20160823T161500
+UID:2872678e476c820ad1e64f0bb8e859c4
+DESCRIPTION:
+LOCATION:Room: Agata and Topazio
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:SIGCOMM: Session 3 - Monitoring and Diagnostics
@@ -1114,6 +1099,15 @@ DESCRIPTION:Papers: \n\n* Title: Fast Control Plane Analysis Using an Abst
 LOCATION:Room: Diamante
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:SIGCOMM: Posters and Demos II (includes coffee break from 3:30pm-4
+ :10pm)
+DTSTART;VALUE=DATE-TIME:20160824T151000
+DTEND;VALUE=DATE-TIME:20160824T161000
+UID:ecf047cda12af80dd2e1be573424d01a
+DESCRIPTION:
+LOCATION:Room: Topazio and Agata
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:SIGCOMM: Session 7 - Networked Applications
 DTSTART;VALUE=DATE-TIME:20160824T161000
 DTEND;VALUE=DATE-TIME:20160824T172500
@@ -1212,6 +1206,15 @@ DESCRIPTION:Papers: \n\n* Title: An Internet-Wide Analysis of Traffic Poli
  , Barath Raghavan (ICSI)\, Sylvia Ratnasamy (UC Berkeley / ICSI)\, Scott S
  henker (UC Berkeley / ICSI)
 LOCATION:Room: Diamante
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SIGCOMM: Posters and Demos III (includes coffee break from 3:05pm-
+ 3:45pm)
+DTSTART;VALUE=DATE-TIME:20160825T144500
+DTEND;VALUE=DATE-TIME:20160825T154500
+UID:8ac0719fd275df62bc2bdfdd0d7fac98
+DESCRIPTION:
+LOCATION:Room: Agata and Topazio
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:SIGCOMM: Session 11 - SDN & NFV II

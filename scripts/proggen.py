@@ -98,7 +98,7 @@ def proggen(worksheet, values, outdir):
             time = row[COL_TIME]
             title = row[COL_TITLE]
             chair = (row[COL_CHAIR_SPKR_AUTHOR_DESC] if len(row)> COL_CHAIR_SPKR_AUTHOR_DESC else "")
-            style = ""
+            style = "a" # from website css 
             if (i == len(values) - 1):
               # last session
               line = """      tprog_add_session("%s", "%s", "%s", "%s", "prog-%s", true);\n""" % (time, title, chair, style, progdate)
@@ -166,7 +166,8 @@ def proggen(worksheet, values, outdir):
         elif (type == 'break' and len(row)>=4):
             time = row[COL_TIME]
             title = row[COL_TITLE]
-            line = """      tprog_add_session("%s", "%s", "", "", "prog-%s");\n""" % (time, title, progdate)
+            style = "b" # from website css 
+            line = """      tprog_add_session("%s", "%s", "", "%s", "prog-%s");\n""" % (time, title, style, progdate)
 
         if (line != None):
             f.write(line)
