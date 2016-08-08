@@ -97,7 +97,9 @@ function tprog_add_header($time, $progitemclass = "") {
 
 function tprog_add_session($time, $title, $chair="", $style="", $progitemclass = "", $last = false) {
 
-    if (!$style) $style = preg_match('/lunch|coffee/i', $title) ? "b" : "a";
+    if (!$style)
+      $style = preg_match('/lunch|coffee/i', $title) ? "b" : "a";
+
     if ($chair) $chair = preg_replace('/\(([^\)]*)\)/', '<em>(${1})</em>', $chair);
 
 ?>
@@ -106,7 +108,8 @@ function tprog_add_session($time, $title, $chair="", $style="", $progitemclass =
        <?php if ($chair) { ?><p>Session Chair: <?php echo $chair ?></p><?php } ?>
      </li>
      <?php // a list divider is not visible if not followed by an ordinary item,
-           // when data-filter is true. workaround: included an invisible li
+           // when data-filter is true. workaround: included an invisible li.
+           // here we include the session title so that it can be searchable
      ?><li class="hidden"><?php echo $title ?></li>
 <?php
 
