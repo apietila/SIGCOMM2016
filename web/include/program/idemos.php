@@ -3,7 +3,6 @@
 <?php
       tprog_add_header("Thursday, August 25, 2016", "prog-thursday");
       tprog_add_session("9:00am - 5:30pm", "Industrial Demos - Presenters onsite during coffee breaks", "", "a", "prog-thursday");
-      tprog_add_paper("More Juice Less Bits: Content Aware Streaming", "A. C. Begen (MediaMelon, Inc.)", "", "", "", "", "prog-thursday");
       tprog_add_paper("ONOS centralized control over a P4 programmable data plane", "C. Cascone (Open Networking Laboratory), A. Al-Shabibi (Open Networking Laboratory), C. Kim (Barefoot Networks)", "", "", "", "", "prog-thursday");
       tprog_add_paper("Tracking Any Packet&rsquo;s Path and Latency via INT", "C. Kim (Barefoot Networks), J. Lee (Barefoot Networks)", "", "", "", "", "prog-thursday");
       tprog_add_paper("Xilinx P4 to NetFPGA SUME compilation flow, demonstrated for PERC congestion control algorithm experiments", "G. Brebner (Xilinx, Inc.), R. Halstead (Xilinx, Inc.), C. Neely (Xilinx, Inc.), S. Ibanez (Stanford University), L. Jose (Stanford University), N. McKeown (Stanford University), M. Alizadeh (MIT)", "", "", "", "", "prog-thursday");

@@ -100,7 +100,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:SIGCOMM Demos: Session 1 - Demo presenters onsite during coffee br
  eaks
-DTSTART;VALUE=DATE-TIME:20160823T090000
+DTSTART;VALUE=DATE-TIME:20160823T103000
 DTEND;VALUE=DATE-TIME:20160823T173000
 UID:da3cbc9866e605e10be1e3379a958e68
 DESCRIPTION:Demos: \n\n* Title: Source Address Validation in Software Defi
@@ -343,32 +343,31 @@ SUMMARY:SIGCOMM Industrial Demos: Industrial Demos - Presenters onsite dur
 DTSTART;VALUE=DATE-TIME:20160825T090000
 DTEND;VALUE=DATE-TIME:20160825T173000
 UID:8fd38ac98ac4e96b63759db4fa820b90
-DESCRIPTION:Demos: \n\n* Title: More Juice Less Bits: Content Aware Stream
- ing – Author(s): A. C. Begen (MediaMelon\, Inc.)\n\n* Title: ONOS centra
- lized control over a P4 programmable data plane – Author(s): C. Cascone 
- (Open Networking Laboratory)\, A. Al-Shabibi (Open Networking Laboratory)\
- , C. Kim (Barefoot Networks)\n\n* Title: Tracking Any Packet’s Path and 
- Latency via INT – Author(s): C. Kim (Barefoot Networks)\, J. Lee (Barefo
- ot Networks)\n\n* Title: Xilinx P4 to NetFPGA SUME compilation flow\, demo
- nstrated for PERC congestion control algorithm experiments – Author(s): 
- G. Brebner (Xilinx\, Inc.)\, R. Halstead (Xilinx\, Inc.)\, C. Neely (Xilin
- x\, Inc.)\, S. Ibanez (Stanford University)\, L. Jose (Stanford University
- )\, N. McKeown (Stanford University)\, M. Alizadeh (MIT)\n\n* Title: High 
- Performance Service Chaining for Ethernet Transport Networks – Author(s)
- : J. Vacaro (Hewlett Packard Enterprise)\, R. Eichelberger (Hewlett Packar
- d Enterprise)\, S. Tandel (Hewlett Packard Enterprise)\, P. Bottorff (Hewl
- ett Packard Enterprise)\, D. Fedyk (Hewlett Packard Enterprise)\, S. Baner
- jee (Hewlett Packard Enterprise)\, R. Eichelberger (Hewlett Packard Enterp
- rise)\n\n* Title: A novel Network Functions Virtualization Platform - Resi
- dential CPE use case – Author(s): L. Mariote (CPqD)\, M. Nascimento (CPq
- D)\, T. Primini (CPqD)\, A. Barbieri (Trópico)\n\n* Title: QoS measuremen
- t with Tangram Measures – Author(s): B. Rafaeli (TGR / UFRJ)\, C. Junior
-  (TGR)\, C. Gonçalves (TGR / UFRJ)\, D. Ximenes (TGR / UFRJ)\, G. Mendon
- ça (TGR)\, G. Bruno (TGR)\, G. Sengès (TGR / UFRJ)\, G. Thurler (TGR / U
- FRJ)\, G. Santos (TGR)\, K. Almeida (TGR)\, E. Silva (UFRJ)\n\n* Title: VN
- F and µVNF chaining with in-band network telemetry for servers equipped w
- ith P4 / C programmable SmartNICs – Author(s): D. George (Netronome Syst
- ems\, Inc.)\, J. Tönsing (Netronome Systems\, Inc.)
+DESCRIPTION:Demos: \n\n* Title: ONOS centralized control over a P4 program
+ mable data plane – Author(s): C. Cascone (Open Networking Laboratory)\, 
+ A. Al-Shabibi (Open Networking Laboratory)\, C. Kim (Barefoot Networks)\n\
+ n* Title: Tracking Any Packet’s Path and Latency via INT – Author(s): 
+ C. Kim (Barefoot Networks)\, J. Lee (Barefoot Networks)\n\n* Title: Xilinx
+  P4 to NetFPGA SUME compilation flow\, demonstrated for PERC congestion co
+ ntrol algorithm experiments – Author(s): G. Brebner (Xilinx\, Inc.)\, R.
+  Halstead (Xilinx\, Inc.)\, C. Neely (Xilinx\, Inc.)\, S. Ibanez (Stanford
+  University)\, L. Jose (Stanford University)\, N. McKeown (Stanford Univer
+ sity)\, M. Alizadeh (MIT)\n\n* Title: High Performance Service Chaining fo
+ r Ethernet Transport Networks – Author(s): J. Vacaro (Hewlett Packard En
+ terprise)\, R. Eichelberger (Hewlett Packard Enterprise)\, S. Tandel (Hewl
+ ett Packard Enterprise)\, P. Bottorff (Hewlett Packard Enterprise)\, D. Fe
+ dyk (Hewlett Packard Enterprise)\, S. Banerjee (Hewlett Packard Enterprise
+ )\, R. Eichelberger (Hewlett Packard Enterprise)\n\n* Title: A novel Netwo
+ rk Functions Virtualization Platform - Residential CPE use case – Author
+ (s): L. Mariote (CPqD)\, M. Nascimento (CPqD)\, T. Primini (CPqD)\, A. Bar
+ bieri (Trópico)\n\n* Title: QoS measurement with Tangram Measures – Aut
+ hor(s): B. Rafaeli (TGR / UFRJ)\, C. Junior (TGR)\, C. Gonçalves (TGR / U
+ FRJ)\, D. Ximenes (TGR / UFRJ)\, G. Mendonça (TGR)\, G. Bruno (TGR)\, G. 
+ Sengès (TGR / UFRJ)\, G. Thurler (TGR / UFRJ)\, G. Santos (TGR)\, K. Alme
+ ida (TGR)\, E. Silva (UFRJ)\n\n* Title: VNF and µVNF chaining with in-ban
+ d network telemetry for servers equipped with P4 / C programmable SmartNIC
+ s – Author(s): D. George (Netronome Systems\, Inc.)\, J. Tönsing (Netro
+ nome Systems\, Inc.)
 LOCATION:Room: Topazio
 END:VEVENT
 BEGIN:VEVENT
@@ -498,7 +497,12 @@ DESCRIPTION:Posters: \n\n* Title: Don't Mind the Gap: Bridging Network-wid
  ohns Hopkins University)\, V. Sekar (Carnegie Mellon University)\, V. Brav
  erman (Johns Hopkins University)\n\n* Title: Neutral Net Neutrality – Au
  thor(s): Y. Yiakoumis (Stanford University)\, S. Katti (Stanford Universit
- y)\, N. McKeown (Stanford University)
+ y)\, N. McKeown (Stanford University)\n\n* Title: ProjecToR: Agile Reconfi
+ gurable Data Center Interconnect – Author(s): Monia Ghobadi\, Ratul Maha
+ jan\, Amar Phanishayee\, Nikhil Devanur\, Janardhan Kulkarni\, Gireeja Ran
+ ade (Microsoft Research)\, Pierre-Alexandre Blanche\, Houman Rastegarfar\,
+  Madeleine Glick\, Daniel Kilper (University of Arizona)\, Presented by R
+ yan Beckett (Princeton University)
 LOCATION:Room: Agata
 END:VEVENT
 BEGIN:VEVENT
@@ -514,71 +518,71 @@ SUMMARY:NetPL Workshop: Languages that will come ...
 DTSTART;VALUE=DATE-TIME:20160822T091500
 DTEND;VALUE=DATE-TIME:20160822T103000
 UID:a8821243df9bf94a27dbe18786b4e298
-DESCRIPTION:* Keynote Title:\nUpdate on P4: Where are we now\, and where a
- re we heading toward?\n\nSpeaker:\nChanghoon Kim (Barefoot Networks)\n\nAb
- stract:\nSince its original publication\, P4 has been drawing significant 
- attention from both networking industry and research community. Motivated 
- by that\, industry experts and research groups have formed the P4 Language
-  Consortium and have been nurturing the language to produce an industry-wi
- de common data-plane programming framework. In this talk I will summarize 
- what has happened to P4 since its original publication\, what kinds of act
- ivities are currently ongoing\, who in the field of networking can benefit
-  from P4 and how\, what kinds of novel networking applications are being d
- eveloped in P4\, how we expect the language and its associated development
-  tools to evolve\, and what kinds of interesting research problems arise a
- s data-plane programmability becomes commonplace.\n\nSpeaker Bio:\nChangho
- on Kim is Director of System Architecture at Barefoot Networks and is work
- ing actively for the P4 Language Consortium (P4.org) as a co-chair of the 
- P4 Design Working Group. Before getting involved with P4.org and Barefoot\
- , he worked at Windows Azure\, Microsoft’s cloud-service division\, and 
- led engineering and research projects on the architecture\, performance\, 
- and management of datacenter networks. Chang is interested in programmable
-  network dataplane\, network monitoring and diagnostics\, network verifica
- tion\, self-programming/configuring networks\, and debugging and diagnosis
-  of large-scale distributed systems. Chang received Ph.D. from Princeton U
- niversity. Many of his research contributions — including VL2\, Seawall\
- , EyeQ\, Ananta\, and SEATTLE — are adopted in large production networks
- .\n\n* Keynote Title:\nP4FPGA: High-Level Synthesis for Networking\n\nSpea
- ker:\nHan Wang\, Ki Suh Lee\, Vishal Shrivastav\, Hakim Weatherspoon (Corn
- ell University)\n\nAbstract:\nField-programmable gate arrays (FPGAs) are o
- ften used to prototype custom packet processing algorithms. FPGAs are appe
- aling because they balance the speed of hardware and the flexibility of so
- ftware. From a programming language perspective\, domain specific language
- s (DSLs)\, such as P4and PX\, are emerging to allow succinct expression of
-  packet processing algorithms. What remains difficult\, is the process to 
- translate high level DSLs to low-level hardware description language\, suc
- h as Verilog\, in order to generate FPGA firmware. This talk presents P4FP
- GA\, an open-source framework that enables compilation of high-level P4 la
- nguage to FPGA firmware. Our framework translates a given P4 program throu
- gh a number of intermediate steps. It leverages existing intermediate repr
- esentations of a P4 program\,and generates corresponding Bluespec System V
- erilog (BSV) for simulation and synthesis. In addition\, we provide runtim
- e support for a packet processing algorithm to enable communication with n
- etwork interfaces and host OS through PCI express bus. We have implemented
-  a number of P4 applications on top of our framework to show its general a
- pplicability.\n\n* Keynote Title:\nThe Next 700 Network Programming Langua
- ges\n\nSpeaker:\nNate Foster (Cornell University)\n\nAbstract:\nSpecificat
- ion and verification of computer networks has become a reality in recent y
- ears\, with the emergence of domain-specific programming languages and aut
- omated verification tools. But the design of these languages and tools has
-  been largely ad hoc\, driven more by the needs of applications and the ca
- pabilities of hardware than by any foundational principles. This talk will
-  present NetKAT\, a language for programming networks based on a well-stud
- ied mathematical foundation\, Kleene Algebra with Tests (KAT). The talk wi
- ll describe the design of the language\, its semantic underpinnings\, and 
- extensions with features to support stateful and probabilistic programming
- .<br/><br/>NetKAT is joint work with colleagues at Cornell\, Facebook\, In
- habited Type\, Princeton\, Samsung\, UCL\, and UMass Amherst.\n\nSpeaker B
- io:\nNate Foster is an Assistant Professor of Computer Science at Cornell 
- University. The goal of his search is developing programming languages and
-  tools for building reliable systems. He received a PhD in Computer Scienc
- e from theUniversity of Pennsylvania in 2009\, an MPhil in History and Phi
- losophy of Science from Cambridge University in 2008\, and a BA in Compute
- r Science from Williams College in 2001. His awards include a Sloan Resear
- ch Fellowship\, an NSF CAREER Award\, a Most Influential POPL Paper Award\
- , a Tien &#39\;72 Teaching Award\, a Google Research Award\, a Yahoo! Acad
- emic Career Enhancement Award\, and the Morris and Dorothy Rubinoff Award.
- \n\n
+DESCRIPTION:Chair(s): Marco Canini (KAUST\, KSA)\n\n* Keynote Title:\nUpda
+ te on P4: Where are we now\, and where are we heading toward?\n\nSpeaker:\
+ nChanghoon Kim (Barefoot Networks)\n\nAbstract:\nSince its original public
+ ation\, P4 has been drawing significant attention from both networking ind
+ ustry and research community. Motivated by that\, industry experts and res
+ earch groups have formed the P4 Language Consortium and have been nurturin
+ g the language to produce an industry-wide common data-plane programming f
+ ramework. In this talk I will summarize what has happened to P4 since its 
+ original publication\, what kinds of activities are currently ongoing\, wh
+ o in the field of networking can benefit from P4 and how\, what kinds of n
+ ovel networking applications are being developed in P4\, how we expect the
+  language and its associated development tools to evolve\, and what kinds 
+ of interesting research problems arise as data-plane programmability becom
+ es commonplace.\n\nSpeaker Bio:\nChanghoon Kim is Director of System Archi
+ tecture at Barefoot Networks and is working actively for the P4 Language C
+ onsortium (P4.org) as a co-chair of the P4 Design Working Group. Before ge
+ tting involved with P4.org and Barefoot\, he worked at Windows Azure\, Mic
+ rosoft’s cloud-service division\, and led engineering and research proje
+ cts on the architecture\, performance\, and management of datacenter netwo
+ rks. Chang is interested in programmable network dataplane\, network monit
+ oring and diagnostics\, network verification\, self-programming/configurin
+ g networks\, and debugging and diagnosis of large-scale distributed system
+ s. Chang received Ph.D. from Princeton University. Many of his research co
+ ntributions — including VL2\, Seawall\, EyeQ\, Ananta\, and SEATTLE — 
+ are adopted in large production networks.\n\n* Keynote Title:\nP4FPGA: Hig
+ h-Level Synthesis for Networking\n\nSpeaker:\nHan Wang\, Ki Suh Lee\, Vish
+ al Shrivastav\, Hakim Weatherspoon (Cornell University)\n\nAbstract:\nFiel
+ d-programmable gate arrays (FPGAs) are often used to prototype custom pack
+ et processing algorithms. FPGAs are appealing because they balance the spe
+ ed of hardware and the flexibility of software. From a programming languag
+ e perspective\, domain specific languages (DSLs)\, such as P4and PX\, are 
+ emerging to allow succinct expression of packet processing algorithms. Wha
+ t remains difficult\, is the process to translate high level DSLs to low-l
+ evel hardware description language\, such as Verilog\, in order to generat
+ e FPGA firmware. This talk presents P4FPGA\, an open-source framework that
+  enables compilation of high-level P4 language to FPGA firmware. Our frame
+ work translates a given P4 program through a number of intermediate steps.
+  It leverages existing intermediate representations of a P4 program\,and g
+ enerates corresponding Bluespec System Verilog (BSV) for simulation and sy
+ nthesis. In addition\, we provide runtime support for a packet processing 
+ algorithm to enable communication with network interfaces and host OS thro
+ ugh PCI express bus. We have implemented a number of P4 applications on to
+ p of our framework to show its general applicability.\n\n* Keynote Title:\
+ nThe Next 700 Network Programming Languages\n\nSpeaker:\nNate Foster (Corn
+ ell University)\n\nAbstract:\nSpecification and verification of computer n
+ etworks has become a reality in recent years\, with the emergence of domai
+ n-specific programming languages and automated verification tools. But the
+  design of these languages and tools has been largely ad hoc\, driven more
+  by the needs of applications and the capabilities of hardware than by any
+  foundational principles. This talk will present NetKAT\, a language for p
+ rogramming networks based on a well-studied mathematical foundation\, Klee
+ ne Algebra with Tests (KAT). The talk will describe the design of the lang
+ uage\, its semantic underpinnings\, and extensions with features to suppor
+ t stateful and probabilistic programming.<br/><br/>NetKAT is joint work wi
+ th colleagues at Cornell\, Facebook\, Inhabited Type\, Princeton\, Samsung
+ \, UCL\, and UMass Amherst.\n\nSpeaker Bio:\nNate Foster is an Assistant P
+ rofessor of Computer Science at Cornell University. The goal of his search
+  is developing programming languages and tools for building reliable syste
+ ms. He received a PhD in Computer Science from theUniversity of Pennsylvan
+ ia in 2009\, an MPhil in History and Philosophy of Science from Cambridge 
+ University in 2008\, and a BA in Computer Science from Williams College in
+  2001. His awards include a Sloan Research Fellowship\, an NSF CAREER Awar
+ d\, a Most Influential POPL Paper Award\, a Tien &#39\;72 Teaching Award\,
+  a Google Research Award\, a Yahoo! Academic Career Enhancement Award\, an
+ d the Morris and Dorothy Rubinoff Award.\n\n
 LOCATION:Room: Agata 2
 END:VEVENT
 BEGIN:VEVENT
@@ -586,91 +590,91 @@ SUMMARY:NetPL Workshop: ... for the needs of today and tomorrow
 DTSTART;VALUE=DATE-TIME:20160822T110000
 DTEND;VALUE=DATE-TIME:20160822T123000
 UID:83f3a485cca8d37a502782e60a431002
-DESCRIPTION:* Keynote Title:\nTemporal NetKAT\n\nSpeaker:\nDavid Walker (P
- rinceton University)\n\nAbstract:\nOver the past 5-10 years\, the rise of 
- software-defined networking (SDN) has inspired a wide range of new systems
- \, libraries\, hypervisors and languages for programming\, monitoring\, an
- d debugging network behavior. Oftentimes\, these systems are disjoint—on
- e language for programming and another for verification\, and yet another 
- for run-time monitoring and debugging. In this paper\, we present a new\, 
- unified framework\, called Temporal NetKAT\, capable of facilitating all o
- f these tasks at once. As its name suggests\, Temporal NetKAT is the synth
- esis of two formal theories: past-time (finite trace) linear temporal logi
- c and (network) Kleene Algebra with Tests. Temporal predicates allow progr
- ammers to write down concise properties of a packet’s path through the n
- etwork and to make dynamic packet-forwarding\, access control or debugging
-  decisions on that basis. In addition to being useful for programming\, th
- e combined equational theory of LTL and NetKAT facilitates proofs of path-
- based correctness properties. Using new\, general\, proof techniques\, we 
- show that the equational semantics is sound with respect to the denotation
- al semantics\, and\, for a class of programs we call network-wide programs
- \, complete. We have also implemented a compiler for temporal NetKAT\, eva
- luated its performance on a range of benchmarks\, and studied the effectiv
- eness of several optimizations.<br/><br/>This is joint work with Ryan Beck
- ett and Michael Greenberg.\n\nSpeaker Bio:\nDavid Walker is a Professor of
-  Computer Science at Princeton University. He received his B.Sc. from Quee
- n's University\, Canada in 1995 and his Ph.D. in Computer Science from Cor
- nell University in 2001. His research interests include programming langua
- ge theory\, design and implementation of all kinds. He is especially inter
- ested in type systems and the development of new domain-specific programmi
- ng languages. He won an NSF Career award in 2003 and Alfred Sloan Fellowsh
- ip in 2004. In 2007\, with his students and colleagues at Princeton\, he w
- on the PLDI best paper award for the paper entitled Fault-Tolerant Typed A
- ssembly Language. In 2008\, his paper From System F to Typed Assembly Lang
- uage\, co-authored with Greg Morrisett\, Karl Crary and Neal Glew\, won a 
- 10-year retrospective award for most influential POPL 1998 paper. In 2013\
- , with his students and colleagues at Princeton and Cornell\, he won the N
- SDI community award for his paper on Composing Software-Defined Networks. 
- He served as an associate editor for ACM TOPLAS from 2007-2015\, as the Pr
- ogram Chair for POPL 2015\, and won the ACM SIGPLAN Robin Milner Young Res
- earcher Award in 2015.\n\n* Keynote Title:\nTowards Correct-by-Constructio
- n SDN\n\nSpeaker:\nLeonid Ryzhyk (Samsung Research America)\, Nikolaj Bjor
- ner (Microsoft Research)\, Marco Canini (Université catholique de Louvain
- \, Belgium)\, Jean-Baptiste Jeannin\, Nina Narodytska\, Cole Schlesinger\,
-  Douglas B. Terry (Samsung Research America)\, George Varghese (Microsoft 
- Research)\n\nAbstract:\nHigh-level SDN languages raise the level of abstra
- ction in SDN programming from managing individual switches to programming 
- network-wide policies. In this talk\, we present Cocoon (for Correct by Co
- nstruction Networking)\, an SDN programming language designed around the i
- dea of iterative refinement. The network programmer starts with a high-lev
- el functional description of the desired network behavior\, focusing on th
- e service the network should provide to each packet\, as opposed to how th
- is service is implemented within the network fabric. The programmer then i
- teratively refines the top-level specification\, adding details of the top
- ology\, routing\, fault recovery\, etc.\, until reaching a level of detail
-  sufficient for the Cocoon compiler to generate an SDN application that ma
- nages network switches via the southbound interface.\n\n* Keynote Title:\n
- NEMO Engine\, A Model Driven Compiler to Execute User&#39\;s Intent and Ma
- nage Service Lifecycle by Multi Layer State Machine\n\nSpeaker:\nYinben Xi
- a (Huawei Technologies)\n\nAbstract:\nIn last year&#39\;s NetPL workshop\,
-  I introduced an intent oriented network service programming language - NE
- MO. This time\, I will introduce NEMO&#39\;s model driven compiler\, which
-  compiles intent language to real network executable interface. Second\, I
-  will introduce a multi layer state machine engine in NEMO compiler\, whic
- h will handle various changes from equipments\, requirement or governance 
- policy. This engine provides an automatic change management capability for
-  whole service lifecycle. In the last\, I will update NEMO&#39\;s open sou
- rce implementation progress.\n\nSpeaker Bio:\nDr. Yinben Xia is a senior s
- taff researcher within Huawei&#39\;s network research department from 2008
- . He dedicated his research effort in network architecture and SDN technol
- ogies. In recent two years\, he lead a team to design and developer a NaaS
-  (Network as a Service) programming language (NEMO Project). He owns 15 pa
- tents in related domain. He is leading a team to carry out SDN/NEMO resear
- ch in Beijing. Before joining Huawei\, Dr. Xia worked at IBM China Researc
- h Lab for 4 years after he got PH.D from Beijing University of Aeronautics
-  and Astronautics.\n\n* Keynote Title:\nInteractive Query for Dynamic Netw
- ork Analytics\n\nSpeaker:\nHaoyu Song (Huawei Technologies)\n\nAbstract:\n
- Network data plane needs to be interactively programmed in order to suppor
- t Dynamic Network Analytics (DNA). We envision the high level DNA applicat
- ions can be break down into a set of queries and the queries can be furthe
- r compiled into incremental configurations to the data plane. We emphasize
-  the need to define standard DNA APIs and/or query language for DNA system
- .\n\nSpeaker Bio:\nHaoyu Song is a principal architect at Huawei Technolog
- ies. He is a leading researcher on SDN programmable data plane. His curren
- t research interests span all aspects of the SDN/NFV ecosystem. He was a r
- esearcher at Bell Labs\, Alcatel-Lucent before joining Huawei. He hold a d
- octoral degree in computer engineering from Washington University in St. L
- ouis.\n\n
+DESCRIPTION:Chair(s): Nik Sultana (University of Cambridge)\n\n* Keynote T
+ itle:\nTemporal NetKAT\n\nSpeaker:\nDavid Walker (Princeton University)\n\
+ nAbstract:\nOver the past 5-10 years\, the rise of software-defined networ
+ king (SDN) has inspired a wide range of new systems\, libraries\, hypervis
+ ors and languages for programming\, monitoring\, and debugging network beh
+ avior. Oftentimes\, these systems are disjoint—one language for programm
+ ing and another for verification\, and yet another for run-time monitoring
+  and debugging. In this paper\, we present a new\, unified framework\, cal
+ led Temporal NetKAT\, capable of facilitating all of these tasks at once. 
+ As its name suggests\, Temporal NetKAT is the synthesis of two formal theo
+ ries: past-time (finite trace) linear temporal logic and (network) Kleene 
+ Algebra with Tests. Temporal predicates allow programmers to write down co
+ ncise properties of a packet’s path through the network and to make dyna
+ mic packet-forwarding\, access control or debugging decisions on that basi
+ s. In addition to being useful for programming\, the combined equational t
+ heory of LTL and NetKAT facilitates proofs of path-based correctness prope
+ rties. Using new\, general\, proof techniques\, we show that the equationa
+ l semantics is sound with respect to the denotational semantics\, and\, fo
+ r a class of programs we call network-wide programs\, complete. We have al
+ so implemented a compiler for temporal NetKAT\, evaluated its performance 
+ on a range of benchmarks\, and studied the effectiveness of several optimi
+ zations.<br/><br/>This is joint work with Ryan Beckett and Michael Greenbe
+ rg.\n\nSpeaker Bio:\nDavid Walker is a Professor of Computer Science at Pr
+ inceton University. He received his B.Sc. from Queen's University\, Canada
+  in 1995 and his Ph.D. in Computer Science from Cornell University in 2001
+ . His research interests include programming language theory\, design and 
+ implementation of all kinds. He is especially interested in type systems a
+ nd the development of new domain-specific programming languages. He won an
+  NSF Career award in 2003 and Alfred Sloan Fellowship in 2004. In 2007\, w
+ ith his students and colleagues at Princeton\, he won the PLDI best paper 
+ award for the paper entitled Fault-Tolerant Typed Assembly Language. In 20
+ 08\, his paper From System F to Typed Assembly Language\, co-authored with
+  Greg Morrisett\, Karl Crary and Neal Glew\, won a 10-year retrospective a
+ ward for most influential POPL 1998 paper. In 2013\, with his students and
+  colleagues at Princeton and Cornell\, he won the NSDI community award for
+  his paper on Composing Software-Defined Networks. He served as an associa
+ te editor for ACM TOPLAS from 2007-2015\, as the Program Chair for POPL 20
+ 15\, and won the ACM SIGPLAN Robin Milner Young Researcher Award in 2015.\
+ n\n* Keynote Title:\nTowards Correct-by-Construction SDN\n\nSpeaker:\nLeon
+ id Ryzhyk (Samsung Research America)\, Nikolaj Bjorner (Microsoft Research
+ )\, Marco Canini (Université catholique de Louvain\, Belgium)\, Jean-Bapt
+ iste Jeannin\, Nina Narodytska\, Cole Schlesinger\, Douglas B. Terry (Sams
+ ung Research America)\, George Varghese (Microsoft Research)\n\nAbstract:\
+ nHigh-level SDN languages raise the level of abstraction in SDN programmin
+ g from managing individual switches to programming network-wide policies. 
+ In this talk\, we present Cocoon (for Correct by Construction Networking)\
+ , an SDN programming language designed around the idea of iterative refine
+ ment. The network programmer starts with a high-level functional descripti
+ on of the desired network behavior\, focusing on the service the network s
+ hould provide to each packet\, as opposed to how this service is implement
+ ed within the network fabric. The programmer then iteratively refines the 
+ top-level specification\, adding details of the topology\, routing\, fault
+  recovery\, etc.\, until reaching a level of detail sufficient for the Coc
+ oon compiler to generate an SDN application that manages network switches 
+ via the southbound interface.\n\n* Keynote Title:\nNEMO Engine\, A Model D
+ riven Compiler to Execute User&#39\;s Intent and Manage Service Lifecycle 
+ by Multi Layer State Machine\n\nSpeaker:\nYinben Xia (Huawei Technologies)
+ \n\nAbstract:\nIn last year&#39\;s NetPL workshop\, I introduced an intent
+  oriented network service programming language - NEMO. This time\, I will 
+ introduce NEMO&#39\;s model driven compiler\, which compiles intent langua
+ ge to real network executable interface. Second\, I will introduce a multi
+  layer state machine engine in NEMO compiler\, which will handle various c
+ hanges from equipments\, requirement or governance policy. This engine pro
+ vides an automatic change management capability for whole service lifecycl
+ e. In the last\, I will update NEMO&#39\;s open source implementation prog
+ ress.\n\nSpeaker Bio:\nDr. Yinben Xia is a senior staff researcher within 
+ Huawei&#39\;s network research department from 2008. He dedicated his rese
+ arch effort in network architecture and SDN technologies. In recent two ye
+ ars\, he lead a team to design and developer a NaaS (Network as a Service)
+  programming language (NEMO Project). He owns 15 patents in related domain
+ . He is leading a team to carry out SDN/NEMO research in Beijing. Before j
+ oining Huawei\, Dr. Xia worked at IBM China Research Lab for 4 years after
+  he got PH.D from Beijing University of Aeronautics and Astronautics.\n\n*
+  Keynote Title:\nInteractive Query for Dynamic Network Analytics\n\nSpeake
+ r:\nHaoyu Song (Huawei Technologies)\n\nAbstract:\nNetwork data plane need
+ s to be interactively programmed in order to support Dynamic Network Analy
+ tics (DNA). We envision the high level DNA applications can be break down 
+ into a set of queries and the queries can be further compiled into increme
+ ntal configurations to the data plane. We emphasize the need to define sta
+ ndard DNA APIs and/or query language for DNA system.\n\nSpeaker Bio:\nHaoy
+ u Song is a principal architect at Huawei Technologies. He is a leading re
+ searcher on SDN programmable data plane. His current research interests sp
+ an all aspects of the SDN/NFV ecosystem. He was a researcher at Bell Labs\
+ , Alcatel-Lucent before joining Huawei. He hold a doctoral degree in compu
+ ter engineering from Washington University in St. Louis.\n\n
 LOCATION:Room: Agata 2
 END:VEVENT
 BEGIN:VEVENT
@@ -678,7 +682,7 @@ SUMMARY:NetPL Workshop: With advanced methods to soar ...
 DTSTART;VALUE=DATE-TIME:20160822T140000
 DTEND;VALUE=DATE-TIME:20160822T153000
 UID:7ec11abd2de50d5ac24d0102be954fbe
-DESCRIPTION:* Student Pitches
+DESCRIPTION:Chair(s): Marco Canini (KAUST\, KSA)\n\n* Student Pitches
 LOCATION:Room: Agata 2
 END:VEVENT
 BEGIN:VEVENT
@@ -686,13 +690,14 @@ SUMMARY:NetPL Workshop: ... together networking and PL will roar
 DTSTART;VALUE=DATE-TIME:20160822T160000
 DTEND;VALUE=DATE-TIME:20160822T170000
 UID:919c67572861d409f1e676eec671148b
-DESCRIPTION:* Closing Remarks
+DESCRIPTION:Chair(s): Nik Sultana (University of Cambridge)\n\n* Closing R
+ emarks
 LOCATION:Room: Agata 2
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:SIGCOMM Posters: Session 1 - Poster presenters onsite during coffe
  e breaks
-DTSTART;VALUE=DATE-TIME:20160823T090000
+DTSTART;VALUE=DATE-TIME:20160823T103000
 DTEND;VALUE=DATE-TIME:20160823T173000
 UID:786ae9623ca09e699cf601d9dbf6f880
 DESCRIPTION:Posters: \n\n* Title: PieBridge: A Cross-DR scale Large Data T
@@ -876,58 +881,59 @@ SUMMARY:SIGCOMM: N2Women Dinner
 DTSTART;VALUE=DATE-TIME:20160822T200000
 DTEND;VALUE=DATE-TIME:20160822T223000
 UID:4118fb448a82333b313eca872a5581bf
-LOCATION:
+LOCATION:Restaurante Canto do Mar
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:SIGCOMM: Award Dinner
 DTSTART;VALUE=DATE-TIME:20160822T200000
 DTEND;VALUE=DATE-TIME:20160822T230000
 UID:9b13ede64c2ada0b638d2e6d690db0c6
-LOCATION:
+LOCATION:Restaurante Canto do Mar
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:SIGCOMM: Opening
 DTSTART;VALUE=DATE-TIME:20160823T084500
 DTEND;VALUE=DATE-TIME:20160823T103000
 UID:4d830e5bd21324e04e8c09ef3044129f
-DESCRIPTION:* Keynote Title:\nKeynote: Networking Research\, Education\, M
- entoring and Service: Ten Insights\n\nSpeaker:\nJim Kurose (University of 
- Massachusetts\, Amherst)\, 2016 ACM SIGCOMM Lifetime Achievement Award Rec
- ipient\n\nAbstract:\nTo be announced soon.\n\nSpeaker Bio:\nJim Kurose rec
- eived a B.A. degree in physics from Wesleyan University and his Ph.D. degr
- ee in computer science from Columbia University. He is currently Distingui
- shed University Professor in the College of Information and Computer Scien
- ces at the University of Massachusetts Amherst. He has been a Visiting Sci
- entist at IBM Research\, INRIA\, Institut EURECOM \, the University of Par
- is\, the Laboratory for Information\, Network and Communication Sciences\,
-  and Technicolor Research Labs.<br/>\n<br/>\nHis research interests includ
- e network protocols and architecture\, network measurement\, sensor networ
- ks\, and multimedia communication. Dr. Kurose has served as Editor-in- Chi
- ef of the IEEE Transactions on Communications and was the founding Editor-
- in- Chief of the IEEE/ACM Transactions on Networking. He has been Technica
- l Program Co-Chair for the IEEE Infocom\, ACM SIGCOMM\, ACM SIGMETRICS\, a
- nd ACM Internet Measurement conferences. He has won several conference bes
- t paper awards and received the IEEE Infocom Achievement Award and the ACM
-  Sigcomm Test of Time Award.<br/>\n<br/>\nHe has received a number of awar
- ds for his teaching including outstanding teacher awards from the National
-  Technological University\, the UMass College of Natural Science and Mathe
- matics\, and the Northeast Association of Graduate Schools\, and the IEEE 
- Taylor Booth Education Medal. He has recently served on the Board of Direc
- tors of the Computing Research Association\, and on the scientific advisor
- y boards of IMDEA Networks in Madrid and the Laboratory for Information\, 
- Network and Communication Sciences (LINCS) in Paris. With Keith Ross\, he 
- is the co-author of the textbook\, Computer Networking\, a top down approa
- ch (7th edition)\, published by Addison-Wesley/Pearson. He is a Fellow of 
- the ACM and the IEEE.<br/>\n<br/>\nSince January 2015\, he is serving as a
- n Assistant Director of the US National Science Foundation\, where he lead
- s the Directorate for the Computer and Information Science and Engineering
-  (CISE) in its mission to fundamental research in computer and information
-  science and engineering and transformative advances in cyberinfrastructur
- e. Dr. Kurose oversees the CISE budget of more than $900 million. He also 
- serves as co-chair of the Networking and Information Technology Research a
- nd Development (NITRD) Subcommittee of the National Science and Technology
-  Council Committee on Technology\, helping coordinate the activities of 17
-  government agencies.\n\n
+DESCRIPTION:Chair(s): Marinho Barcellos (UFRGS)\, Jon Crowcroft (Universit
+ y of Cambridge)\n\n* Keynote Title:\nKeynote: Networking Research\, Educat
+ ion\, Mentoring and Service: Ten Insights\n\nSpeaker:\nJim Kurose (Univers
+ ity of Massachusetts\, Amherst)\, 2016 ACM SIGCOMM Lifetime Achievement Aw
+ ard Recipient\n\nAbstract:\nTo be announced soon.\n\nSpeaker Bio:\nJim Kur
+ ose received a B.A. degree in physics from Wesleyan University and his Ph.
+ D. degree in computer science from Columbia University. He is currently Di
+ stinguished University Professor in the College of Information and Compute
+ r Sciences at the University of Massachusetts Amherst. He has been a Visit
+ ing Scientist at IBM Research\, INRIA\, Institut EURECOM \, the University
+  of Paris\, the Laboratory for Information\, Network and Communication Sci
+ ences\, and Technicolor Research Labs.<br/>\n<br/>\nHis research interests
+  include network protocols and architecture\, network measurement\, sensor
+  networks\, and multimedia communication. Dr. Kurose has served as Editor-
+ in- Chief of the IEEE Transactions on Communications and was the founding 
+ Editor-in- Chief of the IEEE/ACM Transactions on Networking. He has been T
+ echnical Program Co-Chair for the IEEE Infocom\, ACM SIGCOMM\, ACM SIGMETR
+ ICS\, and ACM Internet Measurement conferences. He has won several confere
+ nce best paper awards and received the IEEE Infocom Achievement Award and 
+ the ACM Sigcomm Test of Time Award.<br/>\n<br/>\nHe has received a number 
+ of awards for his teaching including outstanding teacher awards from the N
+ ational Technological University\, the UMass College of Natural Science an
+ d Mathematics\, and the Northeast Association of Graduate Schools\, and th
+ e IEEE Taylor Booth Education Medal. He has recently served on the Board o
+ f Directors of the Computing Research Association\, and on the scientific 
+ advisory boards of IMDEA Networks in Madrid and the Laboratory for Informa
+ tion\, Network and Communication Sciences (LINCS) in Paris. With Keith Ros
+ s\, he is the co-author of the textbook\, Computer Networking\, a top down
+  approach (7th edition)\, published by Addison-Wesley/Pearson. He is a Fel
+ low of the ACM and the IEEE.<br/>\n<br/>\nSince January 2015\, he is servi
+ ng as an Assistant Director of the US National Science Foundation\, where 
+ he leads the Directorate for the Computer and Information Science and Engi
+ neering (CISE) in its mission to fundamental research in computer and info
+ rmation science and engineering and transformative advances in cyberinfras
+ tructure. Dr. Kurose oversees the CISE budget of more than $900 million. H
+ e also serves as co-chair of the Networking and Information Technology Res
+ earch and Development (NITRD) Subcommittee of the National Science and Tec
+ hnology Council Committee on Technology\, helping coordinate the activitie
+ s of 17 government agencies.\n\n
 LOCATION:Room: Diamante
 END:VEVENT
 BEGIN:VEVENT
@@ -935,28 +941,28 @@ SUMMARY:SIGCOMM: Session 1 - SDN & NFV I
 DTSTART;VALUE=DATE-TIME:20160823T110000
 DTEND;VALUE=DATE-TIME:20160823T124000
 UID:8e51a2cb8e0b92639034cc1ac89f0fa5
-DESCRIPTION:Papers: \n\n* Title: ClickNP: Highly Flexible and High Perform
- ance Network Processing with Reconfigurable Hardware – Author(s): Bojie 
- Li (USTC / Microsoft Research)\, Kun Tan (Microsoft Research)\, Layong (La
- rry) Luo (Microsoft)\, Yanqing Peng (SJTU / Microsoft Research)\, Renqian 
- Luo (USTC / Microsoft Research)\, Ningyi Xu (Microsoft Research)\, Yongqia
- ng Xiong (Microsoft Research)\, Peng Cheng (Microsoft Research)\, Enhong C
- hen (USTC)\n\n* Title: Packet Transactions: High-Level Programming for Lin
- e-Rate Switches – Author(s): Anirudh Sivaraman (MIT CSAIL)\, Alvin Cheun
- g (University of Washington\, Seattle)\, Mihai Budiu (VMWare Research)\, C
- hanghoon Kim (Barefoot Networks)\, Mohammad Alizadeh (MIT CSAIL)\, Hari Ba
- lakrishnan (MIT CSAIL)\, George Varghese (Microsoft Research)\, Nick McKeo
- wn (Stanford University)\, Steve Licking (Barefoot Networks)\n\n* Title: S
- NAP: Stateful Network-Wide Abstractions for Packet Processing – Author(s
- ): Mina Tahmasbi Arashloo (Princeton University)\, Yaron Koral (Princeton 
- University)\, Michael Greenberg (Pomona College)\, Jennifer Rexford (Princ
- eton University)\, David Walker (Princeton University)\n\n* Title: Program
- mable Packet Scheduling at Line Rate – Author(s): Anirudh Sivaraman (MIT
-  CSAIL)\, Suvinay Subramanian (MIT CSAIL)\, Mohammad Alizadeh (MIT CSAIL)\
- , Sharad Chole (Cisco Systems)\, Shang-Tse Chuang (Cisco Systems)\, Anurag
-  Agrawal (Barefoot Networks)\, Hari Balakrishnan (MIT CSAIL)\, Tom Edsall 
- (Cisco Systems)\, Sachin Katti (Stanford University)\, Nick McKeown (Stanf
- ord University)
+DESCRIPTION:Papers: \n\n* Ti
+ tle: ClickNP: Highly Flexible and High Performance Network Processing with
+  Reconfigurable Hardware – Author(s): Bojie Li (USTC / Microsoft Researc
+ h)\, Kun Tan (Microsoft Research)\, Layong (Larry) Luo (Microsoft)\, Yanqi
+ ng Peng (SJTU / Microsoft Research)\, Renqian Luo (USTC / Microsoft Resear
+ ch)\, Ningyi Xu (Microsoft Research)\, Yongqiang Xiong (Microsoft Research
+ )\, Peng Cheng (Microsoft Research)\, Enhong Chen (USTC)\n\n* Title: Packe
+ t Transactions: High-Level Programming for Line-Rate Switches – Author(s
+ ): Anirudh Sivaraman (MIT CSAIL)\, Alvin Cheung (University of Washington\
+ , Seattle)\, Mihai Budiu (VMWare Research)\, Changhoon Kim (Barefoot Netwo
+ rks)\, Mohammad Alizadeh (MIT CSAIL)\, Hari Balakrishnan (MIT CSAIL)\, Geo
+ rge Varghese (Microsoft Research)\, Nick McKeown (Stanford University)\, S
+ teve Licking (Barefoot Networks)\n\n* Title: SNAP: Stateful Network-Wide A
+ bstractions for Packet Processing – Author(s): Mina Tahmasbi Arashloo (P
+ rinceton University)\, Yaron Koral (Princeton University)\, Michael Greenb
+ erg (Pomona College)\, Jennifer Rexford (Princeton University)\, David Wal
+ ker (Princeton University)\n\n* Title: Programmable Packet Scheduling at L
+ ine Rate – Author(s): Anirudh Sivaraman (MIT CSAIL)\, Suvinay Subramania
+ n (MIT CSAIL)\, Mohammad Alizadeh (MIT CSAIL)\, Sharad Chole (Cisco System
+ s)\, Shang-Tse Chuang (Cisco Systems)\, Anurag Agrawal (Barefoot Networks)
+ \, Hari Balakrishnan (MIT CSAIL)\, Tom Edsall (Cisco Systems)\, Sachin Kat
+ ti (Stanford University)\, Nick McKeown (Stanford University)
 LOCATION:Room: Diamante
 END:VEVENT
 BEGIN:VEVENT
@@ -964,19 +970,20 @@ SUMMARY:SIGCOMM: Session 2 - Wide Area Networks
 DTSTART;VALUE=DATE-TIME:20160823T140000
 DTEND;VALUE=DATE-TIME:20160823T151500
 UID:2927706a8495f99955a8a99b5bdb4cf8
-DESCRIPTION:Papers: \n\n* Title: Evolve or Die: High-Availability Design P
- rinciples Drawn from Google's Network Infrastructure – Author(s): Ramesh
-  Govindan (Google / USC)\, Ina Minei (Google)\, Mahesh Kallahalla (Google)
- \, Bikash Koley (Google)\, Amin Vahdat (Google)\n\n* Title: Optimizing Bul
- k Transfers with Software-Defined Optical WAN – Author(s): Xin Jin (Prin
- ceton University)\, Yiran Li (Tsinghua University)\, Da Wei (Tsinghua Univ
- ersity)\, Siming Li (Stony Brook University)\, Jie Gao (Stony Brook Univer
- sity)\, Lei Xu (Sodero Networks)\, Guangzhi Li (AT&T Labs)\, Wei Xu (Tsing
- hua University)\, Jennifer Rexford (Princeton University)\n\n* Title: Dyna
- mic Pricing and Traffic Engineering for Timely Inter-Datacenter Transfers 
- – Author(s): Virajith Jalaparti (Microsoft)\, Ivan Bliznets (St. Petersb
- urg Academic University)\, Srikanth Kandula (Microsoft)\, Brendan Lucier (
- Microsoft)\, Ishai Menache (Microsoft)
+DESCRIPTION:Papers: \n\n* Title
+ : Evolve or Die: High-Availability Design Principles Drawn from Google's N
+ etwork Infrastructure – Author(s): Ramesh Govindan (Google / USC)\, Ina 
+ Minei (Google)\, Mahesh Kallahalla (Google)\, Bikash Koley (Google)\, Amin
+  Vahdat (Google)\n\n* Title: Optimizing Bulk Transfers with Software-Defin
+ ed Optical WAN – Author(s): Xin Jin (Princeton University)\, Yiran Li (T
+ singhua University)\, Da Wei (Tsinghua University)\, Siming Li (Stony Broo
+ k University)\, Jie Gao (Stony Brook University)\, Lei Xu (Sodero Networks
+ )\, Guangzhi Li (AT&T Labs)\, Wei Xu (Tsinghua University)\, Jennifer Rexf
+ ord (Princeton University)\n\n* Title: Dynamic Pricing and Traffic Enginee
+ ring for Timely Inter-Datacenter Transfers – Author(s): Virajith Jalapar
+ ti (Microsoft)\, Ivan Bliznets (St. Petersburg Academic University)\, Srik
+ anth Kandula (Microsoft)\, Brendan Lucier (Microsoft)\, Ishai Menache (Mic
+ rosoft)
 LOCATION:Room: Diamante
 END:VEVENT
 BEGIN:VEVENT
@@ -993,19 +1000,20 @@ SUMMARY:SIGCOMM: Session 3 - Monitoring and Diagnostics
 DTSTART;VALUE=DATE-TIME:20160823T161500
 DTEND;VALUE=DATE-TIME:20160823T173000
 UID:920eac6d1a4465f68db64cc1b1cdd5cc
-DESCRIPTION:Papers: \n\n* Title: One Sketch to Rule Them All: Rethinking N
- etwork Flow Monitoring with UnivMon – Author(s): Zaoxing Liu (Johns Hopk
- ins University)\, Antonis Manousis (Carnegie Mellon University)\, Gregory 
- Vorsanger (Johns Hopkins University)\, Vyas Sekar (Carnegie Mellon Univers
- ity)\, Vladimir Braverman (Johns Hopkins University)\n\n* Title: Trumpet: 
- Timely and Precise Triggers in Data Centers – Author(s): Masoud Moshref 
- (University of Southern California)\, Minlan Yu (University of Southern Ca
- lifornia)\, Ramesh Govindan (University of Southern California)\, Amin Vah
- dat (Google)\n\n* Title: The Good\, the Bad\, and the Differences: Better 
- Network Diagnostics with Differential Provenance – Author(s): Ang Chen (
- University of Pennsylvania)\, Yang Wu (University of Pennsylvania)\, Andre
- as Haeberlen (University of Pennsylvania)\, Wenchao Zhou (Georgetown Unive
- rsity)\, Boon Thau Loo (University of Pennsylvania)
+DESCRIPTION:Papers: \n\n* Title: One Sket
+ ch to Rule Them All: Rethinking Network Flow Monitoring with UnivMon – A
+ uthor(s): Zaoxing Liu (Johns Hopkins University)\, Antonis Manousis (Carne
+ gie Mellon University)\, Gregory Vorsanger (Johns Hopkins University)\, Vy
+ as Sekar (Carnegie Mellon University)\, Vladimir Braverman (Johns Hopkins 
+ University)\n\n* Title: Trumpet: Timely and Precise Triggers in Data Cente
+ rs – Author(s): Masoud Moshref (University of Southern California)\, Min
+ lan Yu (University of Southern California)\, Ramesh Govindan (University o
+ f Southern California)\, Amin Vahdat (Google)\n\n* Title: The Good\, the B
+ ad\, and the Differences: Better Network Diagnostics with Differential Pro
+ venance – Author(s): Ang Chen (University of Pennsylvania)\, Yang Wu (Un
+ iversity of Pennsylvania)\, Andreas Haeberlen (University of Pennsylvania)
+ \, Wenchao Zhou (Georgetown University)\, Boon Thau Loo (University of Pen
+ nsylvania)
 LOCATION:Room: Diamante
 END:VEVENT
 BEGIN:VEVENT
@@ -1020,24 +1028,25 @@ SUMMARY:SIGCOMM: Session 4 - Scheduling
 DTSTART;VALUE=DATE-TIME:20160824T083000
 DTEND;VALUE=DATE-TIME:20160824T101000
 UID:1a79751693984d8559b3951a147e32e3
-DESCRIPTION:Papers: \n\n* Title: 2DFQ: Two-Dimensional Fair Queueing for M
- ulti-Tenant Cloud Services – Author(s): Jonathan Mace (Brown University)
- \, Peter Bodik (Microsoft)\, Madanlal Musuvathi (Microsoft)\, Rodrigo Fons
- eca (Brown University)\, Krishnan Varadarajan (Microsoft)\n\n* Title: CODA
- : Toward Automatically Identifying and Scheduling Coflows in the Dark – 
- Author(s): Hong Zhang (Hong Kong University of Science and Technology)\, L
- i Chen (Hong Kong University of Science and Technology)\, Bairen Yi (Hong 
- Kong University of Science and Technology)\, Kai Chen (Hong Kong Universit
- y of Science and Technology)\, Mosharaf Chowdhury (University of Michigan)
- \, Yanhui Geng (Huawei Noah's Ark Lab)\n\n* Title: Scheduling Mix-flows in
-  Commodity Datacenters with Karuna – Author(s): Li Chen (Hong Kong Unive
- rsity of Science and Technology)\, Kai Chen (Hong Kong University of Scien
- ce and Technology)\, Wei Bai (Hong Kong University of Science and Technolo
- gy)\, Mohammad Alizadeh (MIT)\n\n* Title: NUMFabric: Fast and Flexible Ban
- dwidth Allocation in Datacenters – Author(s): Kanthi Nagaraj (Stanford U
- niversity)\, Dinesh Bharadia (Stanford University)\, Hongzi Mao (M.I.T)\, 
- Sandeep Chinchali (Stanford University)\, Mohammad Alizadeh (M.I.T.)\, Sac
- hin Katti (Stanford University)
+DESCRIPTION:Papers
+ : \n\n* Title: 2DFQ: Two-Dimensional Fair Queueing for Multi-Tenant Cloud 
+ Services – Author(s): Jonathan Mace (Brown University)\, Peter Bodik (Mi
+ crosoft)\, Madanlal Musuvathi (Microsoft)\, Rodrigo Fonseca (Brown Univers
+ ity)\, Krishnan Varadarajan (Microsoft)\n\n* Title: CODA: Toward Automatic
+ ally Identifying and Scheduling Coflows in the Dark – Author(s): Hong Zh
+ ang (Hong Kong University of Science and Technology)\, Li Chen (Hong Kong 
+ University of Science and Technology)\, Bairen Yi (Hong Kong University of
+  Science and Technology)\, Kai Chen (Hong Kong University of Science and T
+ echnology)\, Mosharaf Chowdhury (University of Michigan)\, Yanhui Geng (Hu
+ awei Noah's Ark Lab)\n\n* Title: Scheduling Mix-flows in Commodity Datacen
+ ters with Karuna – Author(s): Li Chen (Hong Kong University of Science a
+ nd Technology)\, Kai Chen (Hong Kong University of Science and Technology)
+ \, Wei Bai (Hong Kong University of Science and Technology)\, Mohammad Ali
+ zadeh (MIT)\n\n* Title: NUMFabric: Fast and Flexible Bandwidth Allocation 
+ in Datacenters – Author(s): Kanthi Nagaraj (Stanford University)\, Dines
+ h Bharadia (Stanford University)\, Hongzi Mao (M.I.T)\, Sandeep Chinchali 
+ (Stanford University)\, Mohammad Alizadeh (M.I.T.)\, Sachin Katti (Stanfor
+ d University)
 LOCATION:Room: Diamante
 END:VEVENT
 BEGIN:VEVENT
@@ -1045,25 +1054,23 @@ SUMMARY:SIGCOMM: Session 5 - Datacenters I
 DTSTART;VALUE=DATE-TIME:20160824T104000
 DTEND;VALUE=DATE-TIME:20160824T122000
 UID:a18684e30861f29650fd4946bca7e64a
-DESCRIPTION:Papers: \n\n* Title: Virtualized Congestion Control – Author
- (s): Bryce Cronkite-Ratcliff (VMware / Stanford)\, Aran Bergman (Technion)
- \, Shay Vargaftik (Technion)\, Madhusudhan Ravi (VMware)\, Nick McKeown (S
- tanford)\, Ittai Abraham (VMware)\, Isaac Keslassy (VMware / Stanford / Te
- chnion)\n\n* Title: AC/DC TCP: Virtual Congestion Control Enforcement for 
- Datacenter Networks – Author(s): Keqiang He (University of Wisconsin-Mad
- ison)\, Eric Rozner (IBM Research)\, Kanak Agarwal (IBM)\, Yu (Jason) Gu (
- IBM)\, Wes Felter (IBM Research)\, John Carter (IBM)\, Aditya Akella (Univ
- ersity of Wisconsin-Madison)\n\n* Title: RDMA over Commodity Ethernet at S
- cale – Author(s): Chuanxiong Guo (Microsoft Research)\, Haitao Wu (Micro
- soft)\, Zhong Deng (Microsoft)\, Gaurav Soni (Microsoft)\, Jianxi Ye (Micr
- osoft)\, Jitu Padhye (Microsoft Research)\, Marina Lipshteyn (Microsoft)\n
- \n* Title: ProjecToR: Agile Reconfigurable Data Center Interconnect – Au
- thor(s): Monia Ghobadi (Microsoft Research)\, Ratul Mahajan (Microsoft Res
- earch)\, Amar Phanishayee (Microsoft Research)\, Nikhil Devanur (Microsoft
-  Research)\, Janardhan Kulkarni (Microsoft Research)\, Gireeja Ranade (Mic
- rosoft Research)\, Pierre-Alexandre Blanche (University of Arizona)\, Houm
- an Rastegarfar (University of Arizona)\, Madeleine Glick (University of Ar
- izona)\, Daniel Kilper (University of Arizona)
+DESCRIPTION:Papers: \n\n* Title: G
+ lobally Synchronized Time via Datacenter Networks – Author(s): Ki Suh Le
+ e (Cornell University)\, Han Wang (Cornell University)\, Vishal Shrivastav
+  (Cornell University)\, Hakim Weatherspoon (Cornell University)\n\n* Title
+ : Robotron: Top-down Network Management at Facebook Scale – Author(s): Y
+ u-Wei Eric Sung (Facebook)\, Xiaozheng Tie (Facebook)\, Starsky H.Y. Wong 
+ (Facebook)\, Hongyi Zeng (Facebook)\n\n* Title: RDMA over Commodity Ethern
+ et at Scale – Author(s): Chuanxiong Guo (Microsoft Research)\, Haitao Wu
+  (Microsoft)\, Zhong Deng (Microsoft)\, Gaurav Soni (Microsoft)\, Jianxi Y
+ e (Microsoft)\, Jitu Padhye (Microsoft Research)\, Marina Lipshteyn (Micro
+ soft)\n\n* Title: ProjecToR: Agile Reconfigurable Data Center Interconnect
+  – Author(s): Monia Ghobadi (Microsoft Research)\, Ratul Mahajan (Micros
+ oft Research)\, Amar Phanishayee (Microsoft Research)\, Nikhil Devanur (Mi
+ crosoft Research)\, Janardhan Kulkarni (Microsoft Research)\, Gireeja Rana
+ de (Microsoft Research)\, Pierre-Alexandre Blanche (University of Arizona)
+ \, Houman Rastegarfar (University of Arizona)\, Madeleine Glick (Universit
+ y of Arizona)\, Daniel Kilper (University of Arizona)
 LOCATION:Room: Diamante
 END:VEVENT
 BEGIN:VEVENT
@@ -1080,22 +1087,22 @@ SUMMARY:SIGCOMM: Session 6 - Verification
 DTSTART;VALUE=DATE-TIME:20160824T133000
 DTEND;VALUE=DATE-TIME:20160824T151000
 UID:c566e3c482f374daa80887ddeb3b91b3
-DESCRIPTION:Papers: \n\n* Title: Fast Control Plane Analysis Using an Abst
- ract Representation – Author(s): Aaron Gember-Jacobson (University of Wi
- sconsin-Madison)\, Raajay Viswanathan (University of Wisconsin-Madison)\, 
- Aditya Akella (University of Wisconsin-Madison)\, Ratul Mahajan (Microsoft
-  Research)\n\n* Title: Symnet: scalable symbolic execution for modern netw
- orks – Author(s): Radu Stoenescu (University Politehnica of Bucharest)\,
-  Matei Popovici (University Politehnica of Bucharest)\, Lorina Negreanu (U
- niversity Politehnica of Bucharest)\, Costin Raiciu (University Politehnic
- a of Bucharest)\n\n* Title: Don't Mind the Gap: Bridging Network-wide Obje
- ctives and Device-level Configurations – Author(s): Ryan Beckett (Prince
- ton University)\, Ratul Mahajan (Microsoft)\, Todd Millstein (University o
- f California\, Los Angeles)\, Jitendra Padhye (Microsoft)\, David Walker (
- Princeton University)\n\n* Title: Jumpstarting BGP Security with Path-End 
- Validation – Author(s): Avichai Cohen (Hebrew University)\, Yossi Gilad 
- (Boston University and MIT)\, Amir Herzberg (Bar Ilan University)\, Michae
- l Schapira (Hebrew University)
+DESCRIPTION:Papers: \n\n* Title: Fast Control Plane Analysis Using an Abstract Repr
+ esentation – Author(s): Aaron Gember-Jacobson (University of Wisconsin-M
+ adison)\, Raajay Viswanathan (University of Wisconsin-Madison)\, Aditya Ak
+ ella (University of Wisconsin-Madison)\, Ratul Mahajan (Microsoft Research
+ )\n\n* Title: Symnet: scalable symbolic execution for modern networks – 
+ Author(s): Radu Stoenescu (University Politehnica of Bucharest)\, Matei Po
+ povici (University Politehnica of Bucharest)\, Lorina Negreanu (University
+  Politehnica of Bucharest)\, Costin Raiciu (University Politehnica of Buch
+ arest)\n\n* Title: Don't Mind the Gap: Bridging Network-wide Objectives an
+ d Device-level Configurations – Author(s): Ryan Beckett (Princeton Unive
+ rsity)\, Ratul Mahajan (Microsoft)\, Todd Millstein (University of Califor
+ nia\, Los Angeles)\, Jitendra Padhye (Microsoft)\, David Walker (Princeton
+  University)\n\n* Title: Jumpstarting BGP Security with Path-End Validatio
+ n – Author(s): Avichai Cohen (Hebrew University)\, Yossi Gilad (Boston U
+ niversity and MIT)\, Amir Herzberg (Bar Ilan University)\, Michael Schapir
+ a (Hebrew University)
 LOCATION:Room: Diamante
 END:VEVENT
 BEGIN:VEVENT
@@ -1112,21 +1119,21 @@ SUMMARY:SIGCOMM: Session 7 - Networked Applications
 DTSTART;VALUE=DATE-TIME:20160824T161000
 DTEND;VALUE=DATE-TIME:20160824T172500
 UID:e87507fad5a39f6114cc3815af7de645
-DESCRIPTION:Papers: \n\n* Title: WebPerf: Evaluating What-If Scenarios for
-  Cloud-hosted Web Applications – Author(s): Yurong Jiang (University of 
- Southern California)\, Lenin Ravindranath (Microsoft Research)\, Suman Nat
- h (Microsoft Research)\, Ramesh Govindan (University of Southern Californi
- a)\n\n* Title: CS2P: Improving Video Bitrate Selection and Adaptation with
-  Data-Driven Throughput Prediction – Author(s): Yi Sun (ICT/CAS)\, Xiaoq
- i Yin (CMU)\, Junchen Jiang (CMU)\, Vyas Sekar (CMU)\, Fuyuan Lin (ICT/CAS
- )\, Nanshu Wang (ICT/CAS)\, Tao Liu (iQIYI)\, Bruno Sinopoli (CMU)\n\n* Ti
- tle: Via: Improving Internet Telephony Call Quality Using Predictive Relay
-  Selection – Author(s): Junchen Jiang (Microsoft Research / CMU)\, Rajde
- ep Das (Microsoft Research)\, Ganesh Ananthanarayanan (Microsoft Research)
- \, Philip A. Chou (Microsoft Research)\, Venkata Padmanabhan (Microsoft Re
- search)\, Vyas Sekar (CMU)\, Esbjorn Dominique (Microsoft)\, Marcin Golisz
- ewski (Microsoft)\, Dalibor Kukoleca (Microsoft)\, Renat Vafin (Microsoft)
- \, Hui Zhang (CMU)
+DESCRIPTION:Papers: \n\n
+ * Title: WebPerf: Evaluating What-If Scenarios for Cloud-hosted Web Applic
+ ations – Author(s): Yurong Jiang (University of Southern California)\, L
+ enin Ravindranath (Microsoft Research)\, Suman Nath (Microsoft Research)\,
+  Ramesh Govindan (University of Southern California)\n\n* Title: CS2P: Imp
+ roving Video Bitrate Selection and Adaptation with Data-Driven Throughput 
+ Prediction – Author(s): Yi Sun (ICT/CAS)\, Xiaoqi Yin (CMU)\, Junchen Ji
+ ang (CMU)\, Vyas Sekar (CMU)\, Fuyuan Lin (ICT/CAS)\, Nanshu Wang (ICT/CAS
+ )\, Tao Liu (iQIYI)\, Bruno Sinopoli (CMU)\n\n* Title: Via: Improving Inte
+ rnet Telephony Call Quality Using Predictive Relay Selection – Author(s)
+ : Junchen Jiang (Microsoft Research / CMU)\, Rajdeep Das (Microsoft Resear
+ ch)\, Ganesh Ananthanarayanan (Microsoft Research)\, Philip A. Chou (Micro
+ soft Research)\, Venkata Padmanabhan (Microsoft Research)\, Vyas Sekar (CM
+ U)\, Esbjorn Dominique (Microsoft)\, Marcin Goliszewski (Microsoft)\, Dali
+ bor Kukoleca (Microsoft)\, Renat Vafin (Microsoft)\, Hui Zhang (CMU)
 LOCATION:Room: Diamante
 END:VEVENT
 BEGIN:VEVENT
@@ -1149,26 +1156,27 @@ SUMMARY:SIGCOMM: Session 8 - Wireless
 DTSTART;VALUE=DATE-TIME:20160825T083000
 DTEND;VALUE=DATE-TIME:20160825T103500
 UID:a93eff6a391f01324150d1b2a3e65b24
-DESCRIPTION:Papers: \n\n* Title: Inter-Technology Backscatter: Towards Int
- ernet Connectivity for Implanted Devices – Author(s): Vikram Iyer (Unive
- rsity of Washington)\, Vamsi Talla (University of Washington)\, Bryce Kell
- ogg (University of Washington)\, Shyamnath Gollakota (University of Washin
- gton)\, Joshua Smith (University of Washington)\n\n* Title: Enabling Pract
- ical Backscatter Communication for On-body Sensors – Author(s): Pengyu Z
- hang (University of Massachusetts Amherst)\, Mohammad Rostami (University 
- of Massachusetts Amherst)\, Pan Hu (University of Massachusetts Amherst)\,
-  Deepak Ganesan (University of Massachusetts Amherst)\n\n* Title: Braidio:
-  An Integrated Active-Passive Radio for Mobile Devices with Asymmetric Ene
- rgy Budgets – Author(s): Pan Hu (University of Massachusetts Amherst)\, 
- Pengyu Zhang (University of Massachusetts Amherst)\, Mohammad Rostami (Uni
- versity of Massachusetts Amherst)\, Deepak Ganesan (University of Massachu
- setts Amherst)\n\n* Title: Real-time Distributed MIMO Systems – Author(s
- ): Ezzeldin Hamed (Massachusetts Institute of Technology)\, Hariharan Rahu
- l (Massachusetts Institute of Technology)\, Mohammed A. Abdelghany (Massac
- husetts Institute of Technology)\, Dina Katabi (Massachusetts Institute of
-  Technology)\n\n* Title: Eliminating Channel Feedback in Next-Generation C
- ellular Networks – Author(s): Deepak Vasisht (MIT)\, Swarun Kumar (CMU)\
- , Hariharan Rahul (MIT)\, Dina Katabi (MIT)
+DESCRIPTION:Papers: \n\n* Title
+ : Inter-Technology Backscatter: Towards Internet Connectivity for Implante
+ d Devices – Author(s): Vikram Iyer (University of Washington)\, Vamsi Ta
+ lla (University of Washington)\, Bryce Kellogg (University of Washington)\
+ , Shyamnath Gollakota (University of Washington)\, Joshua Smith (Universit
+ y of Washington)\n\n* Title: Enabling Practical Backscatter Communication 
+ for On-body Sensors – Author(s): Pengyu Zhang (University of Massachuset
+ ts Amherst)\, Mohammad Rostami (University of Massachusetts Amherst)\, Pan
+  Hu (University of Massachusetts Amherst)\, Deepak Ganesan (University of 
+ Massachusetts Amherst)\n\n* Title: Braidio: An Integrated Active-Passive R
+ adio for Mobile Devices with Asymmetric Energy Budgets – Author(s): Pan 
+ Hu (University of Massachusetts Amherst)\, Pengyu Zhang (University of Mas
+ sachusetts Amherst)\, Mohammad Rostami (University of Massachusetts Amhers
+ t)\, Deepak Ganesan (University of Massachusetts Amherst)\n\n* Title: Real
+ -time Distributed MIMO Systems – Author(s): Ezzeldin Hamed (Massachusett
+ s Institute of Technology)\, Hariharan Rahul (Massachusetts Institute of T
+ echnology)\, Mohammed A. Abdelghany (Massachusetts Institute of Technology
+ )\, Dina Katabi (Massachusetts Institute of Technology)\n\n* Title: Elimin
+ ating Channel Feedback in Next-Generation Cellular Networks – Author(s):
+  Deepak Vasisht (MIT)\, Swarun Kumar (CMU)\, Hariharan Rahul (MIT)\, Dina 
+ Katabi (MIT)
 LOCATION:Room: Diamante
 END:VEVENT
 BEGIN:VEVENT
@@ -1176,16 +1184,19 @@ SUMMARY:SIGCOMM: Session 9 - Datacenters II
 DTSTART;VALUE=DATE-TIME:20160825T110500
 DTEND;VALUE=DATE-TIME:20160825T122000
 UID:06a734c705447e52744db23f8fc9f02d
-DESCRIPTION:Papers: \n\n* Title: Globally Synchronized Time via Datacenter
-  Networks – Author(s): Ki Suh Lee (Cornell University)\, Han Wang (Corne
- ll University)\, Vishal Shrivastav (Cornell University)\, Hakim Weatherspo
- on (Cornell University)\n\n* Title: Robotron: Top-down Network Management 
- at Facebook Scale – Author(s): Yu-Wei Eric Sung (Facebook)\, Xiaozheng T
- ie (Facebook)\, Starsky H.Y. Wong (Facebook)\, Hongyi Zeng (Facebook)\n\n*
-  Title: Taking the Blame Game out of Data Centers Operations with NetPoiro
- t – Author(s): Behnaz Arzani (University of Pennsylvania)\, Selim Ciraci
-  (Microsoft)\, Boon Thau Loo (University of Pennsylvania)\, Assaf Schuster
-  (Technion - Israel Institute of Technology)\, Geoff Outhred (Microsoft)
+DESCRIPTION:Papers: \n\n* Title: Virtualized Congestion Control – Author(s): Bryc
+ e Cronkite-Ratcliff (VMware / Stanford)\, Aran Bergman (Technion)\, Shay V
+ argaftik (Technion)\, Madhusudhan Ravi (VMware)\, Nick McKeown (Stanford)\
+ , Ittai Abraham (VMware)\, Isaac Keslassy (VMware / Stanford / Technion)\n
+ \n* Title: AC/DC TCP: Virtual Congestion Control Enforcement for Datacente
+ r Networks – Author(s): Keqiang He (University of Wisconsin-Madison)\, E
+ ric Rozner (IBM Research)\, Kanak Agarwal (IBM)\, Yu (Jason) Gu (IBM)\, We
+ s Felter (IBM Research)\, John Carter (IBM)\, Aditya Akella (University of
+  Wisconsin-Madison)\n\n* Title: Taking the Blame Game out of Data Centers 
+ Operations with NetPoirot – Author(s): Behnaz Arzani (University of Penn
+ sylvania)\, Selim Ciraci (Microsoft)\, Boon Thau Loo (University of Pennsy
+ lvania)\, Assaf Schuster (Technion - Israel Institute of Technology)\, Geo
+ ff Outhred (Microsoft)
 LOCATION:Room: Diamante
 END:VEVENT
 BEGIN:VEVENT
@@ -1193,18 +1204,19 @@ SUMMARY:SIGCOMM: Session 10 - Censorship and Choice
 DTSTART;VALUE=DATE-TIME:20160825T133000
 DTEND;VALUE=DATE-TIME:20160825T144500
 UID:873364798b9543f1a6442a1227cba8b7
-DESCRIPTION:Papers: \n\n* Title: An Internet-Wide Analysis of Traffic Poli
- cing – Author(s): Tobias Flach (University of Southern California / Goog
- le)\, Pavlos Papageorge (Google)\, Andreas Terzis (Google)\, Luis Pedrosa 
- (University of Southern California)\, Yuchung Cheng (Google)\, Tayeb Karim
-  (Google)\, Ethan Katz-Bassett (University of Southern California)\, Rames
- h Govindan (University of Southern California / Google)\n\n* Title: Neutra
- l Net Neutrality – Author(s): Yiannis Yiakoumis (Stanford University)\, 
- Sachin Katti (Stanford University)\, Nick McKeown (Stanford University)\n\
- n* Title: The Deforestation of L2 – Author(s): James McCauley (UC Berkel
- ey / ICSI)\, Mingjie Zhao (UESTC / ICSI)\, Ethan J. Jackson (UC Berkeley)\
- , Barath Raghavan (ICSI)\, Sylvia Ratnasamy (UC Berkeley / ICSI)\, Scott S
- henker (UC Berkeley / ICSI)
+DESCRIPTION:Papers: \n\n
+ * Title: An Internet-Wide Analysis of Traffic Policing – Author(s): Tobi
+ as Flach (University of Southern California / Google)\, Pavlos Papageorge 
+ (Google)\, Andreas Terzis (Google)\, Luis Pedrosa (University of Southern 
+ California)\, Yuchung Cheng (Google)\, Tayeb Karim (Google)\, Ethan Katz-B
+ assett (University of Southern California)\, Ramesh Govindan (University o
+ f Southern California / Google)\n\n* Title: Neutral Net Neutrality – Aut
+ hor(s): Yiannis Yiakoumis (Stanford University)\, Sachin Katti (Stanford U
+ niversity)\, Nick McKeown (Stanford University)\n\n* Title: The Deforestat
+ ion of L2 – Author(s): James McCauley (UC Berkeley / ICSI)\, Mingjie Zha
+ o (UESTC / ICSI)\, Ethan J. Jackson (UC Berkeley)\, Barath Raghavan (ICSI)
+ \, Sylvia Ratnasamy (UC Berkeley / ICSI)\, Scott Shenker (UC Berkeley / IC
+ SI)
 LOCATION:Room: Diamante
 END:VEVENT
 BEGIN:VEVENT
@@ -1221,23 +1233,23 @@ SUMMARY:SIGCOMM: Session 11 - SDN & NFV II
 DTSTART;VALUE=DATE-TIME:20160825T154500
 DTEND;VALUE=DATE-TIME:20160825T170000
 UID:b79092235a8ade8322ce78850ba8ded2
-DESCRIPTION:Papers: \n\n* Title: OpenBox: A Software-Defined Framework for
-  Developing\, Deploying\, and Managing Network Functions – Author(s): An
- at Bremler-Barr (The Interdisciplinary Center\, Herzliya)\, Yotam Harchol 
- (The Hebrew University of Jerusalem)\, David Hay (The Hebrew University of
-  Jerusalem)\n\n* Title: PISCES: A Programmable\, Protocol-Independent Soft
- ware Switch – Author(s): Muhammad Shahbaz (Princeton University)\, Sean 
- Choi (Stanford University)\, Ben Pfaff (VMware)\, Changhoon Kim (Barefoot 
- Networks)\, Nick Feamster (Princeton University)\, Nick McKeown (Stanford 
- University)\, Jennifer Rexford (Princeton University)\n\n* Title: Dataplan
- e Specialization for High-performance OpenFlow Software Switching – Auth
- or(s): László Molnár (Ericsson Research\, Hungary)\, Gergely Pongrácz 
- (Ericsson Research\, Hungary)\, Gábor Enyedi (Ericsson Research\, Hungary
- )\, Zoltán Kis (Ericsson Research\, Hungary)\, Levente Csikor (Budapest U
- niversity of Technology and Economics)\, Ferenc Juhász (Budapest Universi
- ty of Technology and Economics)\, Attila Körösi (Budapest University of 
- Technology and Economics)\, Gábor Rétvári (Budapest University of Techn
- ology and Economics)
+DESCRIPTION:Papers: \n\n* Title: OpenBox: A Software-Defined Framework for Developing\,
+  Deploying\, and Managing Network Functions – Author(s): Anat Bremler-Ba
+ rr (The Interdisciplinary Center\, Herzliya)\, Yotam Harchol (The Hebrew U
+ niversity of Jerusalem)\, David Hay (The Hebrew University of Jerusalem)\n
+ \n* Title: PISCES: A Programmable\, Protocol-Independent Software Switch 
+ – Author(s): Muhammad Shahbaz (Princeton University)\, Sean Choi (Stanfo
+ rd University)\, Ben Pfaff (VMware)\, Changhoon Kim (Barefoot Networks)\, 
+ Nick Feamster (Princeton University)\, Nick McKeown (Stanford University)\
+ , Jennifer Rexford (Princeton University)\n\n* Title: Dataplane Specializa
+ tion for High-performance OpenFlow Software Switching – Author(s): Lász
+ ló Molnár (Ericsson Research\, Hungary)\, Gergely Pongrácz (Ericsson Re
+ search\, Hungary)\, Gábor Enyedi (Ericsson Research\, Hungary)\, Zoltán 
+ Kis (Ericsson Research\, Hungary)\, Levente Csikor (Budapest University of
+  Technology and Economics)\, Ferenc Juhász (Budapest University of Techno
+ logy and Economics)\, Attila Körösi (Budapest University of Technology a
+ nd Economics)\, Gábor Rétvári (Budapest University of Technology and Ec
+ onomics)
 LOCATION:Room: Diamante
 END:VEVENT
 BEGIN:VEVENT

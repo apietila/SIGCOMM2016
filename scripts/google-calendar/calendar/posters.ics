@@ -4,7 +4,7 @@ PRODID:-//My calendar product//mxm.dk//
 BEGIN:VEVENT
 SUMMARY:SIGCOMM Posters: Session 1 - Poster presenters onsite during coffe
  e breaks
-DTSTART;VALUE=DATE-TIME:20160823T090000
+DTSTART;VALUE=DATE-TIME:20160823T103000
 DTEND;VALUE=DATE-TIME:20160823T173000
 UID:786ae9623ca09e699cf601d9dbf6f880
 DESCRIPTION:Posters: \n\n* Title: PieBridge: A Cross-DR scale Large Data T

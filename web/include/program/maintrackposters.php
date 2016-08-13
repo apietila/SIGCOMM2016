@@ -14,6 +14,7 @@
       tprog_add_paper("Dataplane Specialization for High-performance OpenFlow Software Switching", "L. Moln&aacute;r (Ericsson Research, Hungary), G. Pongr&aacute;cz (Ericsson Research, Hungary), G. Enyedi (Ericsson Research, Hungary), Z. Kis (Ericsson Research, Hungary), L. Csikor (Budapest University of Technology and Economics), F. Juh&aacute;sz (Budapest University of Technology and Economics), A. K&ouml;r&ouml;si (Budapest University of Technology and Economics), G. R&eacute;tv&aacute;ri (Budapest University of Technology and Economics)", "", "", "", "", "prog-thursday");
       tprog_add_paper("One Sketch to Rule Them All: Rethinking Network Flow Monitoring with UnivMon", "Z. Liu (Johns Hopkins University), A. Manousis (Carnegie Mellon University), G. Vorsanger (Johns Hopkins University), V. Sekar (Carnegie Mellon University), V. Braverman (Johns Hopkins University)", "", "", "", "", "prog-thursday");
       tprog_add_paper("Neutral Net Neutrality", "Y. Yiakoumis (Stanford University), S. Katti (Stanford University), N. McKeown (Stanford University)", "", "", "", "", "prog-thursday");
+      tprog_add_paper("ProjecToR: Agile Reconfigurable Data Center Interconnect", "Monia Ghobadi, Ratul Mahajan, Amar Phanishayee, Nikhil Devanur, Janardhan Kulkarni, Gireeja Ranade (Microsoft Research), Pierre-Alexandre Blanche, Houman Rastegarfar, Madeleine Glick, Daniel Kilper (University of Arizona), Presented by&nbsp;Ryan Beckett (Princeton University)", "", "", "", "", "prog-thursday");
 ?>
     </ul>
   </div>

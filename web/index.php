@@ -22,7 +22,7 @@
 
 <h2>Conference Schedule</h2>
 
-<a href="files/schedule-20160802.pdf" rel="external"><img src="files/schedule-20160802.png" alt="ACM SIGCOMM 2016 - Conference Schedule Summary" style="width: 100%;"></a>
+<a href="files/schedule-2016-08-10.pdf" rel="external"><img src="files/schedule-2016-08-10.png" alt="ACM SIGCOMM 2016 - Detailed Conference Schedule" style="width: 100%;"></a>
 
 <h2>Calendar</h2>
 

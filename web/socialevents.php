@@ -18,6 +18,16 @@ In addition to the technical activities, SIGCOMM 2016 will organize the followin
   <img src="images/florianopolis/welcome-reception/reception-5.jpg" class="img"></img>
 </div>
 
+<a name="n2women_dinner"></a><h2>N2Women Dinner, Monday 22nd</h2>
+
+<p>SIGCOMM'16 is experimenting a new format for the N2Women event at SIGCOMM. The event will be held over a dinner at Restaurante Canto do Mar Ingleses (Rua das Gaivotas 984, Praia dos Ingleses District &mdash; see location on the map below), for a longer duration compared to typical N2Women lunches, and will be conducted on Monday night before the conference. N2Women Dinner aims to foster the minority community within SIGCOMM, and make it easier for the under-represented attendees to fully participate in the conference.</p>
+
+<p><b>Walking Directions:</b> We will meet at the Reception, and walk to the restaurant.</p>
+
+<p><b>RSVP:</b> If you plan to attend the dinner, please <a href="https://docs.google.com/a/netflix.com/forms/d/1B3_N45ODVy5uI7y_h6XySm8iVHf_LuQaq0QLciXN9FY/viewform?edit_requested=true#start=invite">RSVP</a> and let us know your dietary restriction.</p>
+
+<center> <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d3541.232879165898!2d-48.40143838494385!3d-27.430852182907202!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x952742070d4b273b%3A0xeedf03537b04a018!2sOceania+Centro+de+Conven%C3%A7%C3%B5es+-+Rua+do+Marisco+-+Ingleses+do+Rio+Vermelho%2C+Florian%C3%B3polis+-+State+of+Santa+Catarina%2C+Brazil!3m2!1d-27.4328132!2d-48.3998742!4m5!1s0x952769e2cec4d8c7%3A0xc5ac91d059c0f895!2sRua+das+Gaivotas%2C+984+-+Praia+dos+Ingleses%2C+Restaurante+Canto+do+Mar+Ingleses%2C+Florian%C3%B3polis+-+State+of+Santa+Catarina%2C+88058-500%2C+Brazil!3m2!1d-27.428596199999998!2d-48.397599799999995!5e0!3m2!1sen!2sus!4v1470952666181" width="640" height="480"></iframe> </center>
+
 <a name="conf_banquet"></a><h2>Conference Banquet, Tuesday 23rd</h2>
 
 <p>The Conference Banquet will take place at the Slaviero Essential Florian&oacute;polis Ingleses (Rua das Gaivotas 1114, Praia dos Ingleses District &mdash; <b>see location on the map below</b>).</p>
@@ -68,13 +78,5 @@ In addition to the technical activities, SIGCOMM 2016 will organize the followin
 <p>&nbsp;</p>
 
 <center> <iframe src="https://www.google.com/maps/d/embed?mid=1VcTtSzvR1fzFxx_fmR60JornLNE&hl=en" width="640" height="480"></iframe> </center>
-
-<h2>N2Women, Monday 22nd</h2>
-
-<p>Participation in this event is by invitation only. If you have any inquiries or would like to receive an invitation, please contact the N2Women chairs.</p>
-
-<h2>Award Dinner, Monday 22nd</h2>
-
-<p>Participation in this event is by invitation only.</p>
 
 <?php include ("include/footer.php"); ?>
