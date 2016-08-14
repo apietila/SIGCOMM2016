@@ -571,6 +571,12 @@ button[disabled],
     vertical-align: middle
 }
 
+.content-primary .workshop-logo {
+    float: left;
+    margin: 0px 15px 0px 0px;
+    width: 240px;
+}
+
 .content-primary .img {
     width: 300px;
     padding: 5px 10px 5px 10px;

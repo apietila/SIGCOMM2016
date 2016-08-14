@@ -3,7 +3,10 @@
     include("include/header.php");
 ?>
 
-<h1>ACM SIGCOMM Workshop on Networking and Programming Languages (NetPL 2016)</h1>
+<div>
+  <img class="workshop-logo" src="images/netpl-logo.png"></img>
+  <h1>ACM SIGCOMM Workshop on Networking and Programming Languages (NetPL 2016)</h1>
+</div>
 
 <h2>Monday, August 22nd</h2>
 

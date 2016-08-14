@@ -941,7 +941,7 @@ SUMMARY:SIGCOMM: Session 1 - SDN & NFV I
 DTSTART;VALUE=DATE-TIME:20160823T110000
 DTEND;VALUE=DATE-TIME:20160823T124000
 UID:8e51a2cb8e0b92639034cc1ac89f0fa5
-DESCRIPTION:Papers: \n\n* Ti
+DESCRIPTION:Chair(s): Nate Foster (Cornell University)\n\nPapers: \n\n* Ti
  tle: ClickNP: Highly Flexible and High Performance Network Processing with
   Reconfigurable Hardware – Author(s): Bojie Li (USTC / Microsoft Researc
  h)\, Kun Tan (Microsoft Research)\, Layong (Larry) Luo (Microsoft)\, Yanqi
@@ -970,7 +970,7 @@ SUMMARY:SIGCOMM: Session 2 - Wide Area Networks
 DTSTART;VALUE=DATE-TIME:20160823T140000
 DTEND;VALUE=DATE-TIME:20160823T151500
 UID:2927706a8495f99955a8a99b5bdb4cf8
-DESCRIPTION:Papers: \n\n* Title
+DESCRIPTION:Chair(s): Bruce Maggs (Duke University)\n\nPapers: \n\n* Title
  : Evolve or Die: High-Availability Design Principles Drawn from Google's N
  etwork Infrastructure – Author(s): Ramesh Govindan (Google / USC)\, Ina 
  Minei (Google)\, Mahesh Kallahalla (Google)\, Bikash Koley (Google)\, Amin
@@ -1000,7 +1000,7 @@ SUMMARY:SIGCOMM: Session 3 - Monitoring and Diagnostics
 DTSTART;VALUE=DATE-TIME:20160823T161500
 DTEND;VALUE=DATE-TIME:20160823T173000
 UID:920eac6d1a4465f68db64cc1b1cdd5cc
-DESCRIPTION:Papers: \n\n* Title: One Sket
+DESCRIPTION:Chair(s): Jeff Mogul (Google)\n\nPapers: \n\n* Title: One Sket
  ch to Rule Them All: Rethinking Network Flow Monitoring with UnivMon – A
  uthor(s): Zaoxing Liu (Johns Hopkins University)\, Antonis Manousis (Carne
  gie Mellon University)\, Gregory Vorsanger (Johns Hopkins University)\, Vy
@@ -1028,7 +1028,7 @@ SUMMARY:SIGCOMM: Session 4 - Scheduling
 DTSTART;VALUE=DATE-TIME:20160824T083000
 DTEND;VALUE=DATE-TIME:20160824T101000
 UID:1a79751693984d8559b3951a147e32e3
-DESCRIPTION:Papers
+DESCRIPTION:Chair(s): Sergey Gorinsky (IMDEA Networks Institute)\n\nPapers
  : \n\n* Title: 2DFQ: Two-Dimensional Fair Queueing for Multi-Tenant Cloud 
  Services – Author(s): Jonathan Mace (Brown University)\, Peter Bodik (Mi
  crosoft)\, Madanlal Musuvathi (Microsoft)\, Rodrigo Fonseca (Brown Univers
@@ -1054,7 +1054,7 @@ SUMMARY:SIGCOMM: Session 5 - Datacenters I
 DTSTART;VALUE=DATE-TIME:20160824T104000
 DTEND;VALUE=DATE-TIME:20160824T122000
 UID:a18684e30861f29650fd4946bca7e64a
-DESCRIPTION:Papers: \n\n* Title: G
+DESCRIPTION:Chair(s): Alex Snoren (UC San Diego)\n\nPapers: \n\n* Title: G
  lobally Synchronized Time via Datacenter Networks – Author(s): Ki Suh Le
  e (Cornell University)\, Han Wang (Cornell University)\, Vishal Shrivastav
   (Cornell University)\, Hakim Weatherspoon (Cornell University)\n\n* Title
@@ -1087,7 +1087,8 @@ SUMMARY:SIGCOMM: Session 6 - Verification
 DTSTART;VALUE=DATE-TIME:20160824T133000
 DTEND;VALUE=DATE-TIME:20160824T151000
 UID:c566e3c482f374daa80887ddeb3b91b3
-DESCRIPTION:Papers: \n\n* Title: Fast Control Plane Analysis Using an Abstract Repr
+DESCRIPTION:Chair(s): Ramesh Govindan (University of Southern California)\
+ n\nPapers: \n\n* Title: Fast Control Plane Analysis Using an Abstract Repr
  esentation – Author(s): Aaron Gember-Jacobson (University of Wisconsin-M
  adison)\, Raajay Viswanathan (University of Wisconsin-Madison)\, Aditya Ak
  ella (University of Wisconsin-Madison)\, Ratul Mahajan (Microsoft Research
@@ -1119,7 +1120,7 @@ SUMMARY:SIGCOMM: Session 7 - Networked Applications
 DTSTART;VALUE=DATE-TIME:20160824T161000
 DTEND;VALUE=DATE-TIME:20160824T172500
 UID:e87507fad5a39f6114cc3815af7de645
-DESCRIPTION:Papers: \n\n
+DESCRIPTION:Chair(s): Nick Feamster (Princeton University)\n\nPapers: \n\n
  * Title: WebPerf: Evaluating What-If Scenarios for Cloud-hosted Web Applic
  ations – Author(s): Yurong Jiang (University of Southern California)\, L
  enin Ravindranath (Microsoft Research)\, Suman Nath (Microsoft Research)\,
@@ -1156,7 +1157,7 @@ SUMMARY:SIGCOMM: Session 8 - Wireless
 DTSTART;VALUE=DATE-TIME:20160825T083000
 DTEND;VALUE=DATE-TIME:20160825T103500
 UID:a93eff6a391f01324150d1b2a3e65b24
-DESCRIPTION:Papers: \n\n* Title
+DESCRIPTION:Chair(s): Bruce Maggs (Duke University)\n\nPapers: \n\n* Title
  : Inter-Technology Backscatter: Towards Internet Connectivity for Implante
  d Devices – Author(s): Vikram Iyer (University of Washington)\, Vamsi Ta
  lla (University of Washington)\, Bryce Kellogg (University of Washington)\
@@ -1184,19 +1185,20 @@ SUMMARY:SIGCOMM: Session 9 - Datacenters II
 DTSTART;VALUE=DATE-TIME:20160825T110500
 DTEND;VALUE=DATE-TIME:20160825T122000
 UID:06a734c705447e52744db23f8fc9f02d
-DESCRIPTION:Papers: \n\n* Title: Virtualized Congestion Control – Author(s): Bryc
- e Cronkite-Ratcliff (VMware / Stanford)\, Aran Bergman (Technion)\, Shay V
- argaftik (Technion)\, Madhusudhan Ravi (VMware)\, Nick McKeown (Stanford)\
- , Ittai Abraham (VMware)\, Isaac Keslassy (VMware / Stanford / Technion)\n
- \n* Title: AC/DC TCP: Virtual Congestion Control Enforcement for Datacente
- r Networks – Author(s): Keqiang He (University of Wisconsin-Madison)\, E
- ric Rozner (IBM Research)\, Kanak Agarwal (IBM)\, Yu (Jason) Gu (IBM)\, We
- s Felter (IBM Research)\, John Carter (IBM)\, Aditya Akella (University of
-  Wisconsin-Madison)\n\n* Title: Taking the Blame Game out of Data Centers 
- Operations with NetPoirot – Author(s): Behnaz Arzani (University of Penn
- sylvania)\, Selim Ciraci (Microsoft)\, Boon Thau Loo (University of Pennsy
- lvania)\, Assaf Schuster (Technion - Israel Institute of Technology)\, Geo
- ff Outhred (Microsoft)
+DESCRIPTION:Chair(s): Sergey Gorinsky (IMDEA Networks Institute)\n\nPapers
+ : \n\n* Title: Virtualized Congestion Control – Author(s): Bryce Cronkit
+ e-Ratcliff (VMware / Stanford)\, Aran Bergman (Technion)\, Shay Vargaftik 
+ (Technion)\, Madhusudhan Ravi (VMware)\, Nick McKeown (Stanford)\, Ittai A
+ braham (VMware)\, Isaac Keslassy (VMware / Stanford / Technion)\n\n* Title
+ : AC/DC TCP: Virtual Congestion Control Enforcement for Datacenter Network
+ s – Author(s): Keqiang He (University of Wisconsin-Madison)\, Eric Rozne
+ r (IBM Research)\, Kanak Agarwal (IBM)\, Yu (Jason) Gu (IBM)\, Wes Felter 
+ (IBM Research)\, John Carter (IBM)\, Aditya Akella (University of Wisconsi
+ n-Madison)\n\n* Title: Taking the Blame Game out of Data Centers Operation
+ s with NetPoirot – Author(s): Behnaz Arzani (University of Pennsylvania)
+ \, Selim Ciraci (Microsoft)\, Boon Thau Loo (University of Pennsylvania)\,
+  Assaf Schuster (Technion - Israel Institute of Technology)\, Geoff Outhre
+ d (Microsoft)
 LOCATION:Room: Diamante
 END:VEVENT
 BEGIN:VEVENT
@@ -1204,7 +1206,7 @@ SUMMARY:SIGCOMM: Session 10 - Censorship and Choice
 DTSTART;VALUE=DATE-TIME:20160825T133000
 DTEND;VALUE=DATE-TIME:20160825T144500
 UID:873364798b9543f1a6442a1227cba8b7
-DESCRIPTION:Papers: \n\n
+DESCRIPTION:Chair(s): Nick Feamster (Princeton University)\n\nPapers: \n\n
  * Title: An Internet-Wide Analysis of Traffic Policing – Author(s): Tobi
  as Flach (University of Southern California / Google)\, Pavlos Papageorge 
  (Google)\, Andreas Terzis (Google)\, Luis Pedrosa (University of Southern 
@@ -1233,7 +1235,8 @@ SUMMARY:SIGCOMM: Session 11 - SDN & NFV II
 DTSTART;VALUE=DATE-TIME:20160825T154500
 DTEND;VALUE=DATE-TIME:20160825T170000
 UID:b79092235a8ade8322ce78850ba8ded2
-DESCRIPTION:Papers: \n\n* Title: OpenBox: A Software-Defined Framework for Developing\,
+DESCRIPTION:Chair(s): Aditya Akella (University of Wisconsin Madison)\n\nP
+ apers: \n\n* Title: OpenBox: A Software-Defined Framework for Developing\,
   Deploying\, and Managing Network Functions – Author(s): Anat Bremler-Ba
  rr (The Interdisciplinary Center\, Herzliya)\, Yotam Harchol (The Hebrew U
  niversity of Jerusalem)\, David Hay (The Hebrew University of Jerusalem)\n
@@ -1257,13 +1260,13 @@ SUMMARY:SIGCOMM: Best of CCR
 DTSTART;VALUE=DATE-TIME:20160825T170000
 DTEND;VALUE=DATE-TIME:20160825T175000
 UID:120e1f85cf4357a8c008bf96909d9f16
-DESCRIPTION:Papers: \n\n* Title: CrowdSurf: Empowering Transparency in the
-  Web – Author(s): H. Metwalley (Politecnico di Torino)\, S. Traverso (Po
- litecnico di Torino)\, M. Mellia (Politecnico di Torino)\, S. Miskovic (Sy
- mantec Corp.)\, M. Baldi (Politecnico di Torino)\n\n* Title: Values and Ne
- tworks: Steps Toward Exploring their Relationships – Author(s): Carsten 
- Orwat (Karlsruhe Institute of Technology)\, Roland Bless (Karlsruhe Instit
- ute of Technology)
+DESCRIPTION:Chair(s): Srinivasan Keshav (University of Waterloo)\n\nPapers
+ : \n\n* Title: CrowdSurf: Empowering Transparency in the Web – Author(s)
+ : H. Metwalley (Politecnico di Torino)\, S. Traverso (Politecnico di Torin
+ o)\, M. Mellia (Politecnico di Torino)\, S. Miskovic (Symantec Corp.)\, M.
+  Baldi (Politecnico di Torino)\n\n* Title: Values and Networks: Steps Towa
+ rd Exploring their Relationships – Author(s): Carsten Orwat (Karlsruhe I
+ nstitute of Technology)\, Roland Bless (Karlsruhe Institute of Technology)
 LOCATION:Room: Diamante
 END:VEVENT
 BEGIN:VEVENT
