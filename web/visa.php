@@ -38,7 +38,7 @@ In order to foster tourism during the Summer Olympic Games 2016, the Brazilian g
 between June 1st and September 18th (therefore including SIGCOMM).
 The maximum period of stay is 90 days after first entry, non-extendable. Nationals from these four countries will not be
 required to hold tickets for the Olympic Games to benefit from the visa waiver.
-If in doubt, please consult the nearest <a href="http://www.portalconsular.mre.gov.br/sites-dos-postos/por-ordem-alfabetica" rel="external" target="sigcomm_visa_info" >Brazilian Consulate</a> to find out whether a visa is required in your case.
+Please consult the nearest <a href="http://www.portalconsular.mre.gov.br/sites-dos-postos/por-ordem-alfabetica" rel="external" target="sigcomm_visa_info" >Brazilian Consulate</a> to find out whether a visa is required in your case.
 
 <h2><a name="cat_c"></a>C. Countries Without Visa Waiver</h2>
 
