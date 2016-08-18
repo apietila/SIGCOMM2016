@@ -15,6 +15,7 @@
       tprog_add_paper("One Sketch to Rule Them All: Rethinking Network Flow Monitoring with UnivMon", "Z. Liu (Johns Hopkins University), A. Manousis (Carnegie Mellon University), G. Vorsanger (Johns Hopkins University), V. Sekar (Carnegie Mellon University), V. Braverman (Johns Hopkins University)", "", "", "", "", "prog-thursday");
       tprog_add_paper("Neutral Net Neutrality", "Y. Yiakoumis (Stanford University), S. Katti (Stanford University), N. McKeown (Stanford University)", "", "", "", "", "prog-thursday");
       tprog_add_paper("ProjecToR: Agile Reconfigurable Data Center Interconnect", "Monia Ghobadi, Ratul Mahajan, Amar Phanishayee, Nikhil Devanur, Janardhan Kulkarni, Gireeja Ranade (Microsoft Research), Pierre-Alexandre Blanche, Houman Rastegarfar, Madeleine Glick, Daniel Kilper (University of Arizona), Presented by&nbsp;Ryan Beckett (Princeton University)", "", "", "", "", "prog-thursday");
+      tprog_add_paper("SymNet: Scalable symbolic execution for modern networks", "Radu Stoenescu, Matei Popovici, Lorina Negreanu, Costin Raiciu (University Politehnica of Bucharest)", "", "", "", "", "prog-thursday");
 ?>
     </ul>
   </div>

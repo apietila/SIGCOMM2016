@@ -8,7 +8,7 @@
      $conferenceItems = array("program.php", "pc.php", "papers.php", "posterprogram.php", "demoprogram.php", "src.php", "industrialdemoprogram.php", "maintrackposterprogram.php", "preview.php", "mentoring.php", "socialevents.php");
      $workshopItems = array ("gaia.php", "hotmiddlebox.php", "qoe.php", "lancomm.php", "netpl.php", "workshops.php");
      $tutorialItems = array("tutorial-im.php", "tutorial-wimobnet.php", "tutorial-iptv.php", "tutorial-p4.php", "tutorial-sdnnfv5g.php", "tutorials.php");
-     $localItems = array ("local.php", "travel.php", "visa.php", "hotel.php", "roomshare.php", "tourism.php", "advisory.php"); //, "poll.php"
+     $localItems = array ("local.php", "travel.php", "arrival.php", "visa.php", "hotel.php", "roomshare.php", "tourism.php", "advisory.php"); //, "poll.php"
      $organizationItems = array ("organization.php", "policies.php");
      $cfpItems = array("cfp.php", "submission.php", "postersdemos.php", "industrialdemos.php", "cfwp.php", "cft.php", "travelgrants.php", "n2women.php", "n2women-award.php");
      
@@ -114,6 +114,10 @@
          <?php if (in_array ($mypage, $localItems)) echo('data-collapsed="false"') ?> class="navgroup">
       <h4>Local Information</h4>
       <ul data-role="listview" data-inset="false">
+        <li class="subnav <?php if ($mypage=="assistance.php") echo('navselected') ?>" data-icon="false">
+          <a href="assistance.php">Before Departure</a>
+        </li>
+
         <li class="subnav <?php if ($mypage=="travel.php") echo('navselected') ?>" data-icon="false">
           <a href="travel.php">Venue and Travel</a>
         </li>

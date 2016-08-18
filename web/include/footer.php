@@ -18,7 +18,7 @@
     <img src='images/sponsors/facebook.png' alt='cached' class='hidden'>
     <img src='images/sponsors/google.png' alt='cached' class='hidden'>
     <img src='images/sponsors/akamai.png' alt='cached' class='hidden'>
-    <img src='images/sponsors/hp.png' alt='cached' class='hidden'>
+    <img src='images/sponsors/hpe.png' alt='cached' class='hidden'>
     <img src='images/sponsors/netapp.jpeg' alt='cached' class='hidden'>
     <img src='images/sponsors/telefonica.png' alt='cached' class='hidden'>
     <img src='images/sponsors/vmware.jpg' alt='cached' class='hidden'>
@@ -37,7 +37,7 @@
         [100, "google.png", "http://www.google.com/", "google", 0, 329, 1000],
         [100, "cgi_br_nic_br.jpg", "http://cgi.br/about/", "cgi.br", 0, 300, 900],
         [50, "akamai.png", "http://www.akamai.com/", "akamai", 0, 195, 450],
-        [10, "hp.png", "http://www.hp.com/", "hp", 0, 400, 400],
+        [10, "hpe.png", "http://www.hpe.com/", "hp", 0, 180, 360],
         [10, "telefonica.png", "http://www.tid.es/", "telefonica", 0, 152, 250],
         [10, "vmware.jpg", "http://www.vmware.com/", "vmware", 0, 100, 420],
         [10, "netapp.jpeg", "http://www.netapp.com/", "netapp", 0, 478, 1200],

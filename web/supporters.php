@@ -87,7 +87,7 @@
                &nbsp;
             </td>
             <td align="center" width="30%">
-               <a href="//www.hp.com/"><img src="images/sponsors/hp.png" alt="Hewlett-Packard" style="width: 50%;"/></a>
+               <a href="//www.hpe.com/"><img src="images/sponsors/hpe.png" alt="Hewlett Packard Enterprise" style="width: 90%;"/></a>
             </td>
             <td align="center"  width="30%">
                <a href="//www.netapp.com/"><img src="images/sponsors/netapp.jpeg" alt="NetApp" style="width: 90%;"/></a>

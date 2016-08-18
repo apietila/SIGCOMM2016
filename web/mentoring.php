@@ -44,6 +44,30 @@
 <h2>Organizers</h2>
 
 <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="tbl">
+  <li data-role="list-divider">SIGCOMM 2016 Mentors</li>
+  <?php
+     add_listitem("Aditya Akella", "University of Wisconsin Madison, USA", "http://pages.cs.wisc.edu/~akella/");
+     add_listitem("Jack Brassil", "NSF/Princeton, USA","http://www.cs.princeton.edu/~jbrassil/");
+     add_listitem("Marco Canini", "KAUST, KSA", "http://perso.uclouvain.be/marco.canini/");
+     add_listitem("David Choffnes", "Northeastern University, USA", "http://www.ccs.neu.edu/people/faculty/member/choffnes/");
+     add_listitem("Jon Crowcroft", "University of Cambridge, UK", "http://www.cl.cam.ac.uk/~jac22/");
+     add_listitem("Nate Foster", "Cornell University, USA", "http://www.cs.cornell.edu/~jnfoster/");
+     add_listitem("Sergey Gorinsky","IMDEA Networks Institute, Spain","http://people.networks.imdea.org/~sergey_gorinsky/");
+     add_listitem("Aleksander Kuzmonovich","Northwestern University, USA","http://www.cs.northwestern.edu/~akuzma/");
+     add_listitem("Te-Yuan Huang", "Netflix, USA", "");
+     add_listitem("Bruce Maggs", "Duke University, USA", "https://users.cs.duke.edu/~bmm/");
+     add_listitem("Craig Partridge", "Raytheon BBN Technologies, USA", "http://www.ir.bbn.com/~craig/");
+     add_listitem("Robert Ricci", "University of Utah, USA", "http://www.flux.utah.edu/users/ricci/");
+     add_listitem("Alex Snoeren", "UC San Diego, USA", "http://cseweb.ucsd.edu/~snoeren/");
+     add_listitem("Renata Teixeira", "Inria, France", "https://who.rocq.inria.fr/Renata.Teixeira/");
+     add_listitem("Kobus Van der Merwe", "University of Utah, USA", "https://www.cs.utah.edu/~kobus/");
+     add_listitem("Hakim Weatherspoon", "Cornell University, USA", "http://www.cs.cornell.edu/~hweather/");
+  ?>
+</ul>
+
+<h2>Organizers</h2>
+
+<ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="tbl">
   <li data-role="list-divider">Mentoring Chairs</li>
   <?php
      add_listitem("Fahad Dogar", "Tufts University, USA", "http://www.cs.tufts.edu/Faculty/fahad-dogar.html");

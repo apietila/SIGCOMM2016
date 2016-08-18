@@ -502,7 +502,9 @@ DESCRIPTION:Posters: \n\n* Title: Don't Mind the Gap: Bridging Network-wid
  jan\, Amar Phanishayee\, Nikhil Devanur\, Janardhan Kulkarni\, Gireeja Ran
  ade (Microsoft Research)\, Pierre-Alexandre Blanche\, Houman Rastegarfar\,
   Madeleine Glick\, Daniel Kilper (University of Arizona)\, Presented by R
- yan Beckett (Princeton University)
+ yan Beckett (Princeton University)\n\n* Title: SymNet: Scalable symbolic e
+ xecution for modern networks – Author(s): Radu Stoenescu\, Matei Popovic
+ i\, Lorina Negreanu\, Costin Raiciu (University Politehnica of Bucharest)
 LOCATION:Room: Agata
 END:VEVENT
 BEGIN:VEVENT
@@ -862,11 +864,18 @@ DESCRIPTION:
 LOCATION:Room: Agata 2
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:SIGCOMM: Topic Preview 1 - SDN\, NFV\, DCN\, TCP\, Scheduling
+SUMMARY:SIGCOMM: Topic Preview 1
 DTSTART;VALUE=DATE-TIME:20160822T173000
 DTEND;VALUE=DATE-TIME:20160822T184500
 UID:c4de78bce7a44fef121988ea672a2ef0
-DESCRIPTION:
+DESCRIPTION:Talks: \n\n* Title: 5:30pm-5:45pm &mdash\; Scheduling – Spea
+ ker(s): Isaac Keslassy (Technion)\n\n* Title: 5:45pm-6:00pm &mdash\; SDN/N
+ FV 1: Software Defined Networking and Network Function Virtualization – 
+ Speaker(s): Christian Esteve Rothenberg (University of Campinas)\n\n* Titl
+ e: 6:00pm-6:15pm &mdash\; SDN/NFV 2: Software Defined Networking and Netwo
+ rk Function Virtualization – Speaker(s): Rodrigo Fonseca (Brown Universi
+ ty)\n\n* Title: 6:15pm-6:30pm &mdash\; DCN 1: Datacenter Networking – Sp
+ eaker(s): Hakim Weatherspoon (Cornell)
 LOCATION:Room: Agata 1 and Agata 2
 END:VEVENT
 BEGIN:VEVENT
@@ -1074,12 +1083,16 @@ DESCRIPTION:Chair(s): Alex Snoren (UC San Diego)\n\nPapers: \n\n* Title: G
 LOCATION:Room: Diamante
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:SIGCOMM: Topic Preview 2 - Wireless\, Verification\, Censorship/Ch
- oice
-DTSTART;VALUE=DATE-TIME:20160824T122000
+SUMMARY:SIGCOMM: Topic Preview 2
+DTSTART;VALUE=DATE-TIME:20160824T124000
 DTEND;VALUE=DATE-TIME:20160824T133000
 UID:11d4928106acea9a18727c08ec039d2f
-DESCRIPTION:
+DESCRIPTION:Talks: \n\n* Title: 12:40pm-12:54pm &mdash\; Wireless – Spea
+ ker(s): Vamsi Talla (University of Washington)\n\n* Title: 12:54pm-1:06pm 
+ &mdash\; Verification – Speaker(s): Zach Tatlock (University of Washingt
+ on)\n\n* Title: 1:06pm-1:18pm &mdash\; DCN 2/TCP: Datacenter Networking & 
+ TCP – Speaker(s): Tobias Flach (USC/Google)\n\n* Title: 1:18pm-1:30pm &m
+ dash\; Policies and Neutrality – Speaker(s): Te-Yuan Huang (Netflix)
 LOCATION:Room: Esmeralda 1 and Esmeralda 2
 END:VEVENT
 BEGIN:VEVENT
