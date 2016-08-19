@@ -8,8 +8,7 @@
      $conferenceItems = array("program.php", "pc.php", "papers.php", "posterprogram.php", "demoprogram.php", "src.php", "industrialdemoprogram.php", "maintrackposterprogram.php", "preview.php", "mentoring.php", "socialevents.php");
      $workshopItems = array ("gaia.php", "hotmiddlebox.php", "qoe.php", "lancomm.php", "netpl.php", "workshops.php");
      $tutorialItems = array("tutorial-im.php", "tutorial-wimobnet.php", "tutorial-iptv.php", "tutorial-p4.php", "tutorial-sdnnfv5g.php", "tutorials.php");
-     $localItems = array ("local.php", "restaurants.php", "travel.php", "arrival.php", "visa.php", "hotel.php", "roomshare.php", "tourism.php", "advisory.php"); //, "poll.php"
-     $organizationItems = array ("organization.php", "policies.php");
+     $localItems = array ("local.php", "restaurants.php", "travel.php", "arrival.php", "visa.php", "hotel.php", "roomshare.php", "tourism.php", "advisory.php", "assistance.php"); //, "poll.php"
      $cfpItems = array("cfp.php", "submission.php", "postersdemos.php", "industrialdemos.php", "cfwp.php", "cft.php", "travelgrants.php", "n2women.php", "n2women-award.php");
      
 ?>
@@ -148,20 +147,13 @@
       </ul>
     </div>
 
-    <div data-role="collapsible" data-theme="a" data-content-theme="a" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u" data-iconpos="right"
-         <?php if (in_array($mypage, $organizationItems)) echo('data-collapsed="false"') ?> class="navgroup">
-      <h4>Organization</h4>
-      <ul data-role="listview" data-inset="false">
-        <li class="subnav <?php if ($mypage=="organization.php") echo('navselected') ?>" data-icon="false">
-          <a href="organization.php">Organization Committee</a>
-        </li>
+    <li class="notlast <?php if ($mypage=="organization.php") echo('navselected') ?>" data-icon="false">
+      <a href="organization.php">Organization Committee</a>
+    </li>
 
-        <?php // TODO: is this still required ? If not, move the organisation.php to top level menuitem. ?>
-        <li class="subnav <?php if ($mypage=="policies.php") echo('navselected') ?>" data-icon="false">
-          <a href="policies.php">Policies</a>
-        </li>
-      </ul>
-    </div>
+    <li class="notlast <?php if ($mypage=="policies.php") echo('navselected') ?>" data-icon="false">
+      <a href="policies.php">Anti-harassment Policy</a>
+    </li>
 
     <div data-role="collapsible" data-theme="a" data-content-theme="a" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u" data-iconpos="right"
          <?php if (in_array($mypage, $cfpItems)) echo('data-collapsed="false"') ?> class="navgroup listlast">
