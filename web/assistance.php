@@ -15,4 +15,8 @@
 
 <p><font color="#ff0000"><b>Attention all attendees:</b></font> If you would like to arrange for shared transportation (and/or lodging) with other attendees, then consider subscribing to the <a href="roomshare.php">sigcomm-roomshare-l</a> discussion list.</p>
 
+<h2>Travel Tips and Advisory</h2>
+
+<p>We prepared a <a href="files/travel-tips.pdf" rel="external">flyer containing useful information</a> regarding your trip to Brazil and Florian&oacute;polis (including currency exchange, smartphone apps you may use to call a taxi, information on electricity voltage, etc.) We kindly ask you to print a copy for your reference. Should you have any questions, please contact us directly.</p>
+
 <?php include("include/footer.php"); ?>

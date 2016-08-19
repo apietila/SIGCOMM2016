@@ -5,18 +5,6 @@
 
 <h1>Venue and Travel Information</h1>
 
-<h2>Oceania Convention Center</h2>
-
-<div class="center">
-  <img src="images/florianopolis/centro-convencoes-12.jpg" class="img"></img>
-  <img src="images/florianopolis/centro-convencoes-13.jpg" class="img"></img>
-  <img src="images/florianopolis/centro-convencoes-14.jpg" class="img"></img>
-  <img src="images/florianopolis/centro-convencoes-16.jpg" class="img"></img>
-</div>
-
-<p>
-SIGCOMM 2016 conference will be hosted at the <a target="_blank" href="http://www.oceaniaparkhotel.com.br/centro-convencoes/">Oceania Convention Center</a>. It is located very close to <i>Praia dos Ingleses</i>, one of the most famous beaches in the northern region of Florian&oacute;polis. The surroundings have plenty of hotels, restaurants, and other conveniences for business and tourist visitors.</p>
-
 <h2>Travel Information</h2>
 
 <p>
@@ -66,4 +54,16 @@ Taxi fare from Hercilio Luz In&#39;l Airport to Ingleses District is estimated (
   <li><a href="http://eng.movida.com.br/lojas/detalhe.php?id=164">Movida &mdash; Florian&oacute;polis Aeroporto (Externo)</a></li>
 </ul>
   
+<h2>Oceania Convention Center</h2>
+
+<div class="center">
+  <img src="images/florianopolis/centro-convencoes-12.jpg" class="img"></img>
+  <img src="images/florianopolis/centro-convencoes-13.jpg" class="img"></img>
+  <img src="images/florianopolis/centro-convencoes-14.jpg" class="img"></img>
+  <img src="images/florianopolis/centro-convencoes-16.jpg" class="img"></img>
+</div>
+
+<p>
+SIGCOMM 2016 conference will be hosted at the <a target="_blank" href="http://www.oceaniaparkhotel.com.br/centro-convencoes/">Oceania Convention Center</a>. It is located very close to <i>Praia dos Ingleses</i>, one of the most famous beaches in the northern region of Florian&oacute;polis. The surroundings have plenty of hotels, restaurants, and other conveniences for business and tourist visitors.</p>
+
 <?php include ("include/footer.php"); ?>
