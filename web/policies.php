@@ -72,8 +72,9 @@ severe consequences.
 <h2>Follow up</h2>
 
 <p>
-All reports of alleged harassment will be addressed expeditiously and jointly by the SIGCOMM Executive 
-Committee (EC) and General Chair(s) of the conference where the event took place. These officers will 
+All reports of alleged harassment will be addressed expeditiously and jointly by the SIGCOMM Chair and 
+Vice Chair, representing the Executive Committee (EC), and General Chair(s) of the conference where 
+the event took place. These officers will 
 determine if any inappropriate conduct has occurred. If they determine that such conduct has occurred, 
 the EC will issue a written warning to the offender. Note that the EC reserves the right to expel or 
 ban offenders without prior warning. Moreover, the EC may warn a given offender no more than twice 
