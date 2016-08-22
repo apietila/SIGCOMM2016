@@ -1,5 +1,5 @@
 <?php
-    $page_title="ACM SIGCOMM Harassment Policy";
+    $page_title="ACM SIGCOMM Anti-Harassment Policy";
     include("include/header.php");
 ?>
 
