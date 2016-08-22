@@ -5,10 +5,6 @@
 
 <h1>Poster Sessions</h1>
 
-<h2>Location</h2>
-
-<p>The poster sesssions will take place in the Room Topazio.</p>
-
 <h2>Technical Program</h2>
 
 <div id="prog_ctrl" data-role="navbar">

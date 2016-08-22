@@ -5,10 +5,6 @@
 
 <h1>Demo Sessions</h1>
 
-<h2>Location</h2>
-
-<p>The demo sesssions will take place in the Room Agata.</p>
-
 <h2>Technical Program</h2>
 
 <div id="prog_ctrl" data-role="navbar">

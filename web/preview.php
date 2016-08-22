@@ -11,10 +11,6 @@ of acronyms (CDN, DCN, SDN?) Join us for the SIGCOMM preview sessions in which
 experts will give short introductions on a variety of topics to enhance your understanding
 of this year's paper presentations.</p>
 
-<h2>Location</h2>
-
-<p>The monday sesssion will take place in the room Topazio 1 and Topazio 2, and the wednesday session in the room Esmeralda 1 and Esmeralda 2.</p>
-
 <h2>Program</h2>
 
 <div id="prog_ctrl" data-role="navbar">
