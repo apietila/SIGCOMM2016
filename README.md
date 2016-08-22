@@ -38,7 +38,7 @@ You are welcome to reuse and adapt the 2016 code under the same Creative Commons
 
 The 2016 web chairs were 
 Anna-Kaisa Pietilainen <annakaisa.pietilainen@gmail.com> and 
-Weverton Cordeira <weverton.cordeiro@inf.ufrgs.br>.
+Weverton Cordeiro <weverton.cordeiro@inf.ufrgs.br>.
 
 
 ## Overview
