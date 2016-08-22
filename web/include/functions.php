@@ -95,7 +95,7 @@ function tprog_add_header($time, $progitemclass = "") {
 
 }
 
-function tprog_add_session($time, $title, $chair="", $style="", $progitemclass = "", $last = false) {
+function tprog_add_session($time, $title, $chair="", $room="", $style="", $progitemclass = "", $last = false) {
 
     if (!$style)
       $style = preg_match('/lunch|coffee/i', $title) ? "b" : "a";
@@ -106,6 +106,8 @@ function tprog_add_session($time, $title, $chair="", $style="", $progitemclass =
      <li class="ui-li ui-bar-<?php echo $style ?> prog-item ui-li-divider <?php echo $progitemclass . " " .($last ? "listlast" : "") ?>" data-role="list-divider">
        <h3><?php echo $time . " " . $title ?></h3>
        <?php if ($chair) { ?><p>Session Chair: <?php echo $chair ?></p><?php } ?>
+       <?php if ($room) { ?><p>Room: <?php echo $room ?></p><?php } ?>
+       
      </li>
      <?php // a list divider is not visible if not followed by an ordinary item,
            // when data-filter is true. workaround: included an invisible li.
