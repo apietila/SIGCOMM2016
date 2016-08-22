@@ -152,7 +152,7 @@
     </li>
 
     <li class="notlast <?php if ($mypage=="policies.php") echo('navselected') ?>" data-icon="false">
-      <a href="policies.php">Anti-harassment Policy</a>
+      <a href="policies.php">Anti-Harassment Policy</a>
     </li>
 
     <div data-role="collapsible" data-theme="a" data-content-theme="a" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u" data-iconpos="right"

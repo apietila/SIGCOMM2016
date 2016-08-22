@@ -3,7 +3,7 @@
     include("include/header.php");
 ?>
 
-<h1>ACM SIGCOMM Harassment Policy</h1>
+<h1>ACM SIGCOMM Anti-Harassment Policy</h1>
 
 <h2>Motivation</h2>
 
@@ -36,7 +36,7 @@ pressured to accept a social invitation from a senior member, or be reluctant to
 uncomfortable. This inducement of discomfort in a junior member by a senior member may constitute harassment.
 </p>
 
-<h2>Reporting of harassment</h2>
+<h2>Reporting of Harassment</h2>
 
 <p>
 If you believe you have been harassed or notice that someone else is being harassed, you are encouraged 
@@ -69,7 +69,7 @@ Anyone asked to stop harassing behavior is expected to comply immediately. Acts 
 severe consequences.
 </p>
  
-<h2>Follow up</h2>
+<h2>Follow Up</h2>
 
 <p>
 All reports of alleged harassment will be addressed expeditiously and jointly by the SIGCOMM Chair and 
