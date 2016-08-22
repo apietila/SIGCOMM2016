@@ -28,11 +28,9 @@
          <?php if (in_array ($mypage, $conferenceItems)) echo('data-collapsed="false"') ?> class="navgroup">
       <h4>Conference</h4>
       <ul data-role="listview" data-inset="false">
-         <?php /* Weverton: Currently Offline
          <li class="subnav <?php if ($mypage=="streaming.php") echo('navselected') ?>" data-icon="false">
            <a href="streaming.php">Live Streaming</a>
         </li>
-        */ ?>
          <li class="subnav <?php if ($mypage=="program.php") echo('navselected') ?>" data-icon="false">
            <a href="program.php">Program</a>
         </li>
@@ -119,7 +117,7 @@
       <h4>Local Information</h4>
       <ul data-role="listview" data-inset="false">
         <li class="subnav <?php if ($mypage=="assistance.php") echo('navselected') ?>" data-icon="false">
-          <a href="assistance.php">Before Departure</a>
+          <a href="assistance.php">Travel Assistance</a>
         </li>
 
         <li class="subnav <?php if ($mypage=="travel.php") echo('navselected') ?>" data-icon="false">

@@ -373,7 +373,7 @@ DTSTART;VALUE=DATE-TIME:20160822T083000
 DTEND;VALUE=DATE-TIME:20160822T084500
 UID:9daa729d679611a47d7a647ed189062d
 DESCRIPTION:
-LOCATION:Room: Agata 1
+LOCATION:Room: Agata 2
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LANCOMM Workshop: Session 1: Network Measurements
@@ -394,7 +394,7 @@ DESCRIPTION:Papers: \n\n* Title: Big-DAMA: Big Data Analytics for Network
  zil – Author(s): D. Mendes\, G. Senges\, G. Santos\, G. Mendonça\, R. L
  eão\, E. Silva\n\n* Discussion: Synergies in Network Measurements Researc
  h
-LOCATION:Room: Agata 1
+LOCATION:Room: Agata 2
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LANCOMM Workshop: Session 2: SDN & NVF
@@ -414,7 +414,7 @@ DESCRIPTION:Papers: \n\n* Title: SDN-based Overlay Networks for QoS-aware
  J. Marquez-Barja\, N. Kaminski\, L. DaSilva\n\n* Title: Avoiding Voice Tra
  ffic Degradation in IP Enterprise Networks Using CAoS – Author(s): P. Ma
  ribondo\, N. Fernandes\n\n* Discussion: Synergies in SDN/NFV Research
-LOCATION:Room: Agata 1
+LOCATION:Room: Agata 2
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LANCOMM Workshop: Session 3: Network Modelling\, Monitoring and An
@@ -437,14 +437,14 @@ DESCRIPTION:Papers: \n\n* Title: Improving Performance of Multiple-level C
   Routines in Legacy Organizations – Author(s): E. Azevedo\, M. Machado\,
   R. Melo\, R. Aschoff\, D. Sadok\, U. Carmo\n\n* Discussion: Synergies in 
  Network Modeling\, Monitoring and Analysis Research
-LOCATION:Room: Agata 1
+LOCATION:Room: Agata 2
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LANCOMM Workshop: Wrap-up\, Planning of Next Steps\, and Closing
 DTSTART;VALUE=DATE-TIME:20160822T170000
 UID:eace31c61a74bb2d842dfa8ad99306d3
 DESCRIPTION:
-LOCATION:Room: Agata 1
+LOCATION:Room: Agata 2
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:SIGCOMM Main Track Posters: Posters/Demos from Main Track - Presen
@@ -511,7 +511,7 @@ DTSTART;VALUE=DATE-TIME:20160822T090000
 DTEND;VALUE=DATE-TIME:20160822T091500
 UID:ffb5f51785948b351a4e9cc9b11c7461
 DESCRIPTION:
-LOCATION:Room: Agata 2
+LOCATION:Room: Topazio 1 and 2
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:NetPL Workshop: Languages that will come ...
@@ -583,7 +583,7 @@ DESCRIPTION:Chair(s): Marco Canini (KAUST\, KSA)\n\n* Keynote Title:\nUpda
  d\, a Most Influential POPL Paper Award\, a Tien &#39\;72 Teaching Award\,
   a Google Research Award\, a Yahoo! Academic Career Enhancement Award\, an
  d the Morris and Dorothy Rubinoff Award.\n\n
-LOCATION:Room: Agata 2
+LOCATION:Room: Topazio 1 and 2
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:NetPL Workshop: ... for the needs of today and tomorrow
@@ -644,38 +644,39 @@ DESCRIPTION:Chair(s): Nik Sultana (University of Cambridge)\n\n* Keynote T
  top-level specification\, adding details of the topology\, routing\, fault
   recovery\, etc.\, until reaching a level of detail sufficient for the Coc
  oon compiler to generate an SDN application that manages network switches 
- via the southbound interface.\n\n* Keynote Title:\nNEMO Engine\, A Model D
- riven Compiler to Execute User&#39\;s Intent and Manage Service Lifecycle 
- by Multi Layer State Machine\n\nSpeaker:\nYinben Xia (Huawei Technologies)
- \n\nAbstract:\nIn last year&#39\;s NetPL workshop\, I introduced an intent
-  oriented network service programming language - NEMO. This time\, I will 
- introduce NEMO&#39\;s model driven compiler\, which compiles intent langua
- ge to real network executable interface. Second\, I will introduce a multi
-  layer state machine engine in NEMO compiler\, which will handle various c
- hanges from equipments\, requirement or governance policy. This engine pro
- vides an automatic change management capability for whole service lifecycl
- e. In the last\, I will update NEMO&#39\;s open source implementation prog
- ress.\n\nSpeaker Bio:\nDr. Yinben Xia is a senior staff researcher within 
- Huawei&#39\;s network research department from 2008. He dedicated his rese
- arch effort in network architecture and SDN technologies. In recent two ye
- ars\, he lead a team to design and developer a NaaS (Network as a Service)
-  programming language (NEMO Project). He owns 15 patents in related domain
- . He is leading a team to carry out SDN/NEMO research in Beijing. Before j
- oining Huawei\, Dr. Xia worked at IBM China Research Lab for 4 years after
-  he got PH.D from Beijing University of Aeronautics and Astronautics.\n\n*
-  Keynote Title:\nInteractive Query for Dynamic Network Analytics\n\nSpeake
- r:\nHaoyu Song (Huawei Technologies)\n\nAbstract:\nNetwork data plane need
- s to be interactively programmed in order to support Dynamic Network Analy
- tics (DNA). We envision the high level DNA applications can be break down 
- into a set of queries and the queries can be further compiled into increme
- ntal configurations to the data plane. We emphasize the need to define sta
- ndard DNA APIs and/or query language for DNA system.\n\nSpeaker Bio:\nHaoy
- u Song is a principal architect at Huawei Technologies. He is a leading re
- searcher on SDN programmable data plane. His current research interests sp
- an all aspects of the SDN/NFV ecosystem. He was a researcher at Bell Labs\
- , Alcatel-Lucent before joining Huawei. He hold a doctoral degree in compu
- ter engineering from Washington University in St. Louis.\n\n
-LOCATION:Room: Agata 2
+ via the southbound interface.\n\n* Keynote Title:\n(Cancelled due to fligh
+ t issues) <s>NEMO Engine\, A Model Driven Compiler to Execute User&#39\;s 
+ Intent and Manage Service Lifecycle by Multi Layer State Machine</s>\n\nSp
+ eaker:\nYinben Xia (Huawei Technologies)\n\nAbstract:\nIn last year&#39\;s
+  NetPL workshop\, I introduced an intent oriented network service programm
+ ing language - NEMO. This time\, I will introduce NEMO&#39\;s model driven
+  compiler\, which compiles intent language to real network executable inte
+ rface. Second\, I will introduce a multi layer state machine engine in NEM
+ O compiler\, which will handle various changes from equipments\, requireme
+ nt or governance policy. This engine provides an automatic change manageme
+ nt capability for whole service lifecycle. In the last\, I will update NEM
+ O&#39\;s open source implementation progress.\n\nSpeaker Bio:\nDr. Yinben 
+ Xia is a senior staff researcher within Huawei&#39\;s network research dep
+ artment from 2008. He dedicated his research effort in network architectur
+ e and SDN technologies. In recent two years\, he lead a team to design and
+  developer a NaaS (Network as a Service) programming language (NEMO Projec
+ t). He owns 15 patents in related domain. He is leading a team to carry ou
+ t SDN/NEMO research in Beijing. Before joining Huawei\, Dr. Xia worked at 
+ IBM China Research Lab for 4 years after he got PH.D from Beijing Universi
+ ty of Aeronautics and Astronautics.\n\n* Keynote Title:\n(Cancelled due to
+  flight issues) <s>Interactive Query for Dynamic Network Analytics</s>\n\n
+ Speaker:\nHaoyu Song (Huawei Technologies)\n\nAbstract:\nNetwork data plan
+ e needs to be interactively programmed in order to support Dynamic Network
+  Analytics (DNA). We envision the high level DNA applications can be break
+  down into a set of queries and the queries can be further compiled into i
+ ncremental configurations to the data plane. We emphasize the need to defi
+ ne standard DNA APIs and/or query language for DNA system.\n\nSpeaker Bio:
+ \nHaoyu Song is a principal architect at Huawei Technologies. He is a lead
+ ing researcher on SDN programmable data plane. His current research intere
+ sts span all aspects of the SDN/NFV ecosystem. He was a researcher at Bell
+  Labs\, Alcatel-Lucent before joining Huawei. He hold a doctoral degree in
+  computer engineering from Washington University in St. Louis.\n\n
+LOCATION:Room: Topazio 1 and 2
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:NetPL Workshop: With advanced methods to soar ...
@@ -683,7 +684,7 @@ DTSTART;VALUE=DATE-TIME:20160822T140000
 DTEND;VALUE=DATE-TIME:20160822T153000
 UID:7ec11abd2de50d5ac24d0102be954fbe
 DESCRIPTION:Chair(s): Marco Canini (KAUST\, KSA)\n\n* Student Pitches
-LOCATION:Room: Agata 2
+LOCATION:Room: Topazio 1 and 2
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:NetPL Workshop: ... together networking and PL will roar
@@ -692,7 +693,7 @@ DTEND;VALUE=DATE-TIME:20160822T170000
 UID:919c67572861d409f1e676eec671148b
 DESCRIPTION:Chair(s): Nik Sultana (University of Cambridge)\n\n* Closing R
  emarks
-LOCATION:Room: Agata 2
+LOCATION:Room: Topazio 1 and 2
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:SIGCOMM Posters: Session 1 - Poster presenters onsite during coffe
@@ -867,13 +868,13 @@ DTSTART;VALUE=DATE-TIME:20160822T173000
 DTEND;VALUE=DATE-TIME:20160822T184500
 UID:c4de78bce7a44fef121988ea672a2ef0
 DESCRIPTION:Talks: \n\n* Title: 5:30pm-5:45pm &mdash\; Scheduling – Spea
- ker(s): Isaac Keslassy (Technion)\n\n* Title: 5:45pm-6:00pm &mdash\; SDN/N
- FV 1: Software Defined Networking and Network Function Virtualization – 
- Speaker(s): Christian Esteve Rothenberg (University of Campinas)\n\n* Titl
- e: 6:00pm-6:15pm &mdash\; SDN/NFV 2: Software Defined Networking and Netwo
- rk Function Virtualization – Speaker(s): Rodrigo Fonseca (Brown Universi
- ty)\n\n* Title: 6:15pm-6:30pm &mdash\; DCN 1: Datacenter Networking – Sp
- eaker(s): Hakim Weatherspoon (Cornell)
+ ker(s): Isaac Keslassy (Technion/VMWare)\n\n* Title: 5:45pm-6:00pm &mdash\
+ ; SDN/NFV 1: Software Defined Networking and Network Function Virtualizati
+ on – Speaker(s): Christian Esteve Rothenberg (University of Campinas)\n\
+ n* Title: 6:00pm-6:15pm &mdash\; SDN/NFV 2: Software Defined Networking an
+ d Network Function Virtualization – Speaker(s): Rodrigo Fonseca (Brown U
+ niversity)\n\n* Title: 6:15pm-6:30pm &mdash\; DCN 1: Datacenter Networking
+  – Speaker(s): Hakim Weatherspoon (Cornell)
 LOCATION:Room: Agata 1 and Agata 2
 END:VEVENT
 BEGIN:VEVENT
@@ -1295,7 +1296,7 @@ DTEND;VALUE=DATE-TIME:20160822T103000
 UID:9ba8cd28c72d1fe9ba45f2fabdcc06e4
 DESCRIPTION:Presenter(s): Timur Friedman (UPMC Sorbonne Universit&eacute\;
  s\, France)\, Anna-Kaisa Pietilainen\, Renata Teixeira (Inria\, France)
-LOCATION:Room: Topazio 2
+LOCATION:Room: Esmeralda 1
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tutorial: SDN\, NFV and Their Role in 5G: Part 1
@@ -1305,7 +1306,7 @@ UID:e044e149b965916392483140a423d896
 DESCRIPTION:Presenter(s): Katia Obraczka (UC Santa Cruz\, USA)\, Christian
   Rothenberg (UNICAMP\, Brazil)\, Ahmad Rostami (Ericsson Research\, Sweden
  )
-LOCATION:Room: Topazio 1
+LOCATION:Room: Esmeralda 2
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tutorial: Internet Measurements: Part 2
@@ -1314,7 +1315,7 @@ DTEND;VALUE=DATE-TIME:20160822T123000
 UID:44bddd271f091582ebc8c175e1f608ff
 DESCRIPTION:Presenter(s): Timur Friedman (UPMC Sorbonne Universit&eacute\;
  s\, France)\, Anna-Kaisa Pietilainen\, Renata Teixeira (Inria\, France)
-LOCATION:Room: Topazio 2
+LOCATION:Room: Esmeralda 1
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tutorial: SDN\, NFV and Their Role in 5G: Part 2 & Closing
@@ -1324,7 +1325,7 @@ UID:2e0cbcb2065534030b427747de46dd27
 DESCRIPTION:Presenter(s): Katia Obraczka (UC Santa Cruz\, USA)\, Christian
   Rothenberg (UNICAMP\, Brazil)\, Ahmad Rostami (Ericsson Research\, Sweden
  )
-LOCATION:Room: Topazio 1
+LOCATION:Room: Esmeralda 2
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tutorial: Internet Measurements: Part 3
@@ -1333,7 +1334,7 @@ DTEND;VALUE=DATE-TIME:20160822T153000
 UID:839dc00383671f319d3710b1de851577
 DESCRIPTION:Presenter(s): Timur Friedman (UPMC Sorbonne Universit&eacute\;
  s\, France)\, Anna-Kaisa Pietilainen\, Renata Teixeira (Inria\, France)
-LOCATION:Room: Topazio 2
+LOCATION:Room: Esmeralda 1
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tutorial: Internet Measurements: Part 4 & Closing
@@ -1342,7 +1343,7 @@ DTEND;VALUE=DATE-TIME:20160822T173000
 UID:b128fb22d5d3f4736a6703c47de0d9f4
 DESCRIPTION:Presenter(s): Timur Friedman (UPMC Sorbonne Universit&eacute\;
  s\, France)\, Anna-Kaisa Pietilainen\, Renata Teixeira (Inria\, France)
-LOCATION:Room: Topazio 2
+LOCATION:Room: Esmeralda 1
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tutorial: Enabling Research in Future WiMobNet: Part 1

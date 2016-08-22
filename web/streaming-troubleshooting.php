@@ -17,9 +17,9 @@
 
 <p>In a handful of cases (e.g. IE on Windows 7 and 8.1; and Firefox on MAC el Capitan, iPhone iOS 9.34, and Android), the live streaming player did not work properly. In these cases, we recommend that you use Google Chrome to run the live streaming player.</p>
 
-<h2>Firewall</h2>
+<?php /* h2>Firewall</h2>
 
-<p>In case you are behind a firewall, you might need to ask your network administrator to allow ports 1935 and 8081 on your network, and/or the following IP addresses:</p>
+<p>In case you are behind a firewall, you might need to ask your network administrator to allow TCP/UDP ports 1935 and 8081 on your network, and/or the following IP addresses:</p>
 
 <ul>
   <li>192.252.223.5</li>
@@ -28,7 +28,7 @@
   <li>104.236.73.100</li>
   <li>104.236.121.209</li>
   <li>169.57.142.115</li>
-</ul>
+</ul */ ?>
 
 <h2>Contact Us</h2>
 

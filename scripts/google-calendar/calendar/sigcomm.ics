@@ -7,13 +7,13 @@ DTSTART;VALUE=DATE-TIME:20160822T173000
 DTEND;VALUE=DATE-TIME:20160822T184500
 UID:c4de78bce7a44fef121988ea672a2ef0
 DESCRIPTION:Talks: \n\n* Title: 5:30pm-5:45pm &mdash\; Scheduling – Spea
- ker(s): Isaac Keslassy (Technion)\n\n* Title: 5:45pm-6:00pm &mdash\; SDN/N
- FV 1: Software Defined Networking and Network Function Virtualization – 
- Speaker(s): Christian Esteve Rothenberg (University of Campinas)\n\n* Titl
- e: 6:00pm-6:15pm &mdash\; SDN/NFV 2: Software Defined Networking and Netwo
- rk Function Virtualization – Speaker(s): Rodrigo Fonseca (Brown Universi
- ty)\n\n* Title: 6:15pm-6:30pm &mdash\; DCN 1: Datacenter Networking – Sp
- eaker(s): Hakim Weatherspoon (Cornell)
+ ker(s): Isaac Keslassy (Technion/VMWare)\n\n* Title: 5:45pm-6:00pm &mdash\
+ ; SDN/NFV 1: Software Defined Networking and Network Function Virtualizati
+ on – Speaker(s): Christian Esteve Rothenberg (University of Campinas)\n\
+ n* Title: 6:00pm-6:15pm &mdash\; SDN/NFV 2: Software Defined Networking an
+ d Network Function Virtualization – Speaker(s): Rodrigo Fonseca (Brown U
+ niversity)\n\n* Title: 6:15pm-6:30pm &mdash\; DCN 1: Datacenter Networking
+  – Speaker(s): Hakim Weatherspoon (Cornell)
 LOCATION:Room: Agata 1 and Agata 2
 END:VEVENT
 BEGIN:VEVENT

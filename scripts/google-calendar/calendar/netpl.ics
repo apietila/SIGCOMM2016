@@ -7,7 +7,7 @@ DTSTART;VALUE=DATE-TIME:20160822T090000
 DTEND;VALUE=DATE-TIME:20160822T091500
 UID:ffb5f51785948b351a4e9cc9b11c7461
 DESCRIPTION:
-LOCATION:Room: Agata 2
+LOCATION:Room: Topazio 1 and 2
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:NetPL Workshop: Languages that will come ...
@@ -79,7 +79,7 @@ DESCRIPTION:Chair(s): Marco Canini (KAUST\, KSA)\n\n* Keynote Title:\nUpda
  d\, a Most Influential POPL Paper Award\, a Tien &#39\;72 Teaching Award\,
   a Google Research Award\, a Yahoo! Academic Career Enhancement Award\, an
  d the Morris and Dorothy Rubinoff Award.\n\n
-LOCATION:Room: Agata 2
+LOCATION:Room: Topazio 1 and 2
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:NetPL Workshop: ... for the needs of today and tomorrow
@@ -140,38 +140,39 @@ DESCRIPTION:Chair(s): Nik Sultana (University of Cambridge)\n\n* Keynote T
  top-level specification\, adding details of the topology\, routing\, fault
   recovery\, etc.\, until reaching a level of detail sufficient for the Coc
  oon compiler to generate an SDN application that manages network switches 
- via the southbound interface.\n\n* Keynote Title:\nNEMO Engine\, A Model D
- riven Compiler to Execute User&#39\;s Intent and Manage Service Lifecycle 
- by Multi Layer State Machine\n\nSpeaker:\nYinben Xia (Huawei Technologies)
- \n\nAbstract:\nIn last year&#39\;s NetPL workshop\, I introduced an intent
-  oriented network service programming language - NEMO. This time\, I will 
- introduce NEMO&#39\;s model driven compiler\, which compiles intent langua
- ge to real network executable interface. Second\, I will introduce a multi
-  layer state machine engine in NEMO compiler\, which will handle various c
- hanges from equipments\, requirement or governance policy. This engine pro
- vides an automatic change management capability for whole service lifecycl
- e. In the last\, I will update NEMO&#39\;s open source implementation prog
- ress.\n\nSpeaker Bio:\nDr. Yinben Xia is a senior staff researcher within 
- Huawei&#39\;s network research department from 2008. He dedicated his rese
- arch effort in network architecture and SDN technologies. In recent two ye
- ars\, he lead a team to design and developer a NaaS (Network as a Service)
-  programming language (NEMO Project). He owns 15 patents in related domain
- . He is leading a team to carry out SDN/NEMO research in Beijing. Before j
- oining Huawei\, Dr. Xia worked at IBM China Research Lab for 4 years after
-  he got PH.D from Beijing University of Aeronautics and Astronautics.\n\n*
-  Keynote Title:\nInteractive Query for Dynamic Network Analytics\n\nSpeake
- r:\nHaoyu Song (Huawei Technologies)\n\nAbstract:\nNetwork data plane need
- s to be interactively programmed in order to support Dynamic Network Analy
- tics (DNA). We envision the high level DNA applications can be break down 
- into a set of queries and the queries can be further compiled into increme
- ntal configurations to the data plane. We emphasize the need to define sta
- ndard DNA APIs and/or query language for DNA system.\n\nSpeaker Bio:\nHaoy
- u Song is a principal architect at Huawei Technologies. He is a leading re
- searcher on SDN programmable data plane. His current research interests sp
- an all aspects of the SDN/NFV ecosystem. He was a researcher at Bell Labs\
- , Alcatel-Lucent before joining Huawei. He hold a doctoral degree in compu
- ter engineering from Washington University in St. Louis.\n\n
-LOCATION:Room: Agata 2
+ via the southbound interface.\n\n* Keynote Title:\n(Cancelled due to fligh
+ t issues) <s>NEMO Engine\, A Model Driven Compiler to Execute User&#39\;s 
+ Intent and Manage Service Lifecycle by Multi Layer State Machine</s>\n\nSp
+ eaker:\nYinben Xia (Huawei Technologies)\n\nAbstract:\nIn last year&#39\;s
+  NetPL workshop\, I introduced an intent oriented network service programm
+ ing language - NEMO. This time\, I will introduce NEMO&#39\;s model driven
+  compiler\, which compiles intent language to real network executable inte
+ rface. Second\, I will introduce a multi layer state machine engine in NEM
+ O compiler\, which will handle various changes from equipments\, requireme
+ nt or governance policy. This engine provides an automatic change manageme
+ nt capability for whole service lifecycle. In the last\, I will update NEM
+ O&#39\;s open source implementation progress.\n\nSpeaker Bio:\nDr. Yinben 
+ Xia is a senior staff researcher within Huawei&#39\;s network research dep
+ artment from 2008. He dedicated his research effort in network architectur
+ e and SDN technologies. In recent two years\, he lead a team to design and
+  developer a NaaS (Network as a Service) programming language (NEMO Projec
+ t). He owns 15 patents in related domain. He is leading a team to carry ou
+ t SDN/NEMO research in Beijing. Before joining Huawei\, Dr. Xia worked at 
+ IBM China Research Lab for 4 years after he got PH.D from Beijing Universi
+ ty of Aeronautics and Astronautics.\n\n* Keynote Title:\n(Cancelled due to
+  flight issues) <s>Interactive Query for Dynamic Network Analytics</s>\n\n
+ Speaker:\nHaoyu Song (Huawei Technologies)\n\nAbstract:\nNetwork data plan
+ e needs to be interactively programmed in order to support Dynamic Network
+  Analytics (DNA). We envision the high level DNA applications can be break
+  down into a set of queries and the queries can be further compiled into i
+ ncremental configurations to the data plane. We emphasize the need to defi
+ ne standard DNA APIs and/or query language for DNA system.\n\nSpeaker Bio:
+ \nHaoyu Song is a principal architect at Huawei Technologies. He is a lead
+ ing researcher on SDN programmable data plane. His current research intere
+ sts span all aspects of the SDN/NFV ecosystem. He was a researcher at Bell
+  Labs\, Alcatel-Lucent before joining Huawei. He hold a doctoral degree in
+  computer engineering from Washington University in St. Louis.\n\n
+LOCATION:Room: Topazio 1 and 2
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:NetPL Workshop: With advanced methods to soar ...
@@ -179,7 +180,7 @@ DTSTART;VALUE=DATE-TIME:20160822T140000
 DTEND;VALUE=DATE-TIME:20160822T153000
 UID:7ec11abd2de50d5ac24d0102be954fbe
 DESCRIPTION:Chair(s): Marco Canini (KAUST\, KSA)\n\n* Student Pitches
-LOCATION:Room: Agata 2
+LOCATION:Room: Topazio 1 and 2
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:NetPL Workshop: ... together networking and PL will roar
@@ -188,6 +189,6 @@ DTEND;VALUE=DATE-TIME:20160822T170000
 UID:919c67572861d409f1e676eec671148b
 DESCRIPTION:Chair(s): Nik Sultana (University of Cambridge)\n\n* Closing R
  emarks
-LOCATION:Room: Agata 2
+LOCATION:Room: Topazio 1 and 2
 END:VEVENT
 END:VCALENDAR

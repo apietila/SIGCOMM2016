@@ -9,7 +9,7 @@
 
 <h2>Location</h2>
 
-<p>The tutorial will take place at Room Topazio 1.</p>
+<p>The tutorial will take place at Room Esmeralda 2.</p>
 
 <h2>Presenters</h2>
 <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="tbl">

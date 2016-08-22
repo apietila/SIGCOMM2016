@@ -5,6 +5,10 @@
 
 <h1>Venue and Travel Information</h1>
 
+<h2>Travel Assistance</h2>
+
+<p>Please check the travel assistance page for important information and updates for making your departure to Florian&oacute;polis (and return journey) as smooth as possible.</p>
+
 <h2>Travel Information</h2>
 
 <p>

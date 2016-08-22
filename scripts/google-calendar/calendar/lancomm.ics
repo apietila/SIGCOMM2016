@@ -7,7 +7,7 @@ DTSTART;VALUE=DATE-TIME:20160822T083000
 DTEND;VALUE=DATE-TIME:20160822T084500
 UID:9daa729d679611a47d7a647ed189062d
 DESCRIPTION:
-LOCATION:Room: Agata 1
+LOCATION:Room: Agata 2
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LANCOMM Workshop: Session 1: Network Measurements
@@ -28,7 +28,7 @@ DESCRIPTION:Papers: \n\n* Title: Big-DAMA: Big Data Analytics for Network
  zil – Author(s): D. Mendes\, G. Senges\, G. Santos\, G. Mendonça\, R. L
  eão\, E. Silva\n\n* Discussion: Synergies in Network Measurements Researc
  h
-LOCATION:Room: Agata 1
+LOCATION:Room: Agata 2
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LANCOMM Workshop: Session 2: SDN & NVF
@@ -48,7 +48,7 @@ DESCRIPTION:Papers: \n\n* Title: SDN-based Overlay Networks for QoS-aware
  J. Marquez-Barja\, N. Kaminski\, L. DaSilva\n\n* Title: Avoiding Voice Tra
  ffic Degradation in IP Enterprise Networks Using CAoS – Author(s): P. Ma
  ribondo\, N. Fernandes\n\n* Discussion: Synergies in SDN/NFV Research
-LOCATION:Room: Agata 1
+LOCATION:Room: Agata 2
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LANCOMM Workshop: Session 3: Network Modelling\, Monitoring and An
@@ -71,13 +71,13 @@ DESCRIPTION:Papers: \n\n* Title: Improving Performance of Multiple-level C
   Routines in Legacy Organizations – Author(s): E. Azevedo\, M. Machado\,
   R. Melo\, R. Aschoff\, D. Sadok\, U. Carmo\n\n* Discussion: Synergies in 
  Network Modeling\, Monitoring and Analysis Research
-LOCATION:Room: Agata 1
+LOCATION:Room: Agata 2
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LANCOMM Workshop: Wrap-up\, Planning of Next Steps\, and Closing
 DTSTART;VALUE=DATE-TIME:20160822T170000
 UID:eace31c61a74bb2d842dfa8ad99306d3
 DESCRIPTION:
-LOCATION:Room: Agata 1
+LOCATION:Room: Agata 2
 END:VEVENT
 END:VCALENDAR

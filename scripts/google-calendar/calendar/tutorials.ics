@@ -8,7 +8,7 @@ DTEND;VALUE=DATE-TIME:20160822T103000
 UID:9ba8cd28c72d1fe9ba45f2fabdcc06e4
 DESCRIPTION:Presenter(s): Timur Friedman (UPMC Sorbonne Universit&eacute\;
  s\, France)\, Anna-Kaisa Pietilainen\, Renata Teixeira (Inria\, France)
-LOCATION:Room: Topazio 2
+LOCATION:Room: Esmeralda 1
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tutorial: SDN\, NFV and Their Role in 5G: Part 1
@@ -18,7 +18,7 @@ UID:e044e149b965916392483140a423d896
 DESCRIPTION:Presenter(s): Katia Obraczka (UC Santa Cruz\, USA)\, Christian
   Rothenberg (UNICAMP\, Brazil)\, Ahmad Rostami (Ericsson Research\, Sweden
  )
-LOCATION:Room: Topazio 1
+LOCATION:Room: Esmeralda 2
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tutorial: Internet Measurements: Part 2
@@ -27,7 +27,7 @@ DTEND;VALUE=DATE-TIME:20160822T123000
 UID:44bddd271f091582ebc8c175e1f608ff
 DESCRIPTION:Presenter(s): Timur Friedman (UPMC Sorbonne Universit&eacute\;
  s\, France)\, Anna-Kaisa Pietilainen\, Renata Teixeira (Inria\, France)
-LOCATION:Room: Topazio 2
+LOCATION:Room: Esmeralda 1
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tutorial: SDN\, NFV and Their Role in 5G: Part 2 & Closing
@@ -37,7 +37,7 @@ UID:2e0cbcb2065534030b427747de46dd27
 DESCRIPTION:Presenter(s): Katia Obraczka (UC Santa Cruz\, USA)\, Christian
   Rothenberg (UNICAMP\, Brazil)\, Ahmad Rostami (Ericsson Research\, Sweden
  )
-LOCATION:Room: Topazio 1
+LOCATION:Room: Esmeralda 2
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tutorial: Internet Measurements: Part 3
@@ -46,7 +46,7 @@ DTEND;VALUE=DATE-TIME:20160822T153000
 UID:839dc00383671f319d3710b1de851577
 DESCRIPTION:Presenter(s): Timur Friedman (UPMC Sorbonne Universit&eacute\;
  s\, France)\, Anna-Kaisa Pietilainen\, Renata Teixeira (Inria\, France)
-LOCATION:Room: Topazio 2
+LOCATION:Room: Esmeralda 1
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tutorial: Internet Measurements: Part 4 & Closing
@@ -55,7 +55,7 @@ DTEND;VALUE=DATE-TIME:20160822T173000
 UID:b128fb22d5d3f4736a6703c47de0d9f4
 DESCRIPTION:Presenter(s): Timur Friedman (UPMC Sorbonne Universit&eacute\;
  s\, France)\, Anna-Kaisa Pietilainen\, Renata Teixeira (Inria\, France)
-LOCATION:Room: Topazio 2
+LOCATION:Room: Esmeralda 1
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tutorial: Enabling Research in Future WiMobNet: Part 1

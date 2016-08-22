@@ -10,9 +10,13 @@
 
 <h2>Monday, August 22nd</h2>
 
+<h2>Live Streaming</h2>
+
+<p>Please <a href="streaming.php">click here</a> to watch NetPL on live streaming.</p>
+
 <h2>Location</h2>
 
-<p>The workshop will take place at Room Agata 2.</p>
+<p>The workshop will take place at Room Topazio 1 and 2.</p>
 
 <h2>Technical Program</h2>
 
