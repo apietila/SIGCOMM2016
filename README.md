@@ -32,7 +32,7 @@ The 2014 web chair was Brighten Godfrey, with Xuefeng Zhu working on web and too
 
 The 2016 site is based on the 2014 site. The repository for the 2016 site is at https://github.com/apietila/SIGCOMM2016 and the site itself is online at http://conferences.sigcomm.org/sigcomm/2016/ .
 
-The 2016 site updates the 3rd party libraries, and most of the automatic content generation scripts are re-written.
+The 2016 site updates the 3rd party libraries, and the automatic content generation scripts are re-written.
 
 You are welcome to reuse and adapt the 2016 code under the same Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License and the same sharing conditions as above.
 
@@ -73,7 +73,9 @@ The site uses a bunch of 3rd party javascript libraries. You will want to use th
 
 ## Getting started as SIGCOMM web chair
 
-To get started, first check out http://www.sigcomm.org/conference-planning/web-chairs
+To get started, first check out:
+
+http://www.sigcomm.org/conference-planning/web-chairs .
 
 You'll have to request an account at:
 
