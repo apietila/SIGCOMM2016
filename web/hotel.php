@@ -21,7 +21,7 @@
   <p>Rua do Marisco, 550, Praia dos Ingleses, Florian&oacute;polis, Zip code 88.058-090, Brazil</p>
   
   <table class="hotel">
-    <tr><th>Distance to venue:</th><td>100 m, 2 minutes walk</td></tr>
+    <tr><th>Distance to venue:</th><td>100 m, 2 minutes walk. <font color="#ff0000"><b>Important update:</b></font> Please note that Oceania Convention Center is about 300m west of Oceania Park Hotel. The access to the hotel is through the convention center main entrance.</td></tr>
     <tr><th>Rating:</th><td><a href="http://booking.com/8dfff2355d66e">7.7/10</a> (414 reviews as of May 17th)</td></tr>
     <tr><th>Reservation:</th><td>Contact person: Mr. Rafael Santos, phone: +55 (48) 3261-3400, e-mail: <a href="mailto:reservas@oceaniaparkhotel.com.br">reservas@oceaniaparkhotel.com.br</a>. Please email Mr. Santos and mention SIGCOMM rates.</td></tr>
     <tr><th>Rates:</th><td>BRL (R$) 215 single<br/>BRL (R$) 250 double<br/>BRL (R$) 285 triple<br/>+ 2.5% ISS TAX</td></tr>
