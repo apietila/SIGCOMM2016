@@ -8,7 +8,7 @@
 <p>&nbsp;</p>
 
 <!-- player inicio -->
-<h3>The streaming is now closed.</h3>
+<h3>Now streaming: SIGCOMM Main Conference.</h3>
 
 <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe style="border:0;" scrolling="0" marginheight="0" marginwidth="0" src="http://zplayer.info/zw938" allowfullscreen></iframe></div>
 

@@ -2,7 +2,7 @@
     <ul class="program" data-role="listview" data-filter="true" data-inset="true" data-theme="d" data-dividertheme="a" placeholder="Filter program...">
 <?php
       tprog_add_header("Thursday, August 25, 2016", "prog-thursday");
-      tprog_add_session("9:00am - 5:30pm", "Posters/Demos from Main Track - Presenters onsite during coffee breaks", "", "Agata", "a", "prog-thursday");
+      tprog_add_session("9:00am - 5:30pm", "Posters/Demos from Main Track - Presenters onsite during coffee breaks", "", "Topazio", "a", "prog-thursday");
       tprog_add_paper("Don't Mind the Gap: Bridging Network-wide Objectives and Device-level Configurations", "R. Beckett (Princeton University), R. Mahajan (Microsoft Research), J. Padhye (Microsoft Research), T. Millstein (University of California, Los Angeles), D. Walker (Princeton University)", "", "", "", "", "prog-thursday");
       tprog_add_paper("Top-down Network Management on a Massive Scale", "E. Sung (Facebook), X. Tie (Facebook), S. Wong (Facebook), H. Zeng (Facebook)", "", "", "", "", "prog-thursday");
       tprog_add_paper("Enabling Practical Backscatter Communication for On-body Sensors", "P. Zhang(University of Massachusetts Amherst), M. Rostami(University of Massachusetts Amherst), P. Hu(University of Massachusetts Amherst), D. Ganesan (University of Massachusetts Amherst)", "", "", "", "", "prog-thursday");
