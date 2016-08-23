@@ -1,6 +1,7 @@
 <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="datetbl">
 
 <?php
+  add_dateitem("August 23, 2016", "The <a href=\"preview.php\">Topic Preview slides</a> from Monday are online.");
   add_dateitem("August 23, 2016", "The SIGCOMM main conference is now <a href=\"streaming.php\">live streaming</a>. Kindly note the conference program for the transmission schedule (all times are Brazilian timezone (UTC -0300).");
   add_dateitem("August 22, 2016", "NetPL is now <a href=\"streaming.php\">live streaming</a>. Kindly note the workshop program for the transmission schedule (all times are Brazilian timezone (UTC -0300).");
   add_dateitem("August 22, 2016", "Please note important updates regarding transportation to the <a data-ajax=\"false\" href=\"socialevents.php#student_dinner\">Student Dinner</a>, <a data-ajax=\"false\" href=\"assistance.php\">travel assistance</a> for your ride back to Hercilio Luz Int&#39;l Airport, and guest access for those staying at <a data-ajax=\"false\" href=\"hotel.php\">Oceania Park Hotel</a>.");
