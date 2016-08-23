@@ -205,7 +205,7 @@ function tprog_add_paper($paper, $authors, $abstract, $link = "", $slides="", $v
         <div <?php echo $item_style ?> >
           <p class="paper-header">
           <?php if ($has_link) { ?>
-            <a href="<?php echo $link ?>" rel="external" target="_blank" class="ui-link"><?php echo $paper ?></a>
+            <a href="javascript:void(0)" onclick="window.location='<?php echo $link ?>'; event.stopPropagation();" class="ui-link"><?php echo $paper ?></a>
           <?php } else { echo $paper; } ?>
           </p>
           <p><?php echo $authors; ?></p>
@@ -213,7 +213,7 @@ function tprog_add_paper($paper, $authors, $abstract, $link = "", $slides="", $v
         <div class="ui-li-aside">
           <?php if ($has_link) { ?>
           <div class="button-paper">      
-            <a href="<?php echo $link ?>" rel="external" target="_blank" class="ui-link">Paper</a>
+            <a href="javascript:void(0)" onclick="window.location='<?php echo $link ?>'; event.stopPropagation();" class="ui-link">Paper</a>
           </div>
           <?php } ?>
           <?php if ($has_slides) { ?>
