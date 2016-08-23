@@ -134,22 +134,44 @@ function tprog_add_item($paper, $link, $authors, $info, $slides="", $video="", $
 
   /* the spaces after various "%s" below are important for correct list filtering! */
   $authors = preg_replace('/\(([^\)]*)\)/', '<em>(${1})</em>', $authors);       
-
+    
   $has_link = (trim($link) != "");
-  $item_style = ($has_link) ? "style=\"width: 85%\"" : "";
+  $has_slides = (trim($slides) != "");
+  $has_video = (trim($video) != "");
+
+  /* make space for the button(s) */
+  $item_style = "";
+  $item_style = ($has_link || $has_slides) ? "style=\"width: 85%\"" : $item_style;
+  $item_style = ($has_link && $has_slides) ? "style=\"width: 78%\"" : $item_style;
+  $item_style = ($has_link && $has_slides && $has_video) ? "style=\"width: 70%\"" : $item_style;
+
 ?>
     <li data-icon="false" class="prog-item <?php echo $progitemclass; ?>">
-      <?php if ($has_link) { ?>
-      <p class="ui-li-aside button-paper" style="padding: 6px; border-radius: 5px; top: 0.5em !important;">
-        <a href="<?php echo $link ?>" rel="external" target="_blank" class="ui-link" style="text-decoration: none; color: white">Paper</a>
-      </p>                                        
-      <?php } ?>
-      <h2 <?php echo $item_style ?>>
-      <?php if ($has_link) { ?><a href="<?php echo $link ?>" rel="external" target="_blank" style="color: black;"><?php } ?>
-        <?php echo $paper ?>
-      <?php if ($has_link) { ?></a><?php } ?>
-      </h2>
-      <p <?php echo $item_style ?>><?php echo $authors; ?></p>
+      <div <?php echo $item_style ?> >
+        <p class="paper-header">
+        <?php if ($has_link) { ?>
+          <a href="<?php echo $link ?>" rel="external" target="_blank" class="ui-link"><?php echo $paper ?></a>
+        <?php } else { echo $paper; } ?>
+        </p>
+        <p><?php echo $authors; ?></p>
+      </div>
+      <div class="ui-li-aside-item">
+        <?php if ($has_link) { ?>
+        <div class="button-paper">      
+          <a href="<?php echo $link ?>" rel="external" target="_blank" class="ui-link">Paper</a>
+        </div>
+        <?php } ?>
+        <?php if ($has_slides) { ?>
+        <div class="button-paper">      
+          <a href="<?php echo $slides ?>" class="ui-link">Slides</a>
+        </div>
+        <?php } ?>
+        <?php if ($has_video) { ?>
+        <div class="button-paper">      
+          <a href="<?php echo $video ?>" rel="external" target="_blank" class="ui-link">Video</a>
+        </div>
+        <?php } ?>
+      </div>
     </li>
 <?php
 
@@ -159,35 +181,59 @@ function tprog_add_paper($paper, $authors, $abstract, $link = "", $slides="", $v
 
   $has_abstract = (trim($abstract) != "");
  
-  if (!$has_abstract)
+  if (!$has_abstract) {
     /* if there is no abstract, no need to make this entry a collapsible item */
-    tprog_add_item ($paper, $link, $authors, "", "", "", $progitemclass);
-  else {
+    tprog_add_item ($paper, $link, $authors, "", $slides, $video, $progitemclass);
+  } else {
     /* the spaces after various "%s" below are important for correct list filtering! */
     $authors = preg_replace('/\(([^\)]*)\)/', '<em>(${1})</em>', $authors);
     
     $has_link = (trim($link) != "");
-    $item_style = ($has_link) ? "style=\"width: 85%\"" : "";
+    $has_slides = (trim($slides) != "");
+    $has_video = (trim($video) != "");
+
+    /* make space for the button(s) */
+    $item_style = "";
+    $item_style = ($has_link || $has_slides) ? "style=\"width: 85%\"" : $item_style;
+    $item_style = ($has_link && $has_slides) ? "style=\"width: 78%\"" : $item_style;
+    $item_style = ($has_link && $has_slides && $has_video) ? "style=\"width: 70%\"" : $item_style;
+
 ?>
     <li data-icon="false" class="prog-item <?php echo $progitemclass; ?>">
       <div data-role="collapsible" class="paper-navgroup" data-collapsed="true" data-iconpos="right" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
       <h4>
-        <p class="paper-header" <?php echo $item_style ?>>
-          <a href="javascript:void(0)" onclick="window.location='<?php echo $link ?>'; event.stopPropagation();" style="color: black;"><?php echo $paper ?></a>
-        </p>
-        <p <?php echo $item_style ?>><?php echo $authors; ?></p>
-      <?php if ($has_link) { ?>
-      <p class="ui-li-aside button-paper" style="padding: 6px; border-radius: 5px; top: 0.5em !important;">
-        <a href="javascript:void(0)" onclick="window.location='<?php echo $link ?>'; event.stopPropagation();" class="ui-link" style="text-decoration: none; color: white">Paper</a>
-      </p>
-      <?php } ?>
+        <div <?php echo $item_style ?> >
+          <p class="paper-header">
+          <?php if ($has_link) { ?>
+            <a href="<?php echo $link ?>" rel="external" target="_blank" class="ui-link"><?php echo $paper ?></a>
+          <?php } else { echo $paper; } ?>
+          </p>
+          <p><?php echo $authors; ?></p>
+        </div>
+        <div class="ui-li-aside">
+          <?php if ($has_link) { ?>
+          <div class="button-paper">      
+            <a href="<?php echo $link ?>" rel="external" target="_blank" class="ui-link">Paper</a>
+          </div>
+          <?php } ?>
+          <?php if ($has_slides) { ?>
+          <div class="button-paper">      
+            <a href="<?php echo $slides ?>" class="ui-link">Slides</a>
+          </div>
+          <?php } ?>
+          <?php if ($has_video) { ?>
+          <div class="button-paper">      
+            <a href="<?php echo $video ?>" rel="external" target="_blank" class="ui-link">Video</a>
+          </div>
+          <?php } ?>
+        </div>
       </h4>
       <ul data-role="listview" data-inset="false">
         <?php if ($has_abstract) { ?><li data-icon="false">
           <p><b>Abstract: </b><?php echo $abstract ?></p><p>&nbsp;</p>
         </li><?php } ?>
       </ul>
-    </div>
+      </div>
     </li>
 <?php
   }

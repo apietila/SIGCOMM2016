@@ -690,14 +690,37 @@ button[disabled],
     display: block !important;
 }
 
+.ui-listview .ui-li-aside {
+    position: absolute;
+    top: 1em;
+    right: 3em;
+    margin: 0;
+    text-align: right;
+}
 
+.ui-listview .ui-li-aside-item {
+    position: absolute;
+    top: 0.65em;
+    right: 1em;
+    margin: 0;
+    text-align: right;
+}
 
 .content-primary .program .button-paper {
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  padding: 6px 10px 6px 10px !important;
-  border-radius: 5px;
-  background-color: #4e964e;
+    padding: 4px 10px 4px 10px;
+    border-radius: 5px;
+    background-color: #4e964e;
+    text-align: center;
+    width: auto;
+    margin: 0 0 6px 6px;
+    display: inline-block;
+}
+
+.content-primary .program .button-paper a {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 0.9em;
+    text-decoration: none;
 }
 
 .content-primary .program hr.keynote-divider {
@@ -713,10 +736,15 @@ button[disabled],
     border-radius: 0px;
 }
  
-.content-primary .program .paper-header {
-    font-weight: bold !important;
+.content-primary .program .paper-header a {
+    font-weight: 600;
+    color: #000000;
 }
  
+.content-primary .ui-listview p.paper-header {
+    font-weight: 600 !important; 
+}
+
 .content-primary .program .keynote-photo {
     float: right;
     margin: 0px 0px 15px 15px;

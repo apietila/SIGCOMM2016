@@ -111,7 +111,7 @@ def proggen(worksheet, values, outdir):
             link = (row[COL_FNAME] if len(row)>COL_FNAME else "")
             authors = (row[COL_CHAIR_SPKR_AUTHOR_DESC] if len(row)> COL_CHAIR_SPKR_AUTHOR_DESC else "")
             info = ""
-            slides = ""
+            slides = (row[COL_SLIDES] if len(row)>COL_SLIDES else "")
             video = ""
             line = """      tprog_add_item("%s", "%s", "%s", "%s", "%s", "%s", "prog-%s");\n""" % (paper, link, authors, info, slides, video, progdate)
 
@@ -121,7 +121,7 @@ def proggen(worksheet, values, outdir):
             authors = (row[COL_CHAIR_SPKR_AUTHOR_DESC] if len(row)> COL_CHAIR_SPKR_AUTHOR_DESC else "")
             abstract = (row[COL_KEYNT_ABSTRACT] if len(row)>COL_KEYNT_ABSTRACT else "")
             info = ""
-            slides = ""
+            slides = (row[COL_SLIDES] if len(row)>COL_SLIDES else "")
             video = ""
             line = """      tprog_add_paper("%s", "%s", "%s", "%s", "%s", "%s", "prog-%s");\n""" % (paper, authors, abstract, link, slides, video, progdate)
 
