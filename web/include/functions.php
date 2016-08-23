@@ -163,7 +163,7 @@ function tprog_add_item($paper, $link, $authors, $info, $slides="", $video="", $
         <?php } ?>
         <?php if ($has_slides) { ?>
         <div class="button-paper">      
-          <a href="<?php echo $slides ?>" class="ui-link">Slides</a>
+          <a href="<?php echo $slides ?>" rel="external" target="_blank" class="ui-link">Slides</a>
         </div>
         <?php } ?>
         <?php if ($has_video) { ?>
@@ -218,7 +218,7 @@ function tprog_add_paper($paper, $authors, $abstract, $link = "", $slides="", $v
           <?php } ?>
           <?php if ($has_slides) { ?>
           <div class="button-paper">      
-            <a href="<?php echo $slides ?>" class="ui-link">Slides</a>
+            <a href="<?php echo $slides ?>" rel="external" target="_blank" class="ui-link">Slides</a>
           </div>
           <?php } ?>
           <?php if ($has_video) { ?>
