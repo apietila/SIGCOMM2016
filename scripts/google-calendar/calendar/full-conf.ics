@@ -134,7 +134,7 @@ DESCRIPTION:Demos: \n\n* Title: Source Address Validation in Software Defi
   Author(s): M. Baldi (Politecnico di Torino)\, R. Bonafiglia (Politecnico 
  di Torino)\, F. Risso (Politecnico di Torino)\, A. Sapio (Politecnico di T
  orino)
-LOCATION:Room: Topazio
+LOCATION:Room: Agata
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:SIGCOMM Demos: Session 2 - Demo presenters onsite during coffee br
@@ -180,7 +180,7 @@ DESCRIPTION:Demos: \n\n* Title: Mininet-WiFi: A Platform for Hybrid Physic
  : O. Tilmans (Université Catholique de Louvain)\, S. Vissicchio (Universi
  té Catholique de Louvain)\, L. Vanbever (ETH Zürich)\, J. Rexford (Princ
  eton University)
-LOCATION:Room: Topazio
+LOCATION:Room: Agata
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:GAIA Workshop: Welcome and Introduction
@@ -365,7 +365,7 @@ DESCRIPTION:Demos: \n\n* Title: ONOS centralized control over a P4 program
  F and µVNF chaining with in-band network telemetry for servers equipped w
  ith P4 / C programmable SmartNICs – Author(s): D. George (Netronome Syst
  ems\, Inc.)\, J. Tönsing (Netronome Systems\, Inc.)
-LOCATION:Room: Topazio
+LOCATION:Room: Agata
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LANCOMM Workshop: Opening and Introduction
@@ -503,7 +503,7 @@ DESCRIPTION:Posters: \n\n* Title: Don't Mind the Gap: Bridging Network-wid
  c execution for modern networks – Author(s): Radu Stoenescu\, Matei Popo
  vici\, Lorina Negreanu\, Costin Raiciu (University Politehnica of Buchares
  t)
-LOCATION:Room: Agata
+LOCATION:Room: Topazio
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:NetPL Workshop: Opening Remarks
@@ -735,7 +735,7 @@ DESCRIPTION:Posters: \n\n* Title: PieBridge: A Cross-DR scale Large Data T
  (Stony Brook University)\n\n* Title: Application-specific Acceleration Fra
  mework for Mobile Applications – Author(s): B. Choi (KAIST)\, J. Kim (KA
  IST)\, D. Han (KAIST)
-LOCATION:Room: Agata
+LOCATION:Room: Topazio
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:SIGCOMM Posters: Session 2 - Poster presenters onsite during coffe
@@ -783,7 +783,7 @@ DESCRIPTION:Posters: \n\n* Title: Named Data Networking Based Smart Home L
   (Tongji University)\, Q. Xiang (Tongji/Yale University)\, Y. Yang (Tongji
  /Yale University)\, J. Bi (Tsinghua University)\, Q. Xiang (Yale Universit
  y)
-LOCATION:Room: Agata
+LOCATION:Room: Topazio
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Internet-QoE Workshop: Opening and Introduction
@@ -863,7 +863,8 @@ DESCRIPTION:
 LOCATION:Room: Agata 2
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:SIGCOMM: Topic Preview 1
+SUMMARY:SIGCOMM: <a href=\\"preview.php\\" style=\\"color: #ffffff !import
+ ant\; \\">Topic Preview 1</a>
 DTSTART;VALUE=DATE-TIME:20160822T173000
 DTEND;VALUE=DATE-TIME:20160822T184500
 UID:c4de78bce7a44fef121988ea672a2ef0
@@ -995,13 +996,15 @@ DESCRIPTION:Chair(s): Bruce Maggs (Duke University)\n\nPapers: \n\n* Title
 LOCATION:Room: Diamante
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:SIGCOMM: Posters and Demos I (includes coffee break from 3:35pm-4:
- 15pm)
+SUMMARY:SIGCOMM: <a href=\\"posterprogram.php\\" style=\\"color: #ffffff !
+ important\; \n\\">Posters</a> and <a href=\\"demoprogram.php\\" \nstyle=\\
+ "color: #ffffff !important\; \\">Demos</a> I (includes coffee break from 3
+ :35pm-4:15pm)
 DTSTART;VALUE=DATE-TIME:20160823T151500
 DTEND;VALUE=DATE-TIME:20160823T161500
 UID:2872678e476c820ad1e64f0bb8e859c4
 DESCRIPTION:
-LOCATION:Room: Agata and Topazio
+LOCATION:Room: Topazio and Agata
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:SIGCOMM: Session 3 - Monitoring and Diagnostics
@@ -1082,7 +1085,8 @@ DESCRIPTION:Chair(s): Alex Snoren (UC San Diego)\n\nPapers: \n\n* Title: G
 LOCATION:Room: Diamante
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:SIGCOMM: Topic Preview 2
+SUMMARY:SIGCOMM: <a href=\\"preview.php\\" style=\\"color: #ffffff !import
+ ant\; \\">Topic Preview 2</a>
 DTSTART;VALUE=DATE-TIME:20160824T124000
 DTEND;VALUE=DATE-TIME:20160824T133000
 UID:11d4928106acea9a18727c08ec039d2f
@@ -1092,7 +1096,7 @@ DESCRIPTION:Talks: \n\n* Title: 12:40pm-12:54pm &mdash\; Wireless – Spea
  on)\n\n* Title: 1:06pm-1:18pm &mdash\; DCN 2/TCP: Datacenter Networking & 
  TCP – Speaker(s): Tobias Flach (USC/Google)\n\n* Title: 1:18pm-1:30pm &m
  dash\; Policies and Neutrality – Speaker(s): Te-Yuan Huang (Netflix)
-LOCATION:Room: Esmeralda 1 and Esmeralda 2
+LOCATION:Room: Diamante
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:SIGCOMM: Session 6 - Verification
@@ -1119,8 +1123,10 @@ DESCRIPTION:Chair(s): Ramesh Govindan (University of Southern California)\
 LOCATION:Room: Diamante
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:SIGCOMM: Posters and Demos II (includes coffee break from 3:30pm-4
- :10pm)
+SUMMARY:SIGCOMM: <a href=\\"posterprogram.php\\" style=\\"color: #ffffff !
+ important\; \\">Posters</a> and <a href=\\"demoprogram.php\\" style=\\"col
+ or: #ffffff !important\; \\">Demos</a> II (includes coffee break from 3:30
+ pm-4:10pm)
 DTSTART;VALUE=DATE-TIME:20160824T151000
 DTEND;VALUE=DATE-TIME:20160824T161000
 UID:ecf047cda12af80dd2e1be573424d01a
@@ -1234,13 +1240,15 @@ DESCRIPTION:Chair(s): Nick Feamster (Princeton University)\n\nPapers: \n\n
 LOCATION:Room: Diamante
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:SIGCOMM: Posters and Demos III (includes coffee break from 3:05pm-
- 3:45pm)
+SUMMARY:SIGCOMM: <a href=\\"maintrackposterprogram.php\\" style=\\"color: 
+ #ffffff !important\; \n\\">Posters</a> and <a href=\\"industrialdemoprogra
+ m.php\\" \nstyle=\\"color: #ffffff !important\; \\">Demos</a> III (include
+ s coffee break from 3:05pm-3:45pm)
 DTSTART;VALUE=DATE-TIME:20160825T144500
 DTEND;VALUE=DATE-TIME:20160825T154500
 UID:8ac0719fd275df62bc2bdfdd0d7fac98
 DESCRIPTION:
-LOCATION:Room: Agata and Topazio
+LOCATION:Room: Topazio and Agata
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:SIGCOMM: Session 11 - SDN & NFV II

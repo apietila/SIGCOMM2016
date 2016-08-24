@@ -133,9 +133,9 @@ def proggen(worksheet, values, outdir):
             bio = (row[COL_SPKR_BIO] if len(row)>COL_SPKR_BIO else "")
             photo = (row[COL_PHOTO_URL] if len(row)>COL_PHOTO_URL else "")
             info = ""
-            slides = ""
+            slides = (row[COL_SLIDES] if len(row)>COL_SLIDES else "")
             video = ""
-            line = """      tprog_add_keynote("%s", "%s", "%s", "%s", "%s", "%s", "prog-%s");\n\n""" % (title, speaker, abstract, bio, photo, link, progdate)
+            line = """      tprog_add_keynote("%s", "%s", "%s", "%s", "%s", "%s", "%s", "%s", "prog-%s");\n\n""" % (title, speaker, abstract, bio, photo, link, slides, video, progdate)
 
         elif (type == 'disc' and len(row)>=4):
             paper = row[COL_TITLE]

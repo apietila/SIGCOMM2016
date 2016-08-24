@@ -5,7 +5,7 @@
         $mypage = "index.php";
      
      // reorganizing menu items
-     $conferenceItems = array("streaming.php", "program.php", "pc.php", "papers.php", "posterprogram.php", "demoprogram.php", "src.php", "industrialdemoprogram.php", "maintrackposterprogram.php", "preview.php", "mentoring.php", "socialevents.php");
+     $conferenceItems = array("streaming.php", "awards.php", "program.php", "pc.php", "papers.php", "posterprogram.php", "demoprogram.php", "src.php", "industrialdemoprogram.php", "maintrackposterprogram.php", "preview.php", "mentoring.php", "socialevents.php");
      $workshopItems = array ("gaia.php", "hotmiddlebox.php", "qoe.php", "lancomm.php", "netpl.php", "workshops.php");
      $tutorialItems = array("tutorial-im.php", "tutorial-wimobnet.php", "tutorial-iptv.php", "tutorial-p4.php", "tutorial-sdnnfv5g.php", "tutorials.php");
      $localItems = array ("local.php", "restaurants.php", "travel.php", "arrival.php", "visa.php", "hotel.php", "roomshare.php", "tourism.php", "advisory.php", "assistance.php"); //, "poll.php"
@@ -30,6 +30,9 @@
       <ul data-role="listview" data-inset="false">
          <li class="subnav <?php if ($mypage=="streaming.php") echo('navselected') ?>" data-icon="false">
            <a href="streaming.php">Live Streaming</a>
+        </li>
+         <li class="subnav <?php if ($mypage=="awards.php") echo('navselected') ?>" data-icon="false">
+           <a href="awards.php">Awards</a>
         </li>
          <li class="subnav <?php if ($mypage=="program.php") echo('navselected') ?>" data-icon="false">
            <a href="program.php">Program</a>

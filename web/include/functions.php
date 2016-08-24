@@ -239,7 +239,7 @@ function tprog_add_paper($paper, $authors, $abstract, $link = "", $slides="", $v
   }
 }
 
-function tprog_add_keynote($title, $speakers, $abstract, $bio, $photo="", $link="", $progitemclass = "") {
+function tprog_add_keynote($title, $speakers, $abstract, $bio, $photo="", $link="", $slides="", $video="", $progitemclass = "") {
 
   $has_abstract = (trim($abstract) != "");
   $has_bio = (trim($bio) != "");
@@ -252,21 +252,42 @@ function tprog_add_keynote($title, $speakers, $abstract, $bio, $photo="", $link=
     $speakers = preg_replace('/\(([^\)]*)\)/', '<em>(${1})</em>', $speakers);
     
     $has_link = (trim($link) != "");
-    $item_style = $has_link ? "style=\"width: 85%\"" : "";
+    $has_slides = (trim($slides) != "");
+    $has_video = (trim($video) != "");
+
+    /* make space for the button(s) */
+    $item_style = "";
+    $item_style = ($has_link || $has_slides) ? "style=\"width: 85%\"" : $item_style;
+    $item_style = ($has_link && $has_slides) ? "style=\"width: 78%\"" : $item_style;
+    $item_style = ($has_link && $has_slides && $has_video) ? "style=\"width: 70%\"" : $item_style;
+
 ?>
     <li data-icon="false" class="prog-item <?php echo $progitemclass; ?> prog-keynote">
-      
-      <?php if ($has_link) { ?>
-      <p class="ui-li-aside button-paper" style="padding: 6px; border-radius: 5px; top: 0.5em !important;">
-        <a href="<?php echo $link ?>" rel="external" target="_blank" class="ui-link" style="text-decoration: none; color: white">Paper</a>
-      </p>                                        
-      <?php } ?>
       
       <h2 <?php echo $item_style ?>>
         <?php if ($has_link) { ?><a href="<?php echo $link ?>" rel="external" target="_blank" style="color: black;"><?php } ?>
           <?php echo $title ?>
         <?php if ($has_link) { ?></a><?php } ?>
       </h2>
+
+      <div class="ui-li-aside">
+        <?php if ($has_link) { ?>
+        <div class="button-paper">      
+          <a href="javascript:void(0)" onclick="window.location='<?php echo $link ?>'; event.stopPropagation();" class="ui-link">Paper</a>
+        </div>
+        <?php } ?>
+        <?php if ($has_slides) { ?>
+        <div class="button-paper">      
+          <a href="<?php echo $slides ?>" rel="external" target="_blank" class="ui-link">Slides</a>
+        </div>
+        <?php } ?>
+        <?php if ($has_video) { ?>
+        <div class="button-paper">      
+          <a href="<?php echo $video ?>" rel="external" target="_blank" class="ui-link">Video</a>
+        </div>
+        <?php } ?>
+      </div>
+
       <p <?php echo $item_style ?>><?php echo $speakers; ?></p>
       <?php if ($has_abstract || $has_bio) { ?>
         <hr class="keynote-divider"/>
