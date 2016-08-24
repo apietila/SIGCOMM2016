@@ -1,6 +1,7 @@
 <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="datetbl">
 
 <?php
+  add_dateitem("August 24, 2016", "The <a href=\"preview.php\">Topic Preview slides</a> from Wednesday are online.");
   add_dateitem("August 24, 2016", "The list of SIGCOMM 2016 Best Paper, Test of Time, and Dissertation <a href=\"awards.php\">Award Winners</a> is now online.");
   add_dateitem("August 23, 2016", "The <a href=\"preview.php\">Topic Preview slides</a> from Monday are online.");
   add_dateitem("August 23, 2016", "The SIGCOMM main conference is now <a href=\"streaming.php\">live streaming</a>. Kindly note the conference program for the transmission schedule (all times are Brazilian timezone (UTC -0300).");

@@ -62,7 +62,7 @@ In addition to the technical activities, SIGCOMM 2016 will organize the followin
 
 <p>On Wednesday August 24th, SIGCOMM <b>student</b> registrants will have additional time to share experiences in the student dinner, and also get their own chance to mingle with senior researchers. The student dinner will take place at Ataliba Churrascarias Florian&oacute;polis (Rodovia Jos&eacute; Carlos Daux 3008, Saco Grande District &mdash; <b>see location on the map below</b>).</p>
 
-<p><font color="#ff0000"><b>Important update:</b></font> We will provide transportation to Ataliba Churrascarias Florian&oacute;polis, departing from (and returning to) the following hotels: Slaviero, Porto do Sol, Costa Norte, and Oceania. Please stay tuned (and download the conference mobile app) for updates and departure schedule.</p>
+<p><font color="#ff0000"><b>Important update:</b></font> We will provide transportation to Ataliba Churrascarias Florian&oacute;polis, departing from Oceania Convention Center right after the Community Feedback Session, with stops on the following hotels: Slaviero, Porto do Sol, Costa Norte, and Oceania.</p>
 
 <p>The menu shall include a special selection of Premium and Exotic, Grilled and Roasted Meats, and a variety of Vegetarian Dishes, Seafood, Sushi, Salads, and Desserts. Beef selection shall include: Top Sirloin Cap (&quot;Picanha&quot;, Brazilian traditional cut), Hump Steak, Sirloin Strip Steak, Filet Mignon (Tenderloin Steak), Ribeye Steak, Baby Beef, Rump Steak, Sirloin Tri-Tip Roast, Flank Steak, Premium and Short Ribs, among others, all served following the Brazilian <a href="https://en.wikipedia.org/wiki/Rod%C3%ADzio">rod&iacute;zio</a> style (all you can eat, round-robin steak serving).</p>
 

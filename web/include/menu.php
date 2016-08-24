@@ -24,7 +24,8 @@
       <a href="supporters.php">Supporters</a>
     </li>
 
-    <div data-role="collapsible" data-theme="a" data-content-theme="a" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u" data-iconpos="right"
+ <!--   comment here : working -->
+   <div data-role="collapsible" data-theme="a" data-content-theme="a" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u" data-iconpos="right"
          <?php if (in_array ($mypage, $conferenceItems)) echo('data-collapsed="false"') ?> class="navgroup">
       <h4>Conference</h4>
       <ul data-role="listview" data-inset="false">
