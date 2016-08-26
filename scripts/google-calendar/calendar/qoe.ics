@@ -7,7 +7,7 @@ DTSTART;VALUE=DATE-TIME:20160826T083000
 DTEND;VALUE=DATE-TIME:20160826T084500
 UID:49a782a05e53e507831eb98e0392b8e5
 DESCRIPTION:
-LOCATION:Room: Agata 2
+LOCATION:Room: Agata 1
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Internet-QoE Workshop: Session 1: Passive QoE-based Monitoring in 
@@ -24,7 +24,7 @@ DESCRIPTION:Papers: \n\n* Title: An Educated Guess on QoE in Operational N
  orselaer\, K. van Oost\n\n* Keynote Title:\nImproving Web Performance\n\nS
  peaker:\nProf. Harsha V. Madhyastha (Computer Science and Engineering Divi
  sion\, University of Michigan\, US)\n\n
-LOCATION:Room: Agata 2
+LOCATION:Room: Agata 1
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Internet-QoE Workshop: Session 2: QoE Modeling and Analysis
@@ -40,7 +40,7 @@ DESCRIPTION:Papers: \n\n* Title: QoE Inference Without Application Control
  R. Teixeira\, M. Papadopouli\, V. Christophides\n\n* Keynote Title:\nThe C
  hallenges of Measuring Internet Quality of Experience\n\nSpeaker:\nDr. Ren
  ata Cruz Teixeira (Senior Researcher\, INRIA Paris\, France)\n\n
-LOCATION:Room: Agata 2
+LOCATION:Room: Agata 1
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Internet-QoE Workshop: Session 3:  QoE-based Network Management an
@@ -60,7 +60,7 @@ DESCRIPTION:Papers: \n\n* Title: Measuring the Quality of Experience of We
  ing of Quality of Experience for Video Streaming\n\nSpeaker:\nProf. Maria 
   Papadopouli (Department of Computer Science\, University of Crete & FORTH
  )\n\n
-LOCATION:Room: Agata 2
+LOCATION:Room: Agata 1
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Internet-QoE Workshop: Discussion: Strengthening QoE-based Researc
@@ -69,13 +69,13 @@ DTSTART;VALUE=DATE-TIME:20160826T164500
 DTEND;VALUE=DATE-TIME:20160826T171500
 UID:a1305a7a63fa46249fdd8e4094e4d80b
 DESCRIPTION:
-LOCATION:Room: Agata 2
+LOCATION:Room: Agata 1
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Internet-QoE Workshop: Wrap-up\, Next Steps and Closing
 DTSTART;VALUE=DATE-TIME:20160826T171500
 UID:3c3ef16349fa20570bdc94010eb60985
 DESCRIPTION:
-LOCATION:Room: Agata 2
+LOCATION:Room: Agata 1
 END:VEVENT
 END:VCALENDAR

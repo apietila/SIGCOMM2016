@@ -1,10 +1,11 @@
 <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="datetbl">
 
 <?php
+  add_dateitem("August 26, 2016", "The <a href=\"program.php\">presentation slides</a> from Jim Kurose&#39;s Lifetime Achievement Award keynote and main conference papers are now online!");
+  add_dateitem("August 24, 2016<br/>(updated on Aug. 25)", "The list of SIGCOMM 2016 <a href=\"awards.php\">Best Paper, Test of Time, &amp; Dissertation Awards, and ACM Student Research Competition</a> winners is now online.");
   add_dateitem("August 24, 2016", "The <a href=\"preview.php\">Topic Preview slides</a> from Wednesday are online.");
-  add_dateitem("August 24, 2016", "The list of SIGCOMM 2016 Best Paper, Test of Time, and Dissertation <a href=\"awards.php\">Award Winners</a> is now online.");
-  add_dateitem("August 23, 2016", "The <a href=\"preview.php\">Topic Preview slides</a> from Monday are online.");
   add_dateitem("August 23, 2016", "The SIGCOMM main conference is now <a href=\"streaming.php\">live streaming</a>. Kindly note the conference program for the transmission schedule (all times are Brazilian timezone (UTC -0300).");
+  add_dateitem("August 23, 2016", "The <a href=\"preview.php\">Topic Preview slides</a> from Monday are online.");
   add_dateitem("August 22, 2016", "NetPL is now <a href=\"streaming.php\">live streaming</a>. Kindly note the workshop program for the transmission schedule (all times are Brazilian timezone (UTC -0300).");
   add_dateitem("August 22, 2016", "Please note important updates regarding transportation to the <a data-ajax=\"false\" href=\"socialevents.php#student_dinner\">Student Dinner</a>, <a data-ajax=\"false\" href=\"assistance.php\">travel assistance</a> for your ride back to Hercilio Luz Int&#39;l Airport, and guest access for those staying at <a data-ajax=\"false\" href=\"hotel.php\">Oceania Park Hotel</a>.");
   add_dateitem("August 20, 2016", "We are pleased to inform that the conference keynote & technical sessions will be live streamed. The video stream will be accessible through the SIGCOMM 2016 website. Please join us! The NetPL workshop, on Monday, will also be live streamed. Additional information will follow soon.");

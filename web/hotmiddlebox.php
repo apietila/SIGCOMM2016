@@ -9,7 +9,7 @@
 
 <h2>Location</h2>
 
-<p>The workshop will take place at Room Agata 1.</p>
+<p>The workshop will take place at Room Agata 2.</p>
 
 <h2>Technical Program</h2>
 

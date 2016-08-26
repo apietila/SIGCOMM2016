@@ -7,7 +7,7 @@ DTSTART;VALUE=DATE-TIME:20160826T084500
 DTEND;VALUE=DATE-TIME:20160826T090000
 UID:4d37ddeeaf36c3b387e842768d50e89c
 DESCRIPTION:
-LOCATION:Room: Topazio 1
+LOCATION:Room: Esmeralda 2
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:GAIA Workshop: Session 1: Technology
@@ -22,7 +22,7 @@ DESCRIPTION:Papers: \n\n* Title: Open and regionalised spectrum repositori
  e Sharing\, Invisible Mechanisms: The Design and Implementation of the Bay
  anihaNets Access Sharing Network – Author(s): I. Montes\, M. Cruz\, A. R
  emillano II\, M. Villanoy\, L. Beltran II\, R. Ocampo\, C. Festin
-LOCATION:Room: Topazio 1
+LOCATION:Room: Esmeralda 2
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:GAIA Workshop: Session 2: Economics and Deployment
@@ -36,7 +36,7 @@ DESCRIPTION:Papers: \n\n* Title: A Techno-Economic Framework for Broadband
  yed\, G. Hughes\, M. Fourman\, R. Simmons\n\n* Title: Making Community Net
  works economically sustainable\, the guifi.net experience – Author(s): R
  . Baig\, L. Dalmau\, R. Roca\, L. Navarro\, F. Freitag\, A. Sathiaseelan
-LOCATION:Room: Topazio 1
+LOCATION:Room: Esmeralda 2
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:GAIA Workshop: Session 3: Invited Experience Reports
@@ -52,7 +52,7 @@ DESCRIPTION:Papers: \n\n* Title: SIMMC - An Integrated Monitoring System f
  ito\, E. Junior\, P. Batista\, J. Leite\n\n* Title: Empirical evaluation o
  f mobile network services in developing countries – Author(s): S. Rao\, 
  K. Kumar\, J. Manner\, T. Aura
-LOCATION:Room: Topazio 1
+LOCATION:Room: Esmeralda 2
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:GAIA Workshop: Panel Session
@@ -60,13 +60,13 @@ DTSTART;VALUE=DATE-TIME:20160826T160000
 DTEND;VALUE=DATE-TIME:20160826T170000
 UID:1600add19a64088a397c3747147f3ba1
 DESCRIPTION:
-LOCATION:Room: Topazio 1
+LOCATION:Room: Esmeralda 2
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:GAIA Workshop: Wrap-up
 DTSTART;VALUE=DATE-TIME:20160826T170000
 UID:2edbe2aad39a7775886b2750bf69ba9d
 DESCRIPTION:
-LOCATION:Room: Topazio 1
+LOCATION:Room: Esmeralda 2
 END:VEVENT
 END:VCALENDAR

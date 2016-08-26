@@ -74,7 +74,7 @@ DTEND;VALUE=DATE-TIME:20160826T091500
 UID:9ee21f6e5234eb5396ec7f0720293c10
 DESCRIPTION:Presenter(s): Changhoon Kim\, Jeongkeun "JK" Lee (Barefoot Net
  works\, USA)
-LOCATION:Room: Topazio 2
+LOCATION:Room: Topazio
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tutorial: P4: Programming the Network Data Plane: Lecture\, part I
@@ -83,7 +83,7 @@ DTEND;VALUE=DATE-TIME:20160826T103000
 UID:fb8a6c576adc0ac1a32339ffa1186cdc
 DESCRIPTION:Presenter(s): Changhoon Kim\, Jeongkeun "JK" Lee (Barefoot Net
  works\, USA)
-LOCATION:Room: Topazio 2
+LOCATION:Room: Topazio
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tutorial: Enabling Research in Future WiMobNet: Part 2
@@ -102,7 +102,7 @@ DTEND;VALUE=DATE-TIME:20160826T123000
 UID:5b9a7504c6aa4a428fa7dbaabd1ee724
 DESCRIPTION:Presenter(s): Changhoon Kim\, Jeongkeun "JK" Lee (Barefoot Net
  works\, USA)
-LOCATION:Room: Topazio 2
+LOCATION:Room: Topazio
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tutorial: Enabling Research in Future WiMobNet: Part 3
@@ -120,7 +120,7 @@ DTEND;VALUE=DATE-TIME:20160826T153000
 UID:b50ddadc2c3849a49fc4f653edf0e37c
 DESCRIPTION:Presenter(s): Changhoon Kim\, Jeongkeun "JK" Lee (Barefoot Net
  works\, USA)
-LOCATION:Room: Topazio 2
+LOCATION:Room: Topazio
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tutorial: Enabling Research in Future WiMobNet: Part 4 & Closing
@@ -140,6 +140,6 @@ DESCRIPTION:Presenter(s): Changhoon Kim\, Jeongkeun "JK" Lee (Barefoot Net
  works\, USA)\n\nTalks: \n\n* Title: Talks & Panel: Towards Correct-by-Cons
  truction SDN – Speaker(s): Nate Foster\, Anirudh Sivaraman\, Robert Soul
  e\, Marco Canini\, and Sean Choi
-LOCATION:Room: Topazio 2
+LOCATION:Room: Topazio
 END:VEVENT
 END:VCALENDAR

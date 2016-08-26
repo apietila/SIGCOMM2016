@@ -7,7 +7,7 @@ DTSTART;VALUE=DATE-TIME:20160826T083000
 DTEND;VALUE=DATE-TIME:20160826T084000
 UID:d4ddac3c922e8f025edbb51ab9be116f
 DESCRIPTION:
-LOCATION:Room: Agata 1
+LOCATION:Room: Agata 2
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:HotMiddlebox Workshop: Keynote Session
@@ -28,7 +28,7 @@ DESCRIPTION:* Keynote Title:\nRecent Advances in Network Function Virtuali
   offload features in implementing certain software network functions at li
  ne rate. I will conclude the talk with a brief discussion of other broad o
  pen research issues in NFV.\n\n
-LOCATION:Room: Agata 1
+LOCATION:Room: Agata 2
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:HotMiddlebox Workshop: Session 1: Middlebox and Privacy
@@ -41,7 +41,7 @@ DESCRIPTION:Papers: \n\n* Title: Light at the Middle of the Tunnel: Middle
  ox: Toward Efficient Private Network Function Virtualization – Author(s)
  : H. J. Asghar\, L. Melis\, C. Soldani\, E. De Cristofaro\, M. A. Kaafar\,
   L. Mathy
-LOCATION:Room: Agata 1
+LOCATION:Room: Agata 2
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:HotMiddlebox Workshop: Session 2: On Resource Allocation
@@ -53,7 +53,7 @@ DESCRIPTION:Papers: \n\n* Title: Measurement Based Fair Queuing for Alloca
  . Varghese\, J. Padhye\n\n* Title: Datacenter Scale Load Balancing for Mul
  tipath Transport – Author(s): V. Olteanu\, C. Raiciu\n\n* Discussion on 
  papers of the Sessions 1 & 2 (20min)
-LOCATION:Room: Agata 1
+LOCATION:Room: Agata 2
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:HotMiddlebox Workshop: Session 3:  Middlebox Management
@@ -67,7 +67,7 @@ DESCRIPTION:Papers: \n\n* Title: OpenNetVM: A Platform for High Performanc
  Defined Networks – Author(s): A. Dwaraki\, T. Wolf\n\n* Title: A Standar
  dized Southbound API for VNF Management – Author(s): J. Khalid\, M. Coat
  sworth\, A. Gember-Jacobson\, A. Akella\n\n* Discussion (15min)
-LOCATION:Room: Agata 1
+LOCATION:Room: Agata 2
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:HotMiddlebox Workshop: Session 4: Middlebox and TCP processing
@@ -79,13 +79,13 @@ DESCRIPTION:Papers: \n\n* Title: On the Fly TCP Acceleration with Miniprox
   Blefari Melazzi\, F. Huici\n\n* Title: CliMB: Enabling Network Function C
  omposition with Click Middleboxes – Author(s): R. Laufer\, M. Gallo\, D.
   Perino\, A. Nandugudi\n\n* Discussion (10min)
-LOCATION:Room: Agata 1
+LOCATION:Room: Agata 2
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:HotMiddlebox Workshop: Concluding Remarks
 DTSTART;VALUE=DATE-TIME:20160826T170000
 UID:cbb06103113ff1951dbee1cb99189d95
 DESCRIPTION:
-LOCATION:Room: Agata 1
+LOCATION:Room: Agata 2
 END:VEVENT
 END:VCALENDAR

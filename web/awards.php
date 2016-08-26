@@ -38,4 +38,21 @@
     <li data-icon="false"><p>Mosharaf Chowdhury (Advisor: Ion Stoica, U.C. Berkeley)</p></li>
 </ul>
 
+<h2>ACM Student Research Competition Winners</h2>
+
+<ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="tbl">
+  <li data-role="list-divider">1 &mdash; Anne Edmundson (Princeton University)</li>
+    <li data-icon="false"><p><b>A First Look into Transnational Routing Detours</b></p></li>
+</ul>
+
+<ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="tbl">
+  <li data-role="list-divider">2 &mdash; Rachee Singh (UMass Amerhest)</li>
+    <li data-icon="false"><p><b>PathCache: A Path Prediction Toolkit</b></p></li>
+</ul>
+
+<ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="tbl">
+  <li data-role="list-divider">3 &mdash; Elverton Fazzion (Universidade Federal de Minas Gerais)</li>
+    <li data-icon="false"><p><b>Efficient Remapping of Internet Routing Events</b></p></li>
+</ul>
+
 <?php include ("include/footer.php"); ?>

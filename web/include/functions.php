@@ -218,7 +218,7 @@ function tprog_add_paper($paper, $authors, $abstract, $link = "", $slides="", $v
           <?php } ?>
           <?php if ($has_slides) { ?>
           <div class="button-paper">      
-            <a href="<?php echo $slides ?>" rel="external" target="_blank" class="ui-link">Slides</a>
+            <a href="javascript:void(0)" onclick="window.location='<?php echo $slides ?>'; event.stopPropagation();" class="ui-link">Slides</a>
           </div>
           <?php } ?>
           <?php if ($has_video) { ?>
@@ -294,8 +294,8 @@ function tprog_add_keynote($title, $speakers, $abstract, $bio, $photo="", $link=
         <?php if ($has_abstract) { ?>
           <p><?php if ($photo) { ?><img class="keynote-photo" src="<?php echo $photo ?>"/><?php } ?><b>Abstract: </b><?php echo $abstract ?></p><p>&nbsp;</p>
         <?php } ?>
-        <?php if ($has_bio) { ?>
-          <p><b>Bio: </b><?php echo $bio ?></p><p>&nbsp;</p>
+        <?php if ($has_bio && !$has_abstract) { ?>
+          <p><?php if ($photo) { ?><img class="keynote-photo" src="<?php echo $photo ?>"/><?php } ?><b>Bio: </b><?php echo $bio ?></p><p>&nbsp;</p>
         <?php } ?>
       <?php } ?>
     </li>
