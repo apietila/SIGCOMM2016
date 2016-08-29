@@ -723,6 +723,13 @@ button[disabled],
     text-decoration: none;
 }
 
+.content-primary .program .abstract-dropdownup {
+    padding: 1px 1px 1px 1px;
+    border-radius: 5px;
+    margin: 0 0 1px 1px;
+    display: inline-block;
+}
+
 .content-primary .program hr.keynote-divider {
     border: 0;
     height: 0;

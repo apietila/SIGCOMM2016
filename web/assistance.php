@@ -7,6 +7,16 @@
 
 <p>You may find below relevant travel assistance information you might wish to consider before departing to Florian&oacute;polis and heading back to the airport, including passenger assistance upon arrival at the airport and local boarding pass printing service.</p>
 
+<h2>At the Conference</h2>
+
+<h3>Ride Back to the Airport</h3>
+
+<p>We will provide attendees with complimentary transfer assistance for your return journey, including for example taxi pick-up back to Hercilio Luz Int'l Airport (Florian&oacute;polis FLN). Detailed information will be available soon. Meanwhile, if you are departing early and need immediate assistance, please contact us at the conference reception desk. You may also consider the <a href="roomshare.php">sigcomm-roomshare-l</a> discussion list if you would like to arrange for shared transportation with other attendees.</p>
+
+<h3>Boarding Pass Printing Service</h3>
+
+<p>If you would like us to print your boarding pass(es), please send an e-mail to <a href="mailto:sigcomm2016@gmail.com">sigcomm2016@gmail.com</a>, with a PDF copy of your boarding pass(es) attached. We will notify you once your boarding pass(es) are ready for pick up at the registration desk. Kindly note that this service is exclusively for boarding pass(es) printing only.</p>
+
 <h2>Before Departure</h2>
 
 <h3>Assistance Upon Arrival at Herc&iacute;lio Luz Int&#39;l Airport (FLN)</h3>
@@ -20,15 +30,5 @@
 <h3>Travel Tips and Advisory</h3>
 
 <p>We prepared a <a href="files/travel-tips.pdf" rel="external">flyer containing useful information</a> regarding your trip to Brazil and Florian&oacute;polis (including currency exchange, smartphone apps you may use to call a taxi, information on electricity voltage, etc.) We kindly ask you to print a copy for your reference. Should you have any questions, please contact us directly.</p>
-
-<h2>At the Conference</h2>
-
-<h3>Ride Back to the Airport</h3>
-
-<p>We will provide attendees with complimentary transfer assistance for your return journey, including for example taxi pick-up back to Hercilio Luz Int'l Airport (Florian&oacute;polis FLN). Detailed information will be available soon. Meanwhile, if you are departing early and need immediate assistance, please contact us at the conference reception desk. You may also consider the <a href="roomshare.php">sigcomm-roomshare-l</a> discussion list if you would like to arrange for shared transportation with other attendees.</p>
-
-<h3>Boarding Pass Printing Service</h3>
-
-<p>If you would like us to print your boarding pass(es), please send an e-mail to <a href="mailto:sigcomm2016@gmail.com">sigcomm2016@gmail.com</a>, with a PDF copy of your boarding pass(es) attached. We will notify you once your boarding pass(es) are ready for pick up at the registration desk. Kindly note that this service is exclusively for boarding pass(es) printing only.</p>
 
 <?php include("include/footer.php"); ?>

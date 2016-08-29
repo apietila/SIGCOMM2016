@@ -71,6 +71,18 @@ function showall(divname) {
     }
 }
 
+/* Show/hide paper abstract. */
+
+function showabstract(paper_id) {
+    var paper = $.mobile.activePage.find(paper_id);
+    var paper_toggle = $.mobile.activePage.find(paper_id + '-toggle');
+    
+    if (paper != null) {
+      $(paper_toggle).toggleClass("ui-icon-carat-d ui-icon-carat-u");
+      $(paper).toggle("hide"); 
+    }
+}
+
 /* sponsors ticker tape, adapted from sigcomm 2012 code */
 
 (function(a, b) {

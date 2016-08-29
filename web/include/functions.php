@@ -177,7 +177,7 @@ function tprog_add_item($paper, $link, $authors, $info, $slides="", $video="", $
 
 }
 
-function tprog_add_paper($paper, $authors, $abstract, $link = "", $slides="", $video="", $progitemclass = "") {
+function tprog_add_paper($element_id, $paper, $authors, $abstract, $link = "", $slides="", $video="", $progitemclass = "") {
 
   $has_abstract = (trim($abstract) != "");
  
@@ -194,46 +194,50 @@ function tprog_add_paper($paper, $authors, $abstract, $link = "", $slides="", $v
 
     /* make space for the button(s) */
     $item_style = "";
-    $item_style = ($has_link || $has_slides) ? "style=\"width: 85%\"" : $item_style;
-    $item_style = ($has_link && $has_slides) ? "style=\"width: 78%\"" : $item_style;
-    $item_style = ($has_link && $has_slides && $has_video) ? "style=\"width: 70%\"" : $item_style;
+    $item_style = ($has_link || $has_slides) ? "style=\"width: 80%\"" : $item_style;
+    $item_style = ($has_link && $has_slides) ? "style=\"width: 73%\"" : $item_style;
+    $item_style = ($has_link && $has_slides && $has_video) ? "style=\"width: 68%\"" : $item_style;
 
 ?>
     <li data-icon="false" class="prog-item <?php echo $progitemclass; ?>">
-      <div data-role="collapsible" class="paper-navgroup" data-collapsed="true" data-iconpos="right" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
-      <h4>
-        <div <?php echo $item_style ?> >
-          <p class="paper-header">
-          <?php if ($has_link) { ?>
-            <a href="javascript:void(0)" onclick="window.location='<?php echo $link ?>'; event.stopPropagation();" class="ui-link"><?php echo $paper ?></a>
-          <?php } else { echo $paper; } ?>
-          </p>
-          <p><?php echo $authors; ?></p>
-        </div>
-        <div class="ui-li-aside">
-          <?php if ($has_link) { ?>
-          <div class="button-paper">      
-            <a href="javascript:void(0)" onclick="window.location='<?php echo $link ?>'; event.stopPropagation();" class="ui-link">Paper</a>
-          </div>
-          <?php } ?>
-          <?php if ($has_slides) { ?>
-          <div class="button-paper">      
-            <a href="javascript:void(0)" onclick="window.location='<?php echo $slides ?>'; event.stopPropagation();" class="ui-link">Slides</a>
-          </div>
-          <?php } ?>
-          <?php if ($has_video) { ?>
-          <div class="button-paper">      
-            <a href="<?php echo $video ?>" rel="external" target="_blank" class="ui-link">Video</a>
-          </div>
-          <?php } ?>
-        </div>
-      </h4>
-      <ul data-role="listview" data-inset="false">
-        <?php if ($has_abstract) { ?><li data-icon="false">
-          <p><b>Abstract: </b><?php echo $abstract ?></p><p>&nbsp;</p>
-        </li><?php } ?>
-      </ul>
+    
+      <div <?php echo $item_style ?> >
+        <p class="paper-header">
+        <?php if ($has_link) { ?>
+          <a href="<?php echo $link ?>" class="ui-link"><?php echo $paper ?></a>
+        <?php } else { echo $paper; } ?>
+        </p>
+        <p><?php echo $authors; ?></p>
       </div>
+        
+      <div class="ui-li-aside-item">
+        <?php if ($has_link) { ?>
+        <div class="button-paper">      
+          <a href="<?php echo $link ?>" class="ui-link">Paper</a>
+        </div>
+        <?php } ?>
+        <?php if ($has_slides) { ?>
+        <div class="button-paper">      
+          <a href="<?php echo $slides ?>" rel="external" target="_blank" class="ui-link">Slides</a>
+        </div>
+        <?php } ?>
+        <?php if ($has_video) { ?>
+        <div class="button-paper">
+          <a href="<?php echo $video ?>" rel="external" target="_blank" class="ui-link">Video</a>
+        </div>
+        <?php } ?>
+        <div class="abstract-dropdownup">
+          <a id="<?php echo $element_id ?>-toggle" href="" class="ui-icon ui-btn-icon-right ui-icon-carat-d ui-icon-shadow" onclick="showabstract('#<?php echo $element_id ?>');"></a>
+        </div>
+      </div>
+
+      <?php if ($has_abstract) { ?>
+      <div id="<?php echo $element_id ?>" style="display: none;">
+        <hr class="keynote-divider"/>
+        <p><b>Abstract: </b><?php echo $abstract ?></p><p>&nbsp;</p>
+      </div>
+      <?php } ?>
+
     </li>
 <?php
   }
@@ -270,10 +274,10 @@ function tprog_add_keynote($title, $speakers, $abstract, $bio, $photo="", $link=
         <?php if ($has_link) { ?></a><?php } ?>
       </h2>
 
-      <div class="ui-li-aside">
+      <div class="ui-li-aside-item">
         <?php if ($has_link) { ?>
         <div class="button-paper">      
-          <a href="javascript:void(0)" onclick="window.location='<?php echo $link ?>'; event.stopPropagation();" class="ui-link">Paper</a>
+          <a href="<?php echo $link ?>" rel="external" target="_blank" class="ui-link">Paper</a>
         </div>
         <?php } ?>
         <?php if ($has_slides) { ?>
