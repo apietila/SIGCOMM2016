@@ -13,7 +13,7 @@
 </ul>
 
 <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="tbl">
-  <li data-role="list-divider">2 &mdash; Rachee Singh (UMass Amerhest)</li>
+  <li data-role="list-divider">2 &mdash; Rachee Singh (UMass Amherst)</li>
     <li data-icon="false"><p><b>PathCache: A Path Prediction Toolkit</b></p></li>
 </ul>
 
