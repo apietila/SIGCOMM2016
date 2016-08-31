@@ -31,13 +31,19 @@ function last_modified($file) {
 function add_listitem($name, $organization, $link) {
 
 ?>
-  <li data-icon="false">
-    <?php if ($link) { ?><a href="<?php echo $link ?>" target="_blank" rel="external"><?php } ?>
-      <div class="ui-grid-a">
-        <div class="ui-block-a"><p><?php echo $name ?></p></div>
-        <div class="ui-block-b"><p><?php echo $organization ?></p></div>
+  <li data-icon="false" <?php if ($link) { ?> style="background-color: #f2f2f2;" <?php } ?>>
+    <div class="ui-grid-a">
+      <div class="ui-block-a">
+        <?php if ($link) { ?><a href="<?php echo $link ?>" target="_blank" rel="external" class="nodecor"><?php } ?>
+          <p><?php echo $name ?></p>
+        <?php if ($link) { ?></a><?php } ?>
       </div>
-    <?php if ($link) { ?></a><?php } ?>
+      <div class="ui-block-b">
+        <?php if ($link) { ?><a href="<?php echo $link ?>" target="_blank" rel="external" class="nodecor"><?php } ?>
+          <p><?php echo $organization ?></p>
+        <?php if ($link) { ?></a><?php } ?>
+      </div>
+    </div>
   </li>
 <?php
 

@@ -716,6 +716,11 @@ button[disabled],
     display: inline-block;
 }
 
+.content-primary a.nodecor {
+    color: #000000 !important;
+    text-decoration: none;
+}
+
 .content-primary .program .button-paper a {
     color: #ffffff;
     font-weight: 400;
