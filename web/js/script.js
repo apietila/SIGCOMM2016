@@ -83,6 +83,28 @@ function showabstract(paper_id) {
     }
 }
 
+/* Show/hide paper video. */
+
+function showvideo(paper_id, video_fname, video_ext, video_url) {
+  var paper = $.mobile.activePage.find(paper_id);
+    
+  if (paper != null) {
+    $(paper).toggle("hide", function() {
+      if($(this).is(':hidden')) {
+        $(this).html('<hr class="keynote-divider"/>' + 
+                     '<p>&nbsp;</p><p>You may also <a rel="external" href="'+ video_url + '">download the video</a>.</p>');
+      } else {
+       $(this).html('<hr class="keynote-divider"/>' + 
+                    '<center><video controls preload="none">'+
+		    '  <source src="' + video_fname + '" type="video/'+ video_ext + '">' +
+		    '  Your browser does not support the video tag.' +
+		    '</video></center>' +
+		    '<p>&nbsp;</p><p>You may also <a rel="external" href="'+ video_url + '">download the video</a>.</p>');
+      }
+    }); 
+  }
+}
+
 /* sponsors ticker tape, adapted from sigcomm 2012 code */
 
 (function(a, b) {

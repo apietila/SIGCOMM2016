@@ -9,7 +9,8 @@
 # generates the actual ICS file structure.
 #
 # This code was inspired by the "proggen.py" script
-# Author: Rodolfo S. Antunes (rsantunes@inf.ufrgs.br)
+# Author: Rodolfo S. Antunes (rsantunes@inf.ufrgs.br), with tons of changes
+#         from Weverton Cordeiro (weverton.cordeiro@inf.ufrgs.br)
 #
 
 from __future__ import print_function

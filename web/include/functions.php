@@ -249,7 +249,7 @@ function tprog_add_paper($element_id, $paper, $authors, $abstract, $link = "", $
   }
 }
 
-function tprog_add_keynote($title, $speakers, $abstract, $bio, $photo="", $link="", $slides="", $video="", $progitemclass = "") {
+function tprog_add_keynote($element_id, $title, $speakers, $abstract, $bio, $photo="", $link="", $slides="", $video="", $progitemclass = "") {
 
   $has_abstract = (trim($abstract) != "");
   $has_bio = (trim($bio) != "");
@@ -293,12 +293,21 @@ function tprog_add_keynote($title, $speakers, $abstract, $bio, $photo="", $link=
         <?php } ?>
         <?php if ($has_video) { ?>
         <div class="button-paper">      
-          <a href="<?php echo $video ?>" rel="external" target="_blank" class="ui-link">Video</a>
+          <a href="" rel="external" target="_blank" class="ui-link" onclick="showvideo('#<?php echo $element_id ?>', '<?php echo $video ?>?cache_ts=<?php echo last_modified (file_dir () . "/" . $video); ?>', '<?php echo pathinfo($video, PATHINFO_EXTENSION); ?>', '<?php echo $video ?>');">Video</a>
         </div>
         <?php } ?>
       </div>
-
+      
       <p <?php echo $item_style ?>><?php echo $speakers; ?></p>
+
+      <?php if ($has_video) { ?>
+      <div id="<?php echo $element_id ?>" style="display: none;">
+        <hr class="keynote-divider"/>
+        <p>&nbsp;</p>
+        <p>You may also <a rel="external" href="<?php echo $video ?>">download the video</a>.</p>
+      </div>
+      <?php } ?>
+      
       <?php if ($has_abstract || $has_bio) { ?>
         <hr class="keynote-divider"/>
         <?php if ($has_abstract) { ?>

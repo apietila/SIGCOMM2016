@@ -28,7 +28,8 @@ COL_SPKR_BIO = 6
 COL_PHOTO_URL = 7
 COL_FNAME = 8
 COL_SLIDES = 9
-COL_UID = 10
+COL_VIDEO = 10
+COL_UID = 11
 
 # Borrowed from: https://www.safaribooksonline.com/library/view/python-cookbook-2nd/0596007973/ch01s24.html
 def html_replace(exc):
@@ -83,6 +84,8 @@ def proggen(worksheet, values, outdir):
 
     f.write("""    <ul class="program" data-role="listview" data-filter="true" data-inset="true" data-theme="d" data-dividertheme="a" placeholder="Filter program...">\n<?php\n""")
     progdate = ""
+
+    element_id = 0;
     for i,row in enumerate(values):
         if (len(row)<1):
             continue
@@ -90,6 +93,8 @@ def proggen(worksheet, values, outdir):
         line = None
 
         type = row[COL_TYPE]
+        element_id = element_id + 1
+
         if (type == 'day' and len(row)>=2):
             progdate = row[COL_TIME].split(',')[0].lower()
             line = """      tprog_add_header("%s", "prog-%s");\n""" % (row[COL_TIME], progdate)
@@ -112,7 +117,7 @@ def proggen(worksheet, values, outdir):
             authors = (row[COL_CHAIR_SPKR_AUTHOR_DESC] if len(row)> COL_CHAIR_SPKR_AUTHOR_DESC else "")
             info = ""
             slides = (row[COL_SLIDES] if len(row)>COL_SLIDES else "")
-            video = ""
+            video = (row[COL_VIDEO] if len(row)>COL_VIDEO else "")
             line = """      tprog_add_item("%s", "%s", "%s", "%s", "%s", "%s", "prog-%s");\n""" % (paper, link, authors, info, slides, video, progdate)
 
         elif ((type == 'poster' or type == 'demo' or type == 'paper') and len(row)>=4):
@@ -122,8 +127,8 @@ def proggen(worksheet, values, outdir):
             abstract = (row[COL_KEYNT_ABSTRACT] if len(row)>COL_KEYNT_ABSTRACT else "")
             info = ""
             slides = (row[COL_SLIDES] if len(row)>COL_SLIDES else "")
-            video = ""
-            line = """      tprog_add_paper("%s", "%s", "%s", "%s", "%s", "%s", "prog-%s");\n""" % (paper, authors, abstract, link, slides, video, progdate)
+            video = (row[COL_VIDEO] if len(row)>COL_VIDEO else "")
+            line = """      tprog_add_paper("paper-%s", "%s", "%s", "%s", "%s", "%s", "%s", "prog-%s");\n""" % (element_id, paper, authors, abstract, link, slides, video, progdate)
 
         elif (type == 'keynote' and len(row)>=4):
             title = row[COL_TITLE]
@@ -134,8 +139,8 @@ def proggen(worksheet, values, outdir):
             photo = (row[COL_PHOTO_URL] if len(row)>COL_PHOTO_URL else "")
             info = ""
             slides = (row[COL_SLIDES] if len(row)>COL_SLIDES else "")
-            video = ""
-            line = """      tprog_add_keynote("%s", "%s", "%s", "%s", "%s", "%s", "%s", "%s", "prog-%s");\n\n""" % (title, speaker, abstract, bio, photo, link, slides, video, progdate)
+            video = (row[COL_VIDEO] if len(row)>COL_VIDEO else "")
+            line = """      tprog_add_keynote("paper-%s", "%s", "%s", "%s", "%s", "%s", "%s", "%s", "%s", "prog-%s");\n\n""" % (element_id, title, speaker, abstract, bio, photo, link, slides, video, progdate)
 
         elif (type == 'disc' and len(row)>=4):
             paper = row[COL_TITLE]

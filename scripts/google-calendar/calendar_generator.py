@@ -27,7 +27,8 @@ COL_SPKR_BIO = 6
 COL_PHOTO_URL = 7
 COL_FNAME = 8
 COL_SLIDES = 9
-COL_UID = 10
+COL_VIDEO = 10
+COL_UID = 11
 
 EVENT_FULL_NAME = dict(gaia='GAIA Workshop:', hotmiddlebox='HotMiddlebox Workshop:', qoe='Internet-QoE Workshop:', lancomm='LANCOMM Workshop:', netpl='NetPL Workshop:', sigcomm='SIGCOMM:', demos='SIGCOMM Demos:', posters='SIGCOMM Posters:', maintrackposters='SIGCOMM Main Track Posters:', idemos='SIGCOMM Industrial Demos:', tutorials='Tutorial:',breaks='')
 
