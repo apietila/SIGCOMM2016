@@ -4,21 +4,21 @@
       tprog_add_header("Friday, August 26, 2016", "prog-friday");
       tprog_add_session("8:30am - 8:45am", "Opening and Introduction", "", "Agata 1", "a", "prog-friday");
       tprog_add_session("8:45am - 10:30am", "Session 1: Passive QoE-based Monitoring in Operational Networks", "", "Agata 1", "a", "prog-friday");
-      tprog_add_keynote("Improving Web Performance", "Prof. Harsha V. Madhyastha (Computer Science and Engineering Division, University of Michigan, US)", "", "", "", "", "", "", "prog-friday");
+      tprog_add_keynote("paper-4", "Improving Web Performance", "Prof. Harsha V. Madhyastha (Computer Science and Engineering Division, University of Michigan, US)", "", "", "", "", "", "", "prog-friday");
 
       tprog_add_paper("paper-5", "An Educated Guess on QoE in Operational Networks through Large-Scale Measurements", "P. Casas, B. Gardlo, R. Schatz, M. Mellia", "", "http://dl.acm.org/authorize?N19243", "", "", "prog-friday");
       tprog_add_paper("paper-6", "Impact of Access Speed on Adaptive Video Streaming Quality - A Passive Perspective", "M. Trevisan, I. Drago, M. Mellia", "", "http://dl.acm.org/authorize?N19244", "", "", "prog-friday");
       tprog_add_paper("paper-7", "Predicting the effect of home Wi-Fi quality on Web QoE", "D. Neves da Hora, R. Teixeira, K. van Doorselaer, K. van Oost", "", "http://dl.acm.org/authorize?N19355", "", "", "prog-friday");
       tprog_add_session("10:30am - 11:00am", "Coffee Break", "", "", "b", "prog-friday");
       tprog_add_session("11:00am - 12:30pm", "Session 2: QoE Modeling and Analysis", "", "Agata 1", "a", "prog-friday");
-      tprog_add_keynote("The Challenges of Measuring Internet Quality of Experience", "Dr. Renata Cruz Teixeira (Senior Researcher, INRIA Paris, France)", "", "", "", "", "", "", "prog-friday");
+      tprog_add_keynote("paper-10", "The Challenges of Measuring Internet Quality of Experience", "Dr. Renata Cruz Teixeira (Senior Researcher, INRIA Paris, France)", "", "", "", "", "", "", "prog-friday");
 
       tprog_add_paper("paper-11", "QoE Inference Without Application Control", "A. Nikravesh, D. Hong, Q. Chen, H. Madhyastha, Z. Mao", "", "http://dl.acm.org/authorize?N19356", "", "", "prog-friday");
       tprog_add_paper("paper-12", "QoE Analysis of DASH Cross-Layer Dependencies by Extensive Network Emulation", "D. Stohr, A. Fr&ouml;mmgen, J. Fornoff, M. Zink, A. Buchmann, W. Effelsberg", "", "http://dl.acm.org/authorize?N19357", "", "", "prog-friday");
       tprog_add_paper("paper-13", "Towards a causal analysis of Video QoE from Network and Application QoS", "M. Katsarakis, R. Teixeira, M. Papadopouli, V. Christophides", "", "http://dl.acm.org/authorize?N19358", "", "", "prog-friday");
       tprog_add_session("12:30pm - 2:00pm", "Lunch Break", "", "", "b", "prog-friday");
       tprog_add_session("2:00pm - 4:45pm", "Session 3:  QoE-based Network Management and Assessment", "", "Agata 1", "a", "prog-friday");
-      tprog_add_keynote("On the Analysis and Modeling of Quality of Experience for Video Streaming", "Prof. Maria  Papadopouli (Department of Computer Science, University of Crete & FORTH)", "", "", "", "", "", "", "prog-friday");
+      tprog_add_keynote("paper-16", "On the Analysis and Modeling of Quality of Experience for Video Streaming", "Prof. Maria  Papadopouli (Department of Computer Science, University of Crete & FORTH)", "", "", "", "", "", "", "prog-friday");
 
       tprog_add_paper("paper-17", "Measuring the Quality of Experience of Web users", "E. Bocchi, L. De Cicco, D. Rossi", "", "http://dl.acm.org/authorize?N19359", "", "", "prog-friday");
       tprog_add_paper("paper-18", "BingeOn Under the Microscope: Understanding T-Mobiles Zero-Rating Implementation", "A. Kakhki, F. Li, D. Choffnes, E. Katz-Bassett, A. Mislove", "", "http://dl.acm.org/authorize?N19350", "", "", "prog-friday");

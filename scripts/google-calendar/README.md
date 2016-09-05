@@ -21,3 +21,4 @@ Instead of uploading ical files one by one, you can upload a single .ical file c
 
 rm -f full-conf.ics; printf "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//My calendar product//mxm.dk//\n" > full-conf; cat * | egrep -v "VCALENDAR|VERSION:2.0|PRODID" >> full-conf; echo "END:VCALENDAR" >> full-conf; mv full-conf full-conf.ics;
 
+SIGCOMM 2016 Google Spreadsheet Source: https://docs.google.com/spreadsheets/d/1AK4VdEuogGTaFRLia8Ef-AaZdAJOu5AxE7KAA1Nj7tU
