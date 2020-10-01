@@ -10,7 +10,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (see 
 
 ## Credits
 
-### 2012 site
+### site developed in 2010
 
 The 2014 site was based on the ACM SIGCOMM 2012 web site.  The license for the 2012 site's code is as follows.
 
@@ -18,7 +18,7 @@ You are welcome to reuse and adapt this code for your conference. It is licensed
 
 Under the license, you acknowledge "ACM SIGCOMM 2012" as the source and you link to http://conferences.sigcomm.org/sigcomm/2012/. You will also share any changes and improvements to this code openly. The best way to do so is to fork our github repository at https://github.com/ryanrhymes/SIGCOMM2012.
 
-### 2014 site
+### sites developed in 2014
 
 The repository for the 2014 site is at https://github.com/brighten/SIGCOMM2014 and the site itself is online at http://conferences.sigcomm.org/sigcomm/2014/ .
 
